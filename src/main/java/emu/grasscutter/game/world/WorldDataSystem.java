@@ -7,7 +7,10 @@ import emu.grasscutter.data.excels.world.WorldLevelData;
 import emu.grasscutter.game.entity.gadget.chest.*;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.proto.InvestigationMonsterOuterClass;
+<<<<<<< HEAD
 import emu.grasscutter.net.proto.LockStateOuterClass;
+=======
+>>>>>>> 1b6e71b5 (fix(proto): adapt call sites to the shapes 7.0 actually changed)
 import emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass;
 import emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass;
 import emu.grasscutter.scripts.data.*;
@@ -140,6 +143,7 @@ public class WorldDataSystem extends BaseGameSystem {
 			level = getMonsterLevel(sceneMonster, player.getWorld());
 		}
 
+<<<<<<< HEAD
 		if (pos == null) {
 			pos = getInvestigationMonsterMarkerPosition(imd, sceneId, groupId, monsterId);
 		}
@@ -213,6 +217,36 @@ public class WorldDataSystem extends BaseGameSystem {
 		builder.addInvestigationMonsterDetaillist(detail);
 		return builder.build();
 	}
+=======
+        // 7.0 moved everything except id/city_id/lock_state down into a repeated detail entry, with
+        // scene/group/monster ids nested one level deeper again in its config.
+        builder.setId(imd.getId()).setCityId(imd.getCityId());
+
+        var detail =
+                _InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail.newBuilder()
+                        .setMonsterConfig(
+                                _InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig
+                                        .newBuilder()
+                                        .setSceneId(sceneId)
+                                        .setGroupId(groupId)
+                                        .setMonsterId(monsterId))
+                        .setLevel(getMonsterLevel(monster.get(), player.getWorld()))
+                        .setIsAlive(true)
+                        .setNextRefreshTime(Integer.MAX_VALUE)
+                        .setRefreshInterval(Integer.MAX_VALUE)
+                        .setPos(monster.get().pos.toProto());
+
+        if ("Boss".equals(imd.getMonsterCategory())) {
+            var bossChest = group.searchBossChestInGroup();
+            if (bossChest.isPresent()) {
+                detail.setResin(bossChest.get().resin);
+                detail.setMaxBossChestNum(bossChest.get().take_num);
+            }
+        }
+        builder.addInvestigationMonsterDetailList(detail);
+        return builder.build();
+    }
+>>>>>>> 1b6e71b5 (fix(proto): adapt call sites to the shapes 7.0 actually changed)
 
     public List<InvestigationMonsterOuterClass.InvestigationMonster> getInvestigationMonstersByCityId(
             Player player, int cityId) {
