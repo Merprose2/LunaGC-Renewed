@@ -1,0 +1,490 @@
+{
+  "messages": {
+    "game": {
+      "address_bind": "🇺🇸Game Server started at \u001b[1m\u001b[33m%s:%s\u001b[0m",
+      "port_bind": "Serverul de joc a început pe port %s",
+      "connect": "Client conectat de la %s",
+      "disconnect": "Client deconectat de la %s",
+      "game_update_error": "A apărut o eroare în timpul actualizării jocului.",
+      "command_error": "Eroare de comandă:"
+    },
+    "dispatch": {
+      "address_bind": "🇺🇸[Dispatch] Dispatch server started at \u001b[1m\u001b[33m%s:%s\u001b[0m",
+      "port_bind": "[Dispatch] Server de dispecerat pornit pe portul %s",
+      "request": "[Dispatch] Clientul %s %s cere: %s",
+      "keystore": {
+        "general_error": "[Dispatch] Eroare la încărcarea keystore!",
+        "password_error": "[Dispatch] Nu s-a putut încărca keystore. Se încearcă parola implicită pentru keystore...",
+        "no_keystore_error": "[Dispatch] Nu s-a găsit niciun certificat SSL! Se revine la serverul HTTP.",
+        "default_password": "[Dispatch] Parola implicită keystore s-a încărcat cu succes. Vă rugăm să luați în considerare stabilirea parolei la 123456 în config.json."
+      },
+      "authentication": {
+        "default_unable_to_verify": "[Authentication] Ceva numit metoda verifyUser care nu este valabilă în gestionarul de autentificare implicit."
+      },
+      "no_commands_error": "Comenzile nu sunt acceptate numai în modul de dispecerizare.",
+      "unhandled_request_error": "[Dispatch] Cerere %s potențial netransmisă: %s.",
+      "account": {
+        "login_attempt": "[Dispatch] Clientul %s încearcă să se conecteze.",
+        "login_success": "[Dispatch] Clientul %s conectat ca %s.",
+        "login_max_player_limit": "[Dispatch] Clientul %s nu a reușit să se conecteze: Numărul de jucători online a ajuns la limită.",
+        "login_token_attempt": "[Dispatch] Clientul %s încearcă să se conecteze prin token.",
+        "login_token_error": "[Dispatch] Clientul %s nu a reușit să se conecteze prin token.",
+        "login_token_success": "[Dispatch] Clientul %s sa conectat prin token ca %s.",
+        "login_password_error": "🇺🇸[Dispatch] Client %s failed to log in via password.",
+        "login_password_storage_error": "🇺🇸[Dispatch] Client %s failed to log in via password because there is no password in the database.",
+        "combo_token_success": "[Dispatch] Clientul %s a reușit să schimbe token-ul combo.",
+        "combo_token_error": "[Dispatch] Clientul %s nu a reușit să schimbe token-ul combo.",
+        "account_login_create_success": "[Dispatch] Clientul %s nu a reușit să se conecteze: Cont %s creat.",
+        "account_login_create_error": "[Dispatch] Clientul %s nu a reușit să se conecteze: Crearea contului a eșuat.",
+        "account_login_exist_error": "[Dispatch] Clientul %s nu a reușit să se conecteze: Contul nu a fost găsit.",
+        "account_cache_error": "Eroare de informații din memoria cache a contului de joc.",
+        "session_key_error": "Cheie de sesiune greșită.",
+        "username_error": "Numele de utilizator nu a fost găsit.",
+        "username_create_error": "Numele de utilizator nu a fost găsit, crearea a eșuat.",
+        "password_error": "🇺🇸Invalid Password",
+        "password_length_error": "🇺🇸Password length must be greater then or equal to 8",
+        "password_storage_error": "🇺🇸You don't have a password for your account. Please contact an administrator.",
+        "server_max_player_limit": "Numărul de jucători online a ajuns la limită."
+      },
+      "router_error": "[Dispatch] Nu se poate atașa routerul."
+    },
+    "status": {
+      "free_software": "Grasscutter este un software GRATUIT. Dacă ați plătit pentru asta, s-ar putea să fi fost înșelat. Homepage: https://github.com/Grasscutters/Grasscutter",
+      "starting": "Grasscutter se pornește...",
+      "shutdown": "Se închide...",
+      "done": "Gata! Pentru ajutor, scrieți \"help\"",
+      "error": "A avut loc o eroare.",
+      "welcome": "Bun venit la Grasscutter!",
+      "run_mode_error": "Mod de execuție server invalid: %s.",
+      "run_mode_help": "Mod de execuție server trebuie să fie 'HYBRID', 'DISPATCH_ONLY', sau 'GAME_ONLY'. Nu se poate porni Grasscutter...",
+      "create_resources": "Se creează un dosar de resurse...",
+      "resources_error": "Așejați o copie a 'BinOutput' și 'ExcelBinOutput' în dosarul de resurse.",
+      "version": "Versiunea Grasscutter: %s-%s",
+      "game_version": "Versiunea de joc: %s",
+      "resources": {
+        "loading": "Se încarcă resursele...",
+        "finish": "Resursele au fost încărcate.",
+        "custom": "🇺🇸Find additional resources at: 'Anime-Game-Servers/CustomGCResources'.",
+        "missing_server": "🇺🇸To fully use questing, it is recommended to add the 'Server' folder.",
+        "missing_scenes": "🇺🇸To fully use questing, it is recommended to add the 'ScriptSceneData' folder."
+      }
+    }
+  },
+  "commands": {
+    "generic": {
+      "not_specified": "Nicio comandă specificată.",
+      "unknown_command": "Comandă necunoscută: %s",
+      "permission_error": "Nu aveți permisiunea de a rula această comandă.",
+      "console_execute_error": "Această comandă nu poate fi executată numai din consolă.",
+      "player_execute_error": "Executați această comandă în joc.",
+      "command_exist_error": "Nu s-a găsit nicio comandă.",
+      "no_usage_specified": "Nicio utilizare specificată",
+      "no_description_specified": "Nicio descriere specificată",
+      "set_to": "%s setat la %s.",
+      "set_for_to": "%s pentru %s setat la %s.",
+      "invalid": {
+        "amount": "Sumă invalidă.",
+        "artifactId": "ID de artefact invalid.",
+        "avatarId": "ID de avatar invalid.",
+        "avatarLevel": "avatarLevel invalid.",
+        "cfgId": "🇺🇸Invalid cfg ID.",
+        "entityId": "ID de entitate invalid.",
+        "itemId": "ID-ul articolului invalid.",
+        "itemLevel": "itemLevel invalid.",
+        "itemRefinement": "itemRefinement invalid.",
+        "statValue": "Valoare statistică invalidă.",
+        "value_between": "Valoare invalidă: %s trebuie să fie între %s și %s.",
+        "playerId": "ID-ul jucătorului invalid.",
+        "uid": "UID invalid.",
+        "id": "ID invalid."
+      }
+    },
+    "execution": {
+      "usage_prefix": "Utilizare: ",
+      "player_exist_error": "Jucătorul nu a fost găsit.",
+      "player_offline_error": "Jucătorul nu este online.",
+      "item_player_exist_error": "Articol sau UID nevalabil.",
+      "player_exist_offline_error": "Jucătorul nu a fost găsit sau nu este conectat.",
+      "argument_error": "Argumente nevalabile.",
+      "clear_target": "Țintă eliminată.",
+      "set_target": "Comenzile ulterioare vor viza implicit @%s.",
+      "set_target_online": "@%s e online. Unele comenzi pot necesita o țintă offline.",
+      "set_target_offline": "@%s e offline. Unele comenzi pot necesita o țintă online.",
+      "need_target": "Această comandă necesită un UID țintă. Adaugă un argument <@UID> sau setați o țintă persistentă cu /target @UID.",
+      "need_target_online": "Această comandă necesită un UID țintă online, dar ținta actuală este offline. Adaugă un argument <@UID> diferit sau setați o țintă persistentă cu /target @UID.",
+      "need_target_offline": "Această comandă necesită un UID țintă offline, dar ținta actuală este online. Adaugă un argument <@UID> diferit sau setați o țintă persistentă cu /target @UID."
+    },
+    "status": {
+      "enabled": "Activat",
+      "disabled": "Dezactivat",
+      "help": "Ajutor",
+      "success": "Succes"
+    },
+    "account": {
+      "invalid": "UID invalid.",
+      "exists": "Un cont cu acest nume de utilizator și/sau UID există deja.",
+      "create": "Cont creat cu UID %s.",
+      "delete": "Cont șters.",
+      "no_account": "Contul nu a fost găsit.",
+      "description": "Modificați conturile de utilizator"
+    },
+    "achievement": {
+      "success": {
+        "grant": "🇺🇸Granted the achievement to %s.",
+        "revoke": "🇺🇸Revoked the achievement from %s.",
+        "progress": "🇺🇸Set progress of %s's achievement(id: %s) to %s.",
+        "grantall": "🇺🇸Granted %s achievement(s) to %s.",
+        "revokeall": "🇺🇸Revoked %s achievement(s) from %s."
+      },
+      "fail": {
+        "achievement_not_found": "🇺🇸Achievement not found.",
+        "already_achieved": "🇺🇸%s has already achieved the achievement.",
+        "not_yet_achieved": "🇺🇸%s hasn't achieved the achievement yet."
+      },
+      "description": "🇺🇸Grant, Revoke or Progress achievements."
+    },
+    "announce": {
+      "send_success": "🇺🇸Send an announcement successfully, you can revoke it by /a revoke %s.",
+      "refresh_success": "🇺🇸Refresh announcement config file successfully. [Total %s]",
+      "revoke_done": "🇺🇸Try to revoke announcement %s.",
+      "not_found": "🇺🇸Could not found announcement %s.",
+      "description": "🇺🇸Send announcement to all online players, or manage server's announcement"
+    },
+    "clear": {
+      "weapons": "Arme șterse pentru %s.",
+      "artifacts": "Artefacte șterse pentru %s.",
+      "materials": "Materiale șterse pentru %s.",
+      "furniture": "Mobilier șters pentru %s.",
+      "displays": "Afișaje șterse pentru %s.",
+      "virtuals": "Virtuali șterși pentru %s.",
+      "everything": "Totul a fost șters pentru %s.",
+      "description": "Șterge obiectele deblocate neechipate, inlusiv cele cu raritate galbenă din inventarul tău."
+    },
+    "coop": {
+      "success": "Invocat %s în lumea lui %s.",
+      "description": "Forțează pe cineva să se alăture lumii celorlalți. Dacă nu este nimeni vizat, te trimite oricum în modul cooperativ."
+    },
+    "enter_dungeon": {
+      "changed": "Schimbat în temnița %s.",
+      "not_found_error": "Temnița nu există.",
+      "in_dungeon_error": "Ești deja în acea temniță.",
+      "description": "Intră într-o temniță."
+    },
+    "entity": {
+      "description": "🇺🇸Modify an existing entity's properties",
+      "not_found_error": "🇺🇸Entity does not exist"
+    },
+    "give": {
+      "usage_relic": "Utilizare: give <artifactID> [mainPropID] [<appendPropID>[,<t>]]... [lv<nivel 0-20>]",
+      "illegal_relic": "Acest ID de artefact aparține unui interval de pe lista neagră, este posibil să nu fie cel pe care l-ați dorit.",
+      "given": "Am dat %s din %s lui %s.",
+      "given_with_level_and_refinement": "Am dat %s cu nivelul %s, rafinamentul %s %s de %s ori.",
+      "given_level": "Am dat %s cu nivelul %s %s %s ori la %.",
+      "given_avatar": "Am dat %s cu nivelul %s la %s.",
+      "giveall_success": "Am dat cu succes toate elementele.",
+      "description": "îți dă un obiect ție sau jucătorului specificat. poate, de asemenea, să dea toate armele, avatarele și/sau materialele și poate construi artefacte personalizate."
+    },
+    "heal": {
+      "success": "Toate personajele au fost vindecate.",
+      "description": "Vindecă toate personajele din echipa ta."
+    },
+    "help": {
+      "aliases": "Aliasuri: ",
+      "available_commands": "Comenzi disponibile: ",
+      "tip_need_permission": "Permisiune: ",
+      "tip_need_no_permission": " Niciuna",
+      "tip_permission_targeted": " (Permisiunea %s este de asemenea necesară pentru a fi folosit pe alți jucători)",
+      "warn_player_has_no_permission": "Notă> Nu aveți permisiunea de a rula această comandă.",
+      "description": "Trimite mesajul de ajutor sau afișează informații despre o comandă specificată"
+    },
+    "kick": {
+      "player_kick_player": "Jucătorul [%s:%s] l-a dat afară pe [%s:%s]",
+      "server_kick_player": "Se elimină jucătorul [%s:%s]...",
+      "description": "Elimină jucătorul specificat de pe server (WIP)"
+    },
+    "killall": {
+      "scene_not_found_in_player_world": "Scena nu a fost găsită în lumea jucătorului.",
+      "kill_monsters_in_scene": "Se omoară %s monștri în scena %s.",
+      "description": "Se omoară toate entitățile."
+    },
+    "killCharacter": {
+      "success": "Personajul curent al lui %s a fost omorât.",
+      "description": "Omoară personajul curent al jucătorului."
+    },
+    "language": {
+      "current_language": "Limba curentă este %s.",
+      "language_changed": "Limba curentă a fost schimbată în %s.",
+      "language_not_found": "În prezent, serverul nu are această limbă.",
+      "description": "Afișează sau modifică limba curentă."
+    },
+    "list": {
+      "success": "Există %s jucător(i) online:",
+      "description": "Enumeră jucătorii online."
+    },
+    "permission": {
+      "add": "Permisiune adăugată.",
+      "has_error": "Ei au deja această permisiune!",
+      "remove": "Permisiune revocată.",
+      "not_have_error": "Ei nu au această permisiune!",
+      "account_error": "Contul nu a fost găsit.",
+      "description": "Acordă sau elimină o permisiune de la un utilizator."
+    },
+    "position": {
+      "success": "Coordonate: %s, %s, %s\nGravitează：%s, %s, %s\nScene ID: %s",
+      "description": "Obține informații despre poziție și rotație"
+    },
+    "quest": {
+      "added": "Misiunea %s adăugată.",
+      "finished": "Ați terminat misiunea %s.",
+      "not_found": "Misiunea nu a fost găsită.",
+      "invalid_id": "ID-ul misiunii nu a fost găsit.",
+      "description": "Adaugă sau termină misiuni",
+      "running": "🇺🇸Quest %s is %s (%s).",
+      "talking": "🇺🇸Talk %s is %s for main quest %s (%s).",
+      "state": {
+        "none": "🇺🇸unknown (none)",
+        "unstarted": "🇺🇸unfinished (not started, not completed)",
+        "unfinished": "🇺🇸unfinished (started, not completed)",
+        "finished": "🇺🇸finished (completed)",
+        "failed": "🇺🇸finished (completed, but failed)",
+        "exists": "🇺🇸found",
+        "not_exists": "🇺🇸not found"
+      },
+      "enabled": "🇺🇸Questing enabled."
+    },
+    "group": {
+      "invalid_groupid": "🇺🇸Invalid group ID.",
+      "invalid_suiteid": "🇺🇸Invalid suite ID.",
+      "group_not_found": "🇺🇸Group not found.",
+      "description": "🇺🇸Alter group loading",
+      "refreshed": "🇺🇸Group %s refreshed."
+    },
+    "cutscene": {
+      "description": "🇺🇸Plays a cutscene"
+    },
+    "sound": {
+      "description": "🇺🇸Plays a sound"
+    },
+    "reload": {
+      "reload_start": "Se reîncarcă configurația.",
+      "reload_done": "Reîncărcare completă.",
+      "description": "Reîncărcați configurația serverului."
+    },
+    "resetConst": {
+      "reset_all": "Resetați constelațiile tuturor avatarelor.",
+      "success": "Constelațiile pentru %s au fost resetate. Vă rugăm să vă reconectați pentru a vedea modificțrile.",
+      "description": "Resetează nivelul de constelație al personajului tău activ curent; va trebui să te reconectezi după ce ai folosit comanda pentru a vedea orice schimbare."
+    },
+    "resetShopLimit": {
+      "success": "Reset complet.",
+      "description": "Resetează timpul de reîmprospătare a magazinului jucătorului țintă."
+    },
+    "sendMail": {
+      "give_usage": "🇺🇸Usage: give <player> <itemID|itemName> [amount] [level] [refinement]",
+      "user_not_exist": "Utilizatorul cu id-ul '%s' nu există.",
+      "start_composition": "Alcătuirea inițială a mesajului.\nFolosește '/sendmail <title>' ca să continui.\nPoți folosi '/sendmail stop' oricând vrei.",
+      "templates": "Șabloanele de e-mail vor fi implementate în curând...",
+      "invalid_arguments": "Argumente nevalide.",
+      "send_cancel": "Trimiterea mesajului a fost anulată.",
+      "send_done": "Mesaj trimis utilizatorului %s!",
+      "send_all_done": "Mesaj trimis tuturor utilizatorilor!",
+      "not_composition_end": "Message composition not at final stage.\nFolosește '/sendmail %s' sau '/sendmail stop' să o anulezi",
+      "please_use": "Folosește '/sendmail %s'",
+      "set_title": "Titlul mesajului stabilit ca '%s'.\nFolosește '/sendmail <content>' ca să continui.",
+      "set_contents": "Conținutul mesajului setat ca '%s'.\nFolosește '/sendmail <sender>' ca să continui.",
+      "set_message_sender": "Expeditorul mesajului setat ca '%s'.\nFolosește '/sendmail <itemID|itemName|finish> [sumă] [nivel]' ca să continui.",
+      "send": "Atașat %s din %s (nivel %s) la mesaj.\nContinuați să adăugați mai multe elemente sau folosiți '/sendmail finish' să trimiteți mesajul.",
+      "invalid_arguments_please_use": "Argument nevalabil.\nFolosește '/sendmail %s'",
+      "title": "<titlu>",
+      "message": "<mesaj>",
+      "sender": "<expeditor>",
+      "arguments": "<itemID|itemName|finish> [sumă] [nivel]",
+      "error": "EROARE: Etapă de construcție invalidă %s. Verificați consola pentru stacktrace.",
+      "description": "Trimite corespondența către utilizatorul specificat. Utilizarea acestei comenzi se modifică în funcție de starea de compunere a acesteia."
+    },
+    "sendMessage": {
+      "success": "Mesaj trimis.",
+      "description": "Trimite un mesaj unui jucător în calitate de server. Dacă este utilizat fără țintă, trimite mesajul către toți jucătorii de pe server."
+    },
+    "setConst": {
+      "range_error": "🇺🇸Constellation level must be between 0 and 6.",
+      "level_error": "🇺🇸Invalid constellation level.",
+      "fail": "🇺🇸Failed to set constellation.",
+      "failed_success": "🇺🇸Constellations for %s have been set to %s. Please reload scene to see changes.",
+      "success": "🇺🇸Constellations for %s have been set to %s.",
+      "successall": "🇺🇸Constellations for all characters have been set to %s.",
+      "description": "🇺🇸Sets constellation level for your current active character"
+    },
+    "setFetterLevel": {
+      "range_error": "Nivelul Fetter trebuie să fie între 0 și 10.",
+      "success": "Nivelul Fetter setat ca %s.",
+      "level_error": "Nivel Fetter nevalabil.",
+      "description": "Stabilește nivelul Fetter pentru personajul tău activ curent."
+    },
+    "setProp": {
+      "description": "Stabilește proprietățile la nivel de cont. Lucruri precum godmode pot fi activate în acest fel, precum și schimbarea unor lucuri precum etajul abisului deblocat și progresul battle pass.\n\tValori pentru <prop>: godmode | nostamina | unlimitedenergy | abyss | worldlevel | bplevel\n\t(cont.) see PlayerProperty enum for other possible values, of form PROP_MAX_SPRING_VOLUME -> max_spring_volume"
+    },
+    "setSceneTag": {
+      "description": "Stabilește etichetele de scenă specifice contului. Aceasta controlează lucruri precum rocile care blochează ușile, clădirile care sunt vizibile și alte lucruri (de obicei legate de misiuni) care afectează ceea ce este vizibil în lumea ta."
+    },
+    "setStats": {
+      "description": "Stabilește proprietatea de luptă pentru caracterul activ curent.\n\tValori pentru <stat>: hp | maxhp | def | atk | em | er | crate | cdmg | cdr | heal | heali | shield | defi\n\t(cont.) Elemental DMG Bonus: epyro | ecryo | ehydro | egeo | edendro | eelectro | ephys\n\t(cont.) Elemental RES: respyro | rescryo | reshydro | resgeo | resdendro | reselectro | resphys",
+      "locked_to": "🇺🇸%s locked to %s.",
+      "locked_for_to": "🇺🇸%s for %s locked to %s.",
+      "unlocked": "🇺🇸%s unlocked.",
+      "unlocked_for": "🇺🇸%s for %s unlocked."
+    },
+    "teapot": {
+      "description": "Manipula\u021bi func\u021biile oal\u0103 serenitea. \n\tValori pentru setLevel<1-10> \n\tValori pentru unlockModule<1-4> \n\tValori pentru lockModule<1-4> \n\tValori pentru giveAllFurniture<num\u0103r> \n\tValori pentru refreshLimitedShop<none >",
+      "level_range_error": "Nivelul oal\u0103 Serenitea trebuie s\u0103 fie \u00eentre 1 \u0219i 10.",
+      "level_success": "Nivelul oal\u0103 Serenitea setat la %s.",
+      "invalid_param": "Parametru invalid.",
+      "module_sumeru_error": "Modulul Sumeru nu este acceptat momentan.",
+      "module_range_error" : "Num\u0103rul modulului trebuie s\u0103 fie \u00eentre 1 - 4.",
+      "unlock_module_contain_error" : "Modulul este deja deblocat.",
+      "unlock_module_success": "Modulul deblocat %s.",
+      "lock_module_in_scene_error": "Modulul activ nu poate fi blocat.",
+      "lock_module_contain_error": "Modulul nu exist\u0103.",
+      "lock_module_success": "Modulul blocat %s.",
+      "give_furniture_success": "Am dat toat\u0103 mobila."
+    },
+    "spawn": {
+      "success": "A generat %s de %s.",
+      "limit_reached": "Limita de reproducere a scenei a fost atinsă. În schimb, se generează %s de entități.",
+      "description": "Generează o entitate lângă tine"
+    },
+    "stop": {
+      "success": "Serverul se oprește...",
+      "description": "Oprește serverul"
+    },
+    "talent": {
+      "out_of_range": "🇺🇸Invalid talent level. Level should be in range of 1-15.",
+      "set_id": "🇺🇸Set talent %s - \"%s\" to %s.",
+      "id_desc": "🇺🇸Talent %s - \"%s\" - \"%s\"",
+      "invalid_skill_id": "Skill ID nevalabil.",
+      "invalid_level": "Nivel de talent nevalabil.",
+      "normal_attack_id": "🇺🇸Normal Attack ID %s.",
+      "e_skill_id": "🇺🇸E skill ID %s.",
+      "q_skill_id": "🇺🇸Q skill ID %s.",
+      "description": "Stabilește nivelul de talent pentru personajul tău activ actual"
+    },
+    "team": {
+      "invalid_usage": "Utilizare invalidă.",
+      "invalid_index": "Indexul nu e valabil.",
+      "add_too_much": "Serverul vă permite doar să aveți cel mult %s avatar(e) în echipa dvs.",
+      "failed_to_add_avatar": "Nu s-a reușit adăugarea ID-ului avatarului %s.",
+      "failed_to_parse_index": "Nu a reușit să analizeze indexul: %s",
+      "remove_too_much": "Nu poți elimina toate avatarele tale.",
+      "ignore_index": "Index(e) ignorat(e): %s",
+      "index_out_of_range": "Indexul specificat este în afara intervalului.",
+      "failed_parse_avatar_id": "Nu a reușit să analizeze id-ul avatarului: %s",
+      "avatar_already_in_team": "Avatarul este deja în echipă.",
+      "avatar_not_found": "Avatarul %d nu a fost găsit.",
+      "description": "Modifică-ți echipa manual."
+    },
+    "teleportAll": {
+      "success": "Ai chemat toți jucătorii în locația ta.",
+      "error": "Puteți utiliza această comandă numai în modul MP.",
+      "description": "Teleportează toți jucătorii din lume în locația ta."
+    },
+    "teleport": {
+      "invalid_position": "Locație invalidă.",
+      "exists_error": "Scena specificată nu există.",
+      "success": "Teleportat %s la %s, %s, %s în scena %s.",
+      "description": "Schimbă poziția jucătorului."
+    },
+    "trialAvatarActivity": {
+      "description": "Manipulați funcționalitățile activității de probă avatarului. Aceasta include comutarea stărilor de temniță și recompensă.",
+      "not_found": "Nie znaleziono danych gracza o aktywności awatara w wersji próbnej. Być może aktywność nie jest włączona.",
+      "invalid_param": "Niewłaściwy parametr.",
+      "schedule_not_found": "Nie znaleziono harmonogramu %s.",
+      "success_schedule": "Zmieniono identyfikator harmonogramu na %s.",
+      "success_dungeon": "Zmieniono stan lochów awatara %s.",
+      "success_dungeon_all": "Zmieniono stan lochów wszystkich awatarów.",
+      "success_reward": "Zmieniono status nagrody awatara %s.",
+      "success_reward_all": "Zmieniono status nagrody dla wszystkich awatarów."
+    },
+    "weather": {
+      "success": "A setat ID-ul meteo la %s cu tipul de climă %s",
+      "status": "ID-ul actual al vremii este %s cu tipul de climă %s",
+      "description": "Schimbă ID-ul vremii și tipul de climă. ID-urile de vreme pot fi găsite în ./Resources/ExcelBinOutput/WeatherExcelConfigData.json.\nTipuri de climă: sunny, cloudy, rain, thunderstorm, snow, mist"
+    },
+    "ban": {
+      "success": "Succes.",
+      "failure": "Eșec. Jucătorul nu a fost găsit.",
+      "invalid_time": "Imposibil de analizat durata.",
+      "description": "Interziceți un jucător"
+    },
+    "unlockall": {
+      "success": "🇺🇸Unlocked all open states for %s.",
+      "description": "🇺🇸Unlocks all open states for a player."
+    },
+    "unban": {
+      "success": "Succes.",
+      "failure": "Eșec, jucătorul nu a fost găsit.",
+      "description": "Dezbancarea unui jucător"
+    },
+    "info": {
+      "description": "🇺🇸Provides the sender information about the server."
+    },
+    "debug": {
+      "description": "🇺🇸Useful debugging commands for developers."
+    }
+  },
+  "gacha": {
+    "details": {
+      "title": "Detalii banner",
+      "available_five_stars": "Elemente disponibile de 5 stele",
+      "available_four_stars": "Elemente disponibile de 4 stele",
+      "available_three_stars": "Elemente disponibile de 3 stele"
+    },
+    "records": {
+      "title": "Înregistrări Gacha",
+      "date": "Data",
+      "item": "Element"
+    }
+  },
+  "documentation": {
+    "handbook": {
+      "title": "Manual GM",
+      "title_commands": "Comenzi",
+      "title_avatars": "Avataruri",
+      "title_items": "Elemente",
+      "title_scenes": "Scene",
+      "title_monsters": "Monștri",
+      "header_id": "🇺🇸Id",
+      "header_command": "Comandă",
+      "header_description": "Descriere",
+      "header_avatar": "🇺🇸Avatar",
+      "header_item": "Element",
+      "header_scene": "Scenă",
+      "header_monster": "Monstru"
+    },
+    "index": {
+      "title": "Documentație",
+      "handbook": "Manual GM",
+      "gacha_mapping": "🇺🇸Gacha mapping JSON"
+    }
+  },
+  "plugin": {
+    "directory_failed": "🇺🇸Failed to create plugins directory: ",
+    "unable_to_load": "🇺🇸Unable to load plugin.",
+    "invalid_config": "🇺🇸Plugin %s has an invalid config file.",
+    "invalid_main_class": "🇺🇸Plugin %s has an invalid main class.",
+    "missing_config": "🇺🇸Plugin %s lacks a valid config file.",
+    "failed_to_load_plugin": "🇺🇸Failed to load plugin: %s",
+    "failed_to_load": "🇺🇸Failed to load a plugin.",
+    "failed_to_load_dependencies": "🇺🇸Failed to load plugins with dependencies.",
+    "loading_plugin": "🇺🇸Loading plugin: %s",
+    "failed_add_id": "🇺🇸Failed to add plugin identifier: %s",
+    "enabling_plugin": "🇺🇸Enabling plugin: %s",
+    "enabling_failed": "🇺🇸Failed to enable plugin: %s",
+    "disabling_plugin": "🇺🇸Disabling plugin: %s",
+    "disabling_failed": "🇺🇸Failed to disable plugin: %s",
+    "invalid_api": {
+      "not_present": "🇺🇸Plugin %s does not specify an API version.",
+      "lower": "🇺🇸Plugin %s is using API version %s, while the server is using API version %s.",
+      "outdated": "🇺🇸Plugin %s is using an outdated API method."
+    }
+  }
+}

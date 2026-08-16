@@ -1,0 +1,108 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+#
+# This workflow will build a Java project with Gradle and cache/restore
+# dependencies to improve workflow execution time.
+#
+# It also uploads the compiled JAR as an Actions artifact and publishes
+# it to a rolling development release after commits to branch 6.6.0.
+#
+# For more information see:
+# https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-gradle
+
+name: Java CI with Gradle
+
+on:
+  push:
+    branches: [ "6.6.0" ]
+
+  pull_request:
+    branches: [ "6.6.0" ]
+
+  # Allows the workflow to be started manually from the Actions tab.
+  workflow_dispatch:
+
+# Prevent two commits from trying to replace the development release
+# simultaneously.
+concurrency:
+  group: lunagc-6.6-development-build
+  cancel-in-progress: true
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    permissions:
+      # Required for creating releases and submitting the dependency graph.
+      contents: write
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 1
+
+    - name: Set up JDK 21
+      uses: actions/setup-java@v4
+      with:
+        java-version: '21'
+        distribution: 'temurin'
+
+    # Configure Gradle for optimal use in GitHub Actions,
+    # including caching of downloaded dependencies.
+    # See:
+    # https://github.com/gradle/actions/blob/main/setup-gradle/README.md
+    - name: Setup Gradle
+      uses: gradle/actions/setup-gradle@af1da67850ed9a4cedd57bfd976089dd991e2582 # v4.0.0
+      with:
+        cache-read-only: ${{ github.event_name != 'push' || github.ref != 'refs/heads/6.6.0' }}
+
+    - name: Build with Gradle Wrapper
+      run: ./gradlew jar --build-cache -PskipHandbook=1
+
+    - name: Verify compiled JAR
+      run: |
+        test -f LunaGC-6.6.0.jar
+        ls -lh LunaGC-6.6.0.jar
+
+    - name: Archive Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: LunaGC-6.6.0-${{ github.sha }}
+        path: LunaGC-6.6.0.jar
+        if-no-files-found: error
+        retention-days: 30
+        compression-level: 0
+
+    # Only publish a release after an actual commit to 6.6.0.
+    # Pull requests will be compiled and tested, but will not modify Releases.
+    - name: Publish rolling development release
+      if: github.event_name == 'push' && github.ref == 'refs/heads/6.6.0'
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        gh release delete latest-dev \
+          --cleanup-tag \
+          --yes || true
+
+        gh release create latest-dev \
+          LunaGC-6.6.0.jar \
+          --target "${GITHUB_SHA}" \
+          --title "Latest LunaGC 6.6 Development Build" \
+          --notes "Automatically compiled from commit ${GITHUB_SHA}." \
+          --prerelease \
+          --latest=false
+
+    # Generates and submits a dependency graph, enabling Dependabot Alerts
+    # for all project dependencies.
+    #
+    # This is limited to pushes because pull requests from forks normally
+    # do not receive write permission.
+    #
+    # See:
+    # https://github.com/gradle/actions/blob/main/dependency-submission/README.md
+    - name: Generate and submit dependency graph
+      if: github.event_name == 'push' && github.ref == 'refs/heads/6.6.0'
+      uses: gradle/actions/dependency-submission@af1da67850ed9a4cedd57bfd976089dd991e2582 # v4.0.0

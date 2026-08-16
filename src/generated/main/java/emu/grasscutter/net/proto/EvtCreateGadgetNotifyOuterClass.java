@@ -1,0 +1,2236 @@
+
+package emu.grasscutter.net.proto;
+
+public final class EvtCreateGadgetNotifyOuterClass {
+  private EvtCreateGadgetNotifyOuterClass() {}
+  public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
+  }
+  public interface EvtCreateGadgetNotifyOrBuilder extends
+
+      com.google.protobuf.MessageOrBuilder {
+
+    java.util.List<java.lang.Integer> getTargetLockPointIndexListList();
+
+    int getTargetLockPointIndexListCount();
+
+    int getTargetLockPointIndexList(int index);
+
+    boolean hasInitEulerAngles();
+
+    emu.grasscutter.net.proto.VectorOuterClass.Vector getInitEulerAngles();
+
+    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getInitEulerAnglesOrBuilder();
+
+    boolean hasInitPos();
+
+    emu.grasscutter.net.proto.VectorOuterClass.Vector getInitPos();
+
+    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getInitPosOrBuilder();
+
+    boolean hasAbilityName();
+
+    emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getAbilityName();
+
+    emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getAbilityNameOrBuilder();
+
+    java.util.List<java.lang.Integer> getTargetEntityIdListList();
+
+    int getTargetEntityIdListCount();
+
+    int getTargetEntityIdList(int index);
+
+    int getConfigId();
+
+    int getForwardTypeValue();
+
+    emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType getForwardType();
+
+    int getInitPoseId();
+
+    int getLifeByOwnerTypeValue();
+
+    emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType getLifeByOwnerType();
+
+    boolean getIsPeerIdFromPlayer();
+
+    boolean getIsAsyncLoad();
+
+    boolean getOCMHHIEOMKI();
+
+    int getEntityId();
+
+    int getBornSlotIndex();
+
+    int getPropOwnerEntityId();
+
+    int getLocalId();
+
+    int getTargetEntityId();
+
+    int getRoomId();
+
+    int getOwnerEntityId();
+
+    long getGuid();
+
+    int getCampType();
+
+    int getCampId();
+  }
+
+  public static final class EvtCreateGadgetNotify extends
+      com.google.protobuf.GeneratedMessageV3 implements
+
+      EvtCreateGadgetNotifyOrBuilder {
+  private static final long serialVersionUID = 0L;
+
+    private EvtCreateGadgetNotify(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
+      super(builder);
+    }
+    private EvtCreateGadgetNotify() {
+      targetLockPointIndexList_ = emptyIntList();
+      targetEntityIdList_ = emptyIntList();
+      forwardType_ = 0;
+      lifeByOwnerType_ = 0;
+    }
+
+    @java.lang.Override
+    @SuppressWarnings({"unused"})
+    protected java.lang.Object newInstance(
+        UnusedPrivateParameter unused) {
+      return new EvtCreateGadgetNotify();
+    }
+
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+    getUnknownFields() {
+      return this.unknownFields;
+    }
+    private EvtCreateGadgetNotify(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      this();
+      if (extensionRegistry == null) {
+        throw new java.lang.NullPointerException();
+      }
+      int mutable_bitField0_ = 0;
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            case 8: {
+              int rawValue = input.readEnum();
+
+              forwardType_ = rawValue;
+              break;
+            }
+            case 16: {
+
+              campType_ = input.readUInt32();
+              break;
+            }
+            case 24: {
+
+              campType_ = input.readUInt32();
+              break;
+            }
+            case 32: {
+
+              entityId_ = input.readUInt32();
+              break;
+            }
+            case 40: {
+
+              propOwnerEntityId_ = input.readUInt32();
+              break;
+            }
+            case 50: {
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
+              if (initEulerAngles_ != null) {
+                subBuilder = initEulerAngles_.toBuilder();
+              }
+              initEulerAngles_ = input.readMessage(emu.grasscutter.net.proto.VectorOuterClass.Vector.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(initEulerAngles_);
+                initEulerAngles_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 56: {
+
+              roomId_ = input.readUInt32();
+              break;
+            }
+            case 72: {
+
+              configId_ = input.readUInt32();
+              break;
+            }
+            case 82: {
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
+              if (initPos_ != null) {
+                subBuilder = initPos_.toBuilder();
+              }
+              initPos_ = input.readMessage(emu.grasscutter.net.proto.VectorOuterClass.Vector.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(initPos_);
+                initPos_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 88: {
+
+              targetEntityId_ = input.readUInt32();
+              break;
+            }
+            case 96: {
+
+              campId_ = input.readUInt32();
+              break;
+            }
+            case 104: {
+
+              targetEntityId_ = input.readUInt32();
+              break;
+            }
+            case 112: {
+
+              ownerEntityId_ = input.readUInt32();
+              break;
+            }
+            case 120: {
+
+              guid_ = input.readUInt64();
+              break;
+            }
+            case 128: {
+
+              isAsyncLoad_ = input.readBool();
+              break;
+            }
+            case 11560: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                targetLockPointIndexList_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              targetLockPointIndexList_.addInt(input.readUInt32());
+              break;
+            }
+            case 11562: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+                targetLockPointIndexList_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                targetLockPointIndexList_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 12776: {
+
+              localId_ = input.readInt32();
+              break;
+            }
+            case 13624: {
+
+              isPeerIdFromPlayer_ = input.readBool();
+              break;
+            }
+            case 13746: {
+              emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder subBuilder = null;
+              if (abilityName_ != null) {
+                subBuilder = abilityName_.toBuilder();
+              }
+              abilityName_ = input.readMessage(emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(abilityName_);
+                abilityName_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 15816: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                targetEntityIdList_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              targetEntityIdList_.addInt(input.readUInt32());
+              break;
+            }
+            case 15818: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+                targetEntityIdList_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                targetEntityIdList_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 7144: {
+
+              oCMHHIEOMKI_ = input.readBool();
+              break;
+            }
+            case 5000: {
+              int rawValue = input.readEnum();
+
+              lifeByOwnerType_ = rawValue;
+              break;
+            }
+            case 12680: {
+
+              bornSlotIndex_ = input.readUInt32();
+              break;
+            }
+            case 13336: {
+
+              initPoseId_ = input.readUInt32();
+              break;
+            }
+            default: {
+              if (!parseUnknownField(
+                  input, unknownFields, extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
+      } finally {
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          targetLockPointIndexList_.makeImmutable();
+        }
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+          targetEntityIdList_.makeImmutable();
+        }
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.internal_static_EvtCreateGadgetNotify_descriptor;
+    }
+
+    @java.lang.Override
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.internal_static_EvtCreateGadgetNotify_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify.class, emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify.Builder.class);
+    }
+
+    public static final int TARGET_LOCK_POINT_INDEX_LIST_FIELD_NUMBER = 1445;
+    private com.google.protobuf.Internal.IntList targetLockPointIndexList_;
+
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+        getTargetLockPointIndexListList() {
+      return targetLockPointIndexList_;
+    }
+
+    public int getTargetLockPointIndexListCount() {
+      return targetLockPointIndexList_.size();
+    }
+
+    public int getTargetLockPointIndexList(int index) {
+      return targetLockPointIndexList_.getInt(index);
+    }
+    private int targetLockPointIndexListMemoizedSerializedSize = -1;
+
+    public static final int INIT_EULER_ANGLES_FIELD_NUMBER = 6;
+    private emu.grasscutter.net.proto.VectorOuterClass.Vector initEulerAngles_;
+
+    @java.lang.Override
+    public boolean hasInitEulerAngles() {
+      return initEulerAngles_ != null;
+    }
+
+    @java.lang.Override
+    public emu.grasscutter.net.proto.VectorOuterClass.Vector getInitEulerAngles() {
+      return initEulerAngles_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : initEulerAngles_;
+    }
+
+    @java.lang.Override
+    public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getInitEulerAnglesOrBuilder() {
+      return getInitEulerAngles();
+    }
+
+    public static final int INIT_POS_FIELD_NUMBER = 10;
+    private emu.grasscutter.net.proto.VectorOuterClass.Vector initPos_;
+
+    @java.lang.Override
+    public boolean hasInitPos() {
+      return initPos_ != null;
+    }
+
+    @java.lang.Override
+    public emu.grasscutter.net.proto.VectorOuterClass.Vector getInitPos() {
+      return initPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : initPos_;
+    }
+
+    @java.lang.Override
+    public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getInitPosOrBuilder() {
+      return getInitPos();
+    }
+
+    public static final int ABILITY_NAME_FIELD_NUMBER = 1718;
+    private emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString abilityName_;
+
+    @java.lang.Override
+    public boolean hasAbilityName() {
+      return abilityName_ != null;
+    }
+
+    @java.lang.Override
+    public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getAbilityName() {
+      return abilityName_ == null ? emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.getDefaultInstance() : abilityName_;
+    }
+
+    @java.lang.Override
+    public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getAbilityNameOrBuilder() {
+      return getAbilityName();
+    }
+
+    public static final int TARGET_ENTITY_ID_LIST_FIELD_NUMBER = 1977;
+    private com.google.protobuf.Internal.IntList targetEntityIdList_;
+
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+        getTargetEntityIdListList() {
+      return targetEntityIdList_;
+    }
+
+    public int getTargetEntityIdListCount() {
+      return targetEntityIdList_.size();
+    }
+
+    public int getTargetEntityIdList(int index) {
+      return targetEntityIdList_.getInt(index);
+    }
+    private int targetEntityIdListMemoizedSerializedSize = -1;
+
+    public static final int CONFIG_ID_FIELD_NUMBER = 9;
+    private int configId_;
+
+    @java.lang.Override
+    public int getConfigId() {
+      return configId_;
+    }
+
+    public static final int FORWARD_TYPE_FIELD_NUMBER = 1;
+    private int forwardType_;
+
+    @java.lang.Override public int getForwardTypeValue() {
+      return forwardType_;
+    }
+
+    @java.lang.Override public emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType getForwardType() {
+      @SuppressWarnings("deprecation")
+      emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType result = emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.valueOf(forwardType_);
+      return result == null ? emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.UNRECOGNIZED : result;
+    }
+
+    public static final int INIT_POSE_ID_FIELD_NUMBER = 1538;
+    private int initPoseId_;
+
+    @java.lang.Override
+    public int getInitPoseId() {
+      return initPoseId_;
+    }
+
+    public static final int LIFE_BY_OWNER_TYPE_FIELD_NUMBER = 1583;
+    private int lifeByOwnerType_;
+
+    @java.lang.Override public int getLifeByOwnerTypeValue() {
+      return lifeByOwnerType_;
+    }
+
+    @java.lang.Override public emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType getLifeByOwnerType() {
+      @SuppressWarnings("deprecation")
+      emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType result = emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType.valueOf(lifeByOwnerType_);
+      return result == null ? emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType.UNRECOGNIZED : result;
+    }
+
+    public static final int IS_PEER_ID_FROM_PLAYER_FIELD_NUMBER = 1703;
+    private boolean isPeerIdFromPlayer_;
+
+    @java.lang.Override
+    public boolean getIsPeerIdFromPlayer() {
+      return isPeerIdFromPlayer_;
+    }
+
+    public static final int IS_ASYNC_LOAD_FIELD_NUMBER = 16;
+    private boolean isAsyncLoad_;
+
+    @java.lang.Override
+    public boolean getIsAsyncLoad() {
+      return isAsyncLoad_;
+    }
+
+    public static final int OCMHHIEOMKI_FIELD_NUMBER = 893;
+    private boolean oCMHHIEOMKI_;
+
+    @java.lang.Override
+    public boolean getOCMHHIEOMKI() {
+      return oCMHHIEOMKI_;
+    }
+
+    public static final int ENTITY_ID_FIELD_NUMBER = 4;
+    private int entityId_;
+
+    @java.lang.Override
+    public int getEntityId() {
+      return entityId_;
+    }
+
+    public static final int BORN_SLOT_INDEX_FIELD_NUMBER = 2025;
+    private int bornSlotIndex_;
+
+    @java.lang.Override
+    public int getBornSlotIndex() {
+      return bornSlotIndex_;
+    }
+
+    public static final int PROP_OWNER_ENTITY_ID_FIELD_NUMBER = 5;
+    private int propOwnerEntityId_;
+
+    @java.lang.Override
+    public int getPropOwnerEntityId() {
+      return propOwnerEntityId_;
+    }
+
+    public static final int LOCAL_ID_FIELD_NUMBER = 1597;
+    private int localId_;
+
+    @java.lang.Override
+    public int getLocalId() {
+      return localId_;
+    }
+
+    public static final int TARGET_ENTITY_ID_FIELD_NUMBER = 13;
+    private int targetEntityId_;
+
+    @java.lang.Override
+    public int getTargetEntityId() {
+      return targetEntityId_;
+    }
+
+    public static final int ROOM_ID_FIELD_NUMBER = 7;
+    private int roomId_;
+
+    @java.lang.Override
+    public int getRoomId() {
+      return roomId_;
+    }
+
+    public static final int OWNER_ENTITY_ID_FIELD_NUMBER = 14;
+    private int ownerEntityId_;
+
+    @java.lang.Override
+    public int getOwnerEntityId() {
+      return ownerEntityId_;
+    }
+
+    public static final int GUID_FIELD_NUMBER = 15;
+    private long guid_;
+
+    @java.lang.Override
+    public long getGuid() {
+      return guid_;
+    }
+
+    public static final int CAMP_TYPE_FIELD_NUMBER = 3;
+    private int campType_;
+
+    @java.lang.Override
+    public int getCampType() {
+      return campType_;
+    }
+
+    public static final int CAMP_ID_FIELD_NUMBER = 12;
+    private int campId_;
+
+    @java.lang.Override
+    public int getCampId() {
+      return campId_;
+    }
+
+    private byte memoizedIsInitialized = -1;
+    @java.lang.Override
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    @java.lang.Override
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+      if (roomId_ != 0) {
+        output.writeUInt32(7, roomId_);
+      }
+      if (campType_ != 0) {
+        output.writeUInt32(3, campType_);
+      }
+      if (configId_ != 0) {
+        output.writeUInt32(9, configId_);
+      }
+      if (entityId_ != 0) {
+        output.writeUInt32(4, entityId_);
+      }
+      if (initPos_ != null) {
+        output.writeMessage(10, getInitPos());
+      }
+      if (initEulerAngles_ != null) {
+        output.writeMessage(6, getInitEulerAngles());
+      }
+      if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
+        output.writeEnum(1, forwardType_);
+      }
+      if (guid_ != 0L) {
+        output.writeUInt64(15, guid_);
+      }
+      if (targetEntityId_ != 0) {
+        output.writeUInt32(13, targetEntityId_);
+      }
+      if (ownerEntityId_ != 0) {
+        output.writeUInt32(14, ownerEntityId_);
+      }
+      if (campId_ != 0) {
+        output.writeUInt32(12, campId_);
+      }
+      if (propOwnerEntityId_ != 0) {
+        output.writeUInt32(5, propOwnerEntityId_);
+      }
+      if (isAsyncLoad_ != false) {
+        output.writeBool(16, isAsyncLoad_);
+      }
+      if (getTargetLockPointIndexListList().size() > 0) {
+        output.writeUInt32NoTag(11562);
+        output.writeUInt32NoTag(targetLockPointIndexListMemoizedSerializedSize);
+      }
+      for (int i = 0; i < targetLockPointIndexList_.size(); i++) {
+        output.writeUInt32NoTag(targetLockPointIndexList_.getInt(i));
+      }
+      if (localId_ != 0) {
+        output.writeInt32(1597, localId_);
+      }
+      if (isPeerIdFromPlayer_ != false) {
+        output.writeBool(1703, isPeerIdFromPlayer_);
+      }
+      if (abilityName_ != null) {
+        output.writeMessage(591, getAbilityName());
+      }
+      if (getTargetEntityIdListList().size() > 0) {
+        output.writeUInt32NoTag(15818);
+        output.writeUInt32NoTag(targetEntityIdListMemoizedSerializedSize);
+      }
+      for (int i = 0; i < targetEntityIdList_.size(); i++) {
+        output.writeUInt32NoTag(targetEntityIdList_.getInt(i));
+      }
+      if (oCMHHIEOMKI_ != false) {
+        output.writeBool(893, oCMHHIEOMKI_);
+      }
+      if (lifeByOwnerType_ != emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType.LifeByOwnerType_LIFE_BY_OWNER_NONE.getNumber()) {
+        output.writeEnum(1583, lifeByOwnerType_);
+      }
+      if (bornSlotIndex_ != 0) {
+        output.writeUInt32(2025, bornSlotIndex_);
+      }
+      if (initPoseId_ != 0) {
+        output.writeUInt32(1538, initPoseId_);
+      }
+      unknownFields.writeTo(output);
+    }
+
+    @java.lang.Override
+    public int getSerializedSize() {
+      int size = memoizedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (roomId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(7, roomId_);
+      }
+      if (campType_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(3, campType_);
+      }
+      if (configId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(9, configId_);
+      }
+      if (entityId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(4, entityId_);
+      }
+      if (initPos_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(10, getInitPos());
+      }
+      if (initEulerAngles_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(6, getInitEulerAngles());
+      }
+      if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeEnumSize(1, forwardType_);
+      }
+      if (guid_ != 0L) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt64Size(15, guid_);
+      }
+      if (targetEntityId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(13, targetEntityId_);
+      }
+      if (ownerEntityId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(14, ownerEntityId_);
+      }
+      if (campId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(12, campId_);
+      }
+      if (propOwnerEntityId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(5, propOwnerEntityId_);
+      }
+      if (isAsyncLoad_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(16, isAsyncLoad_);
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < targetLockPointIndexList_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(targetLockPointIndexList_.getInt(i));
+        }
+        size += dataSize;
+        if (!getTargetLockPointIndexListList().isEmpty()) {
+          size += 2;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        targetLockPointIndexListMemoizedSerializedSize = dataSize;
+      }
+      if (localId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(1597, localId_);
+      }
+      if (isPeerIdFromPlayer_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1703, isPeerIdFromPlayer_);
+      }
+      if (abilityName_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(591, getAbilityName());
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < targetEntityIdList_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(targetEntityIdList_.getInt(i));
+        }
+        size += dataSize;
+        if (!getTargetEntityIdListList().isEmpty()) {
+          size += 2;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        targetEntityIdListMemoizedSerializedSize = dataSize;
+      }
+      if (oCMHHIEOMKI_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(893, oCMHHIEOMKI_);
+      }
+      if (lifeByOwnerType_ != emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType.LifeByOwnerType_LIFE_BY_OWNER_NONE.getNumber()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeEnumSize(1583, lifeByOwnerType_);
+      }
+      if (bornSlotIndex_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(2025, bornSlotIndex_);
+      }
+      if (initPoseId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(1538, initPoseId_);
+      }
+      size += unknownFields.getSerializedSize();
+      memoizedSize = size;
+      return size;
+    }
+
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify)) {
+        return super.equals(obj);
+      }
+      emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify other = (emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify) obj;
+
+      if (!getTargetLockPointIndexListList()
+          .equals(other.getTargetLockPointIndexListList())) return false;
+      if (hasInitEulerAngles() != other.hasInitEulerAngles()) return false;
+      if (hasInitEulerAngles()) {
+        if (!getInitEulerAngles()
+            .equals(other.getInitEulerAngles())) return false;
+      }
+      if (hasInitPos() != other.hasInitPos()) return false;
+      if (hasInitPos()) {
+        if (!getInitPos()
+            .equals(other.getInitPos())) return false;
+      }
+      if (hasAbilityName() != other.hasAbilityName()) return false;
+      if (hasAbilityName()) {
+        if (!getAbilityName()
+            .equals(other.getAbilityName())) return false;
+      }
+      if (!getTargetEntityIdListList()
+          .equals(other.getTargetEntityIdListList())) return false;
+      if (getConfigId()
+          != other.getConfigId()) return false;
+      if (forwardType_ != other.forwardType_) return false;
+      if (getInitPoseId()
+          != other.getInitPoseId()) return false;
+      if (lifeByOwnerType_ != other.lifeByOwnerType_) return false;
+      if (getIsPeerIdFromPlayer()
+          != other.getIsPeerIdFromPlayer()) return false;
+      if (getIsAsyncLoad()
+          != other.getIsAsyncLoad()) return false;
+      if (getOCMHHIEOMKI()
+          != other.getOCMHHIEOMKI()) return false;
+      if (getEntityId()
+          != other.getEntityId()) return false;
+      if (getBornSlotIndex()
+          != other.getBornSlotIndex()) return false;
+      if (getPropOwnerEntityId()
+          != other.getPropOwnerEntityId()) return false;
+      if (getLocalId()
+          != other.getLocalId()) return false;
+      if (getTargetEntityId()
+          != other.getTargetEntityId()) return false;
+      if (getRoomId()
+          != other.getRoomId()) return false;
+      if (getOwnerEntityId()
+          != other.getOwnerEntityId()) return false;
+      if (getGuid()
+          != other.getGuid()) return false;
+      if (getCampType()
+          != other.getCampType()) return false;
+      if (getCampId()
+          != other.getCampId()) return false;
+      if (!unknownFields.equals(other.unknownFields)) return false;
+      return true;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptor().hashCode();
+      if (getTargetLockPointIndexListCount() > 0) {
+        hash = (37 * hash) + TARGET_LOCK_POINT_INDEX_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getTargetLockPointIndexListList().hashCode();
+      }
+      if (hasInitEulerAngles()) {
+        hash = (37 * hash) + INIT_EULER_ANGLES_FIELD_NUMBER;
+        hash = (53 * hash) + getInitEulerAngles().hashCode();
+      }
+      if (hasInitPos()) {
+        hash = (37 * hash) + INIT_POS_FIELD_NUMBER;
+        hash = (53 * hash) + getInitPos().hashCode();
+      }
+      if (hasAbilityName()) {
+        hash = (37 * hash) + ABILITY_NAME_FIELD_NUMBER;
+        hash = (53 * hash) + getAbilityName().hashCode();
+      }
+      if (getTargetEntityIdListCount() > 0) {
+        hash = (37 * hash) + TARGET_ENTITY_ID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getTargetEntityIdListList().hashCode();
+      }
+      hash = (37 * hash) + CONFIG_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getConfigId();
+      hash = (37 * hash) + FORWARD_TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + forwardType_;
+      hash = (37 * hash) + INIT_POSE_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getInitPoseId();
+      hash = (37 * hash) + LIFE_BY_OWNER_TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + lifeByOwnerType_;
+      hash = (37 * hash) + IS_PEER_ID_FROM_PLAYER_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIsPeerIdFromPlayer());
+      hash = (37 * hash) + IS_ASYNC_LOAD_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIsAsyncLoad());
+      hash = (37 * hash) + OCMHHIEOMKI_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOCMHHIEOMKI());
+      hash = (37 * hash) + ENTITY_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getEntityId();
+      hash = (37 * hash) + BORN_SLOT_INDEX_FIELD_NUMBER;
+      hash = (53 * hash) + getBornSlotIndex();
+      hash = (37 * hash) + PROP_OWNER_ENTITY_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getPropOwnerEntityId();
+      hash = (37 * hash) + LOCAL_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getLocalId();
+      hash = (37 * hash) + TARGET_ENTITY_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getTargetEntityId();
+      hash = (37 * hash) + ROOM_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getRoomId();
+      hash = (37 * hash) + OWNER_ENTITY_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getOwnerEntityId();
+      hash = (37 * hash) + GUID_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
+          getGuid());
+      hash = (37 * hash) + CAMP_TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + getCampType();
+      hash = (37 * hash) + CAMP_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getCampId();
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
+    public static emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify parseFrom(
+        java.nio.ByteBuffer data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify parseFrom(
+        java.nio.ByteBuffer data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input);
+    }
+    public static emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+    public static emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseDelimitedWithIOException(PARSER, input);
+    }
+    public static emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+    }
+    public static emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input);
+    }
+    public static emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+
+    @java.lang.Override
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder() {
+      return DEFAULT_INSTANCE.toBuilder();
+    }
+    public static Builder newBuilder(emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify prototype) {
+      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+    }
+    @java.lang.Override
+    public Builder toBuilder() {
+      return this == DEFAULT_INSTANCE
+          ? new Builder() : new Builder().mergeFrom(this);
+    }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
+
+        emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotifyOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.internal_static_EvtCreateGadgetNotify_descriptor;
+      }
+
+      @java.lang.Override
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.internal_static_EvtCreateGadgetNotify_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify.class, emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify.Builder.class);
+      }
+
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
+        }
+      }
+      @java.lang.Override
+      public Builder clear() {
+        super.clear();
+        targetLockPointIndexList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        if (initEulerAnglesBuilder_ == null) {
+          initEulerAngles_ = null;
+        } else {
+          initEulerAngles_ = null;
+          initEulerAnglesBuilder_ = null;
+        }
+        if (initPosBuilder_ == null) {
+          initPos_ = null;
+        } else {
+          initPos_ = null;
+          initPosBuilder_ = null;
+        }
+        if (abilityNameBuilder_ == null) {
+          abilityName_ = null;
+        } else {
+          abilityName_ = null;
+          abilityNameBuilder_ = null;
+        }
+        targetEntityIdList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000002);
+        configId_ = 0;
+
+        forwardType_ = 0;
+
+        initPoseId_ = 0;
+
+        lifeByOwnerType_ = 0;
+
+        isPeerIdFromPlayer_ = false;
+
+        isAsyncLoad_ = false;
+
+        oCMHHIEOMKI_ = false;
+
+        entityId_ = 0;
+
+        bornSlotIndex_ = 0;
+
+        propOwnerEntityId_ = 0;
+
+        localId_ = 0;
+
+        targetEntityId_ = 0;
+
+        roomId_ = 0;
+
+        ownerEntityId_ = 0;
+
+        guid_ = 0L;
+
+        campType_ = 0;
+
+        campId_ = 0;
+
+        return this;
+      }
+
+      @java.lang.Override
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.internal_static_EvtCreateGadgetNotify_descriptor;
+      }
+
+      @java.lang.Override
+      public emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify getDefaultInstanceForType() {
+        return emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify.getDefaultInstance();
+      }
+
+      @java.lang.Override
+      public emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify build() {
+        emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify buildPartial() {
+        emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify result = new emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify(this);
+        int from_bitField0_ = bitField0_;
+        if (((bitField0_ & 0x00000001) != 0)) {
+          targetLockPointIndexList_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        }
+        result.targetLockPointIndexList_ = targetLockPointIndexList_;
+        if (initEulerAnglesBuilder_ == null) {
+          result.initEulerAngles_ = initEulerAngles_;
+        } else {
+          result.initEulerAngles_ = initEulerAnglesBuilder_.build();
+        }
+        if (initPosBuilder_ == null) {
+          result.initPos_ = initPos_;
+        } else {
+          result.initPos_ = initPosBuilder_.build();
+        }
+        if (abilityNameBuilder_ == null) {
+          result.abilityName_ = abilityName_;
+        } else {
+          result.abilityName_ = abilityNameBuilder_.build();
+        }
+        if (((bitField0_ & 0x00000002) != 0)) {
+          targetEntityIdList_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000002);
+        }
+        result.targetEntityIdList_ = targetEntityIdList_;
+        result.configId_ = configId_;
+        result.forwardType_ = forwardType_;
+        result.initPoseId_ = initPoseId_;
+        result.lifeByOwnerType_ = lifeByOwnerType_;
+        result.isPeerIdFromPlayer_ = isPeerIdFromPlayer_;
+        result.isAsyncLoad_ = isAsyncLoad_;
+        result.oCMHHIEOMKI_ = oCMHHIEOMKI_;
+        result.entityId_ = entityId_;
+        result.bornSlotIndex_ = bornSlotIndex_;
+        result.propOwnerEntityId_ = propOwnerEntityId_;
+        result.localId_ = localId_;
+        result.targetEntityId_ = targetEntityId_;
+        result.roomId_ = roomId_;
+        result.ownerEntityId_ = ownerEntityId_;
+        result.guid_ = guid_;
+        result.campType_ = campType_;
+        result.campId_ = campId_;
+        onBuilt();
+        return result;
+      }
+
+      @java.lang.Override
+      public Builder clone() {
+        return super.clone();
+      }
+      @java.lang.Override
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          java.lang.Object value) {
+        return super.setField(field, value);
+      }
+      @java.lang.Override
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return super.clearField(field);
+      }
+      @java.lang.Override
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return super.clearOneof(oneof);
+      }
+      @java.lang.Override
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, java.lang.Object value) {
+        return super.setRepeatedField(field, index, value);
+      }
+      @java.lang.Override
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          java.lang.Object value) {
+        return super.addRepeatedField(field, value);
+      }
+      @java.lang.Override
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify) {
+          return mergeFrom((emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify other) {
+        if (other == emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify.getDefaultInstance()) return this;
+        if (!other.targetLockPointIndexList_.isEmpty()) {
+          if (targetLockPointIndexList_.isEmpty()) {
+            targetLockPointIndexList_ = other.targetLockPointIndexList_;
+            bitField0_ = (bitField0_ & ~0x00000001);
+          } else {
+            ensureTargetLockPointIndexListIsMutable();
+            targetLockPointIndexList_.addAll(other.targetLockPointIndexList_);
+          }
+          onChanged();
+        }
+        if (other.hasInitEulerAngles()) {
+          mergeInitEulerAngles(other.getInitEulerAngles());
+        }
+        if (other.hasInitPos()) {
+          mergeInitPos(other.getInitPos());
+        }
+        if (other.hasAbilityName()) {
+          mergeAbilityName(other.getAbilityName());
+        }
+        if (!other.targetEntityIdList_.isEmpty()) {
+          if (targetEntityIdList_.isEmpty()) {
+            targetEntityIdList_ = other.targetEntityIdList_;
+            bitField0_ = (bitField0_ & ~0x00000002);
+          } else {
+            ensureTargetEntityIdListIsMutable();
+            targetEntityIdList_.addAll(other.targetEntityIdList_);
+          }
+          onChanged();
+        }
+        if (other.getConfigId() != 0) {
+          setConfigId(other.getConfigId());
+        }
+        if (other.forwardType_ != 0) {
+          setForwardTypeValue(other.getForwardTypeValue());
+        }
+        if (other.getInitPoseId() != 0) {
+          setInitPoseId(other.getInitPoseId());
+        }
+        if (other.lifeByOwnerType_ != 0) {
+          setLifeByOwnerTypeValue(other.getLifeByOwnerTypeValue());
+        }
+        if (other.getIsPeerIdFromPlayer() != false) {
+          setIsPeerIdFromPlayer(other.getIsPeerIdFromPlayer());
+        }
+        if (other.getIsAsyncLoad() != false) {
+          setIsAsyncLoad(other.getIsAsyncLoad());
+        }
+        if (other.getOCMHHIEOMKI() != false) {
+          setOCMHHIEOMKI(other.getOCMHHIEOMKI());
+        }
+        if (other.getEntityId() != 0) {
+          setEntityId(other.getEntityId());
+        }
+        if (other.getBornSlotIndex() != 0) {
+          setBornSlotIndex(other.getBornSlotIndex());
+        }
+        if (other.getPropOwnerEntityId() != 0) {
+          setPropOwnerEntityId(other.getPropOwnerEntityId());
+        }
+        if (other.getLocalId() != 0) {
+          setLocalId(other.getLocalId());
+        }
+        if (other.getTargetEntityId() != 0) {
+          setTargetEntityId(other.getTargetEntityId());
+        }
+        if (other.getRoomId() != 0) {
+          setRoomId(other.getRoomId());
+        }
+        if (other.getOwnerEntityId() != 0) {
+          setOwnerEntityId(other.getOwnerEntityId());
+        }
+        if (other.getGuid() != 0L) {
+          setGuid(other.getGuid());
+        }
+        if (other.getCampType() != 0) {
+          setCampType(other.getCampType());
+        }
+        if (other.getCampId() != 0) {
+          setCampId(other.getCampId());
+        }
+        this.mergeUnknownFields(other.unknownFields);
+        onChanged();
+        return this;
+      }
+
+      @java.lang.Override
+      public final boolean isInitialized() {
+        return true;
+      }
+
+      @java.lang.Override
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify) e.getUnfinishedMessage();
+          throw e.unwrapIOException();
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int bitField0_;
+
+      private com.google.protobuf.Internal.IntList targetLockPointIndexList_ = emptyIntList();
+      private void ensureTargetLockPointIndexListIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          targetLockPointIndexList_ = mutableCopy(targetLockPointIndexList_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+
+      public java.util.List<java.lang.Integer>
+          getTargetLockPointIndexListList() {
+        return ((bitField0_ & 0x00000001) != 0) ?
+                 java.util.Collections.unmodifiableList(targetLockPointIndexList_) : targetLockPointIndexList_;
+      }
+
+      public int getTargetLockPointIndexListCount() {
+        return targetLockPointIndexList_.size();
+      }
+
+      public int getTargetLockPointIndexList(int index) {
+        return targetLockPointIndexList_.getInt(index);
+      }
+
+      public Builder setTargetLockPointIndexList(
+          int index, int value) {
+        ensureTargetLockPointIndexListIsMutable();
+        targetLockPointIndexList_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+
+      public Builder addTargetLockPointIndexList(int value) {
+        ensureTargetLockPointIndexListIsMutable();
+        targetLockPointIndexList_.addInt(value);
+        onChanged();
+        return this;
+      }
+
+      public Builder addAllTargetLockPointIndexList(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureTargetLockPointIndexListIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, targetLockPointIndexList_);
+        onChanged();
+        return this;
+      }
+
+      public Builder clearTargetLockPointIndexList() {
+        targetLockPointIndexList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        onChanged();
+        return this;
+      }
+
+      private emu.grasscutter.net.proto.VectorOuterClass.Vector initEulerAngles_;
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> initEulerAnglesBuilder_;
+
+      public boolean hasInitEulerAngles() {
+        return initEulerAnglesBuilder_ != null || initEulerAngles_ != null;
+      }
+
+      public emu.grasscutter.net.proto.VectorOuterClass.Vector getInitEulerAngles() {
+        if (initEulerAnglesBuilder_ == null) {
+          return initEulerAngles_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : initEulerAngles_;
+        } else {
+          return initEulerAnglesBuilder_.getMessage();
+        }
+      }
+
+      public Builder setInitEulerAngles(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
+        if (initEulerAnglesBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          initEulerAngles_ = value;
+          onChanged();
+        } else {
+          initEulerAnglesBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+
+      public Builder setInitEulerAngles(
+          emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
+        if (initEulerAnglesBuilder_ == null) {
+          initEulerAngles_ = builderForValue.build();
+          onChanged();
+        } else {
+          initEulerAnglesBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+
+      public Builder mergeInitEulerAngles(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
+        if (initEulerAnglesBuilder_ == null) {
+          if (initEulerAngles_ != null) {
+            initEulerAngles_ =
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.newBuilder(initEulerAngles_).mergeFrom(value).buildPartial();
+          } else {
+            initEulerAngles_ = value;
+          }
+          onChanged();
+        } else {
+          initEulerAnglesBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+
+      public Builder clearInitEulerAngles() {
+        if (initEulerAnglesBuilder_ == null) {
+          initEulerAngles_ = null;
+          onChanged();
+        } else {
+          initEulerAngles_ = null;
+          initEulerAnglesBuilder_ = null;
+        }
+
+        return this;
+      }
+
+      public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getInitEulerAnglesBuilder() {
+
+        onChanged();
+        return getInitEulerAnglesFieldBuilder().getBuilder();
+      }
+
+      public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getInitEulerAnglesOrBuilder() {
+        if (initEulerAnglesBuilder_ != null) {
+          return initEulerAnglesBuilder_.getMessageOrBuilder();
+        } else {
+          return initEulerAngles_ == null ?
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : initEulerAngles_;
+        }
+      }
+
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
+          getInitEulerAnglesFieldBuilder() {
+        if (initEulerAnglesBuilder_ == null) {
+          initEulerAnglesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>(
+                  getInitEulerAngles(),
+                  getParentForChildren(),
+                  isClean());
+          initEulerAngles_ = null;
+        }
+        return initEulerAnglesBuilder_;
+      }
+
+      private emu.grasscutter.net.proto.VectorOuterClass.Vector initPos_;
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> initPosBuilder_;
+
+      public boolean hasInitPos() {
+        return initPosBuilder_ != null || initPos_ != null;
+      }
+
+      public emu.grasscutter.net.proto.VectorOuterClass.Vector getInitPos() {
+        if (initPosBuilder_ == null) {
+          return initPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : initPos_;
+        } else {
+          return initPosBuilder_.getMessage();
+        }
+      }
+
+      public Builder setInitPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
+        if (initPosBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          initPos_ = value;
+          onChanged();
+        } else {
+          initPosBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+
+      public Builder setInitPos(
+          emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
+        if (initPosBuilder_ == null) {
+          initPos_ = builderForValue.build();
+          onChanged();
+        } else {
+          initPosBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+
+      public Builder mergeInitPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
+        if (initPosBuilder_ == null) {
+          if (initPos_ != null) {
+            initPos_ =
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.newBuilder(initPos_).mergeFrom(value).buildPartial();
+          } else {
+            initPos_ = value;
+          }
+          onChanged();
+        } else {
+          initPosBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+
+      public Builder clearInitPos() {
+        if (initPosBuilder_ == null) {
+          initPos_ = null;
+          onChanged();
+        } else {
+          initPos_ = null;
+          initPosBuilder_ = null;
+        }
+
+        return this;
+      }
+
+      public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getInitPosBuilder() {
+
+        onChanged();
+        return getInitPosFieldBuilder().getBuilder();
+      }
+
+      public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getInitPosOrBuilder() {
+        if (initPosBuilder_ != null) {
+          return initPosBuilder_.getMessageOrBuilder();
+        } else {
+          return initPos_ == null ?
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : initPos_;
+        }
+      }
+
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
+          getInitPosFieldBuilder() {
+        if (initPosBuilder_ == null) {
+          initPosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>(
+                  getInitPos(),
+                  getParentForChildren(),
+                  isClean());
+          initPos_ = null;
+        }
+        return initPosBuilder_;
+      }
+
+      private emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString abilityName_;
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> abilityNameBuilder_;
+
+      public boolean hasAbilityName() {
+        return abilityNameBuilder_ != null || abilityName_ != null;
+      }
+
+      public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getAbilityName() {
+        if (abilityNameBuilder_ == null) {
+          return abilityName_ == null ? emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.getDefaultInstance() : abilityName_;
+        } else {
+          return abilityNameBuilder_.getMessage();
+        }
+      }
+
+      public Builder setAbilityName(emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString value) {
+        if (abilityNameBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          abilityName_ = value;
+          onChanged();
+        } else {
+          abilityNameBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+
+      public Builder setAbilityName(
+          emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder builderForValue) {
+        if (abilityNameBuilder_ == null) {
+          abilityName_ = builderForValue.build();
+          onChanged();
+        } else {
+          abilityNameBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+
+      public Builder mergeAbilityName(emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString value) {
+        if (abilityNameBuilder_ == null) {
+          if (abilityName_ != null) {
+            abilityName_ =
+              emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.newBuilder(abilityName_).mergeFrom(value).buildPartial();
+          } else {
+            abilityName_ = value;
+          }
+          onChanged();
+        } else {
+          abilityNameBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+
+      public Builder clearAbilityName() {
+        if (abilityNameBuilder_ == null) {
+          abilityName_ = null;
+          onChanged();
+        } else {
+          abilityName_ = null;
+          abilityNameBuilder_ = null;
+        }
+
+        return this;
+      }
+
+      public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder getAbilityNameBuilder() {
+
+        onChanged();
+        return getAbilityNameFieldBuilder().getBuilder();
+      }
+
+      public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getAbilityNameOrBuilder() {
+        if (abilityNameBuilder_ != null) {
+          return abilityNameBuilder_.getMessageOrBuilder();
+        } else {
+          return abilityName_ == null ?
+              emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.getDefaultInstance() : abilityName_;
+        }
+      }
+
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder>
+          getAbilityNameFieldBuilder() {
+        if (abilityNameBuilder_ == null) {
+          abilityNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder>(
+                  getAbilityName(),
+                  getParentForChildren(),
+                  isClean());
+          abilityName_ = null;
+        }
+        return abilityNameBuilder_;
+      }
+
+      private com.google.protobuf.Internal.IntList targetEntityIdList_ = emptyIntList();
+      private void ensureTargetEntityIdListIsMutable() {
+        if (!((bitField0_ & 0x00000002) != 0)) {
+          targetEntityIdList_ = mutableCopy(targetEntityIdList_);
+          bitField0_ |= 0x00000002;
+         }
+      }
+
+      public java.util.List<java.lang.Integer>
+          getTargetEntityIdListList() {
+        return ((bitField0_ & 0x00000002) != 0) ?
+                 java.util.Collections.unmodifiableList(targetEntityIdList_) : targetEntityIdList_;
+      }
+
+      public int getTargetEntityIdListCount() {
+        return targetEntityIdList_.size();
+      }
+
+      public int getTargetEntityIdList(int index) {
+        return targetEntityIdList_.getInt(index);
+      }
+
+      public Builder setTargetEntityIdList(
+          int index, int value) {
+        ensureTargetEntityIdListIsMutable();
+        targetEntityIdList_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+
+      public Builder addTargetEntityIdList(int value) {
+        ensureTargetEntityIdListIsMutable();
+        targetEntityIdList_.addInt(value);
+        onChanged();
+        return this;
+      }
+
+      public Builder addAllTargetEntityIdList(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureTargetEntityIdListIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, targetEntityIdList_);
+        onChanged();
+        return this;
+      }
+
+      public Builder clearTargetEntityIdList() {
+        targetEntityIdList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000002);
+        onChanged();
+        return this;
+      }
+
+      private int configId_ ;
+
+      @java.lang.Override
+      public int getConfigId() {
+        return configId_;
+      }
+
+      public Builder setConfigId(int value) {
+
+        configId_ = value;
+        onChanged();
+        return this;
+      }
+
+      public Builder clearConfigId() {
+
+        configId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int forwardType_ = 0;
+
+      @java.lang.Override public int getForwardTypeValue() {
+        return forwardType_;
+      }
+
+      public Builder setForwardTypeValue(int value) {
+
+        forwardType_ = value;
+        onChanged();
+        return this;
+      }
+
+      @java.lang.Override
+      public emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType getForwardType() {
+        @SuppressWarnings("deprecation")
+        emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType result = emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.valueOf(forwardType_);
+        return result == null ? emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.UNRECOGNIZED : result;
+      }
+
+      public Builder setForwardType(emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType value) {
+        if (value == null) {
+          throw new NullPointerException();
+        }
+
+        forwardType_ = value.getNumber();
+        onChanged();
+        return this;
+      }
+
+      public Builder clearForwardType() {
+
+        forwardType_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int initPoseId_ ;
+
+      @java.lang.Override
+      public int getInitPoseId() {
+        return initPoseId_;
+      }
+
+      public Builder setInitPoseId(int value) {
+
+        initPoseId_ = value;
+        onChanged();
+        return this;
+      }
+
+      public Builder clearInitPoseId() {
+
+        initPoseId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int lifeByOwnerType_ = 0;
+
+      @java.lang.Override public int getLifeByOwnerTypeValue() {
+        return lifeByOwnerType_;
+      }
+
+      public Builder setLifeByOwnerTypeValue(int value) {
+
+        lifeByOwnerType_ = value;
+        onChanged();
+        return this;
+      }
+
+      @java.lang.Override
+      public emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType getLifeByOwnerType() {
+        @SuppressWarnings("deprecation")
+        emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType result = emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType.valueOf(lifeByOwnerType_);
+        return result == null ? emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType.UNRECOGNIZED : result;
+      }
+
+      public Builder setLifeByOwnerType(emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType value) {
+        if (value == null) {
+          throw new NullPointerException();
+        }
+
+        lifeByOwnerType_ = value.getNumber();
+        onChanged();
+        return this;
+      }
+
+      public Builder clearLifeByOwnerType() {
+
+        lifeByOwnerType_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private boolean isPeerIdFromPlayer_ ;
+
+      @java.lang.Override
+      public boolean getIsPeerIdFromPlayer() {
+        return isPeerIdFromPlayer_;
+      }
+
+      public Builder setIsPeerIdFromPlayer(boolean value) {
+
+        isPeerIdFromPlayer_ = value;
+        onChanged();
+        return this;
+      }
+
+      public Builder clearIsPeerIdFromPlayer() {
+
+        isPeerIdFromPlayer_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean isAsyncLoad_ ;
+
+      @java.lang.Override
+      public boolean getIsAsyncLoad() {
+        return isAsyncLoad_;
+      }
+
+      public Builder setIsAsyncLoad(boolean value) {
+
+        isAsyncLoad_ = value;
+        onChanged();
+        return this;
+      }
+
+      public Builder clearIsAsyncLoad() {
+
+        isAsyncLoad_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean oCMHHIEOMKI_ ;
+
+      @java.lang.Override
+      public boolean getOCMHHIEOMKI() {
+        return oCMHHIEOMKI_;
+      }
+
+      public Builder setOCMHHIEOMKI(boolean value) {
+
+        oCMHHIEOMKI_ = value;
+        onChanged();
+        return this;
+      }
+
+      public Builder clearOCMHHIEOMKI() {
+
+        oCMHHIEOMKI_ = false;
+        onChanged();
+        return this;
+      }
+
+      private int entityId_ ;
+
+      @java.lang.Override
+      public int getEntityId() {
+        return entityId_;
+      }
+
+      public Builder setEntityId(int value) {
+
+        entityId_ = value;
+        onChanged();
+        return this;
+      }
+
+      public Builder clearEntityId() {
+
+        entityId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int bornSlotIndex_ ;
+
+      @java.lang.Override
+      public int getBornSlotIndex() {
+        return bornSlotIndex_;
+      }
+
+      public Builder setBornSlotIndex(int value) {
+
+        bornSlotIndex_ = value;
+        onChanged();
+        return this;
+      }
+
+      public Builder clearBornSlotIndex() {
+
+        bornSlotIndex_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int propOwnerEntityId_ ;
+
+      @java.lang.Override
+      public int getPropOwnerEntityId() {
+        return propOwnerEntityId_;
+      }
+
+      public Builder setPropOwnerEntityId(int value) {
+
+        propOwnerEntityId_ = value;
+        onChanged();
+        return this;
+      }
+
+      public Builder clearPropOwnerEntityId() {
+
+        propOwnerEntityId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int localId_ ;
+
+      @java.lang.Override
+      public int getLocalId() {
+        return localId_;
+      }
+
+      public Builder setLocalId(int value) {
+
+        localId_ = value;
+        onChanged();
+        return this;
+      }
+
+      public Builder clearLocalId() {
+
+        localId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int targetEntityId_ ;
+
+      @java.lang.Override
+      public int getTargetEntityId() {
+        return targetEntityId_;
+      }
+
+      public Builder setTargetEntityId(int value) {
+
+        targetEntityId_ = value;
+        onChanged();
+        return this;
+      }
+
+      public Builder clearTargetEntityId() {
+
+        targetEntityId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int roomId_ ;
+
+      @java.lang.Override
+      public int getRoomId() {
+        return roomId_;
+      }
+
+      public Builder setRoomId(int value) {
+
+        roomId_ = value;
+        onChanged();
+        return this;
+      }
+
+      public Builder clearRoomId() {
+
+        roomId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int ownerEntityId_ ;
+
+      @java.lang.Override
+      public int getOwnerEntityId() {
+        return ownerEntityId_;
+      }
+
+      public Builder setOwnerEntityId(int value) {
+
+        ownerEntityId_ = value;
+        onChanged();
+        return this;
+      }
+
+      public Builder clearOwnerEntityId() {
+
+        ownerEntityId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private long guid_ ;
+
+      @java.lang.Override
+      public long getGuid() {
+        return guid_;
+      }
+
+      public Builder setGuid(long value) {
+
+        guid_ = value;
+        onChanged();
+        return this;
+      }
+
+      public Builder clearGuid() {
+
+        guid_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private int campType_ ;
+
+      @java.lang.Override
+      public int getCampType() {
+        return campType_;
+      }
+
+      public Builder setCampType(int value) {
+
+        campType_ = value;
+        onChanged();
+        return this;
+      }
+
+      public Builder clearCampType() {
+
+        campType_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int campId_ ;
+
+      @java.lang.Override
+      public int getCampId() {
+        return campId_;
+      }
+
+      public Builder setCampId(int value) {
+
+        campId_ = value;
+        onChanged();
+        return this;
+      }
+
+      public Builder clearCampId() {
+
+        campId_ = 0;
+        onChanged();
+        return this;
+      }
+      @java.lang.Override
+      public final Builder setUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return super.setUnknownFields(unknownFields);
+      }
+
+      @java.lang.Override
+      public final Builder mergeUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return super.mergeUnknownFields(unknownFields);
+      }
+
+    }
+
+    private static final emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify DEFAULT_INSTANCE;
+    static {
+      DEFAULT_INSTANCE = new emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify();
+    }
+
+    public static emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify getDefaultInstance() {
+      return DEFAULT_INSTANCE;
+    }
+
+    private static final com.google.protobuf.Parser<EvtCreateGadgetNotify>
+        PARSER = new com.google.protobuf.AbstractParser<EvtCreateGadgetNotify>() {
+      @java.lang.Override
+      public EvtCreateGadgetNotify parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new EvtCreateGadgetNotify(input, extensionRegistry);
+      }
+    };
+
+    public static com.google.protobuf.Parser<EvtCreateGadgetNotify> parser() {
+      return PARSER;
+    }
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<EvtCreateGadgetNotify> getParserForType() {
+      return PARSER;
+    }
+
+    @java.lang.Override
+    public emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify getDefaultInstanceForType() {
+      return DEFAULT_INSTANCE;
+    }
+
+  }
+
+  private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_EvtCreateGadgetNotify_descriptor;
+  private static final
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_EvtCreateGadgetNotify_fieldAccessorTable;
+
+  public static com.google.protobuf.Descriptors.FileDescriptor
+      getDescriptor() {
+    return descriptor;
+  }
+  private static  com.google.protobuf.Descriptors.FileDescriptor
+      descriptor;
+  static {
+    java.lang.String[] descriptorData = {
+      "\n\033EvtCreateGadgetNotify.proto\032\014Vector.pr" +
+      "oto\032\023AbilityString.proto\032\021ForwardType.pr" +
+      "oto\032\025LifeByOwnerType.proto\"\340\004\n\025EvtCreate" +
+      "GadgetNotify\022$\n\034target_lock_point_index_" +
+      "list\030\023 \003(\r\022\"\n\021init_euler_angles\030\007 \001(\0132\007." +
+      "Vector\022\031\n\010init_pos\030\006 \001(\0132\007.Vector\022%\n\014abi" +
+      "lity_name\030\317\004 \001(\0132\016.AbilityString\022\036\n\025targ" +
+      "et_entity_id_list\030\250\006 \003(\r\022\021\n\tconfig_id\030\003 " +
+      "\001(\r\022\"\n\014forward_type\030\010 \001(\0162\014.ForwardType\022" +
+      "\025\n\014init_pose_id\030\203\r \001(\r\022-\n\022life_by_owner_" +
+      "type\030\257\014 \001(\0162\020.LifeByOwnerType\022\036\n\026is_peer" +
+      "_id_from_player\030C \001(\010\022\025\n\ris_async_load\030\020" +
+      " \001(\010\022\024\n\013OCMHHIEOMKI\030\375\006 \001(\010\022\021\n\tentity_id\030" +
+      "\004 \001(\r\022\030\n\017born_slot_index\030\261\014 \001(\r\022\034\n\024prop_" +
+      "owner_entity_id\030\016 \001(\r\022\020\n\010local_id\030\' \001(\005\022" +
+      "\030\n\020target_entity_id\030\013 \001(\r\022\017\n\007room_id\030\001 \001" +
+      "(\r\022\027\n\017owner_entity_id\030\014 \001(\r\022\014\n\004guid\030\n \001(" +
+      "\004\022\021\n\tcamp_type\030\002 \001(\r\022\017\n\007camp_id\030\r \001(\rB\033\n" +
+      "\031emu.grasscutter.net.protob\006proto3"
+    };
+    descriptor = com.google.protobuf.Descriptors.FileDescriptor
+      .internalBuildGeneratedFileFrom(descriptorData,
+        new com.google.protobuf.Descriptors.FileDescriptor[] {
+          emu.grasscutter.net.proto.VectorOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.AbilityStringOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.ForwardTypeOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.getDescriptor(),
+        });
+    internal_static_EvtCreateGadgetNotify_descriptor =
+      getDescriptor().getMessageTypes().get(0);
+    internal_static_EvtCreateGadgetNotify_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_EvtCreateGadgetNotify_descriptor,
+        new java.lang.String[] { "TargetLockPointIndexList", "InitEulerAngles", "InitPos", "AbilityName", "TargetEntityIdList", "ConfigId", "ForwardType", "InitPoseId", "LifeByOwnerType", "IsPeerIdFromPlayer", "IsAsyncLoad", "OCMHHIEOMKI", "EntityId", "BornSlotIndex", "PropOwnerEntityId", "LocalId", "TargetEntityId", "RoomId", "OwnerEntityId", "Guid", "CampType", "CampId", });
+    emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.AbilityStringOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.ForwardTypeOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.getDescriptor();
+  }
+
+}

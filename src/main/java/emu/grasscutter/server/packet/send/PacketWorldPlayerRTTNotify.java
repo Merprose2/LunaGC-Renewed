@@ -1,0 +1,25 @@
+package emu.grasscutter.server.packet.send;
+
+import emu.grasscutter.game.player.Player;
+import emu.grasscutter.game.world.World;
+import emu.grasscutter.net.packet.*;
+import emu.grasscutter.net.proto.PlayerRTTInfoOuterClass.PlayerRTTInfo;
+import emu.grasscutter.net.proto.WorldPlayerRTTNotifyOuterClass.WorldPlayerRTTNotify;
+
+public class PacketWorldPlayerRTTNotify extends BasePacket {
+
+    public PacketWorldPlayerRTTNotify(World world) {
+        super(PacketOpcodes.WorldPlayerRTTNotify);
+
+        WorldPlayerRTTNotify.Builder proto = WorldPlayerRTTNotify.newBuilder();
+
+        for (Player player : world.getPlayers()) {
+            proto.addPlayerRttList(
+                    PlayerRTTInfo.newBuilder()
+                            .setRtt(10 * 1000 * 1000)
+                    );
+        }
+
+        this.setData(proto);
+    }
+}
