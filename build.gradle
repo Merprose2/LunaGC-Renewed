@@ -13,6 +13,7 @@ buildscript {
     repositories {
         maven { url 'https://plugins.gradle.org/m2/' }
     }
+
     dependencies {
         classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.18'
     }
@@ -29,8 +30,7 @@ plugins {
     id 'idea' // IntelliJ Support
 
     id 'maven-publish' // Support for publishing to Maven repositories.
-    id 'signing' // Support for signing build artifacts.
-
+    id 'signing' // Support for signing Maven publications.
     id 'io.freefair.lombok' version '6.6.1' // Lombok for delombok'ification
 }
 
@@ -52,11 +52,11 @@ spotless {
 }
 
 compileJava {
-	options.encoding = "UTF-8"
-	options.fork = 'true'
-	options.forkOptions.with {
-		memoryMaximumSize = "3000m"
-	}
+    options.encoding = "UTF-8"
+    options.fork = 'true'
+    options.forkOptions.with {
+        memoryMaximumSize = "3000m"
+    }
 }
 
 compileTestJava.options.encoding = 'UTF-8'
@@ -65,7 +65,7 @@ sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17
 
 group = 'io.grasscutter'
-version = '6.6.0'
+version = '7.0'
 
 java {
     withJavadocJar()
@@ -128,9 +128,10 @@ dependencies {
 
     // Java HTTP server library.
     implementation group: 'io.javalin', name: 'javalin', version: '5.5.0'
+
     // Java WebSocket server & client library.
     implementation group: 'org.java-websocket', name: 'Java-WebSocket', version: '1.5.2'
-    
+
     // Xxhash
     implementation group: 'net.openhft', name: 'zero-allocation-hashing', version: '0.26ea0'
 
@@ -173,11 +174,11 @@ tasks.register('buildResourceCache', JavaExec) {
 
     def resourcesPath =
             project.findProperty('resourcesDir')
-                    ?: '../LunaGC-6.6-res'
+                    ?: '../LunaGC-7.0-res'
 
     def outputPath =
             project.findProperty('cacheOutput')
-                    ?: 'LunaGC-6.6-resources.cache'
+                    ?: 'LunaGC-7.0-resources.cache'
 
     args(
             '--resources',
@@ -204,7 +205,7 @@ tasks.register('validateResourceCache', JavaExec) {
 
     def inputPath =
             project.findProperty('cacheInput')
-                    ?: 'LunaGC-6.6-resources.cache'
+                    ?: 'LunaGC-7.0-resources.cache'
 
     args(
             '--input',
@@ -220,6 +221,8 @@ jar {
     }
 
     archiveBaseName = 'LunaGC'
+    archiveVersion = '7.0'
+
     if (project.hasProperty('jarFilename')) {
         archiveFileName = "${jarFilename}.${archiveExtension}"
     }
@@ -259,9 +262,9 @@ publishing {
             }
 
             pom {
-                name = 'Grasscutter'
+                name = 'LunaGC-Renewed'
                 description = 'A server software reimplementation for an anime game.'
-                url = 'https://github.com/Grasscutters/Grasscutter'
+                url = 'https://github.com/Merprose2/LunaGC-Renewed'
                 licenses {
                     license {
                         name = 'The Apache License, Version 2.0'
@@ -276,9 +279,9 @@ publishing {
                     }
                 }
                 scm {
-                    connection = 'scm:git:git@github.com:Grasscutters/Grasscutter.git'
-                    developerConnection = 'scm:git:ssh://github.com:Grasscutters/Grasscutter.git'
-                    url = 'https://github.com/Grasscutters/Grasscutter'
+                    connection = 'scm:git:git@github.com:Merprose2/LunaGC-Renewed.git'
+                    developerConnection = 'scm:git:ssh://github.com:Merprose2/LunaGC-Renewed.git'
+                    url = 'https://github.com/Merprose2/LunaGC-Renewed'
                 }
             }
         }
@@ -304,8 +307,10 @@ publishing {
                     println('Publishing to Sonatype')
                 }
 
-                def releasesRepoUrl = 'https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/'
-                def snapshotsRepoUrl = 'https://s01.oss.sonatype.org/content/repositories/snapshots/'
+                def releasesRepoUrl =
+                        'https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/'
+                def snapshotsRepoUrl =
+                        'https://s01.oss.sonatype.org/content/repositories/snapshots/'
                 url = version.endsWith('SNAPSHOT') ? snapshotsRepoUrl : releasesRepoUrl
 
                 name = 'sonatype'

@@ -1,13 +1,7 @@
 # LunaGC-6.6.0
 
-## Important note
-This is an experimental 6.6 branch containing changes catered to fix some gameplay aspects related to farming and building characters for the heck of it.
-Protocol buffer definitions can be found on [GitLab](https://gitlab.com/CarolBicsi/genshin-protocol), including translations.
-
-## Updated version of Grasscutters, with some new features implemented.
+## Updated version of Grasscutters/LunaGC, with some new features implemented.
 Features and functionality of the PS is not guaranteed, try it yourself to see what works and what doesnt.
-This is possibly the only public PS with updated mob and gadget spawns, including custom fallback mob spawns for otherwise unsupported post-5.4
-overworld regions.
 
 # Read the [handbook](handbook.md)!
 
@@ -42,7 +36,7 @@ overworld regions.
 - Clone the repository (install [Git](https://git-scm.com) first )
 
   ```
-  git clone https://github.com/Rafs-kk/LunaGC-6.6.git
+  git clone https://github.com/Merprose2/LunaGC-Renewed.git
   ```
 
 - Now you can continue with the steps below.
