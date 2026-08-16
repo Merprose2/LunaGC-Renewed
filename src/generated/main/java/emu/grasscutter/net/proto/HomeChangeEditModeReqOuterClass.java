@@ -26,7 +26,7 @@ public final class HomeChangeEditModeReqOuterClass {
   }
   /**
    * <pre>
-   * CmdId: 21221
+   * CmdId: 8351
    * Obf: ALGDHNPEBCO
    * </pre>
    *
@@ -74,7 +74,7 @@ public final class HomeChangeEditModeReqOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 80: {
 
               isEnterEditMode_ = input.readBool();
               break;
@@ -111,7 +111,7 @@ public final class HomeChangeEditModeReqOuterClass {
               emu.grasscutter.net.proto.HomeChangeEditModeReqOuterClass.HomeChangeEditModeReq.class, emu.grasscutter.net.proto.HomeChangeEditModeReqOuterClass.HomeChangeEditModeReq.Builder.class);
     }
 
-    public static final int IS_ENTER_EDIT_MODE_FIELD_NUMBER = 4;
+    public static final int IS_ENTER_EDIT_MODE_FIELD_NUMBER = 10;
     private boolean isEnterEditMode_;
     /**
      * <code>bool is_enter_edit_mode = 2;</code>
@@ -137,7 +137,7 @@ public final class HomeChangeEditModeReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isEnterEditMode_ != false) {
-        output.writeBool(4, isEnterEditMode_);
+        output.writeBool(10, isEnterEditMode_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class HomeChangeEditModeReqOuterClass {
       size = 0;
       if (isEnterEditMode_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, isEnterEditMode_);
+          .computeBoolSize(10, isEnterEditMode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -280,7 +280,7 @@ public final class HomeChangeEditModeReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 21221
+     * CmdId: 8351
      * Obf: ALGDHNPEBCO
      * </pre>
      *
@@ -445,7 +445,7 @@ public final class HomeChangeEditModeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsEnterEditMode(boolean value) {
-
+        
         isEnterEditMode_ = value;
         onChanged();
         return this;
@@ -455,7 +455,7 @@ public final class HomeChangeEditModeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsEnterEditMode() {
-
+        
         isEnterEditMode_ = false;
         onChanged();
         return this;
@@ -515,7 +515,7 @@ public final class HomeChangeEditModeReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HomeChangeEditModeReq_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HomeChangeEditModeReq_fieldAccessorTable;
 

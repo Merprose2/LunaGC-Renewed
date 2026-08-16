@@ -19,56 +19,51 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.HomeAvatarRewardEventInfo reward_event = 4;</code>
-     * @return Whether the rewardEvent field is set.
+     * <code>bool is_event_trigger = 4;</code>
+     * @return The isEventTrigger.
      */
-    boolean hasRewardEvent();
-    /**
-     * <code>.HomeAvatarRewardEventInfo reward_event = 4;</code>
-     * @return The rewardEvent.
-     */
-    emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo getRewardEvent();
-    /**
-     * <code>.HomeAvatarRewardEventInfo reward_event = 4;</code>
-     */
-    emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder getRewardEventOrBuilder();
+    boolean getIsEventTrigger();
 
     /**
-     * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
+     * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo>
+    java.util.List<emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo> 
         getPendingListList();
     /**
-     * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
+     * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
      */
     emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo getPendingList(int index);
     /**
-     * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
+     * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
      */
     int getPendingListCount();
     /**
-     * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
+     * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder>
+    java.util.List<? extends emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder> 
         getPendingListOrBuilderList();
     /**
-     * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
+     * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
      */
     emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder getPendingListOrBuilder(
         int index);
 
     /**
-     * <code>bool is_event_trigger = 7;</code>
-     * @return The isEventTrigger.
+     * <code>.HomeAvatarRewardEventInfo reward_event = 13;</code>
+     * @return Whether the rewardEvent field is set.
      */
-    boolean getIsEventTrigger();
+    boolean hasRewardEvent();
+    /**
+     * <code>.HomeAvatarRewardEventInfo reward_event = 13;</code>
+     * @return The rewardEvent.
+     */
+    emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo getRewardEvent();
+    /**
+     * <code>.HomeAvatarRewardEventInfo reward_event = 13;</code>
+     */
+    emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder getRewardEventOrBuilder();
   }
   /**
-   * <pre>
-   * CmdId: 29692
-   * Obf: DCCPJJPIGAB
-   * </pre>
-   *
    * Protobuf type {@code HomeAvatarRewardEventNotify}
    */
   public static final class HomeAvatarRewardEventNotify extends
@@ -115,7 +110,21 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 90: {
+            case 32: {
+
+              isEventTrigger_ = input.readBool();
+              break;
+            }
+            case 74: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                pendingList_ = new java.util.ArrayList<emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              pendingList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.parser(), extensionRegistry));
+              break;
+            }
+            case 106: {
               emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder subBuilder = null;
               if (rewardEvent_ != null) {
                 subBuilder = rewardEvent_.toBuilder();
@@ -126,20 +135,6 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
                 rewardEvent_ = subBuilder.buildPartial();
               }
 
-              break;
-            }
-            case 96: {
-
-              isEventTrigger_ = input.readBool();
-              break;
-            }
-            case 82: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                pendingList_ = new java.util.ArrayList<emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              pendingList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -177,65 +172,50 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
               emu.grasscutter.net.proto.HomeAvatarRewardEventNotifyOuterClass.HomeAvatarRewardEventNotify.class, emu.grasscutter.net.proto.HomeAvatarRewardEventNotifyOuterClass.HomeAvatarRewardEventNotify.Builder.class);
     }
 
-    public static final int REWARD_EVENT_FIELD_NUMBER = 11;
-    private emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo rewardEvent_;
+    public static final int IS_EVENT_TRIGGER_FIELD_NUMBER = 4;
+    private boolean isEventTrigger_;
     /**
-     * <code>.HomeAvatarRewardEventInfo reward_event = 4;</code>
-     * @return Whether the rewardEvent field is set.
+     * <code>bool is_event_trigger = 4;</code>
+     * @return The isEventTrigger.
      */
     @java.lang.Override
-    public boolean hasRewardEvent() {
-      return rewardEvent_ != null;
-    }
-    /**
-     * <code>.HomeAvatarRewardEventInfo reward_event = 4;</code>
-     * @return The rewardEvent.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo getRewardEvent() {
-      return rewardEvent_ == null ? emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.getDefaultInstance() : rewardEvent_;
-    }
-    /**
-     * <code>.HomeAvatarRewardEventInfo reward_event = 4;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder getRewardEventOrBuilder() {
-      return getRewardEvent();
+    public boolean getIsEventTrigger() {
+      return isEventTrigger_;
     }
 
-    public static final int PENDING_LIST_FIELD_NUMBER = 10;
+    public static final int PENDING_LIST_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo> pendingList_;
     /**
-     * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
+     * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo> getPendingListList() {
       return pendingList_;
     }
     /**
-     * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
+     * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder> 
         getPendingListOrBuilderList() {
       return pendingList_;
     }
     /**
-     * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
+     * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
      */
     @java.lang.Override
     public int getPendingListCount() {
       return pendingList_.size();
     }
     /**
-     * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
+     * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo getPendingList(int index) {
       return pendingList_.get(index);
     }
     /**
-     * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
+     * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder getPendingListOrBuilder(
@@ -243,15 +223,30 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
       return pendingList_.get(index);
     }
 
-    public static final int IS_EVENT_TRIGGER_FIELD_NUMBER = 12;
-    private boolean isEventTrigger_;
+    public static final int REWARD_EVENT_FIELD_NUMBER = 13;
+    private emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo rewardEvent_;
     /**
-     * <code>bool is_event_trigger = 7;</code>
-     * @return The isEventTrigger.
+     * <code>.HomeAvatarRewardEventInfo reward_event = 13;</code>
+     * @return Whether the rewardEvent field is set.
      */
     @java.lang.Override
-    public boolean getIsEventTrigger() {
-      return isEventTrigger_;
+    public boolean hasRewardEvent() {
+      return rewardEvent_ != null;
+    }
+    /**
+     * <code>.HomeAvatarRewardEventInfo reward_event = 13;</code>
+     * @return The rewardEvent.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo getRewardEvent() {
+      return rewardEvent_ == null ? emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.getDefaultInstance() : rewardEvent_;
+    }
+    /**
+     * <code>.HomeAvatarRewardEventInfo reward_event = 13;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder getRewardEventOrBuilder() {
+      return getRewardEvent();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -268,14 +263,14 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (rewardEvent_ != null) {
-        output.writeMessage(11, getRewardEvent());
-      }
       if (isEventTrigger_ != false) {
-        output.writeBool(12, isEventTrigger_);
+        output.writeBool(4, isEventTrigger_);
       }
       for (int i = 0; i < pendingList_.size(); i++) {
-        output.writeMessage(10, pendingList_.get(i));
+        output.writeMessage(9, pendingList_.get(i));
+      }
+      if (rewardEvent_ != null) {
+        output.writeMessage(13, getRewardEvent());
       }
       unknownFields.writeTo(output);
     }
@@ -286,17 +281,17 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (rewardEvent_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, getRewardEvent());
-      }
       if (isEventTrigger_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isEventTrigger_);
+          .computeBoolSize(4, isEventTrigger_);
       }
       for (int i = 0; i < pendingList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, pendingList_.get(i));
+          .computeMessageSize(9, pendingList_.get(i));
+      }
+      if (rewardEvent_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(13, getRewardEvent());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -313,15 +308,15 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
       }
       emu.grasscutter.net.proto.HomeAvatarRewardEventNotifyOuterClass.HomeAvatarRewardEventNotify other = (emu.grasscutter.net.proto.HomeAvatarRewardEventNotifyOuterClass.HomeAvatarRewardEventNotify) obj;
 
+      if (getIsEventTrigger()
+          != other.getIsEventTrigger()) return false;
+      if (!getPendingListList()
+          .equals(other.getPendingListList())) return false;
       if (hasRewardEvent() != other.hasRewardEvent()) return false;
       if (hasRewardEvent()) {
         if (!getRewardEvent()
             .equals(other.getRewardEvent())) return false;
       }
-      if (!getPendingListList()
-          .equals(other.getPendingListList())) return false;
-      if (getIsEventTrigger()
-          != other.getIsEventTrigger()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -333,17 +328,17 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (hasRewardEvent()) {
-        hash = (37 * hash) + REWARD_EVENT_FIELD_NUMBER;
-        hash = (53 * hash) + getRewardEvent().hashCode();
-      }
+      hash = (37 * hash) + IS_EVENT_TRIGGER_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIsEventTrigger());
       if (getPendingListCount() > 0) {
         hash = (37 * hash) + PENDING_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getPendingListList().hashCode();
       }
-      hash = (37 * hash) + IS_EVENT_TRIGGER_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsEventTrigger());
+      if (hasRewardEvent()) {
+        hash = (37 * hash) + REWARD_EVENT_FIELD_NUMBER;
+        hash = (53 * hash) + getRewardEvent().hashCode();
+      }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -440,11 +435,6 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 29692
-     * Obf: DCCPJJPIGAB
-     * </pre>
-     *
      * Protobuf type {@code HomeAvatarRewardEventNotify}
      */
     public static final class Builder extends
@@ -483,20 +473,20 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (rewardEventBuilder_ == null) {
-          rewardEvent_ = null;
-        } else {
-          rewardEvent_ = null;
-          rewardEventBuilder_ = null;
-        }
+        isEventTrigger_ = false;
+
         if (pendingListBuilder_ == null) {
           pendingList_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
         } else {
           pendingListBuilder_.clear();
         }
-        isEventTrigger_ = false;
-
+        if (rewardEventBuilder_ == null) {
+          rewardEvent_ = null;
+        } else {
+          rewardEvent_ = null;
+          rewardEventBuilder_ = null;
+        }
         return this;
       }
 
@@ -524,11 +514,7 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
       public emu.grasscutter.net.proto.HomeAvatarRewardEventNotifyOuterClass.HomeAvatarRewardEventNotify buildPartial() {
         emu.grasscutter.net.proto.HomeAvatarRewardEventNotifyOuterClass.HomeAvatarRewardEventNotify result = new emu.grasscutter.net.proto.HomeAvatarRewardEventNotifyOuterClass.HomeAvatarRewardEventNotify(this);
         int from_bitField0_ = bitField0_;
-        if (rewardEventBuilder_ == null) {
-          result.rewardEvent_ = rewardEvent_;
-        } else {
-          result.rewardEvent_ = rewardEventBuilder_.build();
-        }
+        result.isEventTrigger_ = isEventTrigger_;
         if (pendingListBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
             pendingList_ = java.util.Collections.unmodifiableList(pendingList_);
@@ -538,7 +524,11 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
         } else {
           result.pendingList_ = pendingListBuilder_.build();
         }
-        result.isEventTrigger_ = isEventTrigger_;
+        if (rewardEventBuilder_ == null) {
+          result.rewardEvent_ = rewardEvent_;
+        } else {
+          result.rewardEvent_ = rewardEventBuilder_.build();
+        }
         onBuilt();
         return result;
       }
@@ -587,8 +577,8 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.HomeAvatarRewardEventNotifyOuterClass.HomeAvatarRewardEventNotify other) {
         if (other == emu.grasscutter.net.proto.HomeAvatarRewardEventNotifyOuterClass.HomeAvatarRewardEventNotify.getDefaultInstance()) return this;
-        if (other.hasRewardEvent()) {
-          mergeRewardEvent(other.getRewardEvent());
+        if (other.getIsEventTrigger() != false) {
+          setIsEventTrigger(other.getIsEventTrigger());
         }
         if (pendingListBuilder_ == null) {
           if (!other.pendingList_.isEmpty()) {
@@ -608,7 +598,7 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
               pendingListBuilder_ = null;
               pendingList_ = other.pendingList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              pendingListBuilder_ =
+              pendingListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getPendingListFieldBuilder() : null;
             } else {
@@ -616,8 +606,8 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
             }
           }
         }
-        if (other.getIsEventTrigger() != false) {
-          setIsEventTrigger(other.getIsEventTrigger());
+        if (other.hasRewardEvent()) {
+          mergeRewardEvent(other.getRewardEvent());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -649,18 +639,289 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
       }
       private int bitField0_;
 
+      private boolean isEventTrigger_ ;
+      /**
+       * <code>bool is_event_trigger = 4;</code>
+       * @return The isEventTrigger.
+       */
+      @java.lang.Override
+      public boolean getIsEventTrigger() {
+        return isEventTrigger_;
+      }
+      /**
+       * <code>bool is_event_trigger = 4;</code>
+       * @param value The isEventTrigger to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsEventTrigger(boolean value) {
+        
+        isEventTrigger_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool is_event_trigger = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsEventTrigger() {
+        
+        isEventTrigger_ = false;
+        onChanged();
+        return this;
+      }
+
+      private java.util.List<emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo> pendingList_ =
+        java.util.Collections.emptyList();
+      private void ensurePendingListIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          pendingList_ = new java.util.ArrayList<emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo>(pendingList_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder> pendingListBuilder_;
+
+      /**
+       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo> getPendingListList() {
+        if (pendingListBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(pendingList_);
+        } else {
+          return pendingListBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
+       */
+      public int getPendingListCount() {
+        if (pendingListBuilder_ == null) {
+          return pendingList_.size();
+        } else {
+          return pendingListBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
+       */
+      public emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo getPendingList(int index) {
+        if (pendingListBuilder_ == null) {
+          return pendingList_.get(index);
+        } else {
+          return pendingListBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
+       */
+      public Builder setPendingList(
+          int index, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo value) {
+        if (pendingListBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensurePendingListIsMutable();
+          pendingList_.set(index, value);
+          onChanged();
+        } else {
+          pendingListBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
+       */
+      public Builder setPendingList(
+          int index, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder builderForValue) {
+        if (pendingListBuilder_ == null) {
+          ensurePendingListIsMutable();
+          pendingList_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          pendingListBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
+       */
+      public Builder addPendingList(emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo value) {
+        if (pendingListBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensurePendingListIsMutable();
+          pendingList_.add(value);
+          onChanged();
+        } else {
+          pendingListBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
+       */
+      public Builder addPendingList(
+          int index, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo value) {
+        if (pendingListBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensurePendingListIsMutable();
+          pendingList_.add(index, value);
+          onChanged();
+        } else {
+          pendingListBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
+       */
+      public Builder addPendingList(
+          emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder builderForValue) {
+        if (pendingListBuilder_ == null) {
+          ensurePendingListIsMutable();
+          pendingList_.add(builderForValue.build());
+          onChanged();
+        } else {
+          pendingListBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
+       */
+      public Builder addPendingList(
+          int index, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder builderForValue) {
+        if (pendingListBuilder_ == null) {
+          ensurePendingListIsMutable();
+          pendingList_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          pendingListBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
+       */
+      public Builder addAllPendingList(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo> values) {
+        if (pendingListBuilder_ == null) {
+          ensurePendingListIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, pendingList_);
+          onChanged();
+        } else {
+          pendingListBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
+       */
+      public Builder clearPendingList() {
+        if (pendingListBuilder_ == null) {
+          pendingList_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+          onChanged();
+        } else {
+          pendingListBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
+       */
+      public Builder removePendingList(int index) {
+        if (pendingListBuilder_ == null) {
+          ensurePendingListIsMutable();
+          pendingList_.remove(index);
+          onChanged();
+        } else {
+          pendingListBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
+       */
+      public emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder getPendingListBuilder(
+          int index) {
+        return getPendingListFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
+       */
+      public emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder getPendingListOrBuilder(
+          int index) {
+        if (pendingListBuilder_ == null) {
+          return pendingList_.get(index);  } else {
+          return pendingListBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder> 
+           getPendingListOrBuilderList() {
+        if (pendingListBuilder_ != null) {
+          return pendingListBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(pendingList_);
+        }
+      }
+      /**
+       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
+       */
+      public emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder addPendingListBuilder() {
+        return getPendingListFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
+       */
+      public emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder addPendingListBuilder(
+          int index) {
+        return getPendingListFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 9;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder> 
+           getPendingListBuilderList() {
+        return getPendingListFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder> 
+          getPendingListFieldBuilder() {
+        if (pendingListBuilder_ == null) {
+          pendingListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder>(
+                  pendingList_,
+                  ((bitField0_ & 0x00000001) != 0),
+                  getParentForChildren(),
+                  isClean());
+          pendingList_ = null;
+        }
+        return pendingListBuilder_;
+      }
+
       private emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo rewardEvent_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder> rewardEventBuilder_;
       /**
-       * <code>.HomeAvatarRewardEventInfo reward_event = 4;</code>
+       * <code>.HomeAvatarRewardEventInfo reward_event = 13;</code>
        * @return Whether the rewardEvent field is set.
        */
       public boolean hasRewardEvent() {
         return rewardEventBuilder_ != null || rewardEvent_ != null;
       }
       /**
-       * <code>.HomeAvatarRewardEventInfo reward_event = 4;</code>
+       * <code>.HomeAvatarRewardEventInfo reward_event = 13;</code>
        * @return The rewardEvent.
        */
       public emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo getRewardEvent() {
@@ -671,7 +932,7 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
         }
       }
       /**
-       * <code>.HomeAvatarRewardEventInfo reward_event = 4;</code>
+       * <code>.HomeAvatarRewardEventInfo reward_event = 13;</code>
        */
       public Builder setRewardEvent(emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo value) {
         if (rewardEventBuilder_ == null) {
@@ -687,7 +948,7 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.HomeAvatarRewardEventInfo reward_event = 4;</code>
+       * <code>.HomeAvatarRewardEventInfo reward_event = 13;</code>
        */
       public Builder setRewardEvent(
           emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder builderForValue) {
@@ -701,7 +962,7 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.HomeAvatarRewardEventInfo reward_event = 4;</code>
+       * <code>.HomeAvatarRewardEventInfo reward_event = 13;</code>
        */
       public Builder mergeRewardEvent(emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo value) {
         if (rewardEventBuilder_ == null) {
@@ -719,7 +980,7 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.HomeAvatarRewardEventInfo reward_event = 4;</code>
+       * <code>.HomeAvatarRewardEventInfo reward_event = 13;</code>
        */
       public Builder clearRewardEvent() {
         if (rewardEventBuilder_ == null) {
@@ -733,15 +994,15 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.HomeAvatarRewardEventInfo reward_event = 4;</code>
+       * <code>.HomeAvatarRewardEventInfo reward_event = 13;</code>
        */
       public emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder getRewardEventBuilder() {
-
+        
         onChanged();
         return getRewardEventFieldBuilder().getBuilder();
       }
       /**
-       * <code>.HomeAvatarRewardEventInfo reward_event = 4;</code>
+       * <code>.HomeAvatarRewardEventInfo reward_event = 13;</code>
        */
       public emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder getRewardEventOrBuilder() {
         if (rewardEventBuilder_ != null) {
@@ -752,10 +1013,10 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
         }
       }
       /**
-       * <code>.HomeAvatarRewardEventInfo reward_event = 4;</code>
+       * <code>.HomeAvatarRewardEventInfo reward_event = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder>
+          emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder> 
           getRewardEventFieldBuilder() {
         if (rewardEventBuilder_ == null) {
           rewardEventBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -766,277 +1027,6 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
           rewardEvent_ = null;
         }
         return rewardEventBuilder_;
-      }
-
-      private java.util.List<emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo> pendingList_ =
-        java.util.Collections.emptyList();
-      private void ensurePendingListIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
-          pendingList_ = new java.util.ArrayList<emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo>(pendingList_);
-          bitField0_ |= 0x00000001;
-         }
-      }
-
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder> pendingListBuilder_;
-
-      /**
-       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo> getPendingListList() {
-        if (pendingListBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(pendingList_);
-        } else {
-          return pendingListBuilder_.getMessageList();
-        }
-      }
-      /**
-       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
-       */
-      public int getPendingListCount() {
-        if (pendingListBuilder_ == null) {
-          return pendingList_.size();
-        } else {
-          return pendingListBuilder_.getCount();
-        }
-      }
-      /**
-       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
-       */
-      public emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo getPendingList(int index) {
-        if (pendingListBuilder_ == null) {
-          return pendingList_.get(index);
-        } else {
-          return pendingListBuilder_.getMessage(index);
-        }
-      }
-      /**
-       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
-       */
-      public Builder setPendingList(
-          int index, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo value) {
-        if (pendingListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensurePendingListIsMutable();
-          pendingList_.set(index, value);
-          onChanged();
-        } else {
-          pendingListBuilder_.setMessage(index, value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
-       */
-      public Builder setPendingList(
-          int index, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder builderForValue) {
-        if (pendingListBuilder_ == null) {
-          ensurePendingListIsMutable();
-          pendingList_.set(index, builderForValue.build());
-          onChanged();
-        } else {
-          pendingListBuilder_.setMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
-       */
-      public Builder addPendingList(emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo value) {
-        if (pendingListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensurePendingListIsMutable();
-          pendingList_.add(value);
-          onChanged();
-        } else {
-          pendingListBuilder_.addMessage(value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
-       */
-      public Builder addPendingList(
-          int index, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo value) {
-        if (pendingListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensurePendingListIsMutable();
-          pendingList_.add(index, value);
-          onChanged();
-        } else {
-          pendingListBuilder_.addMessage(index, value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
-       */
-      public Builder addPendingList(
-          emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder builderForValue) {
-        if (pendingListBuilder_ == null) {
-          ensurePendingListIsMutable();
-          pendingList_.add(builderForValue.build());
-          onChanged();
-        } else {
-          pendingListBuilder_.addMessage(builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
-       */
-      public Builder addPendingList(
-          int index, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder builderForValue) {
-        if (pendingListBuilder_ == null) {
-          ensurePendingListIsMutable();
-          pendingList_.add(index, builderForValue.build());
-          onChanged();
-        } else {
-          pendingListBuilder_.addMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
-       */
-      public Builder addAllPendingList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo> values) {
-        if (pendingListBuilder_ == null) {
-          ensurePendingListIsMutable();
-          com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, pendingList_);
-          onChanged();
-        } else {
-          pendingListBuilder_.addAllMessages(values);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
-       */
-      public Builder clearPendingList() {
-        if (pendingListBuilder_ == null) {
-          pendingList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
-          onChanged();
-        } else {
-          pendingListBuilder_.clear();
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
-       */
-      public Builder removePendingList(int index) {
-        if (pendingListBuilder_ == null) {
-          ensurePendingListIsMutable();
-          pendingList_.remove(index);
-          onChanged();
-        } else {
-          pendingListBuilder_.remove(index);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
-       */
-      public emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder getPendingListBuilder(
-          int index) {
-        return getPendingListFieldBuilder().getBuilder(index);
-      }
-      /**
-       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
-       */
-      public emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder getPendingListOrBuilder(
-          int index) {
-        if (pendingListBuilder_ == null) {
-          return pendingList_.get(index);  } else {
-          return pendingListBuilder_.getMessageOrBuilder(index);
-        }
-      }
-      /**
-       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder>
-           getPendingListOrBuilderList() {
-        if (pendingListBuilder_ != null) {
-          return pendingListBuilder_.getMessageOrBuilderList();
-        } else {
-          return java.util.Collections.unmodifiableList(pendingList_);
-        }
-      }
-      /**
-       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
-       */
-      public emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder addPendingListBuilder() {
-        return getPendingListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
-       */
-      public emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder addPendingListBuilder(
-          int index) {
-        return getPendingListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .HomeAvatarRewardEventInfo pending_list = 12;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder>
-           getPendingListBuilderList() {
-        return getPendingListFieldBuilder().getBuilderList();
-      }
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder>
-          getPendingListFieldBuilder() {
-        if (pendingListBuilder_ == null) {
-          pendingListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfo.Builder, emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder>(
-                  pendingList_,
-                  ((bitField0_ & 0x00000001) != 0),
-                  getParentForChildren(),
-                  isClean());
-          pendingList_ = null;
-        }
-        return pendingListBuilder_;
-      }
-
-      private boolean isEventTrigger_ ;
-      /**
-       * <code>bool is_event_trigger = 7;</code>
-       * @return The isEventTrigger.
-       */
-      @java.lang.Override
-      public boolean getIsEventTrigger() {
-        return isEventTrigger_;
-      }
-      /**
-       * <code>bool is_event_trigger = 7;</code>
-       * @param value The isEventTrigger to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIsEventTrigger(boolean value) {
-
-        isEventTrigger_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool is_event_trigger = 7;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIsEventTrigger() {
-
-        isEventTrigger_ = false;
-        onChanged();
-        return this;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -1093,7 +1083,7 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HomeAvatarRewardEventNotify_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HomeAvatarRewardEventNotify_fieldAccessorTable;
 
@@ -1107,11 +1097,12 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n!HomeAvatarRewardEventNotify.proto\032\037Hom" +
       "eAvatarRewardEventInfo.proto\"\233\001\n\033HomeAva" +
-      "tarRewardEventNotify\0220\n\014reward_event\030\004 \001" +
-      "(\0132\032.HomeAvatarRewardEventInfo\0220\n\014pendin" +
-      "g_list\030\014 \003(\0132\032.HomeAvatarRewardEventInfo" +
-      "\022\030\n\020is_event_trigger\030\007 \001(\010B\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "tarRewardEventNotify\022\030\n\020is_event_trigger" +
+      "\030\004 \001(\010\0220\n\014pending_list\030\t \003(\0132\032.HomeAvata" +
+      "rRewardEventInfo\0220\n\014reward_event\030\r \001(\0132\032" +
+      ".HomeAvatarRewardEventInfoBB\n\031emu.grassc" +
+      "utter.net.protoB%HomeAvatarRewardEventNo" +
+      "tifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1123,7 +1114,7 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
     internal_static_HomeAvatarRewardEventNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_HomeAvatarRewardEventNotify_descriptor,
-        new java.lang.String[] { "RewardEvent", "PendingList", "IsEventTrigger", });
+        new java.lang.String[] { "IsEventTrigger", "PendingList", "RewardEvent", });
     emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.getDescriptor();
   }
 

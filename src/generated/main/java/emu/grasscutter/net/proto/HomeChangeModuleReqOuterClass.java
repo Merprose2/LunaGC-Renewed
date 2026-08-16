@@ -26,7 +26,7 @@ public final class HomeChangeModuleReqOuterClass {
   }
   /**
    * <pre>
-   * CmdId: 1779
+   * CmdId: 1750
    * Obf: FKPCMCOEEAD
    * </pre>
    *
@@ -74,7 +74,7 @@ public final class HomeChangeModuleReqOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 112: {
 
               targetModuleId_ = input.readUInt32();
               break;
@@ -111,7 +111,7 @@ public final class HomeChangeModuleReqOuterClass {
               emu.grasscutter.net.proto.HomeChangeModuleReqOuterClass.HomeChangeModuleReq.class, emu.grasscutter.net.proto.HomeChangeModuleReqOuterClass.HomeChangeModuleReq.Builder.class);
     }
 
-    public static final int TARGET_MODULE_ID_FIELD_NUMBER = 2;
+    public static final int TARGET_MODULE_ID_FIELD_NUMBER = 14;
     private int targetModuleId_;
     /**
      * <code>uint32 target_module_id = 11;</code>
@@ -137,7 +137,7 @@ public final class HomeChangeModuleReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (targetModuleId_ != 0) {
-        output.writeUInt32(2, targetModuleId_);
+        output.writeUInt32(14, targetModuleId_);
       }
       unknownFields.writeTo(output);
     }
@@ -150,7 +150,7 @@ public final class HomeChangeModuleReqOuterClass {
       size = 0;
       if (targetModuleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, targetModuleId_);
+          .computeUInt32Size(14, targetModuleId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -279,7 +279,7 @@ public final class HomeChangeModuleReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 1779
+     * CmdId: 1750
      * Obf: FKPCMCOEEAD
      * </pre>
      *
@@ -444,7 +444,7 @@ public final class HomeChangeModuleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetModuleId(int value) {
-
+        
         targetModuleId_ = value;
         onChanged();
         return this;
@@ -454,7 +454,7 @@ public final class HomeChangeModuleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetModuleId() {
-
+        
         targetModuleId_ = 0;
         onChanged();
         return this;
@@ -514,7 +514,7 @@ public final class HomeChangeModuleReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HomeChangeModuleReq_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HomeChangeModuleReq_fieldAccessorTable;
 

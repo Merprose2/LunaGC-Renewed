@@ -32,7 +32,7 @@ public final class HomeChangeEditModeRspOuterClass {
   }
   /**
    * <pre>
-   * CmdId: 6529
+   * CmdId: 7491
    * Obf: CICADGGFJOK
    * </pre>
    *
@@ -80,12 +80,12 @@ public final class HomeChangeEditModeRspOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 80: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 80: {
+            case 56: {
 
               isEnterEditMode_ = input.readBool();
               break;
@@ -122,7 +122,7 @@ public final class HomeChangeEditModeRspOuterClass {
               emu.grasscutter.net.proto.HomeChangeEditModeRspOuterClass.HomeChangeEditModeRsp.class, emu.grasscutter.net.proto.HomeChangeEditModeRspOuterClass.HomeChangeEditModeRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 7;
+    public static final int RETCODE_FIELD_NUMBER = 10;
     private int retcode_;
     /**
      * <code>int32 retcode = 2;</code>
@@ -133,7 +133,7 @@ public final class HomeChangeEditModeRspOuterClass {
       return retcode_;
     }
 
-    public static final int IS_ENTER_EDIT_MODE_FIELD_NUMBER = 10;
+    public static final int IS_ENTER_EDIT_MODE_FIELD_NUMBER = 7;
     private boolean isEnterEditMode_;
     /**
      * <code>bool is_enter_edit_mode = 6;</code>
@@ -159,10 +159,10 @@ public final class HomeChangeEditModeRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(7, retcode_);
+        output.writeInt32(10, retcode_);
       }
       if (isEnterEditMode_ != false) {
-        output.writeBool(10, isEnterEditMode_);
+        output.writeBool(7, isEnterEditMode_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +175,11 @@ public final class HomeChangeEditModeRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(7, retcode_);
+          .computeInt32Size(10, retcode_);
       }
       if (isEnterEditMode_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isEnterEditMode_);
+          .computeBoolSize(7, isEnterEditMode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -313,7 +313,7 @@ public final class HomeChangeEditModeRspOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 6529
+     * CmdId: 7491
      * Obf: CICADGGFJOK
      * </pre>
      *
@@ -484,7 +484,7 @@ public final class HomeChangeEditModeRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-
+        
         retcode_ = value;
         onChanged();
         return this;
@@ -494,7 +494,7 @@ public final class HomeChangeEditModeRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-
+        
         retcode_ = 0;
         onChanged();
         return this;
@@ -515,7 +515,7 @@ public final class HomeChangeEditModeRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsEnterEditMode(boolean value) {
-
+        
         isEnterEditMode_ = value;
         onChanged();
         return this;
@@ -525,7 +525,7 @@ public final class HomeChangeEditModeRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsEnterEditMode() {
-
+        
         isEnterEditMode_ = false;
         onChanged();
         return this;
@@ -585,7 +585,7 @@ public final class HomeChangeEditModeRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HomeChangeEditModeRsp_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HomeChangeEditModeRsp_fieldAccessorTable;
 

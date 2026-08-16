@@ -25,11 +25,6 @@ public final class WorldPlayerReviveRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdId: 3657
-   * Obf: OBBNANBMDCB
-   * </pre>
-   *
    * Protobuf type {@code WorldPlayerReviveRsp}
    */
   public static final class WorldPlayerReviveRsp extends
@@ -278,11 +273,6 @@ public final class WorldPlayerReviveRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 3657
-     * Obf: OBBNANBMDCB
-     * </pre>
-     *
      * Protobuf type {@code WorldPlayerReviveRsp}
      */
     public static final class Builder extends
@@ -527,8 +517,9 @@ public final class WorldPlayerReviveRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032WorldPlayerReviveRsp.proto\"\'\n\024WorldPla" +
-      "yerReviveRsp\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "yerReviveRsp\022\017\n\007retcode\030\016 \001(\005B;\n\031emu.gra" +
+      "sscutter.net.protoB\036WorldPlayerReviveRsp" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

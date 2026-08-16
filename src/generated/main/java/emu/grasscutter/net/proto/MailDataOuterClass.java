@@ -1840,8 +1840,8 @@ public final class MailDataOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\016MailData.proto\032\025MailTextContent.proto\032" +
-      "\016MailItem.proto\032\026MailCollectState.proto\"" +
+      "\n\016MailData.proto\032\026MailCollectState.proto" +
+      "\032\016MailItem.proto\032\025MailTextContent.proto\"" +
       "\242\002\n\010MailData\022\017\n\007mail_id\030\001 \001(\r\022+\n\021mail_te" +
       "xt_content\030\004 \001(\0132\020.MailTextContent\022\034\n\tit" +
       "em_list\030\007 \003(\0132\t.MailItem\022\021\n\tsend_time\030\010 " +
@@ -1849,15 +1849,15 @@ public final class MailDataOuterClass {
       " \001(\r\022\017\n\007is_read\030\013 \001(\010\022\031\n\021is_attachment_g" +
       "ot\030\014 \001(\010\022\021\n\tconfig_id\030\r \001(\r\022\025\n\rargument_" +
       "list\030\016 \003(\t\022(\n\rcollect_state\030\017 \001(\0162\021.Mail" +
-      "CollectStateB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "CollectStateB/\n\031emu.grasscutter.net.prot" +
+      "oB\022MailDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.MailTextContentOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.MailItemOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.MailCollectStateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.MailItemOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.MailTextContentOuterClass.getDescriptor(),
         });
     internal_static_MailData_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1865,9 +1865,9 @@ public final class MailDataOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MailData_descriptor,
         new java.lang.String[] { "MailId", "MailTextContent", "ItemList", "SendTime", "ExpireTime", "Importance", "IsRead", "IsAttachmentGot", "ConfigId", "ArgumentList", "CollectState", });
-    emu.grasscutter.net.proto.MailTextContentOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.MailItemOuterClass.getDescriptor();
     emu.grasscutter.net.proto.MailCollectStateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.MailItemOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.MailTextContentOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

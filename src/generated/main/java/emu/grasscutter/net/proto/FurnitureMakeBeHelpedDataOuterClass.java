@@ -113,17 +113,17 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 96: {
 
               icon_ = input.readUInt32();
               break;
             }
-            case 45: {
+            case 117: {
 
               time_ = input.readFixed32();
               break;
             }
-            case 74: {
+            case 106: {
               emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder subBuilder = null;
               if (profilePicture_ != null) {
                 subBuilder = profilePicture_.toBuilder();
@@ -136,12 +136,12 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
 
               break;
             }
-            case 64: {
+            case 120: {
 
               uid_ = input.readUInt32();
               break;
             }
-            case 34: {
+            case 82: {
               java.lang.String s = input.readStringRequireUtf8();
 
               playerName_ = s;
@@ -179,7 +179,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
               emu.grasscutter.net.proto.FurnitureMakeBeHelpedDataOuterClass.FurnitureMakeBeHelpedData.class, emu.grasscutter.net.proto.FurnitureMakeBeHelpedDataOuterClass.FurnitureMakeBeHelpedData.Builder.class);
     }
 
-    public static final int PROFILE_PICTURE_FIELD_NUMBER = 9;
+    public static final int PROFILE_PICTURE_FIELD_NUMBER = 13;
     private emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture profilePicture_;
     /**
      * <code>.ProfilePicture profile_picture = 8;</code>
@@ -205,7 +205,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
       return getProfilePicture();
     }
 
-    public static final int UID_FIELD_NUMBER = 8;
+    public static final int UID_FIELD_NUMBER = 15;
     private int uid_;
     /**
      * <code>uint32 uid = 11;</code>
@@ -216,7 +216,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
       return uid_;
     }
 
-    public static final int TIME_FIELD_NUMBER = 5;
+    public static final int TIME_FIELD_NUMBER = 14;
     private int time_;
     /**
      * <code>fixed32 time = 3;</code>
@@ -227,7 +227,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
       return time_;
     }
 
-    public static final int ICON_FIELD_NUMBER = 7;
+    public static final int ICON_FIELD_NUMBER = 12;
     private int icon_;
     /**
      * <code>uint32 icon = 1;</code>
@@ -238,7 +238,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
       return icon_;
     }
 
-    public static final int PLAYER_NAME_FIELD_NUMBER = 4;
+    public static final int PLAYER_NAME_FIELD_NUMBER = 10;
     private volatile java.lang.Object playerName_;
     /**
      * <code>string player_name = 14;</code>
@@ -250,7 +250,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         playerName_ = s;
@@ -266,7 +266,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
         getPlayerNameBytes() {
       java.lang.Object ref = playerName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         playerName_ = b;
@@ -291,19 +291,19 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (icon_ != 0) {
-        output.writeUInt32(7, icon_);
+        output.writeUInt32(12, icon_);
       }
       if (time_ != 0) {
-        output.writeFixed32(5, time_);
+        output.writeFixed32(14, time_);
       }
       if (profilePicture_ != null) {
-        output.writeMessage(9, getProfilePicture());
+        output.writeMessage(13, getProfilePicture());
       }
       if (uid_ != 0) {
-        output.writeUInt32(8, uid_);
+        output.writeUInt32(15, uid_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(playerName_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 4, playerName_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 10, playerName_);
       }
       unknownFields.writeTo(output);
     }
@@ -316,22 +316,22 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
       size = 0;
       if (icon_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, icon_);
+          .computeUInt32Size(12, icon_);
       }
       if (time_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFixed32Size(5, time_);
+          .computeFixed32Size(14, time_);
       }
       if (profilePicture_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, getProfilePicture());
+          .computeMessageSize(13, getProfilePicture());
       }
       if (uid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, uid_);
+          .computeUInt32Size(15, uid_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(playerName_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(4, playerName_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(10, playerName_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -750,7 +750,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
        * <code>.ProfilePicture profile_picture = 8;</code>
        */
       public emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder getProfilePictureBuilder() {
-
+        
         onChanged();
         return getProfilePictureFieldBuilder().getBuilder();
       }
@@ -769,7 +769,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
        * <code>.ProfilePicture profile_picture = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder>
+          emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder> 
           getProfilePictureFieldBuilder() {
         if (profilePictureBuilder_ == null) {
           profilePictureBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -797,7 +797,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUid(int value) {
-
+        
         uid_ = value;
         onChanged();
         return this;
@@ -807,7 +807,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUid() {
-
+        
         uid_ = 0;
         onChanged();
         return this;
@@ -828,7 +828,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTime(int value) {
-
+        
         time_ = value;
         onChanged();
         return this;
@@ -838,7 +838,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTime() {
-
+        
         time_ = 0;
         onChanged();
         return this;
@@ -859,7 +859,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIcon(int value) {
-
+        
         icon_ = value;
         onChanged();
         return this;
@@ -869,7 +869,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIcon() {
-
+        
         icon_ = 0;
         onChanged();
         return this;
@@ -900,7 +900,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
           getPlayerNameBytes() {
         java.lang.Object ref = playerName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           playerName_ = b;
@@ -919,7 +919,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         playerName_ = value;
         onChanged();
         return this;
@@ -929,7 +929,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPlayerName() {
-
+        
         playerName_ = getDefaultInstance().getPlayerName();
         onChanged();
         return this;
@@ -945,7 +945,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         playerName_ = value;
         onChanged();
         return this;
@@ -1005,7 +1005,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FurnitureMakeBeHelpedData_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FurnitureMakeBeHelpedData_fieldAccessorTable;
 

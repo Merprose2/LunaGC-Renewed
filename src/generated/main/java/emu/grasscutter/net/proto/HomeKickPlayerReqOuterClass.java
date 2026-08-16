@@ -32,7 +32,7 @@ public final class HomeKickPlayerReqOuterClass {
   }
   /**
    * <pre>
-   * CmdId: 3975
+   * CmdId: 24840
    * Obf: HFBBPKBDIHH
    * </pre>
    *
@@ -80,12 +80,12 @@ public final class HomeKickPlayerReqOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 64: {
 
               targetUid_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 16: {
 
               isKickAll_ = input.readBool();
               break;
@@ -122,7 +122,7 @@ public final class HomeKickPlayerReqOuterClass {
               emu.grasscutter.net.proto.HomeKickPlayerReqOuterClass.HomeKickPlayerReq.class, emu.grasscutter.net.proto.HomeKickPlayerReqOuterClass.HomeKickPlayerReq.Builder.class);
     }
 
-    public static final int IS_KICK_ALL_FIELD_NUMBER = 9;
+    public static final int IS_KICK_ALL_FIELD_NUMBER = 2;
     private boolean isKickAll_;
     /**
      * <code>bool is_kick_all = 14;</code>
@@ -133,7 +133,7 @@ public final class HomeKickPlayerReqOuterClass {
       return isKickAll_;
     }
 
-    public static final int TARGET_UID_FIELD_NUMBER = 4;
+    public static final int TARGET_UID_FIELD_NUMBER = 8;
     private int targetUid_;
     /**
      * <code>uint32 target_uid = 7;</code>
@@ -159,10 +159,10 @@ public final class HomeKickPlayerReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (targetUid_ != 0) {
-        output.writeUInt32(4, targetUid_);
+        output.writeUInt32(8, targetUid_);
       }
       if (isKickAll_ != false) {
-        output.writeBool(9, isKickAll_);
+        output.writeBool(2, isKickAll_);
       }
       unknownFields.writeTo(output);
     }
@@ -175,11 +175,11 @@ public final class HomeKickPlayerReqOuterClass {
       size = 0;
       if (targetUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, targetUid_);
+          .computeUInt32Size(8, targetUid_);
       }
       if (isKickAll_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isKickAll_);
+          .computeBoolSize(2, isKickAll_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -313,7 +313,7 @@ public final class HomeKickPlayerReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 3975
+     * CmdId: 24840
      * Obf: HFBBPKBDIHH
      * </pre>
      *
@@ -484,7 +484,7 @@ public final class HomeKickPlayerReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsKickAll(boolean value) {
-
+        
         isKickAll_ = value;
         onChanged();
         return this;
@@ -494,7 +494,7 @@ public final class HomeKickPlayerReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsKickAll() {
-
+        
         isKickAll_ = false;
         onChanged();
         return this;
@@ -515,7 +515,7 @@ public final class HomeKickPlayerReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetUid(int value) {
-
+        
         targetUid_ = value;
         onChanged();
         return this;
@@ -525,7 +525,7 @@ public final class HomeKickPlayerReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetUid() {
-
+        
         targetUid_ = 0;
         onChanged();
         return this;
@@ -585,7 +585,7 @@ public final class HomeKickPlayerReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HomeKickPlayerReq_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HomeKickPlayerReq_fieldAccessorTable;
 
