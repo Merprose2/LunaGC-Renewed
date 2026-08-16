@@ -18,8 +18,8 @@ Features and functionality of the PS is not guaranteed, try it yourself to see w
 - Build the server (refer to "Compile the actual server" in this guide.)
 
 - Install the resources using one of these methods:
--  **Regular method:** Download the [Resources](https://github.com/Rafs-kk/LunaGC-6.6-res), create a folder named `resources` inside the LunaGC folder, and extract the resources into it.
--  **Resource cache method:** Download `LunaGC-6.6-resources.cache` from the [latest Resource Cache release](https://github.com/Rafs-kk/LunaGC-6.6-res/releases/tag/latest-cache), create a folder named `cache` inside the LunaGC folder, and place the file inside it without extracting or renaming it.
+-  **Regular method:** Download the [Resources](https://github.com/Merprose2/LunaGCR-Resources), create a folder named `resources` inside the LunaGC folder, and extract the resources into it.
+-  **Resource cache method:** Download `LunaGC-6.6-resources.cache` from the [latest Resource Cache release](https://github.com/Merprose2/LunaGCR-Resources/releases/tag/latest-cache), create a folder named `cache` inside the LunaGC folder, and place the file inside it without extracting or renaming it.
 -  The server will automatically use a valid resource cache when available and fall back to the normal `resources` folder otherwise.
 - Set useEncryption, Questing and useInRouting to false (it should be false by default, if not then change it).
 - [Patch the game](#patching-the-game)
@@ -27,7 +27,7 @@ Features and functionality of the PS is not guaranteed, try it yourself to see w
 - Have fun!
 
 ### Patching the game
-- Put [Astrolabe.dll](https://github.com/Rafs-kk/LunaGC-6.6/blob/6.6.0/patch/Astrolabe.dll) in the game folder at `GenshinImpact_Data/Plugins`. Make sure you back up the old `Astrolabe.dll` in the plugins folder.
+- Put [Astrolabe.dll](https://github.com/Merprose2/LunaGC-Renewed/tree/7.0/patch) in the game folder at `GenshinImpact_Data/Plugins`. Make sure you back up the old `Astrolabe.dll` in the plugins folder.
 - To "disable" the patch, just rename Astrolabe.dll to something else so it's not a DLL or don't name it Astrolabe (for example Astrolabe.deleleu / astrollable.dll).
 - If you use Cutivation, put the file in the `Cultivation/patch` directory and rename it to `6version.dll`. Make sure you also back up the original dll before replacing it.
 
