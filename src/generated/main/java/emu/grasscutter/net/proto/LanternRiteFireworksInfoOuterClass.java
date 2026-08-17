@@ -824,9 +824,8 @@ public final class LanternRiteFireworksInfoOuterClass {
       "\n\036LanternRiteFireworksInfo.proto\032#Lanter" +
       "nRiteFireworksStageInfo.proto\"S\n\030Lantern" +
       "RiteFireworksInfo\0227\n\017stage_info_list\030\n \003" +
-      "(\0132\036.LanternRiteFireworksStageInfoB?\n\031em" +
-      "u.grasscutter.net.protoB\"LanternRiteFire" +
-      "worksInfoOuterClassb\006proto3"
+      "(\0132\036.LanternRiteFireworksStageInfoB\033\n\031em" +
+      "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -909,9 +909,8 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       "\n BreakoutSyncConnectUidInfo.proto\"Z\n\032Br" +
       "eakoutSyncConnectUidInfo\022\013\n\003uid\030\001 \001(\r\022\025\n" +
       "\rskill_id_list\030\002 \003(\r\022\030\n\020skill_level_list" +
-      "\030\003 \003(\rBA\n\031emu.grasscutter.net.protoB$Bre" +
-      "akoutSyncConnectUidInfoOuterClassb\006proto" +
-      "3"
+      "\030\003 \003(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

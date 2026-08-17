@@ -1160,9 +1160,8 @@ public final class GBAOLFCECGMOuterClass {
       "\n\021GBAOLFCECGM.proto\032\021BNJGIMAFELC.proto\"m" +
       "\n\013GBAOLFCECGM\022\023\n\013LAOJFDMECIB\030\003 \001(\010\022\023\n\013JL" +
       "GIAAGNLCO\030\007 \003(\r\022\037\n\tmark_list\030\013 \003(\0132\014.BNJ" +
-      "GIMAFELC\022\023\n\013NNBCNODJNBG\030\016 \001(\010B2\n\031emu.gra" +
-      "sscutter.net.protoB\025GBAOLFCECGMOuterClas" +
-      "sb\006proto3"
+      "GIMAFELC\022\023\n\013NNBCNODJNBG\030\016 \001(\010B\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

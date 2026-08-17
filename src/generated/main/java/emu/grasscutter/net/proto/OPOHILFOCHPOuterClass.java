@@ -1229,8 +1229,8 @@ public final class OPOHILFOCHPOuterClass {
       "\001\n\013OPOHILFOCHP\022\023\n\013IAMHNPDGKNA\030\002 \001(\r\022\023\n\013C" +
       "NIPLLIJAFD\030\004 \003(\r\022%\n\017level_info_list\030\006 \003(" +
       "\0132\014.OJMLCFIPPAM\022\023\n\013HMJDEIANCKN\030\014 \001(\r\022\022\n\n" +
-      "_win_count\030\017 \001(\rB2\n\031emu.grasscutter.net." +
-      "protoB\025OPOHILFOCHPOuterClassb\006proto3"
+      "_win_count\030\017 \001(\rB\033\n\031emu.grasscutter.net." +
+      "protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

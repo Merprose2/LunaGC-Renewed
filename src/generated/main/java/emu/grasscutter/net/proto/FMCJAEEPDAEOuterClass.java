@@ -660,8 +660,8 @@ public final class FMCJAEEPDAEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FMCJAEEPDAE.proto\"C\n\013FMCJAEEPDAE\022\017\n\007is" +
       "_open\030\001 \001(\010\022\021\n\tis_finish\030\010 \001(\010\022\020\n\010level_" +
-      "id\030\013 \001(\rB2\n\031emu.grasscutter.net.protoB\025F" +
-      "MCJAEEPDAEOuterClassb\006proto3"
+      "id\030\013 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

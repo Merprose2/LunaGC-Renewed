@@ -1036,9 +1036,8 @@ public final class InstableSprayStageInfoOuterClass {
       "SprayTeamInfo.proto\"\202\001\n\026InstableSpraySta" +
       "geInfo\022\023\n\013is_finished\030\004 \001(\010\022.\n\016team_info" +
       "_list\030\006 \003(\0132\026.InstableSprayTeamInfo\022\020\n\010s" +
-      "tage_id\030\t \001(\r\022\021\n\tmax_score\030\r \001(\rB=\n\031emu." +
-      "grasscutter.net.protoB InstableSprayStag" +
-      "eInfoOuterClassb\006proto3"
+      "tage_id\030\t \001(\r\022\021\n\tmax_score\030\r \001(\rB\033\n\031emu." +
+      "grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

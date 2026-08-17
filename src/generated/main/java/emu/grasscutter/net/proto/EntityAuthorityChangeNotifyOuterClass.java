@@ -18,22 +18,33 @@ public final class EntityAuthorityChangeNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:EntityAuthorityChangeNotify)
       com.google.protobuf.MessageOrBuilder {
 
-    java.util.List<emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange>
+    /**
+     * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange> 
         getAuthorityChangeListList();
-
+    /**
+     * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+     */
     emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange getAuthorityChangeList(int index);
-
+    /**
+     * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+     */
     int getAuthorityChangeListCount();
-
-    java.util.List<? extends emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChangeOrBuilder>
+    /**
+     * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChangeOrBuilder> 
         getAuthorityChangeListOrBuilderList();
-
+    /**
+     * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+     */
     emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChangeOrBuilder getAuthorityChangeListOrBuilder(
         int index);
   }
   /**
    * <pre>
-   * CmdId: 5218
+   * CmdID: 21510
    * </pre>
    *
    * Protobuf type {@code EntityAuthorityChangeNotify}
@@ -128,28 +139,38 @@ public final class EntityAuthorityChangeNotifyOuterClass {
 
     public static final int AUTHORITY_CHANGE_LIST_FIELD_NUMBER = 4;
     private java.util.List<emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange> authorityChangeList_;
-
+    /**
+     * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+     */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange> getAuthorityChangeListList() {
       return authorityChangeList_;
     }
-
+    /**
+     * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChangeOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChangeOrBuilder> 
         getAuthorityChangeListOrBuilderList() {
       return authorityChangeList_;
     }
-
+    /**
+     * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+     */
     @java.lang.Override
     public int getAuthorityChangeListCount() {
       return authorityChangeList_.size();
     }
-
+    /**
+     * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+     */
     @java.lang.Override
     public emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange getAuthorityChangeList(int index) {
       return authorityChangeList_.get(index);
     }
-
+    /**
+     * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+     */
     @java.lang.Override
     public emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChangeOrBuilder getAuthorityChangeListOrBuilder(
         int index) {
@@ -315,7 +336,7 @@ public final class EntityAuthorityChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 5218
+     * CmdID: 21510
      * </pre>
      *
      * Protobuf type {@code EntityAuthorityChangeNotify}
@@ -464,7 +485,7 @@ public final class EntityAuthorityChangeNotifyOuterClass {
               authorityChangeListBuilder_ = null;
               authorityChangeList_ = other.authorityChangeList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              authorityChangeListBuilder_ =
+              authorityChangeListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getAuthorityChangeListFieldBuilder() : null;
             } else {
@@ -514,6 +535,9 @@ public final class EntityAuthorityChangeNotifyOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange, emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange.Builder, emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChangeOrBuilder> authorityChangeListBuilder_;
 
+      /**
+       * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+       */
       public java.util.List<emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange> getAuthorityChangeListList() {
         if (authorityChangeListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(authorityChangeList_);
@@ -521,7 +545,9 @@ public final class EntityAuthorityChangeNotifyOuterClass {
           return authorityChangeListBuilder_.getMessageList();
         }
       }
-
+      /**
+       * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+       */
       public int getAuthorityChangeListCount() {
         if (authorityChangeListBuilder_ == null) {
           return authorityChangeList_.size();
@@ -529,7 +555,9 @@ public final class EntityAuthorityChangeNotifyOuterClass {
           return authorityChangeListBuilder_.getCount();
         }
       }
-
+      /**
+       * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+       */
       public emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange getAuthorityChangeList(int index) {
         if (authorityChangeListBuilder_ == null) {
           return authorityChangeList_.get(index);
@@ -537,7 +565,9 @@ public final class EntityAuthorityChangeNotifyOuterClass {
           return authorityChangeListBuilder_.getMessage(index);
         }
       }
-
+      /**
+       * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+       */
       public Builder setAuthorityChangeList(
           int index, emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange value) {
         if (authorityChangeListBuilder_ == null) {
@@ -552,7 +582,9 @@ public final class EntityAuthorityChangeNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+       */
       public Builder setAuthorityChangeList(
           int index, emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange.Builder builderForValue) {
         if (authorityChangeListBuilder_ == null) {
@@ -564,7 +596,9 @@ public final class EntityAuthorityChangeNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+       */
       public Builder addAuthorityChangeList(emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange value) {
         if (authorityChangeListBuilder_ == null) {
           if (value == null) {
@@ -578,7 +612,9 @@ public final class EntityAuthorityChangeNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+       */
       public Builder addAuthorityChangeList(
           int index, emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange value) {
         if (authorityChangeListBuilder_ == null) {
@@ -593,7 +629,9 @@ public final class EntityAuthorityChangeNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+       */
       public Builder addAuthorityChangeList(
           emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange.Builder builderForValue) {
         if (authorityChangeListBuilder_ == null) {
@@ -605,7 +643,9 @@ public final class EntityAuthorityChangeNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+       */
       public Builder addAuthorityChangeList(
           int index, emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange.Builder builderForValue) {
         if (authorityChangeListBuilder_ == null) {
@@ -617,7 +657,9 @@ public final class EntityAuthorityChangeNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+       */
       public Builder addAllAuthorityChangeList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange> values) {
         if (authorityChangeListBuilder_ == null) {
@@ -630,7 +672,9 @@ public final class EntityAuthorityChangeNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+       */
       public Builder clearAuthorityChangeList() {
         if (authorityChangeListBuilder_ == null) {
           authorityChangeList_ = java.util.Collections.emptyList();
@@ -641,7 +685,9 @@ public final class EntityAuthorityChangeNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+       */
       public Builder removeAuthorityChangeList(int index) {
         if (authorityChangeListBuilder_ == null) {
           ensureAuthorityChangeListIsMutable();
@@ -652,12 +698,16 @@ public final class EntityAuthorityChangeNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+       */
       public emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange.Builder getAuthorityChangeListBuilder(
           int index) {
         return getAuthorityChangeListFieldBuilder().getBuilder(index);
       }
-
+      /**
+       * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+       */
       public emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChangeOrBuilder getAuthorityChangeListOrBuilder(
           int index) {
         if (authorityChangeListBuilder_ == null) {
@@ -665,8 +715,10 @@ public final class EntityAuthorityChangeNotifyOuterClass {
           return authorityChangeListBuilder_.getMessageOrBuilder(index);
         }
       }
-
-      public java.util.List<? extends emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChangeOrBuilder>
+      /**
+       * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChangeOrBuilder> 
            getAuthorityChangeListOrBuilderList() {
         if (authorityChangeListBuilder_ != null) {
           return authorityChangeListBuilder_.getMessageOrBuilderList();
@@ -674,24 +726,30 @@ public final class EntityAuthorityChangeNotifyOuterClass {
           return java.util.Collections.unmodifiableList(authorityChangeList_);
         }
       }
-
+      /**
+       * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+       */
       public emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange.Builder addAuthorityChangeListBuilder() {
         return getAuthorityChangeListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange.getDefaultInstance());
       }
-
+      /**
+       * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+       */
       public emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange.Builder addAuthorityChangeListBuilder(
           int index) {
         return getAuthorityChangeListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange.getDefaultInstance());
       }
-
-      public java.util.List<emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange.Builder>
+      /**
+       * <code>repeated .AuthorityChange authority_change_list = 4;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange.Builder> 
            getAuthorityChangeListBuilderList() {
         return getAuthorityChangeListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange, emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange.Builder, emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChangeOrBuilder>
+          emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange, emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChange.Builder, emu.grasscutter.net.proto.AuthorityChangeOuterClass.AuthorityChangeOrBuilder> 
           getAuthorityChangeListFieldBuilder() {
         if (authorityChangeListBuilder_ == null) {
           authorityChangeListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -715,6 +773,7 @@ public final class EntityAuthorityChangeNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:EntityAuthorityChangeNotify)
     }
@@ -758,7 +817,7 @@ public final class EntityAuthorityChangeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EntityAuthorityChangeNotify_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EntityAuthorityChangeNotify_fieldAccessorTable;
 
@@ -772,7 +831,7 @@ public final class EntityAuthorityChangeNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n!EntityAuthorityChangeNotify.proto\032\025Aut" +
       "horityChange.proto\"N\n\033EntityAuthorityCha" +
-      "ngeNotify\022/\n\025authority_change_list\030\014 \003(\013" +
+      "ngeNotify\022/\n\025authority_change_list\030\004 \003(\013" +
       "2\020.AuthorityChangeB\033\n\031emu.grasscutter.ne" +
       "t.protob\006proto3"
     };

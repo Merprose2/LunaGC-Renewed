@@ -36,6 +36,10 @@ public final class HomeAllUnlockedBgmIdListNotifyOuterClass {
     int getAllUnlockedBgmIdList(int index);
   }
   /**
+   * <pre>
+   * CmdID: 1658
+   * </pre>
+   *
    * Protobuf type {@code HomeAllUnlockedBgmIdListNotify}
    */
   public static final class HomeAllUnlockedBgmIdListNotify extends
@@ -339,6 +343,10 @@ public final class HomeAllUnlockedBgmIdListNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 1658
+     * </pre>
+     *
      * Protobuf type {@code HomeAllUnlockedBgmIdListNotify}
      */
     public static final class Builder extends
@@ -645,9 +653,8 @@ public final class HomeAllUnlockedBgmIdListNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n$HomeAllUnlockedBgmIdListNotify.proto\"B" +
       "\n\036HomeAllUnlockedBgmIdListNotify\022 \n\030all_" +
-      "unlocked_bgm_id_list\030\002 \003(\rBE\n\031emu.grassc" +
-      "utter.net.protoB(HomeAllUnlockedBgmIdLis" +
-      "tNotifyOuterClassb\006proto3"
+      "unlocked_bgm_id_list\030\002 \003(\rB\033\n\031emu.grassc" +
+      "utter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

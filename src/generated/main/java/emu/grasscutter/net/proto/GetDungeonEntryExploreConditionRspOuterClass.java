@@ -40,6 +40,10 @@ public final class GetDungeonEntryExploreConditionRspOuterClass {
     emu.grasscutter.net.proto.DungeonEntryCondOuterClass.DungeonEntryCondOrBuilder getDungeonEntryCondOrBuilder();
   }
   /**
+   * <pre>
+   * CmdID: 2827
+   * </pre>
+   *
    * Protobuf type {@code GetDungeonEntryExploreConditionRsp}
    */
   public static final class GetDungeonEntryExploreConditionRsp extends
@@ -343,6 +347,10 @@ public final class GetDungeonEntryExploreConditionRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 2827
+     * </pre>
+     *
      * Protobuf type {@code GetDungeonEntryExploreConditionRsp}
      */
     public static final class Builder extends
@@ -723,9 +731,8 @@ public final class GetDungeonEntryExploreConditionRspOuterClass {
       "to\032\026DungeonEntryCond.proto\"d\n\"GetDungeon" +
       "EntryExploreConditionRsp\022\017\n\007retcode\030\002 \001(" +
       "\005\022-\n\022dungeon_entry_cond\030\013 \001(\0132\021.DungeonE" +
-      "ntryCondBI\n\031emu.grasscutter.net.protoB,G" +
-      "etDungeonEntryExploreConditionRspOuterCl" +
-      "assb\006proto3"
+      "ntryCondB\033\n\031emu.grasscutter.net.protob\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

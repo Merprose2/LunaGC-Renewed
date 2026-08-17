@@ -25,6 +25,10 @@ public final class ChooseCurAvatarTeamReqOuterClass {
     int getTeamId();
   }
   /**
+   * <pre>
+   * CmdID: 27433
+   * </pre>
+   *
    * Protobuf type {@code ChooseCurAvatarTeamReq}
    */
   public static final class ChooseCurAvatarTeamReq extends
@@ -273,6 +277,10 @@ public final class ChooseCurAvatarTeamReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 27433
+     * </pre>
+     *
      * Protobuf type {@code ChooseCurAvatarTeamReq}
      */
     public static final class Builder extends
@@ -517,9 +525,8 @@ public final class ChooseCurAvatarTeamReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\034ChooseCurAvatarTeamReq.proto\")\n\026Choose" +
-      "CurAvatarTeamReq\022\017\n\007team_id\030\003 \001(\rB=\n\031emu" +
-      ".grasscutter.net.protoB ChooseCurAvatarT" +
-      "eamReqOuterClassb\006proto3"
+      "CurAvatarTeamReq\022\017\n\007team_id\030\003 \001(\rB\033\n\031emu" +
+      ".grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

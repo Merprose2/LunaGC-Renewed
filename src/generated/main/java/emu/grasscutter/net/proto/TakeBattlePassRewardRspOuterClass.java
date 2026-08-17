@@ -73,6 +73,10 @@ public final class TakeBattlePassRewardRspOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 28104
+   * </pre>
+   *
    * Protobuf type {@code TakeBattlePassRewardRsp}
    */
   public static final class TakeBattlePassRewardRsp extends
@@ -454,6 +458,10 @@ public final class TakeBattlePassRewardRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 28104
+     * </pre>
+     *
      * Protobuf type {@code TakeBattlePassRewardRsp}
      */
     public static final class Builder extends
@@ -1268,9 +1276,8 @@ public final class TakeBattlePassRewardRspOuterClass {
       "to\"\200\001\n\027TakeBattlePassRewardRsp\022\017\n\007retcod" +
       "e\030\001 \001(\005\022\035\n\titem_list\030\006 \003(\0132\n.ItemParam\0225" +
       "\n\020take_option_list\030\010 \003(\0132\033.BattlePassRew" +
-      "ardTakeOptionB>\n\031emu.grasscutter.net.pro" +
-      "toB!TakeBattlePassRewardRspOuterClassb\006p" +
-      "roto3"
+      "ardTakeOptionB\033\n\031emu.grasscutter.net.pro" +
+      "tob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

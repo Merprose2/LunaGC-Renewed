@@ -823,8 +823,8 @@ public final class JNCFEAMFKNAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JNCFEAMFKNA.proto\032\021ICCPPEPMDEJ.proto\"0" +
       "\n\013JNCFEAMFKNA\022!\n\013option_list\030\001 \003(\0132\014.ICC" +
-      "PPEPMDEJB2\n\031emu.grasscutter.net.protoB\025J" +
-      "NCFEAMFKNAOuterClassb\006proto3"
+      "PPEPMDEJB\033\n\031emu.grasscutter.net.protob\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

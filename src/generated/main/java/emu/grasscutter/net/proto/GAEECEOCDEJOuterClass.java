@@ -714,9 +714,8 @@ public final class GAEECEOCDEJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GAEECEOCDEJ.proto\"7\n\013GAEECEOCDEJ\022\023\n\013AO" +
-      "BEHFCNOJC\030\014 \003(\r\022\023\n\013JCJCKHNDFIK\030\017 \001(\rB2\n\031" +
-      "emu.grasscutter.net.protoB\025GAEECEOCDEJOu" +
-      "terClassb\006proto3"
+      "BEHFCNOJC\030\014 \003(\r\022\023\n\013JCJCKHNDFIK\030\017 \001(\rB\033\n\031" +
+      "emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -519,8 +519,8 @@ public final class GCGFestivalDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033GCGFestivalDetailInfo.proto\":\n\025GCGFest" +
       "ivalDetailInfo\022!\n\031is_gcg_festival_mode_o" +
-      "pen\030\016 \001(\010B<\n\031emu.grasscutter.net.protoB\037" +
-      "GCGFestivalDetailInfoOuterClassb\006proto3"
+      "pen\030\016 \001(\010B\033\n\031emu.grasscutter.net.protob\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

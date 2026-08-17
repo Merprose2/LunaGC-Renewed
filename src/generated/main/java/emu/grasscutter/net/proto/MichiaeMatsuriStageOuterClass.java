@@ -659,9 +659,8 @@ public final class MichiaeMatsuriStageOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031MichiaeMatsuriStage.proto\"K\n\023MichiaeMa" +
       "tsuriStage\022\017\n\007is_open\030\001 \001(\010\022\021\n\topen_time" +
-      "\030\007 \001(\r\022\020\n\010stage_id\030\r \001(\rB:\n\031emu.grasscut" +
-      "ter.net.protoB\035MichiaeMatsuriStageOuterC" +
-      "lassb\006proto3"
+      "\030\007 \001(\r\022\020\n\010stage_id\030\r \001(\rB\033\n\031emu.grasscut" +
+      "ter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

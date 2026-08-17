@@ -34,6 +34,10 @@ public final class ReformFireworksReqOuterClass {
     emu.grasscutter.net.proto.FireworksReformDataOuterClass.FireworksReformDataOrBuilder getFireworksReformDataOrBuilder();
   }
   /**
+   * <pre>
+   * CmdID: 4860
+   * </pre>
+   *
    * Protobuf type {@code ReformFireworksReq}
    */
   public static final class ReformFireworksReq extends
@@ -310,6 +314,10 @@ public final class ReformFireworksReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 4860
+     * </pre>
+     *
      * Protobuf type {@code ReformFireworksReq}
      */
     public static final class Builder extends
@@ -652,8 +660,8 @@ public final class ReformFireworksReqOuterClass {
       "\n\030ReformFireworksReq.proto\032\031FireworksRef" +
       "ormData.proto\"I\n\022ReformFireworksReq\0223\n\025f" +
       "ireworks_reform_data\030\r \001(\0132\024.FireworksRe" +
-      "formDataB9\n\031emu.grasscutter.net.protoB\034R" +
-      "eformFireworksReqOuterClassb\006proto3"
+      "formDataB\033\n\031emu.grasscutter.net.protob\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

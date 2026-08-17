@@ -46,6 +46,10 @@ public final class BuyGoodsReqOuterClass {
     emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoodsOrBuilder getGoodsOrBuilder();
   }
   /**
+   * <pre>
+   * CmdID: 23328
+   * </pre>
+   *
    * Protobuf type {@code BuyGoodsReq}
    */
   public static final class BuyGoodsReq extends
@@ -376,6 +380,10 @@ public final class BuyGoodsReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 23328
+     * </pre>
+     *
      * Protobuf type {@code BuyGoodsReq}
      */
     public static final class Builder extends
@@ -791,9 +799,8 @@ public final class BuyGoodsReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BuyGoodsReq.proto\032\017ShopGoods.proto\"N\n\013" +
       "BuyGoodsReq\022\021\n\tshop_type\030\003 \001(\r\022\021\n\tbuy_co" +
-      "unt\030\004 \001(\r\022\031\n\005goods\030\014 \001(\0132\n.ShopGoodsB2\n\031" +
-      "emu.grasscutter.net.protoB\025BuyGoodsReqOu" +
-      "terClassb\006proto3"
+      "unt\030\004 \001(\r\022\031\n\005goods\030\014 \001(\0132\n.ShopGoodsB\033\n\031" +
+      "emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

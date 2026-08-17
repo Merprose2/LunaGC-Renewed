@@ -823,8 +823,8 @@ public final class APGNMMCFCPDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021APGNMMCFCPD.proto\032\021JJNLBIGDBFJ.proto\"4" +
       "\n\013APGNMMCFCPD\022%\n\017level_info_list\030\007 \003(\0132\014" +
-      ".JJNLBIGDBFJB2\n\031emu.grasscutter.net.prot" +
-      "oB\025APGNMMCFCPDOuterClassb\006proto3"
+      ".JJNLBIGDBFJB\033\n\031emu.grasscutter.net.prot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -77,6 +77,10 @@ public final class SceneAreaWeatherNotifyOuterClass {
     int getWeatherGadgetId();
   }
   /**
+   * <pre>
+   * CmdID: 23423
+   * </pre>
+   *
    * Protobuf type {@code SceneAreaWeatherNotify}
    */
   public static final class SceneAreaWeatherNotify extends
@@ -537,6 +541,10 @@ public final class SceneAreaWeatherNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 23423
+     * </pre>
+     *
      * Protobuf type {@code SceneAreaWeatherNotify}
      */
     public static final class Builder extends
@@ -1060,8 +1068,8 @@ public final class SceneAreaWeatherNotifyOuterClass {
       "rans_duration\030\004 \001(\002\022\024\n\014climate_type\030\n \001(" +
       "\r\022\031\n\021weather_gadget_id\030\r \001(\r\0326\n\024WeatherV" +
       "alueMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\t" +
-      ":\0028\001B=\n\031emu.grasscutter.net.protoB Scene" +
-      "AreaWeatherNotifyOuterClassb\006proto3"
+      ":\0028\001B\033\n\031emu.grasscutter.net.protob\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

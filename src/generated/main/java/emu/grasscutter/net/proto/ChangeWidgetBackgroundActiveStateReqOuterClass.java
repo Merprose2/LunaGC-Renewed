@@ -19,18 +19,22 @@ public final class ChangeWidgetBackgroundActiveStateReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_active = 1;</code>
-     * @return The isActive.
-     */
-    boolean getIsActive();
-
-    /**
-     * <code>uint32 material_id = 15;</code>
+     * <code>uint32 material_id = 3;</code>
      * @return The materialId.
      */
     int getMaterialId();
+
+    /**
+     * <code>bool is_active = 4;</code>
+     * @return The isActive.
+     */
+    boolean getIsActive();
   }
   /**
+   * <pre>
+   * CmdID: 797
+   * </pre>
+   *
    * Protobuf type {@code ChangeWidgetBackgroundActiveStateReq}
    */
   public static final class ChangeWidgetBackgroundActiveStateReq extends
@@ -75,14 +79,14 @@ public final class ChangeWidgetBackgroundActiveStateReqOuterClass {
             case 0:
               done = true;
               break;
-            case 112: {
-
-              isActive_ = input.readBool();
-              break;
-            }
-            case 16: {
+            case 24: {
 
               materialId_ = input.readUInt32();
+              break;
+            }
+            case 32: {
+
+              isActive_ = input.readBool();
               break;
             }
             default: {
@@ -117,26 +121,26 @@ public final class ChangeWidgetBackgroundActiveStateReqOuterClass {
               emu.grasscutter.net.proto.ChangeWidgetBackgroundActiveStateReqOuterClass.ChangeWidgetBackgroundActiveStateReq.class, emu.grasscutter.net.proto.ChangeWidgetBackgroundActiveStateReqOuterClass.ChangeWidgetBackgroundActiveStateReq.Builder.class);
     }
 
-    public static final int IS_ACTIVE_FIELD_NUMBER = 14;
-    private boolean isActive_;
-    /**
-     * <code>bool is_active = 1;</code>
-     * @return The isActive.
-     */
-    @java.lang.Override
-    public boolean getIsActive() {
-      return isActive_;
-    }
-
-    public static final int MATERIAL_ID_FIELD_NUMBER = 2;
+    public static final int MATERIAL_ID_FIELD_NUMBER = 3;
     private int materialId_;
     /**
-     * <code>uint32 material_id = 15;</code>
+     * <code>uint32 material_id = 3;</code>
      * @return The materialId.
      */
     @java.lang.Override
     public int getMaterialId() {
       return materialId_;
+    }
+
+    public static final int IS_ACTIVE_FIELD_NUMBER = 4;
+    private boolean isActive_;
+    /**
+     * <code>bool is_active = 4;</code>
+     * @return The isActive.
+     */
+    @java.lang.Override
+    public boolean getIsActive() {
+      return isActive_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -153,11 +157,11 @@ public final class ChangeWidgetBackgroundActiveStateReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (isActive_ != false) {
-        output.writeBool(14, isActive_);
-      }
       if (materialId_ != 0) {
-        output.writeUInt32(2, materialId_);
+        output.writeUInt32(3, materialId_);
+      }
+      if (isActive_ != false) {
+        output.writeBool(4, isActive_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +172,13 @@ public final class ChangeWidgetBackgroundActiveStateReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (isActive_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, isActive_);
-      }
       if (materialId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, materialId_);
+          .computeUInt32Size(3, materialId_);
+      }
+      if (isActive_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(4, isActive_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -191,10 +195,10 @@ public final class ChangeWidgetBackgroundActiveStateReqOuterClass {
       }
       emu.grasscutter.net.proto.ChangeWidgetBackgroundActiveStateReqOuterClass.ChangeWidgetBackgroundActiveStateReq other = (emu.grasscutter.net.proto.ChangeWidgetBackgroundActiveStateReqOuterClass.ChangeWidgetBackgroundActiveStateReq) obj;
 
-      if (getIsActive()
-          != other.getIsActive()) return false;
       if (getMaterialId()
           != other.getMaterialId()) return false;
+      if (getIsActive()
+          != other.getIsActive()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -206,11 +210,11 @@ public final class ChangeWidgetBackgroundActiveStateReqOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + MATERIAL_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getMaterialId();
       hash = (37 * hash) + IS_ACTIVE_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsActive());
-      hash = (37 * hash) + MATERIAL_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getMaterialId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -307,6 +311,10 @@ public final class ChangeWidgetBackgroundActiveStateReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 797
+     * </pre>
+     *
      * Protobuf type {@code ChangeWidgetBackgroundActiveStateReq}
      */
     public static final class Builder extends
@@ -344,9 +352,9 @@ public final class ChangeWidgetBackgroundActiveStateReqOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        isActive_ = false;
-
         materialId_ = 0;
+
+        isActive_ = false;
 
         return this;
       }
@@ -374,8 +382,8 @@ public final class ChangeWidgetBackgroundActiveStateReqOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.ChangeWidgetBackgroundActiveStateReqOuterClass.ChangeWidgetBackgroundActiveStateReq buildPartial() {
         emu.grasscutter.net.proto.ChangeWidgetBackgroundActiveStateReqOuterClass.ChangeWidgetBackgroundActiveStateReq result = new emu.grasscutter.net.proto.ChangeWidgetBackgroundActiveStateReqOuterClass.ChangeWidgetBackgroundActiveStateReq(this);
-        result.isActive_ = isActive_;
         result.materialId_ = materialId_;
+        result.isActive_ = isActive_;
         onBuilt();
         return result;
       }
@@ -424,11 +432,11 @@ public final class ChangeWidgetBackgroundActiveStateReqOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ChangeWidgetBackgroundActiveStateReqOuterClass.ChangeWidgetBackgroundActiveStateReq other) {
         if (other == emu.grasscutter.net.proto.ChangeWidgetBackgroundActiveStateReqOuterClass.ChangeWidgetBackgroundActiveStateReq.getDefaultInstance()) return this;
-        if (other.getIsActive() != false) {
-          setIsActive(other.getIsActive());
-        }
         if (other.getMaterialId() != 0) {
           setMaterialId(other.getMaterialId());
+        }
+        if (other.getIsActive() != false) {
+          setIsActive(other.getIsActive());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -459,40 +467,9 @@ public final class ChangeWidgetBackgroundActiveStateReqOuterClass {
         return this;
       }
 
-      private boolean isActive_ ;
-      /**
-       * <code>bool is_active = 1;</code>
-       * @return The isActive.
-       */
-      @java.lang.Override
-      public boolean getIsActive() {
-        return isActive_;
-      }
-      /**
-       * <code>bool is_active = 1;</code>
-       * @param value The isActive to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIsActive(boolean value) {
-        
-        isActive_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool is_active = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIsActive() {
-        
-        isActive_ = false;
-        onChanged();
-        return this;
-      }
-
       private int materialId_ ;
       /**
-       * <code>uint32 material_id = 15;</code>
+       * <code>uint32 material_id = 3;</code>
        * @return The materialId.
        */
       @java.lang.Override
@@ -500,7 +477,7 @@ public final class ChangeWidgetBackgroundActiveStateReqOuterClass {
         return materialId_;
       }
       /**
-       * <code>uint32 material_id = 15;</code>
+       * <code>uint32 material_id = 3;</code>
        * @param value The materialId to set.
        * @return This builder for chaining.
        */
@@ -511,12 +488,43 @@ public final class ChangeWidgetBackgroundActiveStateReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 material_id = 15;</code>
+       * <code>uint32 material_id = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearMaterialId() {
         
         materialId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private boolean isActive_ ;
+      /**
+       * <code>bool is_active = 4;</code>
+       * @return The isActive.
+       */
+      @java.lang.Override
+      public boolean getIsActive() {
+        return isActive_;
+      }
+      /**
+       * <code>bool is_active = 4;</code>
+       * @param value The isActive to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsActive(boolean value) {
+        
+        isActive_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool is_active = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsActive() {
+        
+        isActive_ = false;
         onChanged();
         return this;
       }
@@ -589,8 +597,8 @@ public final class ChangeWidgetBackgroundActiveStateReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n*ChangeWidgetBackgroundActiveStateReq.p" +
       "roto\"N\n$ChangeWidgetBackgroundActiveStat" +
-      "eReq\022\021\n\tis_active\030\001 \001(\010\022\023\n\013material_id\030\017" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
+      "eReq\022\023\n\013material_id\030\003 \001(\r\022\021\n\tis_active\030\004" +
+      " \001(\010B\033\n\031emu.grasscutter.net.protob\006proto" +
       "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -602,7 +610,7 @@ public final class ChangeWidgetBackgroundActiveStateReqOuterClass {
     internal_static_ChangeWidgetBackgroundActiveStateReq_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ChangeWidgetBackgroundActiveStateReq_descriptor,
-        new java.lang.String[] { "IsActive", "MaterialId", });
+        new java.lang.String[] { "MaterialId", "IsActive", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

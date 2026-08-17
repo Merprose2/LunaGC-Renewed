@@ -965,8 +965,8 @@ public final class MLLGCECGGMEOuterClass {
       "\n\021MLLGCECGGME.proto\032\021BHJLAGLDHCO.proto\"V" +
       "\n\013MLLGCECGGME\022\017\n\007is_open\030\007 \001(\010\022\023\n\013KHJHFL" +
       "NMNPC\030\n \001(\r\022!\n\013IOEDAJLIHPC\030\017 \003(\0132\014.BHJLA" +
-      "GLDHCOB2\n\031emu.grasscutter.net.protoB\025MLL" +
-      "GCECGGMEOuterClassb\006proto3"
+      "GLDHCOB\033\n\031emu.grasscutter.net.protob\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

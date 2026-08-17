@@ -1275,8 +1275,8 @@ public final class LFKPMBBOGDPOuterClass {
       "e\030\004 \001(\r\022\023\n\013GHGKAOABLFK\030\006 \003(\r\022\017\n\007is_open\030" +
       "\007 \001(\010\022\020\n\010level_id\030\n \001(\r\022\"\n\021region_center" +
       "_pos\030\013 \001(\0132\007.Vector\022\020\n\010scene_id\030\r \001(\r\022\025\n" +
-      "\rregion_radius\030\016 \001(\002B2\n\031emu.grasscutter." +
-      "net.protoB\025LFKPMBBOGDPOuterClassb\006proto3"
+      "\rregion_radius\030\016 \001(\002B\033\n\031emu.grasscutter." +
+      "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

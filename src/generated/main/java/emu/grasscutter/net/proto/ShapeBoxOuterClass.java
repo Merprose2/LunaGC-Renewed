@@ -1465,8 +1465,8 @@ public final class ShapeBoxOuterClass {
       "Box\022\027\n\006center\030\001 \001(\0132\007.Vector\022\026\n\005axis0\030\002 " +
       "\001(\0132\007.Vector\022\026\n\005axis1\030\003 \001(\0132\007.Vector\022\026\n\005" +
       "axis2\030\004 \001(\0132\007.Vector\022\030\n\007extents\030\005 \001(\0132\007." +
-      "VectorB/\n\031emu.grasscutter.net.protoB\022Sha" +
-      "peBoxOuterClassb\006proto3"
+      "VectorB\033\n\031emu.grasscutter.net.protob\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

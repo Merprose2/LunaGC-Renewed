@@ -660,8 +660,8 @@ public final class BFCAIKCBBAKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BFCAIKCBBAK.proto\"A\n\013BFCAIKCBBAK\022\n\n\002id" +
       "\030\001 \001(\005\022\021\n\tis_active\030\002 \001(\010\022\023\n\013DJPJAFGGKCJ" +
-      "\030\003 \001(\010B2\n\031emu.grasscutter.net.protoB\025BFC" +
-      "AIKCBBAKOuterClassb\006proto3"
+      "\030\003 \001(\010B\033\n\031emu.grasscutter.net.protob\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

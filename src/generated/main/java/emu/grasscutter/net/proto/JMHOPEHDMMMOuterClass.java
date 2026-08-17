@@ -34,10 +34,10 @@ public final class JMHOPEHDMMMOuterClass {
     emu.grasscutter.net.proto.IOJHNKOGKGCOuterClass.IOJHNKOGKGCOrBuilder getEMDCOGONMJFOrBuilder();
 
     /**
-     * <code>bool is_pause = 2;</code>
-     * @return The isPause.
+     * <code>bool BEDBMNHLJMJ = 2;</code>
+     * @return The bEDBMNHLJMJ.
      */
-    boolean getIsPause();
+    boolean getBEDBMNHLJMJ();
   }
   /**
    * Protobuf type {@code JMHOPEHDMMM}
@@ -99,7 +99,7 @@ public final class JMHOPEHDMMMOuterClass {
             }
             case 16: {
 
-              isPause_ = input.readBool();
+              bEDBMNHLJMJ_ = input.readBool();
               break;
             }
             default: {
@@ -160,15 +160,15 @@ public final class JMHOPEHDMMMOuterClass {
       return getEMDCOGONMJF();
     }
 
-    public static final int IS_PAUSE_FIELD_NUMBER = 2;
-    private boolean isPause_;
+    public static final int BEDBMNHLJMJ_FIELD_NUMBER = 2;
+    private boolean bEDBMNHLJMJ_;
     /**
-     * <code>bool is_pause = 2;</code>
-     * @return The isPause.
+     * <code>bool BEDBMNHLJMJ = 2;</code>
+     * @return The bEDBMNHLJMJ.
      */
     @java.lang.Override
-    public boolean getIsPause() {
-      return isPause_;
+    public boolean getBEDBMNHLJMJ() {
+      return bEDBMNHLJMJ_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -188,8 +188,8 @@ public final class JMHOPEHDMMMOuterClass {
       if (eMDCOGONMJF_ != null) {
         output.writeMessage(1, getEMDCOGONMJF());
       }
-      if (isPause_ != false) {
-        output.writeBool(2, isPause_);
+      if (bEDBMNHLJMJ_ != false) {
+        output.writeBool(2, bEDBMNHLJMJ_);
       }
       unknownFields.writeTo(output);
     }
@@ -204,9 +204,9 @@ public final class JMHOPEHDMMMOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(1, getEMDCOGONMJF());
       }
-      if (isPause_ != false) {
+      if (bEDBMNHLJMJ_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, isPause_);
+          .computeBoolSize(2, bEDBMNHLJMJ_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -228,8 +228,8 @@ public final class JMHOPEHDMMMOuterClass {
         if (!getEMDCOGONMJF()
             .equals(other.getEMDCOGONMJF())) return false;
       }
-      if (getIsPause()
-          != other.getIsPause()) return false;
+      if (getBEDBMNHLJMJ()
+          != other.getBEDBMNHLJMJ()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -245,9 +245,9 @@ public final class JMHOPEHDMMMOuterClass {
         hash = (37 * hash) + EMDCOGONMJF_FIELD_NUMBER;
         hash = (53 * hash) + getEMDCOGONMJF().hashCode();
       }
-      hash = (37 * hash) + IS_PAUSE_FIELD_NUMBER;
+      hash = (37 * hash) + BEDBMNHLJMJ_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsPause());
+          getBEDBMNHLJMJ());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -387,7 +387,7 @@ public final class JMHOPEHDMMMOuterClass {
           eMDCOGONMJF_ = null;
           eMDCOGONMJFBuilder_ = null;
         }
-        isPause_ = false;
+        bEDBMNHLJMJ_ = false;
 
         return this;
       }
@@ -420,7 +420,7 @@ public final class JMHOPEHDMMMOuterClass {
         } else {
           result.eMDCOGONMJF_ = eMDCOGONMJFBuilder_.build();
         }
-        result.isPause_ = isPause_;
+        result.bEDBMNHLJMJ_ = bEDBMNHLJMJ_;
         onBuilt();
         return result;
       }
@@ -472,8 +472,8 @@ public final class JMHOPEHDMMMOuterClass {
         if (other.hasEMDCOGONMJF()) {
           mergeEMDCOGONMJF(other.getEMDCOGONMJF());
         }
-        if (other.getIsPause() != false) {
-          setIsPause(other.getIsPause());
+        if (other.getBEDBMNHLJMJ() != false) {
+          setBEDBMNHLJMJ(other.getBEDBMNHLJMJ());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -623,33 +623,33 @@ public final class JMHOPEHDMMMOuterClass {
         return eMDCOGONMJFBuilder_;
       }
 
-      private boolean isPause_ ;
+      private boolean bEDBMNHLJMJ_ ;
       /**
-       * <code>bool is_pause = 2;</code>
-       * @return The isPause.
+       * <code>bool BEDBMNHLJMJ = 2;</code>
+       * @return The bEDBMNHLJMJ.
        */
       @java.lang.Override
-      public boolean getIsPause() {
-        return isPause_;
+      public boolean getBEDBMNHLJMJ() {
+        return bEDBMNHLJMJ_;
       }
       /**
-       * <code>bool is_pause = 2;</code>
-       * @param value The isPause to set.
+       * <code>bool BEDBMNHLJMJ = 2;</code>
+       * @param value The bEDBMNHLJMJ to set.
        * @return This builder for chaining.
        */
-      public Builder setIsPause(boolean value) {
+      public Builder setBEDBMNHLJMJ(boolean value) {
         
-        isPause_ = value;
+        bEDBMNHLJMJ_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool is_pause = 2;</code>
+       * <code>bool BEDBMNHLJMJ = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIsPause() {
+      public Builder clearBEDBMNHLJMJ() {
         
-        isPause_ = false;
+        bEDBMNHLJMJ_ = false;
         onChanged();
         return this;
       }
@@ -720,11 +720,10 @@ public final class JMHOPEHDMMMOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021JMHOPEHDMMM.proto\032\021IOJHNKOGKGC.proto\"B" +
+      "\n\021JMHOPEHDMMM.proto\032\021IOJHNKOGKGC.proto\"E" +
       "\n\013JMHOPEHDMMM\022!\n\013EMDCOGONMJF\030\001 \001(\0132\014.IOJ" +
-      "HNKOGKGC\022\020\n\010is_pause\030\002 \001(\010B2\n\031emu.grassc" +
-      "utter.net.protoB\025JMHOPEHDMMMOuterClassb\006" +
-      "proto3"
+      "HNKOGKGC\022\023\n\013BEDBMNHLJMJ\030\002 \001(\010B\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -736,7 +735,7 @@ public final class JMHOPEHDMMMOuterClass {
     internal_static_JMHOPEHDMMM_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_JMHOPEHDMMM_descriptor,
-        new java.lang.String[] { "EMDCOGONMJF", "IsPause", });
+        new java.lang.String[] { "EMDCOGONMJF", "BEDBMNHLJMJ", });
     emu.grasscutter.net.proto.IOJHNKOGKGCOuterClass.getDescriptor();
   }
 

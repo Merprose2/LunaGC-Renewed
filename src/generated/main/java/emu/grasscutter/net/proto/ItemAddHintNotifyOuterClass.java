@@ -19,16 +19,16 @@ public final class ItemAddHintNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool BLNCGGHFOMI = 1;</code>
-     * @return The bLNCGGHFOMI.
+     * <code>bool is_general_reward_hidden = 1;</code>
+     * @return The isGeneralRewardHidden.
      */
-    boolean getBLNCGGHFOMI();
+    boolean getIsGeneralRewardHidden();
 
     /**
-     * <code>bool FPCIANIKMKE = 4;</code>
-     * @return The fPCIANIKMKE.
+     * <code>bool is_general_reward_hiden = 4;</code>
+     * @return The isGeneralRewardHiden.
      */
-    boolean getFPCIANIKMKE();
+    boolean getIsGeneralRewardHiden();
 
     /**
      * <code>uint32 reason = 6;</code>
@@ -82,10 +82,10 @@ public final class ItemAddHintNotifyOuterClass {
         int index);
 
     /**
-     * <code>bool is_transfered_from_avatar_card = 12;</code>
-     * @return The isTransferedFromAvatarCard.
+     * <code>bool CGOIMBMLDPP = 12;</code>
+     * @return The cGOIMBMLDPP.
      */
-    boolean getIsTransferedFromAvatarCard();
+    boolean getCGOIMBMLDPP();
 
     /**
      * <code>repeated .ItemHint item_list = 15;</code>
@@ -112,6 +112,10 @@ public final class ItemAddHintNotifyOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 20532
+   * </pre>
+   *
    * Protobuf type {@code ItemAddHintNotify}
    */
   public static final class ItemAddHintNotify extends
@@ -161,12 +165,12 @@ public final class ItemAddHintNotifyOuterClass {
               break;
             case 8: {
 
-              bLNCGGHFOMI_ = input.readBool();
+              isGeneralRewardHidden_ = input.readBool();
               break;
             }
             case 32: {
 
-              fPCIANIKMKE_ = input.readBool();
+              isGeneralRewardHiden_ = input.readBool();
               break;
             }
             case 48: {
@@ -203,7 +207,7 @@ public final class ItemAddHintNotifyOuterClass {
             }
             case 96: {
 
-              isTransferedFromAvatarCard_ = input.readBool();
+              cGOIMBMLDPP_ = input.readBool();
               break;
             }
             case 122: {
@@ -253,26 +257,26 @@ public final class ItemAddHintNotifyOuterClass {
               emu.grasscutter.net.proto.ItemAddHintNotifyOuterClass.ItemAddHintNotify.class, emu.grasscutter.net.proto.ItemAddHintNotifyOuterClass.ItemAddHintNotify.Builder.class);
     }
 
-    public static final int BLNCGGHFOMI_FIELD_NUMBER = 1;
-    private boolean bLNCGGHFOMI_;
+    public static final int IS_GENERAL_REWARD_HIDDEN_FIELD_NUMBER = 1;
+    private boolean isGeneralRewardHidden_;
     /**
-     * <code>bool BLNCGGHFOMI = 1;</code>
-     * @return The bLNCGGHFOMI.
+     * <code>bool is_general_reward_hidden = 1;</code>
+     * @return The isGeneralRewardHidden.
      */
     @java.lang.Override
-    public boolean getBLNCGGHFOMI() {
-      return bLNCGGHFOMI_;
+    public boolean getIsGeneralRewardHidden() {
+      return isGeneralRewardHidden_;
     }
 
-    public static final int FPCIANIKMKE_FIELD_NUMBER = 4;
-    private boolean fPCIANIKMKE_;
+    public static final int IS_GENERAL_REWARD_HIDEN_FIELD_NUMBER = 4;
+    private boolean isGeneralRewardHiden_;
     /**
-     * <code>bool FPCIANIKMKE = 4;</code>
-     * @return The fPCIANIKMKE.
+     * <code>bool is_general_reward_hiden = 4;</code>
+     * @return The isGeneralRewardHiden.
      */
     @java.lang.Override
-    public boolean getFPCIANIKMKE() {
-      return fPCIANIKMKE_;
+    public boolean getIsGeneralRewardHiden() {
+      return isGeneralRewardHiden_;
     }
 
     public static final int REASON_FIELD_NUMBER = 6;
@@ -363,15 +367,15 @@ public final class ItemAddHintNotifyOuterClass {
       return overflowTransformedItemList_.get(index);
     }
 
-    public static final int IS_TRANSFERED_FROM_AVATAR_CARD_FIELD_NUMBER = 12;
-    private boolean isTransferedFromAvatarCard_;
+    public static final int CGOIMBMLDPP_FIELD_NUMBER = 12;
+    private boolean cGOIMBMLDPP_;
     /**
-     * <code>bool is_transfered_from_avatar_card = 12;</code>
-     * @return The isTransferedFromAvatarCard.
+     * <code>bool CGOIMBMLDPP = 12;</code>
+     * @return The cGOIMBMLDPP.
      */
     @java.lang.Override
-    public boolean getIsTransferedFromAvatarCard() {
-      return isTransferedFromAvatarCard_;
+    public boolean getCGOIMBMLDPP() {
+      return cGOIMBMLDPP_;
     }
 
     public static final int ITEM_LIST_FIELD_NUMBER = 15;
@@ -428,11 +432,11 @@ public final class ItemAddHintNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (bLNCGGHFOMI_ != false) {
-        output.writeBool(1, bLNCGGHFOMI_);
+      if (isGeneralRewardHidden_ != false) {
+        output.writeBool(1, isGeneralRewardHidden_);
       }
-      if (fPCIANIKMKE_ != false) {
-        output.writeBool(4, fPCIANIKMKE_);
+      if (isGeneralRewardHiden_ != false) {
+        output.writeBool(4, isGeneralRewardHiden_);
       }
       if (reason_ != 0) {
         output.writeUInt32(6, reason_);
@@ -446,8 +450,8 @@ public final class ItemAddHintNotifyOuterClass {
       for (int i = 0; i < overflowTransformedItemList_.size(); i++) {
         output.writeMessage(10, overflowTransformedItemList_.get(i));
       }
-      if (isTransferedFromAvatarCard_ != false) {
-        output.writeBool(12, isTransferedFromAvatarCard_);
+      if (cGOIMBMLDPP_ != false) {
+        output.writeBool(12, cGOIMBMLDPP_);
       }
       for (int i = 0; i < itemList_.size(); i++) {
         output.writeMessage(15, itemList_.get(i));
@@ -461,13 +465,13 @@ public final class ItemAddHintNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (bLNCGGHFOMI_ != false) {
+      if (isGeneralRewardHidden_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, bLNCGGHFOMI_);
+          .computeBoolSize(1, isGeneralRewardHidden_);
       }
-      if (fPCIANIKMKE_ != false) {
+      if (isGeneralRewardHiden_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, fPCIANIKMKE_);
+          .computeBoolSize(4, isGeneralRewardHiden_);
       }
       if (reason_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -485,9 +489,9 @@ public final class ItemAddHintNotifyOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(10, overflowTransformedItemList_.get(i));
       }
-      if (isTransferedFromAvatarCard_ != false) {
+      if (cGOIMBMLDPP_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isTransferedFromAvatarCard_);
+          .computeBoolSize(12, cGOIMBMLDPP_);
       }
       for (int i = 0; i < itemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -508,10 +512,10 @@ public final class ItemAddHintNotifyOuterClass {
       }
       emu.grasscutter.net.proto.ItemAddHintNotifyOuterClass.ItemAddHintNotify other = (emu.grasscutter.net.proto.ItemAddHintNotifyOuterClass.ItemAddHintNotify) obj;
 
-      if (getBLNCGGHFOMI()
-          != other.getBLNCGGHFOMI()) return false;
-      if (getFPCIANIKMKE()
-          != other.getFPCIANIKMKE()) return false;
+      if (getIsGeneralRewardHidden()
+          != other.getIsGeneralRewardHidden()) return false;
+      if (getIsGeneralRewardHiden()
+          != other.getIsGeneralRewardHiden()) return false;
       if (getReason()
           != other.getReason()) return false;
       if (hasPosition() != other.hasPosition()) return false;
@@ -523,8 +527,8 @@ public final class ItemAddHintNotifyOuterClass {
           != other.getQuestId()) return false;
       if (!getOverflowTransformedItemListList()
           .equals(other.getOverflowTransformedItemListList())) return false;
-      if (getIsTransferedFromAvatarCard()
-          != other.getIsTransferedFromAvatarCard()) return false;
+      if (getCGOIMBMLDPP()
+          != other.getCGOIMBMLDPP()) return false;
       if (!getItemListList()
           .equals(other.getItemListList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -538,12 +542,12 @@ public final class ItemAddHintNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + BLNCGGHFOMI_FIELD_NUMBER;
+      hash = (37 * hash) + IS_GENERAL_REWARD_HIDDEN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getBLNCGGHFOMI());
-      hash = (37 * hash) + FPCIANIKMKE_FIELD_NUMBER;
+          getIsGeneralRewardHidden());
+      hash = (37 * hash) + IS_GENERAL_REWARD_HIDEN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getFPCIANIKMKE());
+          getIsGeneralRewardHiden());
       hash = (37 * hash) + REASON_FIELD_NUMBER;
       hash = (53 * hash) + getReason();
       if (hasPosition()) {
@@ -556,9 +560,9 @@ public final class ItemAddHintNotifyOuterClass {
         hash = (37 * hash) + OVERFLOW_TRANSFORMED_ITEM_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getOverflowTransformedItemListList().hashCode();
       }
-      hash = (37 * hash) + IS_TRANSFERED_FROM_AVATAR_CARD_FIELD_NUMBER;
+      hash = (37 * hash) + CGOIMBMLDPP_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsTransferedFromAvatarCard());
+          getCGOIMBMLDPP());
       if (getItemListCount() > 0) {
         hash = (37 * hash) + ITEM_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getItemListList().hashCode();
@@ -659,6 +663,10 @@ public final class ItemAddHintNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 20532
+     * </pre>
+     *
      * Protobuf type {@code ItemAddHintNotify}
      */
     public static final class Builder extends
@@ -698,9 +706,9 @@ public final class ItemAddHintNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        bLNCGGHFOMI_ = false;
+        isGeneralRewardHidden_ = false;
 
-        fPCIANIKMKE_ = false;
+        isGeneralRewardHiden_ = false;
 
         reason_ = 0;
 
@@ -718,7 +726,7 @@ public final class ItemAddHintNotifyOuterClass {
         } else {
           overflowTransformedItemListBuilder_.clear();
         }
-        isTransferedFromAvatarCard_ = false;
+        cGOIMBMLDPP_ = false;
 
         if (itemListBuilder_ == null) {
           itemList_ = java.util.Collections.emptyList();
@@ -753,8 +761,8 @@ public final class ItemAddHintNotifyOuterClass {
       public emu.grasscutter.net.proto.ItemAddHintNotifyOuterClass.ItemAddHintNotify buildPartial() {
         emu.grasscutter.net.proto.ItemAddHintNotifyOuterClass.ItemAddHintNotify result = new emu.grasscutter.net.proto.ItemAddHintNotifyOuterClass.ItemAddHintNotify(this);
         int from_bitField0_ = bitField0_;
-        result.bLNCGGHFOMI_ = bLNCGGHFOMI_;
-        result.fPCIANIKMKE_ = fPCIANIKMKE_;
+        result.isGeneralRewardHidden_ = isGeneralRewardHidden_;
+        result.isGeneralRewardHiden_ = isGeneralRewardHiden_;
         result.reason_ = reason_;
         if (positionBuilder_ == null) {
           result.position_ = position_;
@@ -771,7 +779,7 @@ public final class ItemAddHintNotifyOuterClass {
         } else {
           result.overflowTransformedItemList_ = overflowTransformedItemListBuilder_.build();
         }
-        result.isTransferedFromAvatarCard_ = isTransferedFromAvatarCard_;
+        result.cGOIMBMLDPP_ = cGOIMBMLDPP_;
         if (itemListBuilder_ == null) {
           if (((bitField0_ & 0x00000002) != 0)) {
             itemList_ = java.util.Collections.unmodifiableList(itemList_);
@@ -829,11 +837,11 @@ public final class ItemAddHintNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ItemAddHintNotifyOuterClass.ItemAddHintNotify other) {
         if (other == emu.grasscutter.net.proto.ItemAddHintNotifyOuterClass.ItemAddHintNotify.getDefaultInstance()) return this;
-        if (other.getBLNCGGHFOMI() != false) {
-          setBLNCGGHFOMI(other.getBLNCGGHFOMI());
+        if (other.getIsGeneralRewardHidden() != false) {
+          setIsGeneralRewardHidden(other.getIsGeneralRewardHidden());
         }
-        if (other.getFPCIANIKMKE() != false) {
-          setFPCIANIKMKE(other.getFPCIANIKMKE());
+        if (other.getIsGeneralRewardHiden() != false) {
+          setIsGeneralRewardHiden(other.getIsGeneralRewardHiden());
         }
         if (other.getReason() != 0) {
           setReason(other.getReason());
@@ -870,8 +878,8 @@ public final class ItemAddHintNotifyOuterClass {
             }
           }
         }
-        if (other.getIsTransferedFromAvatarCard() != false) {
-          setIsTransferedFromAvatarCard(other.getIsTransferedFromAvatarCard());
+        if (other.getCGOIMBMLDPP() != false) {
+          setCGOIMBMLDPP(other.getCGOIMBMLDPP());
         }
         if (itemListBuilder_ == null) {
           if (!other.itemList_.isEmpty()) {
@@ -929,64 +937,64 @@ public final class ItemAddHintNotifyOuterClass {
       }
       private int bitField0_;
 
-      private boolean bLNCGGHFOMI_ ;
+      private boolean isGeneralRewardHidden_ ;
       /**
-       * <code>bool BLNCGGHFOMI = 1;</code>
-       * @return The bLNCGGHFOMI.
+       * <code>bool is_general_reward_hidden = 1;</code>
+       * @return The isGeneralRewardHidden.
        */
       @java.lang.Override
-      public boolean getBLNCGGHFOMI() {
-        return bLNCGGHFOMI_;
+      public boolean getIsGeneralRewardHidden() {
+        return isGeneralRewardHidden_;
       }
       /**
-       * <code>bool BLNCGGHFOMI = 1;</code>
-       * @param value The bLNCGGHFOMI to set.
+       * <code>bool is_general_reward_hidden = 1;</code>
+       * @param value The isGeneralRewardHidden to set.
        * @return This builder for chaining.
        */
-      public Builder setBLNCGGHFOMI(boolean value) {
+      public Builder setIsGeneralRewardHidden(boolean value) {
         
-        bLNCGGHFOMI_ = value;
+        isGeneralRewardHidden_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool BLNCGGHFOMI = 1;</code>
+       * <code>bool is_general_reward_hidden = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearBLNCGGHFOMI() {
+      public Builder clearIsGeneralRewardHidden() {
         
-        bLNCGGHFOMI_ = false;
+        isGeneralRewardHidden_ = false;
         onChanged();
         return this;
       }
 
-      private boolean fPCIANIKMKE_ ;
+      private boolean isGeneralRewardHiden_ ;
       /**
-       * <code>bool FPCIANIKMKE = 4;</code>
-       * @return The fPCIANIKMKE.
+       * <code>bool is_general_reward_hiden = 4;</code>
+       * @return The isGeneralRewardHiden.
        */
       @java.lang.Override
-      public boolean getFPCIANIKMKE() {
-        return fPCIANIKMKE_;
+      public boolean getIsGeneralRewardHiden() {
+        return isGeneralRewardHiden_;
       }
       /**
-       * <code>bool FPCIANIKMKE = 4;</code>
-       * @param value The fPCIANIKMKE to set.
+       * <code>bool is_general_reward_hiden = 4;</code>
+       * @param value The isGeneralRewardHiden to set.
        * @return This builder for chaining.
        */
-      public Builder setFPCIANIKMKE(boolean value) {
+      public Builder setIsGeneralRewardHiden(boolean value) {
         
-        fPCIANIKMKE_ = value;
+        isGeneralRewardHiden_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool FPCIANIKMKE = 4;</code>
+       * <code>bool is_general_reward_hiden = 4;</code>
        * @return This builder for chaining.
        */
-      public Builder clearFPCIANIKMKE() {
+      public Builder clearIsGeneralRewardHiden() {
         
-        fPCIANIKMKE_ = false;
+        isGeneralRewardHiden_ = false;
         onChanged();
         return this;
       }
@@ -1412,33 +1420,33 @@ public final class ItemAddHintNotifyOuterClass {
         return overflowTransformedItemListBuilder_;
       }
 
-      private boolean isTransferedFromAvatarCard_ ;
+      private boolean cGOIMBMLDPP_ ;
       /**
-       * <code>bool is_transfered_from_avatar_card = 12;</code>
-       * @return The isTransferedFromAvatarCard.
+       * <code>bool CGOIMBMLDPP = 12;</code>
+       * @return The cGOIMBMLDPP.
        */
       @java.lang.Override
-      public boolean getIsTransferedFromAvatarCard() {
-        return isTransferedFromAvatarCard_;
+      public boolean getCGOIMBMLDPP() {
+        return cGOIMBMLDPP_;
       }
       /**
-       * <code>bool is_transfered_from_avatar_card = 12;</code>
-       * @param value The isTransferedFromAvatarCard to set.
+       * <code>bool CGOIMBMLDPP = 12;</code>
+       * @param value The cGOIMBMLDPP to set.
        * @return This builder for chaining.
        */
-      public Builder setIsTransferedFromAvatarCard(boolean value) {
+      public Builder setCGOIMBMLDPP(boolean value) {
         
-        isTransferedFromAvatarCard_ = value;
+        cGOIMBMLDPP_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool is_transfered_from_avatar_card = 12;</code>
+       * <code>bool CGOIMBMLDPP = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIsTransferedFromAvatarCard() {
+      public Builder clearCGOIMBMLDPP() {
         
-        isTransferedFromAvatarCard_ = false;
+        cGOIMBMLDPP_ = false;
         onChanged();
         return this;
       }
@@ -1750,15 +1758,14 @@ public final class ItemAddHintNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027ItemAddHintNotify.proto\032\016ItemHint.prot" +
-      "o\032\014Vector.proto\"\363\001\n\021ItemAddHintNotify\022\023\n" +
-      "\013BLNCGGHFOMI\030\001 \001(\010\022\023\n\013FPCIANIKMKE\030\004 \001(\010\022" +
-      "\016\n\006reason\030\006 \001(\r\022\031\n\010position\030\010 \001(\0132\007.Vect" +
-      "or\022\020\n\010quest_id\030\t \001(\r\0221\n\036overflow_transfo" +
-      "rmed_item_list\030\n \003(\0132\t.ItemHint\022&\n\036is_tr" +
-      "ansfered_from_avatar_card\030\014 \001(\010\022\034\n\titem_" +
-      "list\030\017 \003(\0132\t.ItemHintB8\n\031emu.grasscutter" +
-      ".net.protoB\033ItemAddHintNotifyOuterClassb" +
-      "\006proto3"
+      "o\032\014Vector.proto\"\371\001\n\021ItemAddHintNotify\022 \n" +
+      "\030is_general_reward_hidden\030\001 \001(\010\022\037\n\027is_ge" +
+      "neral_reward_hiden\030\004 \001(\010\022\016\n\006reason\030\006 \001(\r" +
+      "\022\031\n\010position\030\010 \001(\0132\007.Vector\022\020\n\010quest_id\030" +
+      "\t \001(\r\0221\n\036overflow_transformed_item_list\030" +
+      "\n \003(\0132\t.ItemHint\022\023\n\013CGOIMBMLDPP\030\014 \001(\010\022\034\n" +
+      "\titem_list\030\017 \003(\0132\t.ItemHintB\033\n\031emu.grass" +
+      "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1771,7 +1778,7 @@ public final class ItemAddHintNotifyOuterClass {
     internal_static_ItemAddHintNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ItemAddHintNotify_descriptor,
-        new java.lang.String[] { "BLNCGGHFOMI", "FPCIANIKMKE", "Reason", "Position", "QuestId", "OverflowTransformedItemList", "IsTransferedFromAvatarCard", "ItemList", });
+        new java.lang.String[] { "IsGeneralRewardHidden", "IsGeneralRewardHiden", "Reason", "Position", "QuestId", "OverflowTransformedItemList", "CGOIMBMLDPP", "ItemList", });
     emu.grasscutter.net.proto.ItemHintOuterClass.getDescriptor();
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
   }

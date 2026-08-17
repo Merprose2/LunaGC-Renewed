@@ -49,6 +49,10 @@ public final class PullPrivateChatRspOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 9720
+   * </pre>
+   *
    * Protobuf type {@code PullPrivateChatRsp}
    */
   public static final class PullPrivateChatRsp extends
@@ -364,6 +368,10 @@ public final class PullPrivateChatRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 9720
+     * </pre>
+     *
      * Protobuf type {@code PullPrivateChatRsp}
      */
     public static final class Builder extends
@@ -893,9 +901,8 @@ public final class PullPrivateChatRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030PullPrivateChatRsp.proto\032\016ChatInfo.pro" +
       "to\"C\n\022PullPrivateChatRsp\022\017\n\007retcode\030\004 \001(" +
-      "\005\022\034\n\tchat_info\030\007 \003(\0132\t.ChatInfoB9\n\031emu.g" +
-      "rasscutter.net.protoB\034PullPrivateChatRsp" +
-      "OuterClassb\006proto3"
+      "\005\022\034\n\tchat_info\030\007 \003(\0132\t.ChatInfoB\033\n\031emu.g" +
+      "rasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

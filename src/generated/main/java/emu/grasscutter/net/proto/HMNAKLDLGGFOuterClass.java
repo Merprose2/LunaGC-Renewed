@@ -1088,8 +1088,8 @@ public final class HMNAKLDLGGFOuterClass {
       "\n\021HMNAKLDLGGF.proto\032\021CADPEFKILCP.proto\"Z" +
       "\n\013HMNAKLDLGGF\022\023\n\013OPCJALLNAGK\030\014 \003(\r\022\023\n\013LL" +
       "KBGEFIHAL\030\r \001(\r\022!\n\013NNJAEBPGEBD\030\016 \003(\0132\014.C" +
-      "ADPEFKILCPB2\n\031emu.grasscutter.net.protoB" +
-      "\025HMNAKLDLGGFOuterClassb\006proto3"
+      "ADPEFKILCPB\033\n\031emu.grasscutter.net.protob" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

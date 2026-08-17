@@ -894,8 +894,7 @@ public final class GCGPlayCardCostInfoOuterClass {
       "\n\031GCGPlayCardCostInfo.proto\032\021NAOPGAHKGGG" +
       ".proto\"H\n\023GCGPlayCardCostInfo\022\017\n\007card_id" +
       "\030\001 \001(\r\022 \n\ntoken_list\030\004 \003(\0132\014.NAOPGAHKGGG" +
-      "B:\n\031emu.grasscutter.net.protoB\035GCGPlayCa" +
-      "rdCostInfoOuterClassb\006proto3"
+      "B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

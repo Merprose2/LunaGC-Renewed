@@ -41,21 +41,6 @@ public final class AbilityMixinRecoverInfoOuterClass {
     int getInstancedModifierId();
 
     /**
-     * <code>optional ._DrawPlayInfo draw_play_info = 100;</code>
-     * @return Whether the drawPlayInfo field is set.
-     */
-    boolean hasDrawPlayInfo();
-    /**
-     * <code>optional ._DrawPlayInfo draw_play_info = 100;</code>
-     * @return The drawPlayInfo.
-     */
-    emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfo getDrawPlayInfo();
-    /**
-     * <code>optional ._DrawPlayInfo draw_play_info = 100;</code>
-     */
-    emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfoOrBuilder getDrawPlayInfoOrBuilder();
-
-    /**
      * <code>uint32 local_id = 3;</code>
      * @return The localId.
      */
@@ -126,26 +111,26 @@ public final class AbilityMixinRecoverInfoOuterClass {
      * <code>._FilmfestBallGameSnapShot _filmfest_ball_game_snap_shot = 8;</code>
      * @return The filmfestBallGameSnapShot.
      */
-    emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShot getFilmfestBallGameSnapShot();
+    emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShot getFilmfestBallGameSnapShot();
     /**
      * <code>._FilmfestBallGameSnapShot _filmfest_ball_game_snap_shot = 8;</code>
      */
-    emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShotOrBuilder getFilmfestBallGameSnapShotOrBuilder();
+    emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShotOrBuilder getFilmfestBallGameSnapShotOrBuilder();
 
     /**
-     * <code>.MHEPPFLCCIJ kieoplpebci = 9;</code>
-     * @return Whether the kieoplpebci field is set.
+     * <code>.DIBHHLNJGND AGFDABPCKGJ = 9;</code>
+     * @return Whether the aGFDABPCKGJ field is set.
      */
-    boolean hasKieoplpebci();
+    boolean hasAGFDABPCKGJ();
     /**
-     * <code>.MHEPPFLCCIJ kieoplpebci = 9;</code>
-     * @return The kieoplpebci.
+     * <code>.DIBHHLNJGND AGFDABPCKGJ = 9;</code>
+     * @return The aGFDABPCKGJ.
      */
-    emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ getKieoplpebci();
+    emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGND getAGFDABPCKGJ();
     /**
-     * <code>.MHEPPFLCCIJ kieoplpebci = 9;</code>
+     * <code>.DIBHHLNJGND AGFDABPCKGJ = 9;</code>
      */
-    emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJOrBuilder getKieoplpebciOrBuilder();
+    emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGNDOrBuilder getAGFDABPCKGJOrBuilder();
 
     /**
      * <code>.LJGEHMILKEM FPDAONBEBHK = 10;</code>
@@ -175,7 +160,24 @@ public final class AbilityMixinRecoverInfoOuterClass {
      */
     float getBEGNLOGJPIF(int index);
 
+    /**
+     * <code>._DrawPlayInfo draw_play_info = 100;</code>
+     * @return Whether the drawPlayInfo field is set.
+     */
+    boolean hasDrawPlayInfo();
+    /**
+     * <code>._DrawPlayInfo draw_play_info = 100;</code>
+     * @return The drawPlayInfo.
+     */
+    emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo getDrawPlayInfo();
+    /**
+     * <code>._DrawPlayInfo draw_play_info = 100;</code>
+     */
+    emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfoOrBuilder getDrawPlayInfoOrBuilder();
+
     public emu.grasscutter.net.proto.AbilityMixinRecoverInfoOuterClass.AbilityMixinRecoverInfo.SourceCase getSourceCase();
+
+    public emu.grasscutter.net.proto.AbilityMixinRecoverInfoOuterClass.AbilityMixinRecoverInfo.InfoCase getInfoCase();
   }
   /**
    * Protobuf type {@code AbilityMixinRecoverInfo}
@@ -243,9 +245,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
               break;
             }
             case 32: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 dataList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               dataList_.addInt(input.readUInt32());
               break;
@@ -253,9 +255,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
             case 34: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
                 dataList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
                 dataList_.addInt(input.readUInt32());
@@ -264,9 +266,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
               break;
             }
             case 50: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 massivePropList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo>();
-                mutable_bitField0_ |= 0x00000004;
+                mutable_bitField0_ |= 0x00000002;
               }
               massivePropList_.add(
                   input.readMessage(emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo.parser(), extensionRegistry));
@@ -286,11 +288,11 @@ public final class AbilityMixinRecoverInfoOuterClass {
               break;
             }
             case 66: {
-              emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShot.Builder subBuilder = null;
+              emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShot.Builder subBuilder = null;
               if (FilmfestBallGameSnapShot_ != null) {
                 subBuilder = FilmfestBallGameSnapShot_.toBuilder();
               }
-              FilmfestBallGameSnapShot_ = input.readMessage(emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShot.parser(), extensionRegistry);
+              FilmfestBallGameSnapShot_ = input.readMessage(emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShot.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(FilmfestBallGameSnapShot_);
                 FilmfestBallGameSnapShot_ = subBuilder.buildPartial();
@@ -299,14 +301,14 @@ public final class AbilityMixinRecoverInfoOuterClass {
               break;
             }
             case 74: {
-              emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ.Builder subBuilder = null;
-              if (kieoplpebci_ != null) {
-                subBuilder = kieoplpebci_.toBuilder();
+              emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGND.Builder subBuilder = null;
+              if (aGFDABPCKGJ_ != null) {
+                subBuilder = aGFDABPCKGJ_.toBuilder();
               }
-              kieoplpebci_ = input.readMessage(emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ.parser(), extensionRegistry);
+              aGFDABPCKGJ_ = input.readMessage(emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGND.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom(kieoplpebci_);
-                kieoplpebci_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom(aGFDABPCKGJ_);
+                aGFDABPCKGJ_ = subBuilder.buildPartial();
               }
 
               break;
@@ -318,9 +320,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
               break;
             }
             case 93: {
-              if (!((mutable_bitField0_ & 0x00000008) != 0)) {
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 bEGNLOGJPIF_ = newFloatList();
-                mutable_bitField0_ |= 0x00000008;
+                mutable_bitField0_ |= 0x00000004;
               }
               bEGNLOGJPIF_.addFloat(input.readFloat());
               break;
@@ -328,9 +330,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
             case 90: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000008) != 0) && input.getBytesUntilLimit() > 0) {
+              if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
                 bEGNLOGJPIF_ = newFloatList();
-                mutable_bitField0_ |= 0x00000008;
+                mutable_bitField0_ |= 0x00000004;
               }
               while (input.getBytesUntilLimit() > 0) {
                 bEGNLOGJPIF_.addFloat(input.readFloat());
@@ -339,16 +341,17 @@ public final class AbilityMixinRecoverInfoOuterClass {
               break;
             }
             case 802: {
-              emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfo.Builder subBuilder = null;
-              if (((bitField0_ & 0x00000001) != 0)) {
-                subBuilder = drawPlayInfo_.toBuilder();
+              emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo.Builder subBuilder = null;
+              if (infoCase_ == 100) {
+                subBuilder = ((emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo) info_).toBuilder();
               }
-              drawPlayInfo_ = input.readMessage(emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfo.parser(), extensionRegistry);
+              info_ =
+                  input.readMessage(emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom(drawPlayInfo_);
-                drawPlayInfo_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo) info_);
+                info_ = subBuilder.buildPartial();
               }
-              bitField0_ |= 0x00000001;
+              infoCase_ = 100;
               break;
             }
             default: {
@@ -366,13 +369,13 @@ public final class AbilityMixinRecoverInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
           dataList_.makeImmutable(); // C
         }
-        if (((mutable_bitField0_ & 0x00000004) != 0)) {
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
           massivePropList_ = java.util.Collections.unmodifiableList(massivePropList_);
         }
-        if (((mutable_bitField0_ & 0x00000008) != 0)) {
+        if (((mutable_bitField0_ & 0x00000004) != 0)) {
           bEGNLOGJPIF_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
@@ -392,7 +395,6 @@ public final class AbilityMixinRecoverInfoOuterClass {
               emu.grasscutter.net.proto.AbilityMixinRecoverInfoOuterClass.AbilityMixinRecoverInfo.class, emu.grasscutter.net.proto.AbilityMixinRecoverInfoOuterClass.AbilityMixinRecoverInfo.Builder.class);
     }
 
-    private int bitField0_;
     private int sourceCase_ = 0;
     private java.lang.Object source_;
     public enum SourceCase
@@ -432,6 +434,45 @@ public final class AbilityMixinRecoverInfoOuterClass {
     getSourceCase() {
       return SourceCase.forNumber(
           sourceCase_);
+    }
+
+    private int infoCase_ = 0;
+    private java.lang.Object info_;
+    public enum InfoCase
+        implements com.google.protobuf.Internal.EnumLite,
+            com.google.protobuf.AbstractMessage.InternalOneOfEnum {
+      DRAW_PLAY_INFO(100),
+      INFO_NOT_SET(0);
+      private final int value;
+      private InfoCase(int value) {
+        this.value = value;
+      }
+      /**
+       * @param value The number of the enum to look for.
+       * @return The enum associated with the given number.
+       * @deprecated Use {@link #forNumber(int)} instead.
+       */
+      @java.lang.Deprecated
+      public static InfoCase valueOf(int value) {
+        return forNumber(value);
+      }
+
+      public static InfoCase forNumber(int value) {
+        switch (value) {
+          case 100: return DRAW_PLAY_INFO;
+          case 0: return INFO_NOT_SET;
+          default: return null;
+        }
+      }
+      public int getNumber() {
+        return this.value;
+      }
+    };
+
+    public InfoCase
+    getInfoCase() {
+      return InfoCase.forNumber(
+          infoCase_);
     }
 
     public static final int INSTANCED_ABILITY_ID_FIELD_NUMBER = 1;
@@ -474,32 +515,6 @@ public final class AbilityMixinRecoverInfoOuterClass {
         return (java.lang.Integer) source_;
       }
       return 0;
-    }
-
-    public static final int DRAW_PLAY_INFO_FIELD_NUMBER = 100;
-    private emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfo drawPlayInfo_;
-    /**
-     * <code>optional ._DrawPlayInfo draw_play_info = 100;</code>
-     * @return Whether the drawPlayInfo field is set.
-     */
-    @java.lang.Override
-    public boolean hasDrawPlayInfo() {
-      return ((bitField0_ & 0x00000001) != 0);
-    }
-    /**
-     * <code>optional ._DrawPlayInfo draw_play_info = 100;</code>
-     * @return The drawPlayInfo.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfo getDrawPlayInfo() {
-      return drawPlayInfo_ == null ? emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfo.getDefaultInstance() : drawPlayInfo_;
-    }
-    /**
-     * <code>optional ._DrawPlayInfo draw_play_info = 100;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfoOrBuilder getDrawPlayInfoOrBuilder() {
-      return drawPlayInfo_ == null ? emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfo.getDefaultInstance() : drawPlayInfo_;
     }
 
     public static final int LOCAL_ID_FIELD_NUMBER = 3;
@@ -608,7 +623,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     }
 
     public static final int _FILMFEST_BALL_GAME_SNAP_SHOT_FIELD_NUMBER = 8;
-    private emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShot FilmfestBallGameSnapShot_;
+    private emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShot FilmfestBallGameSnapShot_;
     /**
      * <code>._FilmfestBallGameSnapShot _filmfest_ball_game_snap_shot = 8;</code>
      * @return Whether the filmfestBallGameSnapShot field is set.
@@ -622,41 +637,41 @@ public final class AbilityMixinRecoverInfoOuterClass {
      * @return The filmfestBallGameSnapShot.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShot getFilmfestBallGameSnapShot() {
-      return FilmfestBallGameSnapShot_ == null ? emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShot.getDefaultInstance() : FilmfestBallGameSnapShot_;
+    public emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShot getFilmfestBallGameSnapShot() {
+      return FilmfestBallGameSnapShot_ == null ? emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShot.getDefaultInstance() : FilmfestBallGameSnapShot_;
     }
     /**
      * <code>._FilmfestBallGameSnapShot _filmfest_ball_game_snap_shot = 8;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShotOrBuilder getFilmfestBallGameSnapShotOrBuilder() {
+    public emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShotOrBuilder getFilmfestBallGameSnapShotOrBuilder() {
       return getFilmfestBallGameSnapShot();
     }
 
-    public static final int KIEOPLPEBCI_FIELD_NUMBER = 9;
-    private emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ kieoplpebci_;
+    public static final int AGFDABPCKGJ_FIELD_NUMBER = 9;
+    private emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGND aGFDABPCKGJ_;
     /**
-     * <code>.MHEPPFLCCIJ kieoplpebci = 9;</code>
-     * @return Whether the kieoplpebci field is set.
+     * <code>.DIBHHLNJGND AGFDABPCKGJ = 9;</code>
+     * @return Whether the aGFDABPCKGJ field is set.
      */
     @java.lang.Override
-    public boolean hasKieoplpebci() {
-      return kieoplpebci_ != null;
+    public boolean hasAGFDABPCKGJ() {
+      return aGFDABPCKGJ_ != null;
     }
     /**
-     * <code>.MHEPPFLCCIJ kieoplpebci = 9;</code>
-     * @return The kieoplpebci.
+     * <code>.DIBHHLNJGND AGFDABPCKGJ = 9;</code>
+     * @return The aGFDABPCKGJ.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ getKieoplpebci() {
-      return kieoplpebci_ == null ? emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ.getDefaultInstance() : kieoplpebci_;
+    public emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGND getAGFDABPCKGJ() {
+      return aGFDABPCKGJ_ == null ? emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGND.getDefaultInstance() : aGFDABPCKGJ_;
     }
     /**
-     * <code>.MHEPPFLCCIJ kieoplpebci = 9;</code>
+     * <code>.DIBHHLNJGND AGFDABPCKGJ = 9;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJOrBuilder getKieoplpebciOrBuilder() {
-      return getKieoplpebci();
+    public emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGNDOrBuilder getAGFDABPCKGJOrBuilder() {
+      return getAGFDABPCKGJ();
     }
 
     public static final int FPDAONBEBHK_FIELD_NUMBER = 10;
@@ -706,6 +721,37 @@ public final class AbilityMixinRecoverInfoOuterClass {
     }
     private int bEGNLOGJPIFMemoizedSerializedSize = -1;
 
+    public static final int DRAW_PLAY_INFO_FIELD_NUMBER = 100;
+    /**
+     * <code>._DrawPlayInfo draw_play_info = 100;</code>
+     * @return Whether the drawPlayInfo field is set.
+     */
+    @java.lang.Override
+    public boolean hasDrawPlayInfo() {
+      return infoCase_ == 100;
+    }
+    /**
+     * <code>._DrawPlayInfo draw_play_info = 100;</code>
+     * @return The drawPlayInfo.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo getDrawPlayInfo() {
+      if (infoCase_ == 100) {
+         return (emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo) info_;
+      }
+      return emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo.getDefaultInstance();
+    }
+    /**
+     * <code>._DrawPlayInfo draw_play_info = 100;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfoOrBuilder getDrawPlayInfoOrBuilder() {
+      if (infoCase_ == 100) {
+         return (emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo) info_;
+      }
+      return emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo.getDefaultInstance();
+    }
+
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -748,8 +794,8 @@ public final class AbilityMixinRecoverInfoOuterClass {
       if (FilmfestBallGameSnapShot_ != null) {
         output.writeMessage(8, getFilmfestBallGameSnapShot());
       }
-      if (kieoplpebci_ != null) {
-        output.writeMessage(9, getKieoplpebci());
+      if (aGFDABPCKGJ_ != null) {
+        output.writeMessage(9, getAGFDABPCKGJ());
       }
       if (fPDAONBEBHK_ != emu.grasscutter.net.proto.LJGEHMILKEMOuterClass.LJGEHMILKEM.LJGEHMILKEM_NORMAL.getNumber()) {
         output.writeEnum(10, fPDAONBEBHK_);
@@ -761,8 +807,8 @@ public final class AbilityMixinRecoverInfoOuterClass {
       for (int i = 0; i < bEGNLOGJPIF_.size(); i++) {
         output.writeFloatNoTag(bEGNLOGJPIF_.getFloat(i));
       }
-      if (((bitField0_ & 0x00000001) != 0)) {
-        output.writeMessage(100, getDrawPlayInfo());
+      if (infoCase_ == 100) {
+        output.writeMessage(100, (emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo) info_);
       }
       unknownFields.writeTo(output);
     }
@@ -813,9 +859,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(8, getFilmfestBallGameSnapShot());
       }
-      if (kieoplpebci_ != null) {
+      if (aGFDABPCKGJ_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, getKieoplpebci());
+          .computeMessageSize(9, getAGFDABPCKGJ());
       }
       if (fPDAONBEBHK_ != emu.grasscutter.net.proto.LJGEHMILKEMOuterClass.LJGEHMILKEM.LJGEHMILKEM_NORMAL.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
@@ -832,9 +878,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
         }
         bEGNLOGJPIFMemoizedSerializedSize = dataSize;
       }
-      if (((bitField0_ & 0x00000001) != 0)) {
+      if (infoCase_ == 100) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(100, getDrawPlayInfo());
+          .computeMessageSize(100, (emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo) info_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -851,11 +897,6 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       emu.grasscutter.net.proto.AbilityMixinRecoverInfoOuterClass.AbilityMixinRecoverInfo other = (emu.grasscutter.net.proto.AbilityMixinRecoverInfoOuterClass.AbilityMixinRecoverInfo) obj;
 
-      if (hasDrawPlayInfo() != other.hasDrawPlayInfo()) return false;
-      if (hasDrawPlayInfo()) {
-        if (!getDrawPlayInfo()
-            .equals(other.getDrawPlayInfo())) return false;
-      }
       if (getLocalId()
           != other.getLocalId()) return false;
       if (!getDataListList()
@@ -872,10 +913,10 @@ public final class AbilityMixinRecoverInfoOuterClass {
         if (!getFilmfestBallGameSnapShot()
             .equals(other.getFilmfestBallGameSnapShot())) return false;
       }
-      if (hasKieoplpebci() != other.hasKieoplpebci()) return false;
-      if (hasKieoplpebci()) {
-        if (!getKieoplpebci()
-            .equals(other.getKieoplpebci())) return false;
+      if (hasAGFDABPCKGJ() != other.hasAGFDABPCKGJ()) return false;
+      if (hasAGFDABPCKGJ()) {
+        if (!getAGFDABPCKGJ()
+            .equals(other.getAGFDABPCKGJ())) return false;
       }
       if (fPDAONBEBHK_ != other.fPDAONBEBHK_) return false;
       if (!getBEGNLOGJPIFList()
@@ -893,6 +934,15 @@ public final class AbilityMixinRecoverInfoOuterClass {
         case 0:
         default:
       }
+      if (!getInfoCase().equals(other.getInfoCase())) return false;
+      switch (infoCase_) {
+        case 100:
+          if (!getDrawPlayInfo()
+              .equals(other.getDrawPlayInfo())) return false;
+          break;
+        case 0:
+        default:
+      }
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -904,10 +954,6 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (hasDrawPlayInfo()) {
-        hash = (37 * hash) + DRAW_PLAY_INFO_FIELD_NUMBER;
-        hash = (53 * hash) + getDrawPlayInfo().hashCode();
-      }
       hash = (37 * hash) + LOCAL_ID_FIELD_NUMBER;
       hash = (53 * hash) + getLocalId();
       if (getDataListCount() > 0) {
@@ -926,9 +972,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
         hash = (37 * hash) + _FILMFEST_BALL_GAME_SNAP_SHOT_FIELD_NUMBER;
         hash = (53 * hash) + getFilmfestBallGameSnapShot().hashCode();
       }
-      if (hasKieoplpebci()) {
-        hash = (37 * hash) + KIEOPLPEBCI_FIELD_NUMBER;
-        hash = (53 * hash) + getKieoplpebci().hashCode();
+      if (hasAGFDABPCKGJ()) {
+        hash = (37 * hash) + AGFDABPCKGJ_FIELD_NUMBER;
+        hash = (53 * hash) + getAGFDABPCKGJ().hashCode();
       }
       hash = (37 * hash) + FPDAONBEBHK_FIELD_NUMBER;
       hash = (53 * hash) + fPDAONBEBHK_;
@@ -944,6 +990,14 @@ public final class AbilityMixinRecoverInfoOuterClass {
         case 2:
           hash = (37 * hash) + INSTANCED_MODIFIER_ID_FIELD_NUMBER;
           hash = (53 * hash) + getInstancedModifierId();
+          break;
+        case 0:
+        default:
+      }
+      switch (infoCase_) {
+        case 100:
+          hash = (37 * hash) + DRAW_PLAY_INFO_FIELD_NUMBER;
+          hash = (53 * hash) + getDrawPlayInfo().hashCode();
           break;
         case 0:
         default:
@@ -1076,26 +1130,19 @@ public final class AbilityMixinRecoverInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getDrawPlayInfoFieldBuilder();
           getMassivePropListFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (drawPlayInfoBuilder_ == null) {
-          drawPlayInfo_ = null;
-        } else {
-          drawPlayInfoBuilder_.clear();
-        }
-        bitField0_ = (bitField0_ & ~0x00000001);
         localId_ = 0;
 
         dataList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
+        bitField0_ = (bitField0_ & ~0x00000001);
         if (massivePropListBuilder_ == null) {
           massivePropList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
         } else {
           massivePropListBuilder_.clear();
         }
@@ -1111,18 +1158,20 @@ public final class AbilityMixinRecoverInfoOuterClass {
           FilmfestBallGameSnapShot_ = null;
           FilmfestBallGameSnapShotBuilder_ = null;
         }
-        if (kieoplpebciBuilder_ == null) {
-          kieoplpebci_ = null;
+        if (aGFDABPCKGJBuilder_ == null) {
+          aGFDABPCKGJ_ = null;
         } else {
-          kieoplpebci_ = null;
-          kieoplpebciBuilder_ = null;
+          aGFDABPCKGJ_ = null;
+          aGFDABPCKGJBuilder_ = null;
         }
         fPDAONBEBHK_ = 0;
 
         bEGNLOGJPIF_ = emptyFloatList();
-        bitField0_ = (bitField0_ & ~0x00000008);
+        bitField0_ = (bitField0_ & ~0x00000004);
         sourceCase_ = 0;
         source_ = null;
+        infoCase_ = 0;
+        info_ = null;
         return this;
       }
 
@@ -1150,31 +1199,22 @@ public final class AbilityMixinRecoverInfoOuterClass {
       public emu.grasscutter.net.proto.AbilityMixinRecoverInfoOuterClass.AbilityMixinRecoverInfo buildPartial() {
         emu.grasscutter.net.proto.AbilityMixinRecoverInfoOuterClass.AbilityMixinRecoverInfo result = new emu.grasscutter.net.proto.AbilityMixinRecoverInfoOuterClass.AbilityMixinRecoverInfo(this);
         int from_bitField0_ = bitField0_;
-        int to_bitField0_ = 0;
         if (sourceCase_ == 1) {
           result.source_ = source_;
         }
         if (sourceCase_ == 2) {
           result.source_ = source_;
         }
-        if (((from_bitField0_ & 0x00000001) != 0)) {
-          if (drawPlayInfoBuilder_ == null) {
-            result.drawPlayInfo_ = drawPlayInfo_;
-          } else {
-            result.drawPlayInfo_ = drawPlayInfoBuilder_.build();
-          }
-          to_bitField0_ |= 0x00000001;
-        }
         result.localId_ = localId_;
-        if (((bitField0_ & 0x00000002) != 0)) {
+        if (((bitField0_ & 0x00000001) != 0)) {
           dataList_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
         }
         result.dataList_ = dataList_;
         if (massivePropListBuilder_ == null) {
-          if (((bitField0_ & 0x00000004) != 0)) {
+          if (((bitField0_ & 0x00000002) != 0)) {
             massivePropList_ = java.util.Collections.unmodifiableList(massivePropList_);
-            bitField0_ = (bitField0_ & ~0x00000004);
+            bitField0_ = (bitField0_ & ~0x00000002);
           }
           result.massivePropList_ = massivePropList_;
         } else {
@@ -1190,19 +1230,26 @@ public final class AbilityMixinRecoverInfoOuterClass {
         } else {
           result.FilmfestBallGameSnapShot_ = FilmfestBallGameSnapShotBuilder_.build();
         }
-        if (kieoplpebciBuilder_ == null) {
-          result.kieoplpebci_ = kieoplpebci_;
+        if (aGFDABPCKGJBuilder_ == null) {
+          result.aGFDABPCKGJ_ = aGFDABPCKGJ_;
         } else {
-          result.kieoplpebci_ = kieoplpebciBuilder_.build();
+          result.aGFDABPCKGJ_ = aGFDABPCKGJBuilder_.build();
         }
         result.fPDAONBEBHK_ = fPDAONBEBHK_;
-        if (((bitField0_ & 0x00000008) != 0)) {
+        if (((bitField0_ & 0x00000004) != 0)) {
           bEGNLOGJPIF_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
         }
         result.bEGNLOGJPIF_ = bEGNLOGJPIF_;
-        result.bitField0_ = to_bitField0_;
+        if (infoCase_ == 100) {
+          if (drawPlayInfoBuilder_ == null) {
+            result.info_ = info_;
+          } else {
+            result.info_ = drawPlayInfoBuilder_.build();
+          }
+        }
         result.sourceCase_ = sourceCase_;
+        result.infoCase_ = infoCase_;
         onBuilt();
         return result;
       }
@@ -1251,16 +1298,13 @@ public final class AbilityMixinRecoverInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AbilityMixinRecoverInfoOuterClass.AbilityMixinRecoverInfo other) {
         if (other == emu.grasscutter.net.proto.AbilityMixinRecoverInfoOuterClass.AbilityMixinRecoverInfo.getDefaultInstance()) return this;
-        if (other.hasDrawPlayInfo()) {
-          mergeDrawPlayInfo(other.getDrawPlayInfo());
-        }
         if (other.getLocalId() != 0) {
           setLocalId(other.getLocalId());
         }
         if (!other.dataList_.isEmpty()) {
           if (dataList_.isEmpty()) {
             dataList_ = other.dataList_;
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           } else {
             ensureDataListIsMutable();
             dataList_.addAll(other.dataList_);
@@ -1271,7 +1315,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
           if (!other.massivePropList_.isEmpty()) {
             if (massivePropList_.isEmpty()) {
               massivePropList_ = other.massivePropList_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
             } else {
               ensureMassivePropListIsMutable();
               massivePropList_.addAll(other.massivePropList_);
@@ -1284,7 +1328,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
               massivePropListBuilder_.dispose();
               massivePropListBuilder_ = null;
               massivePropList_ = other.massivePropList_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000002);
               massivePropListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMassivePropListFieldBuilder() : null;
@@ -1299,8 +1343,8 @@ public final class AbilityMixinRecoverInfoOuterClass {
         if (other.hasFilmfestBallGameSnapShot()) {
           mergeFilmfestBallGameSnapShot(other.getFilmfestBallGameSnapShot());
         }
-        if (other.hasKieoplpebci()) {
-          mergeKieoplpebci(other.getKieoplpebci());
+        if (other.hasAGFDABPCKGJ()) {
+          mergeAGFDABPCKGJ(other.getAGFDABPCKGJ());
         }
         if (other.fPDAONBEBHK_ != 0) {
           setFPDAONBEBHKValue(other.getFPDAONBEBHKValue());
@@ -1308,7 +1352,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
         if (!other.bEGNLOGJPIF_.isEmpty()) {
           if (bEGNLOGJPIF_.isEmpty()) {
             bEGNLOGJPIF_ = other.bEGNLOGJPIF_;
-            bitField0_ = (bitField0_ & ~0x00000008);
+            bitField0_ = (bitField0_ & ~0x00000004);
           } else {
             ensureBEGNLOGJPIFIsMutable();
             bEGNLOGJPIF_.addAll(other.bEGNLOGJPIF_);
@@ -1325,6 +1369,15 @@ public final class AbilityMixinRecoverInfoOuterClass {
             break;
           }
           case SOURCE_NOT_SET: {
+            break;
+          }
+        }
+        switch (other.getInfoCase()) {
+          case DRAW_PLAY_INFO: {
+            mergeDrawPlayInfo(other.getDrawPlayInfo());
+            break;
+          }
+          case INFO_NOT_SET: {
             break;
           }
         }
@@ -1367,6 +1420,21 @@ public final class AbilityMixinRecoverInfoOuterClass {
       public Builder clearSource() {
         sourceCase_ = 0;
         source_ = null;
+        onChanged();
+        return this;
+      }
+
+      private int infoCase_ = 0;
+      private java.lang.Object info_;
+      public InfoCase
+          getInfoCase() {
+        return InfoCase.forNumber(
+            infoCase_);
+      }
+
+      public Builder clearInfo() {
+        infoCase_ = 0;
+        info_ = null;
         onChanged();
         return this;
       }
@@ -1455,126 +1523,6 @@ public final class AbilityMixinRecoverInfoOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfo drawPlayInfo_;
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfo, emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfo.Builder, emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfoOrBuilder> drawPlayInfoBuilder_;
-      /**
-       * <code>optional ._DrawPlayInfo draw_play_info = 100;</code>
-       * @return Whether the drawPlayInfo field is set.
-       */
-      public boolean hasDrawPlayInfo() {
-        return ((bitField0_ & 0x00000001) != 0);
-      }
-      /**
-       * <code>optional ._DrawPlayInfo draw_play_info = 100;</code>
-       * @return The drawPlayInfo.
-       */
-      public emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfo getDrawPlayInfo() {
-        if (drawPlayInfoBuilder_ == null) {
-          return drawPlayInfo_ == null ? emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfo.getDefaultInstance() : drawPlayInfo_;
-        } else {
-          return drawPlayInfoBuilder_.getMessage();
-        }
-      }
-      /**
-       * <code>optional ._DrawPlayInfo draw_play_info = 100;</code>
-       */
-      public Builder setDrawPlayInfo(emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfo value) {
-        if (drawPlayInfoBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          drawPlayInfo_ = value;
-          onChanged();
-        } else {
-          drawPlayInfoBuilder_.setMessage(value);
-        }
-        bitField0_ |= 0x00000001;
-        return this;
-      }
-      /**
-       * <code>optional ._DrawPlayInfo draw_play_info = 100;</code>
-       */
-      public Builder setDrawPlayInfo(
-          emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfo.Builder builderForValue) {
-        if (drawPlayInfoBuilder_ == null) {
-          drawPlayInfo_ = builderForValue.build();
-          onChanged();
-        } else {
-          drawPlayInfoBuilder_.setMessage(builderForValue.build());
-        }
-        bitField0_ |= 0x00000001;
-        return this;
-      }
-      /**
-       * <code>optional ._DrawPlayInfo draw_play_info = 100;</code>
-       */
-      public Builder mergeDrawPlayInfo(emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfo value) {
-        if (drawPlayInfoBuilder_ == null) {
-          if (((bitField0_ & 0x00000001) != 0) &&
-              drawPlayInfo_ != null &&
-              drawPlayInfo_ != emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfo.getDefaultInstance()) {
-            drawPlayInfo_ =
-              emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfo.newBuilder(drawPlayInfo_).mergeFrom(value).buildPartial();
-          } else {
-            drawPlayInfo_ = value;
-          }
-          onChanged();
-        } else {
-          drawPlayInfoBuilder_.mergeFrom(value);
-        }
-        bitField0_ |= 0x00000001;
-        return this;
-      }
-      /**
-       * <code>optional ._DrawPlayInfo draw_play_info = 100;</code>
-       */
-      public Builder clearDrawPlayInfo() {
-        if (drawPlayInfoBuilder_ == null) {
-          drawPlayInfo_ = null;
-          onChanged();
-        } else {
-          drawPlayInfoBuilder_.clear();
-        }
-        bitField0_ = (bitField0_ & ~0x00000001);
-        return this;
-      }
-      /**
-       * <code>optional ._DrawPlayInfo draw_play_info = 100;</code>
-       */
-      public emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfo.Builder getDrawPlayInfoBuilder() {
-        bitField0_ |= 0x00000001;
-        onChanged();
-        return getDrawPlayInfoFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>optional ._DrawPlayInfo draw_play_info = 100;</code>
-       */
-      public emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfoOrBuilder getDrawPlayInfoOrBuilder() {
-        if (drawPlayInfoBuilder_ != null) {
-          return drawPlayInfoBuilder_.getMessageOrBuilder();
-        } else {
-          return drawPlayInfo_ == null ?
-              emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfo.getDefaultInstance() : drawPlayInfo_;
-        }
-      }
-      /**
-       * <code>optional ._DrawPlayInfo draw_play_info = 100;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfo, emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfo.Builder, emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfoOrBuilder> 
-          getDrawPlayInfoFieldBuilder() {
-        if (drawPlayInfoBuilder_ == null) {
-          drawPlayInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfo, emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfo.Builder, emu.grasscutter.net.proto._DrawPlayInfoOuterClass._DrawPlayInfoOrBuilder>(
-                  getDrawPlayInfo(),
-                  getParentForChildren(),
-                  isClean());
-          drawPlayInfo_ = null;
-        }
-        return drawPlayInfoBuilder_;
-      }
-
       private int localId_ ;
       /**
        * <code>uint32 local_id = 3;</code>
@@ -1608,9 +1556,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
 
       private com.google.protobuf.Internal.IntList dataList_ = emptyIntList();
       private void ensureDataListIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
+        if (!((bitField0_ & 0x00000001) != 0)) {
           dataList_ = mutableCopy(dataList_);
-          bitField0_ |= 0x00000002;
+          bitField0_ |= 0x00000001;
          }
       }
       /**
@@ -1619,7 +1567,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        */
       public java.util.List<java.lang.Integer>
           getDataListList() {
-        return ((bitField0_ & 0x00000002) != 0) ?
+        return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(dataList_) : dataList_;
       }
       /**
@@ -1680,7 +1628,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        */
       public Builder clearDataList() {
         dataList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
+        bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
       }
@@ -1688,9 +1636,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
       private java.util.List<emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo> massivePropList_ =
         java.util.Collections.emptyList();
       private void ensureMassivePropListIsMutable() {
-        if (!((bitField0_ & 0x00000004) != 0)) {
+        if (!((bitField0_ & 0x00000002) != 0)) {
           massivePropList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo>(massivePropList_);
-          bitField0_ |= 0x00000004;
+          bitField0_ |= 0x00000002;
          }
       }
 
@@ -1840,7 +1788,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       public Builder clearMassivePropList() {
         if (massivePropListBuilder_ == null) {
           massivePropList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000002);
           onChanged();
         } else {
           massivePropListBuilder_.clear();
@@ -1917,7 +1865,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
           massivePropListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo, emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo.Builder, emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfoOrBuilder>(
                   massivePropList_,
-                  ((bitField0_ & 0x00000004) != 0),
+                  ((bitField0_ & 0x00000002) != 0),
                   getParentForChildren(),
                   isClean());
           massivePropList_ = null;
@@ -2044,9 +1992,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
         return breakoutSnapShotBuilder_;
       }
 
-      private emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShot FilmfestBallGameSnapShot_;
+      private emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShot FilmfestBallGameSnapShot_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShot, emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShot.Builder, emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShotOrBuilder> FilmfestBallGameSnapShotBuilder_;
+          emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShot, emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShot.Builder, emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShotOrBuilder> FilmfestBallGameSnapShotBuilder_;
       /**
        * <code>._FilmfestBallGameSnapShot _filmfest_ball_game_snap_shot = 8;</code>
        * @return Whether the filmfestBallGameSnapShot field is set.
@@ -2058,9 +2006,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * <code>._FilmfestBallGameSnapShot _filmfest_ball_game_snap_shot = 8;</code>
        * @return The filmfestBallGameSnapShot.
        */
-      public emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShot getFilmfestBallGameSnapShot() {
+      public emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShot getFilmfestBallGameSnapShot() {
         if (FilmfestBallGameSnapShotBuilder_ == null) {
-          return FilmfestBallGameSnapShot_ == null ? emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShot.getDefaultInstance() : FilmfestBallGameSnapShot_;
+          return FilmfestBallGameSnapShot_ == null ? emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShot.getDefaultInstance() : FilmfestBallGameSnapShot_;
         } else {
           return FilmfestBallGameSnapShotBuilder_.getMessage();
         }
@@ -2068,7 +2016,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       /**
        * <code>._FilmfestBallGameSnapShot _filmfest_ball_game_snap_shot = 8;</code>
        */
-      public Builder setFilmfestBallGameSnapShot(emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShot value) {
+      public Builder setFilmfestBallGameSnapShot(emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShot value) {
         if (FilmfestBallGameSnapShotBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2085,7 +2033,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * <code>._FilmfestBallGameSnapShot _filmfest_ball_game_snap_shot = 8;</code>
        */
       public Builder setFilmfestBallGameSnapShot(
-          emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShot.Builder builderForValue) {
+          emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShot.Builder builderForValue) {
         if (FilmfestBallGameSnapShotBuilder_ == null) {
           FilmfestBallGameSnapShot_ = builderForValue.build();
           onChanged();
@@ -2098,11 +2046,11 @@ public final class AbilityMixinRecoverInfoOuterClass {
       /**
        * <code>._FilmfestBallGameSnapShot _filmfest_ball_game_snap_shot = 8;</code>
        */
-      public Builder mergeFilmfestBallGameSnapShot(emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShot value) {
+      public Builder mergeFilmfestBallGameSnapShot(emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShot value) {
         if (FilmfestBallGameSnapShotBuilder_ == null) {
           if (FilmfestBallGameSnapShot_ != null) {
             FilmfestBallGameSnapShot_ =
-              emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShot.newBuilder(FilmfestBallGameSnapShot_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShot.newBuilder(FilmfestBallGameSnapShot_).mergeFrom(value).buildPartial();
           } else {
             FilmfestBallGameSnapShot_ = value;
           }
@@ -2130,7 +2078,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       /**
        * <code>._FilmfestBallGameSnapShot _filmfest_ball_game_snap_shot = 8;</code>
        */
-      public emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShot.Builder getFilmfestBallGameSnapShotBuilder() {
+      public emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShot.Builder getFilmfestBallGameSnapShotBuilder() {
         
         onChanged();
         return getFilmfestBallGameSnapShotFieldBuilder().getBuilder();
@@ -2138,23 +2086,23 @@ public final class AbilityMixinRecoverInfoOuterClass {
       /**
        * <code>._FilmfestBallGameSnapShot _filmfest_ball_game_snap_shot = 8;</code>
        */
-      public emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShotOrBuilder getFilmfestBallGameSnapShotOrBuilder() {
+      public emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShotOrBuilder getFilmfestBallGameSnapShotOrBuilder() {
         if (FilmfestBallGameSnapShotBuilder_ != null) {
           return FilmfestBallGameSnapShotBuilder_.getMessageOrBuilder();
         } else {
           return FilmfestBallGameSnapShot_ == null ?
-              emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShot.getDefaultInstance() : FilmfestBallGameSnapShot_;
+              emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShot.getDefaultInstance() : FilmfestBallGameSnapShot_;
         }
       }
       /**
        * <code>._FilmfestBallGameSnapShot _filmfest_ball_game_snap_shot = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShot, emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShot.Builder, emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShotOrBuilder> 
+          emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShot, emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShot.Builder, emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShotOrBuilder> 
           getFilmfestBallGameSnapShotFieldBuilder() {
         if (FilmfestBallGameSnapShotBuilder_ == null) {
           FilmfestBallGameSnapShotBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShot, emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShot.Builder, emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass._FilmfestBallGameSnapShotOrBuilder>(
+              emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShot, emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShot.Builder, emu.grasscutter.net.proto.FilmfestBallGameSnapShot._FilmfestBallGameSnapShotOrBuilder>(
                   getFilmfestBallGameSnapShot(),
                   getParentForChildren(),
                   isClean());
@@ -2163,123 +2111,123 @@ public final class AbilityMixinRecoverInfoOuterClass {
         return FilmfestBallGameSnapShotBuilder_;
       }
 
-      private emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ kieoplpebci_;
+      private emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGND aGFDABPCKGJ_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ, emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ.Builder, emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJOrBuilder> kieoplpebciBuilder_;
+          emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGND, emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGND.Builder, emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGNDOrBuilder> aGFDABPCKGJBuilder_;
       /**
-       * <code>.MHEPPFLCCIJ kieoplpebci = 9;</code>
-       * @return Whether the kieoplpebci field is set.
+       * <code>.DIBHHLNJGND AGFDABPCKGJ = 9;</code>
+       * @return Whether the aGFDABPCKGJ field is set.
        */
-      public boolean hasKieoplpebci() {
-        return kieoplpebciBuilder_ != null || kieoplpebci_ != null;
+      public boolean hasAGFDABPCKGJ() {
+        return aGFDABPCKGJBuilder_ != null || aGFDABPCKGJ_ != null;
       }
       /**
-       * <code>.MHEPPFLCCIJ kieoplpebci = 9;</code>
-       * @return The kieoplpebci.
+       * <code>.DIBHHLNJGND AGFDABPCKGJ = 9;</code>
+       * @return The aGFDABPCKGJ.
        */
-      public emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ getKieoplpebci() {
-        if (kieoplpebciBuilder_ == null) {
-          return kieoplpebci_ == null ? emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ.getDefaultInstance() : kieoplpebci_;
+      public emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGND getAGFDABPCKGJ() {
+        if (aGFDABPCKGJBuilder_ == null) {
+          return aGFDABPCKGJ_ == null ? emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGND.getDefaultInstance() : aGFDABPCKGJ_;
         } else {
-          return kieoplpebciBuilder_.getMessage();
+          return aGFDABPCKGJBuilder_.getMessage();
         }
       }
       /**
-       * <code>.MHEPPFLCCIJ kieoplpebci = 9;</code>
+       * <code>.DIBHHLNJGND AGFDABPCKGJ = 9;</code>
        */
-      public Builder setKieoplpebci(emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ value) {
-        if (kieoplpebciBuilder_ == null) {
+      public Builder setAGFDABPCKGJ(emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGND value) {
+        if (aGFDABPCKGJBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          kieoplpebci_ = value;
+          aGFDABPCKGJ_ = value;
           onChanged();
         } else {
-          kieoplpebciBuilder_.setMessage(value);
+          aGFDABPCKGJBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>.MHEPPFLCCIJ kieoplpebci = 9;</code>
+       * <code>.DIBHHLNJGND AGFDABPCKGJ = 9;</code>
        */
-      public Builder setKieoplpebci(
-          emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ.Builder builderForValue) {
-        if (kieoplpebciBuilder_ == null) {
-          kieoplpebci_ = builderForValue.build();
+      public Builder setAGFDABPCKGJ(
+          emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGND.Builder builderForValue) {
+        if (aGFDABPCKGJBuilder_ == null) {
+          aGFDABPCKGJ_ = builderForValue.build();
           onChanged();
         } else {
-          kieoplpebciBuilder_.setMessage(builderForValue.build());
+          aGFDABPCKGJBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>.MHEPPFLCCIJ kieoplpebci = 9;</code>
+       * <code>.DIBHHLNJGND AGFDABPCKGJ = 9;</code>
        */
-      public Builder mergeKieoplpebci(emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ value) {
-        if (kieoplpebciBuilder_ == null) {
-          if (kieoplpebci_ != null) {
-            kieoplpebci_ =
-              emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ.newBuilder(kieoplpebci_).mergeFrom(value).buildPartial();
+      public Builder mergeAGFDABPCKGJ(emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGND value) {
+        if (aGFDABPCKGJBuilder_ == null) {
+          if (aGFDABPCKGJ_ != null) {
+            aGFDABPCKGJ_ =
+              emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGND.newBuilder(aGFDABPCKGJ_).mergeFrom(value).buildPartial();
           } else {
-            kieoplpebci_ = value;
+            aGFDABPCKGJ_ = value;
           }
           onChanged();
         } else {
-          kieoplpebciBuilder_.mergeFrom(value);
+          aGFDABPCKGJBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>.MHEPPFLCCIJ kieoplpebci = 9;</code>
+       * <code>.DIBHHLNJGND AGFDABPCKGJ = 9;</code>
        */
-      public Builder clearKieoplpebci() {
-        if (kieoplpebciBuilder_ == null) {
-          kieoplpebci_ = null;
+      public Builder clearAGFDABPCKGJ() {
+        if (aGFDABPCKGJBuilder_ == null) {
+          aGFDABPCKGJ_ = null;
           onChanged();
         } else {
-          kieoplpebci_ = null;
-          kieoplpebciBuilder_ = null;
+          aGFDABPCKGJ_ = null;
+          aGFDABPCKGJBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>.MHEPPFLCCIJ kieoplpebci = 9;</code>
+       * <code>.DIBHHLNJGND AGFDABPCKGJ = 9;</code>
        */
-      public emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ.Builder getKieoplpebciBuilder() {
+      public emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGND.Builder getAGFDABPCKGJBuilder() {
         
         onChanged();
-        return getKieoplpebciFieldBuilder().getBuilder();
+        return getAGFDABPCKGJFieldBuilder().getBuilder();
       }
       /**
-       * <code>.MHEPPFLCCIJ kieoplpebci = 9;</code>
+       * <code>.DIBHHLNJGND AGFDABPCKGJ = 9;</code>
        */
-      public emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJOrBuilder getKieoplpebciOrBuilder() {
-        if (kieoplpebciBuilder_ != null) {
-          return kieoplpebciBuilder_.getMessageOrBuilder();
+      public emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGNDOrBuilder getAGFDABPCKGJOrBuilder() {
+        if (aGFDABPCKGJBuilder_ != null) {
+          return aGFDABPCKGJBuilder_.getMessageOrBuilder();
         } else {
-          return kieoplpebci_ == null ?
-              emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ.getDefaultInstance() : kieoplpebci_;
+          return aGFDABPCKGJ_ == null ?
+              emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGND.getDefaultInstance() : aGFDABPCKGJ_;
         }
       }
       /**
-       * <code>.MHEPPFLCCIJ kieoplpebci = 9;</code>
+       * <code>.DIBHHLNJGND AGFDABPCKGJ = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ, emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ.Builder, emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJOrBuilder> 
-          getKieoplpebciFieldBuilder() {
-        if (kieoplpebciBuilder_ == null) {
-          kieoplpebciBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ, emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ.Builder, emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJOrBuilder>(
-                  getKieoplpebci(),
+          emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGND, emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGND.Builder, emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGNDOrBuilder> 
+          getAGFDABPCKGJFieldBuilder() {
+        if (aGFDABPCKGJBuilder_ == null) {
+          aGFDABPCKGJBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGND, emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGND.Builder, emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.DIBHHLNJGNDOrBuilder>(
+                  getAGFDABPCKGJ(),
                   getParentForChildren(),
                   isClean());
-          kieoplpebci_ = null;
+          aGFDABPCKGJ_ = null;
         }
-        return kieoplpebciBuilder_;
+        return aGFDABPCKGJBuilder_;
       }
 
       private int fPDAONBEBHK_ = 0;
@@ -2338,9 +2286,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
 
       private com.google.protobuf.Internal.FloatList bEGNLOGJPIF_ = emptyFloatList();
       private void ensureBEGNLOGJPIFIsMutable() {
-        if (!((bitField0_ & 0x00000008) != 0)) {
+        if (!((bitField0_ & 0x00000004) != 0)) {
           bEGNLOGJPIF_ = mutableCopy(bEGNLOGJPIF_);
-          bitField0_ |= 0x00000008;
+          bitField0_ |= 0x00000004;
          }
       }
       /**
@@ -2349,7 +2297,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        */
       public java.util.List<java.lang.Float>
           getBEGNLOGJPIFList() {
-        return ((bitField0_ & 0x00000008) != 0) ?
+        return ((bitField0_ & 0x00000004) != 0) ?
                  java.util.Collections.unmodifiableList(bEGNLOGJPIF_) : bEGNLOGJPIF_;
       }
       /**
@@ -2410,9 +2358,150 @@ public final class AbilityMixinRecoverInfoOuterClass {
        */
       public Builder clearBEGNLOGJPIF() {
         bEGNLOGJPIF_ = emptyFloatList();
-        bitField0_ = (bitField0_ & ~0x00000008);
+        bitField0_ = (bitField0_ & ~0x00000004);
         onChanged();
         return this;
+      }
+
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo, emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo.Builder, emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfoOrBuilder> drawPlayInfoBuilder_;
+      /**
+       * <code>._DrawPlayInfo draw_play_info = 100;</code>
+       * @return Whether the drawPlayInfo field is set.
+       */
+      @java.lang.Override
+      public boolean hasDrawPlayInfo() {
+        return infoCase_ == 100;
+      }
+      /**
+       * <code>._DrawPlayInfo draw_play_info = 100;</code>
+       * @return The drawPlayInfo.
+       */
+      @java.lang.Override
+      public emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo getDrawPlayInfo() {
+        if (drawPlayInfoBuilder_ == null) {
+          if (infoCase_ == 100) {
+            return (emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo) info_;
+          }
+          return emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo.getDefaultInstance();
+        } else {
+          if (infoCase_ == 100) {
+            return drawPlayInfoBuilder_.getMessage();
+          }
+          return emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>._DrawPlayInfo draw_play_info = 100;</code>
+       */
+      public Builder setDrawPlayInfo(emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo value) {
+        if (drawPlayInfoBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          info_ = value;
+          onChanged();
+        } else {
+          drawPlayInfoBuilder_.setMessage(value);
+        }
+        infoCase_ = 100;
+        return this;
+      }
+      /**
+       * <code>._DrawPlayInfo draw_play_info = 100;</code>
+       */
+      public Builder setDrawPlayInfo(
+          emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo.Builder builderForValue) {
+        if (drawPlayInfoBuilder_ == null) {
+          info_ = builderForValue.build();
+          onChanged();
+        } else {
+          drawPlayInfoBuilder_.setMessage(builderForValue.build());
+        }
+        infoCase_ = 100;
+        return this;
+      }
+      /**
+       * <code>._DrawPlayInfo draw_play_info = 100;</code>
+       */
+      public Builder mergeDrawPlayInfo(emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo value) {
+        if (drawPlayInfoBuilder_ == null) {
+          if (infoCase_ == 100 &&
+              info_ != emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo.getDefaultInstance()) {
+            info_ = emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo.newBuilder((emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo) info_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            info_ = value;
+          }
+          onChanged();
+        } else {
+          if (infoCase_ == 100) {
+            drawPlayInfoBuilder_.mergeFrom(value);
+          }
+          drawPlayInfoBuilder_.setMessage(value);
+        }
+        infoCase_ = 100;
+        return this;
+      }
+      /**
+       * <code>._DrawPlayInfo draw_play_info = 100;</code>
+       */
+      public Builder clearDrawPlayInfo() {
+        if (drawPlayInfoBuilder_ == null) {
+          if (infoCase_ == 100) {
+            infoCase_ = 0;
+            info_ = null;
+            onChanged();
+          }
+        } else {
+          if (infoCase_ == 100) {
+            infoCase_ = 0;
+            info_ = null;
+          }
+          drawPlayInfoBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>._DrawPlayInfo draw_play_info = 100;</code>
+       */
+      public emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo.Builder getDrawPlayInfoBuilder() {
+        return getDrawPlayInfoFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>._DrawPlayInfo draw_play_info = 100;</code>
+       */
+      @java.lang.Override
+      public emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfoOrBuilder getDrawPlayInfoOrBuilder() {
+        if ((infoCase_ == 100) && (drawPlayInfoBuilder_ != null)) {
+          return drawPlayInfoBuilder_.getMessageOrBuilder();
+        } else {
+          if (infoCase_ == 100) {
+            return (emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo) info_;
+          }
+          return emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>._DrawPlayInfo draw_play_info = 100;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo, emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo.Builder, emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfoOrBuilder> 
+          getDrawPlayInfoFieldBuilder() {
+        if (drawPlayInfoBuilder_ == null) {
+          if (!(infoCase_ == 100)) {
+            info_ = emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo.getDefaultInstance();
+          }
+          drawPlayInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo, emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo.Builder, emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfoOrBuilder>(
+                  (emu.grasscutter.net.proto.DrawPlayInfo._DrawPlayInfo) info_,
+                  getParentForChildren(),
+                  isClean());
+          info_ = null;
+        }
+        infoCase_ = 100;
+        onChanged();;
+        return drawPlayInfoBuilder_;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -2482,46 +2571,45 @@ public final class AbilityMixinRecoverInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035AbilityMixinRecoverInfo.proto\032\026Breakou" +
-      "tSnapShot.proto\032\021LJGEHMILKEM.proto\032\021MHEP" +
-      "PFLCCIJ.proto\032\031MassivePropSyncInfo.proto" +
+      "tSnapShot.proto\032\021DIBHHLNJGND.proto\032\021LJGE" +
+      "HMILKEM.proto\032\031MassivePropSyncInfo.proto" +
       "\032\023_DrawPlayInfo.proto\032\037_FilmfestBallGame" +
-      "SnapShot.proto\"\307\003\n\027AbilityMixinRecoverIn" +
+      "SnapShot.proto\"\271\003\n\027AbilityMixinRecoverIn" +
       "fo\022\036\n\024instanced_ability_id\030\001 \001(\rH\000\022\037\n\025in" +
-      "stanced_modifier_id\030\002 \001(\rH\000\022+\n\016draw_play" +
-      "_info\030d \001(\0132\016._DrawPlayInfoH\001\210\001\001\022\020\n\010loca" +
-      "l_id\030\003 \001(\r\022\021\n\tdata_list\030\004 \003(\r\022/\n\021massive" +
-      "_prop_list\030\006 \003(\0132\024.MassivePropSyncInfo\022-" +
-      "\n\022breakout_snap_shot\030\007 \001(\0132\021.BreakoutSna" +
-      "pShot\022A\n\035_filmfest_ball_game_snap_shot\030\010" +
-      " \001(\0132\032._FilmfestBallGameSnapShot\022!\n\013kieo" +
-      "plpebci\030\t \001(\0132\014.MHEPPFLCCIJ\022!\n\013FPDAONBEB" +
-      "HK\030\n \001(\0162\014.LJGEHMILKEM\022\023\n\013BEGNLOGJPIF\030\013 " +
-      "\003(\002B\010\n\006sourceB\021\n\017_draw_play_infoB>\n\031emu." +
-      "grasscutter.net.protoB!AbilityMixinRecov" +
-      "erInfoOuterClassb\006proto3"
+      "stanced_modifier_id\030\002 \001(\rH\000\022\020\n\010local_id\030" +
+      "\003 \001(\r\022\021\n\tdata_list\030\004 \003(\r\022/\n\021massive_prop" +
+      "_list\030\006 \003(\0132\024.MassivePropSyncInfo\022-\n\022bre" +
+      "akout_snap_shot\030\007 \001(\0132\021.BreakoutSnapShot" +
+      "\022A\n\035_filmfest_ball_game_snap_shot\030\010 \001(\0132" +
+      "\032._FilmfestBallGameSnapShot\022!\n\013AGFDABPCK" +
+      "GJ\030\t \001(\0132\014.DIBHHLNJGND\022!\n\013FPDAONBEBHK\030\n " +
+      "\001(\0162\014.LJGEHMILKEM\022\023\n\013BEGNLOGJPIF\030\013 \003(\002\022(" +
+      "\n\016draw_play_info\030d \001(\0132\016._DrawPlayInfoH\001" +
+      "B\010\n\006sourceB\006\n\004infoB\033\n\031emu.grasscutter.ne" +
+      "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.LJGEHMILKEMOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto._DrawPlayInfoOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.DrawPlayInfo.getDescriptor(),
+          emu.grasscutter.net.proto.FilmfestBallGameSnapShot.getDescriptor(),
         });
     internal_static_AbilityMixinRecoverInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_AbilityMixinRecoverInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AbilityMixinRecoverInfo_descriptor,
-        new java.lang.String[] { "InstancedAbilityId", "InstancedModifierId", "DrawPlayInfo", "LocalId", "DataList", "MassivePropList", "BreakoutSnapShot", "FilmfestBallGameSnapShot", "Kieoplpebci", "FPDAONBEBHK", "BEGNLOGJPIF", "Source", "DrawPlayInfo", });
+        new java.lang.String[] { "InstancedAbilityId", "InstancedModifierId", "LocalId", "DataList", "MassivePropList", "BreakoutSnapShot", "FilmfestBallGameSnapShot", "AGFDABPCKGJ", "FPDAONBEBHK", "BEGNLOGJPIF", "DrawPlayInfo", "Source", "Info", });
     emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.DIBHHLNJGNDOuterClass.getDescriptor();
     emu.grasscutter.net.proto.LJGEHMILKEMOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.getDescriptor();
     emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.getDescriptor();
-    emu.grasscutter.net.proto._DrawPlayInfoOuterClass.getDescriptor();
-    emu.grasscutter.net.proto._FilmfestBallGameSnapShotOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.DrawPlayInfo.getDescriptor();
+    emu.grasscutter.net.proto.FilmfestBallGameSnapShot.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -965,8 +965,8 @@ public final class EAOEICFJOBAOuterClass {
       "\n\021EAOEICFJOBA.proto\032\020Uint32Pair.proto\"Y\n" +
       "\013EAOEICFJOBA\022\023\n\013KEHLBIHCOBB\030\001 \001(\010\022 \n\013BGK" +
       "NOBGMOIP\030\013 \003(\0132\013.Uint32Pair\022\023\n\013finish_ti" +
-      "me\030\r \001(\rB2\n\031emu.grasscutter.net.protoB\025E" +
-      "AOEICFJOBAOuterClassb\006proto3"
+      "me\030\r \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -169,27 +169,27 @@ public final class BreakoutPhysicalObjectOuterClass {
     int getOffset();
 
     /**
-     * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+     * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
      */
-    java.util.List<emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int> 
-        getCemaggfilchList();
+    java.util.List<emu.grasscutter.net.proto.Vector2Int._Vector2Int> 
+        getDLDMILGJGGEList();
     /**
-     * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+     * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
      */
-    emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int getCemaggfilch(int index);
+    emu.grasscutter.net.proto.Vector2Int._Vector2Int getDLDMILGJGGE(int index);
     /**
-     * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+     * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
      */
-    int getCemaggfilchCount();
+    int getDLDMILGJGGECount();
     /**
-     * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+     * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder> 
-        getCemaggfilchOrBuilderList();
+    java.util.List<? extends emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder> 
+        getDLDMILGJGGEOrBuilderList();
     /**
-     * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+     * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
      */
-    emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder getCemaggfilchOrBuilder(
+    emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder getDLDMILGJGGEOrBuilder(
         int index);
 
     /**
@@ -224,7 +224,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     private BreakoutPhysicalObject() {
       modifierList_ = java.util.Collections.emptyList();
       infoList_ = java.util.Collections.emptyList();
-      cemaggfilch_ = java.util.Collections.emptyList();
+      dLDMILGJGGE_ = java.util.Collections.emptyList();
       intParamList_ = emptyIntList();
     }
 
@@ -365,11 +365,11 @@ public final class BreakoutPhysicalObjectOuterClass {
             }
             case 138: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                cemaggfilch_ = new java.util.ArrayList<emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int>();
+                dLDMILGJGGE_ = new java.util.ArrayList<emu.grasscutter.net.proto.Vector2Int._Vector2Int>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              cemaggfilch_.add(
-                  input.readMessage(emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.parser(), extensionRegistry));
+              dLDMILGJGGE_.add(
+                  input.readMessage(emu.grasscutter.net.proto.Vector2Int._Vector2Int.parser(), extensionRegistry));
               break;
             }
             case 144: {
@@ -415,7 +415,7 @@ public final class BreakoutPhysicalObjectOuterClass {
           infoList_ = java.util.Collections.unmodifiableList(infoList_);
         }
         if (((mutable_bitField0_ & 0x00000004) != 0)) {
-          cemaggfilch_ = java.util.Collections.unmodifiableList(cemaggfilch_);
+          dLDMILGJGGE_ = java.util.Collections.unmodifiableList(dLDMILGJGGE_);
         }
         if (((mutable_bitField0_ & 0x00000008) != 0)) {
           intParamList_.makeImmutable(); // C
@@ -701,44 +701,44 @@ public final class BreakoutPhysicalObjectOuterClass {
       return offset_;
     }
 
-    public static final int CEMAGGFILCH_FIELD_NUMBER = 17;
-    private java.util.List<emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int> cemaggfilch_;
+    public static final int DLDMILGJGGE_FIELD_NUMBER = 17;
+    private java.util.List<emu.grasscutter.net.proto.Vector2Int._Vector2Int> dLDMILGJGGE_;
     /**
-     * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+     * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int> getCemaggfilchList() {
-      return cemaggfilch_;
+    public java.util.List<emu.grasscutter.net.proto.Vector2Int._Vector2Int> getDLDMILGJGGEList() {
+      return dLDMILGJGGE_;
     }
     /**
-     * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+     * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder> 
-        getCemaggfilchOrBuilderList() {
-      return cemaggfilch_;
+    public java.util.List<? extends emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder> 
+        getDLDMILGJGGEOrBuilderList() {
+      return dLDMILGJGGE_;
     }
     /**
-     * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+     * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
      */
     @java.lang.Override
-    public int getCemaggfilchCount() {
-      return cemaggfilch_.size();
+    public int getDLDMILGJGGECount() {
+      return dLDMILGJGGE_.size();
     }
     /**
-     * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+     * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int getCemaggfilch(int index) {
-      return cemaggfilch_.get(index);
+    public emu.grasscutter.net.proto.Vector2Int._Vector2Int getDLDMILGJGGE(int index) {
+      return dLDMILGJGGE_.get(index);
     }
     /**
-     * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+     * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder getCemaggfilchOrBuilder(
+    public emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder getDLDMILGJGGEOrBuilder(
         int index) {
-      return cemaggfilch_.get(index);
+      return dLDMILGJGGE_.get(index);
     }
 
     public static final int INT_PARAM_LIST_FIELD_NUMBER = 18;
@@ -832,8 +832,8 @@ public final class BreakoutPhysicalObjectOuterClass {
       if (offset_ != 0) {
         output.writeInt32(16, offset_);
       }
-      for (int i = 0; i < cemaggfilch_.size(); i++) {
-        output.writeMessage(17, cemaggfilch_.get(i));
+      for (int i = 0; i < dLDMILGJGGE_.size(); i++) {
+        output.writeMessage(17, dLDMILGJGGE_.get(i));
       }
       if (getIntParamListList().size() > 0) {
         output.writeUInt32NoTag(146);
@@ -915,9 +915,9 @@ public final class BreakoutPhysicalObjectOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(16, offset_);
       }
-      for (int i = 0; i < cemaggfilch_.size(); i++) {
+      for (int i = 0; i < dLDMILGJGGE_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(17, cemaggfilch_.get(i));
+          .computeMessageSize(17, dLDMILGJGGE_.get(i));
       }
       {
         int dataSize = 0;
@@ -986,8 +986,8 @@ public final class BreakoutPhysicalObjectOuterClass {
           != other.getSpeedIncreaseCount()) return false;
       if (getOffset()
           != other.getOffset()) return false;
-      if (!getCemaggfilchList()
-          .equals(other.getCemaggfilchList())) return false;
+      if (!getDLDMILGJGGEList()
+          .equals(other.getDLDMILGJGGEList())) return false;
       if (!getIntParamListList()
           .equals(other.getIntParamListList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -1042,9 +1042,9 @@ public final class BreakoutPhysicalObjectOuterClass {
       hash = (53 * hash) + getSpeedIncreaseCount();
       hash = (37 * hash) + OFFSET_FIELD_NUMBER;
       hash = (53 * hash) + getOffset();
-      if (getCemaggfilchCount() > 0) {
-        hash = (37 * hash) + CEMAGGFILCH_FIELD_NUMBER;
-        hash = (53 * hash) + getCemaggfilchList().hashCode();
+      if (getDLDMILGJGGECount() > 0) {
+        hash = (37 * hash) + DLDMILGJGGE_FIELD_NUMBER;
+        hash = (53 * hash) + getDLDMILGJGGEList().hashCode();
       }
       if (getIntParamListCount() > 0) {
         hash = (37 * hash) + INT_PARAM_LIST_FIELD_NUMBER;
@@ -1180,7 +1180,7 @@ public final class BreakoutPhysicalObjectOuterClass {
                 .alwaysUseFieldBuilders) {
           getModifierListFieldBuilder();
           getInfoListFieldBuilder();
-          getCemaggfilchFieldBuilder();
+          getDLDMILGJGGEFieldBuilder();
         }
       }
       @java.lang.Override
@@ -1234,11 +1234,11 @@ public final class BreakoutPhysicalObjectOuterClass {
 
         offset_ = 0;
 
-        if (cemaggfilchBuilder_ == null) {
-          cemaggfilch_ = java.util.Collections.emptyList();
+        if (dLDMILGJGGEBuilder_ == null) {
+          dLDMILGJGGE_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000004);
         } else {
-          cemaggfilchBuilder_.clear();
+          dLDMILGJGGEBuilder_.clear();
         }
         intParamList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000008);
@@ -1309,14 +1309,14 @@ public final class BreakoutPhysicalObjectOuterClass {
         result.lastHitPeerId_ = lastHitPeerId_;
         result.speedIncreaseCount_ = speedIncreaseCount_;
         result.offset_ = offset_;
-        if (cemaggfilchBuilder_ == null) {
+        if (dLDMILGJGGEBuilder_ == null) {
           if (((bitField0_ & 0x00000004) != 0)) {
-            cemaggfilch_ = java.util.Collections.unmodifiableList(cemaggfilch_);
+            dLDMILGJGGE_ = java.util.Collections.unmodifiableList(dLDMILGJGGE_);
             bitField0_ = (bitField0_ & ~0x00000004);
           }
-          result.cemaggfilch_ = cemaggfilch_;
+          result.dLDMILGJGGE_ = dLDMILGJGGE_;
         } else {
-          result.cemaggfilch_ = cemaggfilchBuilder_.build();
+          result.dLDMILGJGGE_ = dLDMILGJGGEBuilder_.build();
         }
         if (((bitField0_ & 0x00000008) != 0)) {
           intParamList_.makeImmutable();
@@ -1465,29 +1465,29 @@ public final class BreakoutPhysicalObjectOuterClass {
         if (other.getOffset() != 0) {
           setOffset(other.getOffset());
         }
-        if (cemaggfilchBuilder_ == null) {
-          if (!other.cemaggfilch_.isEmpty()) {
-            if (cemaggfilch_.isEmpty()) {
-              cemaggfilch_ = other.cemaggfilch_;
+        if (dLDMILGJGGEBuilder_ == null) {
+          if (!other.dLDMILGJGGE_.isEmpty()) {
+            if (dLDMILGJGGE_.isEmpty()) {
+              dLDMILGJGGE_ = other.dLDMILGJGGE_;
               bitField0_ = (bitField0_ & ~0x00000004);
             } else {
-              ensureCemaggfilchIsMutable();
-              cemaggfilch_.addAll(other.cemaggfilch_);
+              ensureDLDMILGJGGEIsMutable();
+              dLDMILGJGGE_.addAll(other.dLDMILGJGGE_);
             }
             onChanged();
           }
         } else {
-          if (!other.cemaggfilch_.isEmpty()) {
-            if (cemaggfilchBuilder_.isEmpty()) {
-              cemaggfilchBuilder_.dispose();
-              cemaggfilchBuilder_ = null;
-              cemaggfilch_ = other.cemaggfilch_;
+          if (!other.dLDMILGJGGE_.isEmpty()) {
+            if (dLDMILGJGGEBuilder_.isEmpty()) {
+              dLDMILGJGGEBuilder_.dispose();
+              dLDMILGJGGEBuilder_ = null;
+              dLDMILGJGGE_ = other.dLDMILGJGGE_;
               bitField0_ = (bitField0_ & ~0x00000004);
-              cemaggfilchBuilder_ = 
+              dLDMILGJGGEBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getCemaggfilchFieldBuilder() : null;
+                   getDLDMILGJGGEFieldBuilder() : null;
             } else {
-              cemaggfilchBuilder_.addAllMessages(other.cemaggfilch_);
+              dLDMILGJGGEBuilder_.addAllMessages(other.dLDMILGJGGE_);
             }
           }
         }
@@ -2621,244 +2621,244 @@ public final class BreakoutPhysicalObjectOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int> cemaggfilch_ =
+      private java.util.List<emu.grasscutter.net.proto.Vector2Int._Vector2Int> dLDMILGJGGE_ =
         java.util.Collections.emptyList();
-      private void ensureCemaggfilchIsMutable() {
+      private void ensureDLDMILGJGGEIsMutable() {
         if (!((bitField0_ & 0x00000004) != 0)) {
-          cemaggfilch_ = new java.util.ArrayList<emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int>(cemaggfilch_);
+          dLDMILGJGGE_ = new java.util.ArrayList<emu.grasscutter.net.proto.Vector2Int._Vector2Int>(dLDMILGJGGE_);
           bitField0_ |= 0x00000004;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder> cemaggfilchBuilder_;
+          emu.grasscutter.net.proto.Vector2Int._Vector2Int, emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder, emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder> dLDMILGJGGEBuilder_;
 
       /**
-       * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+       * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int> getCemaggfilchList() {
-        if (cemaggfilchBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(cemaggfilch_);
+      public java.util.List<emu.grasscutter.net.proto.Vector2Int._Vector2Int> getDLDMILGJGGEList() {
+        if (dLDMILGJGGEBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(dLDMILGJGGE_);
         } else {
-          return cemaggfilchBuilder_.getMessageList();
+          return dLDMILGJGGEBuilder_.getMessageList();
         }
       }
       /**
-       * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+       * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
        */
-      public int getCemaggfilchCount() {
-        if (cemaggfilchBuilder_ == null) {
-          return cemaggfilch_.size();
+      public int getDLDMILGJGGECount() {
+        if (dLDMILGJGGEBuilder_ == null) {
+          return dLDMILGJGGE_.size();
         } else {
-          return cemaggfilchBuilder_.getCount();
+          return dLDMILGJGGEBuilder_.getCount();
         }
       }
       /**
-       * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+       * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
        */
-      public emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int getCemaggfilch(int index) {
-        if (cemaggfilchBuilder_ == null) {
-          return cemaggfilch_.get(index);
+      public emu.grasscutter.net.proto.Vector2Int._Vector2Int getDLDMILGJGGE(int index) {
+        if (dLDMILGJGGEBuilder_ == null) {
+          return dLDMILGJGGE_.get(index);
         } else {
-          return cemaggfilchBuilder_.getMessage(index);
+          return dLDMILGJGGEBuilder_.getMessage(index);
         }
       }
       /**
-       * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+       * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
        */
-      public Builder setCemaggfilch(
-          int index, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int value) {
-        if (cemaggfilchBuilder_ == null) {
+      public Builder setDLDMILGJGGE(
+          int index, emu.grasscutter.net.proto.Vector2Int._Vector2Int value) {
+        if (dLDMILGJGGEBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureCemaggfilchIsMutable();
-          cemaggfilch_.set(index, value);
+          ensureDLDMILGJGGEIsMutable();
+          dLDMILGJGGE_.set(index, value);
           onChanged();
         } else {
-          cemaggfilchBuilder_.setMessage(index, value);
+          dLDMILGJGGEBuilder_.setMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+       * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
        */
-      public Builder setCemaggfilch(
-          int index, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder builderForValue) {
-        if (cemaggfilchBuilder_ == null) {
-          ensureCemaggfilchIsMutable();
-          cemaggfilch_.set(index, builderForValue.build());
+      public Builder setDLDMILGJGGE(
+          int index, emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder builderForValue) {
+        if (dLDMILGJGGEBuilder_ == null) {
+          ensureDLDMILGJGGEIsMutable();
+          dLDMILGJGGE_.set(index, builderForValue.build());
           onChanged();
         } else {
-          cemaggfilchBuilder_.setMessage(index, builderForValue.build());
+          dLDMILGJGGEBuilder_.setMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+       * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
        */
-      public Builder addCemaggfilch(emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int value) {
-        if (cemaggfilchBuilder_ == null) {
+      public Builder addDLDMILGJGGE(emu.grasscutter.net.proto.Vector2Int._Vector2Int value) {
+        if (dLDMILGJGGEBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureCemaggfilchIsMutable();
-          cemaggfilch_.add(value);
+          ensureDLDMILGJGGEIsMutable();
+          dLDMILGJGGE_.add(value);
           onChanged();
         } else {
-          cemaggfilchBuilder_.addMessage(value);
+          dLDMILGJGGEBuilder_.addMessage(value);
         }
         return this;
       }
       /**
-       * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+       * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
        */
-      public Builder addCemaggfilch(
-          int index, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int value) {
-        if (cemaggfilchBuilder_ == null) {
+      public Builder addDLDMILGJGGE(
+          int index, emu.grasscutter.net.proto.Vector2Int._Vector2Int value) {
+        if (dLDMILGJGGEBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureCemaggfilchIsMutable();
-          cemaggfilch_.add(index, value);
+          ensureDLDMILGJGGEIsMutable();
+          dLDMILGJGGE_.add(index, value);
           onChanged();
         } else {
-          cemaggfilchBuilder_.addMessage(index, value);
+          dLDMILGJGGEBuilder_.addMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+       * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
        */
-      public Builder addCemaggfilch(
-          emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder builderForValue) {
-        if (cemaggfilchBuilder_ == null) {
-          ensureCemaggfilchIsMutable();
-          cemaggfilch_.add(builderForValue.build());
+      public Builder addDLDMILGJGGE(
+          emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder builderForValue) {
+        if (dLDMILGJGGEBuilder_ == null) {
+          ensureDLDMILGJGGEIsMutable();
+          dLDMILGJGGE_.add(builderForValue.build());
           onChanged();
         } else {
-          cemaggfilchBuilder_.addMessage(builderForValue.build());
+          dLDMILGJGGEBuilder_.addMessage(builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+       * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
        */
-      public Builder addCemaggfilch(
-          int index, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder builderForValue) {
-        if (cemaggfilchBuilder_ == null) {
-          ensureCemaggfilchIsMutable();
-          cemaggfilch_.add(index, builderForValue.build());
+      public Builder addDLDMILGJGGE(
+          int index, emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder builderForValue) {
+        if (dLDMILGJGGEBuilder_ == null) {
+          ensureDLDMILGJGGEIsMutable();
+          dLDMILGJGGE_.add(index, builderForValue.build());
           onChanged();
         } else {
-          cemaggfilchBuilder_.addMessage(index, builderForValue.build());
+          dLDMILGJGGEBuilder_.addMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+       * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
        */
-      public Builder addAllCemaggfilch(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int> values) {
-        if (cemaggfilchBuilder_ == null) {
-          ensureCemaggfilchIsMutable();
+      public Builder addAllDLDMILGJGGE(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.Vector2Int._Vector2Int> values) {
+        if (dLDMILGJGGEBuilder_ == null) {
+          ensureDLDMILGJGGEIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, cemaggfilch_);
+              values, dLDMILGJGGE_);
           onChanged();
         } else {
-          cemaggfilchBuilder_.addAllMessages(values);
+          dLDMILGJGGEBuilder_.addAllMessages(values);
         }
         return this;
       }
       /**
-       * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+       * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
        */
-      public Builder clearCemaggfilch() {
-        if (cemaggfilchBuilder_ == null) {
-          cemaggfilch_ = java.util.Collections.emptyList();
+      public Builder clearDLDMILGJGGE() {
+        if (dLDMILGJGGEBuilder_ == null) {
+          dLDMILGJGGE_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000004);
           onChanged();
         } else {
-          cemaggfilchBuilder_.clear();
+          dLDMILGJGGEBuilder_.clear();
         }
         return this;
       }
       /**
-       * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+       * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
        */
-      public Builder removeCemaggfilch(int index) {
-        if (cemaggfilchBuilder_ == null) {
-          ensureCemaggfilchIsMutable();
-          cemaggfilch_.remove(index);
+      public Builder removeDLDMILGJGGE(int index) {
+        if (dLDMILGJGGEBuilder_ == null) {
+          ensureDLDMILGJGGEIsMutable();
+          dLDMILGJGGE_.remove(index);
           onChanged();
         } else {
-          cemaggfilchBuilder_.remove(index);
+          dLDMILGJGGEBuilder_.remove(index);
         }
         return this;
       }
       /**
-       * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+       * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
        */
-      public emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder getCemaggfilchBuilder(
+      public emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder getDLDMILGJGGEBuilder(
           int index) {
-        return getCemaggfilchFieldBuilder().getBuilder(index);
+        return getDLDMILGJGGEFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+       * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
        */
-      public emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder getCemaggfilchOrBuilder(
+      public emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder getDLDMILGJGGEOrBuilder(
           int index) {
-        if (cemaggfilchBuilder_ == null) {
-          return cemaggfilch_.get(index);  } else {
-          return cemaggfilchBuilder_.getMessageOrBuilder(index);
+        if (dLDMILGJGGEBuilder_ == null) {
+          return dLDMILGJGGE_.get(index);  } else {
+          return dLDMILGJGGEBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+       * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder> 
-           getCemaggfilchOrBuilderList() {
-        if (cemaggfilchBuilder_ != null) {
-          return cemaggfilchBuilder_.getMessageOrBuilderList();
+      public java.util.List<? extends emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder> 
+           getDLDMILGJGGEOrBuilderList() {
+        if (dLDMILGJGGEBuilder_ != null) {
+          return dLDMILGJGGEBuilder_.getMessageOrBuilderList();
         } else {
-          return java.util.Collections.unmodifiableList(cemaggfilch_);
+          return java.util.Collections.unmodifiableList(dLDMILGJGGE_);
         }
       }
       /**
-       * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+       * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
        */
-      public emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder addCemaggfilchBuilder() {
-        return getCemaggfilchFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.getDefaultInstance());
+      public emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder addDLDMILGJGGEBuilder() {
+        return getDLDMILGJGGEFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.Vector2Int._Vector2Int.getDefaultInstance());
       }
       /**
-       * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+       * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
        */
-      public emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder addCemaggfilchBuilder(
+      public emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder addDLDMILGJGGEBuilder(
           int index) {
-        return getCemaggfilchFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.getDefaultInstance());
+        return getDLDMILGJGGEFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.Vector2Int._Vector2Int.getDefaultInstance());
       }
       /**
-       * <code>repeated ._Vector2Int cemaggfilch = 17;</code>
+       * <code>repeated ._Vector2Int DLDMILGJGGE = 17;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder> 
-           getCemaggfilchBuilderList() {
-        return getCemaggfilchFieldBuilder().getBuilderList();
+      public java.util.List<emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder> 
+           getDLDMILGJGGEBuilderList() {
+        return getDLDMILGJGGEFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder> 
-          getCemaggfilchFieldBuilder() {
-        if (cemaggfilchBuilder_ == null) {
-          cemaggfilchBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder>(
-                  cemaggfilch_,
+          emu.grasscutter.net.proto.Vector2Int._Vector2Int, emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder, emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder> 
+          getDLDMILGJGGEFieldBuilder() {
+        if (dLDMILGJGGEBuilder_ == null) {
+          dLDMILGJGGEBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.Vector2Int._Vector2Int, emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder, emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder>(
+                  dLDMILGJGGE_,
                   ((bitField0_ & 0x00000004) != 0),
                   getParentForChildren(),
                   isClean());
-          cemaggfilch_ = null;
+          dLDMILGJGGE_ = null;
         }
-        return cemaggfilchBuilder_;
+        return dLDMILGJGGEBuilder_;
       }
 
       private com.google.protobuf.Internal.IntList intParamList_ = emptyIntList();
@@ -3020,10 +3020,9 @@ public final class BreakoutPhysicalObjectOuterClass {
       "total_rotation\030\014 \001(\005\022%\n\tinfo_list\030\r \003(\0132" +
       "\022.BreakoutBrickInfo\022\030\n\020last_hit_peer_id\030" +
       "\016 \001(\r\022\034\n\024speed_increase_count\030\017 \001(\r\022\016\n\006o" +
-      "ffset\030\020 \001(\005\022!\n\013cemaggfilch\030\021 \003(\0132\014._Vect" +
-      "or2Int\022\026\n\016int_param_list\030\022 \003(\005B=\n\031emu.gr" +
-      "asscutter.net.protoB BreakoutPhysicalObj" +
-      "ectOuterClassb\006proto3"
+      "ffset\030\020 \001(\005\022!\n\013DLDMILGJGGE\030\021 \003(\0132\014._Vect" +
+      "or2Int\022\026\n\016int_param_list\030\022 \003(\005B\033\n\031emu.gr" +
+      "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -3031,18 +3030,18 @@ public final class BreakoutPhysicalObjectOuterClass {
           emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.BreakoutVector2OuterClass.getDescriptor(),
-          emu.grasscutter.net.proto._Vector2IntOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.Vector2Int.getDescriptor(),
         });
     internal_static_BreakoutPhysicalObject_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_BreakoutPhysicalObject_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BreakoutPhysicalObject_descriptor,
-        new java.lang.String[] { "Id", "Index", "IsActive", "Pos", "MoveDir", "Speed", "InitPeerId", "State", "ElementType", "ElementReactionBuff", "ModifierList", "TotalRotation", "InfoList", "LastHitPeerId", "SpeedIncreaseCount", "Offset", "Cemaggfilch", "IntParamList", });
+        new java.lang.String[] { "Id", "Index", "IsActive", "Pos", "MoveDir", "Speed", "InitPeerId", "State", "ElementType", "ElementReactionBuff", "ModifierList", "TotalRotation", "InfoList", "LastHitPeerId", "SpeedIncreaseCount", "Offset", "DLDMILGJGGE", "IntParamList", });
     emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.getDescriptor();
     emu.grasscutter.net.proto.BreakoutVector2OuterClass.getDescriptor();
-    emu.grasscutter.net.proto._Vector2IntOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.Vector2Int.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

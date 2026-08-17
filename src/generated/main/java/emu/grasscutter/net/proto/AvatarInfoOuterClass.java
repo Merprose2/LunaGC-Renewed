@@ -435,16 +435,16 @@ public final class AvatarInfoOuterClass {
     emu.grasscutter.net.proto.MirrorAvatarInfoOuterClass.MirrorAvatarInfoOrBuilder getMirrorAvatarInfoOrBuilder();
 
     /**
-     * <code>uint32 dpeciabdbpg = 29;</code>
-     * @return The dpeciabdbpg.
+     * <code>uint32 JMFFNNBEHGG = 29;</code>
+     * @return The jMFFNNBEHGG.
      */
-    int getDpeciabdbpg();
+    int getJMFFNNBEHGG();
 
     /**
-     * <code>uint32 eigifnbdicm = 30;</code>
-     * @return The eigifnbdicm.
+     * <code>uint32 LDHKKNPGIMH = 30;</code>
+     * @return The lDHKKNPGIMH.
      */
-    int getEigifnbdicm();
+    int getLDHKKNPGIMH();
 
     /**
      * <code>uint32 _trace_effect_id = 31;</code>
@@ -467,11 +467,11 @@ public final class AvatarInfoOuterClass {
      * <code>._BeyondCostumeSetInfo _avatar_costume_set = 33;</code>
      * @return The avatarCostumeSet.
      */
-    emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo getAvatarCostumeSet();
+    emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo getAvatarCostumeSet();
     /**
      * <code>._BeyondCostumeSetInfo _avatar_costume_set = 33;</code>
      */
-    emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder getAvatarCostumeSetOrBuilder();
+    emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder getAvatarCostumeSetOrBuilder();
 
     /**
      * <code>uint32 _voice_id = 34;</code>
@@ -887,12 +887,12 @@ public final class AvatarInfoOuterClass {
             }
             case 232: {
 
-              dpeciabdbpg_ = input.readUInt32();
+              jMFFNNBEHGG_ = input.readUInt32();
               break;
             }
             case 240: {
 
-              eigifnbdicm_ = input.readUInt32();
+              lDHKKNPGIMH_ = input.readUInt32();
               break;
             }
             case 248: {
@@ -906,11 +906,11 @@ public final class AvatarInfoOuterClass {
               break;
             }
             case 266: {
-              emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder subBuilder = null;
               if (AvatarCostumeSet_ != null) {
                 subBuilder = AvatarCostumeSet_.toBuilder();
               }
-              AvatarCostumeSet_ = input.readMessage(emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.parser(), extensionRegistry);
+              AvatarCostumeSet_ = input.readMessage(emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(AvatarCostumeSet_);
                 AvatarCostumeSet_ = subBuilder.buildPartial();
@@ -1882,26 +1882,26 @@ public final class AvatarInfoOuterClass {
       return getMirrorAvatarInfo();
     }
 
-    public static final int DPECIABDBPG_FIELD_NUMBER = 29;
-    private int dpeciabdbpg_;
+    public static final int JMFFNNBEHGG_FIELD_NUMBER = 29;
+    private int jMFFNNBEHGG_;
     /**
-     * <code>uint32 dpeciabdbpg = 29;</code>
-     * @return The dpeciabdbpg.
+     * <code>uint32 JMFFNNBEHGG = 29;</code>
+     * @return The jMFFNNBEHGG.
      */
     @java.lang.Override
-    public int getDpeciabdbpg() {
-      return dpeciabdbpg_;
+    public int getJMFFNNBEHGG() {
+      return jMFFNNBEHGG_;
     }
 
-    public static final int EIGIFNBDICM_FIELD_NUMBER = 30;
-    private int eigifnbdicm_;
+    public static final int LDHKKNPGIMH_FIELD_NUMBER = 30;
+    private int lDHKKNPGIMH_;
     /**
-     * <code>uint32 eigifnbdicm = 30;</code>
-     * @return The eigifnbdicm.
+     * <code>uint32 LDHKKNPGIMH = 30;</code>
+     * @return The lDHKKNPGIMH.
      */
     @java.lang.Override
-    public int getEigifnbdicm() {
-      return eigifnbdicm_;
+    public int getLDHKKNPGIMH() {
+      return lDHKKNPGIMH_;
     }
 
     public static final int _TRACE_EFFECT_ID_FIELD_NUMBER = 31;
@@ -1927,7 +1927,7 @@ public final class AvatarInfoOuterClass {
     }
 
     public static final int _AVATAR_COSTUME_SET_FIELD_NUMBER = 33;
-    private emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo AvatarCostumeSet_;
+    private emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo AvatarCostumeSet_;
     /**
      * <code>._BeyondCostumeSetInfo _avatar_costume_set = 33;</code>
      * @return Whether the avatarCostumeSet field is set.
@@ -1941,14 +1941,14 @@ public final class AvatarInfoOuterClass {
      * @return The avatarCostumeSet.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo getAvatarCostumeSet() {
-      return AvatarCostumeSet_ == null ? emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.getDefaultInstance() : AvatarCostumeSet_;
+    public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo getAvatarCostumeSet() {
+      return AvatarCostumeSet_ == null ? emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.getDefaultInstance() : AvatarCostumeSet_;
     }
     /**
      * <code>._BeyondCostumeSetInfo _avatar_costume_set = 33;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder getAvatarCostumeSetOrBuilder() {
+    public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder getAvatarCostumeSetOrBuilder() {
       return getAvatarCostumeSet();
     }
 
@@ -2190,11 +2190,11 @@ public final class AvatarInfoOuterClass {
       if (mirrorAvatarInfo_ != null) {
         output.writeMessage(28, getMirrorAvatarInfo());
       }
-      if (dpeciabdbpg_ != 0) {
-        output.writeUInt32(29, dpeciabdbpg_);
+      if (jMFFNNBEHGG_ != 0) {
+        output.writeUInt32(29, jMFFNNBEHGG_);
       }
-      if (eigifnbdicm_ != 0) {
-        output.writeUInt32(30, eigifnbdicm_);
+      if (lDHKKNPGIMH_ != 0) {
+        output.writeUInt32(30, lDHKKNPGIMH_);
       }
       if (TraceEffectId_ != 0) {
         output.writeUInt32(31, TraceEffectId_);
@@ -2422,13 +2422,13 @@ public final class AvatarInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(28, getMirrorAvatarInfo());
       }
-      if (dpeciabdbpg_ != 0) {
+      if (jMFFNNBEHGG_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(29, dpeciabdbpg_);
+          .computeUInt32Size(29, jMFFNNBEHGG_);
       }
-      if (eigifnbdicm_ != 0) {
+      if (lDHKKNPGIMH_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(30, eigifnbdicm_);
+          .computeUInt32Size(30, lDHKKNPGIMH_);
       }
       if (TraceEffectId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -2558,10 +2558,10 @@ public final class AvatarInfoOuterClass {
         if (!getMirrorAvatarInfo()
             .equals(other.getMirrorAvatarInfo())) return false;
       }
-      if (getDpeciabdbpg()
-          != other.getDpeciabdbpg()) return false;
-      if (getEigifnbdicm()
-          != other.getEigifnbdicm()) return false;
+      if (getJMFFNNBEHGG()
+          != other.getJMFFNNBEHGG()) return false;
+      if (getLDHKKNPGIMH()
+          != other.getLDHKKNPGIMH()) return false;
       if (getTraceEffectId()
           != other.getTraceEffectId()) return false;
       if (getWeaponSkinId()
@@ -2676,10 +2676,10 @@ public final class AvatarInfoOuterClass {
         hash = (37 * hash) + MIRROR_AVATAR_INFO_FIELD_NUMBER;
         hash = (53 * hash) + getMirrorAvatarInfo().hashCode();
       }
-      hash = (37 * hash) + DPECIABDBPG_FIELD_NUMBER;
-      hash = (53 * hash) + getDpeciabdbpg();
-      hash = (37 * hash) + EIGIFNBDICM_FIELD_NUMBER;
-      hash = (53 * hash) + getEigifnbdicm();
+      hash = (37 * hash) + JMFFNNBEHGG_FIELD_NUMBER;
+      hash = (53 * hash) + getJMFFNNBEHGG();
+      hash = (37 * hash) + LDHKKNPGIMH_FIELD_NUMBER;
+      hash = (53 * hash) + getLDHKKNPGIMH();
       hash = (37 * hash) + _TRACE_EFFECT_ID_FIELD_NUMBER;
       hash = (53 * hash) + getTraceEffectId();
       hash = (37 * hash) + _WEAPON_SKIN_ID_FIELD_NUMBER;
@@ -2944,9 +2944,9 @@ public final class AvatarInfoOuterClass {
           mirrorAvatarInfo_ = null;
           mirrorAvatarInfoBuilder_ = null;
         }
-        dpeciabdbpg_ = 0;
+        jMFFNNBEHGG_ = 0;
 
-        eigifnbdicm_ = 0;
+        lDHKKNPGIMH_ = 0;
 
         TraceEffectId_ = 0;
 
@@ -3073,8 +3073,8 @@ public final class AvatarInfoOuterClass {
         } else {
           result.mirrorAvatarInfo_ = mirrorAvatarInfoBuilder_.build();
         }
-        result.dpeciabdbpg_ = dpeciabdbpg_;
-        result.eigifnbdicm_ = eigifnbdicm_;
+        result.jMFFNNBEHGG_ = jMFFNNBEHGG_;
+        result.lDHKKNPGIMH_ = lDHKKNPGIMH_;
         result.TraceEffectId_ = TraceEffectId_;
         result.WeaponSkinId_ = WeaponSkinId_;
         if (AvatarCostumeSetBuilder_ == null) {
@@ -3284,11 +3284,11 @@ public final class AvatarInfoOuterClass {
         if (other.hasMirrorAvatarInfo()) {
           mergeMirrorAvatarInfo(other.getMirrorAvatarInfo());
         }
-        if (other.getDpeciabdbpg() != 0) {
-          setDpeciabdbpg(other.getDpeciabdbpg());
+        if (other.getJMFFNNBEHGG() != 0) {
+          setJMFFNNBEHGG(other.getJMFFNNBEHGG());
         }
-        if (other.getEigifnbdicm() != 0) {
-          setEigifnbdicm(other.getEigifnbdicm());
+        if (other.getLDHKKNPGIMH() != 0) {
+          setLDHKKNPGIMH(other.getLDHKKNPGIMH());
         }
         if (other.getTraceEffectId() != 0) {
           setTraceEffectId(other.getTraceEffectId());
@@ -5524,64 +5524,64 @@ public final class AvatarInfoOuterClass {
         return mirrorAvatarInfoBuilder_;
       }
 
-      private int dpeciabdbpg_ ;
+      private int jMFFNNBEHGG_ ;
       /**
-       * <code>uint32 dpeciabdbpg = 29;</code>
-       * @return The dpeciabdbpg.
+       * <code>uint32 JMFFNNBEHGG = 29;</code>
+       * @return The jMFFNNBEHGG.
        */
       @java.lang.Override
-      public int getDpeciabdbpg() {
-        return dpeciabdbpg_;
+      public int getJMFFNNBEHGG() {
+        return jMFFNNBEHGG_;
       }
       /**
-       * <code>uint32 dpeciabdbpg = 29;</code>
-       * @param value The dpeciabdbpg to set.
+       * <code>uint32 JMFFNNBEHGG = 29;</code>
+       * @param value The jMFFNNBEHGG to set.
        * @return This builder for chaining.
        */
-      public Builder setDpeciabdbpg(int value) {
+      public Builder setJMFFNNBEHGG(int value) {
         
-        dpeciabdbpg_ = value;
+        jMFFNNBEHGG_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 dpeciabdbpg = 29;</code>
+       * <code>uint32 JMFFNNBEHGG = 29;</code>
        * @return This builder for chaining.
        */
-      public Builder clearDpeciabdbpg() {
+      public Builder clearJMFFNNBEHGG() {
         
-        dpeciabdbpg_ = 0;
+        jMFFNNBEHGG_ = 0;
         onChanged();
         return this;
       }
 
-      private int eigifnbdicm_ ;
+      private int lDHKKNPGIMH_ ;
       /**
-       * <code>uint32 eigifnbdicm = 30;</code>
-       * @return The eigifnbdicm.
+       * <code>uint32 LDHKKNPGIMH = 30;</code>
+       * @return The lDHKKNPGIMH.
        */
       @java.lang.Override
-      public int getEigifnbdicm() {
-        return eigifnbdicm_;
+      public int getLDHKKNPGIMH() {
+        return lDHKKNPGIMH_;
       }
       /**
-       * <code>uint32 eigifnbdicm = 30;</code>
-       * @param value The eigifnbdicm to set.
+       * <code>uint32 LDHKKNPGIMH = 30;</code>
+       * @param value The lDHKKNPGIMH to set.
        * @return This builder for chaining.
        */
-      public Builder setEigifnbdicm(int value) {
+      public Builder setLDHKKNPGIMH(int value) {
         
-        eigifnbdicm_ = value;
+        lDHKKNPGIMH_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 eigifnbdicm = 30;</code>
+       * <code>uint32 LDHKKNPGIMH = 30;</code>
        * @return This builder for chaining.
        */
-      public Builder clearEigifnbdicm() {
+      public Builder clearLDHKKNPGIMH() {
         
-        eigifnbdicm_ = 0;
+        lDHKKNPGIMH_ = 0;
         onChanged();
         return this;
       }
@@ -5648,9 +5648,9 @@ public final class AvatarInfoOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo AvatarCostumeSet_;
+      private emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo AvatarCostumeSet_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder> AvatarCostumeSetBuilder_;
+          emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder> AvatarCostumeSetBuilder_;
       /**
        * <code>._BeyondCostumeSetInfo _avatar_costume_set = 33;</code>
        * @return Whether the avatarCostumeSet field is set.
@@ -5662,9 +5662,9 @@ public final class AvatarInfoOuterClass {
        * <code>._BeyondCostumeSetInfo _avatar_costume_set = 33;</code>
        * @return The avatarCostumeSet.
        */
-      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo getAvatarCostumeSet() {
+      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo getAvatarCostumeSet() {
         if (AvatarCostumeSetBuilder_ == null) {
-          return AvatarCostumeSet_ == null ? emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.getDefaultInstance() : AvatarCostumeSet_;
+          return AvatarCostumeSet_ == null ? emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.getDefaultInstance() : AvatarCostumeSet_;
         } else {
           return AvatarCostumeSetBuilder_.getMessage();
         }
@@ -5672,7 +5672,7 @@ public final class AvatarInfoOuterClass {
       /**
        * <code>._BeyondCostumeSetInfo _avatar_costume_set = 33;</code>
        */
-      public Builder setAvatarCostumeSet(emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo value) {
+      public Builder setAvatarCostumeSet(emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo value) {
         if (AvatarCostumeSetBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5689,7 +5689,7 @@ public final class AvatarInfoOuterClass {
        * <code>._BeyondCostumeSetInfo _avatar_costume_set = 33;</code>
        */
       public Builder setAvatarCostumeSet(
-          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder builderForValue) {
         if (AvatarCostumeSetBuilder_ == null) {
           AvatarCostumeSet_ = builderForValue.build();
           onChanged();
@@ -5702,11 +5702,11 @@ public final class AvatarInfoOuterClass {
       /**
        * <code>._BeyondCostumeSetInfo _avatar_costume_set = 33;</code>
        */
-      public Builder mergeAvatarCostumeSet(emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo value) {
+      public Builder mergeAvatarCostumeSet(emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo value) {
         if (AvatarCostumeSetBuilder_ == null) {
           if (AvatarCostumeSet_ != null) {
             AvatarCostumeSet_ =
-              emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.newBuilder(AvatarCostumeSet_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.newBuilder(AvatarCostumeSet_).mergeFrom(value).buildPartial();
           } else {
             AvatarCostumeSet_ = value;
           }
@@ -5734,7 +5734,7 @@ public final class AvatarInfoOuterClass {
       /**
        * <code>._BeyondCostumeSetInfo _avatar_costume_set = 33;</code>
        */
-      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder getAvatarCostumeSetBuilder() {
+      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder getAvatarCostumeSetBuilder() {
         
         onChanged();
         return getAvatarCostumeSetFieldBuilder().getBuilder();
@@ -5742,23 +5742,23 @@ public final class AvatarInfoOuterClass {
       /**
        * <code>._BeyondCostumeSetInfo _avatar_costume_set = 33;</code>
        */
-      public emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder getAvatarCostumeSetOrBuilder() {
+      public emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder getAvatarCostumeSetOrBuilder() {
         if (AvatarCostumeSetBuilder_ != null) {
           return AvatarCostumeSetBuilder_.getMessageOrBuilder();
         } else {
           return AvatarCostumeSet_ == null ?
-              emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.getDefaultInstance() : AvatarCostumeSet_;
+              emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.getDefaultInstance() : AvatarCostumeSet_;
         }
       }
       /**
        * <code>._BeyondCostumeSetInfo _avatar_costume_set = 33;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder> 
+          emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder> 
           getAvatarCostumeSetFieldBuilder() {
         if (AvatarCostumeSetBuilder_ == null) {
           AvatarCostumeSetBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass._BeyondCostumeSetInfoOrBuilder>(
+              emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfo.Builder, emu.grasscutter.net.proto.BeyondCostumeSetInfo._BeyondCostumeSetInfoOrBuilder>(
                   getAvatarCostumeSet(),
                   getParentForChildren(),
                   isClean());
@@ -6317,8 +6317,8 @@ public final class AvatarInfoOuterClass {
       "t\030\030 \003(\r\022\022\n\ncostume_id\030\031 \001(\r\022$\n\nexcel_inf" +
       "o\030\032 \001(\0132\020.AvatarExcelInfo\022\021\n\tanim_hash\030\033" +
       " \001(\r\022-\n\022mirror_avatar_info\030\034 \001(\0132\021.Mirro" +
-      "rAvatarInfo\022\023\n\013dpeciabdbpg\030\035 \001(\r\022\023\n\013eigi" +
-      "fnbdicm\030\036 \001(\r\022\030\n\020_trace_effect_id\030\037 \001(\r\022" +
+      "rAvatarInfo\022\023\n\013JMFFNNBEHGG\030\035 \001(\r\022\023\n\013LDHK" +
+      "KNPGIMH\030\036 \001(\r\022\030\n\020_trace_effect_id\030\037 \001(\r\022" +
       "\027\n\017_weapon_skin_id\030  \001(\r\0223\n\023_avatar_cost" +
       "ume_set\030! \001(\0132\026._BeyondCostumeSetInfo\022\021\n" +
       "\t_voice_id\030\" \001(\r\022!\n\031_special_proud_skill" +
@@ -6331,9 +6331,8 @@ public final class AvatarInfoOuterClass {
       "e\030\002 \001(\0132\020.AvatarSkillInfo:\0028\001\0324\n\022SkillLe" +
       "velMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:" +
       "\0028\001\032>\n\034ProudSkillExtraLevelMapEntry\022\013\n\003k" +
-      "ey\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B1\n\031emu.grass" +
-      "cutter.net.protoB\024AvatarInfoOuterClassb\006" +
-      "proto3"
+      "ey\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031emu.grass" +
+      "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -6347,14 +6346,14 @@ public final class AvatarInfoOuterClass {
           emu.grasscutter.net.proto.PropValueOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.TrialAvatarInfoOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.BeyondCostumeSetInfo.getDescriptor(),
         });
     internal_static_AvatarInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_AvatarInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AvatarInfo_descriptor,
-        new java.lang.String[] { "AvatarId", "Guid", "PropMap", "LifeState", "EquipGuidList", "TalentIdList", "FightPropMap", "TrialAvatarInfo", "SkillMap", "SkillDepotId", "FetterInfo", "CoreProudSkillLevel", "InherentProudSkillList", "SkillLevelMap", "ExpeditionState", "ProudSkillExtraLevelMap", "IsFocus", "AvatarType", "TeamResonanceList", "WearingFlycloakId", "EquipAffixList", "BornTime", "PendingPromoteRewardList", "CostumeId", "ExcelInfo", "AnimHash", "MirrorAvatarInfo", "Dpeciabdbpg", "Eigifnbdicm", "TraceEffectId", "WeaponSkinId", "AvatarCostumeSet", "VoiceId", "SpecialProudSkillList", "UnlockedSkillDepotIdList", "KPJFLNKEFBC", });
+        new java.lang.String[] { "AvatarId", "Guid", "PropMap", "LifeState", "EquipGuidList", "TalentIdList", "FightPropMap", "TrialAvatarInfo", "SkillMap", "SkillDepotId", "FetterInfo", "CoreProudSkillLevel", "InherentProudSkillList", "SkillLevelMap", "ExpeditionState", "ProudSkillExtraLevelMap", "IsFocus", "AvatarType", "TeamResonanceList", "WearingFlycloakId", "EquipAffixList", "BornTime", "PendingPromoteRewardList", "CostumeId", "ExcelInfo", "AnimHash", "MirrorAvatarInfo", "JMFFNNBEHGG", "LDHKKNPGIMH", "TraceEffectId", "WeaponSkinId", "AvatarCostumeSet", "VoiceId", "SpecialProudSkillList", "UnlockedSkillDepotIdList", "KPJFLNKEFBC", });
     internal_static_AvatarInfo_PropMapEntry_descriptor =
       internal_static_AvatarInfo_descriptor.getNestedTypes().get(0);
     internal_static_AvatarInfo_PropMapEntry_fieldAccessorTable = new
@@ -6394,7 +6393,7 @@ public final class AvatarInfoOuterClass {
     emu.grasscutter.net.proto.PropValueOuterClass.getDescriptor();
     emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.TrialAvatarInfoOuterClass.getDescriptor();
-    emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.BeyondCostumeSetInfo.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

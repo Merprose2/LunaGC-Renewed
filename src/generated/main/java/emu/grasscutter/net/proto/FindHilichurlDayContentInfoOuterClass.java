@@ -518,9 +518,8 @@ public final class FindHilichurlDayContentInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n!FindHilichurlDayContentInfo.proto\"1\n\033F" +
       "indHilichurlDayContentInfo\022\022\n\nstart_time" +
-      "\030\n \001(\rBB\n\031emu.grasscutter.net.protoB%Fin" +
-      "dHilichurlDayContentInfoOuterClassb\006prot" +
-      "o3"
+      "\030\n \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

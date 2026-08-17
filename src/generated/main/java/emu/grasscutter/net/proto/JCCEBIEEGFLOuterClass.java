@@ -1092,9 +1092,8 @@ public final class JCCEBIEEGFLOuterClass {
       "\013DPBIFKMAFKG\030\003 \001(\002\022\023\n\013DBKOFKJEAFP\030\004 \001(\002\022" +
       "\023\n\013HKGMDHHCIFE\030\005 \001(\004\022\023\n\013NKMDMPFFICJ\030\006 \001(" +
       "\004\022\023\n\013LDINHKNEEBL\030\007 \001(\004\022\023\n\013GFFEGOMDFBB\030\010 " +
-      "\001(\004\022\023\n\013OLCAAHIHPAG\030\t \001(\004B2\n\031emu.grasscut" +
-      "ter.net.protoB\025JCCEBIEEGFLOuterClassb\006pr" +
-      "oto3"
+      "\001(\004\022\023\n\013OLCAAHIHPAG\030\t \001(\004B\033\n\031emu.grasscut" +
+      "ter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

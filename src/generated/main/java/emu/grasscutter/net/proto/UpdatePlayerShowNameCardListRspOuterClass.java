@@ -42,6 +42,10 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
     int getRetcode();
   }
   /**
+   * <pre>
+   * CmdID: 28596
+   * </pre>
+   *
    * Protobuf type {@code UpdatePlayerShowNameCardListRsp}
    */
   public static final class UpdatePlayerShowNameCardListRsp extends
@@ -372,6 +376,10 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 28596
+     * </pre>
+     *
      * Protobuf type {@code UpdatePlayerShowNameCardListRsp}
      */
     public static final class Builder extends
@@ -716,9 +724,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
       "\n%UpdatePlayerShowNameCardListRsp.proto\"" +
       "R\n\037UpdatePlayerShowNameCardListRsp\022\036\n\026sh" +
       "ow_name_card_id_list\030\t \003(\r\022\017\n\007retcode\030\014 " +
-      "\001(\005BF\n\031emu.grasscutter.net.protoB)Update" +
-      "PlayerShowNameCardListRspOuterClassb\006pro" +
-      "to3"
+      "\001(\005B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

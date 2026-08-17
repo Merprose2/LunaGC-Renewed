@@ -1447,9 +1447,8 @@ public final class BossChestInfoOuterClass {
       "ChestInfo.UidDiscountMapEntry\022\021\n\tdead_ti" +
       "me\030\006 \001(\007\022\023\n\013PLHABNAMOPM\030\007 \001(\010\032S\n\023UidDisc" +
       "ountMapEntry\022\013\n\003key\030\001 \001(\r\022+\n\005value\030\002 \001(\013" +
-      "2\034.WeeklyBossResinDiscountInfo:\0028\001B4\n\031em" +
-      "u.grasscutter.net.protoB\027BossChestInfoOu" +
-      "terClassb\006proto3"
+      "2\034.WeeklyBossResinDiscountInfo:\0028\001B\033\n\031em" +
+      "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

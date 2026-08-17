@@ -107,6 +107,10 @@ public final class GadgetInteractReqOuterClass {
     int getALLPOOBNNPH();
   }
   /**
+   * <pre>
+   * CmdID: 26915
+   * </pre>
+   *
    * Protobuf type {@code GadgetInteractReq}
    */
   public static final class GadgetInteractReq extends
@@ -703,6 +707,10 @@ public final class GadgetInteractReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 26915
+     * </pre>
+     *
      * Protobuf type {@code GadgetInteractReq}
      */
     public static final class Builder extends
@@ -1445,9 +1453,8 @@ public final class GadgetInteractReqOuterClass {
       "\n\013LPCDPGNKGFL\030\007 \001(\010\022\021\n\tgadget_id\030\010 \001(\r\022\023" +
       "\n\013CJIPKAIPCIB\030\013 \001(\r\022\023\n\013IKMNHOHNBKJ\030\014 \001(\010" +
       "\022\023\n\013IKDIFBEOEKM\030\r \001(\010\022\035\n\007op_type\030\016 \001(\0162\014" +
-      ".InterOpType\022\023\n\013ALLPOOBNNPH\030\017 \001(\rB8\n\031emu" +
-      ".grasscutter.net.protoB\033GadgetInteractRe" +
-      "qOuterClassb\006proto3"
+      ".InterOpType\022\023\n\013ALLPOOBNNPH\030\017 \001(\rB\033\n\031emu" +
+      ".grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

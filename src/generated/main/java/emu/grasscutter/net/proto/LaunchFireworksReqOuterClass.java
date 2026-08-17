@@ -34,6 +34,10 @@ public final class LaunchFireworksReqOuterClass {
     emu.grasscutter.net.proto.FireworksLaunchSchemeDataOuterClass.FireworksLaunchSchemeDataOrBuilder getSchemeDataOrBuilder();
   }
   /**
+   * <pre>
+   * CmdID: 29516
+   * </pre>
+   *
    * Protobuf type {@code LaunchFireworksReq}
    */
   public static final class LaunchFireworksReq extends
@@ -310,6 +314,10 @@ public final class LaunchFireworksReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 29516
+     * </pre>
+     *
      * Protobuf type {@code LaunchFireworksReq}
      */
     public static final class Builder extends
@@ -652,8 +660,8 @@ public final class LaunchFireworksReqOuterClass {
       "\n\030LaunchFireworksReq.proto\032\037FireworksLau" +
       "nchSchemeData.proto\"E\n\022LaunchFireworksRe" +
       "q\022/\n\013scheme_data\030\004 \001(\0132\032.FireworksLaunch" +
-      "SchemeDataB9\n\031emu.grasscutter.net.protoB" +
-      "\034LaunchFireworksReqOuterClassb\006proto3"
+      "SchemeDataB\033\n\031emu.grasscutter.net.protob" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

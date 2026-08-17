@@ -723,9 +723,8 @@ public final class ModifierPropertyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026ModifierProperty.proto\032\023AbilityString." +
       "proto\">\n\020ModifierProperty\022\r\n\005value\030\007 \001(\002" +
-      "\022\033\n\003key\030\n \001(\0132\016.AbilityStringB7\n\031emu.gra" +
-      "sscutter.net.protoB\032ModifierPropertyOute" +
-      "rClassb\006proto3"
+      "\022\033\n\003key\030\n \001(\0132\016.AbilityStringB\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -589,9 +589,8 @@ public final class MirrorAvatarInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026MirrorAvatarInfo.proto\"F\n\020MirrorAvatar" +
       "Info\022\035\n\025copy_from_avatar_type\030\001 \001(\r\022\023\n\013L" +
-      "EEHFFLICIK\030\002 \001(\004B7\n\031emu.grasscutter.net." +
-      "protoB\032MirrorAvatarInfoOuterClassb\006proto" +
-      "3"
+      "EEHFFLICIK\030\002 \001(\004B\033\n\031emu.grasscutter.net." +
+      "protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

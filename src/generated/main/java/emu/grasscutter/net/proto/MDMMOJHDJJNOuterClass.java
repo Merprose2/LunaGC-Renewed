@@ -785,9 +785,8 @@ public final class MDMMOJHDJJNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MDMMOJHDJJN.proto\"^\n\013MDMMOJHDJJN\022\032\n\022_c" +
       "hess_level_up_id\030\002 \001(\r\022\025\n\requip_id_list\030" +
-      "\010 \003(\r\022\034\n\024_auto_chess_chess_id\030\t \001(\rB2\n\031e" +
-      "mu.grasscutter.net.protoB\025MDMMOJHDJJNOut" +
-      "erClassb\006proto3"
+      "\010 \003(\r\022\034\n\024_auto_chess_chess_id\030\t \001(\rB\033\n\031e" +
+      "mu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

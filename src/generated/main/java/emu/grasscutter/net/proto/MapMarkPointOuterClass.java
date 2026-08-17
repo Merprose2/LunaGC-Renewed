@@ -1300,8 +1300,8 @@ public final class MapMarkPointOuterClass {
       "t_type\030\004 \001(\0162\021.MapMarkPointType\022\022\n\nmonst" +
       "er_id\030\005 \001(\r\022#\n\tfrom_type\030\006 \001(\0162\020.MapMark" +
       "FromType\022\020\n\010quest_id\030\007 \001(\r\022\025\n\r_map_layer" +
-      "_id\030\010 \001(\rB3\n\031emu.grasscutter.net.protoB\026" +
-      "MapMarkPointOuterClassb\006proto3"
+      "_id\030\010 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

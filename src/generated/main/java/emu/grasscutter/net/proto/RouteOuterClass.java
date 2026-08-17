@@ -893,8 +893,8 @@ public final class RouteOuterClass {
     java.lang.String[] descriptorData = {
       "\n\013Route.proto\032\020RoutePoint.proto\">\n\005Route" +
       "\022!\n\014route_points\030\001 \003(\0132\013.RoutePoint\022\022\n\nr" +
-      "oute_type\030\002 \001(\rB,\n\031emu.grasscutter.net.p" +
-      "rotoB\017RouteOuterClassb\006proto3"
+      "oute_type\030\002 \001(\rB\033\n\031emu.grasscutter.net.p" +
+      "rotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

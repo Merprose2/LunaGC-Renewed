@@ -49,6 +49,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 1352
+   * </pre>
+   *
    * Protobuf type {@code TowerFloorRecordChangeNotify}
    */
   public static final class TowerFloorRecordChangeNotify extends
@@ -365,6 +369,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 1352
+     * </pre>
+     *
      * Protobuf type {@code TowerFloorRecordChangeNotify}
      */
     public static final class Builder extends
@@ -896,9 +904,8 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
       "werFloorRecord.proto\"v\n\034TowerFloorRecord" +
       "ChangeNotify\022\"\n\032is_finished_entrance_flo" +
       "or\030\007 \001(\010\0222\n\027tower_floor_record_list\030\n \003(" +
-      "\0132\021.TowerFloorRecordBC\n\031emu.grasscutter." +
-      "net.protoB&TowerFloorRecordChangeNotifyO" +
-      "uterClassb\006proto3"
+      "\0132\021.TowerFloorRecordB\033\n\031emu.grasscutter." +
+      "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

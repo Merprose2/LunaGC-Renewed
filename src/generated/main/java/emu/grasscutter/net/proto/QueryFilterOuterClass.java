@@ -19,16 +19,16 @@ public final class QueryFilterOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>int32 type_id = 9;</code>
-     * @return The typeId.
+     * <code>int32 CJFCLBEOHLB = 9;</code>
+     * @return The cJFCLBEOHLB.
      */
-    int getTypeId();
+    int getCJFCLBEOHLB();
 
     /**
-     * <code>int32 area_mask = 13;</code>
-     * @return The areaMask.
+     * <code>int32 IDOGAOALABN = 13;</code>
+     * @return The iDOGAOALABN.
      */
-    int getAreaMask();
+    int getIDOGAOALABN();
   }
   /**
    * Protobuf type {@code QueryFilter}
@@ -77,12 +77,12 @@ public final class QueryFilterOuterClass {
               break;
             case 72: {
 
-              typeId_ = input.readInt32();
+              cJFCLBEOHLB_ = input.readInt32();
               break;
             }
             case 104: {
 
-              areaMask_ = input.readInt32();
+              iDOGAOALABN_ = input.readInt32();
               break;
             }
             default: {
@@ -117,26 +117,26 @@ public final class QueryFilterOuterClass {
               emu.grasscutter.net.proto.QueryFilterOuterClass.QueryFilter.class, emu.grasscutter.net.proto.QueryFilterOuterClass.QueryFilter.Builder.class);
     }
 
-    public static final int TYPE_ID_FIELD_NUMBER = 9;
-    private int typeId_;
+    public static final int CJFCLBEOHLB_FIELD_NUMBER = 9;
+    private int cJFCLBEOHLB_;
     /**
-     * <code>int32 type_id = 9;</code>
-     * @return The typeId.
+     * <code>int32 CJFCLBEOHLB = 9;</code>
+     * @return The cJFCLBEOHLB.
      */
     @java.lang.Override
-    public int getTypeId() {
-      return typeId_;
+    public int getCJFCLBEOHLB() {
+      return cJFCLBEOHLB_;
     }
 
-    public static final int AREA_MASK_FIELD_NUMBER = 13;
-    private int areaMask_;
+    public static final int IDOGAOALABN_FIELD_NUMBER = 13;
+    private int iDOGAOALABN_;
     /**
-     * <code>int32 area_mask = 13;</code>
-     * @return The areaMask.
+     * <code>int32 IDOGAOALABN = 13;</code>
+     * @return The iDOGAOALABN.
      */
     @java.lang.Override
-    public int getAreaMask() {
-      return areaMask_;
+    public int getIDOGAOALABN() {
+      return iDOGAOALABN_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -153,11 +153,11 @@ public final class QueryFilterOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (typeId_ != 0) {
-        output.writeInt32(9, typeId_);
+      if (cJFCLBEOHLB_ != 0) {
+        output.writeInt32(9, cJFCLBEOHLB_);
       }
-      if (areaMask_ != 0) {
-        output.writeInt32(13, areaMask_);
+      if (iDOGAOALABN_ != 0) {
+        output.writeInt32(13, iDOGAOALABN_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +168,13 @@ public final class QueryFilterOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (typeId_ != 0) {
+      if (cJFCLBEOHLB_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(9, typeId_);
+          .computeInt32Size(9, cJFCLBEOHLB_);
       }
-      if (areaMask_ != 0) {
+      if (iDOGAOALABN_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(13, areaMask_);
+          .computeInt32Size(13, iDOGAOALABN_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -191,10 +191,10 @@ public final class QueryFilterOuterClass {
       }
       emu.grasscutter.net.proto.QueryFilterOuterClass.QueryFilter other = (emu.grasscutter.net.proto.QueryFilterOuterClass.QueryFilter) obj;
 
-      if (getTypeId()
-          != other.getTypeId()) return false;
-      if (getAreaMask()
-          != other.getAreaMask()) return false;
+      if (getCJFCLBEOHLB()
+          != other.getCJFCLBEOHLB()) return false;
+      if (getIDOGAOALABN()
+          != other.getIDOGAOALABN()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -206,10 +206,10 @@ public final class QueryFilterOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + TYPE_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getTypeId();
-      hash = (37 * hash) + AREA_MASK_FIELD_NUMBER;
-      hash = (53 * hash) + getAreaMask();
+      hash = (37 * hash) + CJFCLBEOHLB_FIELD_NUMBER;
+      hash = (53 * hash) + getCJFCLBEOHLB();
+      hash = (37 * hash) + IDOGAOALABN_FIELD_NUMBER;
+      hash = (53 * hash) + getIDOGAOALABN();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -343,9 +343,9 @@ public final class QueryFilterOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        typeId_ = 0;
+        cJFCLBEOHLB_ = 0;
 
-        areaMask_ = 0;
+        iDOGAOALABN_ = 0;
 
         return this;
       }
@@ -373,8 +373,8 @@ public final class QueryFilterOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.QueryFilterOuterClass.QueryFilter buildPartial() {
         emu.grasscutter.net.proto.QueryFilterOuterClass.QueryFilter result = new emu.grasscutter.net.proto.QueryFilterOuterClass.QueryFilter(this);
-        result.typeId_ = typeId_;
-        result.areaMask_ = areaMask_;
+        result.cJFCLBEOHLB_ = cJFCLBEOHLB_;
+        result.iDOGAOALABN_ = iDOGAOALABN_;
         onBuilt();
         return result;
       }
@@ -423,11 +423,11 @@ public final class QueryFilterOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.QueryFilterOuterClass.QueryFilter other) {
         if (other == emu.grasscutter.net.proto.QueryFilterOuterClass.QueryFilter.getDefaultInstance()) return this;
-        if (other.getTypeId() != 0) {
-          setTypeId(other.getTypeId());
+        if (other.getCJFCLBEOHLB() != 0) {
+          setCJFCLBEOHLB(other.getCJFCLBEOHLB());
         }
-        if (other.getAreaMask() != 0) {
-          setAreaMask(other.getAreaMask());
+        if (other.getIDOGAOALABN() != 0) {
+          setIDOGAOALABN(other.getIDOGAOALABN());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -458,64 +458,64 @@ public final class QueryFilterOuterClass {
         return this;
       }
 
-      private int typeId_ ;
+      private int cJFCLBEOHLB_ ;
       /**
-       * <code>int32 type_id = 9;</code>
-       * @return The typeId.
+       * <code>int32 CJFCLBEOHLB = 9;</code>
+       * @return The cJFCLBEOHLB.
        */
       @java.lang.Override
-      public int getTypeId() {
-        return typeId_;
+      public int getCJFCLBEOHLB() {
+        return cJFCLBEOHLB_;
       }
       /**
-       * <code>int32 type_id = 9;</code>
-       * @param value The typeId to set.
+       * <code>int32 CJFCLBEOHLB = 9;</code>
+       * @param value The cJFCLBEOHLB to set.
        * @return This builder for chaining.
        */
-      public Builder setTypeId(int value) {
+      public Builder setCJFCLBEOHLB(int value) {
         
-        typeId_ = value;
+        cJFCLBEOHLB_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>int32 type_id = 9;</code>
+       * <code>int32 CJFCLBEOHLB = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearTypeId() {
+      public Builder clearCJFCLBEOHLB() {
         
-        typeId_ = 0;
+        cJFCLBEOHLB_ = 0;
         onChanged();
         return this;
       }
 
-      private int areaMask_ ;
+      private int iDOGAOALABN_ ;
       /**
-       * <code>int32 area_mask = 13;</code>
-       * @return The areaMask.
+       * <code>int32 IDOGAOALABN = 13;</code>
+       * @return The iDOGAOALABN.
        */
       @java.lang.Override
-      public int getAreaMask() {
-        return areaMask_;
+      public int getIDOGAOALABN() {
+        return iDOGAOALABN_;
       }
       /**
-       * <code>int32 area_mask = 13;</code>
-       * @param value The areaMask to set.
+       * <code>int32 IDOGAOALABN = 13;</code>
+       * @param value The iDOGAOALABN to set.
        * @return This builder for chaining.
        */
-      public Builder setAreaMask(int value) {
+      public Builder setIDOGAOALABN(int value) {
         
-        areaMask_ = value;
+        iDOGAOALABN_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>int32 area_mask = 13;</code>
+       * <code>int32 IDOGAOALABN = 13;</code>
        * @return This builder for chaining.
        */
-      public Builder clearAreaMask() {
+      public Builder clearIDOGAOALABN() {
         
-        areaMask_ = 0;
+        iDOGAOALABN_ = 0;
         onChanged();
         return this;
       }
@@ -586,10 +586,9 @@ public final class QueryFilterOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021QueryFilter.proto\"1\n\013QueryFilter\022\017\n\007ty" +
-      "pe_id\030\t \001(\005\022\021\n\tarea_mask\030\r \001(\005B2\n\031emu.gr" +
-      "asscutter.net.protoB\025QueryFilterOuterCla" +
-      "ssb\006proto3"
+      "\n\021QueryFilter.proto\"7\n\013QueryFilter\022\023\n\013CJ" +
+      "FCLBEOHLB\030\t \001(\005\022\023\n\013IDOGAOALABN\030\r \001(\005B\033\n\031" +
+      "emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -600,7 +599,7 @@ public final class QueryFilterOuterClass {
     internal_static_QueryFilter_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_QueryFilter_descriptor,
-        new java.lang.String[] { "TypeId", "AreaMask", });
+        new java.lang.String[] { "CJFCLBEOHLB", "IDOGAOALABN", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

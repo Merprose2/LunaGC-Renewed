@@ -715,8 +715,8 @@ public final class HideAndSeekMapInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030HideAndSeekMapInfo.proto\"@\n\022HideAndSee" +
       "kMapInfo\022\036\n\026match_lock_reason_list\030\003 \003(\r" +
-      "\022\n\n\002id\030\013 \001(\rB9\n\031emu.grasscutter.net.prot" +
-      "oB\034HideAndSeekMapInfoOuterClassb\006proto3"
+      "\022\n\n\002id\030\013 \001(\rB\033\n\031emu.grasscutter.net.prot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

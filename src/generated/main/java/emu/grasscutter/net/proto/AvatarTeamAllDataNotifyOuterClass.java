@@ -93,6 +93,10 @@ public final class AvatarTeamAllDataNotifyOuterClass {
     int getBackupAvatarTeamOrderList(int index);
   }
   /**
+   * <pre>
+   * CmdID: 6548
+   * </pre>
+   *
    * Protobuf type {@code AvatarTeamAllDataNotify}
    */
   public static final class AvatarTeamAllDataNotify extends
@@ -631,6 +635,10 @@ public final class AvatarTeamAllDataNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 6548
+     * </pre>
+     *
      * Protobuf type {@code AvatarTeamAllDataNotify}
      */
     public static final class Builder extends
@@ -1235,9 +1243,8 @@ public final class AvatarTeamAllDataNotifyOuterClass {
       "tarTeamMapEntry\022\035\n\025temp_avatar_guid_list" +
       "\030\014 \003(\004\022%\n\035backup_avatar_team_order_list\030" +
       "\017 \003(\r\032A\n\022AvatarTeamMapEntry\022\013\n\003key\030\001 \001(\r" +
-      "\022\032\n\005value\030\002 \001(\0132\013.AvatarTeam:\0028\001B>\n\031emu." +
-      "grasscutter.net.protoB!AvatarTeamAllData" +
-      "NotifyOuterClassb\006proto3"
+      "\022\032\n\005value\030\002 \001(\0132\013.AvatarTeam:\0028\001B\033\n\031emu." +
+      "grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

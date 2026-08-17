@@ -894,8 +894,8 @@ public final class InferencePageInfoOuterClass {
       "\n\027InferencePageInfo.proto\032\026InfernceWordI" +
       "nfo.proto\"Q\n\021InferencePageInfo\022\017\n\007page_i" +
       "d\030\006 \001(\r\022+\n\020unlock_word_list\030\007 \003(\0132\021.Infe" +
-      "rnceWordInfoB8\n\031emu.grasscutter.net.prot" +
-      "oB\033InferencePageInfoOuterClassb\006proto3"
+      "rnceWordInfoB\033\n\031emu.grasscutter.net.prot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

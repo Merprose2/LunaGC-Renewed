@@ -49,10 +49,10 @@ public final class PlayerCookRspOuterClass {
         int index);
 
     /**
-     * <code>uint32 cook_count = 7;</code>
-     * @return The cookCount.
+     * <code>uint32 KLACBPCPCMJ = 7;</code>
+     * @return The kLACBPCPCMJ.
      */
-    int getCookCount();
+    int getKLACBPCPCMJ();
 
     /**
      * <code>repeated .ItemParam item_list = 12;</code>
@@ -94,12 +94,16 @@ public final class PlayerCookRspOuterClass {
     emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeDataOrBuilder getRecipeDataOrBuilder();
 
     /**
-     * <code>uint32 qte_quality = 14;</code>
-     * @return The qteQuality.
+     * <code>uint32 JJPABEHGMCH = 14;</code>
+     * @return The jJPABEHGMCH.
      */
-    int getQteQuality();
+    int getJJPABEHGMCH();
   }
   /**
+   * <pre>
+   * CmdID: 21223
+   * </pre>
+   *
    * Protobuf type {@code PlayerCookRsp}
    */
   public static final class PlayerCookRsp extends
@@ -163,7 +167,7 @@ public final class PlayerCookRspOuterClass {
             }
             case 56: {
 
-              cookCount_ = input.readUInt32();
+              kLACBPCPCMJ_ = input.readUInt32();
               break;
             }
             case 98: {
@@ -190,7 +194,7 @@ public final class PlayerCookRspOuterClass {
             }
             case 112: {
 
-              qteQuality_ = input.readUInt32();
+              jJPABEHGMCH_ = input.readUInt32();
               break;
             }
             default: {
@@ -282,15 +286,15 @@ public final class PlayerCookRspOuterClass {
       return extralItemList_.get(index);
     }
 
-    public static final int COOK_COUNT_FIELD_NUMBER = 7;
-    private int cookCount_;
+    public static final int KLACBPCPCMJ_FIELD_NUMBER = 7;
+    private int kLACBPCPCMJ_;
     /**
-     * <code>uint32 cook_count = 7;</code>
-     * @return The cookCount.
+     * <code>uint32 KLACBPCPCMJ = 7;</code>
+     * @return The kLACBPCPCMJ.
      */
     @java.lang.Override
-    public int getCookCount() {
-      return cookCount_;
+    public int getKLACBPCPCMJ() {
+      return kLACBPCPCMJ_;
     }
 
     public static final int ITEM_LIST_FIELD_NUMBER = 12;
@@ -359,15 +363,15 @@ public final class PlayerCookRspOuterClass {
       return getRecipeData();
     }
 
-    public static final int QTE_QUALITY_FIELD_NUMBER = 14;
-    private int qteQuality_;
+    public static final int JJPABEHGMCH_FIELD_NUMBER = 14;
+    private int jJPABEHGMCH_;
     /**
-     * <code>uint32 qte_quality = 14;</code>
-     * @return The qteQuality.
+     * <code>uint32 JJPABEHGMCH = 14;</code>
+     * @return The jJPABEHGMCH.
      */
     @java.lang.Override
-    public int getQteQuality() {
-      return qteQuality_;
+    public int getJJPABEHGMCH() {
+      return jJPABEHGMCH_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -390,8 +394,8 @@ public final class PlayerCookRspOuterClass {
       for (int i = 0; i < extralItemList_.size(); i++) {
         output.writeMessage(5, extralItemList_.get(i));
       }
-      if (cookCount_ != 0) {
-        output.writeUInt32(7, cookCount_);
+      if (kLACBPCPCMJ_ != 0) {
+        output.writeUInt32(7, kLACBPCPCMJ_);
       }
       for (int i = 0; i < itemList_.size(); i++) {
         output.writeMessage(12, itemList_.get(i));
@@ -399,8 +403,8 @@ public final class PlayerCookRspOuterClass {
       if (recipeData_ != null) {
         output.writeMessage(13, getRecipeData());
       }
-      if (qteQuality_ != 0) {
-        output.writeUInt32(14, qteQuality_);
+      if (jJPABEHGMCH_ != 0) {
+        output.writeUInt32(14, jJPABEHGMCH_);
       }
       unknownFields.writeTo(output);
     }
@@ -419,9 +423,9 @@ public final class PlayerCookRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(5, extralItemList_.get(i));
       }
-      if (cookCount_ != 0) {
+      if (kLACBPCPCMJ_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, cookCount_);
+          .computeUInt32Size(7, kLACBPCPCMJ_);
       }
       for (int i = 0; i < itemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -431,9 +435,9 @@ public final class PlayerCookRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(13, getRecipeData());
       }
-      if (qteQuality_ != 0) {
+      if (jJPABEHGMCH_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, qteQuality_);
+          .computeUInt32Size(14, jJPABEHGMCH_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -454,8 +458,8 @@ public final class PlayerCookRspOuterClass {
           != other.getRetcode()) return false;
       if (!getExtralItemListList()
           .equals(other.getExtralItemListList())) return false;
-      if (getCookCount()
-          != other.getCookCount()) return false;
+      if (getKLACBPCPCMJ()
+          != other.getKLACBPCPCMJ()) return false;
       if (!getItemListList()
           .equals(other.getItemListList())) return false;
       if (hasRecipeData() != other.hasRecipeData()) return false;
@@ -463,8 +467,8 @@ public final class PlayerCookRspOuterClass {
         if (!getRecipeData()
             .equals(other.getRecipeData())) return false;
       }
-      if (getQteQuality()
-          != other.getQteQuality()) return false;
+      if (getJJPABEHGMCH()
+          != other.getJJPABEHGMCH()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -482,8 +486,8 @@ public final class PlayerCookRspOuterClass {
         hash = (37 * hash) + EXTRAL_ITEM_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getExtralItemListList().hashCode();
       }
-      hash = (37 * hash) + COOK_COUNT_FIELD_NUMBER;
-      hash = (53 * hash) + getCookCount();
+      hash = (37 * hash) + KLACBPCPCMJ_FIELD_NUMBER;
+      hash = (53 * hash) + getKLACBPCPCMJ();
       if (getItemListCount() > 0) {
         hash = (37 * hash) + ITEM_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getItemListList().hashCode();
@@ -492,8 +496,8 @@ public final class PlayerCookRspOuterClass {
         hash = (37 * hash) + RECIPE_DATA_FIELD_NUMBER;
         hash = (53 * hash) + getRecipeData().hashCode();
       }
-      hash = (37 * hash) + QTE_QUALITY_FIELD_NUMBER;
-      hash = (53 * hash) + getQteQuality();
+      hash = (37 * hash) + JJPABEHGMCH_FIELD_NUMBER;
+      hash = (53 * hash) + getJJPABEHGMCH();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -590,6 +594,10 @@ public final class PlayerCookRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 21223
+     * </pre>
+     *
      * Protobuf type {@code PlayerCookRsp}
      */
     public static final class Builder extends
@@ -637,7 +645,7 @@ public final class PlayerCookRspOuterClass {
         } else {
           extralItemListBuilder_.clear();
         }
-        cookCount_ = 0;
+        kLACBPCPCMJ_ = 0;
 
         if (itemListBuilder_ == null) {
           itemList_ = java.util.Collections.emptyList();
@@ -651,7 +659,7 @@ public final class PlayerCookRspOuterClass {
           recipeData_ = null;
           recipeDataBuilder_ = null;
         }
-        qteQuality_ = 0;
+        jJPABEHGMCH_ = 0;
 
         return this;
       }
@@ -690,7 +698,7 @@ public final class PlayerCookRspOuterClass {
         } else {
           result.extralItemList_ = extralItemListBuilder_.build();
         }
-        result.cookCount_ = cookCount_;
+        result.kLACBPCPCMJ_ = kLACBPCPCMJ_;
         if (itemListBuilder_ == null) {
           if (((bitField0_ & 0x00000002) != 0)) {
             itemList_ = java.util.Collections.unmodifiableList(itemList_);
@@ -705,7 +713,7 @@ public final class PlayerCookRspOuterClass {
         } else {
           result.recipeData_ = recipeDataBuilder_.build();
         }
-        result.qteQuality_ = qteQuality_;
+        result.jJPABEHGMCH_ = jJPABEHGMCH_;
         onBuilt();
         return result;
       }
@@ -783,8 +791,8 @@ public final class PlayerCookRspOuterClass {
             }
           }
         }
-        if (other.getCookCount() != 0) {
-          setCookCount(other.getCookCount());
+        if (other.getKLACBPCPCMJ() != 0) {
+          setKLACBPCPCMJ(other.getKLACBPCPCMJ());
         }
         if (itemListBuilder_ == null) {
           if (!other.itemList_.isEmpty()) {
@@ -815,8 +823,8 @@ public final class PlayerCookRspOuterClass {
         if (other.hasRecipeData()) {
           mergeRecipeData(other.getRecipeData());
         }
-        if (other.getQteQuality() != 0) {
-          setQteQuality(other.getQteQuality());
+        if (other.getJJPABEHGMCH() != 0) {
+          setJJPABEHGMCH(other.getJJPABEHGMCH());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -1119,33 +1127,33 @@ public final class PlayerCookRspOuterClass {
         return extralItemListBuilder_;
       }
 
-      private int cookCount_ ;
+      private int kLACBPCPCMJ_ ;
       /**
-       * <code>uint32 cook_count = 7;</code>
-       * @return The cookCount.
+       * <code>uint32 KLACBPCPCMJ = 7;</code>
+       * @return The kLACBPCPCMJ.
        */
       @java.lang.Override
-      public int getCookCount() {
-        return cookCount_;
+      public int getKLACBPCPCMJ() {
+        return kLACBPCPCMJ_;
       }
       /**
-       * <code>uint32 cook_count = 7;</code>
-       * @param value The cookCount to set.
+       * <code>uint32 KLACBPCPCMJ = 7;</code>
+       * @param value The kLACBPCPCMJ to set.
        * @return This builder for chaining.
        */
-      public Builder setCookCount(int value) {
+      public Builder setKLACBPCPCMJ(int value) {
         
-        cookCount_ = value;
+        kLACBPCPCMJ_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 cook_count = 7;</code>
+       * <code>uint32 KLACBPCPCMJ = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCookCount() {
+      public Builder clearKLACBPCPCMJ() {
         
-        cookCount_ = 0;
+        kLACBPCPCMJ_ = 0;
         onChanged();
         return this;
       }
@@ -1509,33 +1517,33 @@ public final class PlayerCookRspOuterClass {
         return recipeDataBuilder_;
       }
 
-      private int qteQuality_ ;
+      private int jJPABEHGMCH_ ;
       /**
-       * <code>uint32 qte_quality = 14;</code>
-       * @return The qteQuality.
+       * <code>uint32 JJPABEHGMCH = 14;</code>
+       * @return The jJPABEHGMCH.
        */
       @java.lang.Override
-      public int getQteQuality() {
-        return qteQuality_;
+      public int getJJPABEHGMCH() {
+        return jJPABEHGMCH_;
       }
       /**
-       * <code>uint32 qte_quality = 14;</code>
-       * @param value The qteQuality to set.
+       * <code>uint32 JJPABEHGMCH = 14;</code>
+       * @param value The jJPABEHGMCH to set.
        * @return This builder for chaining.
        */
-      public Builder setQteQuality(int value) {
+      public Builder setJJPABEHGMCH(int value) {
         
-        qteQuality_ = value;
+        jJPABEHGMCH_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 qte_quality = 14;</code>
+       * <code>uint32 JJPABEHGMCH = 14;</code>
        * @return This builder for chaining.
        */
-      public Builder clearQteQuality() {
+      public Builder clearJJPABEHGMCH() {
         
-        qteQuality_ = 0;
+        jJPABEHGMCH_ = 0;
         onChanged();
         return this;
       }
@@ -1607,13 +1615,13 @@ public final class PlayerCookRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\023PlayerCookRsp.proto\032\024CookRecipeData.pr" +
-      "oto\032\017ItemParam.proto\"\264\001\n\rPlayerCookRsp\022\017" +
+      "oto\032\017ItemParam.proto\"\265\001\n\rPlayerCookRsp\022\017" +
       "\n\007retcode\030\002 \001(\005\022$\n\020extral_item_list\030\005 \003(" +
-      "\0132\n.ItemParam\022\022\n\ncook_count\030\007 \001(\r\022\035\n\tite" +
-      "m_list\030\014 \003(\0132\n.ItemParam\022$\n\013recipe_data\030" +
-      "\r \001(\0132\017.CookRecipeData\022\023\n\013qte_quality\030\016 " +
-      "\001(\rB4\n\031emu.grasscutter.net.protoB\027Player" +
-      "CookRspOuterClassb\006proto3"
+      "\0132\n.ItemParam\022\023\n\013KLACBPCPCMJ\030\007 \001(\r\022\035\n\tit" +
+      "em_list\030\014 \003(\0132\n.ItemParam\022$\n\013recipe_data" +
+      "\030\r \001(\0132\017.CookRecipeData\022\023\n\013JJPABEHGMCH\030\016" +
+      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1626,7 +1634,7 @@ public final class PlayerCookRspOuterClass {
     internal_static_PlayerCookRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PlayerCookRsp_descriptor,
-        new java.lang.String[] { "Retcode", "ExtralItemList", "CookCount", "ItemList", "RecipeData", "QteQuality", });
+        new java.lang.String[] { "Retcode", "ExtralItemList", "KLACBPCPCMJ", "ItemList", "RecipeData", "JJPABEHGMCH", });
     emu.grasscutter.net.proto.CookRecipeDataOuterClass.getDescriptor();
     emu.grasscutter.net.proto.ItemParamOuterClass.getDescriptor();
   }

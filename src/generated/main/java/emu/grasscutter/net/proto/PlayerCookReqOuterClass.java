@@ -55,6 +55,10 @@ public final class PlayerCookReqOuterClass {
     int getJJPABEHGMCH();
   }
   /**
+   * <pre>
+   * CmdID: 7575
+   * </pre>
+   *
    * Protobuf type {@code PlayerCookReq}
    */
   public static final class PlayerCookReq extends
@@ -438,6 +442,10 @@ public final class PlayerCookReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 7575
+     * </pre>
+     *
      * Protobuf type {@code PlayerCookReq}
      */
     public static final class Builder extends
@@ -870,8 +878,8 @@ public final class PlayerCookReqOuterClass {
       "\023\n\013KLACBPCPCMJ\030\002 \001(\r\022\025\n\rassist_avatar\030\004 " +
       "\001(\r\022\023\n\013DDACKLBMIKL\030\005 \001(\r\022\021\n\trecipe_id\030\010 " +
       "\001(\r\022\023\n\013OLLOPKLIIAC\030\014 \001(\r\022\023\n\013JJPABEHGMCH\030" +
-      "\017 \001(\rB4\n\031emu.grasscutter.net.protoB\027Play" +
-      "erCookReqOuterClassb\006proto3"
+      "\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

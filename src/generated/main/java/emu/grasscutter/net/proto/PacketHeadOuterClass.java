@@ -871,8 +871,7 @@ public final class PacketHeadOuterClass {
       "ent_sequence_id\030\003 \001(\r\022\017\n\007sent_ms\030\006 \001(\004\022\023" +
       "\n\013NAOICAHMEBA\030\007 \001(\r\022\023\n\013NHBKNKEIPAB\030\010 \001(\r" +
       "\022\023\n\013KIBNBAGOICF\030\t \001(\r\022\023\n\013IJAEGLBPOBJ\030\n \001" +
-      "(\rB1\n\031emu.grasscutter.net.protoB\024PacketH" +
-      "eadOuterClassb\006proto3"
+      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

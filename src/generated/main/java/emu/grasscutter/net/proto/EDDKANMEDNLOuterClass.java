@@ -143,8 +143,8 @@ public final class EDDKANMEDNLOuterClass {
       "\n\021EDDKANMEDNL.proto*i\n\013EDDKANMEDNL\022\024\n\020ED" +
       "DKANMEDNL_NONE\020\000\022\036\n\032EDDKANMEDNL_MAX_DIFF" +
       "ICULTY\020\001\022$\n EDDKANMEDNL_MAX_DIFFICULTY_E" +
-      "XTRA\020\002B2\n\031emu.grasscutter.net.protoB\025EDD" +
-      "KANMEDNLOuterClassb\006proto3"
+      "XTRA\020\002B\033\n\031emu.grasscutter.net.protob\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

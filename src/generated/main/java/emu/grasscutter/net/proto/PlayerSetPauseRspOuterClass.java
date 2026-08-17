@@ -25,6 +25,10 @@ public final class PlayerSetPauseRspOuterClass {
     int getRetcode();
   }
   /**
+   * <pre>
+   * CmdID: 2870
+   * </pre>
+   *
    * Protobuf type {@code PlayerSetPauseRsp}
    */
   public static final class PlayerSetPauseRsp extends
@@ -273,6 +277,10 @@ public final class PlayerSetPauseRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 2870
+     * </pre>
+     *
      * Protobuf type {@code PlayerSetPauseRsp}
      */
     public static final class Builder extends
@@ -517,9 +525,8 @@ public final class PlayerSetPauseRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027PlayerSetPauseRsp.proto\"$\n\021PlayerSetPa" +
-      "useRsp\022\017\n\007retcode\030\004 \001(\005B8\n\031emu.grasscutt" +
-      "er.net.protoB\033PlayerSetPauseRspOuterClas" +
-      "sb\006proto3"
+      "useRsp\022\017\n\007retcode\030\004 \001(\005B\033\n\031emu.grasscutt" +
+      "er.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -19,6 +19,48 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <code>int32 JBGAOJKAMNG = 1;</code>
+     * @return The jBGAOJKAMNG.
+     */
+    int getJBGAOJKAMNG();
+
+    /**
+     * <code>int32 entity_type = 5;</code>
+     * @return The entityType.
+     */
+    int getEntityType();
+
+    /**
+     * <code>int32 CFHNGPLMIBN = 8;</code>
+     * @return The cFHNGPLMIBN.
+     */
+    int getCFHNGPLMIBN();
+
+    /**
+     * <code>float attack_element_durability = 9;</code>
+     * @return The attackElementDurability.
+     */
+    float getAttackElementDurability();
+
+    /**
+     * <code>uint32 INEELOIEKJF = 10;</code>
+     * @return The iNEELOIEKJF.
+     */
+    int getINEELOIEKJF();
+
+    /**
+     * <code>uint32 attacker_id = 11;</code>
+     * @return The attackerId.
+     */
+    int getAttackerId();
+
+    /**
+     * <code>uint32 PEIOHJGEBAD = 12;</code>
+     * @return The pEIOHJGEBAD.
+     */
+    int getPEIOHJGEBAD();
+
+    /**
      * <code>.ShapeSphere shape_sphere = 13;</code>
      * @return Whether the shapeSphere field is set.
      */
@@ -48,51 +90,13 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
      */
     emu.grasscutter.net.proto.ShapeBoxOuterClass.ShapeBoxOrBuilder getShapeBoxOrBuilder();
 
-    /**
-     * <code>int32 reaction_source_type = 1;</code>
-     * @return The reactionSourceType.
-     */
-    int getReactionSourceType();
-
-    /**
-     * <code>int32 entity_type = 5;</code>
-     * @return The entityType.
-     */
-    int getEntityType();
-
-    /**
-     * <code>int32 source_element_type = 8;</code>
-     * @return The sourceElementType.
-     */
-    int getSourceElementType();
-
-    /**
-     * <code>float attack_element_durability = 9;</code>
-     * @return The attackElementDurability.
-     */
-    float getAttackElementDurability();
-
-    /**
-     * <code>uint32 user_id = 10;</code>
-     * @return The userId.
-     */
-    int getUserId();
-
-    /**
-     * <code>uint32 attacker_id = 11;</code>
-     * @return The attackerId.
-     */
-    int getAttackerId();
-
-    /**
-     * <code>uint32 op_idx = 12;</code>
-     * @return The opIdx.
-     */
-    int getOpIdx();
-
     public emu.grasscutter.net.proto.MassiveEntityElementOpBatchNotifyOuterClass.MassiveEntityElementOpBatchNotify.CheckShapeCase getCheckShapeCase();
   }
   /**
+   * <pre>
+   * CmdID: 7794
+   * </pre>
+   *
    * Protobuf type {@code MassiveEntityElementOpBatchNotify}
    */
   public static final class MassiveEntityElementOpBatchNotify extends
@@ -139,7 +143,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
               break;
             case 8: {
 
-              reactionSourceType_ = input.readInt32();
+              jBGAOJKAMNG_ = input.readInt32();
               break;
             }
             case 40: {
@@ -149,7 +153,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
             }
             case 64: {
 
-              sourceElementType_ = input.readInt32();
+              cFHNGPLMIBN_ = input.readInt32();
               break;
             }
             case 77: {
@@ -159,7 +163,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
             }
             case 80: {
 
-              userId_ = input.readUInt32();
+              iNEELOIEKJF_ = input.readUInt32();
               break;
             }
             case 88: {
@@ -169,7 +173,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
             }
             case 96: {
 
-              opIdx_ = input.readUInt32();
+              pEIOHJGEBAD_ = input.readUInt32();
               break;
             }
             case 106: {
@@ -273,6 +277,83 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
           checkShapeCase_);
     }
 
+    public static final int JBGAOJKAMNG_FIELD_NUMBER = 1;
+    private int jBGAOJKAMNG_;
+    /**
+     * <code>int32 JBGAOJKAMNG = 1;</code>
+     * @return The jBGAOJKAMNG.
+     */
+    @java.lang.Override
+    public int getJBGAOJKAMNG() {
+      return jBGAOJKAMNG_;
+    }
+
+    public static final int ENTITY_TYPE_FIELD_NUMBER = 5;
+    private int entityType_;
+    /**
+     * <code>int32 entity_type = 5;</code>
+     * @return The entityType.
+     */
+    @java.lang.Override
+    public int getEntityType() {
+      return entityType_;
+    }
+
+    public static final int CFHNGPLMIBN_FIELD_NUMBER = 8;
+    private int cFHNGPLMIBN_;
+    /**
+     * <code>int32 CFHNGPLMIBN = 8;</code>
+     * @return The cFHNGPLMIBN.
+     */
+    @java.lang.Override
+    public int getCFHNGPLMIBN() {
+      return cFHNGPLMIBN_;
+    }
+
+    public static final int ATTACK_ELEMENT_DURABILITY_FIELD_NUMBER = 9;
+    private float attackElementDurability_;
+    /**
+     * <code>float attack_element_durability = 9;</code>
+     * @return The attackElementDurability.
+     */
+    @java.lang.Override
+    public float getAttackElementDurability() {
+      return attackElementDurability_;
+    }
+
+    public static final int INEELOIEKJF_FIELD_NUMBER = 10;
+    private int iNEELOIEKJF_;
+    /**
+     * <code>uint32 INEELOIEKJF = 10;</code>
+     * @return The iNEELOIEKJF.
+     */
+    @java.lang.Override
+    public int getINEELOIEKJF() {
+      return iNEELOIEKJF_;
+    }
+
+    public static final int ATTACKER_ID_FIELD_NUMBER = 11;
+    private int attackerId_;
+    /**
+     * <code>uint32 attacker_id = 11;</code>
+     * @return The attackerId.
+     */
+    @java.lang.Override
+    public int getAttackerId() {
+      return attackerId_;
+    }
+
+    public static final int PEIOHJGEBAD_FIELD_NUMBER = 12;
+    private int pEIOHJGEBAD_;
+    /**
+     * <code>uint32 PEIOHJGEBAD = 12;</code>
+     * @return The pEIOHJGEBAD.
+     */
+    @java.lang.Override
+    public int getPEIOHJGEBAD() {
+      return pEIOHJGEBAD_;
+    }
+
     public static final int SHAPE_SPHERE_FIELD_NUMBER = 13;
     /**
      * <code>.ShapeSphere shape_sphere = 13;</code>
@@ -335,83 +416,6 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       return emu.grasscutter.net.proto.ShapeBoxOuterClass.ShapeBox.getDefaultInstance();
     }
 
-    public static final int REACTION_SOURCE_TYPE_FIELD_NUMBER = 1;
-    private int reactionSourceType_;
-    /**
-     * <code>int32 reaction_source_type = 1;</code>
-     * @return The reactionSourceType.
-     */
-    @java.lang.Override
-    public int getReactionSourceType() {
-      return reactionSourceType_;
-    }
-
-    public static final int ENTITY_TYPE_FIELD_NUMBER = 5;
-    private int entityType_;
-    /**
-     * <code>int32 entity_type = 5;</code>
-     * @return The entityType.
-     */
-    @java.lang.Override
-    public int getEntityType() {
-      return entityType_;
-    }
-
-    public static final int SOURCE_ELEMENT_TYPE_FIELD_NUMBER = 8;
-    private int sourceElementType_;
-    /**
-     * <code>int32 source_element_type = 8;</code>
-     * @return The sourceElementType.
-     */
-    @java.lang.Override
-    public int getSourceElementType() {
-      return sourceElementType_;
-    }
-
-    public static final int ATTACK_ELEMENT_DURABILITY_FIELD_NUMBER = 9;
-    private float attackElementDurability_;
-    /**
-     * <code>float attack_element_durability = 9;</code>
-     * @return The attackElementDurability.
-     */
-    @java.lang.Override
-    public float getAttackElementDurability() {
-      return attackElementDurability_;
-    }
-
-    public static final int USER_ID_FIELD_NUMBER = 10;
-    private int userId_;
-    /**
-     * <code>uint32 user_id = 10;</code>
-     * @return The userId.
-     */
-    @java.lang.Override
-    public int getUserId() {
-      return userId_;
-    }
-
-    public static final int ATTACKER_ID_FIELD_NUMBER = 11;
-    private int attackerId_;
-    /**
-     * <code>uint32 attacker_id = 11;</code>
-     * @return The attackerId.
-     */
-    @java.lang.Override
-    public int getAttackerId() {
-      return attackerId_;
-    }
-
-    public static final int OP_IDX_FIELD_NUMBER = 12;
-    private int opIdx_;
-    /**
-     * <code>uint32 op_idx = 12;</code>
-     * @return The opIdx.
-     */
-    @java.lang.Override
-    public int getOpIdx() {
-      return opIdx_;
-    }
-
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -426,26 +430,26 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (reactionSourceType_ != 0) {
-        output.writeInt32(1, reactionSourceType_);
+      if (jBGAOJKAMNG_ != 0) {
+        output.writeInt32(1, jBGAOJKAMNG_);
       }
       if (entityType_ != 0) {
         output.writeInt32(5, entityType_);
       }
-      if (sourceElementType_ != 0) {
-        output.writeInt32(8, sourceElementType_);
+      if (cFHNGPLMIBN_ != 0) {
+        output.writeInt32(8, cFHNGPLMIBN_);
       }
       if (attackElementDurability_ != 0F) {
         output.writeFloat(9, attackElementDurability_);
       }
-      if (userId_ != 0) {
-        output.writeUInt32(10, userId_);
+      if (iNEELOIEKJF_ != 0) {
+        output.writeUInt32(10, iNEELOIEKJF_);
       }
       if (attackerId_ != 0) {
         output.writeUInt32(11, attackerId_);
       }
-      if (opIdx_ != 0) {
-        output.writeUInt32(12, opIdx_);
+      if (pEIOHJGEBAD_ != 0) {
+        output.writeUInt32(12, pEIOHJGEBAD_);
       }
       if (checkShapeCase_ == 13) {
         output.writeMessage(13, (emu.grasscutter.net.proto.ShapeSphereOuterClass.ShapeSphere) checkShape_);
@@ -462,33 +466,33 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (reactionSourceType_ != 0) {
+      if (jBGAOJKAMNG_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(1, reactionSourceType_);
+          .computeInt32Size(1, jBGAOJKAMNG_);
       }
       if (entityType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(5, entityType_);
       }
-      if (sourceElementType_ != 0) {
+      if (cFHNGPLMIBN_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(8, sourceElementType_);
+          .computeInt32Size(8, cFHNGPLMIBN_);
       }
       if (attackElementDurability_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
           .computeFloatSize(9, attackElementDurability_);
       }
-      if (userId_ != 0) {
+      if (iNEELOIEKJF_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, userId_);
+          .computeUInt32Size(10, iNEELOIEKJF_);
       }
       if (attackerId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(11, attackerId_);
       }
-      if (opIdx_ != 0) {
+      if (pEIOHJGEBAD_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, opIdx_);
+          .computeUInt32Size(12, pEIOHJGEBAD_);
       }
       if (checkShapeCase_ == 13) {
         size += com.google.protobuf.CodedOutputStream
@@ -513,21 +517,21 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       }
       emu.grasscutter.net.proto.MassiveEntityElementOpBatchNotifyOuterClass.MassiveEntityElementOpBatchNotify other = (emu.grasscutter.net.proto.MassiveEntityElementOpBatchNotifyOuterClass.MassiveEntityElementOpBatchNotify) obj;
 
-      if (getReactionSourceType()
-          != other.getReactionSourceType()) return false;
+      if (getJBGAOJKAMNG()
+          != other.getJBGAOJKAMNG()) return false;
       if (getEntityType()
           != other.getEntityType()) return false;
-      if (getSourceElementType()
-          != other.getSourceElementType()) return false;
+      if (getCFHNGPLMIBN()
+          != other.getCFHNGPLMIBN()) return false;
       if (java.lang.Float.floatToIntBits(getAttackElementDurability())
           != java.lang.Float.floatToIntBits(
               other.getAttackElementDurability())) return false;
-      if (getUserId()
-          != other.getUserId()) return false;
+      if (getINEELOIEKJF()
+          != other.getINEELOIEKJF()) return false;
       if (getAttackerId()
           != other.getAttackerId()) return false;
-      if (getOpIdx()
-          != other.getOpIdx()) return false;
+      if (getPEIOHJGEBAD()
+          != other.getPEIOHJGEBAD()) return false;
       if (!getCheckShapeCase().equals(other.getCheckShapeCase())) return false;
       switch (checkShapeCase_) {
         case 13:
@@ -552,21 +556,21 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + REACTION_SOURCE_TYPE_FIELD_NUMBER;
-      hash = (53 * hash) + getReactionSourceType();
+      hash = (37 * hash) + JBGAOJKAMNG_FIELD_NUMBER;
+      hash = (53 * hash) + getJBGAOJKAMNG();
       hash = (37 * hash) + ENTITY_TYPE_FIELD_NUMBER;
       hash = (53 * hash) + getEntityType();
-      hash = (37 * hash) + SOURCE_ELEMENT_TYPE_FIELD_NUMBER;
-      hash = (53 * hash) + getSourceElementType();
+      hash = (37 * hash) + CFHNGPLMIBN_FIELD_NUMBER;
+      hash = (53 * hash) + getCFHNGPLMIBN();
       hash = (37 * hash) + ATTACK_ELEMENT_DURABILITY_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
           getAttackElementDurability());
-      hash = (37 * hash) + USER_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getUserId();
+      hash = (37 * hash) + INEELOIEKJF_FIELD_NUMBER;
+      hash = (53 * hash) + getINEELOIEKJF();
       hash = (37 * hash) + ATTACKER_ID_FIELD_NUMBER;
       hash = (53 * hash) + getAttackerId();
-      hash = (37 * hash) + OP_IDX_FIELD_NUMBER;
-      hash = (53 * hash) + getOpIdx();
+      hash = (37 * hash) + PEIOHJGEBAD_FIELD_NUMBER;
+      hash = (53 * hash) + getPEIOHJGEBAD();
       switch (checkShapeCase_) {
         case 13:
           hash = (37 * hash) + SHAPE_SPHERE_FIELD_NUMBER;
@@ -675,6 +679,10 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 7794
+     * </pre>
+     *
      * Protobuf type {@code MassiveEntityElementOpBatchNotify}
      */
     public static final class Builder extends
@@ -712,19 +720,19 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        reactionSourceType_ = 0;
+        jBGAOJKAMNG_ = 0;
 
         entityType_ = 0;
 
-        sourceElementType_ = 0;
+        cFHNGPLMIBN_ = 0;
 
         attackElementDurability_ = 0F;
 
-        userId_ = 0;
+        iNEELOIEKJF_ = 0;
 
         attackerId_ = 0;
 
-        opIdx_ = 0;
+        pEIOHJGEBAD_ = 0;
 
         checkShapeCase_ = 0;
         checkShape_ = null;
@@ -754,6 +762,13 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.MassiveEntityElementOpBatchNotifyOuterClass.MassiveEntityElementOpBatchNotify buildPartial() {
         emu.grasscutter.net.proto.MassiveEntityElementOpBatchNotifyOuterClass.MassiveEntityElementOpBatchNotify result = new emu.grasscutter.net.proto.MassiveEntityElementOpBatchNotifyOuterClass.MassiveEntityElementOpBatchNotify(this);
+        result.jBGAOJKAMNG_ = jBGAOJKAMNG_;
+        result.entityType_ = entityType_;
+        result.cFHNGPLMIBN_ = cFHNGPLMIBN_;
+        result.attackElementDurability_ = attackElementDurability_;
+        result.iNEELOIEKJF_ = iNEELOIEKJF_;
+        result.attackerId_ = attackerId_;
+        result.pEIOHJGEBAD_ = pEIOHJGEBAD_;
         if (checkShapeCase_ == 13) {
           if (shapeSphereBuilder_ == null) {
             result.checkShape_ = checkShape_;
@@ -768,13 +783,6 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
             result.checkShape_ = shapeBoxBuilder_.build();
           }
         }
-        result.reactionSourceType_ = reactionSourceType_;
-        result.entityType_ = entityType_;
-        result.sourceElementType_ = sourceElementType_;
-        result.attackElementDurability_ = attackElementDurability_;
-        result.userId_ = userId_;
-        result.attackerId_ = attackerId_;
-        result.opIdx_ = opIdx_;
         result.checkShapeCase_ = checkShapeCase_;
         onBuilt();
         return result;
@@ -824,26 +832,26 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.MassiveEntityElementOpBatchNotifyOuterClass.MassiveEntityElementOpBatchNotify other) {
         if (other == emu.grasscutter.net.proto.MassiveEntityElementOpBatchNotifyOuterClass.MassiveEntityElementOpBatchNotify.getDefaultInstance()) return this;
-        if (other.getReactionSourceType() != 0) {
-          setReactionSourceType(other.getReactionSourceType());
+        if (other.getJBGAOJKAMNG() != 0) {
+          setJBGAOJKAMNG(other.getJBGAOJKAMNG());
         }
         if (other.getEntityType() != 0) {
           setEntityType(other.getEntityType());
         }
-        if (other.getSourceElementType() != 0) {
-          setSourceElementType(other.getSourceElementType());
+        if (other.getCFHNGPLMIBN() != 0) {
+          setCFHNGPLMIBN(other.getCFHNGPLMIBN());
         }
         if (other.getAttackElementDurability() != 0F) {
           setAttackElementDurability(other.getAttackElementDurability());
         }
-        if (other.getUserId() != 0) {
-          setUserId(other.getUserId());
+        if (other.getINEELOIEKJF() != 0) {
+          setINEELOIEKJF(other.getINEELOIEKJF());
         }
         if (other.getAttackerId() != 0) {
           setAttackerId(other.getAttackerId());
         }
-        if (other.getOpIdx() != 0) {
-          setOpIdx(other.getOpIdx());
+        if (other.getPEIOHJGEBAD() != 0) {
+          setPEIOHJGEBAD(other.getPEIOHJGEBAD());
         }
         switch (other.getCheckShapeCase()) {
           case SHAPE_SPHERE: {
@@ -901,6 +909,223 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
         return this;
       }
 
+
+      private int jBGAOJKAMNG_ ;
+      /**
+       * <code>int32 JBGAOJKAMNG = 1;</code>
+       * @return The jBGAOJKAMNG.
+       */
+      @java.lang.Override
+      public int getJBGAOJKAMNG() {
+        return jBGAOJKAMNG_;
+      }
+      /**
+       * <code>int32 JBGAOJKAMNG = 1;</code>
+       * @param value The jBGAOJKAMNG to set.
+       * @return This builder for chaining.
+       */
+      public Builder setJBGAOJKAMNG(int value) {
+        
+        jBGAOJKAMNG_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>int32 JBGAOJKAMNG = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearJBGAOJKAMNG() {
+        
+        jBGAOJKAMNG_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int entityType_ ;
+      /**
+       * <code>int32 entity_type = 5;</code>
+       * @return The entityType.
+       */
+      @java.lang.Override
+      public int getEntityType() {
+        return entityType_;
+      }
+      /**
+       * <code>int32 entity_type = 5;</code>
+       * @param value The entityType to set.
+       * @return This builder for chaining.
+       */
+      public Builder setEntityType(int value) {
+        
+        entityType_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>int32 entity_type = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearEntityType() {
+        
+        entityType_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int cFHNGPLMIBN_ ;
+      /**
+       * <code>int32 CFHNGPLMIBN = 8;</code>
+       * @return The cFHNGPLMIBN.
+       */
+      @java.lang.Override
+      public int getCFHNGPLMIBN() {
+        return cFHNGPLMIBN_;
+      }
+      /**
+       * <code>int32 CFHNGPLMIBN = 8;</code>
+       * @param value The cFHNGPLMIBN to set.
+       * @return This builder for chaining.
+       */
+      public Builder setCFHNGPLMIBN(int value) {
+        
+        cFHNGPLMIBN_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>int32 CFHNGPLMIBN = 8;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearCFHNGPLMIBN() {
+        
+        cFHNGPLMIBN_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private float attackElementDurability_ ;
+      /**
+       * <code>float attack_element_durability = 9;</code>
+       * @return The attackElementDurability.
+       */
+      @java.lang.Override
+      public float getAttackElementDurability() {
+        return attackElementDurability_;
+      }
+      /**
+       * <code>float attack_element_durability = 9;</code>
+       * @param value The attackElementDurability to set.
+       * @return This builder for chaining.
+       */
+      public Builder setAttackElementDurability(float value) {
+        
+        attackElementDurability_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>float attack_element_durability = 9;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearAttackElementDurability() {
+        
+        attackElementDurability_ = 0F;
+        onChanged();
+        return this;
+      }
+
+      private int iNEELOIEKJF_ ;
+      /**
+       * <code>uint32 INEELOIEKJF = 10;</code>
+       * @return The iNEELOIEKJF.
+       */
+      @java.lang.Override
+      public int getINEELOIEKJF() {
+        return iNEELOIEKJF_;
+      }
+      /**
+       * <code>uint32 INEELOIEKJF = 10;</code>
+       * @param value The iNEELOIEKJF to set.
+       * @return This builder for chaining.
+       */
+      public Builder setINEELOIEKJF(int value) {
+        
+        iNEELOIEKJF_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 INEELOIEKJF = 10;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearINEELOIEKJF() {
+        
+        iNEELOIEKJF_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int attackerId_ ;
+      /**
+       * <code>uint32 attacker_id = 11;</code>
+       * @return The attackerId.
+       */
+      @java.lang.Override
+      public int getAttackerId() {
+        return attackerId_;
+      }
+      /**
+       * <code>uint32 attacker_id = 11;</code>
+       * @param value The attackerId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setAttackerId(int value) {
+        
+        attackerId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 attacker_id = 11;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearAttackerId() {
+        
+        attackerId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int pEIOHJGEBAD_ ;
+      /**
+       * <code>uint32 PEIOHJGEBAD = 12;</code>
+       * @return The pEIOHJGEBAD.
+       */
+      @java.lang.Override
+      public int getPEIOHJGEBAD() {
+        return pEIOHJGEBAD_;
+      }
+      /**
+       * <code>uint32 PEIOHJGEBAD = 12;</code>
+       * @param value The pEIOHJGEBAD to set.
+       * @return This builder for chaining.
+       */
+      public Builder setPEIOHJGEBAD(int value) {
+        
+        pEIOHJGEBAD_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 PEIOHJGEBAD = 12;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearPEIOHJGEBAD() {
+        
+        pEIOHJGEBAD_ = 0;
+        onChanged();
+        return this;
+      }
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ShapeSphereOuterClass.ShapeSphere, emu.grasscutter.net.proto.ShapeSphereOuterClass.ShapeSphere.Builder, emu.grasscutter.net.proto.ShapeSphereOuterClass.ShapeSphereOrBuilder> shapeSphereBuilder_;
@@ -1183,223 +1408,6 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
         onChanged();;
         return shapeBoxBuilder_;
       }
-
-      private int reactionSourceType_ ;
-      /**
-       * <code>int32 reaction_source_type = 1;</code>
-       * @return The reactionSourceType.
-       */
-      @java.lang.Override
-      public int getReactionSourceType() {
-        return reactionSourceType_;
-      }
-      /**
-       * <code>int32 reaction_source_type = 1;</code>
-       * @param value The reactionSourceType to set.
-       * @return This builder for chaining.
-       */
-      public Builder setReactionSourceType(int value) {
-        
-        reactionSourceType_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>int32 reaction_source_type = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearReactionSourceType() {
-        
-        reactionSourceType_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int entityType_ ;
-      /**
-       * <code>int32 entity_type = 5;</code>
-       * @return The entityType.
-       */
-      @java.lang.Override
-      public int getEntityType() {
-        return entityType_;
-      }
-      /**
-       * <code>int32 entity_type = 5;</code>
-       * @param value The entityType to set.
-       * @return This builder for chaining.
-       */
-      public Builder setEntityType(int value) {
-        
-        entityType_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>int32 entity_type = 5;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearEntityType() {
-        
-        entityType_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int sourceElementType_ ;
-      /**
-       * <code>int32 source_element_type = 8;</code>
-       * @return The sourceElementType.
-       */
-      @java.lang.Override
-      public int getSourceElementType() {
-        return sourceElementType_;
-      }
-      /**
-       * <code>int32 source_element_type = 8;</code>
-       * @param value The sourceElementType to set.
-       * @return This builder for chaining.
-       */
-      public Builder setSourceElementType(int value) {
-        
-        sourceElementType_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>int32 source_element_type = 8;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearSourceElementType() {
-        
-        sourceElementType_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private float attackElementDurability_ ;
-      /**
-       * <code>float attack_element_durability = 9;</code>
-       * @return The attackElementDurability.
-       */
-      @java.lang.Override
-      public float getAttackElementDurability() {
-        return attackElementDurability_;
-      }
-      /**
-       * <code>float attack_element_durability = 9;</code>
-       * @param value The attackElementDurability to set.
-       * @return This builder for chaining.
-       */
-      public Builder setAttackElementDurability(float value) {
-        
-        attackElementDurability_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>float attack_element_durability = 9;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearAttackElementDurability() {
-        
-        attackElementDurability_ = 0F;
-        onChanged();
-        return this;
-      }
-
-      private int userId_ ;
-      /**
-       * <code>uint32 user_id = 10;</code>
-       * @return The userId.
-       */
-      @java.lang.Override
-      public int getUserId() {
-        return userId_;
-      }
-      /**
-       * <code>uint32 user_id = 10;</code>
-       * @param value The userId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setUserId(int value) {
-        
-        userId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 user_id = 10;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearUserId() {
-        
-        userId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int attackerId_ ;
-      /**
-       * <code>uint32 attacker_id = 11;</code>
-       * @return The attackerId.
-       */
-      @java.lang.Override
-      public int getAttackerId() {
-        return attackerId_;
-      }
-      /**
-       * <code>uint32 attacker_id = 11;</code>
-       * @param value The attackerId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setAttackerId(int value) {
-        
-        attackerId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 attacker_id = 11;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearAttackerId() {
-        
-        attackerId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int opIdx_ ;
-      /**
-       * <code>uint32 op_idx = 12;</code>
-       * @return The opIdx.
-       */
-      @java.lang.Override
-      public int getOpIdx() {
-        return opIdx_;
-      }
-      /**
-       * <code>uint32 op_idx = 12;</code>
-       * @param value The opIdx to set.
-       * @return This builder for chaining.
-       */
-      public Builder setOpIdx(int value) {
-        
-        opIdx_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 op_idx = 12;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearOpIdx() {
-        
-        opIdx_ = 0;
-        onChanged();
-        return this;
-      }
       @java.lang.Override
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -1468,17 +1476,15 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\'MassiveEntityElementOpBatchNotify.prot" +
-      "o\032\016ShapeBox.proto\032\021ShapeSphere.proto\"\241\002\n" +
-      "!MassiveEntityElementOpBatchNotify\022$\n\014sh" +
-      "ape_sphere\030\r \001(\0132\014.ShapeSphereH\000\022\036\n\tshap" +
-      "e_box\030\017 \001(\0132\t.ShapeBoxH\000\022\034\n\024reaction_sou" +
-      "rce_type\030\001 \001(\005\022\023\n\013entity_type\030\005 \001(\005\022\033\n\023s" +
-      "ource_element_type\030\010 \001(\005\022!\n\031attack_eleme" +
-      "nt_durability\030\t \001(\002\022\017\n\007user_id\030\n \001(\r\022\023\n\013" +
-      "attacker_id\030\013 \001(\r\022\016\n\006op_idx\030\014 \001(\rB\r\n\013che" +
-      "ck_shapeBH\n\031emu.grasscutter.net.protoB+M" +
-      "assiveEntityElementOpBatchNotifyOuterCla" +
-      "ssb\006proto3"
+      "o\032\016ShapeBox.proto\032\021ShapeSphere.proto\"\231\002\n" +
+      "!MassiveEntityElementOpBatchNotify\022\023\n\013JB" +
+      "GAOJKAMNG\030\001 \001(\005\022\023\n\013entity_type\030\005 \001(\005\022\023\n\013" +
+      "CFHNGPLMIBN\030\010 \001(\005\022!\n\031attack_element_dura" +
+      "bility\030\t \001(\002\022\023\n\013INEELOIEKJF\030\n \001(\r\022\023\n\013att" +
+      "acker_id\030\013 \001(\r\022\023\n\013PEIOHJGEBAD\030\014 \001(\r\022$\n\014s" +
+      "hape_sphere\030\r \001(\0132\014.ShapeSphereH\000\022\036\n\tsha" +
+      "pe_box\030\017 \001(\0132\t.ShapeBoxH\000B\r\n\013check_shape" +
+      "B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1491,7 +1497,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
     internal_static_MassiveEntityElementOpBatchNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MassiveEntityElementOpBatchNotify_descriptor,
-        new java.lang.String[] { "ShapeSphere", "ShapeBox", "ReactionSourceType", "EntityType", "SourceElementType", "AttackElementDurability", "UserId", "AttackerId", "OpIdx", "CheckShape", });
+        new java.lang.String[] { "JBGAOJKAMNG", "EntityType", "CFHNGPLMIBN", "AttackElementDurability", "INEELOIEKJF", "AttackerId", "PEIOHJGEBAD", "ShapeSphere", "ShapeBox", "CheckShape", });
     emu.grasscutter.net.proto.ShapeBoxOuterClass.getDescriptor();
     emu.grasscutter.net.proto.ShapeSphereOuterClass.getDescriptor();
   }

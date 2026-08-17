@@ -48,6 +48,10 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
     int getParentQuestVarSeq();
   }
   /**
+   * <pre>
+   * CmdID: 26260
+   * </pre>
+   *
    * Protobuf type {@code QuestUpdateQuestVarNotify}
    */
   public static final class QuestUpdateQuestVarNotify extends
@@ -405,6 +409,10 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 26260
+     * </pre>
+     *
      * Protobuf type {@code QuestUpdateQuestVarNotify}
      */
     public static final class Builder extends
@@ -786,9 +794,8 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
       "\n\037QuestUpdateQuestVarNotify.proto\"e\n\031Que" +
       "stUpdateQuestVarNotify\022\027\n\017parent_quest_i" +
       "d\030\005 \001(\r\022\021\n\tquest_var\030\n \003(\005\022\034\n\024parent_que" +
-      "st_var_seq\030\014 \001(\rB@\n\031emu.grasscutter.net." +
-      "protoB#QuestUpdateQuestVarNotifyOuterCla" +
-      "ssb\006proto3"
+      "st_var_seq\030\014 \001(\rB\033\n\031emu.grasscutter.net." +
+      "protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

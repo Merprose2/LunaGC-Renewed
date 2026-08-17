@@ -55,21 +55,21 @@ public final class PlayerLocationInfoOuterClass {
     int getUid();
 
     /**
-     * <code>repeated uint32 pflkbeajnij = 13;</code>
-     * @return A list containing the pflkbeajnij.
+     * <code>repeated uint32 HPOIENCPHFN = 13;</code>
+     * @return A list containing the hPOIENCPHFN.
      */
-    java.util.List<java.lang.Integer> getPflkbeajnijList();
+    java.util.List<java.lang.Integer> getHPOIENCPHFNList();
     /**
-     * <code>repeated uint32 pflkbeajnij = 13;</code>
-     * @return The count of pflkbeajnij.
+     * <code>repeated uint32 HPOIENCPHFN = 13;</code>
+     * @return The count of hPOIENCPHFN.
      */
-    int getPflkbeajnijCount();
+    int getHPOIENCPHFNCount();
     /**
-     * <code>repeated uint32 pflkbeajnij = 13;</code>
+     * <code>repeated uint32 HPOIENCPHFN = 13;</code>
      * @param index The index of the element to return.
-     * @return The pflkbeajnij at the given index.
+     * @return The hPOIENCPHFN at the given index.
      */
-    int getPflkbeajnij(int index);
+    int getHPOIENCPHFN(int index);
   }
   /**
    * Protobuf type {@code PlayerLocationInfo}
@@ -84,7 +84,7 @@ public final class PlayerLocationInfoOuterClass {
       super(builder);
     }
     private PlayerLocationInfo() {
-      pflkbeajnij_ = emptyIntList();
+      hPOIENCPHFN_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -151,21 +151,21 @@ public final class PlayerLocationInfoOuterClass {
             }
             case 104: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                pflkbeajnij_ = newIntList();
+                hPOIENCPHFN_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
-              pflkbeajnij_.addInt(input.readUInt32());
+              hPOIENCPHFN_.addInt(input.readUInt32());
               break;
             }
             case 106: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                pflkbeajnij_ = newIntList();
+                hPOIENCPHFN_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
-                pflkbeajnij_.addInt(input.readUInt32());
+                hPOIENCPHFN_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
@@ -186,7 +186,7 @@ public final class PlayerLocationInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          pflkbeajnij_.makeImmutable(); // C
+          hPOIENCPHFN_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -268,33 +268,33 @@ public final class PlayerLocationInfoOuterClass {
       return uid_;
     }
 
-    public static final int PFLKBEAJNIJ_FIELD_NUMBER = 13;
-    private com.google.protobuf.Internal.IntList pflkbeajnij_;
+    public static final int HPOIENCPHFN_FIELD_NUMBER = 13;
+    private com.google.protobuf.Internal.IntList hPOIENCPHFN_;
     /**
-     * <code>repeated uint32 pflkbeajnij = 13;</code>
-     * @return A list containing the pflkbeajnij.
+     * <code>repeated uint32 HPOIENCPHFN = 13;</code>
+     * @return A list containing the hPOIENCPHFN.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getPflkbeajnijList() {
-      return pflkbeajnij_;
+        getHPOIENCPHFNList() {
+      return hPOIENCPHFN_;
     }
     /**
-     * <code>repeated uint32 pflkbeajnij = 13;</code>
-     * @return The count of pflkbeajnij.
+     * <code>repeated uint32 HPOIENCPHFN = 13;</code>
+     * @return The count of hPOIENCPHFN.
      */
-    public int getPflkbeajnijCount() {
-      return pflkbeajnij_.size();
+    public int getHPOIENCPHFNCount() {
+      return hPOIENCPHFN_.size();
     }
     /**
-     * <code>repeated uint32 pflkbeajnij = 13;</code>
+     * <code>repeated uint32 HPOIENCPHFN = 13;</code>
      * @param index The index of the element to return.
-     * @return The pflkbeajnij at the given index.
+     * @return The hPOIENCPHFN at the given index.
      */
-    public int getPflkbeajnij(int index) {
-      return pflkbeajnij_.getInt(index);
+    public int getHPOIENCPHFN(int index) {
+      return hPOIENCPHFN_.getInt(index);
     }
-    private int pflkbeajnijMemoizedSerializedSize = -1;
+    private int hPOIENCPHFNMemoizedSerializedSize = -1;
 
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
@@ -320,12 +320,12 @@ public final class PlayerLocationInfoOuterClass {
       if (uid_ != 0) {
         output.writeUInt32(11, uid_);
       }
-      if (getPflkbeajnijList().size() > 0) {
+      if (getHPOIENCPHFNList().size() > 0) {
         output.writeUInt32NoTag(106);
-        output.writeUInt32NoTag(pflkbeajnijMemoizedSerializedSize);
+        output.writeUInt32NoTag(hPOIENCPHFNMemoizedSerializedSize);
       }
-      for (int i = 0; i < pflkbeajnij_.size(); i++) {
-        output.writeUInt32NoTag(pflkbeajnij_.getInt(i));
+      for (int i = 0; i < hPOIENCPHFN_.size(); i++) {
+        output.writeUInt32NoTag(hPOIENCPHFN_.getInt(i));
       }
       unknownFields.writeTo(output);
     }
@@ -350,17 +350,17 @@ public final class PlayerLocationInfoOuterClass {
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < pflkbeajnij_.size(); i++) {
+        for (int i = 0; i < hPOIENCPHFN_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(pflkbeajnij_.getInt(i));
+            .computeUInt32SizeNoTag(hPOIENCPHFN_.getInt(i));
         }
         size += dataSize;
-        if (!getPflkbeajnijList().isEmpty()) {
+        if (!getHPOIENCPHFNList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        pflkbeajnijMemoizedSerializedSize = dataSize;
+        hPOIENCPHFNMemoizedSerializedSize = dataSize;
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -389,8 +389,8 @@ public final class PlayerLocationInfoOuterClass {
       }
       if (getUid()
           != other.getUid()) return false;
-      if (!getPflkbeajnijList()
-          .equals(other.getPflkbeajnijList())) return false;
+      if (!getHPOIENCPHFNList()
+          .equals(other.getHPOIENCPHFNList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -412,9 +412,9 @@ public final class PlayerLocationInfoOuterClass {
       }
       hash = (37 * hash) + UID_FIELD_NUMBER;
       hash = (53 * hash) + getUid();
-      if (getPflkbeajnijCount() > 0) {
-        hash = (37 * hash) + PFLKBEAJNIJ_FIELD_NUMBER;
-        hash = (53 * hash) + getPflkbeajnijList().hashCode();
+      if (getHPOIENCPHFNCount() > 0) {
+        hash = (37 * hash) + HPOIENCPHFN_FIELD_NUMBER;
+        hash = (53 * hash) + getHPOIENCPHFNList().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -563,7 +563,7 @@ public final class PlayerLocationInfoOuterClass {
         }
         uid_ = 0;
 
-        pflkbeajnij_ = emptyIntList();
+        hPOIENCPHFN_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         return this;
       }
@@ -604,10 +604,10 @@ public final class PlayerLocationInfoOuterClass {
         }
         result.uid_ = uid_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          pflkbeajnij_.makeImmutable();
+          hPOIENCPHFN_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.pflkbeajnij_ = pflkbeajnij_;
+        result.hPOIENCPHFN_ = hPOIENCPHFN_;
         onBuilt();
         return result;
       }
@@ -665,13 +665,13 @@ public final class PlayerLocationInfoOuterClass {
         if (other.getUid() != 0) {
           setUid(other.getUid());
         }
-        if (!other.pflkbeajnij_.isEmpty()) {
-          if (pflkbeajnij_.isEmpty()) {
-            pflkbeajnij_ = other.pflkbeajnij_;
+        if (!other.hPOIENCPHFN_.isEmpty()) {
+          if (hPOIENCPHFN_.isEmpty()) {
+            hPOIENCPHFN_ = other.hPOIENCPHFN_;
             bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensurePflkbeajnijIsMutable();
-            pflkbeajnij_.addAll(other.pflkbeajnij_);
+            ensureHPOIENCPHFNIsMutable();
+            hPOIENCPHFN_.addAll(other.hPOIENCPHFN_);
           }
           onChanged();
         }
@@ -974,80 +974,80 @@ public final class PlayerLocationInfoOuterClass {
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList pflkbeajnij_ = emptyIntList();
-      private void ensurePflkbeajnijIsMutable() {
+      private com.google.protobuf.Internal.IntList hPOIENCPHFN_ = emptyIntList();
+      private void ensureHPOIENCPHFNIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          pflkbeajnij_ = mutableCopy(pflkbeajnij_);
+          hPOIENCPHFN_ = mutableCopy(hPOIENCPHFN_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 pflkbeajnij = 13;</code>
-       * @return A list containing the pflkbeajnij.
+       * <code>repeated uint32 HPOIENCPHFN = 13;</code>
+       * @return A list containing the hPOIENCPHFN.
        */
       public java.util.List<java.lang.Integer>
-          getPflkbeajnijList() {
+          getHPOIENCPHFNList() {
         return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(pflkbeajnij_) : pflkbeajnij_;
+                 java.util.Collections.unmodifiableList(hPOIENCPHFN_) : hPOIENCPHFN_;
       }
       /**
-       * <code>repeated uint32 pflkbeajnij = 13;</code>
-       * @return The count of pflkbeajnij.
+       * <code>repeated uint32 HPOIENCPHFN = 13;</code>
+       * @return The count of hPOIENCPHFN.
        */
-      public int getPflkbeajnijCount() {
-        return pflkbeajnij_.size();
+      public int getHPOIENCPHFNCount() {
+        return hPOIENCPHFN_.size();
       }
       /**
-       * <code>repeated uint32 pflkbeajnij = 13;</code>
+       * <code>repeated uint32 HPOIENCPHFN = 13;</code>
        * @param index The index of the element to return.
-       * @return The pflkbeajnij at the given index.
+       * @return The hPOIENCPHFN at the given index.
        */
-      public int getPflkbeajnij(int index) {
-        return pflkbeajnij_.getInt(index);
+      public int getHPOIENCPHFN(int index) {
+        return hPOIENCPHFN_.getInt(index);
       }
       /**
-       * <code>repeated uint32 pflkbeajnij = 13;</code>
+       * <code>repeated uint32 HPOIENCPHFN = 13;</code>
        * @param index The index to set the value at.
-       * @param value The pflkbeajnij to set.
+       * @param value The hPOIENCPHFN to set.
        * @return This builder for chaining.
        */
-      public Builder setPflkbeajnij(
+      public Builder setHPOIENCPHFN(
           int index, int value) {
-        ensurePflkbeajnijIsMutable();
-        pflkbeajnij_.setInt(index, value);
+        ensureHPOIENCPHFNIsMutable();
+        hPOIENCPHFN_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 pflkbeajnij = 13;</code>
-       * @param value The pflkbeajnij to add.
+       * <code>repeated uint32 HPOIENCPHFN = 13;</code>
+       * @param value The hPOIENCPHFN to add.
        * @return This builder for chaining.
        */
-      public Builder addPflkbeajnij(int value) {
-        ensurePflkbeajnijIsMutable();
-        pflkbeajnij_.addInt(value);
+      public Builder addHPOIENCPHFN(int value) {
+        ensureHPOIENCPHFNIsMutable();
+        hPOIENCPHFN_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 pflkbeajnij = 13;</code>
-       * @param values The pflkbeajnij to add.
+       * <code>repeated uint32 HPOIENCPHFN = 13;</code>
+       * @param values The hPOIENCPHFN to add.
        * @return This builder for chaining.
        */
-      public Builder addAllPflkbeajnij(
+      public Builder addAllHPOIENCPHFN(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensurePflkbeajnijIsMutable();
+        ensureHPOIENCPHFNIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, pflkbeajnij_);
+            values, hPOIENCPHFN_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 pflkbeajnij = 13;</code>
+       * <code>repeated uint32 HPOIENCPHFN = 13;</code>
        * @return This builder for chaining.
        */
-      public Builder clearPflkbeajnij() {
-        pflkbeajnij_ = emptyIntList();
+      public Builder clearHPOIENCPHFN() {
+        hPOIENCPHFN_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
@@ -1122,9 +1122,8 @@ public final class PlayerLocationInfoOuterClass {
       "\n\030PlayerLocationInfo.proto\032\014Vector.proto" +
       "\"b\n\022PlayerLocationInfo\022\024\n\003pos\030\004 \001(\0132\007.Ve" +
       "ctor\022\024\n\003rot\030\t \001(\0132\007.Vector\022\013\n\003uid\030\013 \001(\r\022" +
-      "\023\n\013pflkbeajnij\030\r \003(\rB9\n\031emu.grasscutter." +
-      "net.protoB\034PlayerLocationInfoOuterClassb" +
-      "\006proto3"
+      "\023\n\013HPOIENCPHFN\030\r \003(\rB\033\n\031emu.grasscutter." +
+      "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1136,7 +1135,7 @@ public final class PlayerLocationInfoOuterClass {
     internal_static_PlayerLocationInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PlayerLocationInfo_descriptor,
-        new java.lang.String[] { "Pos", "Rot", "Uid", "Pflkbeajnij", });
+        new java.lang.String[] { "Pos", "Rot", "Uid", "HPOIENCPHFN", });
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
   }
 

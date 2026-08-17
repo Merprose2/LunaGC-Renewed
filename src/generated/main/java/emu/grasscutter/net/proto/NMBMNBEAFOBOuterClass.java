@@ -587,9 +587,8 @@ public final class NMBMNBEAFOBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NMBMNBEAFOB.proto\"7\n\013NMBMNBEAFOB\022\023\n\013LO" +
-      "GADODHKOG\030\003 \001(\r\022\023\n\013JAECPMNDFGP\030\014 \001(\rB2\n\031" +
-      "emu.grasscutter.net.protoB\025NMBMNBEAFOBOu" +
-      "terClassb\006proto3"
+      "GADODHKOG\030\003 \001(\r\022\023\n\013JAECPMNDFGP\030\014 \001(\rB\033\n\031" +
+      "emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

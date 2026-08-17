@@ -998,9 +998,8 @@ public final class InstableSprayDungeonSettleInfoOuterClass {
       "\001\n\036InstableSprayDungeonSettleInfo\022\022\n\ndif" +
       "ficulty\030\002 \001(\r\022\r\n\005round\030\005 \001(\r\022\020\n\010stage_id" +
       "\030\t \001(\r\022\022\n\nscore_list\030\013 \003(\r\022\020\n\010level_id\030\016" +
-      " \001(\r\022\025\n\ris_new_record\030\017 \001(\010BE\n\031emu.grass" +
-      "cutter.net.protoB(InstableSprayDungeonSe" +
-      "ttleInfoOuterClassb\006proto3"
+      " \001(\r\022\025\n\ris_new_record\030\017 \001(\010B\033\n\031emu.grass" +
+      "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

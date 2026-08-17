@@ -142,9 +142,8 @@ public final class LJGEHMILKEMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LJGEHMILKEM.proto*Z\n\013LJGEHMILKEM\022\026\n\022LJ" +
       "GEHMILKEM_NORMAL\020\000\022\033\n\027LJGEHMILKEM_SERVER" +
-      "_BUFF\020\001\022\026\n\022LJGEHMILKEM_SERVER\020\002B2\n\031emu.g" +
-      "rasscutter.net.protoB\025LJGEHMILKEMOuterCl" +
-      "assb\006proto3"
+      "_BUFF\020\001\022\026\n\022LJGEHMILKEM_SERVER\020\002B\033\n\031emu.g" +
+      "rasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

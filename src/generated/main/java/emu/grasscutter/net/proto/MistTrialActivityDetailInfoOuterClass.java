@@ -824,9 +824,8 @@ public final class MistTrialActivityDetailInfoOuterClass {
       "\n!MistTrialActivityDetailInfo.proto\032\030Mis" +
       "tTrialLevelData.proto\"Q\n\033MistTrialActivi" +
       "tyDetailInfo\0222\n\025trial_level_data_list\030\t " +
-      "\003(\0132\023.MistTrialLevelDataBB\n\031emu.grasscut" +
-      "ter.net.protoB%MistTrialActivityDetailIn" +
-      "foOuterClassb\006proto3"
+      "\003(\0132\023.MistTrialLevelDataB\033\n\031emu.grasscut" +
+      "ter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

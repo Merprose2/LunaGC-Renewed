@@ -824,8 +824,7 @@ public final class RogueShowAvatarTeamInfoOuterClass {
       "\n\035RogueShowAvatarTeamInfo.proto\032\025RogueAv" +
       "atarInfo.proto\"@\n\027RogueShowAvatarTeamInf" +
       "o\022%\n\013avatar_list\030\017 \003(\0132\020.RogueAvatarInfo" +
-      "B>\n\031emu.grasscutter.net.protoB!RogueShow" +
-      "AvatarTeamInfoOuterClassb\006proto3"
+      "B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

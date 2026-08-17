@@ -25,6 +25,10 @@ public final class PlayerSetPauseReqOuterClass {
     boolean getIsPaused();
   }
   /**
+   * <pre>
+   * CmdID: 28092
+   * </pre>
+   *
    * Protobuf type {@code PlayerSetPauseReq}
    */
   public static final class PlayerSetPauseReq extends
@@ -274,6 +278,10 @@ public final class PlayerSetPauseReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 28092
+     * </pre>
+     *
      * Protobuf type {@code PlayerSetPauseReq}
      */
     public static final class Builder extends
@@ -518,9 +526,8 @@ public final class PlayerSetPauseReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027PlayerSetPauseReq.proto\"&\n\021PlayerSetPa" +
-      "useReq\022\021\n\tis_paused\030\003 \001(\010B8\n\031emu.grasscu" +
-      "tter.net.protoB\033PlayerSetPauseReqOuterCl" +
-      "assb\006proto3"
+      "useReq\022\021\n\tis_paused\030\003 \001(\010B\033\n\031emu.grasscu" +
+      "tter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

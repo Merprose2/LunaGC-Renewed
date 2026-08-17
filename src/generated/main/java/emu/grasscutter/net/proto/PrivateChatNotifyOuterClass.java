@@ -34,6 +34,10 @@ public final class PrivateChatNotifyOuterClass {
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfoOrBuilder getChatInfoOrBuilder();
   }
   /**
+   * <pre>
+   * CmdID: 20231
+   * </pre>
+   *
    * Protobuf type {@code PrivateChatNotify}
    */
   public static final class PrivateChatNotify extends
@@ -310,6 +314,10 @@ public final class PrivateChatNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 20231
+     * </pre>
+     *
      * Protobuf type {@code PrivateChatNotify}
      */
     public static final class Builder extends
@@ -651,8 +659,8 @@ public final class PrivateChatNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027PrivateChatNotify.proto\032\016ChatInfo.prot" +
       "o\"1\n\021PrivateChatNotify\022\034\n\tchat_info\030\006 \001(" +
-      "\0132\t.ChatInfoB8\n\031emu.grasscutter.net.prot" +
-      "oB\033PrivateChatNotifyOuterClassb\006proto3"
+      "\0132\t.ChatInfoB\033\n\031emu.grasscutter.net.prot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

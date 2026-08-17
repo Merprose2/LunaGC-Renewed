@@ -82,6 +82,10 @@ public final class AvatarExpeditionAllDataRspOuterClass {
     int getOpenExpeditionList(int index);
   }
   /**
+   * <pre>
+   * CmdID: 26662
+   * </pre>
+   *
    * Protobuf type {@code AvatarExpeditionAllDataRsp}
    */
   public static final class AvatarExpeditionAllDataRsp extends
@@ -567,6 +571,10 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 26662
+     * </pre>
+     *
      * Protobuf type {@code AvatarExpeditionAllDataRsp}
      */
     public static final class Builder extends
@@ -1113,9 +1121,8 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       "pEntry\022\017\n\007retcode\030\014 \001(\005\022\034\n\024open_expediti" +
       "on_list\030\016 \003(\r\032O\n\026ExpeditionInfoMapEntry\022" +
       "\013\n\003key\030\001 \001(\004\022$\n\005value\030\002 \001(\0132\025.AvatarExpe" +
-      "ditionInfo:\0028\001BA\n\031emu.grasscutter.net.pr" +
-      "otoB$AvatarExpeditionAllDataRspOuterClas" +
-      "sb\006proto3"
+      "ditionInfo:\0028\001B\033\n\031emu.grasscutter.net.pr" +
+      "otob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

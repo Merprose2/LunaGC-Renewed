@@ -1471,9 +1471,8 @@ public final class TrialAvatarInfoOuterClass {
       "rInfo\022\027\n\017trial_avatar_id\030\001 \001(\r\022\037\n\020trial_" +
       "equip_list\030\002 \003(\0132\005.Item\022-\n\014grant_record\030" +
       "\003 \001(\0132\027.TrialAvatarGrantRecord\022\032\n\013GLLBGF" +
-      "FLBLP\030\004 \003(\0132\005.ItemB6\n\031emu.grasscutter.ne" +
-      "t.protoB\031TrialAvatarInfoOuterClassb\006prot" +
-      "o3"
+      "FLBLP\030\004 \003(\0132\005.ItemB\033\n\031emu.grasscutter.ne" +
+      "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

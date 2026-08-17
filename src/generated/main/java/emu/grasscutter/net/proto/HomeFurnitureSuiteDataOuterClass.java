@@ -1061,9 +1061,8 @@ public final class HomeFurnitureSuiteDataOuterClass {
       "roto\"\224\001\n\026HomeFurnitureSuiteData\022\020\n\010suite" +
       "_id\030\002 \001(\r\022\027\n\017is_allow_summon\030\004 \001(\010\022%\n\035in" +
       "cluded_furniture_index_list\030\010 \003(\005\022\014\n\004gui" +
-      "d\030\016 \001(\r\022\032\n\tspawn_pos\030\017 \001(\0132\007.VectorB=\n\031e" +
-      "mu.grasscutter.net.protoB HomeFurnitureS" +
-      "uiteDataOuterClassb\006proto3"
+      "d\030\016 \001(\r\022\032\n\tspawn_pos\030\017 \001(\0132\007.VectorB\033\n\031e" +
+      "mu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

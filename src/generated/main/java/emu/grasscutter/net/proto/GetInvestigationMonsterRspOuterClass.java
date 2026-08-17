@@ -55,6 +55,10 @@ public final class GetInvestigationMonsterRspOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 22920
+   * </pre>
+   *
    * Protobuf type {@code GetInvestigationMonsterRsp}
    */
   public static final class GetInvestigationMonsterRsp extends
@@ -398,6 +402,10 @@ public final class GetInvestigationMonsterRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 22920
+     * </pre>
+     *
      * Protobuf type {@code GetInvestigationMonsterRsp}
      */
     public static final class Builder extends
@@ -966,9 +974,8 @@ public final class GetInvestigationMonsterRspOuterClass {
       "stigationMonster.proto\"o\n\032GetInvestigati" +
       "onMonsterRsp\022\017\n\007retcode\030\001 \001(\005\022\023\n\013is_for_" +
       "mark\030\010 \001(\010\022+\n\014monster_list\030\016 \003(\0132\025.Inves" +
-      "tigationMonsterBA\n\031emu.grasscutter.net.p" +
-      "rotoB$GetInvestigationMonsterRspOuterCla" +
-      "ssb\006proto3"
+      "tigationMonsterB\033\n\031emu.grasscutter.net.p" +
+      "rotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -31,6 +31,10 @@ public final class PlayerCompoundMaterialReqOuterClass {
     int getCount();
   }
   /**
+   * <pre>
+   * CmdID: 26581
+   * </pre>
+   *
    * Protobuf type {@code PlayerCompoundMaterialReq}
    */
   public static final class PlayerCompoundMaterialReq extends
@@ -306,6 +310,10 @@ public final class PlayerCompoundMaterialReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 26581
+     * </pre>
+     *
      * Protobuf type {@code PlayerCompoundMaterialReq}
      */
     public static final class Builder extends
@@ -588,9 +596,8 @@ public final class PlayerCompoundMaterialReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037PlayerCompoundMaterialReq.proto\"?\n\031Pla" +
       "yerCompoundMaterialReq\022\023\n\013compound_id\030\001 " +
-      "\001(\r\022\r\n\005count\030\004 \001(\rB@\n\031emu.grasscutter.ne" +
-      "t.protoB#PlayerCompoundMaterialReqOuterC" +
-      "lassb\006proto3"
+      "\001(\r\022\r\n\005count\030\004 \001(\rB\033\n\031emu.grasscutter.ne" +
+      "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

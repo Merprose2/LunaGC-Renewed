@@ -25,10 +25,10 @@ public final class DoGachaRspOuterClass {
     int getTenCostItemNum();
 
     /**
-     * <code>uint32 left_gacha_times = 2;</code>
-     * @return The leftGachaTimes.
+     * <code>uint32 gacha_times_limit = 2;</code>
+     * @return The gachaTimesLimit.
      */
-    int getLeftGachaTimes();
+    int getGachaTimesLimit();
 
     /**
      * <code>uint32 gacha_times = 3;</code>
@@ -37,10 +37,10 @@ public final class DoGachaRspOuterClass {
     int getGachaTimes();
 
     /**
-     * <code>uint32 gacha_times_limit = 4;</code>
-     * @return The gachaTimesLimit.
+     * <code>uint32 left_gacha_times = 4;</code>
+     * @return The leftGachaTimes.
      */
-    int getGachaTimesLimit();
+    int getLeftGachaTimes();
 
     /**
      * <code>int32 retcode = 5;</code>
@@ -157,6 +157,10 @@ public final class DoGachaRspOuterClass {
     int getDailyGachaTimes();
   }
   /**
+   * <pre>
+   * CmdID: 26895
+   * </pre>
+   *
    * Protobuf type {@code DoGachaRsp}
    */
   public static final class DoGachaRsp extends
@@ -210,7 +214,7 @@ public final class DoGachaRspOuterClass {
             }
             case 16: {
 
-              leftGachaTimes_ = input.readUInt32();
+              gachaTimesLimit_ = input.readUInt32();
               break;
             }
             case 24: {
@@ -220,7 +224,7 @@ public final class DoGachaRspOuterClass {
             }
             case 32: {
 
-              gachaTimesLimit_ = input.readUInt32();
+              leftGachaTimes_ = input.readUInt32();
               break;
             }
             case 40: {
@@ -353,15 +357,15 @@ public final class DoGachaRspOuterClass {
       return tenCostItemNum_;
     }
 
-    public static final int LEFT_GACHA_TIMES_FIELD_NUMBER = 2;
-    private int leftGachaTimes_;
+    public static final int GACHA_TIMES_LIMIT_FIELD_NUMBER = 2;
+    private int gachaTimesLimit_;
     /**
-     * <code>uint32 left_gacha_times = 2;</code>
-     * @return The leftGachaTimes.
+     * <code>uint32 gacha_times_limit = 2;</code>
+     * @return The gachaTimesLimit.
      */
     @java.lang.Override
-    public int getLeftGachaTimes() {
-      return leftGachaTimes_;
+    public int getGachaTimesLimit() {
+      return gachaTimesLimit_;
     }
 
     public static final int GACHA_TIMES_FIELD_NUMBER = 3;
@@ -375,15 +379,15 @@ public final class DoGachaRspOuterClass {
       return gachaTimes_;
     }
 
-    public static final int GACHA_TIMES_LIMIT_FIELD_NUMBER = 4;
-    private int gachaTimesLimit_;
+    public static final int LEFT_GACHA_TIMES_FIELD_NUMBER = 4;
+    private int leftGachaTimes_;
     /**
-     * <code>uint32 gacha_times_limit = 4;</code>
-     * @return The gachaTimesLimit.
+     * <code>uint32 left_gacha_times = 4;</code>
+     * @return The leftGachaTimes.
      */
     @java.lang.Override
-    public int getGachaTimesLimit() {
-      return gachaTimesLimit_;
+    public int getLeftGachaTimes() {
+      return leftGachaTimes_;
     }
 
     public static final int RETCODE_FIELD_NUMBER = 5;
@@ -608,14 +612,14 @@ public final class DoGachaRspOuterClass {
       if (tenCostItemNum_ != 0) {
         output.writeUInt32(1, tenCostItemNum_);
       }
-      if (leftGachaTimes_ != 0) {
-        output.writeUInt32(2, leftGachaTimes_);
+      if (gachaTimesLimit_ != 0) {
+        output.writeUInt32(2, gachaTimesLimit_);
       }
       if (gachaTimes_ != 0) {
         output.writeUInt32(3, gachaTimes_);
       }
-      if (gachaTimesLimit_ != 0) {
-        output.writeUInt32(4, gachaTimesLimit_);
+      if (leftGachaTimes_ != 0) {
+        output.writeUInt32(4, leftGachaTimes_);
       }
       if (retcode_ != 0) {
         output.writeInt32(5, retcode_);
@@ -678,17 +682,17 @@ public final class DoGachaRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(1, tenCostItemNum_);
       }
-      if (leftGachaTimes_ != 0) {
+      if (gachaTimesLimit_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, leftGachaTimes_);
+          .computeUInt32Size(2, gachaTimesLimit_);
       }
       if (gachaTimes_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(3, gachaTimes_);
       }
-      if (gachaTimesLimit_ != 0) {
+      if (leftGachaTimes_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, gachaTimesLimit_);
+          .computeUInt32Size(4, leftGachaTimes_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -771,12 +775,12 @@ public final class DoGachaRspOuterClass {
 
       if (getTenCostItemNum()
           != other.getTenCostItemNum()) return false;
-      if (getLeftGachaTimes()
-          != other.getLeftGachaTimes()) return false;
-      if (getGachaTimes()
-          != other.getGachaTimes()) return false;
       if (getGachaTimesLimit()
           != other.getGachaTimesLimit()) return false;
+      if (getGachaTimes()
+          != other.getGachaTimes()) return false;
+      if (getLeftGachaTimes()
+          != other.getLeftGachaTimes()) return false;
       if (getRetcode()
           != other.getRetcode()) return false;
       if (getCostItemId()
@@ -822,12 +826,12 @@ public final class DoGachaRspOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + TEN_COST_ITEM_NUM_FIELD_NUMBER;
       hash = (53 * hash) + getTenCostItemNum();
-      hash = (37 * hash) + LEFT_GACHA_TIMES_FIELD_NUMBER;
-      hash = (53 * hash) + getLeftGachaTimes();
-      hash = (37 * hash) + GACHA_TIMES_FIELD_NUMBER;
-      hash = (53 * hash) + getGachaTimes();
       hash = (37 * hash) + GACHA_TIMES_LIMIT_FIELD_NUMBER;
       hash = (53 * hash) + getGachaTimesLimit();
+      hash = (37 * hash) + GACHA_TIMES_FIELD_NUMBER;
+      hash = (53 * hash) + getGachaTimes();
+      hash = (37 * hash) + LEFT_GACHA_TIMES_FIELD_NUMBER;
+      hash = (53 * hash) + getLeftGachaTimes();
       hash = (37 * hash) + RETCODE_FIELD_NUMBER;
       hash = (53 * hash) + getRetcode();
       hash = (37 * hash) + COST_ITEM_ID_FIELD_NUMBER;
@@ -961,6 +965,10 @@ public final class DoGachaRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 26895
+     * </pre>
+     *
      * Protobuf type {@code DoGachaRsp}
      */
     public static final class Builder extends
@@ -1001,11 +1009,11 @@ public final class DoGachaRspOuterClass {
         super.clear();
         tenCostItemNum_ = 0;
 
-        leftGachaTimes_ = 0;
+        gachaTimesLimit_ = 0;
 
         gachaTimes_ = 0;
 
-        gachaTimesLimit_ = 0;
+        leftGachaTimes_ = 0;
 
         retcode_ = 0;
 
@@ -1071,9 +1079,9 @@ public final class DoGachaRspOuterClass {
         emu.grasscutter.net.proto.DoGachaRspOuterClass.DoGachaRsp result = new emu.grasscutter.net.proto.DoGachaRspOuterClass.DoGachaRsp(this);
         int from_bitField0_ = bitField0_;
         result.tenCostItemNum_ = tenCostItemNum_;
-        result.leftGachaTimes_ = leftGachaTimes_;
-        result.gachaTimes_ = gachaTimes_;
         result.gachaTimesLimit_ = gachaTimesLimit_;
+        result.gachaTimes_ = gachaTimes_;
+        result.leftGachaTimes_ = leftGachaTimes_;
         result.retcode_ = retcode_;
         result.costItemId_ = costItemId_;
         result.gachaType_ = gachaType_;
@@ -1149,14 +1157,14 @@ public final class DoGachaRspOuterClass {
         if (other.getTenCostItemNum() != 0) {
           setTenCostItemNum(other.getTenCostItemNum());
         }
-        if (other.getLeftGachaTimes() != 0) {
-          setLeftGachaTimes(other.getLeftGachaTimes());
+        if (other.getGachaTimesLimit() != 0) {
+          setGachaTimesLimit(other.getGachaTimesLimit());
         }
         if (other.getGachaTimes() != 0) {
           setGachaTimes(other.getGachaTimes());
         }
-        if (other.getGachaTimesLimit() != 0) {
-          setGachaTimesLimit(other.getGachaTimesLimit());
+        if (other.getLeftGachaTimes() != 0) {
+          setLeftGachaTimes(other.getLeftGachaTimes());
         }
         if (other.getRetcode() != 0) {
           setRetcode(other.getRetcode());
@@ -1290,33 +1298,33 @@ public final class DoGachaRspOuterClass {
         return this;
       }
 
-      private int leftGachaTimes_ ;
+      private int gachaTimesLimit_ ;
       /**
-       * <code>uint32 left_gacha_times = 2;</code>
-       * @return The leftGachaTimes.
+       * <code>uint32 gacha_times_limit = 2;</code>
+       * @return The gachaTimesLimit.
        */
       @java.lang.Override
-      public int getLeftGachaTimes() {
-        return leftGachaTimes_;
+      public int getGachaTimesLimit() {
+        return gachaTimesLimit_;
       }
       /**
-       * <code>uint32 left_gacha_times = 2;</code>
-       * @param value The leftGachaTimes to set.
+       * <code>uint32 gacha_times_limit = 2;</code>
+       * @param value The gachaTimesLimit to set.
        * @return This builder for chaining.
        */
-      public Builder setLeftGachaTimes(int value) {
+      public Builder setGachaTimesLimit(int value) {
         
-        leftGachaTimes_ = value;
+        gachaTimesLimit_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 left_gacha_times = 2;</code>
+       * <code>uint32 gacha_times_limit = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLeftGachaTimes() {
+      public Builder clearGachaTimesLimit() {
         
-        leftGachaTimes_ = 0;
+        gachaTimesLimit_ = 0;
         onChanged();
         return this;
       }
@@ -1352,33 +1360,33 @@ public final class DoGachaRspOuterClass {
         return this;
       }
 
-      private int gachaTimesLimit_ ;
+      private int leftGachaTimes_ ;
       /**
-       * <code>uint32 gacha_times_limit = 4;</code>
-       * @return The gachaTimesLimit.
+       * <code>uint32 left_gacha_times = 4;</code>
+       * @return The leftGachaTimes.
        */
       @java.lang.Override
-      public int getGachaTimesLimit() {
-        return gachaTimesLimit_;
+      public int getLeftGachaTimes() {
+        return leftGachaTimes_;
       }
       /**
-       * <code>uint32 gacha_times_limit = 4;</code>
-       * @param value The gachaTimesLimit to set.
+       * <code>uint32 left_gacha_times = 4;</code>
+       * @param value The leftGachaTimes to set.
        * @return This builder for chaining.
        */
-      public Builder setGachaTimesLimit(int value) {
+      public Builder setLeftGachaTimes(int value) {
         
-        gachaTimesLimit_ = value;
+        leftGachaTimes_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 gacha_times_limit = 4;</code>
+       * <code>uint32 left_gacha_times = 4;</code>
        * @return This builder for chaining.
        */
-      public Builder clearGachaTimesLimit() {
+      public Builder clearLeftGachaTimes() {
         
-        gachaTimesLimit_ = 0;
+        leftGachaTimes_ = 0;
         onChanged();
         return this;
       }
@@ -2155,9 +2163,9 @@ public final class DoGachaRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\020DoGachaRsp.proto\032\017GachaItem.proto\"\242\004\n\n" +
-      "DoGachaRsp\022\031\n\021ten_cost_item_num\030\001 \001(\r\022\030\n" +
-      "\020left_gacha_times\030\002 \001(\r\022\023\n\013gacha_times\030\003" +
-      " \001(\r\022\031\n\021gacha_times_limit\030\004 \001(\r\022\017\n\007retco" +
+      "DoGachaRsp\022\031\n\021ten_cost_item_num\030\001 \001(\r\022\031\n" +
+      "\021gacha_times_limit\030\002 \001(\r\022\023\n\013gacha_times\030" +
+      "\003 \001(\r\022\030\n\020left_gacha_times\030\004 \001(\r\022\017\n\007retco" +
       "de\030\005 \001(\005\022\024\n\014cost_item_id\030\006 \001(\r\022\022\n\ngacha_" +
       "type\030\007 \001(\r\022\031\n\021gacha_schedule_id\030\010 \001(\r\022\025\n" +
       "\rwish_progress\030\t \001(\r\022\025\n\rcost_item_num\030\n " +
@@ -2168,9 +2176,8 @@ public final class DoGachaRspOuterClass {
       "ily_gacha_times\030t \001(\r\022!\n\030is_under_minors" +
       "_restrict\030\321\006 \001(\010\022\"\n\031is_under_general_res" +
       "trict\030\375\010 \001(\010\022\026\n\ris_epitomized\030\323\014 \001(\010\022\032\n\021" +
-      "daily_gacha_times\030\235\017 \001(\rB1\n\031emu.grasscut" +
-      "ter.net.protoB\024DoGachaRspOuterClassb\006pro" +
-      "to3"
+      "daily_gacha_times\030\235\017 \001(\rB\033\n\031emu.grasscut" +
+      "ter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2182,7 +2189,7 @@ public final class DoGachaRspOuterClass {
     internal_static_DoGachaRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_DoGachaRsp_descriptor,
-        new java.lang.String[] { "TenCostItemNum", "LeftGachaTimes", "GachaTimes", "GachaTimesLimit", "Retcode", "CostItemId", "GachaType", "GachaScheduleId", "WishProgress", "CostItemNum", "TenCostItemId", "WishItemId", "GachaItemList", "WishMaxProgress", "NewGachaRandom", "CurScheduleDailyGachaTimes", "IsUnderMinorsRestrict", "IsUnderGeneralRestrict", "IsEpitomized", "DailyGachaTimes", });
+        new java.lang.String[] { "TenCostItemNum", "GachaTimesLimit", "GachaTimes", "LeftGachaTimes", "Retcode", "CostItemId", "GachaType", "GachaScheduleId", "WishProgress", "CostItemNum", "TenCostItemId", "WishItemId", "GachaItemList", "WishMaxProgress", "NewGachaRandom", "CurScheduleDailyGachaTimes", "IsUnderMinorsRestrict", "IsUnderGeneralRestrict", "IsEpitomized", "DailyGachaTimes", });
     emu.grasscutter.net.proto.GachaItemOuterClass.getDescriptor();
   }
 

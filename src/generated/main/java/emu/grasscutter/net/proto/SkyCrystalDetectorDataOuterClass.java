@@ -864,8 +864,8 @@ public final class SkyCrystalDetectorDataOuterClass {
       "roto\"v\n\026SkyCrystalDetectorData\022\020\n\010group_" +
       "id\030\004 \001(\r\022 \n\017hint_center_pos\030\006 \001(\0132\007.Vect" +
       "or\022\025\n\ris_hint_valid\030\013 \001(\010\022\021\n\tconfig_id\030\014" +
-      " \001(\rB=\n\031emu.grasscutter.net.protoB SkyCr" +
-      "ystalDetectorDataOuterClassb\006proto3"
+      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

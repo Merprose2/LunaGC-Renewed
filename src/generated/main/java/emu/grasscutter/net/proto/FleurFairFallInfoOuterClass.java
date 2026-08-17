@@ -517,9 +517,8 @@ public final class FleurFairFallInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027FleurFairFallInfo.proto\"\'\n\021FleurFairFa" +
-      "llInfo\022\022\n\nbest_score\030\004 \001(\rB8\n\031emu.grassc" +
-      "utter.net.protoB\033FleurFairFallInfoOuterC" +
-      "lassb\006proto3"
+      "llInfo\022\022\n\nbest_score\030\004 \001(\rB\033\n\031emu.grassc" +
+      "utter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

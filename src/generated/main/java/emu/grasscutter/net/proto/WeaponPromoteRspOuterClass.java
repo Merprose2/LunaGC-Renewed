@@ -31,18 +31,22 @@ public final class WeaponPromoteRspOuterClass {
     long getTargetWeaponGuid();
 
     /**
-     * <code>uint32 old_promote_level = 7;</code>
-     * @return The oldPromoteLevel.
+     * <code>uint32 HBCOLINECPL = 7;</code>
+     * @return The hBCOLINECPL.
      */
-    int getOldPromoteLevel();
+    int getHBCOLINECPL();
 
     /**
-     * <code>uint32 cur_promote_level = 14;</code>
-     * @return The curPromoteLevel.
+     * <code>uint32 EFKJCHIKFNF = 14;</code>
+     * @return The eFKJCHIKFNF.
      */
-    int getCurPromoteLevel();
+    int getEFKJCHIKFNF();
   }
   /**
+   * <pre>
+   * CmdID: 8010
+   * </pre>
+   *
    * Protobuf type {@code WeaponPromoteRsp}
    */
   public static final class WeaponPromoteRsp extends
@@ -99,12 +103,12 @@ public final class WeaponPromoteRspOuterClass {
             }
             case 56: {
 
-              oldPromoteLevel_ = input.readUInt32();
+              hBCOLINECPL_ = input.readUInt32();
               break;
             }
             case 112: {
 
-              curPromoteLevel_ = input.readUInt32();
+              eFKJCHIKFNF_ = input.readUInt32();
               break;
             }
             default: {
@@ -161,26 +165,26 @@ public final class WeaponPromoteRspOuterClass {
       return targetWeaponGuid_;
     }
 
-    public static final int OLD_PROMOTE_LEVEL_FIELD_NUMBER = 7;
-    private int oldPromoteLevel_;
+    public static final int HBCOLINECPL_FIELD_NUMBER = 7;
+    private int hBCOLINECPL_;
     /**
-     * <code>uint32 old_promote_level = 7;</code>
-     * @return The oldPromoteLevel.
+     * <code>uint32 HBCOLINECPL = 7;</code>
+     * @return The hBCOLINECPL.
      */
     @java.lang.Override
-    public int getOldPromoteLevel() {
-      return oldPromoteLevel_;
+    public int getHBCOLINECPL() {
+      return hBCOLINECPL_;
     }
 
-    public static final int CUR_PROMOTE_LEVEL_FIELD_NUMBER = 14;
-    private int curPromoteLevel_;
+    public static final int EFKJCHIKFNF_FIELD_NUMBER = 14;
+    private int eFKJCHIKFNF_;
     /**
-     * <code>uint32 cur_promote_level = 14;</code>
-     * @return The curPromoteLevel.
+     * <code>uint32 EFKJCHIKFNF = 14;</code>
+     * @return The eFKJCHIKFNF.
      */
     @java.lang.Override
-    public int getCurPromoteLevel() {
-      return curPromoteLevel_;
+    public int getEFKJCHIKFNF() {
+      return eFKJCHIKFNF_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -203,11 +207,11 @@ public final class WeaponPromoteRspOuterClass {
       if (targetWeaponGuid_ != 0L) {
         output.writeUInt64(6, targetWeaponGuid_);
       }
-      if (oldPromoteLevel_ != 0) {
-        output.writeUInt32(7, oldPromoteLevel_);
+      if (hBCOLINECPL_ != 0) {
+        output.writeUInt32(7, hBCOLINECPL_);
       }
-      if (curPromoteLevel_ != 0) {
-        output.writeUInt32(14, curPromoteLevel_);
+      if (eFKJCHIKFNF_ != 0) {
+        output.writeUInt32(14, eFKJCHIKFNF_);
       }
       unknownFields.writeTo(output);
     }
@@ -226,13 +230,13 @@ public final class WeaponPromoteRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt64Size(6, targetWeaponGuid_);
       }
-      if (oldPromoteLevel_ != 0) {
+      if (hBCOLINECPL_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, oldPromoteLevel_);
+          .computeUInt32Size(7, hBCOLINECPL_);
       }
-      if (curPromoteLevel_ != 0) {
+      if (eFKJCHIKFNF_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, curPromoteLevel_);
+          .computeUInt32Size(14, eFKJCHIKFNF_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -253,10 +257,10 @@ public final class WeaponPromoteRspOuterClass {
           != other.getRetcode()) return false;
       if (getTargetWeaponGuid()
           != other.getTargetWeaponGuid()) return false;
-      if (getOldPromoteLevel()
-          != other.getOldPromoteLevel()) return false;
-      if (getCurPromoteLevel()
-          != other.getCurPromoteLevel()) return false;
+      if (getHBCOLINECPL()
+          != other.getHBCOLINECPL()) return false;
+      if (getEFKJCHIKFNF()
+          != other.getEFKJCHIKFNF()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -273,10 +277,10 @@ public final class WeaponPromoteRspOuterClass {
       hash = (37 * hash) + TARGET_WEAPON_GUID_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getTargetWeaponGuid());
-      hash = (37 * hash) + OLD_PROMOTE_LEVEL_FIELD_NUMBER;
-      hash = (53 * hash) + getOldPromoteLevel();
-      hash = (37 * hash) + CUR_PROMOTE_LEVEL_FIELD_NUMBER;
-      hash = (53 * hash) + getCurPromoteLevel();
+      hash = (37 * hash) + HBCOLINECPL_FIELD_NUMBER;
+      hash = (53 * hash) + getHBCOLINECPL();
+      hash = (37 * hash) + EFKJCHIKFNF_FIELD_NUMBER;
+      hash = (53 * hash) + getEFKJCHIKFNF();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -373,6 +377,10 @@ public final class WeaponPromoteRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 8010
+     * </pre>
+     *
      * Protobuf type {@code WeaponPromoteRsp}
      */
     public static final class Builder extends
@@ -414,9 +422,9 @@ public final class WeaponPromoteRspOuterClass {
 
         targetWeaponGuid_ = 0L;
 
-        oldPromoteLevel_ = 0;
+        hBCOLINECPL_ = 0;
 
-        curPromoteLevel_ = 0;
+        eFKJCHIKFNF_ = 0;
 
         return this;
       }
@@ -446,8 +454,8 @@ public final class WeaponPromoteRspOuterClass {
         emu.grasscutter.net.proto.WeaponPromoteRspOuterClass.WeaponPromoteRsp result = new emu.grasscutter.net.proto.WeaponPromoteRspOuterClass.WeaponPromoteRsp(this);
         result.retcode_ = retcode_;
         result.targetWeaponGuid_ = targetWeaponGuid_;
-        result.oldPromoteLevel_ = oldPromoteLevel_;
-        result.curPromoteLevel_ = curPromoteLevel_;
+        result.hBCOLINECPL_ = hBCOLINECPL_;
+        result.eFKJCHIKFNF_ = eFKJCHIKFNF_;
         onBuilt();
         return result;
       }
@@ -502,11 +510,11 @@ public final class WeaponPromoteRspOuterClass {
         if (other.getTargetWeaponGuid() != 0L) {
           setTargetWeaponGuid(other.getTargetWeaponGuid());
         }
-        if (other.getOldPromoteLevel() != 0) {
-          setOldPromoteLevel(other.getOldPromoteLevel());
+        if (other.getHBCOLINECPL() != 0) {
+          setHBCOLINECPL(other.getHBCOLINECPL());
         }
-        if (other.getCurPromoteLevel() != 0) {
-          setCurPromoteLevel(other.getCurPromoteLevel());
+        if (other.getEFKJCHIKFNF() != 0) {
+          setEFKJCHIKFNF(other.getEFKJCHIKFNF());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -599,64 +607,64 @@ public final class WeaponPromoteRspOuterClass {
         return this;
       }
 
-      private int oldPromoteLevel_ ;
+      private int hBCOLINECPL_ ;
       /**
-       * <code>uint32 old_promote_level = 7;</code>
-       * @return The oldPromoteLevel.
+       * <code>uint32 HBCOLINECPL = 7;</code>
+       * @return The hBCOLINECPL.
        */
       @java.lang.Override
-      public int getOldPromoteLevel() {
-        return oldPromoteLevel_;
+      public int getHBCOLINECPL() {
+        return hBCOLINECPL_;
       }
       /**
-       * <code>uint32 old_promote_level = 7;</code>
-       * @param value The oldPromoteLevel to set.
+       * <code>uint32 HBCOLINECPL = 7;</code>
+       * @param value The hBCOLINECPL to set.
        * @return This builder for chaining.
        */
-      public Builder setOldPromoteLevel(int value) {
+      public Builder setHBCOLINECPL(int value) {
         
-        oldPromoteLevel_ = value;
+        hBCOLINECPL_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 old_promote_level = 7;</code>
+       * <code>uint32 HBCOLINECPL = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearOldPromoteLevel() {
+      public Builder clearHBCOLINECPL() {
         
-        oldPromoteLevel_ = 0;
+        hBCOLINECPL_ = 0;
         onChanged();
         return this;
       }
 
-      private int curPromoteLevel_ ;
+      private int eFKJCHIKFNF_ ;
       /**
-       * <code>uint32 cur_promote_level = 14;</code>
-       * @return The curPromoteLevel.
+       * <code>uint32 EFKJCHIKFNF = 14;</code>
+       * @return The eFKJCHIKFNF.
        */
       @java.lang.Override
-      public int getCurPromoteLevel() {
-        return curPromoteLevel_;
+      public int getEFKJCHIKFNF() {
+        return eFKJCHIKFNF_;
       }
       /**
-       * <code>uint32 cur_promote_level = 14;</code>
-       * @param value The curPromoteLevel to set.
+       * <code>uint32 EFKJCHIKFNF = 14;</code>
+       * @param value The eFKJCHIKFNF to set.
        * @return This builder for chaining.
        */
-      public Builder setCurPromoteLevel(int value) {
+      public Builder setEFKJCHIKFNF(int value) {
         
-        curPromoteLevel_ = value;
+        eFKJCHIKFNF_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 cur_promote_level = 14;</code>
+       * <code>uint32 EFKJCHIKFNF = 14;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCurPromoteLevel() {
+      public Builder clearEFKJCHIKFNF() {
         
-        curPromoteLevel_ = 0;
+        eFKJCHIKFNF_ = 0;
         onChanged();
         return this;
       }
@@ -727,11 +735,10 @@ public final class WeaponPromoteRspOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\026WeaponPromoteRsp.proto\"u\n\020WeaponPromot" +
+      "\n\026WeaponPromoteRsp.proto\"i\n\020WeaponPromot" +
       "eRsp\022\017\n\007retcode\030\004 \001(\005\022\032\n\022target_weapon_g" +
-      "uid\030\006 \001(\004\022\031\n\021old_promote_level\030\007 \001(\r\022\031\n\021" +
-      "cur_promote_level\030\016 \001(\rB7\n\031emu.grasscutt" +
-      "er.net.protoB\032WeaponPromoteRspOuterClass" +
+      "uid\030\006 \001(\004\022\023\n\013HBCOLINECPL\030\007 \001(\r\022\023\n\013EFKJCH" +
+      "IKFNF\030\016 \001(\rB\033\n\031emu.grasscutter.net.proto" +
       "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -743,7 +750,7 @@ public final class WeaponPromoteRspOuterClass {
     internal_static_WeaponPromoteRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_WeaponPromoteRsp_descriptor,
-        new java.lang.String[] { "Retcode", "TargetWeaponGuid", "OldPromoteLevel", "CurPromoteLevel", });
+        new java.lang.String[] { "Retcode", "TargetWeaponGuid", "HBCOLINECPL", "EFKJCHIKFNF", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

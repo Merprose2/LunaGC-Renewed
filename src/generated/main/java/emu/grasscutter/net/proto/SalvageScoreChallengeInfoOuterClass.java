@@ -588,9 +588,8 @@ public final class SalvageScoreChallengeInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037SalvageScoreChallengeInfo.proto\"L\n\031Sal" +
       "vageScoreChallengeInfo\022\021\n\tmax_score\030\001 \001(" +
-      "\r\022\034\n\024salvage_challenge_id\030\007 \001(\rB@\n\031emu.g" +
-      "rasscutter.net.protoB#SalvageScoreChalle" +
-      "ngeInfoOuterClassb\006proto3"
+      "\r\022\034\n\024salvage_challenge_id\030\007 \001(\rB\033\n\031emu.g" +
+      "rasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

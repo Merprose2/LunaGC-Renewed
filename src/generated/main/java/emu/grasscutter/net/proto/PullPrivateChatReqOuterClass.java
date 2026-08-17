@@ -37,6 +37,10 @@ public final class PullPrivateChatReqOuterClass {
     int getPullNum();
   }
   /**
+   * <pre>
+   * CmdID: 4614
+   * </pre>
+   *
    * Protobuf type {@code PullPrivateChatReq}
    */
   public static final class PullPrivateChatReq extends
@@ -339,6 +343,10 @@ public final class PullPrivateChatReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 4614
+     * </pre>
+     *
      * Protobuf type {@code PullPrivateChatReq}
      */
     public static final class Builder extends
@@ -658,9 +666,8 @@ public final class PullPrivateChatReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030PullPrivateChatReq.proto\"Q\n\022PullPrivat" +
       "eChatReq\022\022\n\ntarget_uid\030\010 \001(\r\022\025\n\rfrom_seq" +
-      "uence\030\r \001(\r\022\020\n\010pull_num\030\017 \001(\rB9\n\031emu.gra" +
-      "sscutter.net.protoB\034PullPrivateChatReqOu" +
-      "terClassb\006proto3"
+      "uence\030\r \001(\r\022\020\n\010pull_num\030\017 \001(\rB\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

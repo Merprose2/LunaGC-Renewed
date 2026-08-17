@@ -83,23 +83,6 @@ public final class CKFHELMIGOPOuterClass {
     long getMIHDAJBFNKE();
 
     /**
-     * <code>repeated uint32 KNPJGLLICAD = 10;</code>
-     * @return A list containing the kNPJGLLICAD.
-     */
-    java.util.List<java.lang.Integer> getKNPJGLLICADList();
-    /**
-     * <code>repeated uint32 KNPJGLLICAD = 10;</code>
-     * @return The count of kNPJGLLICAD.
-     */
-    int getKNPJGLLICADCount();
-    /**
-     * <code>repeated uint32 KNPJGLLICAD = 10;</code>
-     * @param index The index of the element to return.
-     * @return The kNPJGLLICAD at the given index.
-     */
-    int getKNPJGLLICAD(int index);
-
-    /**
      * <code>map&lt;uint64, uint32&gt; CGNCCOMCOBA = 11;</code>
      */
     int getCGNCCOMCOBACount();
@@ -182,7 +165,6 @@ public final class CKFHELMIGOPOuterClass {
       super(builder);
     }
     private CKFHELMIGOP() {
-      kNPJGLLICAD_ = emptyIntList();
       dDNFEHGKHFO_ = java.util.Collections.emptyList();
     }
 
@@ -255,32 +237,11 @@ public final class CKFHELMIGOPOuterClass {
               mIHDAJBFNKE_ = input.readUInt64();
               break;
             }
-            case 80: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                kNPJGLLICAD_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              kNPJGLLICAD_.addInt(input.readUInt32());
-              break;
-            }
-            case 82: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
-                kNPJGLLICAD_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                kNPJGLLICAD_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
             case 90: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 cGNCCOMCOBA_ = com.google.protobuf.MapField.newMapField(
                     CGNCCOMCOBADefaultEntryHolder.defaultEntry);
-                mutable_bitField0_ |= 0x00000004;
+                mutable_bitField0_ |= 0x00000002;
               }
               com.google.protobuf.MapEntry<java.lang.Long, java.lang.Integer>
               cGNCCOMCOBA__ = input.readMessage(
@@ -300,9 +261,9 @@ public final class CKFHELMIGOPOuterClass {
               break;
             }
             case 122: {
-              if (!((mutable_bitField0_ & 0x00000008) != 0)) {
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 dDNFEHGKHFO_ = new java.util.ArrayList<emu.grasscutter.net.proto.PJFELCMPMKJOuterClass.PJFELCMPMKJ>();
-                mutable_bitField0_ |= 0x00000008;
+                mutable_bitField0_ |= 0x00000004;
               }
               dDNFEHGKHFO_.add(
                   input.readMessage(emu.grasscutter.net.proto.PJFELCMPMKJOuterClass.PJFELCMPMKJ.parser(), extensionRegistry));
@@ -323,10 +284,7 @@ public final class CKFHELMIGOPOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          kNPJGLLICAD_.makeImmutable(); // C
-        }
-        if (((mutable_bitField0_ & 0x00000008) != 0)) {
+        if (((mutable_bitField0_ & 0x00000004) != 0)) {
           dDNFEHGKHFO_ = java.util.Collections.unmodifiableList(dDNFEHGKHFO_);
         }
         this.unknownFields = unknownFields.build();
@@ -496,34 +454,6 @@ public final class CKFHELMIGOPOuterClass {
       return mIHDAJBFNKE_;
     }
 
-    public static final int KNPJGLLICAD_FIELD_NUMBER = 10;
-    private com.google.protobuf.Internal.IntList kNPJGLLICAD_;
-    /**
-     * <code>repeated uint32 KNPJGLLICAD = 10;</code>
-     * @return A list containing the kNPJGLLICAD.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getKNPJGLLICADList() {
-      return kNPJGLLICAD_;
-    }
-    /**
-     * <code>repeated uint32 KNPJGLLICAD = 10;</code>
-     * @return The count of kNPJGLLICAD.
-     */
-    public int getKNPJGLLICADCount() {
-      return kNPJGLLICAD_.size();
-    }
-    /**
-     * <code>repeated uint32 KNPJGLLICAD = 10;</code>
-     * @param index The index of the element to return.
-     * @return The kNPJGLLICAD at the given index.
-     */
-    public int getKNPJGLLICAD(int index) {
-      return kNPJGLLICAD_.getInt(index);
-    }
-    private int kNPJGLLICADMemoizedSerializedSize = -1;
-
     public static final int CGNCCOMCOBA_FIELD_NUMBER = 11;
     private static final class CGNCCOMCOBADefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
@@ -681,7 +611,6 @@ public final class CKFHELMIGOPOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      getSerializedSize();
       if (oAICLPJOICK_ != 0L) {
         output.writeUInt64(1, oAICLPJOICK_);
       }
@@ -702,13 +631,6 @@ public final class CKFHELMIGOPOuterClass {
           8);
       if (mIHDAJBFNKE_ != 0L) {
         output.writeUInt64(9, mIHDAJBFNKE_);
-      }
-      if (getKNPJGLLICADList().size() > 0) {
-        output.writeUInt32NoTag(82);
-        output.writeUInt32NoTag(kNPJGLLICADMemoizedSerializedSize);
-      }
-      for (int i = 0; i < kNPJGLLICAD_.size(); i++) {
-        output.writeUInt32NoTag(kNPJGLLICAD_.getInt(i));
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeLongMapTo(
@@ -764,20 +686,6 @@ public final class CKFHELMIGOPOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt64Size(9, mIHDAJBFNKE_);
       }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < kNPJGLLICAD_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(kNPJGLLICAD_.getInt(i));
-        }
-        size += dataSize;
-        if (!getKNPJGLLICADList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        kNPJGLLICADMemoizedSerializedSize = dataSize;
-      }
       for (java.util.Map.Entry<java.lang.Long, java.lang.Integer> entry
            : internalGetCGNCCOMCOBA().getMap().entrySet()) {
         com.google.protobuf.MapEntry<java.lang.Long, java.lang.Integer>
@@ -827,8 +735,6 @@ public final class CKFHELMIGOPOuterClass {
           other.internalGetCCKHKMBCEGJ())) return false;
       if (getMIHDAJBFNKE()
           != other.getMIHDAJBFNKE()) return false;
-      if (!getKNPJGLLICADList()
-          .equals(other.getKNPJGLLICADList())) return false;
       if (!internalGetCGNCCOMCOBA().equals(
           other.internalGetCGNCCOMCOBA())) return false;
       if (getJLCDGPLJJMM()
@@ -864,10 +770,6 @@ public final class CKFHELMIGOPOuterClass {
       hash = (37 * hash) + MIHDAJBFNKE_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getMIHDAJBFNKE());
-      if (getKNPJGLLICADCount() > 0) {
-        hash = (37 * hash) + KNPJGLLICAD_FIELD_NUMBER;
-        hash = (53 * hash) + getKNPJGLLICADList().hashCode();
-      }
       if (!internalGetCGNCCOMCOBA().getMap().isEmpty()) {
         hash = (37 * hash) + CGNCCOMCOBA_FIELD_NUMBER;
         hash = (53 * hash) + internalGetCGNCCOMCOBA().hashCode();
@@ -1051,8 +953,6 @@ public final class CKFHELMIGOPOuterClass {
         internalGetMutableCCKHKMBCEGJ().clear();
         mIHDAJBFNKE_ = 0L;
 
-        kNPJGLLICAD_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
         internalGetMutableCGNCCOMCOBA().clear();
         jLCDGPLJJMM_ = 0;
 
@@ -1060,7 +960,7 @@ public final class CKFHELMIGOPOuterClass {
 
         if (dDNFEHGKHFOBuilder_ == null) {
           dDNFEHGKHFO_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
         } else {
           dDNFEHGKHFOBuilder_.clear();
         }
@@ -1098,19 +998,14 @@ public final class CKFHELMIGOPOuterClass {
         result.cCKHKMBCEGJ_ = internalGetCCKHKMBCEGJ();
         result.cCKHKMBCEGJ_.makeImmutable();
         result.mIHDAJBFNKE_ = mIHDAJBFNKE_;
-        if (((bitField0_ & 0x00000002) != 0)) {
-          kNPJGLLICAD_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000002);
-        }
-        result.kNPJGLLICAD_ = kNPJGLLICAD_;
         result.cGNCCOMCOBA_ = internalGetCGNCCOMCOBA();
         result.cGNCCOMCOBA_.makeImmutable();
         result.jLCDGPLJJMM_ = jLCDGPLJJMM_;
         result.nDLKHEFOAJF_ = nDLKHEFOAJF_;
         if (dDNFEHGKHFOBuilder_ == null) {
-          if (((bitField0_ & 0x00000008) != 0)) {
+          if (((bitField0_ & 0x00000004) != 0)) {
             dDNFEHGKHFO_ = java.util.Collections.unmodifiableList(dDNFEHGKHFO_);
-            bitField0_ = (bitField0_ & ~0x00000008);
+            bitField0_ = (bitField0_ & ~0x00000004);
           }
           result.dDNFEHGKHFO_ = dDNFEHGKHFO_;
         } else {
@@ -1181,16 +1076,6 @@ public final class CKFHELMIGOPOuterClass {
         if (other.getMIHDAJBFNKE() != 0L) {
           setMIHDAJBFNKE(other.getMIHDAJBFNKE());
         }
-        if (!other.kNPJGLLICAD_.isEmpty()) {
-          if (kNPJGLLICAD_.isEmpty()) {
-            kNPJGLLICAD_ = other.kNPJGLLICAD_;
-            bitField0_ = (bitField0_ & ~0x00000002);
-          } else {
-            ensureKNPJGLLICADIsMutable();
-            kNPJGLLICAD_.addAll(other.kNPJGLLICAD_);
-          }
-          onChanged();
-        }
         internalGetMutableCGNCCOMCOBA().mergeFrom(
             other.internalGetCGNCCOMCOBA());
         if (other.getJLCDGPLJJMM() != 0) {
@@ -1203,7 +1088,7 @@ public final class CKFHELMIGOPOuterClass {
           if (!other.dDNFEHGKHFO_.isEmpty()) {
             if (dDNFEHGKHFO_.isEmpty()) {
               dDNFEHGKHFO_ = other.dDNFEHGKHFO_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
             } else {
               ensureDDNFEHGKHFOIsMutable();
               dDNFEHGKHFO_.addAll(other.dDNFEHGKHFO_);
@@ -1216,7 +1101,7 @@ public final class CKFHELMIGOPOuterClass {
               dDNFEHGKHFOBuilder_.dispose();
               dDNFEHGKHFOBuilder_ = null;
               dDNFEHGKHFO_ = other.dDNFEHGKHFO_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000004);
               dDNFEHGKHFOBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getDDNFEHGKHFOFieldBuilder() : null;
@@ -1538,85 +1423,6 @@ public final class CKFHELMIGOPOuterClass {
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList kNPJGLLICAD_ = emptyIntList();
-      private void ensureKNPJGLLICADIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
-          kNPJGLLICAD_ = mutableCopy(kNPJGLLICAD_);
-          bitField0_ |= 0x00000002;
-         }
-      }
-      /**
-       * <code>repeated uint32 KNPJGLLICAD = 10;</code>
-       * @return A list containing the kNPJGLLICAD.
-       */
-      public java.util.List<java.lang.Integer>
-          getKNPJGLLICADList() {
-        return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(kNPJGLLICAD_) : kNPJGLLICAD_;
-      }
-      /**
-       * <code>repeated uint32 KNPJGLLICAD = 10;</code>
-       * @return The count of kNPJGLLICAD.
-       */
-      public int getKNPJGLLICADCount() {
-        return kNPJGLLICAD_.size();
-      }
-      /**
-       * <code>repeated uint32 KNPJGLLICAD = 10;</code>
-       * @param index The index of the element to return.
-       * @return The kNPJGLLICAD at the given index.
-       */
-      public int getKNPJGLLICAD(int index) {
-        return kNPJGLLICAD_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 KNPJGLLICAD = 10;</code>
-       * @param index The index to set the value at.
-       * @param value The kNPJGLLICAD to set.
-       * @return This builder for chaining.
-       */
-      public Builder setKNPJGLLICAD(
-          int index, int value) {
-        ensureKNPJGLLICADIsMutable();
-        kNPJGLLICAD_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 KNPJGLLICAD = 10;</code>
-       * @param value The kNPJGLLICAD to add.
-       * @return This builder for chaining.
-       */
-      public Builder addKNPJGLLICAD(int value) {
-        ensureKNPJGLLICADIsMutable();
-        kNPJGLLICAD_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 KNPJGLLICAD = 10;</code>
-       * @param values The kNPJGLLICAD to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllKNPJGLLICAD(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureKNPJGLLICADIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, kNPJGLLICAD_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 KNPJGLLICAD = 10;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearKNPJGLLICAD() {
-        kNPJGLLICAD_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
-        onChanged();
-        return this;
-      }
-
       private com.google.protobuf.MapField<
           java.lang.Long, java.lang.Integer> cGNCCOMCOBA_;
       private com.google.protobuf.MapField<java.lang.Long, java.lang.Integer>
@@ -1810,9 +1616,9 @@ public final class CKFHELMIGOPOuterClass {
       private java.util.List<emu.grasscutter.net.proto.PJFELCMPMKJOuterClass.PJFELCMPMKJ> dDNFEHGKHFO_ =
         java.util.Collections.emptyList();
       private void ensureDDNFEHGKHFOIsMutable() {
-        if (!((bitField0_ & 0x00000008) != 0)) {
+        if (!((bitField0_ & 0x00000004) != 0)) {
           dDNFEHGKHFO_ = new java.util.ArrayList<emu.grasscutter.net.proto.PJFELCMPMKJOuterClass.PJFELCMPMKJ>(dDNFEHGKHFO_);
-          bitField0_ |= 0x00000008;
+          bitField0_ |= 0x00000004;
          }
       }
 
@@ -1962,7 +1768,7 @@ public final class CKFHELMIGOPOuterClass {
       public Builder clearDDNFEHGKHFO() {
         if (dDNFEHGKHFOBuilder_ == null) {
           dDNFEHGKHFO_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000004);
           onChanged();
         } else {
           dDNFEHGKHFOBuilder_.clear();
@@ -2039,7 +1845,7 @@ public final class CKFHELMIGOPOuterClass {
           dDNFEHGKHFOBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               emu.grasscutter.net.proto.PJFELCMPMKJOuterClass.PJFELCMPMKJ, emu.grasscutter.net.proto.PJFELCMPMKJOuterClass.PJFELCMPMKJ.Builder, emu.grasscutter.net.proto.PJFELCMPMKJOuterClass.PJFELCMPMKJOrBuilder>(
                   dDNFEHGKHFO_,
-                  ((bitField0_ & 0x00000008) != 0),
+                  ((bitField0_ & 0x00000004) != 0),
                   getParentForChildren(),
                   isClean());
           dDNFEHGKHFO_ = null;
@@ -2123,20 +1929,19 @@ public final class CKFHELMIGOPOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021CKFHELMIGOP.proto\032\021PJFELCMPMKJ.proto\"\250" +
+      "\n\021CKFHELMIGOP.proto\032\021PJFELCMPMKJ.proto\"\223" +
       "\003\n\013CKFHELMIGOP\022\023\n\013OAICLPJOICK\030\001 \001(\004\022\023\n\013F" +
       "LGHAOCLOAJ\030\002 \001(\r\022\023\n\013DILPAMLKLCC\030\003 \001(\r\022\023\n" +
       "\013IECDLMNALEJ\030\005 \001(\r\0222\n\013CCKHKMBCEGJ\030\010 \003(\0132" +
       "\035.CKFHELMIGOP.CCKHKMBCEGJEntry\022\023\n\013MIHDAJ" +
-      "BFNKE\030\t \001(\004\022\023\n\013KNPJGLLICAD\030\n \003(\r\0222\n\013CGNC" +
-      "COMCOBA\030\013 \003(\0132\035.CKFHELMIGOP.CGNCCOMCOBAE" +
-      "ntry\022\023\n\013JLCDGPLJJMM\030\014 \001(\r\022\023\n\013NDLKHEFOAJF" +
-      "\030\r \001(\r\022!\n\013DDNFEHGKHFO\030\017 \003(\0132\014.PJFELCMPMK" +
-      "J\0322\n\020CCKHKMBCEGJEntry\022\013\n\003key\030\001 \001(\004\022\r\n\005va" +
-      "lue\030\002 \001(\r:\0028\001\0322\n\020CGNCCOMCOBAEntry\022\013\n\003key" +
-      "\030\001 \001(\004\022\r\n\005value\030\002 \001(\r:\0028\001B2\n\031emu.grasscu" +
-      "tter.net.protoB\025CKFHELMIGOPOuterClassb\006p" +
-      "roto3"
+      "BFNKE\030\t \001(\004\0222\n\013CGNCCOMCOBA\030\013 \003(\0132\035.CKFHE" +
+      "LMIGOP.CGNCCOMCOBAEntry\022\023\n\013JLCDGPLJJMM\030\014" +
+      " \001(\r\022\023\n\013NDLKHEFOAJF\030\r \001(\r\022!\n\013DDNFEHGKHFO" +
+      "\030\017 \003(\0132\014.PJFELCMPMKJ\0322\n\020CCKHKMBCEGJEntry" +
+      "\022\013\n\003key\030\001 \001(\004\022\r\n\005value\030\002 \001(\r:\0028\001\0322\n\020CGNC" +
+      "COMCOBAEntry\022\013\n\003key\030\001 \001(\004\022\r\n\005value\030\002 \001(\r" +
+      ":\0028\001B\033\n\031emu.grasscutter.net.protob\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2148,7 +1953,7 @@ public final class CKFHELMIGOPOuterClass {
     internal_static_CKFHELMIGOP_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CKFHELMIGOP_descriptor,
-        new java.lang.String[] { "OAICLPJOICK", "FLGHAOCLOAJ", "DILPAMLKLCC", "IECDLMNALEJ", "CCKHKMBCEGJ", "MIHDAJBFNKE", "KNPJGLLICAD", "CGNCCOMCOBA", "JLCDGPLJJMM", "NDLKHEFOAJF", "DDNFEHGKHFO", });
+        new java.lang.String[] { "OAICLPJOICK", "FLGHAOCLOAJ", "DILPAMLKLCC", "IECDLMNALEJ", "CCKHKMBCEGJ", "MIHDAJBFNKE", "CGNCCOMCOBA", "JLCDGPLJJMM", "NDLKHEFOAJF", "DDNFEHGKHFO", });
     internal_static_CKFHELMIGOP_CCKHKMBCEGJEntry_descriptor =
       internal_static_CKFHELMIGOP_descriptor.getNestedTypes().get(0);
     internal_static_CKFHELMIGOP_CCKHKMBCEGJEntry_fieldAccessorTable = new

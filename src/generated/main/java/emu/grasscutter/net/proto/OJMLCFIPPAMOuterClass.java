@@ -660,8 +660,8 @@ public final class OJMLCFIPPAMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OJMLCFIPPAM.proto\"C\n\013OJMLCFIPPAM\022\017\n\007is" +
       "_open\030\003 \001(\010\022\020\n\010level_id\030\005 \001(\r\022\021\n\tis_fini" +
-      "sh\030\007 \001(\010B2\n\031emu.grasscutter.net.protoB\025O" +
-      "JMLCFIPPAMOuterClassb\006proto3"
+      "sh\030\007 \001(\010B\033\n\031emu.grasscutter.net.protob\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

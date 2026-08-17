@@ -823,8 +823,8 @@ public final class KFBPPANOKHAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KFBPPANOKHA.proto\032\024ShowAvatarInfo.prot" +
       "o\"8\n\013KFBPPANOKHA\022)\n\020avatar_info_list\030\010 \003" +
-      "(\0132\017.ShowAvatarInfoB2\n\031emu.grasscutter.n" +
-      "et.protoB\025KFBPPANOKHAOuterClassb\006proto3"
+      "(\0132\017.ShowAvatarInfoB\033\n\031emu.grasscutter.n" +
+      "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

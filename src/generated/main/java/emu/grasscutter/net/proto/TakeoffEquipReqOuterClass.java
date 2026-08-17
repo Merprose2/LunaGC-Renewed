@@ -31,6 +31,10 @@ public final class TakeoffEquipReqOuterClass {
     long getAvatarGuid();
   }
   /**
+   * <pre>
+   * CmdID: 22967
+   * </pre>
+   *
    * Protobuf type {@code TakeoffEquipReq}
    */
   public static final class TakeoffEquipReq extends
@@ -307,6 +311,10 @@ public final class TakeoffEquipReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 22967
+     * </pre>
+     *
      * Protobuf type {@code TakeoffEquipReq}
      */
     public static final class Builder extends
@@ -588,9 +596,8 @@ public final class TakeoffEquipReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025TakeoffEquipReq.proto\"4\n\017TakeoffEquipR" +
-      "eq\022\014\n\004slot\030\t \001(\r\022\023\n\013avatar_guid\030\016 \001(\004B6\n" +
-      "\031emu.grasscutter.net.protoB\031TakeoffEquip" +
-      "ReqOuterClassb\006proto3"
+      "eq\022\014\n\004slot\030\t \001(\r\022\023\n\013avatar_guid\030\016 \001(\004B\033\n" +
+      "\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

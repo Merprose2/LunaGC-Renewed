@@ -53,6 +53,10 @@ public final class OpenStateUpdateNotifyOuterClass {
         int key);
   }
   /**
+   * <pre>
+   * CmdID: 9875
+   * </pre>
+   *
    * Protobuf type {@code OpenStateUpdateNotify}
    */
   public static final class OpenStateUpdateNotify extends
@@ -403,6 +407,10 @@ public final class OpenStateUpdateNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 9875
+     * </pre>
+     *
      * Protobuf type {@code OpenStateUpdateNotify}
      */
     public static final class Builder extends
@@ -775,9 +783,8 @@ public final class OpenStateUpdateNotifyOuterClass {
       "ateUpdateNotify\022@\n\016open_state_map\030\010 \003(\0132" +
       "(.OpenStateUpdateNotify.OpenStateMapEntr" +
       "y\0323\n\021OpenStateMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005v" +
-      "alue\030\002 \001(\r:\0028\001B<\n\031emu.grasscutter.net.pr" +
-      "otoB\037OpenStateUpdateNotifyOuterClassb\006pr" +
-      "oto3"
+      "alue\030\002 \001(\r:\0028\001B\033\n\031emu.grasscutter.net.pr" +
+      "otob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

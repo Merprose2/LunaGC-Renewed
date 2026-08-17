@@ -1390,9 +1390,8 @@ public final class HIHENKCOEPBOuterClass {
       "\n\021HIHENKCOEPB.proto\032\021BACMNHCJNEM.proto\"h" +
       "\n\013HIHENKCOEPB\022!\n\013IPLOPAOAFLI\030\001 \003(\0132\014.BAC" +
       "MNHCJNEM\022!\n\013ADBGKEMOLNJ\030\002 \003(\0132\014.BACMNHCJ" +
-      "NEM\022\023\n\013JJMIKFGBIOM\030\003 \003(\005B2\n\031emu.grasscut" +
-      "ter.net.protoB\025HIHENKCOEPBOuterClassb\006pr" +
-      "oto3"
+      "NEM\022\023\n\013JJMIKFGBIOM\030\003 \003(\005B\033\n\031emu.grasscut" +
+      "ter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

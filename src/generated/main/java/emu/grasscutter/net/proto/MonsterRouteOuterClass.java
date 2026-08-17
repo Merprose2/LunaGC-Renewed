@@ -61,16 +61,16 @@ public final class MonsterRouteOuterClass {
     float getArriveRange();
 
     /**
-     * <code>bool gaehdbiocim = 5;</code>
-     * @return The gaehdbiocim.
+     * <code>bool FCNJEIJEJCD = 5;</code>
+     * @return The fCNJEIJEJCD.
      */
-    boolean getGaehdbiocim();
+    boolean getFCNJEIJEJCD();
 
     /**
-     * <code>bool lfoondpjhpi = 6;</code>
-     * @return The lfoondpjhpi.
+     * <code>bool DKOAOHGJOLE = 6;</code>
+     * @return The dKOAOHGJOLE.
      */
-    boolean getLfoondpjhpi();
+    boolean getDKOAOHGJOLE();
 
     /**
      * <code>bool OODNNGPEAGN = 7;</code>
@@ -184,12 +184,12 @@ public final class MonsterRouteOuterClass {
             }
             case 40: {
 
-              gaehdbiocim_ = input.readBool();
+              fCNJEIJEJCD_ = input.readBool();
               break;
             }
             case 48: {
 
-              lfoondpjhpi_ = input.readBool();
+              dKOAOHGJOLE_ = input.readBool();
               break;
             }
             case 56: {
@@ -333,26 +333,26 @@ public final class MonsterRouteOuterClass {
       return arriveRange_;
     }
 
-    public static final int GAEHDBIOCIM_FIELD_NUMBER = 5;
-    private boolean gaehdbiocim_;
+    public static final int FCNJEIJEJCD_FIELD_NUMBER = 5;
+    private boolean fCNJEIJEJCD_;
     /**
-     * <code>bool gaehdbiocim = 5;</code>
-     * @return The gaehdbiocim.
+     * <code>bool FCNJEIJEJCD = 5;</code>
+     * @return The fCNJEIJEJCD.
      */
     @java.lang.Override
-    public boolean getGaehdbiocim() {
-      return gaehdbiocim_;
+    public boolean getFCNJEIJEJCD() {
+      return fCNJEIJEJCD_;
     }
 
-    public static final int LFOONDPJHPI_FIELD_NUMBER = 6;
-    private boolean lfoondpjhpi_;
+    public static final int DKOAOHGJOLE_FIELD_NUMBER = 6;
+    private boolean dKOAOHGJOLE_;
     /**
-     * <code>bool lfoondpjhpi = 6;</code>
-     * @return The lfoondpjhpi.
+     * <code>bool DKOAOHGJOLE = 6;</code>
+     * @return The dKOAOHGJOLE.
      */
     @java.lang.Override
-    public boolean getLfoondpjhpi() {
-      return lfoondpjhpi_;
+    public boolean getDKOAOHGJOLE() {
+      return dKOAOHGJOLE_;
     }
 
     public static final int OODNNGPEAGN_FIELD_NUMBER = 7;
@@ -451,11 +451,11 @@ public final class MonsterRouteOuterClass {
       if (arriveRange_ != 0F) {
         output.writeFloat(4, arriveRange_);
       }
-      if (gaehdbiocim_ != false) {
-        output.writeBool(5, gaehdbiocim_);
+      if (fCNJEIJEJCD_ != false) {
+        output.writeBool(5, fCNJEIJEJCD_);
       }
-      if (lfoondpjhpi_ != false) {
-        output.writeBool(6, lfoondpjhpi_);
+      if (dKOAOHGJOLE_ != false) {
+        output.writeBool(6, dKOAOHGJOLE_);
       }
       if (oODNNGPEAGN_ != false) {
         output.writeBool(7, oODNNGPEAGN_);
@@ -497,13 +497,13 @@ public final class MonsterRouteOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeFloatSize(4, arriveRange_);
       }
-      if (gaehdbiocim_ != false) {
+      if (fCNJEIJEJCD_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, gaehdbiocim_);
+          .computeBoolSize(5, fCNJEIJEJCD_);
       }
-      if (lfoondpjhpi_ != false) {
+      if (dKOAOHGJOLE_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, lfoondpjhpi_);
+          .computeBoolSize(6, dKOAOHGJOLE_);
       }
       if (oODNNGPEAGN_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -549,10 +549,10 @@ public final class MonsterRouteOuterClass {
       if (java.lang.Float.floatToIntBits(getArriveRange())
           != java.lang.Float.floatToIntBits(
               other.getArriveRange())) return false;
-      if (getGaehdbiocim()
-          != other.getGaehdbiocim()) return false;
-      if (getLfoondpjhpi()
-          != other.getLfoondpjhpi()) return false;
+      if (getFCNJEIJEJCD()
+          != other.getFCNJEIJEJCD()) return false;
+      if (getDKOAOHGJOLE()
+          != other.getDKOAOHGJOLE()) return false;
       if (getOODNNGPEAGN()
           != other.getOODNNGPEAGN()) return false;
       if (getRouteId()
@@ -588,12 +588,12 @@ public final class MonsterRouteOuterClass {
       hash = (37 * hash) + ARRIVE_RANGE_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
           getArriveRange());
-      hash = (37 * hash) + GAEHDBIOCIM_FIELD_NUMBER;
+      hash = (37 * hash) + FCNJEIJEJCD_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getGaehdbiocim());
-      hash = (37 * hash) + LFOONDPJHPI_FIELD_NUMBER;
+          getFCNJEIJEJCD());
+      hash = (37 * hash) + DKOAOHGJOLE_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getLfoondpjhpi());
+          getDKOAOHGJOLE());
       hash = (37 * hash) + OODNNGPEAGN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getOODNNGPEAGN());
@@ -755,9 +755,9 @@ public final class MonsterRouteOuterClass {
 
         arriveRange_ = 0F;
 
-        gaehdbiocim_ = false;
+        fCNJEIJEJCD_ = false;
 
-        lfoondpjhpi_ = false;
+        dKOAOHGJOLE_ = false;
 
         oODNNGPEAGN_ = false;
 
@@ -812,8 +812,8 @@ public final class MonsterRouteOuterClass {
         result.speedLevel_ = speedLevel_;
         result.routeType_ = routeType_;
         result.arriveRange_ = arriveRange_;
-        result.gaehdbiocim_ = gaehdbiocim_;
-        result.lfoondpjhpi_ = lfoondpjhpi_;
+        result.fCNJEIJEJCD_ = fCNJEIJEJCD_;
+        result.dKOAOHGJOLE_ = dKOAOHGJOLE_;
         result.oODNNGPEAGN_ = oODNNGPEAGN_;
         result.routeId_ = routeId_;
         result.dHBMEFLJCMJ_ = dHBMEFLJCMJ_;
@@ -906,11 +906,11 @@ public final class MonsterRouteOuterClass {
         if (other.getArriveRange() != 0F) {
           setArriveRange(other.getArriveRange());
         }
-        if (other.getGaehdbiocim() != false) {
-          setGaehdbiocim(other.getGaehdbiocim());
+        if (other.getFCNJEIJEJCD() != false) {
+          setFCNJEIJEJCD(other.getFCNJEIJEJCD());
         }
-        if (other.getLfoondpjhpi() != false) {
-          setLfoondpjhpi(other.getLfoondpjhpi());
+        if (other.getDKOAOHGJOLE() != false) {
+          setDKOAOHGJOLE(other.getDKOAOHGJOLE());
         }
         if (other.getOODNNGPEAGN() != false) {
           setOODNNGPEAGN(other.getOODNNGPEAGN());
@@ -1290,64 +1290,64 @@ public final class MonsterRouteOuterClass {
         return this;
       }
 
-      private boolean gaehdbiocim_ ;
+      private boolean fCNJEIJEJCD_ ;
       /**
-       * <code>bool gaehdbiocim = 5;</code>
-       * @return The gaehdbiocim.
+       * <code>bool FCNJEIJEJCD = 5;</code>
+       * @return The fCNJEIJEJCD.
        */
       @java.lang.Override
-      public boolean getGaehdbiocim() {
-        return gaehdbiocim_;
+      public boolean getFCNJEIJEJCD() {
+        return fCNJEIJEJCD_;
       }
       /**
-       * <code>bool gaehdbiocim = 5;</code>
-       * @param value The gaehdbiocim to set.
+       * <code>bool FCNJEIJEJCD = 5;</code>
+       * @param value The fCNJEIJEJCD to set.
        * @return This builder for chaining.
        */
-      public Builder setGaehdbiocim(boolean value) {
+      public Builder setFCNJEIJEJCD(boolean value) {
         
-        gaehdbiocim_ = value;
+        fCNJEIJEJCD_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool gaehdbiocim = 5;</code>
+       * <code>bool FCNJEIJEJCD = 5;</code>
        * @return This builder for chaining.
        */
-      public Builder clearGaehdbiocim() {
+      public Builder clearFCNJEIJEJCD() {
         
-        gaehdbiocim_ = false;
+        fCNJEIJEJCD_ = false;
         onChanged();
         return this;
       }
 
-      private boolean lfoondpjhpi_ ;
+      private boolean dKOAOHGJOLE_ ;
       /**
-       * <code>bool lfoondpjhpi = 6;</code>
-       * @return The lfoondpjhpi.
+       * <code>bool DKOAOHGJOLE = 6;</code>
+       * @return The dKOAOHGJOLE.
        */
       @java.lang.Override
-      public boolean getLfoondpjhpi() {
-        return lfoondpjhpi_;
+      public boolean getDKOAOHGJOLE() {
+        return dKOAOHGJOLE_;
       }
       /**
-       * <code>bool lfoondpjhpi = 6;</code>
-       * @param value The lfoondpjhpi to set.
+       * <code>bool DKOAOHGJOLE = 6;</code>
+       * @param value The dKOAOHGJOLE to set.
        * @return This builder for chaining.
        */
-      public Builder setLfoondpjhpi(boolean value) {
+      public Builder setDKOAOHGJOLE(boolean value) {
         
-        lfoondpjhpi_ = value;
+        dKOAOHGJOLE_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool lfoondpjhpi = 6;</code>
+       * <code>bool DKOAOHGJOLE = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLfoondpjhpi() {
+      public Builder clearDKOAOHGJOLE() {
         
-        lfoondpjhpi_ = false;
+        dKOAOHGJOLE_ = false;
         onChanged();
         return this;
       }
@@ -1665,12 +1665,12 @@ public final class MonsterRouteOuterClass {
       "\020RoutePoint.proto\"\216\002\n\014MonsterRoute\022!\n\014ro" +
       "ute_points\030\001 \003(\0132\013.RoutePoint\022\023\n\013speed_l" +
       "evel\030\002 \001(\r\022\022\n\nroute_type\030\003 \001(\r\022\024\n\014arrive" +
-      "_range\030\004 \001(\002\022\023\n\013gaehdbiocim\030\005 \001(\010\022\023\n\013lfo" +
-      "ondpjhpi\030\006 \001(\010\022\023\n\013OODNNGPEAGN\030\007 \001(\010\022\020\n\010r" +
+      "_range\030\004 \001(\002\022\023\n\013FCNJEIJEJCD\030\005 \001(\010\022\023\n\013DKO" +
+      "AOHGJOLE\030\006 \001(\010\022\023\n\013OODNNGPEAGN\030\007 \001(\010\022\020\n\010r" +
       "oute_id\030\010 \001(\005\022\023\n\013DHBMEFLJCMJ\030\t \001(\010\022\023\n\013OE" +
       "BCFCLIDMA\030\n \001(\010\022!\n\013BPKJKEENKKI\030\013 \001(\0132\014.C" +
-      "OEBLNIFMOBB3\n\031emu.grasscutter.net.protoB" +
-      "\026MonsterRouteOuterClassb\006proto3"
+      "OEBLNIFMOBB\033\n\031emu.grasscutter.net.protob" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1683,7 +1683,7 @@ public final class MonsterRouteOuterClass {
     internal_static_MonsterRoute_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MonsterRoute_descriptor,
-        new java.lang.String[] { "RoutePoints", "SpeedLevel", "RouteType", "ArriveRange", "Gaehdbiocim", "Lfoondpjhpi", "OODNNGPEAGN", "RouteId", "DHBMEFLJCMJ", "OEBCFCLIDMA", "BPKJKEENKKI", });
+        new java.lang.String[] { "RoutePoints", "SpeedLevel", "RouteType", "ArriveRange", "FCNJEIJEJCD", "DKOAOHGJOLE", "OODNNGPEAGN", "RouteId", "DHBMEFLJCMJ", "OEBCFCLIDMA", "BPKJKEENKKI", });
     emu.grasscutter.net.proto.COEBLNIFMOBOuterClass.getDescriptor();
     emu.grasscutter.net.proto.RoutePointOuterClass.getDescriptor();
   }

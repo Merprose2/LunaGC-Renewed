@@ -659,8 +659,8 @@ public final class DJBEAHLAPPIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DJBEAHLAPPI.proto\"C\n\013DJBEAHLAPPI\022\020\n\010le" +
       "vel_id\030\005 \001(\r\022\021\n\tmax_score\030\n \001(\r\022\017\n\007is_op" +
-      "en\030\014 \001(\010B2\n\031emu.grasscutter.net.protoB\025D" +
-      "JBEAHLAPPIOuterClassb\006proto3"
+      "en\030\014 \001(\010B\033\n\031emu.grasscutter.net.protob\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -792,9 +792,8 @@ public final class MichiaeMatsuriChallengePositionInfoOuterClass {
       "\n)MichiaeMatsuriChallengePositionInfo.pr" +
       "oto\032\014Vector.proto\"`\n#MichiaeMatsuriChall" +
       "engePositionInfo\022\020\n\010group_id\030\n \001(\r\022\021\n\tga" +
-      "dget_id\030\014 \001(\r\022\024\n\003pos\030\017 \001(\0132\007.VectorBJ\n\031e" +
-      "mu.grasscutter.net.protoB-MichiaeMatsuri" +
-      "ChallengePositionInfoOuterClassb\006proto3"
+      "dget_id\030\014 \001(\r\022\024\n\003pos\030\017 \001(\0132\007.VectorB\033\n\031e" +
+      "mu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

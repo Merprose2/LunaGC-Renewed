@@ -729,9 +729,8 @@ public final class KODIFCAOMECOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KODIFCAOMEC.proto\"Z\n\013KODIFCAOMEC\022\020\n\010le" +
       "vel_id\030\003 \001(\r\022\023\n\013DEADDOKKEHM\030\005 \001(\r\022\023\n\013CHJ" +
-      "DGMGPDPE\030\010 \001(\r\022\017\n\007is_open\030\014 \001(\010B2\n\031emu.g" +
-      "rasscutter.net.protoB\025KODIFCAOMECOuterCl" +
-      "assb\006proto3"
+      "DGMGPDPE\030\010 \001(\r\022\017\n\007is_open\030\014 \001(\010B\033\n\031emu.g" +
+      "rasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

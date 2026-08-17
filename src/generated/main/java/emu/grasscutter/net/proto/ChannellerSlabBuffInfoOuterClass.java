@@ -1427,9 +1427,8 @@ public final class ChannellerSlabBuffInfoOuterClass {
       "list\030\002 \003(\r\022!\n\013AKKLDFFAGMI\030\003 \001(\0132\014.MFLOIK" +
       "PJCDI\0223\n\020assist_info_list\030\006 \003(\0132\031.Channe" +
       "llerSlabAssistInfo\022!\n\013EBICDMABNFJ\030\014 \001(\0132" +
-      "\014.MFLOIKPJCDIB=\n\031emu.grasscutter.net.pro" +
-      "toB ChannellerSlabBuffInfoOuterClassb\006pr" +
-      "oto3"
+      "\014.MFLOIKPJCDIB\033\n\031emu.grasscutter.net.pro" +
+      "tob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

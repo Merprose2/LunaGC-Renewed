@@ -19,23 +19,6 @@ public final class MPJDIGIFJMAOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 PJABINOBEJL = 1;</code>
-     * @return A list containing the pJABINOBEJL.
-     */
-    java.util.List<java.lang.Integer> getPJABINOBEJLList();
-    /**
-     * <code>repeated uint32 PJABINOBEJL = 1;</code>
-     * @return The count of pJABINOBEJL.
-     */
-    int getPJABINOBEJLCount();
-    /**
-     * <code>repeated uint32 PJABINOBEJL = 1;</code>
-     * @param index The index of the element to return.
-     * @return The pJABINOBEJL at the given index.
-     */
-    int getPJABINOBEJL(int index);
-
-    /**
      * <code>map&lt;uint32, uint32&gt; EBCJOCPDGID = 11;</code>
      */
     int getEBCJOCPDGIDCount();
@@ -82,7 +65,6 @@ public final class MPJDIGIFJMAOuterClass {
       super(builder);
     }
     private MPJDIGIFJMA() {
-      pJABINOBEJL_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -116,32 +98,11 @@ public final class MPJDIGIFJMAOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                pJABINOBEJL_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              pJABINOBEJL_.addInt(input.readUInt32());
-              break;
-            }
-            case 10: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                pJABINOBEJL_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                pJABINOBEJL_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
             case 90: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 eBCJOCPDGID_ = com.google.protobuf.MapField.newMapField(
                     EBCJOCPDGIDDefaultEntryHolder.defaultEntry);
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
               eBCJOCPDGID__ = input.readMessage(
@@ -165,9 +126,6 @@ public final class MPJDIGIFJMAOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          pJABINOBEJL_.makeImmutable(); // C
-        }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
       }
@@ -196,34 +154,6 @@ public final class MPJDIGIFJMAOuterClass {
           .ensureFieldAccessorsInitialized(
               emu.grasscutter.net.proto.MPJDIGIFJMAOuterClass.MPJDIGIFJMA.class, emu.grasscutter.net.proto.MPJDIGIFJMAOuterClass.MPJDIGIFJMA.Builder.class);
     }
-
-    public static final int PJABINOBEJL_FIELD_NUMBER = 1;
-    private com.google.protobuf.Internal.IntList pJABINOBEJL_;
-    /**
-     * <code>repeated uint32 PJABINOBEJL = 1;</code>
-     * @return A list containing the pJABINOBEJL.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getPJABINOBEJLList() {
-      return pJABINOBEJL_;
-    }
-    /**
-     * <code>repeated uint32 PJABINOBEJL = 1;</code>
-     * @return The count of pJABINOBEJL.
-     */
-    public int getPJABINOBEJLCount() {
-      return pJABINOBEJL_.size();
-    }
-    /**
-     * <code>repeated uint32 PJABINOBEJL = 1;</code>
-     * @param index The index of the element to return.
-     * @return The pJABINOBEJL at the given index.
-     */
-    public int getPJABINOBEJL(int index) {
-      return pJABINOBEJL_.getInt(index);
-    }
-    private int pJABINOBEJLMemoizedSerializedSize = -1;
 
     public static final int EBCJOCPDGID_FIELD_NUMBER = 11;
     private static final class EBCJOCPDGIDDefaultEntryHolder {
@@ -320,14 +250,6 @@ public final class MPJDIGIFJMAOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      getSerializedSize();
-      if (getPJABINOBEJLList().size() > 0) {
-        output.writeUInt32NoTag(10);
-        output.writeUInt32NoTag(pJABINOBEJLMemoizedSerializedSize);
-      }
-      for (int i = 0; i < pJABINOBEJL_.size(); i++) {
-        output.writeUInt32NoTag(pJABINOBEJL_.getInt(i));
-      }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
@@ -343,20 +265,6 @@ public final class MPJDIGIFJMAOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      {
-        int dataSize = 0;
-        for (int i = 0; i < pJABINOBEJL_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(pJABINOBEJL_.getInt(i));
-        }
-        size += dataSize;
-        if (!getPJABINOBEJLList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        pJABINOBEJLMemoizedSerializedSize = dataSize;
-      }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
            : internalGetEBCJOCPDGID().getMap().entrySet()) {
         com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
@@ -382,8 +290,6 @@ public final class MPJDIGIFJMAOuterClass {
       }
       emu.grasscutter.net.proto.MPJDIGIFJMAOuterClass.MPJDIGIFJMA other = (emu.grasscutter.net.proto.MPJDIGIFJMAOuterClass.MPJDIGIFJMA) obj;
 
-      if (!getPJABINOBEJLList()
-          .equals(other.getPJABINOBEJLList())) return false;
       if (!internalGetEBCJOCPDGID().equals(
           other.internalGetEBCJOCPDGID())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -397,10 +303,6 @@ public final class MPJDIGIFJMAOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getPJABINOBEJLCount() > 0) {
-        hash = (37 * hash) + PJABINOBEJL_FIELD_NUMBER;
-        hash = (53 * hash) + getPJABINOBEJLList().hashCode();
-      }
       if (!internalGetEBCJOCPDGID().getMap().isEmpty()) {
         hash = (37 * hash) + EBCJOCPDGID_FIELD_NUMBER;
         hash = (53 * hash) + internalGetEBCJOCPDGID().hashCode();
@@ -560,8 +462,6 @@ public final class MPJDIGIFJMAOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        pJABINOBEJL_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
         internalGetMutableEBCJOCPDGID().clear();
         return this;
       }
@@ -590,11 +490,6 @@ public final class MPJDIGIFJMAOuterClass {
       public emu.grasscutter.net.proto.MPJDIGIFJMAOuterClass.MPJDIGIFJMA buildPartial() {
         emu.grasscutter.net.proto.MPJDIGIFJMAOuterClass.MPJDIGIFJMA result = new emu.grasscutter.net.proto.MPJDIGIFJMAOuterClass.MPJDIGIFJMA(this);
         int from_bitField0_ = bitField0_;
-        if (((bitField0_ & 0x00000001) != 0)) {
-          pJABINOBEJL_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000001);
-        }
-        result.pJABINOBEJL_ = pJABINOBEJL_;
         result.eBCJOCPDGID_ = internalGetEBCJOCPDGID();
         result.eBCJOCPDGID_.makeImmutable();
         onBuilt();
@@ -645,16 +540,6 @@ public final class MPJDIGIFJMAOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.MPJDIGIFJMAOuterClass.MPJDIGIFJMA other) {
         if (other == emu.grasscutter.net.proto.MPJDIGIFJMAOuterClass.MPJDIGIFJMA.getDefaultInstance()) return this;
-        if (!other.pJABINOBEJL_.isEmpty()) {
-          if (pJABINOBEJL_.isEmpty()) {
-            pJABINOBEJL_ = other.pJABINOBEJL_;
-            bitField0_ = (bitField0_ & ~0x00000001);
-          } else {
-            ensurePJABINOBEJLIsMutable();
-            pJABINOBEJL_.addAll(other.pJABINOBEJL_);
-          }
-          onChanged();
-        }
         internalGetMutableEBCJOCPDGID().mergeFrom(
             other.internalGetEBCJOCPDGID());
         this.mergeUnknownFields(other.unknownFields);
@@ -686,85 +571,6 @@ public final class MPJDIGIFJMAOuterClass {
         return this;
       }
       private int bitField0_;
-
-      private com.google.protobuf.Internal.IntList pJABINOBEJL_ = emptyIntList();
-      private void ensurePJABINOBEJLIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
-          pJABINOBEJL_ = mutableCopy(pJABINOBEJL_);
-          bitField0_ |= 0x00000001;
-         }
-      }
-      /**
-       * <code>repeated uint32 PJABINOBEJL = 1;</code>
-       * @return A list containing the pJABINOBEJL.
-       */
-      public java.util.List<java.lang.Integer>
-          getPJABINOBEJLList() {
-        return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(pJABINOBEJL_) : pJABINOBEJL_;
-      }
-      /**
-       * <code>repeated uint32 PJABINOBEJL = 1;</code>
-       * @return The count of pJABINOBEJL.
-       */
-      public int getPJABINOBEJLCount() {
-        return pJABINOBEJL_.size();
-      }
-      /**
-       * <code>repeated uint32 PJABINOBEJL = 1;</code>
-       * @param index The index of the element to return.
-       * @return The pJABINOBEJL at the given index.
-       */
-      public int getPJABINOBEJL(int index) {
-        return pJABINOBEJL_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 PJABINOBEJL = 1;</code>
-       * @param index The index to set the value at.
-       * @param value The pJABINOBEJL to set.
-       * @return This builder for chaining.
-       */
-      public Builder setPJABINOBEJL(
-          int index, int value) {
-        ensurePJABINOBEJLIsMutable();
-        pJABINOBEJL_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 PJABINOBEJL = 1;</code>
-       * @param value The pJABINOBEJL to add.
-       * @return This builder for chaining.
-       */
-      public Builder addPJABINOBEJL(int value) {
-        ensurePJABINOBEJLIsMutable();
-        pJABINOBEJL_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 PJABINOBEJL = 1;</code>
-       * @param values The pJABINOBEJL to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllPJABINOBEJL(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensurePJABINOBEJLIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, pJABINOBEJL_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 PJABINOBEJL = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearPJABINOBEJL() {
-        pJABINOBEJL_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
-        return this;
-      }
 
       private com.google.protobuf.MapField<
           java.lang.Integer, java.lang.Integer> eBCJOCPDGID_;
@@ -965,12 +771,11 @@ public final class MPJDIGIFJMAOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021MPJDIGIFJMA.proto\"\212\001\n\013MPJDIGIFJMA\022\023\n\013P" +
-      "JABINOBEJL\030\001 \003(\r\0222\n\013EBCJOCPDGID\030\013 \003(\0132\035." +
-      "MPJDIGIFJMA.EBCJOCPDGIDEntry\0322\n\020EBCJOCPD" +
-      "GIDEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001" +
-      "B2\n\031emu.grasscutter.net.protoB\025MPJDIGIFJ" +
-      "MAOuterClassb\006proto3"
+      "\n\021MPJDIGIFJMA.proto\"u\n\013MPJDIGIFJMA\0222\n\013EB" +
+      "CJOCPDGID\030\013 \003(\0132\035.MPJDIGIFJMA.EBCJOCPDGI" +
+      "DEntry\0322\n\020EBCJOCPDGIDEntry\022\013\n\003key\030\001 \001(\r\022" +
+      "\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031emu.grasscutter.ne" +
+      "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -981,7 +786,7 @@ public final class MPJDIGIFJMAOuterClass {
     internal_static_MPJDIGIFJMA_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MPJDIGIFJMA_descriptor,
-        new java.lang.String[] { "PJABINOBEJL", "EBCJOCPDGID", });
+        new java.lang.String[] { "EBCJOCPDGID", });
     internal_static_MPJDIGIFJMA_EBCJOCPDGIDEntry_descriptor =
       internal_static_MPJDIGIFJMA_descriptor.getNestedTypes().get(0);
     internal_static_MPJDIGIFJMA_EBCJOCPDGIDEntry_fieldAccessorTable = new

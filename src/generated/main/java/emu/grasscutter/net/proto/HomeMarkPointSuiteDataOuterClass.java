@@ -517,9 +517,8 @@ public final class HomeMarkPointSuiteDataOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\034HomeMarkPointSuiteData.proto\"*\n\026HomeMa" +
-      "rkPointSuiteData\022\020\n\010suite_id\030\001 \001(\rB=\n\031em" +
-      "u.grasscutter.net.protoB HomeMarkPointSu" +
-      "iteDataOuterClassb\006proto3"
+      "rkPointSuiteData\022\020\n\010suite_id\030\001 \001(\rB\033\n\031em" +
+      "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

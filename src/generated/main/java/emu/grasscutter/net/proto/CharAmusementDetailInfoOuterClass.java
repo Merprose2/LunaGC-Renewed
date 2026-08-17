@@ -824,9 +824,8 @@ public final class CharAmusementDetailInfoOuterClass {
       "\n\035CharAmusementDetailInfo.proto\032\034CharAmu" +
       "sementStageData.proto\"K\n\027CharAmusementDe" +
       "tailInfo\0220\n\017stage_data_list\030\t \003(\0132\027.Char" +
-      "AmusementStageDataB>\n\031emu.grasscutter.ne" +
-      "t.protoB!CharAmusementDetailInfoOuterCla" +
-      "ssb\006proto3"
+      "AmusementStageDataB\033\n\031emu.grasscutter.ne" +
+      "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

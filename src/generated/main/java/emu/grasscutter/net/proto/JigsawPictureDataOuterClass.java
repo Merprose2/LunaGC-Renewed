@@ -25,10 +25,10 @@ public final class JigsawPictureDataOuterClass {
     boolean getIsFinished();
 
     /**
-     * <code>uint32 eemgkjochhk = 6;</code>
-     * @return The eemgkjochhk.
+     * <code>uint32 AEAJNEDAFJI = 6;</code>
+     * @return The aEAJNEDAFJI.
      */
-    int getEemgkjochhk();
+    int getAEAJNEDAFJI();
 
     /**
      * <code>bool is_open = 12;</code>
@@ -37,10 +37,10 @@ public final class JigsawPictureDataOuterClass {
     boolean getIsOpen();
 
     /**
-     * <code>uint32 mmgjjbelbhf = 14;</code>
-     * @return The mmgjjbelbhf.
+     * <code>uint32 IOAAECDDKOC = 14;</code>
+     * @return The iOAAECDDKOC.
      */
-    int getMmgjjbelbhf();
+    int getIOAAECDDKOC();
   }
   /**
    * Protobuf type {@code JigsawPictureData}
@@ -94,7 +94,7 @@ public final class JigsawPictureDataOuterClass {
             }
             case 48: {
 
-              eemgkjochhk_ = input.readUInt32();
+              aEAJNEDAFJI_ = input.readUInt32();
               break;
             }
             case 96: {
@@ -104,7 +104,7 @@ public final class JigsawPictureDataOuterClass {
             }
             case 112: {
 
-              mmgjjbelbhf_ = input.readUInt32();
+              iOAAECDDKOC_ = input.readUInt32();
               break;
             }
             default: {
@@ -150,15 +150,15 @@ public final class JigsawPictureDataOuterClass {
       return isFinished_;
     }
 
-    public static final int EEMGKJOCHHK_FIELD_NUMBER = 6;
-    private int eemgkjochhk_;
+    public static final int AEAJNEDAFJI_FIELD_NUMBER = 6;
+    private int aEAJNEDAFJI_;
     /**
-     * <code>uint32 eemgkjochhk = 6;</code>
-     * @return The eemgkjochhk.
+     * <code>uint32 AEAJNEDAFJI = 6;</code>
+     * @return The aEAJNEDAFJI.
      */
     @java.lang.Override
-    public int getEemgkjochhk() {
-      return eemgkjochhk_;
+    public int getAEAJNEDAFJI() {
+      return aEAJNEDAFJI_;
     }
 
     public static final int IS_OPEN_FIELD_NUMBER = 12;
@@ -172,15 +172,15 @@ public final class JigsawPictureDataOuterClass {
       return isOpen_;
     }
 
-    public static final int MMGJJBELBHF_FIELD_NUMBER = 14;
-    private int mmgjjbelbhf_;
+    public static final int IOAAECDDKOC_FIELD_NUMBER = 14;
+    private int iOAAECDDKOC_;
     /**
-     * <code>uint32 mmgjjbelbhf = 14;</code>
-     * @return The mmgjjbelbhf.
+     * <code>uint32 IOAAECDDKOC = 14;</code>
+     * @return The iOAAECDDKOC.
      */
     @java.lang.Override
-    public int getMmgjjbelbhf() {
-      return mmgjjbelbhf_;
+    public int getIOAAECDDKOC() {
+      return iOAAECDDKOC_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -200,14 +200,14 @@ public final class JigsawPictureDataOuterClass {
       if (isFinished_ != false) {
         output.writeBool(1, isFinished_);
       }
-      if (eemgkjochhk_ != 0) {
-        output.writeUInt32(6, eemgkjochhk_);
+      if (aEAJNEDAFJI_ != 0) {
+        output.writeUInt32(6, aEAJNEDAFJI_);
       }
       if (isOpen_ != false) {
         output.writeBool(12, isOpen_);
       }
-      if (mmgjjbelbhf_ != 0) {
-        output.writeUInt32(14, mmgjjbelbhf_);
+      if (iOAAECDDKOC_ != 0) {
+        output.writeUInt32(14, iOAAECDDKOC_);
       }
       unknownFields.writeTo(output);
     }
@@ -222,17 +222,17 @@ public final class JigsawPictureDataOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1, isFinished_);
       }
-      if (eemgkjochhk_ != 0) {
+      if (aEAJNEDAFJI_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, eemgkjochhk_);
+          .computeUInt32Size(6, aEAJNEDAFJI_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(12, isOpen_);
       }
-      if (mmgjjbelbhf_ != 0) {
+      if (iOAAECDDKOC_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, mmgjjbelbhf_);
+          .computeUInt32Size(14, iOAAECDDKOC_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -251,12 +251,12 @@ public final class JigsawPictureDataOuterClass {
 
       if (getIsFinished()
           != other.getIsFinished()) return false;
-      if (getEemgkjochhk()
-          != other.getEemgkjochhk()) return false;
+      if (getAEAJNEDAFJI()
+          != other.getAEAJNEDAFJI()) return false;
       if (getIsOpen()
           != other.getIsOpen()) return false;
-      if (getMmgjjbelbhf()
-          != other.getMmgjjbelbhf()) return false;
+      if (getIOAAECDDKOC()
+          != other.getIOAAECDDKOC()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -271,13 +271,13 @@ public final class JigsawPictureDataOuterClass {
       hash = (37 * hash) + IS_FINISHED_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsFinished());
-      hash = (37 * hash) + EEMGKJOCHHK_FIELD_NUMBER;
-      hash = (53 * hash) + getEemgkjochhk();
+      hash = (37 * hash) + AEAJNEDAFJI_FIELD_NUMBER;
+      hash = (53 * hash) + getAEAJNEDAFJI();
       hash = (37 * hash) + IS_OPEN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsOpen());
-      hash = (37 * hash) + MMGJJBELBHF_FIELD_NUMBER;
-      hash = (53 * hash) + getMmgjjbelbhf();
+      hash = (37 * hash) + IOAAECDDKOC_FIELD_NUMBER;
+      hash = (53 * hash) + getIOAAECDDKOC();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -413,11 +413,11 @@ public final class JigsawPictureDataOuterClass {
         super.clear();
         isFinished_ = false;
 
-        eemgkjochhk_ = 0;
+        aEAJNEDAFJI_ = 0;
 
         isOpen_ = false;
 
-        mmgjjbelbhf_ = 0;
+        iOAAECDDKOC_ = 0;
 
         return this;
       }
@@ -446,9 +446,9 @@ public final class JigsawPictureDataOuterClass {
       public emu.grasscutter.net.proto.JigsawPictureDataOuterClass.JigsawPictureData buildPartial() {
         emu.grasscutter.net.proto.JigsawPictureDataOuterClass.JigsawPictureData result = new emu.grasscutter.net.proto.JigsawPictureDataOuterClass.JigsawPictureData(this);
         result.isFinished_ = isFinished_;
-        result.eemgkjochhk_ = eemgkjochhk_;
+        result.aEAJNEDAFJI_ = aEAJNEDAFJI_;
         result.isOpen_ = isOpen_;
-        result.mmgjjbelbhf_ = mmgjjbelbhf_;
+        result.iOAAECDDKOC_ = iOAAECDDKOC_;
         onBuilt();
         return result;
       }
@@ -500,14 +500,14 @@ public final class JigsawPictureDataOuterClass {
         if (other.getIsFinished() != false) {
           setIsFinished(other.getIsFinished());
         }
-        if (other.getEemgkjochhk() != 0) {
-          setEemgkjochhk(other.getEemgkjochhk());
+        if (other.getAEAJNEDAFJI() != 0) {
+          setAEAJNEDAFJI(other.getAEAJNEDAFJI());
         }
         if (other.getIsOpen() != false) {
           setIsOpen(other.getIsOpen());
         }
-        if (other.getMmgjjbelbhf() != 0) {
-          setMmgjjbelbhf(other.getMmgjjbelbhf());
+        if (other.getIOAAECDDKOC() != 0) {
+          setIOAAECDDKOC(other.getIOAAECDDKOC());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -569,33 +569,33 @@ public final class JigsawPictureDataOuterClass {
         return this;
       }
 
-      private int eemgkjochhk_ ;
+      private int aEAJNEDAFJI_ ;
       /**
-       * <code>uint32 eemgkjochhk = 6;</code>
-       * @return The eemgkjochhk.
+       * <code>uint32 AEAJNEDAFJI = 6;</code>
+       * @return The aEAJNEDAFJI.
        */
       @java.lang.Override
-      public int getEemgkjochhk() {
-        return eemgkjochhk_;
+      public int getAEAJNEDAFJI() {
+        return aEAJNEDAFJI_;
       }
       /**
-       * <code>uint32 eemgkjochhk = 6;</code>
-       * @param value The eemgkjochhk to set.
+       * <code>uint32 AEAJNEDAFJI = 6;</code>
+       * @param value The aEAJNEDAFJI to set.
        * @return This builder for chaining.
        */
-      public Builder setEemgkjochhk(int value) {
+      public Builder setAEAJNEDAFJI(int value) {
         
-        eemgkjochhk_ = value;
+        aEAJNEDAFJI_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 eemgkjochhk = 6;</code>
+       * <code>uint32 AEAJNEDAFJI = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearEemgkjochhk() {
+      public Builder clearAEAJNEDAFJI() {
         
-        eemgkjochhk_ = 0;
+        aEAJNEDAFJI_ = 0;
         onChanged();
         return this;
       }
@@ -631,33 +631,33 @@ public final class JigsawPictureDataOuterClass {
         return this;
       }
 
-      private int mmgjjbelbhf_ ;
+      private int iOAAECDDKOC_ ;
       /**
-       * <code>uint32 mmgjjbelbhf = 14;</code>
-       * @return The mmgjjbelbhf.
+       * <code>uint32 IOAAECDDKOC = 14;</code>
+       * @return The iOAAECDDKOC.
        */
       @java.lang.Override
-      public int getMmgjjbelbhf() {
-        return mmgjjbelbhf_;
+      public int getIOAAECDDKOC() {
+        return iOAAECDDKOC_;
       }
       /**
-       * <code>uint32 mmgjjbelbhf = 14;</code>
-       * @param value The mmgjjbelbhf to set.
+       * <code>uint32 IOAAECDDKOC = 14;</code>
+       * @param value The iOAAECDDKOC to set.
        * @return This builder for chaining.
        */
-      public Builder setMmgjjbelbhf(int value) {
+      public Builder setIOAAECDDKOC(int value) {
         
-        mmgjjbelbhf_ = value;
+        iOAAECDDKOC_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 mmgjjbelbhf = 14;</code>
+       * <code>uint32 IOAAECDDKOC = 14;</code>
        * @return This builder for chaining.
        */
-      public Builder clearMmgjjbelbhf() {
+      public Builder clearIOAAECDDKOC() {
         
-        mmgjjbelbhf_ = 0;
+        iOAAECDDKOC_ = 0;
         onChanged();
         return this;
       }
@@ -729,10 +729,10 @@ public final class JigsawPictureDataOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027JigsawPictureData.proto\"c\n\021JigsawPictu" +
-      "reData\022\023\n\013is_finished\030\001 \001(\010\022\023\n\013eemgkjoch" +
-      "hk\030\006 \001(\r\022\017\n\007is_open\030\014 \001(\010\022\023\n\013mmgjjbelbhf" +
-      "\030\016 \001(\rB8\n\031emu.grasscutter.net.protoB\033Jig" +
-      "sawPictureDataOuterClassb\006proto3"
+      "reData\022\023\n\013is_finished\030\001 \001(\010\022\023\n\013AEAJNEDAF" +
+      "JI\030\006 \001(\r\022\017\n\007is_open\030\014 \001(\010\022\023\n\013IOAAECDDKOC" +
+      "\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -743,7 +743,7 @@ public final class JigsawPictureDataOuterClass {
     internal_static_JigsawPictureData_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_JigsawPictureData_descriptor,
-        new java.lang.String[] { "IsFinished", "Eemgkjochhk", "IsOpen", "Mmgjjbelbhf", });
+        new java.lang.String[] { "IsFinished", "AEAJNEDAFJI", "IsOpen", "IOAAECDDKOC", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

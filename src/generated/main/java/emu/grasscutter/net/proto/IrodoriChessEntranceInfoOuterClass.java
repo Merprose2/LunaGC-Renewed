@@ -895,9 +895,8 @@ public final class IrodoriChessEntranceInfoOuterClass {
       "iChessMonsterInfo.proto\"j\n\030IrodoriChessE" +
       "ntranceInfo\022\031\n\021entrance_point_id\030\003 \001(\r\0223" +
       "\n\021monster_info_list\030\013 \003(\0132\030.IrodoriChess" +
-      "MonsterInfoB?\n\031emu.grasscutter.net.proto" +
-      "B\"IrodoriChessEntranceInfoOuterClassb\006pr" +
-      "oto3"
+      "MonsterInfoB\033\n\031emu.grasscutter.net.proto" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

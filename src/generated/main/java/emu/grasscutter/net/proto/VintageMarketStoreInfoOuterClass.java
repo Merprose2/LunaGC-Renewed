@@ -1173,8 +1173,7 @@ public final class VintageMarketStoreInfoOuterClass {
       "eMarketStoreInfo\022\023\n\013GLINPEAHPKI\030\001 \003(\r\022\023\n" +
       "\013HHJEAFJANAD\030\002 \003(\r\022\025\n\rstrategy_list\030\003 \003(" +
       "\r\022\020\n\010store_id\030\n \001(\r\022\022\n\nslot_count\030\013 \001(\rB" +
-      "=\n\031emu.grasscutter.net.protoB VintageMar" +
-      "ketStoreInfoOuterClassb\006proto3"
+      "\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -730,9 +730,8 @@ public final class PANGJIGDLJHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PANGJIGDLJH.proto\"W\n\013PANGJIGDLJH\022\020\n\010le" +
       "vel_id\030\005 \001(\r\022\017\n\007is_open\030\007 \001(\010\022\021\n\tis_fini" +
-      "sh\030\010 \001(\010\022\022\n\nbest_score\030\t \001(\rB2\n\031emu.gras" +
-      "scutter.net.protoB\025PANGJIGDLJHOuterClass" +
-      "b\006proto3"
+      "sh\030\010 \001(\010\022\022\n\nbest_score\030\t \001(\rB\033\n\031emu.gras" +
+      "scutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -949,8 +949,8 @@ public final class MDGFOMDDDEFOuterClass {
       "NIFLNLBNBL\030\002 \001(\005\022\023\n\013JMODEHNJBFB\030\003 \001(\002\022!\n" +
       "\013JDPJOCLIHMI\030\004 \001(\0162\014.JEOKDCIGCFP\022\023\n\013OCPE" +
       "DDDLBLN\030\005 \001(\010\022!\n\013LCBNCKEGALF\030\006 \001(\0162\014.JEO" +
-      "KDCIGCFPB2\n\031emu.grasscutter.net.protoB\025M" +
-      "DGFOMDDDEFOuterClassb\006proto3"
+      "KDCIGCFPB\033\n\031emu.grasscutter.net.protob\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

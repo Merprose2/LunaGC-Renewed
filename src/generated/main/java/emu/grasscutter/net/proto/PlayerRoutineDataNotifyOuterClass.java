@@ -18,22 +18,33 @@ public final class PlayerRoutineDataNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:PlayerRoutineDataNotify)
       com.google.protobuf.MessageOrBuilder {
 
-    java.util.List<emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo>
+    /**
+     * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo> 
         getRoutineInfoListList();
-
+    /**
+     * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+     */
     emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo getRoutineInfoList(int index);
-
+    /**
+     * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+     */
     int getRoutineInfoListCount();
-
-    java.util.List<? extends emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfoOrBuilder>
+    /**
+     * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfoOrBuilder> 
         getRoutineInfoListOrBuilderList();
-
+    /**
+     * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+     */
     emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfoOrBuilder getRoutineInfoListOrBuilder(
         int index);
   }
   /**
    * <pre>
-   * CmdId: 27608
+   * CmdID: 24534
    * </pre>
    *
    * Protobuf type {@code PlayerRoutineDataNotify}
@@ -82,7 +93,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 routineInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -126,30 +137,40 @@ public final class PlayerRoutineDataNotifyOuterClass {
               emu.grasscutter.net.proto.PlayerRoutineDataNotifyOuterClass.PlayerRoutineDataNotify.class, emu.grasscutter.net.proto.PlayerRoutineDataNotifyOuterClass.PlayerRoutineDataNotify.Builder.class);
     }
 
-    public static final int ROUTINE_INFO_LIST_FIELD_NUMBER = 3;
+    public static final int ROUTINE_INFO_LIST_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo> routineInfoList_;
-
+    /**
+     * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+     */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo> getRoutineInfoListList() {
       return routineInfoList_;
     }
-
+    /**
+     * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfoOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfoOrBuilder> 
         getRoutineInfoListOrBuilderList() {
       return routineInfoList_;
     }
-
+    /**
+     * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+     */
     @java.lang.Override
     public int getRoutineInfoListCount() {
       return routineInfoList_.size();
     }
-
+    /**
+     * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+     */
     @java.lang.Override
     public emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo getRoutineInfoList(int index) {
       return routineInfoList_.get(index);
     }
-
+    /**
+     * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+     */
     @java.lang.Override
     public emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfoOrBuilder getRoutineInfoListOrBuilder(
         int index) {
@@ -171,7 +192,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < routineInfoList_.size(); i++) {
-        output.writeMessage(3, routineInfoList_.get(i));
+        output.writeMessage(8, routineInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -184,7 +205,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
       size = 0;
       for (int i = 0; i < routineInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, routineInfoList_.get(i));
+          .computeMessageSize(8, routineInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -315,7 +336,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 27608
+     * CmdID: 24534
      * </pre>
      *
      * Protobuf type {@code PlayerRoutineDataNotify}
@@ -464,7 +485,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
               routineInfoListBuilder_ = null;
               routineInfoList_ = other.routineInfoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              routineInfoListBuilder_ =
+              routineInfoListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRoutineInfoListFieldBuilder() : null;
             } else {
@@ -514,6 +535,9 @@ public final class PlayerRoutineDataNotifyOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo, emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo.Builder, emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfoOrBuilder> routineInfoListBuilder_;
 
+      /**
+       * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+       */
       public java.util.List<emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo> getRoutineInfoListList() {
         if (routineInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(routineInfoList_);
@@ -521,7 +545,9 @@ public final class PlayerRoutineDataNotifyOuterClass {
           return routineInfoListBuilder_.getMessageList();
         }
       }
-
+      /**
+       * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+       */
       public int getRoutineInfoListCount() {
         if (routineInfoListBuilder_ == null) {
           return routineInfoList_.size();
@@ -529,7 +555,9 @@ public final class PlayerRoutineDataNotifyOuterClass {
           return routineInfoListBuilder_.getCount();
         }
       }
-
+      /**
+       * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+       */
       public emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo getRoutineInfoList(int index) {
         if (routineInfoListBuilder_ == null) {
           return routineInfoList_.get(index);
@@ -537,7 +565,9 @@ public final class PlayerRoutineDataNotifyOuterClass {
           return routineInfoListBuilder_.getMessage(index);
         }
       }
-
+      /**
+       * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+       */
       public Builder setRoutineInfoList(
           int index, emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo value) {
         if (routineInfoListBuilder_ == null) {
@@ -552,7 +582,9 @@ public final class PlayerRoutineDataNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+       */
       public Builder setRoutineInfoList(
           int index, emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo.Builder builderForValue) {
         if (routineInfoListBuilder_ == null) {
@@ -564,7 +596,9 @@ public final class PlayerRoutineDataNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+       */
       public Builder addRoutineInfoList(emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo value) {
         if (routineInfoListBuilder_ == null) {
           if (value == null) {
@@ -578,7 +612,9 @@ public final class PlayerRoutineDataNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+       */
       public Builder addRoutineInfoList(
           int index, emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo value) {
         if (routineInfoListBuilder_ == null) {
@@ -593,7 +629,9 @@ public final class PlayerRoutineDataNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+       */
       public Builder addRoutineInfoList(
           emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo.Builder builderForValue) {
         if (routineInfoListBuilder_ == null) {
@@ -605,7 +643,9 @@ public final class PlayerRoutineDataNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+       */
       public Builder addRoutineInfoList(
           int index, emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo.Builder builderForValue) {
         if (routineInfoListBuilder_ == null) {
@@ -617,7 +657,9 @@ public final class PlayerRoutineDataNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+       */
       public Builder addAllRoutineInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo> values) {
         if (routineInfoListBuilder_ == null) {
@@ -630,7 +672,9 @@ public final class PlayerRoutineDataNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+       */
       public Builder clearRoutineInfoList() {
         if (routineInfoListBuilder_ == null) {
           routineInfoList_ = java.util.Collections.emptyList();
@@ -641,7 +685,9 @@ public final class PlayerRoutineDataNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+       */
       public Builder removeRoutineInfoList(int index) {
         if (routineInfoListBuilder_ == null) {
           ensureRoutineInfoListIsMutable();
@@ -652,12 +698,16 @@ public final class PlayerRoutineDataNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+       */
       public emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo.Builder getRoutineInfoListBuilder(
           int index) {
         return getRoutineInfoListFieldBuilder().getBuilder(index);
       }
-
+      /**
+       * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+       */
       public emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfoOrBuilder getRoutineInfoListOrBuilder(
           int index) {
         if (routineInfoListBuilder_ == null) {
@@ -665,8 +715,10 @@ public final class PlayerRoutineDataNotifyOuterClass {
           return routineInfoListBuilder_.getMessageOrBuilder(index);
         }
       }
-
-      public java.util.List<? extends emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfoOrBuilder>
+      /**
+       * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfoOrBuilder> 
            getRoutineInfoListOrBuilderList() {
         if (routineInfoListBuilder_ != null) {
           return routineInfoListBuilder_.getMessageOrBuilderList();
@@ -674,24 +726,30 @@ public final class PlayerRoutineDataNotifyOuterClass {
           return java.util.Collections.unmodifiableList(routineInfoList_);
         }
       }
-
+      /**
+       * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+       */
       public emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo.Builder addRoutineInfoListBuilder() {
         return getRoutineInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo.getDefaultInstance());
       }
-
+      /**
+       * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+       */
       public emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo.Builder addRoutineInfoListBuilder(
           int index) {
         return getRoutineInfoListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo.getDefaultInstance());
       }
-
-      public java.util.List<emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo.Builder>
+      /**
+       * <code>repeated .PlayerRoutineInfo routine_info_list = 8;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo.Builder> 
            getRoutineInfoListBuilderList() {
         return getRoutineInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo, emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo.Builder, emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfoOrBuilder>
+          emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo, emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo.Builder, emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfoOrBuilder> 
           getRoutineInfoListFieldBuilder() {
         if (routineInfoListBuilder_ == null) {
           routineInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -715,6 +773,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:PlayerRoutineDataNotify)
     }
@@ -758,7 +817,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerRoutineDataNotify_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerRoutineDataNotify_fieldAccessorTable;
 
@@ -772,7 +831,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035PlayerRoutineDataNotify.proto\032\027PlayerR" +
       "outineInfo.proto\"H\n\027PlayerRoutineDataNot" +
-      "ify\022-\n\021routine_info_list\030\014 \003(\0132\022.PlayerR" +
+      "ify\022-\n\021routine_info_list\030\010 \003(\0132\022.PlayerR" +
       "outineInfoB\033\n\031emu.grasscutter.net.protob" +
       "\006proto3"
     };

@@ -37,6 +37,10 @@ public final class TakeCompoundOutputReqOuterClass {
     int getCompoundGroupId();
   }
   /**
+   * <pre>
+   * CmdID: 24724
+   * </pre>
+   *
    * Protobuf type {@code TakeCompoundOutputReq}
    */
   public static final class TakeCompoundOutputReq extends
@@ -340,6 +344,10 @@ public final class TakeCompoundOutputReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 24724
+     * </pre>
+     *
      * Protobuf type {@code TakeCompoundOutputReq}
      */
     public static final class Builder extends
@@ -660,8 +668,8 @@ public final class TakeCompoundOutputReqOuterClass {
       "\n\033TakeCompoundOutputReq.proto\"^\n\025TakeCom" +
       "poundOutputReq\022\025\n\r_is_claim_all\030\003 \001(\010\022\023\n" +
       "\013compound_id\030\n \001(\r\022\031\n\021compound_group_id\030" +
-      "\013 \001(\rB<\n\031emu.grasscutter.net.protoB\037Take" +
-      "CompoundOutputReqOuterClassb\006proto3"
+      "\013 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

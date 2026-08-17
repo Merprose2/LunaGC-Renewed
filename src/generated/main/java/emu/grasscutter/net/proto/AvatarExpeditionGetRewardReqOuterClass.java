@@ -31,6 +31,10 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
     long getAvatarGuid();
   }
   /**
+   * <pre>
+   * CmdID: 5037
+   * </pre>
+   *
    * Protobuf type {@code AvatarExpeditionGetRewardReq}
    */
   public static final class AvatarExpeditionGetRewardReq extends
@@ -308,6 +312,10 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 5037
+     * </pre>
+     *
      * Protobuf type {@code AvatarExpeditionGetRewardReq}
      */
     public static final class Builder extends
@@ -590,9 +598,8 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"AvatarExpeditionGetRewardReq.proto\"J\n\034" +
       "AvatarExpeditionGetRewardReq\022\025\n\r_is_clai" +
-      "m_all\030\001 \001(\010\022\023\n\013avatar_guid\030\013 \001(\004BC\n\031emu." +
-      "grasscutter.net.protoB&AvatarExpeditionG" +
-      "etRewardReqOuterClassb\006proto3"
+      "m_all\030\001 \001(\010\022\023\n\013avatar_guid\030\013 \001(\004B\033\n\031emu." +
+      "grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

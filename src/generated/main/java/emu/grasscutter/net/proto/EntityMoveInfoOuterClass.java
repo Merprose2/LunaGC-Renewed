@@ -1005,9 +1005,8 @@ public final class EntityMoveInfoOuterClass {
       "\"\231\001\n\016EntityMoveInfo\022\021\n\tentity_id\030\001 \001(\r\022 " +
       "\n\013motion_info\030\002 \001(\0132\013.MotionInfo\022\022\n\nscen" +
       "e_time\030\003 \001(\r\022\024\n\014reliable_seq\030\004 \001(\r\022\023\n\013is" +
-      "_reliable\030\005 \001(\010\022\023\n\013BOJGGCAHNCD\030d \001(\010B5\n\031" +
-      "emu.grasscutter.net.protoB\030EntityMoveInf" +
-      "oOuterClassb\006proto3"
+      "_reliable\030\005 \001(\010\022\023\n\013BOJGGCAHNCD\030d \001(\010B\033\n\031" +
+      "emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

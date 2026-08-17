@@ -230,9 +230,8 @@ public final class PKEOGNLGCPJOuterClass {
       "\022\022\n\016PKEOGNLGCPJ_GM\020\007\022\035\n\031PKEOGNLGCPJ_USE_" +
       "WIDGET_TP\020\010\022!\n\035PKEOGNLGCPJ_USE_WIDGET_NO" +
       "T_TP\020\t\022&\n\"PKEOGNLGCPJ_GALLERY_VEHCILE_NO" +
-      "T_TP\020\n\022\032\n\026PKEOGNLGCPJ_QUEST_EXEC\020\013B2\n\031em" +
-      "u.grasscutter.net.protoB\025PKEOGNLGCPJOute" +
-      "rClassb\006proto3"
+      "T_TP\020\n\022\032\n\026PKEOGNLGCPJ_QUEST_EXEC\020\013B\033\n\031em" +
+      "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

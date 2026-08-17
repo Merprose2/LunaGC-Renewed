@@ -244,7 +244,7 @@ public final class LunaRiteHintPointOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (type_ != emu.grasscutter.net.proto.LunaRiteHintPointTypeOuterClass.LunaRiteHintPointType.LUNA_RITE_HINT_TYPE_NONE.getNumber()) {
+      if (type_ != emu.grasscutter.net.proto.LunaRiteHintPointTypeOuterClass.LunaRiteHintPointType.LunaRiteHintPointType_LUNA_RITE_HINT_TYPE_NONE.getNumber()) {
         output.writeEnum(6, type_);
       }
       if (index_ != 0) {
@@ -265,7 +265,7 @@ public final class LunaRiteHintPointOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (type_ != emu.grasscutter.net.proto.LunaRiteHintPointTypeOuterClass.LunaRiteHintPointType.LUNA_RITE_HINT_TYPE_NONE.getNumber()) {
+      if (type_ != emu.grasscutter.net.proto.LunaRiteHintPointTypeOuterClass.LunaRiteHintPointType.LunaRiteHintPointType_LUNA_RITE_HINT_TYPE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(6, type_);
       }
@@ -900,9 +900,8 @@ public final class LunaRiteHintPointOuterClass {
       "ointType.proto\032\014Vector.proto\"o\n\021LunaRite" +
       "HintPoint\022$\n\004type\030\006 \001(\0162\026.LunaRiteHintPo" +
       "intType\022\r\n\005index\030\007 \001(\r\022\017\n\007area_id\030\010 \001(\r\022" +
-      "\024\n\003pos\030\013 \001(\0132\007.VectorB8\n\031emu.grasscutter" +
-      ".net.protoB\033LunaRiteHintPointOuterClassb" +
-      "\006proto3"
+      "\024\n\003pos\030\013 \001(\0132\007.VectorB\033\n\031emu.grasscutter" +
+      ".net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

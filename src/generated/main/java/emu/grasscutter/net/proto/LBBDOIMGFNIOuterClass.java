@@ -25,10 +25,10 @@ public final class LBBDOIMGFNIOuterClass {
     int getCurValue();
 
     /**
-     * <code>uint32 max_value = 7;</code>
-     * @return The maxValue.
+     * <code>uint32 KLCNHCOPGAK = 7;</code>
+     * @return The kLCNHCOPGAK.
      */
-    int getMaxValue();
+    int getKLCNHCOPGAK();
   }
   /**
    * Protobuf type {@code LBBDOIMGFNI}
@@ -82,7 +82,7 @@ public final class LBBDOIMGFNIOuterClass {
             }
             case 56: {
 
-              maxValue_ = input.readUInt32();
+              kLCNHCOPGAK_ = input.readUInt32();
               break;
             }
             default: {
@@ -128,15 +128,15 @@ public final class LBBDOIMGFNIOuterClass {
       return curValue_;
     }
 
-    public static final int MAX_VALUE_FIELD_NUMBER = 7;
-    private int maxValue_;
+    public static final int KLCNHCOPGAK_FIELD_NUMBER = 7;
+    private int kLCNHCOPGAK_;
     /**
-     * <code>uint32 max_value = 7;</code>
-     * @return The maxValue.
+     * <code>uint32 KLCNHCOPGAK = 7;</code>
+     * @return The kLCNHCOPGAK.
      */
     @java.lang.Override
-    public int getMaxValue() {
-      return maxValue_;
+    public int getKLCNHCOPGAK() {
+      return kLCNHCOPGAK_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -156,8 +156,8 @@ public final class LBBDOIMGFNIOuterClass {
       if (curValue_ != 0) {
         output.writeUInt32(6, curValue_);
       }
-      if (maxValue_ != 0) {
-        output.writeUInt32(7, maxValue_);
+      if (kLCNHCOPGAK_ != 0) {
+        output.writeUInt32(7, kLCNHCOPGAK_);
       }
       unknownFields.writeTo(output);
     }
@@ -172,9 +172,9 @@ public final class LBBDOIMGFNIOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(6, curValue_);
       }
-      if (maxValue_ != 0) {
+      if (kLCNHCOPGAK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, maxValue_);
+          .computeUInt32Size(7, kLCNHCOPGAK_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -193,8 +193,8 @@ public final class LBBDOIMGFNIOuterClass {
 
       if (getCurValue()
           != other.getCurValue()) return false;
-      if (getMaxValue()
-          != other.getMaxValue()) return false;
+      if (getKLCNHCOPGAK()
+          != other.getKLCNHCOPGAK()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -208,8 +208,8 @@ public final class LBBDOIMGFNIOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + CUR_VALUE_FIELD_NUMBER;
       hash = (53 * hash) + getCurValue();
-      hash = (37 * hash) + MAX_VALUE_FIELD_NUMBER;
-      hash = (53 * hash) + getMaxValue();
+      hash = (37 * hash) + KLCNHCOPGAK_FIELD_NUMBER;
+      hash = (53 * hash) + getKLCNHCOPGAK();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -345,7 +345,7 @@ public final class LBBDOIMGFNIOuterClass {
         super.clear();
         curValue_ = 0;
 
-        maxValue_ = 0;
+        kLCNHCOPGAK_ = 0;
 
         return this;
       }
@@ -374,7 +374,7 @@ public final class LBBDOIMGFNIOuterClass {
       public emu.grasscutter.net.proto.LBBDOIMGFNIOuterClass.LBBDOIMGFNI buildPartial() {
         emu.grasscutter.net.proto.LBBDOIMGFNIOuterClass.LBBDOIMGFNI result = new emu.grasscutter.net.proto.LBBDOIMGFNIOuterClass.LBBDOIMGFNI(this);
         result.curValue_ = curValue_;
-        result.maxValue_ = maxValue_;
+        result.kLCNHCOPGAK_ = kLCNHCOPGAK_;
         onBuilt();
         return result;
       }
@@ -426,8 +426,8 @@ public final class LBBDOIMGFNIOuterClass {
         if (other.getCurValue() != 0) {
           setCurValue(other.getCurValue());
         }
-        if (other.getMaxValue() != 0) {
-          setMaxValue(other.getMaxValue());
+        if (other.getKLCNHCOPGAK() != 0) {
+          setKLCNHCOPGAK(other.getKLCNHCOPGAK());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -489,33 +489,33 @@ public final class LBBDOIMGFNIOuterClass {
         return this;
       }
 
-      private int maxValue_ ;
+      private int kLCNHCOPGAK_ ;
       /**
-       * <code>uint32 max_value = 7;</code>
-       * @return The maxValue.
+       * <code>uint32 KLCNHCOPGAK = 7;</code>
+       * @return The kLCNHCOPGAK.
        */
       @java.lang.Override
-      public int getMaxValue() {
-        return maxValue_;
+      public int getKLCNHCOPGAK() {
+        return kLCNHCOPGAK_;
       }
       /**
-       * <code>uint32 max_value = 7;</code>
-       * @param value The maxValue to set.
+       * <code>uint32 KLCNHCOPGAK = 7;</code>
+       * @param value The kLCNHCOPGAK to set.
        * @return This builder for chaining.
        */
-      public Builder setMaxValue(int value) {
+      public Builder setKLCNHCOPGAK(int value) {
         
-        maxValue_ = value;
+        kLCNHCOPGAK_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 max_value = 7;</code>
+       * <code>uint32 KLCNHCOPGAK = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearMaxValue() {
+      public Builder clearKLCNHCOPGAK() {
         
-        maxValue_ = 0;
+        kLCNHCOPGAK_ = 0;
         onChanged();
         return this;
       }
@@ -586,10 +586,9 @@ public final class LBBDOIMGFNIOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021LBBDOIMGFNI.proto\"3\n\013LBBDOIMGFNI\022\021\n\tcu" +
-      "r_value\030\006 \001(\r\022\021\n\tmax_value\030\007 \001(\rB2\n\031emu." +
-      "grasscutter.net.protoB\025LBBDOIMGFNIOuterC" +
-      "lassb\006proto3"
+      "\n\021LBBDOIMGFNI.proto\"5\n\013LBBDOIMGFNI\022\021\n\tcu" +
+      "r_value\030\006 \001(\r\022\023\n\013KLCNHCOPGAK\030\007 \001(\rB\033\n\031em" +
+      "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -600,7 +599,7 @@ public final class LBBDOIMGFNIOuterClass {
     internal_static_LBBDOIMGFNI_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_LBBDOIMGFNI_descriptor,
-        new java.lang.String[] { "CurValue", "MaxValue", });
+        new java.lang.String[] { "CurValue", "KLCNHCOPGAK", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

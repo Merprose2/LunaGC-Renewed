@@ -840,8 +840,7 @@ public final class AvatarExpeditionInfoOuterClass {
       "fo\022%\n\005state\030\001 \001(\0162\026.AvatarExpeditionStat" +
       "e\022\016\n\006exp_id\030\002 \001(\r\022\021\n\thour_time\030\003 \001(\r\022\022\n\n" +
       "start_time\030\004 \001(\r\022\025\n\rshorten_ratio\030\005 \001(\002B" +
-      ";\n\031emu.grasscutter.net.protoB\036AvatarExpe" +
-      "ditionInfoOuterClassb\006proto3"
+      "\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -730,9 +730,8 @@ public final class NBBPKNJHPDKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NBBPKNJHPDK.proto\"V\n\013NBBPKNJHPDK\022\020\n\010le" +
       "vel_id\030\002 \001(\r\022\017\n\007is_open\030\003 \001(\010\022\021\n\tis_fini" +
-      "sh\030\n \001(\010\022\021\n\tmax_score\030\014 \001(\rB2\n\031emu.grass" +
-      "cutter.net.protoB\025NBBPKNJHPDKOuterClassb" +
-      "\006proto3"
+      "sh\030\n \001(\010\022\021\n\tmax_score\030\014 \001(\rB\033\n\031emu.grass" +
+      "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

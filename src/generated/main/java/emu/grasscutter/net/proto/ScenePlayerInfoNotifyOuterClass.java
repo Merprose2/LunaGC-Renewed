@@ -43,6 +43,10 @@ public final class ScenePlayerInfoNotifyOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 5816
+   * </pre>
+   *
    * Protobuf type {@code ScenePlayerInfoNotify}
    */
   public static final class ScenePlayerInfoNotify extends
@@ -331,6 +335,10 @@ public final class ScenePlayerInfoNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 5816
+     * </pre>
+     *
      * Protobuf type {@code ScenePlayerInfoNotify}
      */
     public static final class Builder extends
@@ -824,8 +832,7 @@ public final class ScenePlayerInfoNotifyOuterClass {
       "\n\033ScenePlayerInfoNotify.proto\032\025ScenePlay" +
       "erInfo.proto\"C\n\025ScenePlayerInfoNotify\022*\n" +
       "\020player_info_list\030\010 \003(\0132\020.ScenePlayerInf" +
-      "oB<\n\031emu.grasscutter.net.protoB\037ScenePla" +
-      "yerInfoNotifyOuterClassb\006proto3"
+      "oB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

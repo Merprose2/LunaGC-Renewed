@@ -37,6 +37,10 @@ public final class PlayerGameTimeNotifyOuterClass {
     int getUid();
   }
   /**
+   * <pre>
+   * CmdID: 8474
+   * </pre>
+   *
    * Protobuf type {@code PlayerGameTimeNotify}
    */
   public static final class PlayerGameTimeNotify extends
@@ -340,6 +344,10 @@ public final class PlayerGameTimeNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 8474
+     * </pre>
+     *
      * Protobuf type {@code PlayerGameTimeNotify}
      */
     public static final class Builder extends
@@ -659,9 +667,8 @@ public final class PlayerGameTimeNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032PlayerGameTimeNotify.proto\"G\n\024PlayerGa" +
       "meTimeNotify\022\017\n\007is_home\030\005 \001(\010\022\021\n\tgame_ti" +
-      "me\030\006 \001(\r\022\013\n\003uid\030\r \001(\rB;\n\031emu.grasscutter" +
-      ".net.protoB\036PlayerGameTimeNotifyOuterCla" +
-      "ssb\006proto3"
+      "me\030\006 \001(\r\022\013\n\003uid\030\r \001(\rB\033\n\031emu.grasscutter" +
+      ".net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -57,6 +57,10 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
     emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType getForwardType();
   }
   /**
+   * <pre>
+   * CmdID: 59
+   * </pre>
+   *
    * Protobuf type {@code EvtEntityRenderersChangedNotify}
    */
   public static final class EvtEntityRenderersChangedNotify extends
@@ -424,6 +428,10 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 59
+     * </pre>
+     *
      * Protobuf type {@code EvtEntityRenderersChangedNotify}
      */
     public static final class Builder extends
@@ -903,9 +911,8 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
       "dNotify\022\027\n\017is_server_cache\030\001 \001(\010\0229\n\025rend" +
       "erer_changed_info\030\006 \001(\0132\032.EntityRenderer" +
       "ChangedInfo\022\021\n\tentity_id\030\007 \001(\r\022\"\n\014forwar" +
-      "d_type\030\016 \001(\0162\014.ForwardTypeBF\n\031emu.grassc" +
-      "utter.net.protoB)EvtEntityRenderersChang" +
-      "edNotifyOuterClassb\006proto3"
+      "d_type\030\016 \001(\0162\014.ForwardTypeB\033\n\031emu.grassc" +
+      "utter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

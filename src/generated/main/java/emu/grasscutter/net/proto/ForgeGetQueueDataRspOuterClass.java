@@ -65,6 +65,10 @@ public final class ForgeGetQueueDataRspOuterClass {
         int key);
   }
   /**
+   * <pre>
+   * CmdID: 3484
+   * </pre>
+   *
    * Protobuf type {@code ForgeGetQueueDataRsp}
    */
   public static final class ForgeGetQueueDataRsp extends
@@ -469,6 +473,10 @@ public final class ForgeGetQueueDataRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 3484
+     * </pre>
+     *
      * Protobuf type {@code ForgeGetQueueDataRsp}
      */
     public static final class Builder extends
@@ -917,9 +925,8 @@ public final class ForgeGetQueueDataRspOuterClass {
       "orge_queue_map\030\017 \003(\0132(.ForgeGetQueueData" +
       "Rsp.ForgeQueueMapEntry\032E\n\022ForgeQueueMapE" +
       "ntry\022\013\n\003key\030\001 \001(\r\022\036\n\005value\030\002 \001(\0132\017.Forge" +
-      "QueueData:\0028\001B;\n\031emu.grasscutter.net.pro" +
-      "toB\036ForgeGetQueueDataRspOuterClassb\006prot" +
-      "o3"
+      "QueueData:\0028\001B\033\n\031emu.grasscutter.net.pro" +
+      "tob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

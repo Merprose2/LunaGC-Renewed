@@ -917,9 +917,8 @@ public final class SumoActivityDetailInfoOuterClass {
       "ailInfo.SumoStageMapEntry\022\025\n\rlast_stage_" +
       "id\030\006 \001(\r\022\025\n\rdifficulty_id\030\017 \001(\r\032C\n\021SumoS" +
       "tageMapEntry\022\013\n\003key\030\001 \001(\r\022\035\n\005value\030\002 \001(\013" +
-      "2\016.SumoStageData:\0028\001B=\n\031emu.grasscutter." +
-      "net.protoB SumoActivityDetailInfoOuterCl" +
-      "assb\006proto3"
+      "2\016.SumoStageData:\0028\001B\033\n\031emu.grasscutter." +
+      "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -42,6 +42,10 @@ public final class ReliquaryDecomposeRspOuterClass {
     long getGuidList(int index);
   }
   /**
+   * <pre>
+   * CmdID: 1730
+   * </pre>
+   *
    * Protobuf type {@code ReliquaryDecomposeRsp}
    */
   public static final class ReliquaryDecomposeRsp extends
@@ -372,6 +376,10 @@ public final class ReliquaryDecomposeRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 1730
+     * </pre>
+     *
      * Protobuf type {@code ReliquaryDecomposeRsp}
      */
     public static final class Builder extends
@@ -715,8 +723,8 @@ public final class ReliquaryDecomposeRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033ReliquaryDecomposeRsp.proto\";\n\025Reliqua" +
       "ryDecomposeRsp\022\017\n\007retcode\030\005 \001(\005\022\021\n\tguid_" +
-      "list\030\006 \003(\004B<\n\031emu.grasscutter.net.protoB" +
-      "\037ReliquaryDecomposeRspOuterClassb\006proto3"
+      "list\030\006 \003(\004B\033\n\031emu.grasscutter.net.protob" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

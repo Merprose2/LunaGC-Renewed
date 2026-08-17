@@ -1386,8 +1386,7 @@ public final class ReliquaryOuterClass {
       "id_list\030\005 \003(\r\022\031\n\021_is_relic_starred\030\006 \001(\010" +
       "\022&\n\036_purchased_append_prop_id_list\030\007 \003(\r" +
       "\022%\n\035_definite_append_prop_id_list\030\010 \003(\rB" +
-      "0\n\031emu.grasscutter.net.protoB\023ReliquaryO" +
-      "uterClassb\006proto3"
+      "\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

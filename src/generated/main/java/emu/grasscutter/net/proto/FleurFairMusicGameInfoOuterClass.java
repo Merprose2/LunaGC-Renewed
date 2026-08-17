@@ -776,9 +776,8 @@ public final class FleurFairMusicGameInfoOuterClass {
       "eInfo\022E\n\020music_record_map\030\002 \003(\0132+.FleurF" +
       "airMusicGameInfo.MusicRecordMapEntry\032L\n\023" +
       "MusicRecordMapEntry\022\013\n\003key\030\001 \001(\r\022$\n\005valu" +
-      "e\030\002 \001(\0132\025.FleurFairMusicRecord:\0028\001B=\n\031em" +
-      "u.grasscutter.net.protoB FleurFairMusicG" +
-      "ameInfoOuterClassb\006proto3"
+      "e\030\002 \001(\0132\025.FleurFairMusicRecord:\0028\001B\033\n\031em" +
+      "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

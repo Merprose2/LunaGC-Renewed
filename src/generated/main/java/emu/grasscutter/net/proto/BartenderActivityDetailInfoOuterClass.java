@@ -1729,9 +1729,8 @@ public final class BartenderActivityDetailInfoOuterClass {
       "Info\022.\n\021unlock_level_list\030\006 \003(\0132\023.Barten" +
       "derLevelInfo\022\023\n\013ENBFJNEEJNP\030\010 \003(\r\022\031\n\021is_" +
       "content_closed\030\t \001(\010\022\036\n\026is_develop_modul" +
-      "e_open\030\n \001(\010\022\023\n\013PCPKHLCPABB\030\r \003(\rBB\n\031emu" +
-      ".grasscutter.net.protoB%BartenderActivit" +
-      "yDetailInfoOuterClassb\006proto3"
+      "e_open\030\n \001(\010\022\023\n\013PCPKHLCPABB\030\r \003(\rB\033\n\031emu" +
+      ".grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

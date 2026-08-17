@@ -19,6 +19,61 @@ public final class RoutePointOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <code>.Vector position = 1;</code>
+     * @return Whether the position field is set.
+     */
+    boolean hasPosition();
+    /**
+     * <code>.Vector position = 1;</code>
+     * @return The position.
+     */
+    emu.grasscutter.net.proto.VectorOuterClass.Vector getPosition();
+    /**
+     * <code>.Vector position = 1;</code>
+     */
+    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPositionOrBuilder();
+
+    /**
+     * <code>float arrive_range = 2;</code>
+     * @return The arriveRange.
+     */
+    float getArriveRange();
+
+    /**
+     * <code>bool has_reach_event = 3;</code>
+     * @return The hasReachEvent.
+     */
+    boolean getHasReachEvent();
+
+    /**
+     * <code>int32 speed_level = 4;</code>
+     * @return The speedLevel.
+     */
+    int getSpeedLevel();
+
+    /**
+     * <code>float velocity = 11;</code>
+     * @return Whether the velocity field is set.
+     */
+    boolean hasVelocity();
+    /**
+     * <code>float velocity = 11;</code>
+     * @return The velocity.
+     */
+    float getVelocity();
+
+    /**
+     * <code>float time = 12;</code>
+     * @return Whether the time field is set.
+     */
+    boolean hasTime();
+    /**
+     * <code>float time = 12;</code>
+     * @return The time.
+     */
+    float getTime();
+
+    /**
      * <code>.Vector rotation = 21;</code>
      * @return Whether the rotation field is set.
      */
@@ -64,61 +119,6 @@ public final class RoutePointOuterClass {
     emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder getAxisSpeedOrBuilder();
 
     /**
-     * <code>float velocity = 11;</code>
-     * @return Whether the velocity field is set.
-     */
-    boolean hasVelocity();
-    /**
-     * <code>float velocity = 11;</code>
-     * @return The velocity.
-     */
-    float getVelocity();
-
-    /**
-     * <code>float time = 12;</code>
-     * @return Whether the time field is set.
-     */
-    boolean hasTime();
-    /**
-     * <code>float time = 12;</code>
-     * @return The time.
-     */
-    float getTime();
-
-    /**
-     * <code>.Vector position = 1;</code>
-     * @return Whether the position field is set.
-     */
-    boolean hasPosition();
-    /**
-     * <code>.Vector position = 1;</code>
-     * @return The position.
-     */
-    emu.grasscutter.net.proto.VectorOuterClass.Vector getPosition();
-    /**
-     * <code>.Vector position = 1;</code>
-     */
-    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPositionOrBuilder();
-
-    /**
-     * <code>float arrive_range = 2;</code>
-     * @return The arriveRange.
-     */
-    float getArriveRange();
-
-    /**
-     * <code>bool has_reach_event = 3;</code>
-     * @return The hasReachEvent.
-     */
-    boolean getHasReachEvent();
-
-    /**
-     * <code>int32 speed_level = 4;</code>
-     * @return The speedLevel.
-     */
-    int getSpeedLevel();
-
-    /**
      * <code>.PHCHPFLPIFL point_type = 24;</code>
      * @return The enum numeric value on the wire for pointType.
      */
@@ -130,25 +130,25 @@ public final class RoutePointOuterClass {
     emu.grasscutter.net.proto.PHCHPFLPIFLOuterClass.PHCHPFLPIFL getPointType();
 
     /**
-     * <code>.MHDOKEBFCFP action = 25;</code>
+     * <code>.EMEJENPCHLO action = 25;</code>
      * @return Whether the action field is set.
      */
     boolean hasAction();
     /**
-     * <code>.MHDOKEBFCFP action = 25;</code>
+     * <code>.EMEJENPCHLO action = 25;</code>
      * @return The action.
      */
-    emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP getAction();
+    emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLO getAction();
     /**
-     * <code>.MHDOKEBFCFP action = 25;</code>
+     * <code>.EMEJENPCHLO action = 25;</code>
      */
-    emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFPOrBuilder getActionOrBuilder();
+    emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLOOrBuilder getActionOrBuilder();
 
     /**
-     * <code>bool cpniemmjckj = 26;</code>
-     * @return The cpniemmjckj.
+     * <code>bool OJHGMEPOMPO = 26;</code>
+     * @return The oJHGMEPOMPO.
      */
-    boolean getCpniemmjckj();
+    boolean getOJHGMEPOMPO();
 
     /**
      * <code>uint32 EIHOHLKAHMF = 27;</code>
@@ -179,9 +179,9 @@ public final class RoutePointOuterClass {
      */
     emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.IGDEDOLNAKF getLNDBCAEOICD();
 
-    public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.RotateParamsCase getRotateParamsCase();
-
     public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.MoveParamsCase getMoveParamsCase();
+
+    public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.RotateParamsCase getRotateParamsCase();
   }
   /**
    * Protobuf type {@code RoutePoint}
@@ -317,11 +317,11 @@ public final class RoutePointOuterClass {
               break;
             }
             case 202: {
-              emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP.Builder subBuilder = null;
+              emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLO.Builder subBuilder = null;
               if (action_ != null) {
                 subBuilder = action_.toBuilder();
               }
-              action_ = input.readMessage(emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP.parser(), extensionRegistry);
+              action_ = input.readMessage(emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLO.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(action_);
                 action_ = subBuilder.buildPartial();
@@ -331,7 +331,7 @@ public final class RoutePointOuterClass {
             }
             case 208: {
 
-              cpniemmjckj_ = input.readBool();
+              oJHGMEPOMPO_ = input.readBool();
               break;
             }
             case 216: {
@@ -504,6 +504,47 @@ public final class RoutePointOuterClass {
       // @@protoc_insertion_point(enum_scope:RoutePoint.IGDEDOLNAKF)
     }
 
+    private int moveParamsCase_ = 0;
+    private java.lang.Object moveParams_;
+    public enum MoveParamsCase
+        implements com.google.protobuf.Internal.EnumLite,
+            com.google.protobuf.AbstractMessage.InternalOneOfEnum {
+      VELOCITY(11),
+      TIME(12),
+      MOVEPARAMS_NOT_SET(0);
+      private final int value;
+      private MoveParamsCase(int value) {
+        this.value = value;
+      }
+      /**
+       * @param value The number of the enum to look for.
+       * @return The enum associated with the given number.
+       * @deprecated Use {@link #forNumber(int)} instead.
+       */
+      @java.lang.Deprecated
+      public static MoveParamsCase valueOf(int value) {
+        return forNumber(value);
+      }
+
+      public static MoveParamsCase forNumber(int value) {
+        switch (value) {
+          case 11: return VELOCITY;
+          case 12: return TIME;
+          case 0: return MOVEPARAMS_NOT_SET;
+          default: return null;
+        }
+      }
+      public int getNumber() {
+        return this.value;
+      }
+    };
+
+    public MoveParamsCase
+    getMoveParamsCase() {
+      return MoveParamsCase.forNumber(
+          moveParamsCase_);
+    }
+
     private int rotateParamsCase_ = 0;
     private java.lang.Object rotateParams_;
     public enum RotateParamsCase
@@ -547,45 +588,105 @@ public final class RoutePointOuterClass {
           rotateParamsCase_);
     }
 
-    private int moveParamsCase_ = 0;
-    private java.lang.Object moveParams_;
-    public enum MoveParamsCase
-        implements com.google.protobuf.Internal.EnumLite,
-            com.google.protobuf.AbstractMessage.InternalOneOfEnum {
-      VELOCITY(11),
-      TIME(12),
-      MOVEPARAMS_NOT_SET(0);
-      private final int value;
-      private MoveParamsCase(int value) {
-        this.value = value;
-      }
-      /**
-       * @param value The number of the enum to look for.
-       * @return The enum associated with the given number.
-       * @deprecated Use {@link #forNumber(int)} instead.
-       */
-      @java.lang.Deprecated
-      public static MoveParamsCase valueOf(int value) {
-        return forNumber(value);
-      }
+    public static final int POSITION_FIELD_NUMBER = 1;
+    private emu.grasscutter.net.proto.VectorOuterClass.Vector position_;
+    /**
+     * <code>.Vector position = 1;</code>
+     * @return Whether the position field is set.
+     */
+    @java.lang.Override
+    public boolean hasPosition() {
+      return position_ != null;
+    }
+    /**
+     * <code>.Vector position = 1;</code>
+     * @return The position.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.VectorOuterClass.Vector getPosition() {
+      return position_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : position_;
+    }
+    /**
+     * <code>.Vector position = 1;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPositionOrBuilder() {
+      return getPosition();
+    }
 
-      public static MoveParamsCase forNumber(int value) {
-        switch (value) {
-          case 11: return VELOCITY;
-          case 12: return TIME;
-          case 0: return MOVEPARAMS_NOT_SET;
-          default: return null;
-        }
-      }
-      public int getNumber() {
-        return this.value;
-      }
-    };
+    public static final int ARRIVE_RANGE_FIELD_NUMBER = 2;
+    private float arriveRange_;
+    /**
+     * <code>float arrive_range = 2;</code>
+     * @return The arriveRange.
+     */
+    @java.lang.Override
+    public float getArriveRange() {
+      return arriveRange_;
+    }
 
-    public MoveParamsCase
-    getMoveParamsCase() {
-      return MoveParamsCase.forNumber(
-          moveParamsCase_);
+    public static final int HAS_REACH_EVENT_FIELD_NUMBER = 3;
+    private boolean hasReachEvent_;
+    /**
+     * <code>bool has_reach_event = 3;</code>
+     * @return The hasReachEvent.
+     */
+    @java.lang.Override
+    public boolean getHasReachEvent() {
+      return hasReachEvent_;
+    }
+
+    public static final int SPEED_LEVEL_FIELD_NUMBER = 4;
+    private int speedLevel_;
+    /**
+     * <code>int32 speed_level = 4;</code>
+     * @return The speedLevel.
+     */
+    @java.lang.Override
+    public int getSpeedLevel() {
+      return speedLevel_;
+    }
+
+    public static final int VELOCITY_FIELD_NUMBER = 11;
+    /**
+     * <code>float velocity = 11;</code>
+     * @return Whether the velocity field is set.
+     */
+    @java.lang.Override
+    public boolean hasVelocity() {
+      return moveParamsCase_ == 11;
+    }
+    /**
+     * <code>float velocity = 11;</code>
+     * @return The velocity.
+     */
+    @java.lang.Override
+    public float getVelocity() {
+      if (moveParamsCase_ == 11) {
+        return (java.lang.Float) moveParams_;
+      }
+      return 0F;
+    }
+
+    public static final int TIME_FIELD_NUMBER = 12;
+    /**
+     * <code>float time = 12;</code>
+     * @return Whether the time field is set.
+     */
+    @java.lang.Override
+    public boolean hasTime() {
+      return moveParamsCase_ == 12;
+    }
+    /**
+     * <code>float time = 12;</code>
+     * @return The time.
+     */
+    @java.lang.Override
+    public float getTime() {
+      if (moveParamsCase_ == 12) {
+        return (java.lang.Float) moveParams_;
+      }
+      return 0F;
     }
 
     public static final int ROTATION_FIELD_NUMBER = 21;
@@ -681,107 +782,6 @@ public final class RoutePointOuterClass {
       return emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.getDefaultInstance();
     }
 
-    public static final int VELOCITY_FIELD_NUMBER = 11;
-    /**
-     * <code>float velocity = 11;</code>
-     * @return Whether the velocity field is set.
-     */
-    @java.lang.Override
-    public boolean hasVelocity() {
-      return moveParamsCase_ == 11;
-    }
-    /**
-     * <code>float velocity = 11;</code>
-     * @return The velocity.
-     */
-    @java.lang.Override
-    public float getVelocity() {
-      if (moveParamsCase_ == 11) {
-        return (java.lang.Float) moveParams_;
-      }
-      return 0F;
-    }
-
-    public static final int TIME_FIELD_NUMBER = 12;
-    /**
-     * <code>float time = 12;</code>
-     * @return Whether the time field is set.
-     */
-    @java.lang.Override
-    public boolean hasTime() {
-      return moveParamsCase_ == 12;
-    }
-    /**
-     * <code>float time = 12;</code>
-     * @return The time.
-     */
-    @java.lang.Override
-    public float getTime() {
-      if (moveParamsCase_ == 12) {
-        return (java.lang.Float) moveParams_;
-      }
-      return 0F;
-    }
-
-    public static final int POSITION_FIELD_NUMBER = 1;
-    private emu.grasscutter.net.proto.VectorOuterClass.Vector position_;
-    /**
-     * <code>.Vector position = 1;</code>
-     * @return Whether the position field is set.
-     */
-    @java.lang.Override
-    public boolean hasPosition() {
-      return position_ != null;
-    }
-    /**
-     * <code>.Vector position = 1;</code>
-     * @return The position.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.VectorOuterClass.Vector getPosition() {
-      return position_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : position_;
-    }
-    /**
-     * <code>.Vector position = 1;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPositionOrBuilder() {
-      return getPosition();
-    }
-
-    public static final int ARRIVE_RANGE_FIELD_NUMBER = 2;
-    private float arriveRange_;
-    /**
-     * <code>float arrive_range = 2;</code>
-     * @return The arriveRange.
-     */
-    @java.lang.Override
-    public float getArriveRange() {
-      return arriveRange_;
-    }
-
-    public static final int HAS_REACH_EVENT_FIELD_NUMBER = 3;
-    private boolean hasReachEvent_;
-    /**
-     * <code>bool has_reach_event = 3;</code>
-     * @return The hasReachEvent.
-     */
-    @java.lang.Override
-    public boolean getHasReachEvent() {
-      return hasReachEvent_;
-    }
-
-    public static final int SPEED_LEVEL_FIELD_NUMBER = 4;
-    private int speedLevel_;
-    /**
-     * <code>int32 speed_level = 4;</code>
-     * @return The speedLevel.
-     */
-    @java.lang.Override
-    public int getSpeedLevel() {
-      return speedLevel_;
-    }
-
     public static final int POINT_TYPE_FIELD_NUMBER = 24;
     private int pointType_;
     /**
@@ -802,9 +802,9 @@ public final class RoutePointOuterClass {
     }
 
     public static final int ACTION_FIELD_NUMBER = 25;
-    private emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP action_;
+    private emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLO action_;
     /**
-     * <code>.MHDOKEBFCFP action = 25;</code>
+     * <code>.EMEJENPCHLO action = 25;</code>
      * @return Whether the action field is set.
      */
     @java.lang.Override
@@ -812,30 +812,30 @@ public final class RoutePointOuterClass {
       return action_ != null;
     }
     /**
-     * <code>.MHDOKEBFCFP action = 25;</code>
+     * <code>.EMEJENPCHLO action = 25;</code>
      * @return The action.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP getAction() {
-      return action_ == null ? emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP.getDefaultInstance() : action_;
+    public emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLO getAction() {
+      return action_ == null ? emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLO.getDefaultInstance() : action_;
     }
     /**
-     * <code>.MHDOKEBFCFP action = 25;</code>
+     * <code>.EMEJENPCHLO action = 25;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFPOrBuilder getActionOrBuilder() {
+    public emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLOOrBuilder getActionOrBuilder() {
       return getAction();
     }
 
-    public static final int CPNIEMMJCKJ_FIELD_NUMBER = 26;
-    private boolean cpniemmjckj_;
+    public static final int OJHGMEPOMPO_FIELD_NUMBER = 26;
+    private boolean oJHGMEPOMPO_;
     /**
-     * <code>bool cpniemmjckj = 26;</code>
-     * @return The cpniemmjckj.
+     * <code>bool OJHGMEPOMPO = 26;</code>
+     * @return The oJHGMEPOMPO.
      */
     @java.lang.Override
-    public boolean getCpniemmjckj() {
-      return cpniemmjckj_;
+    public boolean getOJHGMEPOMPO() {
+      return oJHGMEPOMPO_;
     }
 
     public static final int EIHOHLKAHMF_FIELD_NUMBER = 27;
@@ -939,8 +939,8 @@ public final class RoutePointOuterClass {
       if (action_ != null) {
         output.writeMessage(25, getAction());
       }
-      if (cpniemmjckj_ != false) {
-        output.writeBool(26, cpniemmjckj_);
+      if (oJHGMEPOMPO_ != false) {
+        output.writeBool(26, oJHGMEPOMPO_);
       }
       if (eIHOHLKAHMF_ != 0) {
         output.writeUInt32(27, eIHOHLKAHMF_);
@@ -1009,9 +1009,9 @@ public final class RoutePointOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(25, getAction());
       }
-      if (cpniemmjckj_ != false) {
+      if (oJHGMEPOMPO_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(26, cpniemmjckj_);
+          .computeBoolSize(26, oJHGMEPOMPO_);
       }
       if (eIHOHLKAHMF_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1062,8 +1062,8 @@ public final class RoutePointOuterClass {
         if (!getAction()
             .equals(other.getAction())) return false;
       }
-      if (getCpniemmjckj()
-          != other.getCpniemmjckj()) return false;
+      if (getOJHGMEPOMPO()
+          != other.getOJHGMEPOMPO()) return false;
       if (getEIHOHLKAHMF()
           != other.getEIHOHLKAHMF()) return false;
       if (getPLKKAGBMEHC()
@@ -1071,6 +1071,21 @@ public final class RoutePointOuterClass {
       if (getMGNMPMKHHEI()
           != other.getMGNMPMKHHEI()) return false;
       if (lNDBCAEOICD_ != other.lNDBCAEOICD_) return false;
+      if (!getMoveParamsCase().equals(other.getMoveParamsCase())) return false;
+      switch (moveParamsCase_) {
+        case 11:
+          if (java.lang.Float.floatToIntBits(getVelocity())
+              != java.lang.Float.floatToIntBits(
+                  other.getVelocity())) return false;
+          break;
+        case 12:
+          if (java.lang.Float.floatToIntBits(getTime())
+              != java.lang.Float.floatToIntBits(
+                  other.getTime())) return false;
+          break;
+        case 0:
+        default:
+      }
       if (!getRotateParamsCase().equals(other.getRotateParamsCase())) return false;
       switch (rotateParamsCase_) {
         case 21:
@@ -1084,21 +1099,6 @@ public final class RoutePointOuterClass {
         case 23:
           if (!getAxisSpeed()
               .equals(other.getAxisSpeed())) return false;
-          break;
-        case 0:
-        default:
-      }
-      if (!getMoveParamsCase().equals(other.getMoveParamsCase())) return false;
-      switch (moveParamsCase_) {
-        case 11:
-          if (java.lang.Float.floatToIntBits(getVelocity())
-              != java.lang.Float.floatToIntBits(
-                  other.getVelocity())) return false;
-          break;
-        case 12:
-          if (java.lang.Float.floatToIntBits(getTime())
-              != java.lang.Float.floatToIntBits(
-                  other.getTime())) return false;
           break;
         case 0:
         default:
@@ -1132,9 +1132,9 @@ public final class RoutePointOuterClass {
         hash = (37 * hash) + ACTION_FIELD_NUMBER;
         hash = (53 * hash) + getAction().hashCode();
       }
-      hash = (37 * hash) + CPNIEMMJCKJ_FIELD_NUMBER;
+      hash = (37 * hash) + OJHGMEPOMPO_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getCpniemmjckj());
+          getOJHGMEPOMPO());
       hash = (37 * hash) + EIHOHLKAHMF_FIELD_NUMBER;
       hash = (53 * hash) + getEIHOHLKAHMF();
       hash = (37 * hash) + PLKKAGBMEHC_FIELD_NUMBER;
@@ -1145,6 +1145,20 @@ public final class RoutePointOuterClass {
           getMGNMPMKHHEI());
       hash = (37 * hash) + LNDBCAEOICD_FIELD_NUMBER;
       hash = (53 * hash) + lNDBCAEOICD_;
+      switch (moveParamsCase_) {
+        case 11:
+          hash = (37 * hash) + VELOCITY_FIELD_NUMBER;
+          hash = (53 * hash) + java.lang.Float.floatToIntBits(
+              getVelocity());
+          break;
+        case 12:
+          hash = (37 * hash) + TIME_FIELD_NUMBER;
+          hash = (53 * hash) + java.lang.Float.floatToIntBits(
+              getTime());
+          break;
+        case 0:
+        default:
+      }
       switch (rotateParamsCase_) {
         case 21:
           hash = (37 * hash) + ROTATION_FIELD_NUMBER;
@@ -1157,20 +1171,6 @@ public final class RoutePointOuterClass {
         case 23:
           hash = (37 * hash) + AXIS_SPEED_FIELD_NUMBER;
           hash = (53 * hash) + getAxisSpeed().hashCode();
-          break;
-        case 0:
-        default:
-      }
-      switch (moveParamsCase_) {
-        case 11:
-          hash = (37 * hash) + VELOCITY_FIELD_NUMBER;
-          hash = (53 * hash) + java.lang.Float.floatToIntBits(
-              getVelocity());
-          break;
-        case 12:
-          hash = (37 * hash) + TIME_FIELD_NUMBER;
-          hash = (53 * hash) + java.lang.Float.floatToIntBits(
-              getTime());
           break;
         case 0:
         default:
@@ -1328,7 +1328,7 @@ public final class RoutePointOuterClass {
           action_ = null;
           actionBuilder_ = null;
         }
-        cpniemmjckj_ = false;
+        oJHGMEPOMPO_ = false;
 
         eIHOHLKAHMF_ = 0;
 
@@ -1338,10 +1338,10 @@ public final class RoutePointOuterClass {
 
         lNDBCAEOICD_ = 0;
 
-        rotateParamsCase_ = 0;
-        rotateParams_ = null;
         moveParamsCase_ = 0;
         moveParams_ = null;
+        rotateParamsCase_ = 0;
+        rotateParams_ = null;
         return this;
       }
 
@@ -1368,6 +1368,20 @@ public final class RoutePointOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint buildPartial() {
         emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint result = new emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint(this);
+        if (positionBuilder_ == null) {
+          result.position_ = position_;
+        } else {
+          result.position_ = positionBuilder_.build();
+        }
+        result.arriveRange_ = arriveRange_;
+        result.hasReachEvent_ = hasReachEvent_;
+        result.speedLevel_ = speedLevel_;
+        if (moveParamsCase_ == 11) {
+          result.moveParams_ = moveParams_;
+        }
+        if (moveParamsCase_ == 12) {
+          result.moveParams_ = moveParams_;
+        }
         if (rotateParamsCase_ == 21) {
           if (rotationBuilder_ == null) {
             result.rotateParams_ = rotateParams_;
@@ -1389,33 +1403,19 @@ public final class RoutePointOuterClass {
             result.rotateParams_ = axisSpeedBuilder_.build();
           }
         }
-        if (moveParamsCase_ == 11) {
-          result.moveParams_ = moveParams_;
-        }
-        if (moveParamsCase_ == 12) {
-          result.moveParams_ = moveParams_;
-        }
-        if (positionBuilder_ == null) {
-          result.position_ = position_;
-        } else {
-          result.position_ = positionBuilder_.build();
-        }
-        result.arriveRange_ = arriveRange_;
-        result.hasReachEvent_ = hasReachEvent_;
-        result.speedLevel_ = speedLevel_;
         result.pointType_ = pointType_;
         if (actionBuilder_ == null) {
           result.action_ = action_;
         } else {
           result.action_ = actionBuilder_.build();
         }
-        result.cpniemmjckj_ = cpniemmjckj_;
+        result.oJHGMEPOMPO_ = oJHGMEPOMPO_;
         result.eIHOHLKAHMF_ = eIHOHLKAHMF_;
         result.pLKKAGBMEHC_ = pLKKAGBMEHC_;
         result.mGNMPMKHHEI_ = mGNMPMKHHEI_;
         result.lNDBCAEOICD_ = lNDBCAEOICD_;
-        result.rotateParamsCase_ = rotateParamsCase_;
         result.moveParamsCase_ = moveParamsCase_;
+        result.rotateParamsCase_ = rotateParamsCase_;
         onBuilt();
         return result;
       }
@@ -1482,8 +1482,8 @@ public final class RoutePointOuterClass {
         if (other.hasAction()) {
           mergeAction(other.getAction());
         }
-        if (other.getCpniemmjckj() != false) {
-          setCpniemmjckj(other.getCpniemmjckj());
+        if (other.getOJHGMEPOMPO() != false) {
+          setOJHGMEPOMPO(other.getOJHGMEPOMPO());
         }
         if (other.getEIHOHLKAHMF() != 0) {
           setEIHOHLKAHMF(other.getEIHOHLKAHMF());
@@ -1496,6 +1496,19 @@ public final class RoutePointOuterClass {
         }
         if (other.lNDBCAEOICD_ != 0) {
           setLNDBCAEOICDValue(other.getLNDBCAEOICDValue());
+        }
+        switch (other.getMoveParamsCase()) {
+          case VELOCITY: {
+            setVelocity(other.getVelocity());
+            break;
+          }
+          case TIME: {
+            setTime(other.getTime());
+            break;
+          }
+          case MOVEPARAMS_NOT_SET: {
+            break;
+          }
         }
         switch (other.getRotateParamsCase()) {
           case ROTATION: {
@@ -1511,19 +1524,6 @@ public final class RoutePointOuterClass {
             break;
           }
           case ROTATEPARAMS_NOT_SET: {
-            break;
-          }
-        }
-        switch (other.getMoveParamsCase()) {
-          case VELOCITY: {
-            setVelocity(other.getVelocity());
-            break;
-          }
-          case TIME: {
-            setTime(other.getTime());
-            break;
-          }
-          case MOVEPARAMS_NOT_SET: {
             break;
           }
         }
@@ -1555,21 +1555,6 @@ public final class RoutePointOuterClass {
         }
         return this;
       }
-      private int rotateParamsCase_ = 0;
-      private java.lang.Object rotateParams_;
-      public RotateParamsCase
-          getRotateParamsCase() {
-        return RotateParamsCase.forNumber(
-            rotateParamsCase_);
-      }
-
-      public Builder clearRotateParams() {
-        rotateParamsCase_ = 0;
-        rotateParams_ = null;
-        onChanged();
-        return this;
-      }
-
       private int moveParamsCase_ = 0;
       private java.lang.Object moveParams_;
       public MoveParamsCase
@@ -1585,6 +1570,315 @@ public final class RoutePointOuterClass {
         return this;
       }
 
+      private int rotateParamsCase_ = 0;
+      private java.lang.Object rotateParams_;
+      public RotateParamsCase
+          getRotateParamsCase() {
+        return RotateParamsCase.forNumber(
+            rotateParamsCase_);
+      }
+
+      public Builder clearRotateParams() {
+        rotateParamsCase_ = 0;
+        rotateParams_ = null;
+        onChanged();
+        return this;
+      }
+
+
+      private emu.grasscutter.net.proto.VectorOuterClass.Vector position_;
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> positionBuilder_;
+      /**
+       * <code>.Vector position = 1;</code>
+       * @return Whether the position field is set.
+       */
+      public boolean hasPosition() {
+        return positionBuilder_ != null || position_ != null;
+      }
+      /**
+       * <code>.Vector position = 1;</code>
+       * @return The position.
+       */
+      public emu.grasscutter.net.proto.VectorOuterClass.Vector getPosition() {
+        if (positionBuilder_ == null) {
+          return position_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : position_;
+        } else {
+          return positionBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>.Vector position = 1;</code>
+       */
+      public Builder setPosition(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
+        if (positionBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          position_ = value;
+          onChanged();
+        } else {
+          positionBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.Vector position = 1;</code>
+       */
+      public Builder setPosition(
+          emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
+        if (positionBuilder_ == null) {
+          position_ = builderForValue.build();
+          onChanged();
+        } else {
+          positionBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>.Vector position = 1;</code>
+       */
+      public Builder mergePosition(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
+        if (positionBuilder_ == null) {
+          if (position_ != null) {
+            position_ =
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.newBuilder(position_).mergeFrom(value).buildPartial();
+          } else {
+            position_ = value;
+          }
+          onChanged();
+        } else {
+          positionBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.Vector position = 1;</code>
+       */
+      public Builder clearPosition() {
+        if (positionBuilder_ == null) {
+          position_ = null;
+          onChanged();
+        } else {
+          position_ = null;
+          positionBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>.Vector position = 1;</code>
+       */
+      public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPositionBuilder() {
+        
+        onChanged();
+        return getPositionFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>.Vector position = 1;</code>
+       */
+      public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPositionOrBuilder() {
+        if (positionBuilder_ != null) {
+          return positionBuilder_.getMessageOrBuilder();
+        } else {
+          return position_ == null ?
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : position_;
+        }
+      }
+      /**
+       * <code>.Vector position = 1;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          getPositionFieldBuilder() {
+        if (positionBuilder_ == null) {
+          positionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>(
+                  getPosition(),
+                  getParentForChildren(),
+                  isClean());
+          position_ = null;
+        }
+        return positionBuilder_;
+      }
+
+      private float arriveRange_ ;
+      /**
+       * <code>float arrive_range = 2;</code>
+       * @return The arriveRange.
+       */
+      @java.lang.Override
+      public float getArriveRange() {
+        return arriveRange_;
+      }
+      /**
+       * <code>float arrive_range = 2;</code>
+       * @param value The arriveRange to set.
+       * @return This builder for chaining.
+       */
+      public Builder setArriveRange(float value) {
+        
+        arriveRange_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>float arrive_range = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearArriveRange() {
+        
+        arriveRange_ = 0F;
+        onChanged();
+        return this;
+      }
+
+      private boolean hasReachEvent_ ;
+      /**
+       * <code>bool has_reach_event = 3;</code>
+       * @return The hasReachEvent.
+       */
+      @java.lang.Override
+      public boolean getHasReachEvent() {
+        return hasReachEvent_;
+      }
+      /**
+       * <code>bool has_reach_event = 3;</code>
+       * @param value The hasReachEvent to set.
+       * @return This builder for chaining.
+       */
+      public Builder setHasReachEvent(boolean value) {
+        
+        hasReachEvent_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool has_reach_event = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearHasReachEvent() {
+        
+        hasReachEvent_ = false;
+        onChanged();
+        return this;
+      }
+
+      private int speedLevel_ ;
+      /**
+       * <code>int32 speed_level = 4;</code>
+       * @return The speedLevel.
+       */
+      @java.lang.Override
+      public int getSpeedLevel() {
+        return speedLevel_;
+      }
+      /**
+       * <code>int32 speed_level = 4;</code>
+       * @param value The speedLevel to set.
+       * @return This builder for chaining.
+       */
+      public Builder setSpeedLevel(int value) {
+        
+        speedLevel_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>int32 speed_level = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearSpeedLevel() {
+        
+        speedLevel_ = 0;
+        onChanged();
+        return this;
+      }
+
+      /**
+       * <code>float velocity = 11;</code>
+       * @return Whether the velocity field is set.
+       */
+      public boolean hasVelocity() {
+        return moveParamsCase_ == 11;
+      }
+      /**
+       * <code>float velocity = 11;</code>
+       * @return The velocity.
+       */
+      public float getVelocity() {
+        if (moveParamsCase_ == 11) {
+          return (java.lang.Float) moveParams_;
+        }
+        return 0F;
+      }
+      /**
+       * <code>float velocity = 11;</code>
+       * @param value The velocity to set.
+       * @return This builder for chaining.
+       */
+      public Builder setVelocity(float value) {
+        moveParamsCase_ = 11;
+        moveParams_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>float velocity = 11;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearVelocity() {
+        if (moveParamsCase_ == 11) {
+          moveParamsCase_ = 0;
+          moveParams_ = null;
+          onChanged();
+        }
+        return this;
+      }
+
+      /**
+       * <code>float time = 12;</code>
+       * @return Whether the time field is set.
+       */
+      public boolean hasTime() {
+        return moveParamsCase_ == 12;
+      }
+      /**
+       * <code>float time = 12;</code>
+       * @return The time.
+       */
+      public float getTime() {
+        if (moveParamsCase_ == 12) {
+          return (java.lang.Float) moveParams_;
+        }
+        return 0F;
+      }
+      /**
+       * <code>float time = 12;</code>
+       * @param value The time to set.
+       * @return This builder for chaining.
+       */
+      public Builder setTime(float value) {
+        moveParamsCase_ = 12;
+        moveParams_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>float time = 12;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearTime() {
+        if (moveParamsCase_ == 12) {
+          moveParamsCase_ = 0;
+          moveParams_ = null;
+          onChanged();
+        }
+        return this;
+      }
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> rotationBuilder_;
@@ -2009,300 +2303,6 @@ public final class RoutePointOuterClass {
         return axisSpeedBuilder_;
       }
 
-      /**
-       * <code>float velocity = 11;</code>
-       * @return Whether the velocity field is set.
-       */
-      public boolean hasVelocity() {
-        return moveParamsCase_ == 11;
-      }
-      /**
-       * <code>float velocity = 11;</code>
-       * @return The velocity.
-       */
-      public float getVelocity() {
-        if (moveParamsCase_ == 11) {
-          return (java.lang.Float) moveParams_;
-        }
-        return 0F;
-      }
-      /**
-       * <code>float velocity = 11;</code>
-       * @param value The velocity to set.
-       * @return This builder for chaining.
-       */
-      public Builder setVelocity(float value) {
-        moveParamsCase_ = 11;
-        moveParams_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>float velocity = 11;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearVelocity() {
-        if (moveParamsCase_ == 11) {
-          moveParamsCase_ = 0;
-          moveParams_ = null;
-          onChanged();
-        }
-        return this;
-      }
-
-      /**
-       * <code>float time = 12;</code>
-       * @return Whether the time field is set.
-       */
-      public boolean hasTime() {
-        return moveParamsCase_ == 12;
-      }
-      /**
-       * <code>float time = 12;</code>
-       * @return The time.
-       */
-      public float getTime() {
-        if (moveParamsCase_ == 12) {
-          return (java.lang.Float) moveParams_;
-        }
-        return 0F;
-      }
-      /**
-       * <code>float time = 12;</code>
-       * @param value The time to set.
-       * @return This builder for chaining.
-       */
-      public Builder setTime(float value) {
-        moveParamsCase_ = 12;
-        moveParams_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>float time = 12;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearTime() {
-        if (moveParamsCase_ == 12) {
-          moveParamsCase_ = 0;
-          moveParams_ = null;
-          onChanged();
-        }
-        return this;
-      }
-
-      private emu.grasscutter.net.proto.VectorOuterClass.Vector position_;
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> positionBuilder_;
-      /**
-       * <code>.Vector position = 1;</code>
-       * @return Whether the position field is set.
-       */
-      public boolean hasPosition() {
-        return positionBuilder_ != null || position_ != null;
-      }
-      /**
-       * <code>.Vector position = 1;</code>
-       * @return The position.
-       */
-      public emu.grasscutter.net.proto.VectorOuterClass.Vector getPosition() {
-        if (positionBuilder_ == null) {
-          return position_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : position_;
-        } else {
-          return positionBuilder_.getMessage();
-        }
-      }
-      /**
-       * <code>.Vector position = 1;</code>
-       */
-      public Builder setPosition(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
-        if (positionBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          position_ = value;
-          onChanged();
-        } else {
-          positionBuilder_.setMessage(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector position = 1;</code>
-       */
-      public Builder setPosition(
-          emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
-        if (positionBuilder_ == null) {
-          position_ = builderForValue.build();
-          onChanged();
-        } else {
-          positionBuilder_.setMessage(builderForValue.build());
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector position = 1;</code>
-       */
-      public Builder mergePosition(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
-        if (positionBuilder_ == null) {
-          if (position_ != null) {
-            position_ =
-              emu.grasscutter.net.proto.VectorOuterClass.Vector.newBuilder(position_).mergeFrom(value).buildPartial();
-          } else {
-            position_ = value;
-          }
-          onChanged();
-        } else {
-          positionBuilder_.mergeFrom(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector position = 1;</code>
-       */
-      public Builder clearPosition() {
-        if (positionBuilder_ == null) {
-          position_ = null;
-          onChanged();
-        } else {
-          position_ = null;
-          positionBuilder_ = null;
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector position = 1;</code>
-       */
-      public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPositionBuilder() {
-        
-        onChanged();
-        return getPositionFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>.Vector position = 1;</code>
-       */
-      public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPositionOrBuilder() {
-        if (positionBuilder_ != null) {
-          return positionBuilder_.getMessageOrBuilder();
-        } else {
-          return position_ == null ?
-              emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : position_;
-        }
-      }
-      /**
-       * <code>.Vector position = 1;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
-          getPositionFieldBuilder() {
-        if (positionBuilder_ == null) {
-          positionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>(
-                  getPosition(),
-                  getParentForChildren(),
-                  isClean());
-          position_ = null;
-        }
-        return positionBuilder_;
-      }
-
-      private float arriveRange_ ;
-      /**
-       * <code>float arrive_range = 2;</code>
-       * @return The arriveRange.
-       */
-      @java.lang.Override
-      public float getArriveRange() {
-        return arriveRange_;
-      }
-      /**
-       * <code>float arrive_range = 2;</code>
-       * @param value The arriveRange to set.
-       * @return This builder for chaining.
-       */
-      public Builder setArriveRange(float value) {
-        
-        arriveRange_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>float arrive_range = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearArriveRange() {
-        
-        arriveRange_ = 0F;
-        onChanged();
-        return this;
-      }
-
-      private boolean hasReachEvent_ ;
-      /**
-       * <code>bool has_reach_event = 3;</code>
-       * @return The hasReachEvent.
-       */
-      @java.lang.Override
-      public boolean getHasReachEvent() {
-        return hasReachEvent_;
-      }
-      /**
-       * <code>bool has_reach_event = 3;</code>
-       * @param value The hasReachEvent to set.
-       * @return This builder for chaining.
-       */
-      public Builder setHasReachEvent(boolean value) {
-        
-        hasReachEvent_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool has_reach_event = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearHasReachEvent() {
-        
-        hasReachEvent_ = false;
-        onChanged();
-        return this;
-      }
-
-      private int speedLevel_ ;
-      /**
-       * <code>int32 speed_level = 4;</code>
-       * @return The speedLevel.
-       */
-      @java.lang.Override
-      public int getSpeedLevel() {
-        return speedLevel_;
-      }
-      /**
-       * <code>int32 speed_level = 4;</code>
-       * @param value The speedLevel to set.
-       * @return This builder for chaining.
-       */
-      public Builder setSpeedLevel(int value) {
-        
-        speedLevel_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>int32 speed_level = 4;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearSpeedLevel() {
-        
-        speedLevel_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int pointType_ = 0;
       /**
        * <code>.PHCHPFLPIFL point_type = 24;</code>
@@ -2357,31 +2357,31 @@ public final class RoutePointOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP action_;
+      private emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLO action_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP, emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP.Builder, emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFPOrBuilder> actionBuilder_;
+          emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLO, emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLO.Builder, emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLOOrBuilder> actionBuilder_;
       /**
-       * <code>.MHDOKEBFCFP action = 25;</code>
+       * <code>.EMEJENPCHLO action = 25;</code>
        * @return Whether the action field is set.
        */
       public boolean hasAction() {
         return actionBuilder_ != null || action_ != null;
       }
       /**
-       * <code>.MHDOKEBFCFP action = 25;</code>
+       * <code>.EMEJENPCHLO action = 25;</code>
        * @return The action.
        */
-      public emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP getAction() {
+      public emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLO getAction() {
         if (actionBuilder_ == null) {
-          return action_ == null ? emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP.getDefaultInstance() : action_;
+          return action_ == null ? emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLO.getDefaultInstance() : action_;
         } else {
           return actionBuilder_.getMessage();
         }
       }
       /**
-       * <code>.MHDOKEBFCFP action = 25;</code>
+       * <code>.EMEJENPCHLO action = 25;</code>
        */
-      public Builder setAction(emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP value) {
+      public Builder setAction(emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLO value) {
         if (actionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2395,10 +2395,10 @@ public final class RoutePointOuterClass {
         return this;
       }
       /**
-       * <code>.MHDOKEBFCFP action = 25;</code>
+       * <code>.EMEJENPCHLO action = 25;</code>
        */
       public Builder setAction(
-          emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP.Builder builderForValue) {
+          emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLO.Builder builderForValue) {
         if (actionBuilder_ == null) {
           action_ = builderForValue.build();
           onChanged();
@@ -2409,13 +2409,13 @@ public final class RoutePointOuterClass {
         return this;
       }
       /**
-       * <code>.MHDOKEBFCFP action = 25;</code>
+       * <code>.EMEJENPCHLO action = 25;</code>
        */
-      public Builder mergeAction(emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP value) {
+      public Builder mergeAction(emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLO value) {
         if (actionBuilder_ == null) {
           if (action_ != null) {
             action_ =
-              emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP.newBuilder(action_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLO.newBuilder(action_).mergeFrom(value).buildPartial();
           } else {
             action_ = value;
           }
@@ -2427,7 +2427,7 @@ public final class RoutePointOuterClass {
         return this;
       }
       /**
-       * <code>.MHDOKEBFCFP action = 25;</code>
+       * <code>.EMEJENPCHLO action = 25;</code>
        */
       public Builder clearAction() {
         if (actionBuilder_ == null) {
@@ -2441,33 +2441,33 @@ public final class RoutePointOuterClass {
         return this;
       }
       /**
-       * <code>.MHDOKEBFCFP action = 25;</code>
+       * <code>.EMEJENPCHLO action = 25;</code>
        */
-      public emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP.Builder getActionBuilder() {
+      public emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLO.Builder getActionBuilder() {
         
         onChanged();
         return getActionFieldBuilder().getBuilder();
       }
       /**
-       * <code>.MHDOKEBFCFP action = 25;</code>
+       * <code>.EMEJENPCHLO action = 25;</code>
        */
-      public emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFPOrBuilder getActionOrBuilder() {
+      public emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLOOrBuilder getActionOrBuilder() {
         if (actionBuilder_ != null) {
           return actionBuilder_.getMessageOrBuilder();
         } else {
           return action_ == null ?
-              emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP.getDefaultInstance() : action_;
+              emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLO.getDefaultInstance() : action_;
         }
       }
       /**
-       * <code>.MHDOKEBFCFP action = 25;</code>
+       * <code>.EMEJENPCHLO action = 25;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP, emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP.Builder, emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFPOrBuilder> 
+          emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLO, emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLO.Builder, emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLOOrBuilder> 
           getActionFieldBuilder() {
         if (actionBuilder_ == null) {
           actionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP, emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP.Builder, emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFPOrBuilder>(
+              emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLO, emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLO.Builder, emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.EMEJENPCHLOOrBuilder>(
                   getAction(),
                   getParentForChildren(),
                   isClean());
@@ -2476,33 +2476,33 @@ public final class RoutePointOuterClass {
         return actionBuilder_;
       }
 
-      private boolean cpniemmjckj_ ;
+      private boolean oJHGMEPOMPO_ ;
       /**
-       * <code>bool cpniemmjckj = 26;</code>
-       * @return The cpniemmjckj.
+       * <code>bool OJHGMEPOMPO = 26;</code>
+       * @return The oJHGMEPOMPO.
        */
       @java.lang.Override
-      public boolean getCpniemmjckj() {
-        return cpniemmjckj_;
+      public boolean getOJHGMEPOMPO() {
+        return oJHGMEPOMPO_;
       }
       /**
-       * <code>bool cpniemmjckj = 26;</code>
-       * @param value The cpniemmjckj to set.
+       * <code>bool OJHGMEPOMPO = 26;</code>
+       * @param value The oJHGMEPOMPO to set.
        * @return This builder for chaining.
        */
-      public Builder setCpniemmjckj(boolean value) {
+      public Builder setOJHGMEPOMPO(boolean value) {
         
-        cpniemmjckj_ = value;
+        oJHGMEPOMPO_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool cpniemmjckj = 26;</code>
+       * <code>bool OJHGMEPOMPO = 26;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCpniemmjckj() {
+      public Builder clearOJHGMEPOMPO() {
         
-        cpniemmjckj_ = false;
+        oJHGMEPOMPO_ = false;
         onChanged();
         return this;
       }
@@ -2720,31 +2720,30 @@ public final class RoutePointOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\020RoutePoint.proto\032\021MHDOKEBFCFP.proto\032\024M" +
+      "\n\020RoutePoint.proto\032\021EMEJENPCHLO.proto\032\024M" +
       "athQuaternion.proto\032\021PHCHPFLPIFL.proto\032\014" +
-      "Vector.proto\"\343\004\n\nRoutePoint\022\033\n\010rotation\030" +
-      "\025 \001(\0132\007.VectorH\000\022)\n\016rotation_speed\030\026 \001(\013" +
-      "2\017.MathQuaternionH\000\022%\n\naxis_speed\030\027 \001(\0132" +
-      "\017.MathQuaternionH\000\022\022\n\010velocity\030\013 \001(\002H\001\022\016" +
-      "\n\004time\030\014 \001(\002H\001\022\031\n\010position\030\001 \001(\0132\007.Vecto" +
-      "r\022\024\n\014arrive_range\030\002 \001(\002\022\027\n\017has_reach_eve" +
-      "nt\030\003 \001(\010\022\023\n\013speed_level\030\004 \001(\005\022 \n\npoint_t" +
+      "Vector.proto\"\343\004\n\nRoutePoint\022\031\n\010position\030" +
+      "\001 \001(\0132\007.Vector\022\024\n\014arrive_range\030\002 \001(\002\022\027\n\017" +
+      "has_reach_event\030\003 \001(\010\022\023\n\013speed_level\030\004 \001" +
+      "(\005\022\022\n\010velocity\030\013 \001(\002H\000\022\016\n\004time\030\014 \001(\002H\000\022\033" +
+      "\n\010rotation\030\025 \001(\0132\007.VectorH\001\022)\n\016rotation_" +
+      "speed\030\026 \001(\0132\017.MathQuaternionH\001\022%\n\naxis_s" +
+      "peed\030\027 \001(\0132\017.MathQuaternionH\001\022 \n\npoint_t" +
       "ype\030\030 \001(\0162\014.PHCHPFLPIFL\022\034\n\006action\030\031 \001(\0132" +
-      "\014.MHDOKEBFCFP\022\023\n\013cpniemmjckj\030\032 \001(\010\022\023\n\013EI" +
+      "\014.EMEJENPCHLO\022\023\n\013OJHGMEPOMPO\030\032 \001(\010\022\023\n\013EI" +
       "HOHLKAHMF\030\033 \001(\r\022\023\n\013PLKKAGBMEHC\030\034 \001(\010\022\023\n\013" +
       "MGNMPMKHHEI\030\035 \001(\010\022,\n\013LNDBCAEOICD\030\036 \001(\0162\027" +
       ".RoutePoint.IGDEDOLNAKF\"\200\001\n\013IGDEDOLNAKF\022" +
       "\031\n\025IGDEDOLNAKF_KEEP_MOVE\020\000\022$\n IGDEDOLNAK" +
       "F_TELEPORT_BY_OBSTACLE\020\001\0220\n,IGDEDOLNAKF_" +
-      "FADE_IN_OUT_TELEPORT_BY_OBSTACLE\020\002B\017\n\rro" +
-      "tate_paramsB\r\n\013move_paramsB1\n\031emu.grassc" +
-      "utter.net.protoB\024RoutePointOuterClassb\006p" +
-      "roto3"
+      "FADE_IN_OUT_TELEPORT_BY_OBSTACLE\020\002B\r\n\013mo" +
+      "ve_paramsB\017\n\rrotate_paramsB\033\n\031emu.grassc" +
+      "utter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.MathQuaternionOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.PHCHPFLPIFLOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.VectorOuterClass.getDescriptor(),
@@ -2754,8 +2753,8 @@ public final class RoutePointOuterClass {
     internal_static_RoutePoint_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_RoutePoint_descriptor,
-        new java.lang.String[] { "Rotation", "RotationSpeed", "AxisSpeed", "Velocity", "Time", "Position", "ArriveRange", "HasReachEvent", "SpeedLevel", "PointType", "Action", "Cpniemmjckj", "EIHOHLKAHMF", "PLKKAGBMEHC", "MGNMPMKHHEI", "LNDBCAEOICD", "RotateParams", "MoveParams", });
-    emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.getDescriptor();
+        new java.lang.String[] { "Position", "ArriveRange", "HasReachEvent", "SpeedLevel", "Velocity", "Time", "Rotation", "RotationSpeed", "AxisSpeed", "PointType", "Action", "OJHGMEPOMPO", "EIHOHLKAHMF", "PLKKAGBMEHC", "MGNMPMKHHEI", "LNDBCAEOICD", "MoveParams", "RotateParams", });
+    emu.grasscutter.net.proto.EMEJENPCHLOOuterClass.getDescriptor();
     emu.grasscutter.net.proto.MathQuaternionOuterClass.getDescriptor();
     emu.grasscutter.net.proto.PHCHPFLPIFLOuterClass.getDescriptor();
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();

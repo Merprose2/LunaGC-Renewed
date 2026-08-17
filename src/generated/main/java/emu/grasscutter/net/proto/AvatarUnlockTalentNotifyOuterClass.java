@@ -43,6 +43,10 @@ public final class AvatarUnlockTalentNotifyOuterClass {
     int getSkillDepotId();
   }
   /**
+   * <pre>
+   * CmdID: 29023
+   * </pre>
+   *
    * Protobuf type {@code AvatarUnlockTalentNotify}
    */
   public static final class AvatarUnlockTalentNotify extends
@@ -373,6 +377,10 @@ public final class AvatarUnlockTalentNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 29023
+     * </pre>
+     *
      * Protobuf type {@code AvatarUnlockTalentNotify}
      */
     public static final class Builder extends
@@ -730,9 +738,8 @@ public final class AvatarUnlockTalentNotifyOuterClass {
       "\n\036AvatarUnlockTalentNotify.proto\"m\n\030Avat" +
       "arUnlockTalentNotify\022\023\n\013avatar_guid\030\003 \001(" +
       "\004\022\021\n\ttalent_id\030\005 \001(\r\022\021\n\tentity_id\030\007 \001(\r\022" +
-      "\026\n\016skill_depot_id\030\016 \001(\rB?\n\031emu.grasscutt" +
-      "er.net.protoB\"AvatarUnlockTalentNotifyOu" +
-      "terClassb\006proto3"
+      "\026\n\016skill_depot_id\030\016 \001(\rB\033\n\031emu.grasscutt" +
+      "er.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

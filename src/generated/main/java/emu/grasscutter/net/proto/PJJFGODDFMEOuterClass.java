@@ -730,9 +730,8 @@ public final class PJJFGODDFMEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PJJFGODDFME.proto\"X\n\013PJJFGODDFME\022\021\n\tma" +
       "x_score\030\005 \001(\r\022\023\n\013is_finished\030\006 \001(\010\022\017\n\007is" +
-      "_open\030\010 \001(\010\022\020\n\010level_id\030\n \001(\rB2\n\031emu.gra" +
-      "sscutter.net.protoB\025PJJFGODDFMEOuterClas" +
-      "sb\006proto3"
+      "_open\030\010 \001(\010\022\020\n\010level_id\030\n \001(\rB\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

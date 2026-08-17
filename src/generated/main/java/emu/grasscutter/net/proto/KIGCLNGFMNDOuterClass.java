@@ -714,9 +714,8 @@ public final class KIGCLNGFMNDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KIGCLNGFMND.proto\"7\n\013KIGCLNGFMND\022\023\n\013MM" +
-      "CBCEOJBPB\030\001 \001(\r\022\023\n\013ENIINHOKAJO\030\002 \003(\rB2\n\031" +
-      "emu.grasscutter.net.protoB\025KIGCLNGFMNDOu" +
-      "terClassb\006proto3"
+      "CBCEOJBPB\030\001 \001(\r\022\023\n\013ENIINHOKAJO\030\002 \003(\rB\033\n\031" +
+      "emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

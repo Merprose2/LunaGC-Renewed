@@ -55,12 +55,12 @@ public final class AvatarExpeditionStartRspOuterClass {
     /**
      * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
      */
-    java.util.List<emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo> 
+    java.util.List<emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo> 
         getExpeditionBasicInfoListList();
     /**
      * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
      */
-    emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo getExpeditionBasicInfoList(int index);
+    emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo getExpeditionBasicInfoList(int index);
     /**
      * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
      */
@@ -68,12 +68,12 @@ public final class AvatarExpeditionStartRspOuterClass {
     /**
      * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfoOrBuilder> 
         getExpeditionBasicInfoListOrBuilderList();
     /**
      * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
      */
-    emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder getExpeditionBasicInfoListOrBuilder(
+    emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfoOrBuilder getExpeditionBasicInfoListOrBuilder(
         int index);
 
     /**
@@ -100,6 +100,10 @@ public final class AvatarExpeditionStartRspOuterClass {
     int getILBIKNLHAKE(int index);
   }
   /**
+   * <pre>
+   * CmdID: 8682
+   * </pre>
+   *
    * Protobuf type {@code AvatarExpeditionStartRsp}
    */
   public static final class AvatarExpeditionStartRsp extends
@@ -162,11 +166,11 @@ public final class AvatarExpeditionStartRspOuterClass {
             }
             case 66: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                ExpeditionBasicInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo>();
+                ExpeditionBasicInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo>();
                 mutable_bitField0_ |= 0x00000002;
               }
               ExpeditionBasicInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo.parser(), extensionRegistry));
               break;
             }
             case 96: {
@@ -327,19 +331,19 @@ public final class AvatarExpeditionStartRspOuterClass {
     }
 
     public static final int _EXPEDITION_BASIC_INFO_LIST_FIELD_NUMBER = 8;
-    private java.util.List<emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo> ExpeditionBasicInfoList_;
+    private java.util.List<emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo> ExpeditionBasicInfoList_;
     /**
      * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo> getExpeditionBasicInfoListList() {
+    public java.util.List<emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo> getExpeditionBasicInfoListList() {
       return ExpeditionBasicInfoList_;
     }
     /**
      * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfoOrBuilder> 
         getExpeditionBasicInfoListOrBuilderList() {
       return ExpeditionBasicInfoList_;
     }
@@ -354,14 +358,14 @@ public final class AvatarExpeditionStartRspOuterClass {
      * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo getExpeditionBasicInfoList(int index) {
+    public emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo getExpeditionBasicInfoList(int index) {
       return ExpeditionBasicInfoList_.get(index);
     }
     /**
      * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder getExpeditionBasicInfoListOrBuilder(
+    public emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfoOrBuilder getExpeditionBasicInfoListOrBuilder(
         int index) {
       return ExpeditionBasicInfoList_.get(index);
     }
@@ -624,6 +628,10 @@ public final class AvatarExpeditionStartRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 8682
+     * </pre>
+     *
      * Protobuf type {@code AvatarExpeditionStartRsp}
      */
     public static final class Builder extends
@@ -986,22 +994,22 @@ public final class AvatarExpeditionStartRspOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo> ExpeditionBasicInfoList_ =
+      private java.util.List<emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo> ExpeditionBasicInfoList_ =
         java.util.Collections.emptyList();
       private void ensureExpeditionBasicInfoListIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          ExpeditionBasicInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo>(ExpeditionBasicInfoList_);
+          ExpeditionBasicInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo>(ExpeditionBasicInfoList_);
           bitField0_ |= 0x00000002;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder> ExpeditionBasicInfoListBuilder_;
+          emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo, emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo.Builder, emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfoOrBuilder> ExpeditionBasicInfoListBuilder_;
 
       /**
        * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo> getExpeditionBasicInfoListList() {
+      public java.util.List<emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo> getExpeditionBasicInfoListList() {
         if (ExpeditionBasicInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(ExpeditionBasicInfoList_);
         } else {
@@ -1021,7 +1029,7 @@ public final class AvatarExpeditionStartRspOuterClass {
       /**
        * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
        */
-      public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo getExpeditionBasicInfoList(int index) {
+      public emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo getExpeditionBasicInfoList(int index) {
         if (ExpeditionBasicInfoListBuilder_ == null) {
           return ExpeditionBasicInfoList_.get(index);
         } else {
@@ -1032,7 +1040,7 @@ public final class AvatarExpeditionStartRspOuterClass {
        * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
        */
       public Builder setExpeditionBasicInfoList(
-          int index, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo value) {
+          int index, emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo value) {
         if (ExpeditionBasicInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1049,7 +1057,7 @@ public final class AvatarExpeditionStartRspOuterClass {
        * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
        */
       public Builder setExpeditionBasicInfoList(
-          int index, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo.Builder builderForValue) {
         if (ExpeditionBasicInfoListBuilder_ == null) {
           ensureExpeditionBasicInfoListIsMutable();
           ExpeditionBasicInfoList_.set(index, builderForValue.build());
@@ -1062,7 +1070,7 @@ public final class AvatarExpeditionStartRspOuterClass {
       /**
        * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
        */
-      public Builder addExpeditionBasicInfoList(emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo value) {
+      public Builder addExpeditionBasicInfoList(emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo value) {
         if (ExpeditionBasicInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1079,7 +1087,7 @@ public final class AvatarExpeditionStartRspOuterClass {
        * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
        */
       public Builder addExpeditionBasicInfoList(
-          int index, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo value) {
+          int index, emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo value) {
         if (ExpeditionBasicInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1096,7 +1104,7 @@ public final class AvatarExpeditionStartRspOuterClass {
        * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
        */
       public Builder addExpeditionBasicInfoList(
-          emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo.Builder builderForValue) {
         if (ExpeditionBasicInfoListBuilder_ == null) {
           ensureExpeditionBasicInfoListIsMutable();
           ExpeditionBasicInfoList_.add(builderForValue.build());
@@ -1110,7 +1118,7 @@ public final class AvatarExpeditionStartRspOuterClass {
        * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
        */
       public Builder addExpeditionBasicInfoList(
-          int index, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo.Builder builderForValue) {
         if (ExpeditionBasicInfoListBuilder_ == null) {
           ensureExpeditionBasicInfoListIsMutable();
           ExpeditionBasicInfoList_.add(index, builderForValue.build());
@@ -1124,7 +1132,7 @@ public final class AvatarExpeditionStartRspOuterClass {
        * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
        */
       public Builder addAllExpeditionBasicInfoList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo> values) {
         if (ExpeditionBasicInfoListBuilder_ == null) {
           ensureExpeditionBasicInfoListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -1164,14 +1172,14 @@ public final class AvatarExpeditionStartRspOuterClass {
       /**
        * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
        */
-      public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder getExpeditionBasicInfoListBuilder(
+      public emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo.Builder getExpeditionBasicInfoListBuilder(
           int index) {
         return getExpeditionBasicInfoListFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
        */
-      public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder getExpeditionBasicInfoListOrBuilder(
+      public emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfoOrBuilder getExpeditionBasicInfoListOrBuilder(
           int index) {
         if (ExpeditionBasicInfoListBuilder_ == null) {
           return ExpeditionBasicInfoList_.get(index);  } else {
@@ -1181,7 +1189,7 @@ public final class AvatarExpeditionStartRspOuterClass {
       /**
        * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfoOrBuilder> 
            getExpeditionBasicInfoListOrBuilderList() {
         if (ExpeditionBasicInfoListBuilder_ != null) {
           return ExpeditionBasicInfoListBuilder_.getMessageOrBuilderList();
@@ -1192,31 +1200,31 @@ public final class AvatarExpeditionStartRspOuterClass {
       /**
        * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
        */
-      public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder addExpeditionBasicInfoListBuilder() {
+      public emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo.Builder addExpeditionBasicInfoListBuilder() {
         return getExpeditionBasicInfoListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.getDefaultInstance());
+            emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
        */
-      public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder addExpeditionBasicInfoListBuilder(
+      public emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo.Builder addExpeditionBasicInfoListBuilder(
           int index) {
         return getExpeditionBasicInfoListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo.Builder> 
            getExpeditionBasicInfoListBuilderList() {
         return getExpeditionBasicInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder> 
+          emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo, emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo.Builder, emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfoOrBuilder> 
           getExpeditionBasicInfoListFieldBuilder() {
         if (ExpeditionBasicInfoListBuilder_ == null) {
           ExpeditionBasicInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder>(
+              emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo, emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfo.Builder, emu.grasscutter.net.proto.AvatarExpeditionBasicInfo._AvatarExpeditionBasicInfoOrBuilder>(
                   ExpeditionBasicInfoList_,
                   ((bitField0_ & 0x00000002) != 0),
                   getParentForChildren(),
@@ -1416,15 +1424,14 @@ public final class AvatarExpeditionStartRspOuterClass {
       "\033._AvatarExpeditionBasicInfo\022\017\n\007retcode\030" +
       "\014 \001(\005\022\023\n\013ILBIKNLHAKE\030\016 \003(\005\032O\n\026Expedition" +
       "InfoMapEntry\022\013\n\003key\030\001 \001(\004\022$\n\005value\030\002 \001(\013" +
-      "2\025.AvatarExpeditionInfo:\0028\001B?\n\031emu.grass" +
-      "cutter.net.protoB\"AvatarExpeditionStartR" +
-      "spOuterClassb\006proto3"
+      "2\025.AvatarExpeditionInfo:\0028\001B\033\n\031emu.grass" +
+      "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.AvatarExpeditionBasicInfo.getDescriptor(),
         });
     internal_static_AvatarExpeditionStartRsp_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1439,7 +1446,7 @@ public final class AvatarExpeditionStartRspOuterClass {
         internal_static_AvatarExpeditionStartRsp_ExpeditionInfoMapEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
     emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.getDescriptor();
-    emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.AvatarExpeditionBasicInfo.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

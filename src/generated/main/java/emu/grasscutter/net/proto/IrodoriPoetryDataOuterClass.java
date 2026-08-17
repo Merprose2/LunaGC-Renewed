@@ -894,9 +894,8 @@ public final class IrodoriPoetryDataOuterClass {
       "\n\027IrodoriPoetryData.proto\032\034IrodoriPoetry" +
       "ThemeData.proto\"[\n\021IrodoriPoetryData\0220\n\017" +
       "theme_data_list\030\001 \003(\0132\027.IrodoriPoetryThe" +
-      "meData\022\024\n\014cur_theme_id\030\002 \001(\rB8\n\031emu.gras" +
-      "scutter.net.protoB\033IrodoriPoetryDataOute" +
-      "rClassb\006proto3"
+      "meData\022\024\n\014cur_theme_id\030\002 \001(\rB\033\n\031emu.gras" +
+      "scutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

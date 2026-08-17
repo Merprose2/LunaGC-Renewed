@@ -27,11 +27,11 @@ public final class AGDDMMIAGHCOuterClass {
      * <code>._CurrentPhase AMEILFAPLBD = 1;</code>
      * @return The aMEILFAPLBD.
      */
-    emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getAMEILFAPLBD();
+    emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getAMEILFAPLBD();
     /**
      * <code>._CurrentPhase AMEILFAPLBD = 1;</code>
      */
-    emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getAMEILFAPLBDOrBuilder();
+    emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getAMEILFAPLBDOrBuilder();
 
     /**
      * <code>uint32 AIFNFGFAJOC = 2;</code>
@@ -48,11 +48,11 @@ public final class AGDDMMIAGHCOuterClass {
      * <code>._TacticReturnToBornPosInfo HNIIHEABBNM = 3;</code>
      * @return The hNIIHEABBNM.
      */
-    emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo getHNIIHEABBNM();
+    emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo getHNIIHEABBNM();
     /**
      * <code>._TacticReturnToBornPosInfo HNIIHEABBNM = 3;</code>
      */
-    emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfoOrBuilder getHNIIHEABBNMOrBuilder();
+    emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfoOrBuilder getHNIIHEABBNMOrBuilder();
 
     /**
      * <code>repeated .NPFNMNICBDL PKHBKFNODPI = 4;</code>
@@ -166,11 +166,11 @@ public final class AGDDMMIAGHCOuterClass {
               done = true;
               break;
             case 10: {
-              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder subBuilder = null;
+              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder subBuilder = null;
               if (aMEILFAPLBD_ != null) {
                 subBuilder = aMEILFAPLBD_.toBuilder();
               }
-              aMEILFAPLBD_ = input.readMessage(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.parser(), extensionRegistry);
+              aMEILFAPLBD_ = input.readMessage(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(aMEILFAPLBD_);
                 aMEILFAPLBD_ = subBuilder.buildPartial();
@@ -184,11 +184,11 @@ public final class AGDDMMIAGHCOuterClass {
               break;
             }
             case 26: {
-              emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.Builder subBuilder = null;
               if (hNIIHEABBNM_ != null) {
                 subBuilder = hNIIHEABBNM_.toBuilder();
               }
-              hNIIHEABBNM_ = input.readMessage(emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.parser(), extensionRegistry);
+              hNIIHEABBNM_ = input.readMessage(emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(hNIIHEABBNM_);
                 hNIIHEABBNM_ = subBuilder.buildPartial();
@@ -266,7 +266,7 @@ public final class AGDDMMIAGHCOuterClass {
     }
 
     public static final int AMEILFAPLBD_FIELD_NUMBER = 1;
-    private emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase aMEILFAPLBD_;
+    private emu.grasscutter.net.proto.CurrentPhase._CurrentPhase aMEILFAPLBD_;
     /**
      * <code>._CurrentPhase AMEILFAPLBD = 1;</code>
      * @return Whether the aMEILFAPLBD field is set.
@@ -280,14 +280,14 @@ public final class AGDDMMIAGHCOuterClass {
      * @return The aMEILFAPLBD.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getAMEILFAPLBD() {
-      return aMEILFAPLBD_ == null ? emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : aMEILFAPLBD_;
+    public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getAMEILFAPLBD() {
+      return aMEILFAPLBD_ == null ? emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance() : aMEILFAPLBD_;
     }
     /**
      * <code>._CurrentPhase AMEILFAPLBD = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getAMEILFAPLBDOrBuilder() {
+    public emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getAMEILFAPLBDOrBuilder() {
       return getAMEILFAPLBD();
     }
 
@@ -303,7 +303,7 @@ public final class AGDDMMIAGHCOuterClass {
     }
 
     public static final int HNIIHEABBNM_FIELD_NUMBER = 3;
-    private emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo hNIIHEABBNM_;
+    private emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo hNIIHEABBNM_;
     /**
      * <code>._TacticReturnToBornPosInfo HNIIHEABBNM = 3;</code>
      * @return Whether the hNIIHEABBNM field is set.
@@ -317,14 +317,14 @@ public final class AGDDMMIAGHCOuterClass {
      * @return The hNIIHEABBNM.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo getHNIIHEABBNM() {
-      return hNIIHEABBNM_ == null ? emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.getDefaultInstance() : hNIIHEABBNM_;
+    public emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo getHNIIHEABBNM() {
+      return hNIIHEABBNM_ == null ? emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.getDefaultInstance() : hNIIHEABBNM_;
     }
     /**
      * <code>._TacticReturnToBornPosInfo HNIIHEABBNM = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfoOrBuilder getHNIIHEABBNMOrBuilder() {
+    public emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfoOrBuilder getHNIIHEABBNMOrBuilder() {
       return getHNIIHEABBNM();
     }
 
@@ -938,9 +938,9 @@ public final class AGDDMMIAGHCOuterClass {
       }
       private int bitField0_;
 
-      private emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase aMEILFAPLBD_;
+      private emu.grasscutter.net.proto.CurrentPhase._CurrentPhase aMEILFAPLBD_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> aMEILFAPLBDBuilder_;
+          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> aMEILFAPLBDBuilder_;
       /**
        * <code>._CurrentPhase AMEILFAPLBD = 1;</code>
        * @return Whether the aMEILFAPLBD field is set.
@@ -952,9 +952,9 @@ public final class AGDDMMIAGHCOuterClass {
        * <code>._CurrentPhase AMEILFAPLBD = 1;</code>
        * @return The aMEILFAPLBD.
        */
-      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getAMEILFAPLBD() {
+      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getAMEILFAPLBD() {
         if (aMEILFAPLBDBuilder_ == null) {
-          return aMEILFAPLBD_ == null ? emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : aMEILFAPLBD_;
+          return aMEILFAPLBD_ == null ? emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance() : aMEILFAPLBD_;
         } else {
           return aMEILFAPLBDBuilder_.getMessage();
         }
@@ -962,7 +962,7 @@ public final class AGDDMMIAGHCOuterClass {
       /**
        * <code>._CurrentPhase AMEILFAPLBD = 1;</code>
        */
-      public Builder setAMEILFAPLBD(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
+      public Builder setAMEILFAPLBD(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase value) {
         if (aMEILFAPLBDBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -979,7 +979,7 @@ public final class AGDDMMIAGHCOuterClass {
        * <code>._CurrentPhase AMEILFAPLBD = 1;</code>
        */
       public Builder setAMEILFAPLBD(
-          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder builderForValue) {
+          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder builderForValue) {
         if (aMEILFAPLBDBuilder_ == null) {
           aMEILFAPLBD_ = builderForValue.build();
           onChanged();
@@ -992,11 +992,11 @@ public final class AGDDMMIAGHCOuterClass {
       /**
        * <code>._CurrentPhase AMEILFAPLBD = 1;</code>
        */
-      public Builder mergeAMEILFAPLBD(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
+      public Builder mergeAMEILFAPLBD(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase value) {
         if (aMEILFAPLBDBuilder_ == null) {
           if (aMEILFAPLBD_ != null) {
             aMEILFAPLBD_ =
-              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.newBuilder(aMEILFAPLBD_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.newBuilder(aMEILFAPLBD_).mergeFrom(value).buildPartial();
           } else {
             aMEILFAPLBD_ = value;
           }
@@ -1024,7 +1024,7 @@ public final class AGDDMMIAGHCOuterClass {
       /**
        * <code>._CurrentPhase AMEILFAPLBD = 1;</code>
        */
-      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder getAMEILFAPLBDBuilder() {
+      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder getAMEILFAPLBDBuilder() {
         
         onChanged();
         return getAMEILFAPLBDFieldBuilder().getBuilder();
@@ -1032,23 +1032,23 @@ public final class AGDDMMIAGHCOuterClass {
       /**
        * <code>._CurrentPhase AMEILFAPLBD = 1;</code>
        */
-      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getAMEILFAPLBDOrBuilder() {
+      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getAMEILFAPLBDOrBuilder() {
         if (aMEILFAPLBDBuilder_ != null) {
           return aMEILFAPLBDBuilder_.getMessageOrBuilder();
         } else {
           return aMEILFAPLBD_ == null ?
-              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : aMEILFAPLBD_;
+              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance() : aMEILFAPLBD_;
         }
       }
       /**
        * <code>._CurrentPhase AMEILFAPLBD = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> 
+          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> 
           getAMEILFAPLBDFieldBuilder() {
         if (aMEILFAPLBDBuilder_ == null) {
           aMEILFAPLBDBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder>(
+              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder>(
                   getAMEILFAPLBD(),
                   getParentForChildren(),
                   isClean());
@@ -1088,9 +1088,9 @@ public final class AGDDMMIAGHCOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo hNIIHEABBNM_;
+      private emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo hNIIHEABBNM_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo, emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.Builder, emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfoOrBuilder> hNIIHEABBNMBuilder_;
+          emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo, emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.Builder, emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfoOrBuilder> hNIIHEABBNMBuilder_;
       /**
        * <code>._TacticReturnToBornPosInfo HNIIHEABBNM = 3;</code>
        * @return Whether the hNIIHEABBNM field is set.
@@ -1102,9 +1102,9 @@ public final class AGDDMMIAGHCOuterClass {
        * <code>._TacticReturnToBornPosInfo HNIIHEABBNM = 3;</code>
        * @return The hNIIHEABBNM.
        */
-      public emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo getHNIIHEABBNM() {
+      public emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo getHNIIHEABBNM() {
         if (hNIIHEABBNMBuilder_ == null) {
-          return hNIIHEABBNM_ == null ? emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.getDefaultInstance() : hNIIHEABBNM_;
+          return hNIIHEABBNM_ == null ? emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.getDefaultInstance() : hNIIHEABBNM_;
         } else {
           return hNIIHEABBNMBuilder_.getMessage();
         }
@@ -1112,7 +1112,7 @@ public final class AGDDMMIAGHCOuterClass {
       /**
        * <code>._TacticReturnToBornPosInfo HNIIHEABBNM = 3;</code>
        */
-      public Builder setHNIIHEABBNM(emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo value) {
+      public Builder setHNIIHEABBNM(emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo value) {
         if (hNIIHEABBNMBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1129,7 +1129,7 @@ public final class AGDDMMIAGHCOuterClass {
        * <code>._TacticReturnToBornPosInfo HNIIHEABBNM = 3;</code>
        */
       public Builder setHNIIHEABBNM(
-          emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.Builder builderForValue) {
         if (hNIIHEABBNMBuilder_ == null) {
           hNIIHEABBNM_ = builderForValue.build();
           onChanged();
@@ -1142,11 +1142,11 @@ public final class AGDDMMIAGHCOuterClass {
       /**
        * <code>._TacticReturnToBornPosInfo HNIIHEABBNM = 3;</code>
        */
-      public Builder mergeHNIIHEABBNM(emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo value) {
+      public Builder mergeHNIIHEABBNM(emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo value) {
         if (hNIIHEABBNMBuilder_ == null) {
           if (hNIIHEABBNM_ != null) {
             hNIIHEABBNM_ =
-              emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.newBuilder(hNIIHEABBNM_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.newBuilder(hNIIHEABBNM_).mergeFrom(value).buildPartial();
           } else {
             hNIIHEABBNM_ = value;
           }
@@ -1174,7 +1174,7 @@ public final class AGDDMMIAGHCOuterClass {
       /**
        * <code>._TacticReturnToBornPosInfo HNIIHEABBNM = 3;</code>
        */
-      public emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.Builder getHNIIHEABBNMBuilder() {
+      public emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.Builder getHNIIHEABBNMBuilder() {
         
         onChanged();
         return getHNIIHEABBNMFieldBuilder().getBuilder();
@@ -1182,23 +1182,23 @@ public final class AGDDMMIAGHCOuterClass {
       /**
        * <code>._TacticReturnToBornPosInfo HNIIHEABBNM = 3;</code>
        */
-      public emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfoOrBuilder getHNIIHEABBNMOrBuilder() {
+      public emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfoOrBuilder getHNIIHEABBNMOrBuilder() {
         if (hNIIHEABBNMBuilder_ != null) {
           return hNIIHEABBNMBuilder_.getMessageOrBuilder();
         } else {
           return hNIIHEABBNM_ == null ?
-              emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.getDefaultInstance() : hNIIHEABBNM_;
+              emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.getDefaultInstance() : hNIIHEABBNM_;
         }
       }
       /**
        * <code>._TacticReturnToBornPosInfo HNIIHEABBNM = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo, emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.Builder, emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfoOrBuilder> 
+          emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo, emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.Builder, emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfoOrBuilder> 
           getHNIIHEABBNMFieldBuilder() {
         if (hNIIHEABBNMBuilder_ == null) {
           hNIIHEABBNMBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo, emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.Builder, emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfoOrBuilder>(
+              emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo, emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfo.Builder, emu.grasscutter.net.proto.TacticReturnToBornPosInfo._TacticReturnToBornPosInfoOrBuilder>(
                   getHNIIHEABBNM(),
                   getParentForChildren(),
                   isClean());
@@ -1880,17 +1880,16 @@ public final class AGDDMMIAGHCOuterClass {
       "M\030\003 \001(\0132\033._TacticReturnToBornPosInfo\022!\n\013" +
       "PKHBKFNODPI\030\004 \003(\0132\014.NPFNMNICBDL\022!\n\013GJMIA" +
       "DFNGDF\030\005 \003(\0132\014.NPFNMNICBDL\022!\n\013JDFIPNGEHH" +
-      "G\030\006 \001(\0132\014.BGNBJMCFEEMB2\n\031emu.grasscutter" +
-      ".net.protoB\025AGDDMMIAGHCOuterClassb\006proto" +
-      "3"
+      "G\030\006 \001(\0132\014.BGNBJMCFEEMB\033\n\031emu.grasscutter" +
+      ".net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.BGNBJMCFEEMOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.NPFNMNICBDLOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto._CurrentPhaseOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.CurrentPhase.getDescriptor(),
+          emu.grasscutter.net.proto.TacticReturnToBornPosInfo.getDescriptor(),
         });
     internal_static_AGDDMMIAGHC_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1900,8 +1899,8 @@ public final class AGDDMMIAGHCOuterClass {
         new java.lang.String[] { "AMEILFAPLBD", "AIFNFGFAJOC", "HNIIHEABBNM", "PKHBKFNODPI", "GJMIADFNGDF", "JDFIPNGEHHG", });
     emu.grasscutter.net.proto.BGNBJMCFEEMOuterClass.getDescriptor();
     emu.grasscutter.net.proto.NPFNMNICBDLOuterClass.getDescriptor();
-    emu.grasscutter.net.proto._CurrentPhaseOuterClass.getDescriptor();
-    emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.CurrentPhase.getDescriptor();
+    emu.grasscutter.net.proto.TacticReturnToBornPosInfo.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

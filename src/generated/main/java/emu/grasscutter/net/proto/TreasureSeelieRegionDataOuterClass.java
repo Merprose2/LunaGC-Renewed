@@ -70,10 +70,10 @@ public final class TreasureSeelieRegionDataOuterClass {
     int getLPGPONIONFK();
 
     /**
-     * <code>uint32 pdhmghbaedh = 13;</code>
-     * @return The pdhmghbaedh.
+     * <code>uint32 NPNNLOKOKFD = 13;</code>
+     * @return The nPNNLOKOKFD.
      */
-    int getPdhmghbaedh();
+    int getNPNNLOKOKFD();
 
     /**
      * <code>bool is_done = 14;</code>
@@ -177,7 +177,7 @@ public final class TreasureSeelieRegionDataOuterClass {
             }
             case 104: {
 
-              pdhmghbaedh_ = input.readUInt32();
+              nPNNLOKOKFD_ = input.readUInt32();
               break;
             }
             case 112: {
@@ -314,15 +314,15 @@ public final class TreasureSeelieRegionDataOuterClass {
       return lPGPONIONFK_;
     }
 
-    public static final int PDHMGHBAEDH_FIELD_NUMBER = 13;
-    private int pdhmghbaedh_;
+    public static final int NPNNLOKOKFD_FIELD_NUMBER = 13;
+    private int nPNNLOKOKFD_;
     /**
-     * <code>uint32 pdhmghbaedh = 13;</code>
-     * @return The pdhmghbaedh.
+     * <code>uint32 NPNNLOKOKFD = 13;</code>
+     * @return The nPNNLOKOKFD.
      */
     @java.lang.Override
-    public int getPdhmghbaedh() {
-      return pdhmghbaedh_;
+    public int getNPNNLOKOKFD() {
+      return nPNNLOKOKFD_;
     }
 
     public static final int IS_DONE_FIELD_NUMBER = 14;
@@ -382,8 +382,8 @@ public final class TreasureSeelieRegionDataOuterClass {
       if (lPGPONIONFK_ != 0) {
         output.writeUInt32(12, lPGPONIONFK_);
       }
-      if (pdhmghbaedh_ != 0) {
-        output.writeUInt32(13, pdhmghbaedh_);
+      if (nPNNLOKOKFD_ != 0) {
+        output.writeUInt32(13, nPNNLOKOKFD_);
       }
       if (isDone_ != false) {
         output.writeBool(14, isDone_);
@@ -428,9 +428,9 @@ public final class TreasureSeelieRegionDataOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(12, lPGPONIONFK_);
       }
-      if (pdhmghbaedh_ != 0) {
+      if (nPNNLOKOKFD_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, pdhmghbaedh_);
+          .computeUInt32Size(13, nPNNLOKOKFD_);
       }
       if (isDone_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -472,8 +472,8 @@ public final class TreasureSeelieRegionDataOuterClass {
           != other.getSceneId()) return false;
       if (getLPGPONIONFK()
           != other.getLPGPONIONFK()) return false;
-      if (getPdhmghbaedh()
-          != other.getPdhmghbaedh()) return false;
+      if (getNPNNLOKOKFD()
+          != other.getNPNNLOKOKFD()) return false;
       if (getIsDone()
           != other.getIsDone()) return false;
       if (java.lang.Float.floatToIntBits(getRegionRadius())
@@ -507,8 +507,8 @@ public final class TreasureSeelieRegionDataOuterClass {
       hash = (53 * hash) + getSceneId();
       hash = (37 * hash) + LPGPONIONFK_FIELD_NUMBER;
       hash = (53 * hash) + getLPGPONIONFK();
-      hash = (37 * hash) + PDHMGHBAEDH_FIELD_NUMBER;
-      hash = (53 * hash) + getPdhmghbaedh();
+      hash = (37 * hash) + NPNNLOKOKFD_FIELD_NUMBER;
+      hash = (53 * hash) + getNPNNLOKOKFD();
       hash = (37 * hash) + IS_DONE_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsDone());
@@ -666,7 +666,7 @@ public final class TreasureSeelieRegionDataOuterClass {
 
         lPGPONIONFK_ = 0;
 
-        pdhmghbaedh_ = 0;
+        nPNNLOKOKFD_ = 0;
 
         isDone_ = false;
 
@@ -709,7 +709,7 @@ public final class TreasureSeelieRegionDataOuterClass {
         result.regionId_ = regionId_;
         result.sceneId_ = sceneId_;
         result.lPGPONIONFK_ = lPGPONIONFK_;
-        result.pdhmghbaedh_ = pdhmghbaedh_;
+        result.nPNNLOKOKFD_ = nPNNLOKOKFD_;
         result.isDone_ = isDone_;
         result.regionRadius_ = regionRadius_;
         onBuilt();
@@ -781,8 +781,8 @@ public final class TreasureSeelieRegionDataOuterClass {
         if (other.getLPGPONIONFK() != 0) {
           setLPGPONIONFK(other.getLPGPONIONFK());
         }
-        if (other.getPdhmghbaedh() != 0) {
-          setPdhmghbaedh(other.getPdhmghbaedh());
+        if (other.getNPNNLOKOKFD() != 0) {
+          setNPNNLOKOKFD(other.getNPNNLOKOKFD());
         }
         if (other.getIsDone() != false) {
           setIsDone(other.getIsDone());
@@ -1124,33 +1124,33 @@ public final class TreasureSeelieRegionDataOuterClass {
         return this;
       }
 
-      private int pdhmghbaedh_ ;
+      private int nPNNLOKOKFD_ ;
       /**
-       * <code>uint32 pdhmghbaedh = 13;</code>
-       * @return The pdhmghbaedh.
+       * <code>uint32 NPNNLOKOKFD = 13;</code>
+       * @return The nPNNLOKOKFD.
        */
       @java.lang.Override
-      public int getPdhmghbaedh() {
-        return pdhmghbaedh_;
+      public int getNPNNLOKOKFD() {
+        return nPNNLOKOKFD_;
       }
       /**
-       * <code>uint32 pdhmghbaedh = 13;</code>
-       * @param value The pdhmghbaedh to set.
+       * <code>uint32 NPNNLOKOKFD = 13;</code>
+       * @param value The nPNNLOKOKFD to set.
        * @return This builder for chaining.
        */
-      public Builder setPdhmghbaedh(int value) {
+      public Builder setNPNNLOKOKFD(int value) {
         
-        pdhmghbaedh_ = value;
+        nPNNLOKOKFD_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 pdhmghbaedh = 13;</code>
+       * <code>uint32 NPNNLOKOKFD = 13;</code>
        * @return This builder for chaining.
        */
-      public Builder clearPdhmghbaedh() {
+      public Builder clearNPNNLOKOKFD() {
         
-        pdhmghbaedh_ = 0;
+        nPNNLOKOKFD_ = 0;
         onChanged();
         return this;
       }
@@ -1288,10 +1288,10 @@ public final class TreasureSeelieRegionDataOuterClass {
       "pen_time\030\001 \001(\r\022\017\n\007is_open\030\004 \001(\010\022\023\n\013OKGPC" +
       "PGPPMG\030\005 \001(\r\022\"\n\021region_center_pos\030\006 \001(\0132" +
       "\007.Vector\022\021\n\tregion_id\030\007 \001(\r\022\020\n\010scene_id\030" +
-      "\010 \001(\r\022\023\n\013LPGPONIONFK\030\014 \001(\r\022\023\n\013pdhmghbaed" +
-      "h\030\r \001(\r\022\017\n\007is_done\030\016 \001(\010\022\025\n\rregion_radiu" +
-      "s\030\017 \001(\002B?\n\031emu.grasscutter.net.protoB\"Tr" +
-      "easureSeelieRegionDataOuterClassb\006proto3"
+      "\010 \001(\r\022\023\n\013LPGPONIONFK\030\014 \001(\r\022\023\n\013NPNNLOKOKF" +
+      "D\030\r \001(\r\022\017\n\007is_done\030\016 \001(\010\022\025\n\rregion_radiu" +
+      "s\030\017 \001(\002B\033\n\031emu.grasscutter.net.protob\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1303,7 +1303,7 @@ public final class TreasureSeelieRegionDataOuterClass {
     internal_static_TreasureSeelieRegionData_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_TreasureSeelieRegionData_descriptor,
-        new java.lang.String[] { "OpenTime", "IsOpen", "OKGPCPGPPMG", "RegionCenterPos", "RegionId", "SceneId", "LPGPONIONFK", "Pdhmghbaedh", "IsDone", "RegionRadius", });
+        new java.lang.String[] { "OpenTime", "IsOpen", "OKGPCPGPPMG", "RegionCenterPos", "RegionId", "SceneId", "LPGPONIONFK", "NPNNLOKOKFD", "IsDone", "RegionRadius", });
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
   }
 

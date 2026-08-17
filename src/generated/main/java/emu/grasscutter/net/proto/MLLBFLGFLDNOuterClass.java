@@ -924,9 +924,8 @@ public final class MLLBFLGFLDNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MLLBFLGFLDN.proto\032\014Vector.proto\"K\n\013MLL" +
       "BFLGFLDN\022\024\n\003pos\030\001 \001(\0132\007.Vector\022\024\n\003rot\030\002 " +
-      "\001(\0132\007.Vector\022\020\n\010block_id\030\003 \001(\rB2\n\031emu.gr" +
-      "asscutter.net.protoB\025MLLBFLGFLDNOuterCla" +
-      "ssb\006proto3"
+      "\001(\0132\007.Vector\022\020\n\010block_id\030\003 \001(\rB\033\n\031emu.gr" +
+      "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

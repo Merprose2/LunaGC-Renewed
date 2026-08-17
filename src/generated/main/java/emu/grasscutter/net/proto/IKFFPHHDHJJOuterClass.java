@@ -1088,8 +1088,8 @@ public final class IKFFPHHDHJJOuterClass {
       "\n\021IKFFPHHDHJJ.proto\032\021IEDPGJDEMAJ.proto\"]" +
       "\n\013IKFFPHHDHJJ\022\023\n\013PAFKENILOMD\030\003 \003(\r\022%\n\017le" +
       "vel_info_list\030\007 \003(\0132\014.IEDPGJDEMAJ\022\022\n\ndif" +
-      "ficulty\030\016 \001(\rB2\n\031emu.grasscutter.net.pro" +
-      "toB\025IKFFPHHDHJJOuterClassb\006proto3"
+      "ficulty\030\016 \001(\rB\033\n\031emu.grasscutter.net.pro" +
+      "tob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

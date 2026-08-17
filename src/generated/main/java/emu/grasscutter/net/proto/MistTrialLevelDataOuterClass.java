@@ -1311,8 +1311,8 @@ public final class MistTrialLevelDataOuterClass {
       "tar\022\027\n\017first_pass_time\030\004 \001(\r\022.\n\020best_ava" +
       "tar_list\030\010 \003(\0132\024.MistTrialBestAvatar\022\020\n\010" +
       "level_id\030\n \001(\r\022\017\n\007is_open\030\013 \001(\010\022\021\n\topen_" +
-      "time\030\017 \001(\rB9\n\031emu.grasscutter.net.protoB" +
-      "\034MistTrialLevelDataOuterClassb\006proto3"
+      "time\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

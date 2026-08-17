@@ -37,6 +37,10 @@ public final class SetPlayerSignatureRspOuterClass {
         getSignatureBytes();
   }
   /**
+   * <pre>
+   * CmdID: 29120
+   * </pre>
+   *
    * Protobuf type {@code SetPlayerSignatureRsp}
    */
   public static final class SetPlayerSignatureRsp extends
@@ -340,6 +344,10 @@ public final class SetPlayerSignatureRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 29120
+     * </pre>
+     *
      * Protobuf type {@code SetPlayerSignatureRsp}
      */
     public static final class Builder extends
@@ -668,8 +676,8 @@ public final class SetPlayerSignatureRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033SetPlayerSignatureRsp.proto\";\n\025SetPlay" +
       "erSignatureRsp\022\017\n\007retcode\030\t \001(\005\022\021\n\tsigna" +
-      "ture\030\n \001(\tB<\n\031emu.grasscutter.net.protoB" +
-      "\037SetPlayerSignatureRspOuterClassb\006proto3"
+      "ture\030\n \001(\tB\033\n\031emu.grasscutter.net.protob" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

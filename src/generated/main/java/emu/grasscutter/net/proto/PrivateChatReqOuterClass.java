@@ -19,19 +19,19 @@ public final class PrivateChatReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.PrivateChatReq._BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
+     * <code>.PrivateChatReq.BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
      * @return Whether the beyondCostumeShareCode field is set.
      */
     boolean hasBeyondCostumeShareCode();
     /**
-     * <code>.PrivateChatReq._BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
+     * <code>.PrivateChatReq.BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
      * @return The beyondCostumeShareCode.
      */
-    emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode getBeyondCostumeShareCode();
+    emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode getBeyondCostumeShareCode();
     /**
-     * <code>.PrivateChatReq._BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
+     * <code>.PrivateChatReq.BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
      */
-    emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCodeOrBuilder getBeyondCostumeShareCodeOrBuilder();
+    emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCodeOrBuilder getBeyondCostumeShareCodeOrBuilder();
 
     /**
      * <code>uint32 icon = 8;</code>
@@ -70,6 +70,10 @@ public final class PrivateChatReqOuterClass {
     public emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.ContentCase getContentCase();
   }
   /**
+   * <pre>
+   * CmdID: 20124
+   * </pre>
+   *
    * Protobuf type {@code PrivateChatReq}
    */
   public static final class PrivateChatReq extends
@@ -115,14 +119,14 @@ public final class PrivateChatReqOuterClass {
               done = true;
               break;
             case 10: {
-              emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode.Builder subBuilder = null;
+              emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode.Builder subBuilder = null;
               if (contentCase_ == 1) {
-                subBuilder = ((emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode) content_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode) content_).toBuilder();
               }
               content_ =
-                  input.readMessage(emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode) content_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode) content_);
                 content_ = subBuilder.buildPartial();
               }
               contentCase_ = 1;
@@ -176,8 +180,8 @@ public final class PrivateChatReqOuterClass {
               emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.class, emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.Builder.class);
     }
 
-    public interface _BeyondCostumeShareCodeOrBuilder extends
-        // @@protoc_insertion_point(interface_extends:PrivateChatReq._BeyondCostumeShareCode)
+    public interface BeyondCostumeShareCodeOrBuilder extends
+        // @@protoc_insertion_point(interface_extends:PrivateChatReq.BeyondCostumeShareCode)
         com.google.protobuf.MessageOrBuilder {
 
       /**
@@ -187,18 +191,18 @@ public final class PrivateChatReqOuterClass {
       com.google.protobuf.ByteString getFEPAFANMNLK();
     }
     /**
-     * Protobuf type {@code PrivateChatReq._BeyondCostumeShareCode}
+     * Protobuf type {@code PrivateChatReq.BeyondCostumeShareCode}
      */
-    public static final class _BeyondCostumeShareCode extends
+    public static final class BeyondCostumeShareCode extends
         com.google.protobuf.GeneratedMessageV3 implements
-        // @@protoc_insertion_point(message_implements:PrivateChatReq._BeyondCostumeShareCode)
-        _BeyondCostumeShareCodeOrBuilder {
+        // @@protoc_insertion_point(message_implements:PrivateChatReq.BeyondCostumeShareCode)
+        BeyondCostumeShareCodeOrBuilder {
     private static final long serialVersionUID = 0L;
-      // Use _BeyondCostumeShareCode.newBuilder() to construct.
-      private _BeyondCostumeShareCode(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
+      // Use BeyondCostumeShareCode.newBuilder() to construct.
+      private BeyondCostumeShareCode(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
-      private _BeyondCostumeShareCode() {
+      private BeyondCostumeShareCode() {
         fEPAFANMNLK_ = com.google.protobuf.ByteString.EMPTY;
       }
 
@@ -206,7 +210,7 @@ public final class PrivateChatReqOuterClass {
       @SuppressWarnings({"unused"})
       protected java.lang.Object newInstance(
           UnusedPrivateParameter unused) {
-        return new _BeyondCostumeShareCode();
+        return new BeyondCostumeShareCode();
       }
 
       @java.lang.Override
@@ -214,7 +218,7 @@ public final class PrivateChatReqOuterClass {
       getUnknownFields() {
         return this.unknownFields;
       }
-      private _BeyondCostumeShareCode(
+      private BeyondCostumeShareCode(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -258,15 +262,15 @@ public final class PrivateChatReqOuterClass {
       }
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return emu.grasscutter.net.proto.PrivateChatReqOuterClass.internal_static_PrivateChatReq__BeyondCostumeShareCode_descriptor;
+        return emu.grasscutter.net.proto.PrivateChatReqOuterClass.internal_static_PrivateChatReq_BeyondCostumeShareCode_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return emu.grasscutter.net.proto.PrivateChatReqOuterClass.internal_static_PrivateChatReq__BeyondCostumeShareCode_fieldAccessorTable
+        return emu.grasscutter.net.proto.PrivateChatReqOuterClass.internal_static_PrivateChatReq_BeyondCostumeShareCode_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode.class, emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode.Builder.class);
+                emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode.class, emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode.Builder.class);
       }
 
       public static final int FEPAFANMNLK_FIELD_NUMBER = 7;
@@ -320,10 +324,10 @@ public final class PrivateChatReqOuterClass {
         if (obj == this) {
          return true;
         }
-        if (!(obj instanceof emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode)) {
+        if (!(obj instanceof emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode)) {
           return super.equals(obj);
         }
-        emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode other = (emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode) obj;
+        emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode other = (emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode) obj;
 
         if (!getFEPAFANMNLK()
             .equals(other.getFEPAFANMNLK())) return false;
@@ -345,69 +349,69 @@ public final class PrivateChatReqOuterClass {
         return hash;
       }
 
-      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode parseFrom(
+      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode parseFrom(
           java.nio.ByteBuffer data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode parseFrom(
+      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode parseFrom(
           java.nio.ByteBuffer data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode parseFrom(
+      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode parseFrom(
+      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode parseFrom(
           com.google.protobuf.ByteString data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode parseFrom(byte[] data)
+      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode parseFrom(byte[] data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode parseFrom(
+      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode parseFrom(
           byte[] data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode parseFrom(java.io.InputStream input)
+      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode parseFrom(java.io.InputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
-      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode parseFrom(
+      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
-      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode parseDelimitedFrom(java.io.InputStream input)
+      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
-      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode parseDelimitedFrom(
+      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
-      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode parseFrom(
+      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
-      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode parseFrom(
+      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
@@ -420,7 +424,7 @@ public final class PrivateChatReqOuterClass {
       public static Builder newBuilder() {
         return DEFAULT_INSTANCE.toBuilder();
       }
-      public static Builder newBuilder(emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode prototype) {
+      public static Builder newBuilder(emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode prototype) {
         return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
       }
       @java.lang.Override
@@ -436,26 +440,26 @@ public final class PrivateChatReqOuterClass {
         return builder;
       }
       /**
-       * Protobuf type {@code PrivateChatReq._BeyondCostumeShareCode}
+       * Protobuf type {@code PrivateChatReq.BeyondCostumeShareCode}
        */
       public static final class Builder extends
           com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-          // @@protoc_insertion_point(builder_implements:PrivateChatReq._BeyondCostumeShareCode)
-          emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCodeOrBuilder {
+          // @@protoc_insertion_point(builder_implements:PrivateChatReq.BeyondCostumeShareCode)
+          emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCodeOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
             getDescriptor() {
-          return emu.grasscutter.net.proto.PrivateChatReqOuterClass.internal_static_PrivateChatReq__BeyondCostumeShareCode_descriptor;
+          return emu.grasscutter.net.proto.PrivateChatReqOuterClass.internal_static_PrivateChatReq_BeyondCostumeShareCode_descriptor;
         }
 
         @java.lang.Override
         protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
-          return emu.grasscutter.net.proto.PrivateChatReqOuterClass.internal_static_PrivateChatReq__BeyondCostumeShareCode_fieldAccessorTable
+          return emu.grasscutter.net.proto.PrivateChatReqOuterClass.internal_static_PrivateChatReq_BeyondCostumeShareCode_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
-                  emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode.class, emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode.Builder.class);
+                  emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode.class, emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode.Builder.class);
         }
 
-        // Construct using emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode.newBuilder()
+        // Construct using emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode.newBuilder()
         private Builder() {
           maybeForceBuilderInitialization();
         }
@@ -481,17 +485,17 @@ public final class PrivateChatReqOuterClass {
         @java.lang.Override
         public com.google.protobuf.Descriptors.Descriptor
             getDescriptorForType() {
-          return emu.grasscutter.net.proto.PrivateChatReqOuterClass.internal_static_PrivateChatReq__BeyondCostumeShareCode_descriptor;
+          return emu.grasscutter.net.proto.PrivateChatReqOuterClass.internal_static_PrivateChatReq_BeyondCostumeShareCode_descriptor;
         }
 
         @java.lang.Override
-        public emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode getDefaultInstanceForType() {
-          return emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode.getDefaultInstance();
+        public emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode getDefaultInstanceForType() {
+          return emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode.getDefaultInstance();
         }
 
         @java.lang.Override
-        public emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode build() {
-          emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode result = buildPartial();
+        public emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode build() {
+          emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode result = buildPartial();
           if (!result.isInitialized()) {
             throw newUninitializedMessageException(result);
           }
@@ -499,8 +503,8 @@ public final class PrivateChatReqOuterClass {
         }
 
         @java.lang.Override
-        public emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode buildPartial() {
-          emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode result = new emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode(this);
+        public emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode buildPartial() {
+          emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode result = new emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode(this);
           result.fEPAFANMNLK_ = fEPAFANMNLK_;
           onBuilt();
           return result;
@@ -540,16 +544,16 @@ public final class PrivateChatReqOuterClass {
         }
         @java.lang.Override
         public Builder mergeFrom(com.google.protobuf.Message other) {
-          if (other instanceof emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode) {
-            return mergeFrom((emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode)other);
+          if (other instanceof emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode) {
+            return mergeFrom((emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode)other);
           } else {
             super.mergeFrom(other);
             return this;
           }
         }
 
-        public Builder mergeFrom(emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode other) {
-          if (other == emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode.getDefaultInstance()) return this;
+        public Builder mergeFrom(emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode other) {
+          if (other == emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode.getDefaultInstance()) return this;
           if (other.getFEPAFANMNLK() != com.google.protobuf.ByteString.EMPTY) {
             setFEPAFANMNLK(other.getFEPAFANMNLK());
           }
@@ -568,11 +572,11 @@ public final class PrivateChatReqOuterClass {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
-          emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode parsedMessage = null;
+          emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode parsedMessage = null;
           try {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-            parsedMessage = (emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode) e.getUnfinishedMessage();
+            parsedMessage = (emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode) e.getUnfinishedMessage();
             throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
@@ -628,41 +632,41 @@ public final class PrivateChatReqOuterClass {
         }
 
 
-        // @@protoc_insertion_point(builder_scope:PrivateChatReq._BeyondCostumeShareCode)
+        // @@protoc_insertion_point(builder_scope:PrivateChatReq.BeyondCostumeShareCode)
       }
 
-      // @@protoc_insertion_point(class_scope:PrivateChatReq._BeyondCostumeShareCode)
-      private static final emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode DEFAULT_INSTANCE;
+      // @@protoc_insertion_point(class_scope:PrivateChatReq.BeyondCostumeShareCode)
+      private static final emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode DEFAULT_INSTANCE;
       static {
-        DEFAULT_INSTANCE = new emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode();
+        DEFAULT_INSTANCE = new emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode();
       }
 
-      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode getDefaultInstance() {
+      public static emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode getDefaultInstance() {
         return DEFAULT_INSTANCE;
       }
 
-      private static final com.google.protobuf.Parser<_BeyondCostumeShareCode>
-          PARSER = new com.google.protobuf.AbstractParser<_BeyondCostumeShareCode>() {
+      private static final com.google.protobuf.Parser<BeyondCostumeShareCode>
+          PARSER = new com.google.protobuf.AbstractParser<BeyondCostumeShareCode>() {
         @java.lang.Override
-        public _BeyondCostumeShareCode parsePartialFrom(
+        public BeyondCostumeShareCode parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          return new _BeyondCostumeShareCode(input, extensionRegistry);
+          return new BeyondCostumeShareCode(input, extensionRegistry);
         }
       };
 
-      public static com.google.protobuf.Parser<_BeyondCostumeShareCode> parser() {
+      public static com.google.protobuf.Parser<BeyondCostumeShareCode> parser() {
         return PARSER;
       }
 
       @java.lang.Override
-      public com.google.protobuf.Parser<_BeyondCostumeShareCode> getParserForType() {
+      public com.google.protobuf.Parser<BeyondCostumeShareCode> getParserForType() {
         return PARSER;
       }
 
       @java.lang.Override
-      public emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode getDefaultInstanceForType() {
+      public emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode getDefaultInstanceForType() {
         return DEFAULT_INSTANCE;
       }
 
@@ -713,7 +717,7 @@ public final class PrivateChatReqOuterClass {
 
     public static final int BEYOND_COSTUME_SHARE_CODE_FIELD_NUMBER = 1;
     /**
-     * <code>.PrivateChatReq._BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
+     * <code>.PrivateChatReq.BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
      * @return Whether the beyondCostumeShareCode field is set.
      */
     @java.lang.Override
@@ -721,25 +725,25 @@ public final class PrivateChatReqOuterClass {
       return contentCase_ == 1;
     }
     /**
-     * <code>.PrivateChatReq._BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
+     * <code>.PrivateChatReq.BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
      * @return The beyondCostumeShareCode.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode getBeyondCostumeShareCode() {
+    public emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode getBeyondCostumeShareCode() {
       if (contentCase_ == 1) {
-         return (emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode) content_;
+         return (emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode) content_;
       }
-      return emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode.getDefaultInstance();
+      return emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode.getDefaultInstance();
     }
     /**
-     * <code>.PrivateChatReq._BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
+     * <code>.PrivateChatReq.BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCodeOrBuilder getBeyondCostumeShareCodeOrBuilder() {
+    public emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCodeOrBuilder getBeyondCostumeShareCodeOrBuilder() {
       if (contentCase_ == 1) {
-         return (emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode) content_;
+         return (emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode) content_;
       }
-      return emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode.getDefaultInstance();
+      return emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode.getDefaultInstance();
     }
 
     public static final int ICON_FIELD_NUMBER = 8;
@@ -841,7 +845,7 @@ public final class PrivateChatReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (contentCase_ == 1) {
-        output.writeMessage(1, (emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode) content_);
+        output.writeMessage(1, (emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode) content_);
       }
       if (contentCase_ == 8) {
         output.writeUInt32(
@@ -864,7 +868,7 @@ public final class PrivateChatReqOuterClass {
       size = 0;
       if (contentCase_ == 1) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, (emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode) content_);
+          .computeMessageSize(1, (emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode) content_);
       }
       if (contentCase_ == 8) {
         size += com.google.protobuf.CodedOutputStream
@@ -1037,6 +1041,10 @@ public final class PrivateChatReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 20124
+     * </pre>
+     *
      * Protobuf type {@code PrivateChatReq}
      */
     public static final class Builder extends
@@ -1234,9 +1242,9 @@ public final class PrivateChatReqOuterClass {
 
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode, emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode.Builder, emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCodeOrBuilder> beyondCostumeShareCodeBuilder_;
+          emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode, emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode.Builder, emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCodeOrBuilder> beyondCostumeShareCodeBuilder_;
       /**
-       * <code>.PrivateChatReq._BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
+       * <code>.PrivateChatReq.BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
        * @return Whether the beyondCostumeShareCode field is set.
        */
       @java.lang.Override
@@ -1244,27 +1252,27 @@ public final class PrivateChatReqOuterClass {
         return contentCase_ == 1;
       }
       /**
-       * <code>.PrivateChatReq._BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
+       * <code>.PrivateChatReq.BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
        * @return The beyondCostumeShareCode.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode getBeyondCostumeShareCode() {
+      public emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode getBeyondCostumeShareCode() {
         if (beyondCostumeShareCodeBuilder_ == null) {
           if (contentCase_ == 1) {
-            return (emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode) content_;
+            return (emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode) content_;
           }
-          return emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode.getDefaultInstance();
+          return emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode.getDefaultInstance();
         } else {
           if (contentCase_ == 1) {
             return beyondCostumeShareCodeBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode.getDefaultInstance();
+          return emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode.getDefaultInstance();
         }
       }
       /**
-       * <code>.PrivateChatReq._BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
+       * <code>.PrivateChatReq.BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
        */
-      public Builder setBeyondCostumeShareCode(emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode value) {
+      public Builder setBeyondCostumeShareCode(emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode value) {
         if (beyondCostumeShareCodeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1278,10 +1286,10 @@ public final class PrivateChatReqOuterClass {
         return this;
       }
       /**
-       * <code>.PrivateChatReq._BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
+       * <code>.PrivateChatReq.BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
        */
       public Builder setBeyondCostumeShareCode(
-          emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode.Builder builderForValue) {
+          emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode.Builder builderForValue) {
         if (beyondCostumeShareCodeBuilder_ == null) {
           content_ = builderForValue.build();
           onChanged();
@@ -1292,13 +1300,13 @@ public final class PrivateChatReqOuterClass {
         return this;
       }
       /**
-       * <code>.PrivateChatReq._BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
+       * <code>.PrivateChatReq.BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
        */
-      public Builder mergeBeyondCostumeShareCode(emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode value) {
+      public Builder mergeBeyondCostumeShareCode(emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode value) {
         if (beyondCostumeShareCodeBuilder_ == null) {
           if (contentCase_ == 1 &&
-              content_ != emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode.getDefaultInstance()) {
-            content_ = emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode.newBuilder((emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode) content_)
+              content_ != emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode.getDefaultInstance()) {
+            content_ = emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode.newBuilder((emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode) content_)
                 .mergeFrom(value).buildPartial();
           } else {
             content_ = value;
@@ -1314,7 +1322,7 @@ public final class PrivateChatReqOuterClass {
         return this;
       }
       /**
-       * <code>.PrivateChatReq._BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
+       * <code>.PrivateChatReq.BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
        */
       public Builder clearBeyondCostumeShareCode() {
         if (beyondCostumeShareCodeBuilder_ == null) {
@@ -1333,38 +1341,38 @@ public final class PrivateChatReqOuterClass {
         return this;
       }
       /**
-       * <code>.PrivateChatReq._BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
+       * <code>.PrivateChatReq.BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
        */
-      public emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode.Builder getBeyondCostumeShareCodeBuilder() {
+      public emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode.Builder getBeyondCostumeShareCodeBuilder() {
         return getBeyondCostumeShareCodeFieldBuilder().getBuilder();
       }
       /**
-       * <code>.PrivateChatReq._BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
+       * <code>.PrivateChatReq.BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCodeOrBuilder getBeyondCostumeShareCodeOrBuilder() {
+      public emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCodeOrBuilder getBeyondCostumeShareCodeOrBuilder() {
         if ((contentCase_ == 1) && (beyondCostumeShareCodeBuilder_ != null)) {
           return beyondCostumeShareCodeBuilder_.getMessageOrBuilder();
         } else {
           if (contentCase_ == 1) {
-            return (emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode) content_;
+            return (emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode) content_;
           }
-          return emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode.getDefaultInstance();
+          return emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode.getDefaultInstance();
         }
       }
       /**
-       * <code>.PrivateChatReq._BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
+       * <code>.PrivateChatReq.BeyondCostumeShareCode beyond_costume_share_code = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode, emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode.Builder, emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCodeOrBuilder> 
+          emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode, emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode.Builder, emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCodeOrBuilder> 
           getBeyondCostumeShareCodeFieldBuilder() {
         if (beyondCostumeShareCodeBuilder_ == null) {
           if (!(contentCase_ == 1)) {
-            content_ = emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode.getDefaultInstance();
+            content_ = emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode.getDefaultInstance();
           }
           beyondCostumeShareCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode, emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode.Builder, emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCodeOrBuilder>(
-                  (emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq._BeyondCostumeShareCode) content_,
+              emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode, emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode.Builder, emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCodeOrBuilder>(
+                  (emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq.BeyondCostumeShareCode) content_,
                   getParentForChildren(),
                   isClean());
           content_ = null;
@@ -1601,10 +1609,10 @@ public final class PrivateChatReqOuterClass {
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PrivateChatReq_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_PrivateChatReq__BeyondCostumeShareCode_descriptor;
+    internal_static_PrivateChatReq_BeyondCostumeShareCode_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_PrivateChatReq__BeyondCostumeShareCode_fieldAccessorTable;
+      internal_static_PrivateChatReq_BeyondCostumeShareCode_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -1614,14 +1622,13 @@ public final class PrivateChatReqOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\024PrivateChatReq.proto\"\315\001\n\016PrivateChatRe" +
-      "q\022L\n\031beyond_costume_share_code\030\001 \001(\0132\'.P" +
-      "rivateChatReq._BeyondCostumeShareCodeH\000\022" +
-      "\016\n\004icon\030\010 \001(\rH\000\022\016\n\004text\030\016 \001(\tH\000\022\022\n\ntarge" +
-      "t_uid\030\n \001(\r\032.\n\027_BeyondCostumeShareCode\022\023" +
-      "\n\013FEPAFANMNLK\030\007 \001(\014B\t\n\007contentB5\n\031emu.gr" +
-      "asscutter.net.protoB\030PrivateChatReqOuter" +
-      "Classb\006proto3"
+      "\n\024PrivateChatReq.proto\"\313\001\n\016PrivateChatRe" +
+      "q\022K\n\031beyond_costume_share_code\030\001 \001(\0132&.P" +
+      "rivateChatReq.BeyondCostumeShareCodeH\000\022\016" +
+      "\n\004icon\030\010 \001(\rH\000\022\016\n\004text\030\016 \001(\tH\000\022\022\n\ntarget" +
+      "_uid\030\n \001(\r\032-\n\026BeyondCostumeShareCode\022\023\n\013" +
+      "FEPAFANMNLK\030\007 \001(\014B\t\n\007contentB\033\n\031emu.gras" +
+      "scutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1633,11 +1640,11 @@ public final class PrivateChatReqOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PrivateChatReq_descriptor,
         new java.lang.String[] { "BeyondCostumeShareCode", "Icon", "Text", "TargetUid", "Content", });
-    internal_static_PrivateChatReq__BeyondCostumeShareCode_descriptor =
+    internal_static_PrivateChatReq_BeyondCostumeShareCode_descriptor =
       internal_static_PrivateChatReq_descriptor.getNestedTypes().get(0);
-    internal_static_PrivateChatReq__BeyondCostumeShareCode_fieldAccessorTable = new
+    internal_static_PrivateChatReq_BeyondCostumeShareCode_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_PrivateChatReq__BeyondCostumeShareCode_descriptor,
+        internal_static_PrivateChatReq_BeyondCostumeShareCode_descriptor,
         new java.lang.String[] { "FEPAFANMNLK", });
   }
 

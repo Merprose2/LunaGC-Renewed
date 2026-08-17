@@ -917,9 +917,8 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       "tailInfo.SearchTimeMapEntry\022\022\n\nmp_play_i" +
       "d\030\r \001(\r\022\030\n\020region_search_id\030\017 \001(\r\0324\n\022Sea" +
       "rchTimeMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 " +
-      "\001(\r:\0028\001BD\n\031emu.grasscutter.net.protoB\'Wa" +
-      "terSpiritActivityDetailInfoOuterClassb\006p" +
-      "roto3"
+      "\001(\r:\0028\001B\033\n\031emu.grasscutter.net.protob\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

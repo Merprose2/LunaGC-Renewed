@@ -588,9 +588,8 @@ public final class ArenaChallengeMonsterLevelOuterClass {
     java.lang.String[] descriptorData = {
       "\n ArenaChallengeMonsterLevel.proto\"F\n\032Ar" +
       "enaChallengeMonsterLevel\022\023\n\013BLCPLGCJEBJ\030" +
-      "\010 \001(\r\022\023\n\013KHJHFLNMNPC\030\017 \001(\rBA\n\031emu.grassc" +
-      "utter.net.protoB$ArenaChallengeMonsterLe" +
-      "velOuterClassb\006proto3"
+      "\010 \001(\r\022\023\n\013KHJHFLNMNPC\030\017 \001(\rB\033\n\031emu.grassc" +
+      "utter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

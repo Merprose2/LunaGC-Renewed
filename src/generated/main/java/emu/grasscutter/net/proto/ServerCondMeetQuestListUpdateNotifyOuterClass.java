@@ -53,6 +53,10 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
     int getDelQuestIdList(int index);
   }
   /**
+   * <pre>
+   * CmdID: 21524
+   * </pre>
+   *
    * Protobuf type {@code ServerCondMeetQuestListUpdateNotify}
    */
   public static final class ServerCondMeetQuestListUpdateNotify extends
@@ -436,6 +440,10 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 21524
+     * </pre>
+     *
      * Protobuf type {@code ServerCondMeetQuestListUpdateNotify}
      */
     public static final class Builder extends
@@ -839,9 +847,8 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
       "\n)ServerCondMeetQuestListUpdateNotify.pr" +
       "oto\"[\n#ServerCondMeetQuestListUpdateNoti" +
       "fy\022\031\n\021add_quest_id_list\030\003 \003(\r\022\031\n\021del_que" +
-      "st_id_list\030\013 \003(\rBJ\n\031emu.grasscutter.net." +
-      "protoB-ServerCondMeetQuestListUpdateNoti" +
-      "fyOuterClassb\006proto3"
+      "st_id_list\030\013 \003(\rB\033\n\031emu.grasscutter.net." +
+      "protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

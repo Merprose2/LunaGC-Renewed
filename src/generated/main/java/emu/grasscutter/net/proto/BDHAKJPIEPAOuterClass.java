@@ -857,9 +857,8 @@ public final class BDHAKJPIEPAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BDHAKJPIEPA.proto\"X\n\013BDHAKJPIEPA\022\020\n\010le" +
       "vel_id\030\001 \001(\r\022\023\n\013NBPIEMDDNDB\030\006 \003(\r\022\017\n\007is_" +
-      "open\030\r \001(\010\022\021\n\tis_finish\030\017 \001(\010B2\n\031emu.gra" +
-      "sscutter.net.protoB\025BDHAKJPIEPAOuterClas" +
-      "sb\006proto3"
+      "open\030\r \001(\010\022\021\n\tis_finish\030\017 \001(\010B\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

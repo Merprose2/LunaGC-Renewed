@@ -46,6 +46,10 @@ public final class EnterSceneDoneRspOuterClass {
     int getRetcode();
   }
   /**
+   * <pre>
+   * CmdID: 5779
+   * </pre>
+   *
    * Protobuf type {@code EnterSceneDoneRsp}
    */
   public static final class EnterSceneDoneRsp extends
@@ -376,6 +380,10 @@ public final class EnterSceneDoneRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 5779
+     * </pre>
+     *
      * Protobuf type {@code EnterSceneDoneRsp}
      */
     public static final class Builder extends
@@ -792,9 +800,8 @@ public final class EnterSceneDoneRspOuterClass {
       "\n\027EnterSceneDoneRsp.proto\032\021GFFKODENHJA.p" +
       "roto\"b\n\021EnterSceneDoneRsp\022!\n\013PPKIKFGEINK" +
       "\030\002 \001(\0132\014.GFFKODENHJA\022\031\n\021enter_scene_toke" +
-      "n\030\003 \001(\r\022\017\n\007retcode\030\004 \001(\005B8\n\031emu.grasscut" +
-      "ter.net.protoB\033EnterSceneDoneRspOuterCla" +
-      "ssb\006proto3"
+      "n\030\003 \001(\r\022\017\n\007retcode\030\004 \001(\005B\033\n\031emu.grasscut" +
+      "ter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

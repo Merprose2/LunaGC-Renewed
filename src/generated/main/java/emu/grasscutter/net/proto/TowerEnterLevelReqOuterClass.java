@@ -31,6 +31,10 @@ public final class TowerEnterLevelReqOuterClass {
     boolean getIsRestartFloor();
   }
   /**
+   * <pre>
+   * CmdID: 26455
+   * </pre>
+   *
    * Protobuf type {@code TowerEnterLevelReq}
    */
   public static final class TowerEnterLevelReq extends
@@ -307,6 +311,10 @@ public final class TowerEnterLevelReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 26455
+     * </pre>
+     *
      * Protobuf type {@code TowerEnterLevelReq}
      */
     public static final class Builder extends
@@ -589,9 +597,8 @@ public final class TowerEnterLevelReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030TowerEnterLevelReq.proto\"G\n\022TowerEnter" +
       "LevelReq\022\026\n\016enter_point_id\030\n \001(\r\022\031\n\021_is_" +
-      "restart_floor\030\013 \001(\010B9\n\031emu.grasscutter.n" +
-      "et.protoB\034TowerEnterLevelReqOuterClassb\006" +
-      "proto3"
+      "restart_floor\030\013 \001(\010B\033\n\031emu.grasscutter.n" +
+      "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

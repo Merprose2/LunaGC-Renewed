@@ -590,9 +590,8 @@ public final class InstableSprayAvatarInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035InstableSprayAvatarInfo.proto\">\n\027Insta" +
       "bleSprayAvatarInfo\022\020\n\010is_trial\030\013 \001(\010\022\021\n\t" +
-      "avatar_id\030\r \001(\004B>\n\031emu.grasscutter.net.p" +
-      "rotoB!InstableSprayAvatarInfoOuterClassb" +
-      "\006proto3"
+      "avatar_id\030\r \001(\004B\033\n\031emu.grasscutter.net.p" +
+      "rotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

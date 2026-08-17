@@ -1049,8 +1049,8 @@ public final class EquipOuterClass {
       "\n\013Equip.proto\032\017Reliquary.proto\032\014Weapon.p" +
       "roto\"`\n\005Equip\022\037\n\treliquary\030\001 \001(\0132\n.Reliq" +
       "uaryH\000\022\031\n\006weapon\030\002 \001(\0132\007.WeaponH\000\022\021\n\tis_" +
-      "locked\030\003 \001(\010B\010\n\006detailB,\n\031emu.grasscutte" +
-      "r.net.protoB\017EquipOuterClassb\006proto3"
+      "locked\030\003 \001(\010B\010\n\006detailB\033\n\031emu.grasscutte" +
+      "r.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

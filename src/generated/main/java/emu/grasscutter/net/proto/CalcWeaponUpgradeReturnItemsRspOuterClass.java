@@ -55,6 +55,10 @@ public final class CalcWeaponUpgradeReturnItemsRspOuterClass {
     int getRetcode();
   }
   /**
+   * <pre>
+   * CmdID: 8968
+   * </pre>
+   *
    * Protobuf type {@code CalcWeaponUpgradeReturnItemsRsp}
    */
   public static final class CalcWeaponUpgradeReturnItemsRsp extends
@@ -398,6 +402,10 @@ public final class CalcWeaponUpgradeReturnItemsRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 8968
+     * </pre>
+     *
      * Protobuf type {@code CalcWeaponUpgradeReturnItemsRsp}
      */
     public static final class Builder extends
@@ -966,9 +974,8 @@ public final class CalcWeaponUpgradeReturnItemsRspOuterClass {
       "\017ItemParam.proto\"s\n\037CalcWeaponUpgradeRet" +
       "urnItemsRsp\022\032\n\022target_weapon_guid\030\001 \001(\004\022" +
       "#\n\017item_param_list\030\014 \003(\0132\n.ItemParam\022\017\n\007" +
-      "retcode\030\016 \001(\005BF\n\031emu.grasscutter.net.pro" +
-      "toB)CalcWeaponUpgradeReturnItemsRspOuter" +
-      "Classb\006proto3"
+      "retcode\030\016 \001(\005B\033\n\031emu.grasscutter.net.pro" +
+      "tob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

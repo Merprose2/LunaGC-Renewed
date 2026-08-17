@@ -43,6 +43,10 @@ public final class HomeAvatarTalkFinishInfoNotifyOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 24995
+   * </pre>
+   *
    * Protobuf type {@code HomeAvatarTalkFinishInfoNotify}
    */
   public static final class HomeAvatarTalkFinishInfoNotify extends
@@ -331,6 +335,10 @@ public final class HomeAvatarTalkFinishInfoNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 24995
+     * </pre>
+     *
      * Protobuf type {@code HomeAvatarTalkFinishInfoNotify}
      */
     public static final class Builder extends
@@ -825,9 +833,7 @@ public final class HomeAvatarTalkFinishInfoNotifyOuterClass {
       "HomeAvatarTalkFinishInfo.proto\"Z\n\036HomeAv" +
       "atarTalkFinishInfoNotify\0228\n\025avatar_talk_" +
       "info_list\030\013 \003(\0132\031.HomeAvatarTalkFinishIn" +
-      "foBE\n\031emu.grasscutter.net.protoB(HomeAva" +
-      "tarTalkFinishInfoNotifyOuterClassb\006proto" +
-      "3"
+      "foB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

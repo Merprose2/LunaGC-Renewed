@@ -1251,8 +1251,8 @@ public final class HitCollisionOuterClass {
       "hit_box_index\030\t \001(\005\022\032\n\thit_point\030\n \001(\0132\007" +
       ".Vector\022+\n\021hit_collider_type\030\014 \001(\0162\020.Hit" +
       "ColliderType\022\030\n\007hit_dir\030\r \001(\0132\007.Vector\022\023" +
-      "\n\013EGIAGADINML\030\017 \001(\002B3\n\031emu.grasscutter.n" +
-      "et.protoB\026HitCollisionOuterClassb\006proto3"
+      "\n\013EGIAGADINML\030\017 \001(\002B\033\n\031emu.grasscutter.n" +
+      "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

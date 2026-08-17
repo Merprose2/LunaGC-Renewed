@@ -1089,8 +1089,7 @@ public final class DigActivityDetailInfoOuterClass {
       "int.proto\"l\n\025DigActivityDetailInfo\022\020\n\010st" +
       "age_id\030\003 \001(\r\022*\n\023dig_mark_point_list\030\010 \003(" +
       "\0132\r.DigMarkPoint\022\025\n\rstage_id_list\030\013 \003(\rB" +
-      "<\n\031emu.grasscutter.net.protoB\037DigActivit" +
-      "yDetailInfoOuterClassb\006proto3"
+      "\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

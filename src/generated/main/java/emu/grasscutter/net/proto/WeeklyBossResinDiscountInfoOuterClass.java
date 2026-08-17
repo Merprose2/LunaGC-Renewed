@@ -730,9 +730,8 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
       "WeeklyBossResinDiscountInfo\022\024\n\014discount_" +
       "num\030\001 \001(\r\022\032\n\022discount_num_limit\030\002 \001(\r\022\022\n" +
       "\nresin_cost\030\003 \001(\r\022\033\n\023original_resin_cost" +
-      "\030\004 \001(\rBB\n\031emu.grasscutter.net.protoB%Wee" +
-      "klyBossResinDiscountInfoOuterClassb\006prot" +
-      "o3"
+      "\030\004 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

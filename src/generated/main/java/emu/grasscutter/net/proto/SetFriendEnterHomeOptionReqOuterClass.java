@@ -19,17 +19,21 @@ public final class SetFriendEnterHomeOptionReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.FriendEnterHomeOption option_ = 6;</code>
+     * <code>.FriendEnterHomeOption option = 6;</code>
      * @return The enum numeric value on the wire for option.
      */
     int getOptionValue();
     /**
-     * <code>.FriendEnterHomeOption option_ = 6;</code>
+     * <code>.FriendEnterHomeOption option = 6;</code>
      * @return The option.
      */
     emu.grasscutter.net.proto.FriendEnterHomeOptionOuterClass.FriendEnterHomeOption getOption();
   }
   /**
+   * <pre>
+   * CmdID: 24977
+   * </pre>
+   *
    * Protobuf type {@code SetFriendEnterHomeOptionReq}
    */
   public static final class SetFriendEnterHomeOptionReq extends
@@ -113,17 +117,17 @@ public final class SetFriendEnterHomeOptionReqOuterClass {
               emu.grasscutter.net.proto.SetFriendEnterHomeOptionReqOuterClass.SetFriendEnterHomeOptionReq.class, emu.grasscutter.net.proto.SetFriendEnterHomeOptionReqOuterClass.SetFriendEnterHomeOptionReq.Builder.class);
     }
 
-    public static final int OPTION__FIELD_NUMBER = 6;
+    public static final int OPTION_FIELD_NUMBER = 6;
     private int option_;
     /**
-     * <code>.FriendEnterHomeOption option_ = 6;</code>
+     * <code>.FriendEnterHomeOption option = 6;</code>
      * @return The enum numeric value on the wire for option.
      */
     @java.lang.Override public int getOptionValue() {
       return option_;
     }
     /**
-     * <code>.FriendEnterHomeOption option_ = 6;</code>
+     * <code>.FriendEnterHomeOption option = 6;</code>
      * @return The option.
      */
     @java.lang.Override public emu.grasscutter.net.proto.FriendEnterHomeOptionOuterClass.FriendEnterHomeOption getOption() {
@@ -189,7 +193,7 @@ public final class SetFriendEnterHomeOptionReqOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + OPTION__FIELD_NUMBER;
+      hash = (37 * hash) + OPTION_FIELD_NUMBER;
       hash = (53 * hash) + option_;
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -287,6 +291,10 @@ public final class SetFriendEnterHomeOptionReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 24977
+     * </pre>
+     *
      * Protobuf type {@code SetFriendEnterHomeOptionReq}
      */
     public static final class Builder extends
@@ -435,14 +443,14 @@ public final class SetFriendEnterHomeOptionReqOuterClass {
 
       private int option_ = 0;
       /**
-       * <code>.FriendEnterHomeOption option_ = 6;</code>
+       * <code>.FriendEnterHomeOption option = 6;</code>
        * @return The enum numeric value on the wire for option.
        */
       @java.lang.Override public int getOptionValue() {
         return option_;
       }
       /**
-       * <code>.FriendEnterHomeOption option_ = 6;</code>
+       * <code>.FriendEnterHomeOption option = 6;</code>
        * @param value The enum numeric value on the wire for option to set.
        * @return This builder for chaining.
        */
@@ -453,7 +461,7 @@ public final class SetFriendEnterHomeOptionReqOuterClass {
         return this;
       }
       /**
-       * <code>.FriendEnterHomeOption option_ = 6;</code>
+       * <code>.FriendEnterHomeOption option = 6;</code>
        * @return The option.
        */
       @java.lang.Override
@@ -463,7 +471,7 @@ public final class SetFriendEnterHomeOptionReqOuterClass {
         return result == null ? emu.grasscutter.net.proto.FriendEnterHomeOptionOuterClass.FriendEnterHomeOption.UNRECOGNIZED : result;
       }
       /**
-       * <code>.FriendEnterHomeOption option_ = 6;</code>
+       * <code>.FriendEnterHomeOption option = 6;</code>
        * @param value The option to set.
        * @return This builder for chaining.
        */
@@ -477,7 +485,7 @@ public final class SetFriendEnterHomeOptionReqOuterClass {
         return this;
       }
       /**
-       * <code>.FriendEnterHomeOption option_ = 6;</code>
+       * <code>.FriendEnterHomeOption option = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearOption() {
@@ -554,11 +562,10 @@ public final class SetFriendEnterHomeOptionReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n!SetFriendEnterHomeOptionReq.proto\032\033Fri" +
-      "endEnterHomeOption.proto\"F\n\033SetFriendEnt" +
-      "erHomeOptionReq\022\'\n\007option_\030\006 \001(\0162\026.Frien" +
-      "dEnterHomeOptionBB\n\031emu.grasscutter.net." +
-      "protoB%SetFriendEnterHomeOptionReqOuterC" +
-      "lassb\006proto3"
+      "endEnterHomeOption.proto\"E\n\033SetFriendEnt" +
+      "erHomeOptionReq\022&\n\006option\030\006 \001(\0162\026.Friend" +
+      "EnterHomeOptionB\033\n\031emu.grasscutter.net.p" +
+      "rotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

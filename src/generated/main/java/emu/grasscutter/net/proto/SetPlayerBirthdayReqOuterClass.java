@@ -34,6 +34,10 @@ public final class SetPlayerBirthdayReqOuterClass {
     emu.grasscutter.net.proto.BirthdayOuterClass.BirthdayOrBuilder getBirthdayOrBuilder();
   }
   /**
+   * <pre>
+   * CmdID: 754
+   * </pre>
+   *
    * Protobuf type {@code SetPlayerBirthdayReq}
    */
   public static final class SetPlayerBirthdayReq extends
@@ -310,6 +314,10 @@ public final class SetPlayerBirthdayReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 754
+     * </pre>
+     *
      * Protobuf type {@code SetPlayerBirthdayReq}
      */
     public static final class Builder extends
@@ -651,9 +659,8 @@ public final class SetPlayerBirthdayReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032SetPlayerBirthdayReq.proto\032\016Birthday.p" +
       "roto\"3\n\024SetPlayerBirthdayReq\022\033\n\010birthday" +
-      "\030\r \001(\0132\t.BirthdayB;\n\031emu.grasscutter.net" +
-      ".protoB\036SetPlayerBirthdayReqOuterClassb\006" +
-      "proto3"
+      "\030\r \001(\0132\t.BirthdayB\033\n\031emu.grasscutter.net" +
+      ".protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

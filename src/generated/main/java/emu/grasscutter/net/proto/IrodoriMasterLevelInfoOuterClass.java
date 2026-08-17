@@ -895,8 +895,7 @@ public final class IrodoriMasterLevelInfoOuterClass {
       "asterLevelDetailInfo.proto\"^\n\026IrodoriMas" +
       "terLevelInfo\022\020\n\010level_id\030\004 \001(\r\0222\n\013detail" +
       "_info\030\016 \003(\0132\035.IrodoriMasterLevelDetailIn" +
-      "foB=\n\031emu.grasscutter.net.protoB Irodori" +
-      "MasterLevelInfoOuterClassb\006proto3"
+      "foB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

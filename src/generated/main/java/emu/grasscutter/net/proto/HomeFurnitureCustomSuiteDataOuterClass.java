@@ -920,8 +920,7 @@ public final class HomeFurnitureCustomSuiteDataOuterClass {
       "ctor.proto\"o\n\034HomeFurnitureCustomSuiteDa" +
       "ta\022%\n\035included_furniture_index_list\030\006 \003(" +
       "\005\022\014\n\004guid\030\007 \001(\r\022\032\n\tspawn_pos\030\013 \001(\0132\007.Vec" +
-      "torBC\n\031emu.grasscutter.net.protoB&HomeFu" +
-      "rnitureCustomSuiteDataOuterClassb\006proto3"
+      "torB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

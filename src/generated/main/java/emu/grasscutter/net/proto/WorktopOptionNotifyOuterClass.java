@@ -42,6 +42,10 @@ public final class WorktopOptionNotifyOuterClass {
     int getGadgetEntityId();
   }
   /**
+   * <pre>
+   * CmdID: 1650
+   * </pre>
+   *
    * Protobuf type {@code WorktopOptionNotify}
    */
   public static final class WorktopOptionNotify extends
@@ -372,6 +376,10 @@ public final class WorktopOptionNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 1650
+     * </pre>
+     *
      * Protobuf type {@code WorktopOptionNotify}
      */
     public static final class Builder extends
@@ -715,9 +723,8 @@ public final class WorktopOptionNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031WorktopOptionNotify.proto\"D\n\023WorktopOp" +
       "tionNotify\022\023\n\013option_list\030\002 \003(\r\022\030\n\020gadge" +
-      "t_entity_id\030\010 \001(\rB:\n\031emu.grasscutter.net" +
-      ".protoB\035WorktopOptionNotifyOuterClassb\006p" +
-      "roto3"
+      "t_entity_id\030\010 \001(\rB\033\n\031emu.grasscutter.net" +
+      ".protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

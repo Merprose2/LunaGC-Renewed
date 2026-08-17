@@ -20,32 +20,32 @@ public final class GetUgcTypeOuterClass {
   public enum GetUgcType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>GET_UGC_NONE = 0;</code>
+     * <code>GetUgcType_GET_UGC_NONE = 0;</code>
      */
-    GET_UGC_NONE(0),
+    GetUgcType_GET_UGC_NONE(0),
     /**
-     * <code>GET_UgcType_MINE = 1;</code>
+     * <code>GetUgcType_MINE = 1;</code>
      */
-    GET_UgcType_MINE(1),
+    GetUgcType_MINE(1),
     /**
-     * <code>GET_UgcType_PUBLISH = 2;</code>
+     * <code>GetUgcType_PUBLISH = 2;</code>
      */
-    GET_UgcType_PUBLISH(2),
+    GetUgcType_PUBLISH(2),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>GET_UGC_NONE = 0;</code>
+     * <code>GetUgcType_GET_UGC_NONE = 0;</code>
      */
-    public static final int GET_UGC_NONE_VALUE = 0;
+    public static final int GetUgcType_GET_UGC_NONE_VALUE = 0;
     /**
-     * <code>GET_UgcType_MINE = 1;</code>
+     * <code>GetUgcType_MINE = 1;</code>
      */
-    public static final int GET_UgcType_MINE_VALUE = 1;
+    public static final int GetUgcType_MINE_VALUE = 1;
     /**
-     * <code>GET_UgcType_PUBLISH = 2;</code>
+     * <code>GetUgcType_PUBLISH = 2;</code>
      */
-    public static final int GET_UgcType_PUBLISH_VALUE = 2;
+    public static final int GetUgcType_PUBLISH_VALUE = 2;
 
 
     public final int getNumber() {
@@ -72,9 +72,9 @@ public final class GetUgcTypeOuterClass {
      */
     public static GetUgcType forNumber(int value) {
       switch (value) {
-        case 0: return GET_UGC_NONE;
-        case 1: return GET_UgcType_MINE;
-        case 2: return GET_UgcType_PUBLISH;
+        case 0: return GetUgcType_GET_UGC_NONE;
+        case 1: return GetUgcType_MINE;
+        case 2: return GetUgcType_PUBLISH;
         default: return null;
       }
     }
@@ -140,10 +140,10 @@ public final class GetUgcTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\020GetUgcType.proto*M\n\nGetUgcType\022\020\n\014GET_" +
-      "UGC_NONE\020\000\022\024\n\020GET_UgcType_MINE\020\001\022\027\n\023GET_" +
-      "UgcType_PUBLISH\020\002B1\n\031emu.grasscutter.net" +
-      ".protoB\024GetUgcTypeOuterClassb\006proto3"
+      "\n\020GetUgcType.proto*V\n\nGetUgcType\022\033\n\027GetU" +
+      "gcType_GET_UGC_NONE\020\000\022\023\n\017GetUgcType_MINE" +
+      "\020\001\022\026\n\022GetUgcType_PUBLISH\020\002B\033\n\031emu.grassc" +
+      "utter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

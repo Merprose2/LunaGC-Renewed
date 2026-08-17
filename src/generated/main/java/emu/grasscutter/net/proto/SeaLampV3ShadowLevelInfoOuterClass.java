@@ -660,8 +660,7 @@ public final class SeaLampV3ShadowLevelInfoOuterClass {
       "\n\036SeaLampV3ShadowLevelInfo.proto\"V\n\030SeaL" +
       "ampV3ShadowLevelInfo\022\017\n\007is_open\030\005 \001(\010\022\020\n" +
       "\010level_id\030\010 \001(\r\022\027\n\017min_finish_time\030\014 \001(\r" +
-      "B?\n\031emu.grasscutter.net.protoB\"SeaLampV3" +
-      "ShadowLevelInfoOuterClassb\006proto3"
+      "B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

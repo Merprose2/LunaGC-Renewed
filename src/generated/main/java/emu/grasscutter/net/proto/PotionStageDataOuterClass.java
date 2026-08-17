@@ -1353,9 +1353,8 @@ public final class PotionStageDataOuterClass {
       ".proto\"\204\001\n\017PotionStageData\022\023\n\013HLFNHDFMEE" +
       "L\030\007 \003(\r\022\017\n\007is_open\030\010 \001(\010\022$\n\nlevel_list\030\n" +
       " \003(\0132\020.PotionLevelData\022\020\n\010stage_id\030\016 \001(\r" +
-      "\022\023\n\013MDEMNAHABEN\030\017 \003(\rB6\n\031emu.grasscutter" +
-      ".net.protoB\031PotionStageDataOuterClassb\006p" +
-      "roto3"
+      "\022\023\n\013MDEMNAHABEN\030\017 \003(\rB\033\n\031emu.grasscutter" +
+      ".net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

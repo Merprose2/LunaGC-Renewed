@@ -1061,8 +1061,7 @@ public final class VintagePresentStageDataOuterClass {
       "\010\022\017\n\007is_open\030\t \001(\010\022\021\n\topen_time\030\013 \001(\r\032P\n" +
       "\024PresentLevelMapEntry\022\013\n\003key\030\001 \001(\r\022\'\n\005va" +
       "lue\030\002 \001(\0132\030.VintagePresentLevelData:\0028\001B" +
-      ">\n\031emu.grasscutter.net.protoB!VintagePre" +
-      "sentStageDataOuterClassb\006proto3"
+      "\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

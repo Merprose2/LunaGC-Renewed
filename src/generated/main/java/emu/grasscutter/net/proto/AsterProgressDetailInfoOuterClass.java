@@ -588,9 +588,8 @@ public final class AsterProgressDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035AsterProgressDetailInfo.proto\"D\n\027Aster" +
       "ProgressDetailInfo\022\r\n\005count\030\010 \001(\r\022\032\n\022las" +
-      "t_auto_add_time\030\r \001(\rB>\n\031emu.grasscutter" +
-      ".net.protoB!AsterProgressDetailInfoOuter" +
-      "Classb\006proto3"
+      "t_auto_add_time\030\r \001(\rB\033\n\031emu.grasscutter" +
+      ".net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

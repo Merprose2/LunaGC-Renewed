@@ -1121,9 +1121,8 @@ public final class JIEHJMIEHPMOuterClass {
       "\n\021JIEHJMIEHPM.proto\"\207\001\n\013JIEHJMIEHPM\022\023\n\013O" +
       "DDFFNIOBLN\030\001 \001(\010\022\020\n\010level_id\030\005 \001(\r\022\022\n\nbe" +
       "st_score\030\006 \001(\r\022\023\n\013KLGNBKEEEIE\030\007 \001(\010\022\023\n\013B" +
-      "LFDFGAGOIG\030\013 \003(\r\022\023\n\013OJIDBAFJECO\030\r \003(\rB2\n" +
-      "\031emu.grasscutter.net.protoB\025JIEHJMIEHPMO" +
-      "uterClassb\006proto3"
+      "LFDFGAGOIG\030\013 \003(\r\022\023\n\013OJIDBAFJECO\030\r \003(\rB\033\n" +
+      "\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

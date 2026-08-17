@@ -25,6 +25,10 @@ public final class WeaponPromoteReqOuterClass {
     long getTargetWeaponGuid();
   }
   /**
+   * <pre>
+   * CmdID: 8019
+   * </pre>
+   *
    * Protobuf type {@code WeaponPromoteReq}
    */
   public static final class WeaponPromoteReq extends
@@ -274,6 +278,10 @@ public final class WeaponPromoteReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 8019
+     * </pre>
+     *
      * Protobuf type {@code WeaponPromoteReq}
      */
     public static final class Builder extends
@@ -518,9 +526,8 @@ public final class WeaponPromoteReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026WeaponPromoteReq.proto\".\n\020WeaponPromot" +
-      "eReq\022\032\n\022target_weapon_guid\030\013 \001(\004B7\n\031emu." +
-      "grasscutter.net.protoB\032WeaponPromoteReqO" +
-      "uterClassb\006proto3"
+      "eReq\022\032\n\022target_weapon_guid\030\013 \001(\004B\033\n\031emu." +
+      "grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -786,8 +786,8 @@ public final class ALCMFKHLGHGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ALCMFKHLGHG.proto\"E\n\013ALCMFKHLGHG\022\020\n\010le" +
       "vel_id\030\t \001(\r\022\017\n\007is_open\030\013 \001(\010\022\023\n\013PMAGDGD" +
-      "GAJO\030\014 \003(\rB2\n\031emu.grasscutter.net.protoB" +
-      "\025ALCMFKHLGHGOuterClassb\006proto3"
+      "GAJO\030\014 \003(\rB\033\n\031emu.grasscutter.net.protob" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

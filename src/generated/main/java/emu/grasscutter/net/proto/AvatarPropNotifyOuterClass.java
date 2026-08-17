@@ -59,6 +59,10 @@ public final class AvatarPropNotifyOuterClass {
     long getAvatarGuid();
   }
   /**
+   * <pre>
+   * CmdID: 8709
+   * </pre>
+   *
    * Protobuf type {@code AvatarPropNotify}
    */
   public static final class AvatarPropNotify extends
@@ -437,6 +441,10 @@ public final class AvatarPropNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 8709
+     * </pre>
+     *
      * Protobuf type {@code AvatarPropNotify}
      */
     public static final class Builder extends
@@ -846,8 +854,8 @@ public final class AvatarPropNotifyOuterClass {
       "otify\0220\n\010prop_map\030\t \003(\0132\036.AvatarPropNoti" +
       "fy.PropMapEntry\022\023\n\013avatar_guid\030\016 \001(\004\032.\n\014" +
       "PropMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\003" +
-      ":\0028\001B7\n\031emu.grasscutter.net.protoB\032Avata" +
-      "rPropNotifyOuterClassb\006proto3"
+      ":\0028\001B\033\n\031emu.grasscutter.net.protob\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -49,6 +49,10 @@ public final class CombatInvocationsNotifyOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 1185
+   * </pre>
+   *
    * Protobuf type {@code CombatInvocationsNotify}
    */
   public static final class CombatInvocationsNotify extends
@@ -364,6 +368,10 @@ public final class CombatInvocationsNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 1185
+     * </pre>
+     *
      * Protobuf type {@code CombatInvocationsNotify}
      */
     public static final class Builder extends
@@ -894,9 +902,8 @@ public final class CombatInvocationsNotifyOuterClass {
       "\n\035CombatInvocationsNotify.proto\032\027CombatI" +
       "nvokeEntry.proto\"^\n\027CombatInvocationsNot" +
       "ify\022\032\n\022client_sequence_id\030\001 \001(\r\022\'\n\013invok" +
-      "e_list\030\016 \003(\0132\022.CombatInvokeEntryB>\n\031emu." +
-      "grasscutter.net.protoB!CombatInvocations" +
-      "NotifyOuterClassb\006proto3"
+      "e_list\030\016 \003(\0132\022.CombatInvokeEntryB\033\n\031emu." +
+      "grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

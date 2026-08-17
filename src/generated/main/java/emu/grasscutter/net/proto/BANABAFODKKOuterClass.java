@@ -446,9 +446,8 @@ public final class BANABAFODKKOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021BANABAFODKK.proto\"\r\n\013BANABAFODKKB2\n\031em" +
-      "u.grasscutter.net.protoB\025BANABAFODKKOute" +
-      "rClassb\006proto3"
+      "\n\021BANABAFODKK.proto\"\r\n\013BANABAFODKKB\033\n\031em" +
+      "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

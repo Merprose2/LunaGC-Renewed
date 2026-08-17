@@ -711,9 +711,8 @@ public final class APNLICDADPCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021APNLICDADPC.proto\"4\n\013APNLICDADPC\022\020\n\010ke" +
-      "y_hash\030\001 \001(\005\022\023\n\013ENLJFAGNPDG\030\002 \003(\002B2\n\031emu" +
-      ".grasscutter.net.protoB\025APNLICDADPCOuter" +
-      "Classb\006proto3"
+      "y_hash\030\001 \001(\005\022\023\n\013ENLJFAGNPDG\030\002 \003(\002B\033\n\031emu" +
+      ".grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

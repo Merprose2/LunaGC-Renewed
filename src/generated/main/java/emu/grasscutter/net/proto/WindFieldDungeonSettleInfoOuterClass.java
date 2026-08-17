@@ -302,7 +302,7 @@ public final class WindFieldDungeonSettleInfoOuterClass {
       for (int i = 0; i < nBCOMIAPKMP_.size(); i++) {
         output.writeUInt32NoTag(nBCOMIAPKMP_.getInt(i));
       }
-      if (failReason_ != emu.grasscutter.net.proto.WindFieldDungeonFailReasonOuterClass.WindFieldDungeonFailReason.WIND_FIELD_DUNGEON_FAIL_NONE.getNumber()) {
+      if (failReason_ != emu.grasscutter.net.proto.WindFieldDungeonFailReasonOuterClass.WindFieldDungeonFailReason.WindFieldDungeonFailReason_WIND_FIELD_DUNGEON_FAIL_NONE.getNumber()) {
         output.writeEnum(10, failReason_);
       }
       unknownFields.writeTo(output);
@@ -342,7 +342,7 @@ public final class WindFieldDungeonSettleInfoOuterClass {
         }
         nBCOMIAPKMPMemoizedSerializedSize = dataSize;
       }
-      if (failReason_ != emu.grasscutter.net.proto.WindFieldDungeonFailReasonOuterClass.WindFieldDungeonFailReason.WIND_FIELD_DUNGEON_FAIL_NONE.getNumber()) {
+      if (failReason_ != emu.grasscutter.net.proto.WindFieldDungeonFailReasonOuterClass.WindFieldDungeonFailReason.WindFieldDungeonFailReason_WIND_FIELD_DUNGEON_FAIL_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(10, failReason_);
       }
@@ -947,9 +947,8 @@ public final class WindFieldDungeonSettleInfoOuterClass {
       "FieldDungeonFailReason.proto\"x\n\032WindFiel" +
       "dDungeonSettleInfo\022\023\n\013LFGENDKAIFE\030\005 \003(\r\022" +
       "\023\n\013NBCOMIAPKMP\030\010 \003(\r\0220\n\013fail_reason\030\n \001(" +
-      "\0162\033.WindFieldDungeonFailReasonBA\n\031emu.gr" +
-      "asscutter.net.protoB$WindFieldDungeonSet" +
-      "tleInfoOuterClassb\006proto3"
+      "\0162\033.WindFieldDungeonFailReasonB\033\n\031emu.gr" +
+      "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

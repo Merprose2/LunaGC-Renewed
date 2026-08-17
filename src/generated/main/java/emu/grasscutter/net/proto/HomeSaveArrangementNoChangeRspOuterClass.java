@@ -31,6 +31,10 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
     int getSceneId();
   }
   /**
+   * <pre>
+   * CmdID: 3685
+   * </pre>
+   *
    * Protobuf type {@code HomeSaveArrangementNoChangeRsp}
    */
   public static final class HomeSaveArrangementNoChangeRsp extends
@@ -306,6 +310,10 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 3685
+     * </pre>
+     *
      * Protobuf type {@code HomeSaveArrangementNoChangeRsp}
      */
     public static final class Builder extends
@@ -588,9 +596,8 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n$HomeSaveArrangementNoChangeRsp.proto\"C" +
       "\n\036HomeSaveArrangementNoChangeRsp\022\017\n\007retc" +
-      "ode\030\005 \001(\005\022\020\n\010scene_id\030\016 \001(\rBE\n\031emu.grass" +
-      "cutter.net.protoB(HomeSaveArrangementNoC" +
-      "hangeRspOuterClassb\006proto3"
+      "ode\030\005 \001(\005\022\020\n\010scene_id\030\016 \001(\rB\033\n\031emu.grass" +
+      "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

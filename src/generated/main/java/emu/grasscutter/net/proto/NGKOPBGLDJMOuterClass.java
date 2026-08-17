@@ -738,8 +738,8 @@ public final class NGKOPBGLDJMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NGKOPBGLDJM.proto\"O\n\013NGKOPBGLDJM\022\023\n\013DK" +
       "JPGNMLLDP\030\001 \001(\t\022\026\n\016client_version\030\002 \001(\r\022" +
-      "\023\n\013AHMNIINDBBN\030\003 \001(\rB2\n\031emu.grasscutter." +
-      "net.protoB\025NGKOPBGLDJMOuterClassb\006proto3"
+      "\023\n\013AHMNIINDBBN\030\003 \001(\rB\033\n\031emu.grasscutter." +
+      "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1090,9 +1090,8 @@ public final class GravenInnocenceCarveInfoOuterClass {
       "InnocenceCarveInfo\022\037\n\027has_edit_config_id" +
       "_list\030\003 \003(\r\022\026\n\016can_edit_count\030\t \001(\r\0227\n\017s" +
       "tage_info_list\030\013 \003(\0132\036.GravenInnocenceCa" +
-      "rveStageInfoB?\n\031emu.grasscutter.net.prot" +
-      "oB\"GravenInnocenceCarveInfoOuterClassb\006p" +
-      "roto3"
+      "rveStageInfoB\033\n\031emu.grasscutter.net.prot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

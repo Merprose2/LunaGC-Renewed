@@ -48,6 +48,10 @@ public final class SetUpAvatarTeamReqOuterClass {
     int getTeamId();
   }
   /**
+   * <pre>
+   * CmdID: 24997
+   * </pre>
+   *
    * Protobuf type {@code SetUpAvatarTeamReq}
    */
   public static final class SetUpAvatarTeamReq extends
@@ -406,6 +410,10 @@ public final class SetUpAvatarTeamReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 24997
+     * </pre>
+     *
      * Protobuf type {@code SetUpAvatarTeamReq}
      */
     public static final class Builder extends
@@ -787,8 +795,7 @@ public final class SetUpAvatarTeamReqOuterClass {
       "\n\030SetUpAvatarTeamReq.proto\"]\n\022SetUpAvata" +
       "rTeamReq\022\035\n\025avatar_team_guid_list\030\t \003(\004\022" +
       "\027\n\017cur_avatar_guid\030\r \001(\004\022\017\n\007team_id\030\016 \001(" +
-      "\rB9\n\031emu.grasscutter.net.protoB\034SetUpAva" +
-      "tarTeamReqOuterClassb\006proto3"
+      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -587,9 +587,8 @@ public final class UgcMusicNoteOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\022UgcMusicNote.proto\"4\n\014UgcMusicNote\022\020\n\010" +
-      "end_time\030\004 \001(\r\022\022\n\nstart_time\030\007 \001(\rB3\n\031em" +
-      "u.grasscutter.net.protoB\026UgcMusicNoteOut" +
-      "erClassb\006proto3"
+      "end_time\030\004 \001(\r\022\022\n\nstart_time\030\007 \001(\rB\033\n\031em" +
+      "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

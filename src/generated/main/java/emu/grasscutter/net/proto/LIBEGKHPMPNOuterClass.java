@@ -142,9 +142,8 @@ public final class LIBEGKHPMPNOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LIBEGKHPMPN.proto*R\n\013LIBEGKHPMPN\022\024\n\020LI" +
       "BEGKHPMPN_NONE\020\000\022\026\n\022LIBEGKHPMPN_NORMAL\020\001" +
-      "\022\025\n\021LIBEGKHPMPN_EQUIP\020\002B2\n\031emu.grasscutt" +
-      "er.net.protoB\025LIBEGKHPMPNOuterClassb\006pro" +
-      "to3"
+      "\022\025\n\021LIBEGKHPMPN_EQUIP\020\002B\033\n\031emu.grasscutt" +
+      "er.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

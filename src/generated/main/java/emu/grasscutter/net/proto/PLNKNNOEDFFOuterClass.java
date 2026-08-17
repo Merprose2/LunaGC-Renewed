@@ -1005,9 +1005,8 @@ public final class PLNKNNOEDFFOuterClass {
       "\n\021PLNKNNOEDFF.proto\032\021ABFMGNFBCOK.proto\032\021" +
       "FJFKBKCECBC.proto\"Z\n\013PLNKNNOEDFF\022\013\n\003key\030" +
       "\001 \001(\t\022\033\n\005value\030\002 \001(\0132\014.ABFMGNFBCOK\022!\n\013PM" +
-      "HDJBEJGKN\030\003 \001(\0132\014.FJFKBKCECBCB2\n\031emu.gra" +
-      "sscutter.net.protoB\025PLNKNNOEDFFOuterClas" +
-      "sb\006proto3"
+      "HDJBEJGKN\030\003 \001(\0132\014.FJFKBKCECBCB\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

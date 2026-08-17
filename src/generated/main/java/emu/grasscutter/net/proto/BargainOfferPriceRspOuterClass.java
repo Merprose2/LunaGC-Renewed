@@ -48,6 +48,10 @@ public final class BargainOfferPriceRspOuterClass {
     emu.grasscutter.net.proto.BargainResultTypeOuterClass.BargainResultType getBargainResult();
   }
   /**
+   * <pre>
+   * CmdID: 408
+   * </pre>
+   *
    * Protobuf type {@code BargainOfferPriceRsp}
    */
   public static final class BargainOfferPriceRsp extends
@@ -221,7 +225,7 @@ public final class BargainOfferPriceRspOuterClass {
       if (curMood_ != 0) {
         output.writeInt32(7, curMood_);
       }
-      if (bargainResult_ != emu.grasscutter.net.proto.BargainResultTypeOuterClass.BargainResultType.BARGAIN_COMPLETE_SUCC.getNumber()) {
+      if (bargainResult_ != emu.grasscutter.net.proto.BargainResultTypeOuterClass.BargainResultType.BargainResultType_BARGAIN_COMPLETE_SUCC.getNumber()) {
         output.writeEnum(9, bargainResult_);
       }
       unknownFields.writeTo(output);
@@ -245,7 +249,7 @@ public final class BargainOfferPriceRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(7, curMood_);
       }
-      if (bargainResult_ != emu.grasscutter.net.proto.BargainResultTypeOuterClass.BargainResultType.BARGAIN_COMPLETE_SUCC.getNumber()) {
+      if (bargainResult_ != emu.grasscutter.net.proto.BargainResultTypeOuterClass.BargainResultType.BargainResultType_BARGAIN_COMPLETE_SUCC.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(9, bargainResult_);
       }
@@ -386,6 +390,10 @@ public final class BargainOfferPriceRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 408
+     * </pre>
+     *
      * Protobuf type {@code BargainOfferPriceRsp}
      */
     public static final class Builder extends
@@ -767,9 +775,8 @@ public final class BargainOfferPriceRspOuterClass {
       "ultType.proto\"{\n\024BargainOfferPriceRsp\022\017\n" +
       "\007retcode\030\001 \001(\005\022\024\n\014result_param\030\003 \001(\r\022\020\n\010" +
       "cur_mood\030\007 \001(\005\022*\n\016bargain_result\030\t \001(\0162\022" +
-      ".BargainResultTypeB;\n\031emu.grasscutter.ne" +
-      "t.protoB\036BargainOfferPriceRspOuterClassb" +
-      "\006proto3"
+      ".BargainResultTypeB\033\n\031emu.grasscutter.ne" +
+      "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -73,10 +73,10 @@ public final class UgcMusicBriefInfoOuterClass {
     long getUgcGuid();
 
     /**
-     * <code>uint32 jbgofomfahf = 9;</code>
-     * @return The jbgofomfahf.
+     * <code>uint32 CDEMBFGJAPH = 9;</code>
+     * @return The cDEMBFGJAPH.
      */
-    int getJbgofomfahf();
+    int getCDEMBFGJAPH();
 
     /**
      * <code>uint32 LDDCHDFKLGO = 10;</code>
@@ -157,11 +157,11 @@ public final class UgcMusicBriefInfoOuterClass {
      * <code>._MusicGameSocial social = 1110;</code>
      * @return The social.
      */
-    emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial getSocial();
+    emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial getSocial();
     /**
      * <code>._MusicGameSocial social = 1110;</code>
      */
-    emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocialOrBuilder getSocialOrBuilder();
+    emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocialOrBuilder getSocialOrBuilder();
 
     /**
      * <code>uint32 HHBOBIJKFPJ = 1135;</code>
@@ -309,7 +309,7 @@ public final class UgcMusicBriefInfoOuterClass {
             }
             case 72: {
 
-              jbgofomfahf_ = input.readUInt32();
+              cDEMBFGJAPH_ = input.readUInt32();
               break;
             }
             case 80: {
@@ -385,11 +385,11 @@ public final class UgcMusicBriefInfoOuterClass {
               break;
             }
             case 8882: {
-              emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.Builder subBuilder = null;
+              emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial.Builder subBuilder = null;
               if (social_ != null) {
                 subBuilder = social_.toBuilder();
               }
-              social_ = input.readMessage(emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.parser(), extensionRegistry);
+              social_ = input.readMessage(emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(social_);
                 social_ = subBuilder.buildPartial();
@@ -604,15 +604,15 @@ public final class UgcMusicBriefInfoOuterClass {
       return ugcGuid_;
     }
 
-    public static final int JBGOFOMFAHF_FIELD_NUMBER = 9;
-    private int jbgofomfahf_;
+    public static final int CDEMBFGJAPH_FIELD_NUMBER = 9;
+    private int cDEMBFGJAPH_;
     /**
-     * <code>uint32 jbgofomfahf = 9;</code>
-     * @return The jbgofomfahf.
+     * <code>uint32 CDEMBFGJAPH = 9;</code>
+     * @return The cDEMBFGJAPH.
      */
     @java.lang.Override
-    public int getJbgofomfahf() {
-      return jbgofomfahf_;
+    public int getCDEMBFGJAPH() {
+      return cDEMBFGJAPH_;
     }
 
     public static final int LDDCHDFKLGO_FIELD_NUMBER = 10;
@@ -738,7 +738,7 @@ public final class UgcMusicBriefInfoOuterClass {
     private int cCJOGFPEKIDMemoizedSerializedSize = -1;
 
     public static final int SOCIAL_FIELD_NUMBER = 1110;
-    private emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial social_;
+    private emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial social_;
     /**
      * <code>._MusicGameSocial social = 1110;</code>
      * @return Whether the social field is set.
@@ -752,14 +752,14 @@ public final class UgcMusicBriefInfoOuterClass {
      * @return The social.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial getSocial() {
-      return social_ == null ? emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.getDefaultInstance() : social_;
+    public emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial getSocial() {
+      return social_ == null ? emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial.getDefaultInstance() : social_;
     }
     /**
      * <code>._MusicGameSocial social = 1110;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocialOrBuilder getSocialOrBuilder() {
+    public emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocialOrBuilder getSocialOrBuilder() {
       return getSocial();
     }
 
@@ -896,8 +896,8 @@ public final class UgcMusicBriefInfoOuterClass {
       if (ugcGuid_ != 0L) {
         output.writeUInt64(8, ugcGuid_);
       }
-      if (jbgofomfahf_ != 0) {
-        output.writeUInt32(9, jbgofomfahf_);
+      if (cDEMBFGJAPH_ != 0) {
+        output.writeUInt32(9, cDEMBFGJAPH_);
       }
       if (lDDCHDFKLGO_ != 0) {
         output.writeUInt32(10, lDDCHDFKLGO_);
@@ -999,9 +999,9 @@ public final class UgcMusicBriefInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt64Size(8, ugcGuid_);
       }
-      if (jbgofomfahf_ != 0) {
+      if (cDEMBFGJAPH_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, jbgofomfahf_);
+          .computeUInt32Size(9, cDEMBFGJAPH_);
       }
       if (lDDCHDFKLGO_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1128,8 +1128,8 @@ public final class UgcMusicBriefInfoOuterClass {
           != other.getSaveTime()) return false;
       if (getUgcGuid()
           != other.getUgcGuid()) return false;
-      if (getJbgofomfahf()
-          != other.getJbgofomfahf()) return false;
+      if (getCDEMBFGJAPH()
+          != other.getCDEMBFGJAPH()) return false;
       if (getLDDCHDFKLGO()
           != other.getLDDCHDFKLGO()) return false;
       if (getIsChangedAfterPublish()
@@ -1195,8 +1195,8 @@ public final class UgcMusicBriefInfoOuterClass {
       hash = (37 * hash) + UGC_GUID_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getUgcGuid());
-      hash = (37 * hash) + JBGOFOMFAHF_FIELD_NUMBER;
-      hash = (53 * hash) + getJbgofomfahf();
+      hash = (37 * hash) + CDEMBFGJAPH_FIELD_NUMBER;
+      hash = (53 * hash) + getCDEMBFGJAPH();
       hash = (37 * hash) + LDDCHDFKLGO_FIELD_NUMBER;
       hash = (53 * hash) + getLDDCHDFKLGO();
       hash = (37 * hash) + IS_CHANGED_AFTER_PUBLISH_FIELD_NUMBER;
@@ -1389,7 +1389,7 @@ public final class UgcMusicBriefInfoOuterClass {
 
         ugcGuid_ = 0L;
 
-        jbgofomfahf_ = 0;
+        cDEMBFGJAPH_ = 0;
 
         lDDCHDFKLGO_ = 0;
 
@@ -1462,7 +1462,7 @@ public final class UgcMusicBriefInfoOuterClass {
         result.musicId_ = musicId_;
         result.saveTime_ = saveTime_;
         result.ugcGuid_ = ugcGuid_;
-        result.jbgofomfahf_ = jbgofomfahf_;
+        result.cDEMBFGJAPH_ = cDEMBFGJAPH_;
         result.lDDCHDFKLGO_ = lDDCHDFKLGO_;
         result.isChangedAfterPublish_ = isChangedAfterPublish_;
         result.isPublished_ = isPublished_;
@@ -1568,8 +1568,8 @@ public final class UgcMusicBriefInfoOuterClass {
         if (other.getUgcGuid() != 0L) {
           setUgcGuid(other.getUgcGuid());
         }
-        if (other.getJbgofomfahf() != 0) {
-          setJbgofomfahf(other.getJbgofomfahf());
+        if (other.getCDEMBFGJAPH() != 0) {
+          setCDEMBFGJAPH(other.getCDEMBFGJAPH());
         }
         if (other.getLDDCHDFKLGO() != 0) {
           setLDDCHDFKLGO(other.getLDDCHDFKLGO());
@@ -1963,33 +1963,33 @@ public final class UgcMusicBriefInfoOuterClass {
         return this;
       }
 
-      private int jbgofomfahf_ ;
+      private int cDEMBFGJAPH_ ;
       /**
-       * <code>uint32 jbgofomfahf = 9;</code>
-       * @return The jbgofomfahf.
+       * <code>uint32 CDEMBFGJAPH = 9;</code>
+       * @return The cDEMBFGJAPH.
        */
       @java.lang.Override
-      public int getJbgofomfahf() {
-        return jbgofomfahf_;
+      public int getCDEMBFGJAPH() {
+        return cDEMBFGJAPH_;
       }
       /**
-       * <code>uint32 jbgofomfahf = 9;</code>
-       * @param value The jbgofomfahf to set.
+       * <code>uint32 CDEMBFGJAPH = 9;</code>
+       * @param value The cDEMBFGJAPH to set.
        * @return This builder for chaining.
        */
-      public Builder setJbgofomfahf(int value) {
+      public Builder setCDEMBFGJAPH(int value) {
         
-        jbgofomfahf_ = value;
+        cDEMBFGJAPH_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 jbgofomfahf = 9;</code>
+       * <code>uint32 CDEMBFGJAPH = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearJbgofomfahf() {
+      public Builder clearCDEMBFGJAPH() {
         
-        jbgofomfahf_ = 0;
+        cDEMBFGJAPH_ = 0;
         onChanged();
         return this;
       }
@@ -2338,9 +2338,9 @@ public final class UgcMusicBriefInfoOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial social_;
+      private emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial social_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial, emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.Builder, emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocialOrBuilder> socialBuilder_;
+          emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial, emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial.Builder, emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocialOrBuilder> socialBuilder_;
       /**
        * <code>._MusicGameSocial social = 1110;</code>
        * @return Whether the social field is set.
@@ -2352,9 +2352,9 @@ public final class UgcMusicBriefInfoOuterClass {
        * <code>._MusicGameSocial social = 1110;</code>
        * @return The social.
        */
-      public emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial getSocial() {
+      public emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial getSocial() {
         if (socialBuilder_ == null) {
-          return social_ == null ? emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.getDefaultInstance() : social_;
+          return social_ == null ? emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial.getDefaultInstance() : social_;
         } else {
           return socialBuilder_.getMessage();
         }
@@ -2362,7 +2362,7 @@ public final class UgcMusicBriefInfoOuterClass {
       /**
        * <code>._MusicGameSocial social = 1110;</code>
        */
-      public Builder setSocial(emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial value) {
+      public Builder setSocial(emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial value) {
         if (socialBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2379,7 +2379,7 @@ public final class UgcMusicBriefInfoOuterClass {
        * <code>._MusicGameSocial social = 1110;</code>
        */
       public Builder setSocial(
-          emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.Builder builderForValue) {
+          emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial.Builder builderForValue) {
         if (socialBuilder_ == null) {
           social_ = builderForValue.build();
           onChanged();
@@ -2392,11 +2392,11 @@ public final class UgcMusicBriefInfoOuterClass {
       /**
        * <code>._MusicGameSocial social = 1110;</code>
        */
-      public Builder mergeSocial(emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial value) {
+      public Builder mergeSocial(emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial value) {
         if (socialBuilder_ == null) {
           if (social_ != null) {
             social_ =
-              emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.newBuilder(social_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial.newBuilder(social_).mergeFrom(value).buildPartial();
           } else {
             social_ = value;
           }
@@ -2424,7 +2424,7 @@ public final class UgcMusicBriefInfoOuterClass {
       /**
        * <code>._MusicGameSocial social = 1110;</code>
        */
-      public emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.Builder getSocialBuilder() {
+      public emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial.Builder getSocialBuilder() {
         
         onChanged();
         return getSocialFieldBuilder().getBuilder();
@@ -2432,23 +2432,23 @@ public final class UgcMusicBriefInfoOuterClass {
       /**
        * <code>._MusicGameSocial social = 1110;</code>
        */
-      public emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocialOrBuilder getSocialOrBuilder() {
+      public emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocialOrBuilder getSocialOrBuilder() {
         if (socialBuilder_ != null) {
           return socialBuilder_.getMessageOrBuilder();
         } else {
           return social_ == null ?
-              emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.getDefaultInstance() : social_;
+              emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial.getDefaultInstance() : social_;
         }
       }
       /**
        * <code>._MusicGameSocial social = 1110;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial, emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.Builder, emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocialOrBuilder> 
+          emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial, emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial.Builder, emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocialOrBuilder> 
           getSocialFieldBuilder() {
         if (socialBuilder_ == null) {
           socialBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial, emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.Builder, emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocialOrBuilder>(
+              emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial, emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocial.Builder, emu.grasscutter.net.proto.MusicGameSocial._MusicGameSocialOrBuilder>(
                   getSocial(),
                   getParentForChildren(),
                   isClean());
@@ -2793,8 +2793,8 @@ public final class UgcMusicBriefInfoOuterClass {
       "core\030\001 \001(\r\022\030\n\020creator_nickname\030\002 \001(\t\022\027\n\017" +
       "is_psn_platform\030\003 \001(\010\022\017\n\007version\030\004 \001(\r\022\021" +
       "\n\tis_played\030\005 \001(\010\022\020\n\010music_id\030\006 \001(\r\022\021\n\ts" +
-      "ave_time\030\007 \001(\r\022\020\n\010ugc_guid\030\010 \001(\004\022\023\n\013jbgo" +
-      "fomfahf\030\t \001(\r\022\023\n\013LDDCHDFKLGO\030\n \001(\r\022 \n\030is" +
+      "ave_time\030\007 \001(\r\022\020\n\010ugc_guid\030\010 \001(\004\022\023\n\013CDEM" +
+      "BFGJAPH\030\t \001(\r\022\023\n\013LDDCHDFKLGO\030\n \001(\r\022 \n\030is" +
       "_changed_after_publish\030\013 \001(\010\022\024\n\014is_publi" +
       "shed\030\014 \001(\010\022\023\n\013KFHNNAIABLG\030\r \001(\r\022\024\n\014publi" +
       "sh_time\030\016 \001(\r\022\034\n\024import_from_ugc_guid\030\017 " +
@@ -2804,21 +2804,21 @@ public final class UgcMusicBriefInfoOuterClass {
       "\024\n\013PGHGCGNLNPG\030\210\t \001(\r\022\024\n\013IIPJKAOBBBD\030\266\t " +
       "\001(\r\022\024\n\013MOIDOMCHPFG\030\354\t \001(\r\022\024\n\013COAEPKLMKPE" +
       "\030\273\013 \003(\r\022\024\n\013NLCMMJILBKJ\030\207\016 \001(\r\022\024\n\013MLAJCIM" +
-      "GINA\030\205\017 \001(\rB8\n\031emu.grasscutter.net.proto" +
-      "B\033UgcMusicBriefInfoOuterClassb\006proto3"
+      "GINA\030\205\017 \001(\rB\033\n\031emu.grasscutter.net.proto" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto._MusicGameSocialOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.MusicGameSocial.getDescriptor(),
         });
     internal_static_UgcMusicBriefInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_UgcMusicBriefInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_UgcMusicBriefInfo_descriptor,
-        new java.lang.String[] { "MaxScore", "CreatorNickname", "IsPsnPlatform", "Version", "IsPlayed", "MusicId", "SaveTime", "UgcGuid", "Jbgofomfahf", "LDDCHDFKLGO", "IsChangedAfterPublish", "IsPublished", "KFHNNAIABLG", "PublishTime", "ImportFromUgcGuid", "BeatmapCategoryIdList", "CCJOGFPEKID", "Social", "HHBOBIJKFPJ", "PGHGCGNLNPG", "IIPJKAOBBBD", "MOIDOMCHPFG", "COAEPKLMKPE", "NLCMMJILBKJ", "MLAJCIMGINA", });
-    emu.grasscutter.net.proto._MusicGameSocialOuterClass.getDescriptor();
+        new java.lang.String[] { "MaxScore", "CreatorNickname", "IsPsnPlatform", "Version", "IsPlayed", "MusicId", "SaveTime", "UgcGuid", "CDEMBFGJAPH", "LDDCHDFKLGO", "IsChangedAfterPublish", "IsPublished", "KFHNNAIABLG", "PublishTime", "ImportFromUgcGuid", "BeatmapCategoryIdList", "CCJOGFPEKID", "Social", "HHBOBIJKFPJ", "PGHGCGNLNPG", "IIPJKAOBBBD", "MOIDOMCHPFG", "COAEPKLMKPE", "NLCMMJILBKJ", "MLAJCIMGINA", });
+    emu.grasscutter.net.proto.MusicGameSocial.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

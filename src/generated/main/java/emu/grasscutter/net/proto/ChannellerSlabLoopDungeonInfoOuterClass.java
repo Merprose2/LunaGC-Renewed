@@ -1000,9 +1000,8 @@ public final class ChannellerSlabLoopDungeonInfoOuterClass {
       "\030\t \001(\r\022\017\n\007is_open\030\n \001(\010\022\036\n\026last_conditio" +
       "n_id_list\030\014 \003(\r\022\"\n\032is_first_pass_reward_" +
       "taken\030\r \001(\010\022\021\n\topen_time\030\016 \001(\r\022\025\n\rdungeo" +
-      "n_index\030\017 \001(\rBD\n\031emu.grasscutter.net.pro" +
-      "toB\'ChannellerSlabLoopDungeonInfoOuterCl" +
-      "assb\006proto3"
+      "n_index\030\017 \001(\rB\033\n\031emu.grasscutter.net.pro" +
+      "tob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

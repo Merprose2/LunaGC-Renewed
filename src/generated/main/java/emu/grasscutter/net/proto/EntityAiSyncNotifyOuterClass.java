@@ -60,6 +60,10 @@ public final class EntityAiSyncNotifyOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 29200
+   * </pre>
+   *
    * Protobuf type {@code EntityAiSyncNotify}
    */
   public static final class EntityAiSyncNotify extends
@@ -429,6 +433,10 @@ public final class EntityAiSyncNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 29200
+     * </pre>
+     *
      * Protobuf type {@code EntityAiSyncNotify}
      */
     public static final class Builder extends
@@ -1018,9 +1026,8 @@ public final class EntityAiSyncNotifyOuterClass {
       "\n\030EntityAiSyncNotify.proto\032\020AiSyncInfo.p" +
       "roto\"_\n\022EntityAiSyncNotify\022)\n!local_avat" +
       "ar_alerted_monster_list\030\004 \003(\r\022\036\n\tinfo_li" +
-      "st\030\013 \003(\0132\013.AiSyncInfoB9\n\031emu.grasscutter" +
-      ".net.protoB\034EntityAiSyncNotifyOuterClass" +
-      "b\006proto3"
+      "st\030\013 \003(\0132\013.AiSyncInfoB\033\n\031emu.grasscutter" +
+      ".net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

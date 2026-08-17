@@ -967,9 +967,8 @@ public final class ElectroherculesBattleStageInfoOuterClass {
       "\036ElectroherculesBattleStageInfo\022\025\n\ris_st" +
       "age_open\030\013 \001(\010\0228\n\017level_info_list\030\014 \003(\0132" +
       "\037.ElectroherculesBattleLevelInfo\022\020\n\010stag" +
-      "e_id\030\r \001(\rBE\n\031emu.grasscutter.net.protoB" +
-      "(ElectroherculesBattleStageInfoOuterClas" +
-      "sb\006proto3"
+      "e_id\030\r \001(\rB\033\n\031emu.grasscutter.net.protob" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

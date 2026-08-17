@@ -25,37 +25,37 @@ public final class WeaponAwakenRspOuterClass {
     long getAvatarGuid();
 
     /**
-     * <code>map&lt;uint32, uint32&gt; cur_affix_level_map = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; DJMEIDCCELA = 4;</code>
      */
-    int getCurAffixLevelMapCount();
+    int getDJMEIDCCELACount();
     /**
-     * <code>map&lt;uint32, uint32&gt; cur_affix_level_map = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; DJMEIDCCELA = 4;</code>
      */
-    boolean containsCurAffixLevelMap(
+    boolean containsDJMEIDCCELA(
         int key);
     /**
-     * Use {@link #getCurAffixLevelMapMap()} instead.
+     * Use {@link #getDJMEIDCCELAMap()} instead.
      */
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
-    getCurAffixLevelMap();
+    getDJMEIDCCELA();
     /**
-     * <code>map&lt;uint32, uint32&gt; cur_affix_level_map = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; DJMEIDCCELA = 4;</code>
      */
     java.util.Map<java.lang.Integer, java.lang.Integer>
-    getCurAffixLevelMapMap();
+    getDJMEIDCCELAMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; cur_affix_level_map = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; DJMEIDCCELA = 4;</code>
      */
 
-    int getCurAffixLevelMapOrDefault(
+    int getDJMEIDCCELAOrDefault(
         int key,
         int defaultValue);
     /**
-     * <code>map&lt;uint32, uint32&gt; cur_affix_level_map = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; DJMEIDCCELA = 4;</code>
      */
 
-    int getCurAffixLevelMapOrThrow(
+    int getDJMEIDCCELAOrThrow(
         int key);
 
     /**
@@ -65,37 +65,37 @@ public final class WeaponAwakenRspOuterClass {
     int getTargetWeaponAwakenLevel();
 
     /**
-     * <code>map&lt;uint32, uint32&gt; old_affix_level_map = 11;</code>
+     * <code>map&lt;uint32, uint32&gt; PAGHKMIDOIO = 11;</code>
      */
-    int getOldAffixLevelMapCount();
+    int getPAGHKMIDOIOCount();
     /**
-     * <code>map&lt;uint32, uint32&gt; old_affix_level_map = 11;</code>
+     * <code>map&lt;uint32, uint32&gt; PAGHKMIDOIO = 11;</code>
      */
-    boolean containsOldAffixLevelMap(
+    boolean containsPAGHKMIDOIO(
         int key);
     /**
-     * Use {@link #getOldAffixLevelMapMap()} instead.
+     * Use {@link #getPAGHKMIDOIOMap()} instead.
      */
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
-    getOldAffixLevelMap();
+    getPAGHKMIDOIO();
     /**
-     * <code>map&lt;uint32, uint32&gt; old_affix_level_map = 11;</code>
+     * <code>map&lt;uint32, uint32&gt; PAGHKMIDOIO = 11;</code>
      */
     java.util.Map<java.lang.Integer, java.lang.Integer>
-    getOldAffixLevelMapMap();
+    getPAGHKMIDOIOMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; old_affix_level_map = 11;</code>
+     * <code>map&lt;uint32, uint32&gt; PAGHKMIDOIO = 11;</code>
      */
 
-    int getOldAffixLevelMapOrDefault(
+    int getPAGHKMIDOIOOrDefault(
         int key,
         int defaultValue);
     /**
-     * <code>map&lt;uint32, uint32&gt; old_affix_level_map = 11;</code>
+     * <code>map&lt;uint32, uint32&gt; PAGHKMIDOIO = 11;</code>
      */
 
-    int getOldAffixLevelMapOrThrow(
+    int getPAGHKMIDOIOOrThrow(
         int key);
 
     /**
@@ -111,6 +111,10 @@ public final class WeaponAwakenRspOuterClass {
     long getTargetWeaponGuid();
   }
   /**
+   * <pre>
+   * CmdID: 2669
+   * </pre>
+   *
    * Protobuf type {@code WeaponAwakenRsp}
    */
   public static final class WeaponAwakenRsp extends
@@ -163,15 +167,15 @@ public final class WeaponAwakenRspOuterClass {
             }
             case 34: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                curAffixLevelMap_ = com.google.protobuf.MapField.newMapField(
-                    CurAffixLevelMapDefaultEntryHolder.defaultEntry);
+                dJMEIDCCELA_ = com.google.protobuf.MapField.newMapField(
+                    DJMEIDCCELADefaultEntryHolder.defaultEntry);
                 mutable_bitField0_ |= 0x00000001;
               }
               com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-              curAffixLevelMap__ = input.readMessage(
-                  CurAffixLevelMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              curAffixLevelMap_.getMutableMap().put(
-                  curAffixLevelMap__.getKey(), curAffixLevelMap__.getValue());
+              dJMEIDCCELA__ = input.readMessage(
+                  DJMEIDCCELADefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
+              dJMEIDCCELA_.getMutableMap().put(
+                  dJMEIDCCELA__.getKey(), dJMEIDCCELA__.getValue());
               break;
             }
             case 72: {
@@ -181,15 +185,15 @@ public final class WeaponAwakenRspOuterClass {
             }
             case 90: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                oldAffixLevelMap_ = com.google.protobuf.MapField.newMapField(
-                    OldAffixLevelMapDefaultEntryHolder.defaultEntry);
+                pAGHKMIDOIO_ = com.google.protobuf.MapField.newMapField(
+                    PAGHKMIDOIODefaultEntryHolder.defaultEntry);
                 mutable_bitField0_ |= 0x00000002;
               }
               com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-              oldAffixLevelMap__ = input.readMessage(
-                  OldAffixLevelMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              oldAffixLevelMap_.getMutableMap().put(
-                  oldAffixLevelMap__.getKey(), oldAffixLevelMap__.getValue());
+              pAGHKMIDOIO__ = input.readMessage(
+                  PAGHKMIDOIODefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
+              pAGHKMIDOIO_.getMutableMap().put(
+                  pAGHKMIDOIO__.getKey(), pAGHKMIDOIO__.getValue());
               break;
             }
             case 112: {
@@ -232,9 +236,9 @@ public final class WeaponAwakenRspOuterClass {
         int number) {
       switch (number) {
         case 4:
-          return internalGetCurAffixLevelMap();
+          return internalGetDJMEIDCCELA();
         case 11:
-          return internalGetOldAffixLevelMap();
+          return internalGetPAGHKMIDOIO();
         default:
           throw new RuntimeException(
               "Invalid map field number: " + number);
@@ -259,81 +263,81 @@ public final class WeaponAwakenRspOuterClass {
       return avatarGuid_;
     }
 
-    public static final int CUR_AFFIX_LEVEL_MAP_FIELD_NUMBER = 4;
-    private static final class CurAffixLevelMapDefaultEntryHolder {
+    public static final int DJMEIDCCELA_FIELD_NUMBER = 4;
+    private static final class DJMEIDCCELADefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.WeaponAwakenRspOuterClass.internal_static_WeaponAwakenRsp_CurAffixLevelMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.WeaponAwakenRspOuterClass.internal_static_WeaponAwakenRsp_DJMEIDCCELAEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0);
     }
     private com.google.protobuf.MapField<
-        java.lang.Integer, java.lang.Integer> curAffixLevelMap_;
+        java.lang.Integer, java.lang.Integer> dJMEIDCCELA_;
     private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-    internalGetCurAffixLevelMap() {
-      if (curAffixLevelMap_ == null) {
+    internalGetDJMEIDCCELA() {
+      if (dJMEIDCCELA_ == null) {
         return com.google.protobuf.MapField.emptyMapField(
-            CurAffixLevelMapDefaultEntryHolder.defaultEntry);
+            DJMEIDCCELADefaultEntryHolder.defaultEntry);
       }
-      return curAffixLevelMap_;
+      return dJMEIDCCELA_;
     }
 
-    public int getCurAffixLevelMapCount() {
-      return internalGetCurAffixLevelMap().getMap().size();
+    public int getDJMEIDCCELACount() {
+      return internalGetDJMEIDCCELA().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; cur_affix_level_map = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; DJMEIDCCELA = 4;</code>
      */
 
     @java.lang.Override
-    public boolean containsCurAffixLevelMap(
+    public boolean containsDJMEIDCCELA(
         int key) {
       
-      return internalGetCurAffixLevelMap().getMap().containsKey(key);
+      return internalGetDJMEIDCCELA().getMap().containsKey(key);
     }
     /**
-     * Use {@link #getCurAffixLevelMapMap()} instead.
+     * Use {@link #getDJMEIDCCELAMap()} instead.
      */
     @java.lang.Override
     @java.lang.Deprecated
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getCurAffixLevelMap() {
-      return getCurAffixLevelMapMap();
+    public java.util.Map<java.lang.Integer, java.lang.Integer> getDJMEIDCCELA() {
+      return getDJMEIDCCELAMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; cur_affix_level_map = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; DJMEIDCCELA = 4;</code>
      */
     @java.lang.Override
 
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getCurAffixLevelMapMap() {
-      return internalGetCurAffixLevelMap().getMap();
+    public java.util.Map<java.lang.Integer, java.lang.Integer> getDJMEIDCCELAMap() {
+      return internalGetDJMEIDCCELA().getMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; cur_affix_level_map = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; DJMEIDCCELA = 4;</code>
      */
     @java.lang.Override
 
-    public int getCurAffixLevelMapOrDefault(
+    public int getDJMEIDCCELAOrDefault(
         int key,
         int defaultValue) {
       
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetCurAffixLevelMap().getMap();
+          internalGetDJMEIDCCELA().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; cur_affix_level_map = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; DJMEIDCCELA = 4;</code>
      */
     @java.lang.Override
 
-    public int getCurAffixLevelMapOrThrow(
+    public int getDJMEIDCCELAOrThrow(
         int key) {
       
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetCurAffixLevelMap().getMap();
+          internalGetDJMEIDCCELA().getMap();
       if (!map.containsKey(key)) {
         throw new java.lang.IllegalArgumentException();
       }
@@ -351,81 +355,81 @@ public final class WeaponAwakenRspOuterClass {
       return targetWeaponAwakenLevel_;
     }
 
-    public static final int OLD_AFFIX_LEVEL_MAP_FIELD_NUMBER = 11;
-    private static final class OldAffixLevelMapDefaultEntryHolder {
+    public static final int PAGHKMIDOIO_FIELD_NUMBER = 11;
+    private static final class PAGHKMIDOIODefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.WeaponAwakenRspOuterClass.internal_static_WeaponAwakenRsp_OldAffixLevelMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.WeaponAwakenRspOuterClass.internal_static_WeaponAwakenRsp_PAGHKMIDOIOEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0);
     }
     private com.google.protobuf.MapField<
-        java.lang.Integer, java.lang.Integer> oldAffixLevelMap_;
+        java.lang.Integer, java.lang.Integer> pAGHKMIDOIO_;
     private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-    internalGetOldAffixLevelMap() {
-      if (oldAffixLevelMap_ == null) {
+    internalGetPAGHKMIDOIO() {
+      if (pAGHKMIDOIO_ == null) {
         return com.google.protobuf.MapField.emptyMapField(
-            OldAffixLevelMapDefaultEntryHolder.defaultEntry);
+            PAGHKMIDOIODefaultEntryHolder.defaultEntry);
       }
-      return oldAffixLevelMap_;
+      return pAGHKMIDOIO_;
     }
 
-    public int getOldAffixLevelMapCount() {
-      return internalGetOldAffixLevelMap().getMap().size();
+    public int getPAGHKMIDOIOCount() {
+      return internalGetPAGHKMIDOIO().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; old_affix_level_map = 11;</code>
+     * <code>map&lt;uint32, uint32&gt; PAGHKMIDOIO = 11;</code>
      */
 
     @java.lang.Override
-    public boolean containsOldAffixLevelMap(
+    public boolean containsPAGHKMIDOIO(
         int key) {
       
-      return internalGetOldAffixLevelMap().getMap().containsKey(key);
+      return internalGetPAGHKMIDOIO().getMap().containsKey(key);
     }
     /**
-     * Use {@link #getOldAffixLevelMapMap()} instead.
+     * Use {@link #getPAGHKMIDOIOMap()} instead.
      */
     @java.lang.Override
     @java.lang.Deprecated
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getOldAffixLevelMap() {
-      return getOldAffixLevelMapMap();
+    public java.util.Map<java.lang.Integer, java.lang.Integer> getPAGHKMIDOIO() {
+      return getPAGHKMIDOIOMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; old_affix_level_map = 11;</code>
+     * <code>map&lt;uint32, uint32&gt; PAGHKMIDOIO = 11;</code>
      */
     @java.lang.Override
 
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getOldAffixLevelMapMap() {
-      return internalGetOldAffixLevelMap().getMap();
+    public java.util.Map<java.lang.Integer, java.lang.Integer> getPAGHKMIDOIOMap() {
+      return internalGetPAGHKMIDOIO().getMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; old_affix_level_map = 11;</code>
+     * <code>map&lt;uint32, uint32&gt; PAGHKMIDOIO = 11;</code>
      */
     @java.lang.Override
 
-    public int getOldAffixLevelMapOrDefault(
+    public int getPAGHKMIDOIOOrDefault(
         int key,
         int defaultValue) {
       
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetOldAffixLevelMap().getMap();
+          internalGetPAGHKMIDOIO().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; old_affix_level_map = 11;</code>
+     * <code>map&lt;uint32, uint32&gt; PAGHKMIDOIO = 11;</code>
      */
     @java.lang.Override
 
-    public int getOldAffixLevelMapOrThrow(
+    public int getPAGHKMIDOIOOrThrow(
         int key) {
       
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetOldAffixLevelMap().getMap();
+          internalGetPAGHKMIDOIO().getMap();
       if (!map.containsKey(key)) {
         throw new java.lang.IllegalArgumentException();
       }
@@ -474,8 +478,8 @@ public final class WeaponAwakenRspOuterClass {
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
-          internalGetCurAffixLevelMap(),
-          CurAffixLevelMapDefaultEntryHolder.defaultEntry,
+          internalGetDJMEIDCCELA(),
+          DJMEIDCCELADefaultEntryHolder.defaultEntry,
           4);
       if (targetWeaponAwakenLevel_ != 0) {
         output.writeUInt32(9, targetWeaponAwakenLevel_);
@@ -483,8 +487,8 @@ public final class WeaponAwakenRspOuterClass {
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
-          internalGetOldAffixLevelMap(),
-          OldAffixLevelMapDefaultEntryHolder.defaultEntry,
+          internalGetPAGHKMIDOIO(),
+          PAGHKMIDOIODefaultEntryHolder.defaultEntry,
           11);
       if (retcode_ != 0) {
         output.writeInt32(14, retcode_);
@@ -506,28 +510,28 @@ public final class WeaponAwakenRspOuterClass {
           .computeUInt64Size(1, avatarGuid_);
       }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
-           : internalGetCurAffixLevelMap().getMap().entrySet()) {
+           : internalGetDJMEIDCCELA().getMap().entrySet()) {
         com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-        curAffixLevelMap__ = CurAffixLevelMapDefaultEntryHolder.defaultEntry.newBuilderForType()
+        dJMEIDCCELA__ = DJMEIDCCELADefaultEntryHolder.defaultEntry.newBuilderForType()
             .setKey(entry.getKey())
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(4, curAffixLevelMap__);
+            .computeMessageSize(4, dJMEIDCCELA__);
       }
       if (targetWeaponAwakenLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(9, targetWeaponAwakenLevel_);
       }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
-           : internalGetOldAffixLevelMap().getMap().entrySet()) {
+           : internalGetPAGHKMIDOIO().getMap().entrySet()) {
         com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-        oldAffixLevelMap__ = OldAffixLevelMapDefaultEntryHolder.defaultEntry.newBuilderForType()
+        pAGHKMIDOIO__ = PAGHKMIDOIODefaultEntryHolder.defaultEntry.newBuilderForType()
             .setKey(entry.getKey())
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(11, oldAffixLevelMap__);
+            .computeMessageSize(11, pAGHKMIDOIO__);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -554,12 +558,12 @@ public final class WeaponAwakenRspOuterClass {
 
       if (getAvatarGuid()
           != other.getAvatarGuid()) return false;
-      if (!internalGetCurAffixLevelMap().equals(
-          other.internalGetCurAffixLevelMap())) return false;
+      if (!internalGetDJMEIDCCELA().equals(
+          other.internalGetDJMEIDCCELA())) return false;
       if (getTargetWeaponAwakenLevel()
           != other.getTargetWeaponAwakenLevel()) return false;
-      if (!internalGetOldAffixLevelMap().equals(
-          other.internalGetOldAffixLevelMap())) return false;
+      if (!internalGetPAGHKMIDOIO().equals(
+          other.internalGetPAGHKMIDOIO())) return false;
       if (getRetcode()
           != other.getRetcode()) return false;
       if (getTargetWeaponGuid()
@@ -578,15 +582,15 @@ public final class WeaponAwakenRspOuterClass {
       hash = (37 * hash) + AVATAR_GUID_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getAvatarGuid());
-      if (!internalGetCurAffixLevelMap().getMap().isEmpty()) {
-        hash = (37 * hash) + CUR_AFFIX_LEVEL_MAP_FIELD_NUMBER;
-        hash = (53 * hash) + internalGetCurAffixLevelMap().hashCode();
+      if (!internalGetDJMEIDCCELA().getMap().isEmpty()) {
+        hash = (37 * hash) + DJMEIDCCELA_FIELD_NUMBER;
+        hash = (53 * hash) + internalGetDJMEIDCCELA().hashCode();
       }
       hash = (37 * hash) + TARGET_WEAPON_AWAKEN_LEVEL_FIELD_NUMBER;
       hash = (53 * hash) + getTargetWeaponAwakenLevel();
-      if (!internalGetOldAffixLevelMap().getMap().isEmpty()) {
-        hash = (37 * hash) + OLD_AFFIX_LEVEL_MAP_FIELD_NUMBER;
-        hash = (53 * hash) + internalGetOldAffixLevelMap().hashCode();
+      if (!internalGetPAGHKMIDOIO().getMap().isEmpty()) {
+        hash = (37 * hash) + PAGHKMIDOIO_FIELD_NUMBER;
+        hash = (53 * hash) + internalGetPAGHKMIDOIO().hashCode();
       }
       hash = (37 * hash) + RETCODE_FIELD_NUMBER;
       hash = (53 * hash) + getRetcode();
@@ -689,6 +693,10 @@ public final class WeaponAwakenRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 2669
+     * </pre>
+     *
      * Protobuf type {@code WeaponAwakenRsp}
      */
     public static final class Builder extends
@@ -705,9 +713,9 @@ public final class WeaponAwakenRspOuterClass {
           int number) {
         switch (number) {
           case 4:
-            return internalGetCurAffixLevelMap();
+            return internalGetDJMEIDCCELA();
           case 11:
-            return internalGetOldAffixLevelMap();
+            return internalGetPAGHKMIDOIO();
           default:
             throw new RuntimeException(
                 "Invalid map field number: " + number);
@@ -718,9 +726,9 @@ public final class WeaponAwakenRspOuterClass {
           int number) {
         switch (number) {
           case 4:
-            return internalGetMutableCurAffixLevelMap();
+            return internalGetMutableDJMEIDCCELA();
           case 11:
-            return internalGetMutableOldAffixLevelMap();
+            return internalGetMutablePAGHKMIDOIO();
           default:
             throw new RuntimeException(
                 "Invalid map field number: " + number);
@@ -754,10 +762,10 @@ public final class WeaponAwakenRspOuterClass {
         super.clear();
         avatarGuid_ = 0L;
 
-        internalGetMutableCurAffixLevelMap().clear();
+        internalGetMutableDJMEIDCCELA().clear();
         targetWeaponAwakenLevel_ = 0;
 
-        internalGetMutableOldAffixLevelMap().clear();
+        internalGetMutablePAGHKMIDOIO().clear();
         retcode_ = 0;
 
         targetWeaponGuid_ = 0L;
@@ -790,11 +798,11 @@ public final class WeaponAwakenRspOuterClass {
         emu.grasscutter.net.proto.WeaponAwakenRspOuterClass.WeaponAwakenRsp result = new emu.grasscutter.net.proto.WeaponAwakenRspOuterClass.WeaponAwakenRsp(this);
         int from_bitField0_ = bitField0_;
         result.avatarGuid_ = avatarGuid_;
-        result.curAffixLevelMap_ = internalGetCurAffixLevelMap();
-        result.curAffixLevelMap_.makeImmutable();
+        result.dJMEIDCCELA_ = internalGetDJMEIDCCELA();
+        result.dJMEIDCCELA_.makeImmutable();
         result.targetWeaponAwakenLevel_ = targetWeaponAwakenLevel_;
-        result.oldAffixLevelMap_ = internalGetOldAffixLevelMap();
-        result.oldAffixLevelMap_.makeImmutable();
+        result.pAGHKMIDOIO_ = internalGetPAGHKMIDOIO();
+        result.pAGHKMIDOIO_.makeImmutable();
         result.retcode_ = retcode_;
         result.targetWeaponGuid_ = targetWeaponGuid_;
         onBuilt();
@@ -848,13 +856,13 @@ public final class WeaponAwakenRspOuterClass {
         if (other.getAvatarGuid() != 0L) {
           setAvatarGuid(other.getAvatarGuid());
         }
-        internalGetMutableCurAffixLevelMap().mergeFrom(
-            other.internalGetCurAffixLevelMap());
+        internalGetMutableDJMEIDCCELA().mergeFrom(
+            other.internalGetDJMEIDCCELA());
         if (other.getTargetWeaponAwakenLevel() != 0) {
           setTargetWeaponAwakenLevel(other.getTargetWeaponAwakenLevel());
         }
-        internalGetMutableOldAffixLevelMap().mergeFrom(
-            other.internalGetOldAffixLevelMap());
+        internalGetMutablePAGHKMIDOIO().mergeFrom(
+            other.internalGetPAGHKMIDOIO());
         if (other.getRetcode() != 0) {
           setRetcode(other.getRetcode());
         }
@@ -923,99 +931,99 @@ public final class WeaponAwakenRspOuterClass {
       }
 
       private com.google.protobuf.MapField<
-          java.lang.Integer, java.lang.Integer> curAffixLevelMap_;
+          java.lang.Integer, java.lang.Integer> dJMEIDCCELA_;
       private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetCurAffixLevelMap() {
-        if (curAffixLevelMap_ == null) {
+      internalGetDJMEIDCCELA() {
+        if (dJMEIDCCELA_ == null) {
           return com.google.protobuf.MapField.emptyMapField(
-              CurAffixLevelMapDefaultEntryHolder.defaultEntry);
+              DJMEIDCCELADefaultEntryHolder.defaultEntry);
         }
-        return curAffixLevelMap_;
+        return dJMEIDCCELA_;
       }
       private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetMutableCurAffixLevelMap() {
+      internalGetMutableDJMEIDCCELA() {
         onChanged();;
-        if (curAffixLevelMap_ == null) {
-          curAffixLevelMap_ = com.google.protobuf.MapField.newMapField(
-              CurAffixLevelMapDefaultEntryHolder.defaultEntry);
+        if (dJMEIDCCELA_ == null) {
+          dJMEIDCCELA_ = com.google.protobuf.MapField.newMapField(
+              DJMEIDCCELADefaultEntryHolder.defaultEntry);
         }
-        if (!curAffixLevelMap_.isMutable()) {
-          curAffixLevelMap_ = curAffixLevelMap_.copy();
+        if (!dJMEIDCCELA_.isMutable()) {
+          dJMEIDCCELA_ = dJMEIDCCELA_.copy();
         }
-        return curAffixLevelMap_;
+        return dJMEIDCCELA_;
       }
 
-      public int getCurAffixLevelMapCount() {
-        return internalGetCurAffixLevelMap().getMap().size();
+      public int getDJMEIDCCELACount() {
+        return internalGetDJMEIDCCELA().getMap().size();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; cur_affix_level_map = 4;</code>
+       * <code>map&lt;uint32, uint32&gt; DJMEIDCCELA = 4;</code>
        */
 
       @java.lang.Override
-      public boolean containsCurAffixLevelMap(
+      public boolean containsDJMEIDCCELA(
           int key) {
         
-        return internalGetCurAffixLevelMap().getMap().containsKey(key);
+        return internalGetDJMEIDCCELA().getMap().containsKey(key);
       }
       /**
-       * Use {@link #getCurAffixLevelMapMap()} instead.
+       * Use {@link #getDJMEIDCCELAMap()} instead.
        */
       @java.lang.Override
       @java.lang.Deprecated
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getCurAffixLevelMap() {
-        return getCurAffixLevelMapMap();
+      public java.util.Map<java.lang.Integer, java.lang.Integer> getDJMEIDCCELA() {
+        return getDJMEIDCCELAMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; cur_affix_level_map = 4;</code>
+       * <code>map&lt;uint32, uint32&gt; DJMEIDCCELA = 4;</code>
        */
       @java.lang.Override
 
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getCurAffixLevelMapMap() {
-        return internalGetCurAffixLevelMap().getMap();
+      public java.util.Map<java.lang.Integer, java.lang.Integer> getDJMEIDCCELAMap() {
+        return internalGetDJMEIDCCELA().getMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; cur_affix_level_map = 4;</code>
+       * <code>map&lt;uint32, uint32&gt; DJMEIDCCELA = 4;</code>
        */
       @java.lang.Override
 
-      public int getCurAffixLevelMapOrDefault(
+      public int getDJMEIDCCELAOrDefault(
           int key,
           int defaultValue) {
         
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetCurAffixLevelMap().getMap();
+            internalGetDJMEIDCCELA().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; cur_affix_level_map = 4;</code>
+       * <code>map&lt;uint32, uint32&gt; DJMEIDCCELA = 4;</code>
        */
       @java.lang.Override
 
-      public int getCurAffixLevelMapOrThrow(
+      public int getDJMEIDCCELAOrThrow(
           int key) {
         
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetCurAffixLevelMap().getMap();
+            internalGetDJMEIDCCELA().getMap();
         if (!map.containsKey(key)) {
           throw new java.lang.IllegalArgumentException();
         }
         return map.get(key);
       }
 
-      public Builder clearCurAffixLevelMap() {
-        internalGetMutableCurAffixLevelMap().getMutableMap()
+      public Builder clearDJMEIDCCELA() {
+        internalGetMutableDJMEIDCCELA().getMutableMap()
             .clear();
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; cur_affix_level_map = 4;</code>
+       * <code>map&lt;uint32, uint32&gt; DJMEIDCCELA = 4;</code>
        */
 
-      public Builder removeCurAffixLevelMap(
+      public Builder removeDJMEIDCCELA(
           int key) {
         
-        internalGetMutableCurAffixLevelMap().getMutableMap()
+        internalGetMutableDJMEIDCCELA().getMutableMap()
             .remove(key);
         return this;
       }
@@ -1024,28 +1032,28 @@ public final class WeaponAwakenRspOuterClass {
        */
       @java.lang.Deprecated
       public java.util.Map<java.lang.Integer, java.lang.Integer>
-      getMutableCurAffixLevelMap() {
-        return internalGetMutableCurAffixLevelMap().getMutableMap();
+      getMutableDJMEIDCCELA() {
+        return internalGetMutableDJMEIDCCELA().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; cur_affix_level_map = 4;</code>
+       * <code>map&lt;uint32, uint32&gt; DJMEIDCCELA = 4;</code>
        */
-      public Builder putCurAffixLevelMap(
+      public Builder putDJMEIDCCELA(
           int key,
           int value) {
         
         
-        internalGetMutableCurAffixLevelMap().getMutableMap()
+        internalGetMutableDJMEIDCCELA().getMutableMap()
             .put(key, value);
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; cur_affix_level_map = 4;</code>
+       * <code>map&lt;uint32, uint32&gt; DJMEIDCCELA = 4;</code>
        */
 
-      public Builder putAllCurAffixLevelMap(
+      public Builder putAllDJMEIDCCELA(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
-        internalGetMutableCurAffixLevelMap().getMutableMap()
+        internalGetMutableDJMEIDCCELA().getMutableMap()
             .putAll(values);
         return this;
       }
@@ -1082,99 +1090,99 @@ public final class WeaponAwakenRspOuterClass {
       }
 
       private com.google.protobuf.MapField<
-          java.lang.Integer, java.lang.Integer> oldAffixLevelMap_;
+          java.lang.Integer, java.lang.Integer> pAGHKMIDOIO_;
       private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetOldAffixLevelMap() {
-        if (oldAffixLevelMap_ == null) {
+      internalGetPAGHKMIDOIO() {
+        if (pAGHKMIDOIO_ == null) {
           return com.google.protobuf.MapField.emptyMapField(
-              OldAffixLevelMapDefaultEntryHolder.defaultEntry);
+              PAGHKMIDOIODefaultEntryHolder.defaultEntry);
         }
-        return oldAffixLevelMap_;
+        return pAGHKMIDOIO_;
       }
       private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetMutableOldAffixLevelMap() {
+      internalGetMutablePAGHKMIDOIO() {
         onChanged();;
-        if (oldAffixLevelMap_ == null) {
-          oldAffixLevelMap_ = com.google.protobuf.MapField.newMapField(
-              OldAffixLevelMapDefaultEntryHolder.defaultEntry);
+        if (pAGHKMIDOIO_ == null) {
+          pAGHKMIDOIO_ = com.google.protobuf.MapField.newMapField(
+              PAGHKMIDOIODefaultEntryHolder.defaultEntry);
         }
-        if (!oldAffixLevelMap_.isMutable()) {
-          oldAffixLevelMap_ = oldAffixLevelMap_.copy();
+        if (!pAGHKMIDOIO_.isMutable()) {
+          pAGHKMIDOIO_ = pAGHKMIDOIO_.copy();
         }
-        return oldAffixLevelMap_;
+        return pAGHKMIDOIO_;
       }
 
-      public int getOldAffixLevelMapCount() {
-        return internalGetOldAffixLevelMap().getMap().size();
+      public int getPAGHKMIDOIOCount() {
+        return internalGetPAGHKMIDOIO().getMap().size();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; old_affix_level_map = 11;</code>
+       * <code>map&lt;uint32, uint32&gt; PAGHKMIDOIO = 11;</code>
        */
 
       @java.lang.Override
-      public boolean containsOldAffixLevelMap(
+      public boolean containsPAGHKMIDOIO(
           int key) {
         
-        return internalGetOldAffixLevelMap().getMap().containsKey(key);
+        return internalGetPAGHKMIDOIO().getMap().containsKey(key);
       }
       /**
-       * Use {@link #getOldAffixLevelMapMap()} instead.
+       * Use {@link #getPAGHKMIDOIOMap()} instead.
        */
       @java.lang.Override
       @java.lang.Deprecated
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getOldAffixLevelMap() {
-        return getOldAffixLevelMapMap();
+      public java.util.Map<java.lang.Integer, java.lang.Integer> getPAGHKMIDOIO() {
+        return getPAGHKMIDOIOMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; old_affix_level_map = 11;</code>
+       * <code>map&lt;uint32, uint32&gt; PAGHKMIDOIO = 11;</code>
        */
       @java.lang.Override
 
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getOldAffixLevelMapMap() {
-        return internalGetOldAffixLevelMap().getMap();
+      public java.util.Map<java.lang.Integer, java.lang.Integer> getPAGHKMIDOIOMap() {
+        return internalGetPAGHKMIDOIO().getMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; old_affix_level_map = 11;</code>
+       * <code>map&lt;uint32, uint32&gt; PAGHKMIDOIO = 11;</code>
        */
       @java.lang.Override
 
-      public int getOldAffixLevelMapOrDefault(
+      public int getPAGHKMIDOIOOrDefault(
           int key,
           int defaultValue) {
         
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetOldAffixLevelMap().getMap();
+            internalGetPAGHKMIDOIO().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; old_affix_level_map = 11;</code>
+       * <code>map&lt;uint32, uint32&gt; PAGHKMIDOIO = 11;</code>
        */
       @java.lang.Override
 
-      public int getOldAffixLevelMapOrThrow(
+      public int getPAGHKMIDOIOOrThrow(
           int key) {
         
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetOldAffixLevelMap().getMap();
+            internalGetPAGHKMIDOIO().getMap();
         if (!map.containsKey(key)) {
           throw new java.lang.IllegalArgumentException();
         }
         return map.get(key);
       }
 
-      public Builder clearOldAffixLevelMap() {
-        internalGetMutableOldAffixLevelMap().getMutableMap()
+      public Builder clearPAGHKMIDOIO() {
+        internalGetMutablePAGHKMIDOIO().getMutableMap()
             .clear();
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; old_affix_level_map = 11;</code>
+       * <code>map&lt;uint32, uint32&gt; PAGHKMIDOIO = 11;</code>
        */
 
-      public Builder removeOldAffixLevelMap(
+      public Builder removePAGHKMIDOIO(
           int key) {
         
-        internalGetMutableOldAffixLevelMap().getMutableMap()
+        internalGetMutablePAGHKMIDOIO().getMutableMap()
             .remove(key);
         return this;
       }
@@ -1183,28 +1191,28 @@ public final class WeaponAwakenRspOuterClass {
        */
       @java.lang.Deprecated
       public java.util.Map<java.lang.Integer, java.lang.Integer>
-      getMutableOldAffixLevelMap() {
-        return internalGetMutableOldAffixLevelMap().getMutableMap();
+      getMutablePAGHKMIDOIO() {
+        return internalGetMutablePAGHKMIDOIO().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; old_affix_level_map = 11;</code>
+       * <code>map&lt;uint32, uint32&gt; PAGHKMIDOIO = 11;</code>
        */
-      public Builder putOldAffixLevelMap(
+      public Builder putPAGHKMIDOIO(
           int key,
           int value) {
         
         
-        internalGetMutableOldAffixLevelMap().getMutableMap()
+        internalGetMutablePAGHKMIDOIO().getMutableMap()
             .put(key, value);
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; old_affix_level_map = 11;</code>
+       * <code>map&lt;uint32, uint32&gt; PAGHKMIDOIO = 11;</code>
        */
 
-      public Builder putAllOldAffixLevelMap(
+      public Builder putAllPAGHKMIDOIO(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
-        internalGetMutableOldAffixLevelMap().getMutableMap()
+        internalGetMutablePAGHKMIDOIO().getMutableMap()
             .putAll(values);
         return this;
       }
@@ -1329,15 +1337,15 @@ public final class WeaponAwakenRspOuterClass {
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WeaponAwakenRsp_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_WeaponAwakenRsp_CurAffixLevelMapEntry_descriptor;
+    internal_static_WeaponAwakenRsp_DJMEIDCCELAEntry_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_WeaponAwakenRsp_CurAffixLevelMapEntry_fieldAccessorTable;
+      internal_static_WeaponAwakenRsp_DJMEIDCCELAEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_WeaponAwakenRsp_OldAffixLevelMapEntry_descriptor;
+    internal_static_WeaponAwakenRsp_PAGHKMIDOIOEntry_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_WeaponAwakenRsp_OldAffixLevelMapEntry_fieldAccessorTable;
+      internal_static_WeaponAwakenRsp_PAGHKMIDOIOEntry_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -1347,18 +1355,16 @@ public final class WeaponAwakenRspOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\025WeaponAwakenRsp.proto\"\363\002\n\017WeaponAwaken" +
-      "Rsp\022\023\n\013avatar_guid\030\001 \001(\004\022C\n\023cur_affix_le" +
-      "vel_map\030\004 \003(\0132&.WeaponAwakenRsp.CurAffix" +
-      "LevelMapEntry\022\"\n\032target_weapon_awaken_le" +
-      "vel\030\t \001(\r\022C\n\023old_affix_level_map\030\013 \003(\0132&" +
-      ".WeaponAwakenRsp.OldAffixLevelMapEntry\022\017" +
-      "\n\007retcode\030\016 \001(\005\022\032\n\022target_weapon_guid\030\017 " +
-      "\001(\004\0327\n\025CurAffixLevelMapEntry\022\013\n\003key\030\001 \001(" +
-      "\r\022\r\n\005value\030\002 \001(\r:\0028\001\0327\n\025OldAffixLevelMap" +
-      "Entry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B6\n" +
-      "\031emu.grasscutter.net.protoB\031WeaponAwaken" +
-      "RspOuterClassb\006proto3"
+      "\n\025WeaponAwakenRsp.proto\"\317\002\n\017WeaponAwaken" +
+      "Rsp\022\023\n\013avatar_guid\030\001 \001(\004\0226\n\013DJMEIDCCELA\030" +
+      "\004 \003(\0132!.WeaponAwakenRsp.DJMEIDCCELAEntry" +
+      "\022\"\n\032target_weapon_awaken_level\030\t \001(\r\0226\n\013" +
+      "PAGHKMIDOIO\030\013 \003(\0132!.WeaponAwakenRsp.PAGH" +
+      "KMIDOIOEntry\022\017\n\007retcode\030\016 \001(\005\022\032\n\022target_" +
+      "weapon_guid\030\017 \001(\004\0322\n\020DJMEIDCCELAEntry\022\013\n" +
+      "\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001\0322\n\020PAGHKMI" +
+      "DOIOEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028" +
+      "\001B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1369,18 +1375,18 @@ public final class WeaponAwakenRspOuterClass {
     internal_static_WeaponAwakenRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_WeaponAwakenRsp_descriptor,
-        new java.lang.String[] { "AvatarGuid", "CurAffixLevelMap", "TargetWeaponAwakenLevel", "OldAffixLevelMap", "Retcode", "TargetWeaponGuid", });
-    internal_static_WeaponAwakenRsp_CurAffixLevelMapEntry_descriptor =
+        new java.lang.String[] { "AvatarGuid", "DJMEIDCCELA", "TargetWeaponAwakenLevel", "PAGHKMIDOIO", "Retcode", "TargetWeaponGuid", });
+    internal_static_WeaponAwakenRsp_DJMEIDCCELAEntry_descriptor =
       internal_static_WeaponAwakenRsp_descriptor.getNestedTypes().get(0);
-    internal_static_WeaponAwakenRsp_CurAffixLevelMapEntry_fieldAccessorTable = new
+    internal_static_WeaponAwakenRsp_DJMEIDCCELAEntry_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_WeaponAwakenRsp_CurAffixLevelMapEntry_descriptor,
+        internal_static_WeaponAwakenRsp_DJMEIDCCELAEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
-    internal_static_WeaponAwakenRsp_OldAffixLevelMapEntry_descriptor =
+    internal_static_WeaponAwakenRsp_PAGHKMIDOIOEntry_descriptor =
       internal_static_WeaponAwakenRsp_descriptor.getNestedTypes().get(1);
-    internal_static_WeaponAwakenRsp_OldAffixLevelMapEntry_fieldAccessorTable = new
+    internal_static_WeaponAwakenRsp_PAGHKMIDOIOEntry_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_WeaponAwakenRsp_OldAffixLevelMapEntry_descriptor,
+        internal_static_WeaponAwakenRsp_PAGHKMIDOIOEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
   }
 

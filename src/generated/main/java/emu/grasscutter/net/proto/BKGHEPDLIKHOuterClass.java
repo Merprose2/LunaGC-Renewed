@@ -588,9 +588,8 @@ public final class BKGHEPDLIKHOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BKGHEPDLIKH.proto\"0\n\013BKGHEPDLIKH\022\017\n\007is" +
-      "_open\030\007 \001(\010\022\020\n\010level_id\030\016 \001(\rB2\n\031emu.gra" +
-      "sscutter.net.protoB\025BKGHEPDLIKHOuterClas" +
-      "sb\006proto3"
+      "_open\030\007 \001(\010\022\020\n\010level_id\030\016 \001(\rB\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

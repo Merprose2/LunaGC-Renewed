@@ -36,6 +36,10 @@ public final class DungeonDieOptionReqOuterClass {
     boolean getIsQuitImmediately();
   }
   /**
+   * <pre>
+   * CmdID: 7341
+   * </pre>
+   *
    * Protobuf type {@code DungeonDieOptionReq}
    */
   public static final class DungeonDieOptionReq extends
@@ -168,7 +172,7 @@ public final class DungeonDieOptionReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (dieOption_ != emu.grasscutter.net.proto.PlayerDieOptionOuterClass.PlayerDieOption.DIE_OPT_NONE.getNumber()) {
+      if (dieOption_ != emu.grasscutter.net.proto.PlayerDieOptionOuterClass.PlayerDieOption.PlayerDieOption_DIE_OPT_NONE.getNumber()) {
         output.writeEnum(5, dieOption_);
       }
       if (isQuitImmediately_ != false) {
@@ -183,7 +187,7 @@ public final class DungeonDieOptionReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (dieOption_ != emu.grasscutter.net.proto.PlayerDieOptionOuterClass.PlayerDieOption.DIE_OPT_NONE.getNumber()) {
+      if (dieOption_ != emu.grasscutter.net.proto.PlayerDieOptionOuterClass.PlayerDieOption.PlayerDieOption_DIE_OPT_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(5, dieOption_);
       }
@@ -321,6 +325,10 @@ public final class DungeonDieOptionReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 7341
+     * </pre>
+     *
      * Protobuf type {@code DungeonDieOptionReq}
      */
     public static final class Builder extends
@@ -627,9 +635,8 @@ public final class DungeonDieOptionReqOuterClass {
       "\n\031DungeonDieOptionReq.proto\032\025PlayerDieOp" +
       "tion.proto\"X\n\023DungeonDieOptionReq\022$\n\ndie" +
       "_option\030\005 \001(\0162\020.PlayerDieOption\022\033\n\023is_qu" +
-      "it_immediately\030\016 \001(\010B:\n\031emu.grasscutter." +
-      "net.protoB\035DungeonDieOptionReqOuterClass" +
-      "b\006proto3"
+      "it_immediately\030\016 \001(\010B\033\n\031emu.grasscutter." +
+      "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

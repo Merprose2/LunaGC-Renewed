@@ -54,6 +54,10 @@ public final class ClientScriptEventNotifyOuterClass {
     int getTargetEntityId();
   }
   /**
+   * <pre>
+   * CmdID: 4935
+   * </pre>
+   *
    * Protobuf type {@code ClientScriptEventNotify}
    */
   public static final class ClientScriptEventNotify extends
@@ -438,6 +442,10 @@ public final class ClientScriptEventNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 4935
+     * </pre>
+     *
      * Protobuf type {@code ClientScriptEventNotify}
      */
     public static final class Builder extends
@@ -856,9 +864,8 @@ public final class ClientScriptEventNotifyOuterClass {
       "\n\035ClientScriptEventNotify.proto\"u\n\027Clien" +
       "tScriptEventNotify\022\022\n\nparam_list\030\002 \003(\005\022\030" +
       "\n\020source_entity_id\030\006 \001(\r\022\022\n\nevent_type\030\010" +
-      " \001(\r\022\030\n\020target_entity_id\030\t \001(\rB>\n\031emu.gr" +
-      "asscutter.net.protoB!ClientScriptEventNo" +
-      "tifyOuterClassb\006proto3"
+      " \001(\r\022\030\n\020target_entity_id\030\t \001(\rB\033\n\031emu.gr" +
+      "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

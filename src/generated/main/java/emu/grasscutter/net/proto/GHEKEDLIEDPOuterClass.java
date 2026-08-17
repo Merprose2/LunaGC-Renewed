@@ -823,8 +823,8 @@ public final class GHEKEDLIEDPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GHEKEDLIEDP.proto\032\021CEBBKEOIFGL.proto\"4" +
       "\n\013GHEKEDLIEDP\022%\n\017level_info_list\030\004 \003(\0132\014" +
-      ".CEBBKEOIFGLB2\n\031emu.grasscutter.net.prot" +
-      "oB\025GHEKEDLIEDPOuterClassb\006proto3"
+      ".CEBBKEOIFGLB\033\n\031emu.grasscutter.net.prot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

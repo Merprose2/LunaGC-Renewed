@@ -31,6 +31,10 @@ public final class SetOpenStateReqOuterClass {
     int getKey();
   }
   /**
+   * <pre>
+   * CmdID: 2179
+   * </pre>
+   *
    * Protobuf type {@code SetOpenStateReq}
    */
   public static final class SetOpenStateReq extends
@@ -306,6 +310,10 @@ public final class SetOpenStateReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 2179
+     * </pre>
+     *
      * Protobuf type {@code SetOpenStateReq}
      */
     public static final class Builder extends
@@ -587,9 +595,8 @@ public final class SetOpenStateReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025SetOpenStateReq.proto\"-\n\017SetOpenStateR" +
-      "eq\022\r\n\005value\030\002 \001(\r\022\013\n\003key\030\003 \001(\rB6\n\031emu.gr" +
-      "asscutter.net.protoB\031SetOpenStateReqOute" +
-      "rClassb\006proto3"
+      "eq\022\r\n\005value\030\002 \001(\r\022\013\n\003key\030\003 \001(\rB\033\n\031emu.gr" +
+      "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

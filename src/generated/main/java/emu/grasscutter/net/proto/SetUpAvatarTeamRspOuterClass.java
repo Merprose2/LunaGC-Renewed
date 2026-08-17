@@ -54,6 +54,10 @@ public final class SetUpAvatarTeamRspOuterClass {
     int getRetcode();
   }
   /**
+   * <pre>
+   * CmdID: 2936
+   * </pre>
+   *
    * Protobuf type {@code SetUpAvatarTeamRsp}
    */
   public static final class SetUpAvatarTeamRsp extends
@@ -439,6 +443,10 @@ public final class SetUpAvatarTeamRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 2936
+     * </pre>
+     *
      * Protobuf type {@code SetUpAvatarTeamRsp}
      */
     public static final class Builder extends
@@ -857,9 +865,8 @@ public final class SetUpAvatarTeamRspOuterClass {
       "\n\030SetUpAvatarTeamRsp.proto\"n\n\022SetUpAvata" +
       "rTeamRsp\022\035\n\025avatar_team_guid_list\030\003 \003(\004\022" +
       "\017\n\007team_id\030\n \001(\r\022\027\n\017cur_avatar_guid\030\013 \001(" +
-      "\004\022\017\n\007retcode\030\016 \001(\005B9\n\031emu.grasscutter.ne" +
-      "t.protoB\034SetUpAvatarTeamRspOuterClassb\006p" +
-      "roto3"
+      "\004\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.grasscutter.ne" +
+      "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

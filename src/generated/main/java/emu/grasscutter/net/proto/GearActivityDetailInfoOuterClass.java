@@ -1028,9 +1028,8 @@ public final class GearActivityDetailInfoOuterClass {
       "lData.proto\032\027JigsawPictureData.proto\"w\n\026" +
       "GearActivityDetailInfo\022/\n\023jigsaw_picture" +
       "_data\030\006 \001(\0132\022.JigsawPictureData\022,\n\024gear_" +
-      "level_data_list\030\014 \003(\0132\016.GearLevelDataB=\n" +
-      "\031emu.grasscutter.net.protoB GearActivity" +
-      "DetailInfoOuterClassb\006proto3"
+      "level_data_list\030\014 \003(\0132\016.GearLevelDataB\033\n" +
+      "\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

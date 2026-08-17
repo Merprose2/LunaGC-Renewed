@@ -57,6 +57,10 @@ public final class EvtDoSkillSuccNotifyOuterClass {
     emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType getForwardType();
   }
   /**
+   * <pre>
+   * CmdID: 20280
+   * </pre>
+   *
    * Protobuf type {@code EvtDoSkillSuccNotify}
    */
   public static final class EvtDoSkillSuccNotify extends
@@ -423,6 +427,10 @@ public final class EvtDoSkillSuccNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 20280
+     * </pre>
+     *
      * Protobuf type {@code EvtDoSkillSuccNotify}
      */
     public static final class Builder extends
@@ -900,9 +908,8 @@ public final class EvtDoSkillSuccNotifyOuterClass {
       "e.proto\032\014Vector.proto\"y\n\024EvtDoSkillSuccN" +
       "otify\022\020\n\010skill_id\030\004 \001(\r\022\030\n\007forward\030\n \001(\013" +
       "2\007.Vector\022\021\n\tcaster_id\030\013 \001(\r\022\"\n\014forward_" +
-      "type\030\017 \001(\0162\014.ForwardTypeB;\n\031emu.grasscut" +
-      "ter.net.protoB\036EvtDoSkillSuccNotifyOuter" +
-      "Classb\006proto3"
+      "type\030\017 \001(\0162\014.ForwardTypeB\033\n\031emu.grasscut" +
+      "ter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

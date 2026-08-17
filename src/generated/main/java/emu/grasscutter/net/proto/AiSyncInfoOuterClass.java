@@ -660,8 +660,8 @@ public final class AiSyncInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\020AiSyncInfo.proto\"I\n\nAiSyncInfo\022\023\n\013COFJ" +
       "BBPPANA\030\007 \001(\010\022\021\n\tentity_id\030\n \001(\r\022\023\n\013MBNN" +
-      "MNHEDAB\030\016 \001(\010B1\n\031emu.grasscutter.net.pro" +
-      "toB\024AiSyncInfoOuterClassb\006proto3"
+      "MNHEDAB\030\016 \001(\010B\033\n\031emu.grasscutter.net.pro" +
+      "tob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

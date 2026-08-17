@@ -43,6 +43,10 @@ public final class QuestGlobalVarNotifyOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 27513
+   * </pre>
+   *
    * Protobuf type {@code QuestGlobalVarNotify}
    */
   public static final class QuestGlobalVarNotify extends
@@ -331,6 +335,10 @@ public final class QuestGlobalVarNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 27513
+     * </pre>
+     *
      * Protobuf type {@code QuestGlobalVarNotify}
      */
     public static final class Builder extends
@@ -823,9 +831,8 @@ public final class QuestGlobalVarNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032QuestGlobalVarNotify.proto\032\024QuestGloba" +
       "lVar.proto\"9\n\024QuestGlobalVarNotify\022!\n\010va" +
-      "r_list\030\002 \003(\0132\017.QuestGlobalVarB;\n\031emu.gra" +
-      "sscutter.net.protoB\036QuestGlobalVarNotify" +
-      "OuterClassb\006proto3"
+      "r_list\030\002 \003(\0132\017.QuestGlobalVarB\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

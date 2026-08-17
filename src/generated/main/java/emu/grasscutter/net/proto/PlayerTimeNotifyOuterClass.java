@@ -37,6 +37,10 @@ public final class PlayerTimeNotifyOuterClass {
     boolean getIsPaused();
   }
   /**
+   * <pre>
+   * CmdID: 21611
+   * </pre>
+   *
    * Protobuf type {@code PlayerTimeNotify}
    */
   public static final class PlayerTimeNotify extends
@@ -342,6 +346,10 @@ public final class PlayerTimeNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 21611
+     * </pre>
+     *
      * Protobuf type {@code PlayerTimeNotify}
      */
     public static final class Builder extends
@@ -661,9 +669,8 @@ public final class PlayerTimeNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026PlayerTimeNotify.proto\"O\n\020PlayerTimeNo" +
       "tify\022\023\n\013player_time\030\003 \001(\004\022\023\n\013server_time" +
-      "\030\n \001(\004\022\021\n\tis_paused\030\r \001(\010B7\n\031emu.grasscu" +
-      "tter.net.protoB\032PlayerTimeNotifyOuterCla" +
-      "ssb\006proto3"
+      "\030\n \001(\004\022\021\n\tis_paused\030\r \001(\010B\033\n\031emu.grasscu" +
+      "tter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

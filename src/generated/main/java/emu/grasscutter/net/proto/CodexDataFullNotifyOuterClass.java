@@ -72,6 +72,10 @@ public final class CodexDataFullNotifyOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 7370
+   * </pre>
+   *
    * Protobuf type {@code CodexDataFullNotify}
    */
   public static final class CodexDataFullNotify extends
@@ -495,6 +499,10 @@ public final class CodexDataFullNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 7370
+     * </pre>
+     *
      * Protobuf type {@code CodexDataFullNotify}
      */
     public static final class Builder extends
@@ -1160,9 +1168,8 @@ public final class CodexDataFullNotifyOuterClass {
       "_read_pushtips_codex_id\030\003 \001(\r\022#\n\033recent_" +
       "viewed_pushtips_list\030\005 \003(\r\022\"\n\032last_read_" +
       "pushtips_type_id\030\013 \001(\r\022&\n\016type_data_list" +
-      "\030\014 \003(\0132\016.CodexTypeDataB:\n\031emu.grasscutte" +
-      "r.net.protoB\035CodexDataFullNotifyOuterCla" +
-      "ssb\006proto3"
+      "\030\014 \003(\0132\016.CodexTypeDataB\033\n\031emu.grasscutte" +
+      "r.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

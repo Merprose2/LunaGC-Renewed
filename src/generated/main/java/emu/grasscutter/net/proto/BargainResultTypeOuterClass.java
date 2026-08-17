@@ -20,32 +20,32 @@ public final class BargainResultTypeOuterClass {
   public enum BargainResultType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>BARGAIN_COMPLETE_SUCC = 0;</code>
+     * <code>BargainResultType_BARGAIN_COMPLETE_SUCC = 0;</code>
      */
-    BARGAIN_COMPLETE_SUCC(0),
+    BargainResultType_BARGAIN_COMPLETE_SUCC(0),
     /**
-     * <code>BARGAIN_SINGLE_FAIL = 1;</code>
+     * <code>BargainResultType_BARGAIN_SINGLE_FAIL = 1;</code>
      */
-    BARGAIN_SINGLE_FAIL(1),
+    BargainResultType_BARGAIN_SINGLE_FAIL(1),
     /**
-     * <code>BARGAIN_COMPLETE_FAIL = 2;</code>
+     * <code>BargainResultType_BARGAIN_COMPLETE_FAIL = 2;</code>
      */
-    BARGAIN_COMPLETE_FAIL(2),
+    BargainResultType_BARGAIN_COMPLETE_FAIL(2),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>BARGAIN_COMPLETE_SUCC = 0;</code>
+     * <code>BargainResultType_BARGAIN_COMPLETE_SUCC = 0;</code>
      */
-    public static final int BARGAIN_COMPLETE_SUCC_VALUE = 0;
+    public static final int BargainResultType_BARGAIN_COMPLETE_SUCC_VALUE = 0;
     /**
-     * <code>BARGAIN_SINGLE_FAIL = 1;</code>
+     * <code>BargainResultType_BARGAIN_SINGLE_FAIL = 1;</code>
      */
-    public static final int BARGAIN_SINGLE_FAIL_VALUE = 1;
+    public static final int BargainResultType_BARGAIN_SINGLE_FAIL_VALUE = 1;
     /**
-     * <code>BARGAIN_COMPLETE_FAIL = 2;</code>
+     * <code>BargainResultType_BARGAIN_COMPLETE_FAIL = 2;</code>
      */
-    public static final int BARGAIN_COMPLETE_FAIL_VALUE = 2;
+    public static final int BargainResultType_BARGAIN_COMPLETE_FAIL_VALUE = 2;
 
 
     public final int getNumber() {
@@ -72,9 +72,9 @@ public final class BargainResultTypeOuterClass {
      */
     public static BargainResultType forNumber(int value) {
       switch (value) {
-        case 0: return BARGAIN_COMPLETE_SUCC;
-        case 1: return BARGAIN_SINGLE_FAIL;
-        case 2: return BARGAIN_COMPLETE_FAIL;
+        case 0: return BargainResultType_BARGAIN_COMPLETE_SUCC;
+        case 1: return BargainResultType_BARGAIN_SINGLE_FAIL;
+        case 2: return BargainResultType_BARGAIN_COMPLETE_FAIL;
         default: return null;
       }
     }
@@ -140,11 +140,12 @@ public final class BargainResultTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\027BargainResultType.proto*b\n\021BargainResu" +
-      "ltType\022\031\n\025BARGAIN_COMPLETE_SUCC\020\000\022\027\n\023BAR" +
-      "GAIN_SINGLE_FAIL\020\001\022\031\n\025BARGAIN_COMPLETE_F" +
-      "AIL\020\002B8\n\031emu.grasscutter.net.protoB\033Barg" +
-      "ainResultTypeOuterClassb\006proto3"
+      "\n\027BargainResultType.proto*\230\001\n\021BargainRes" +
+      "ultType\022+\n\'BargainResultType_BARGAIN_COM" +
+      "PLETE_SUCC\020\000\022)\n%BargainResultType_BARGAI" +
+      "N_SINGLE_FAIL\020\001\022+\n\'BargainResultType_BAR" +
+      "GAIN_COMPLETE_FAIL\020\002B\033\n\031emu.grasscutter." +
+      "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

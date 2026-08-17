@@ -37,6 +37,10 @@ public final class HomeAvatarSummonEventReqOuterClass {
     int getGuid();
   }
   /**
+   * <pre>
+   * CmdID: 2092
+   * </pre>
+   *
    * Protobuf type {@code HomeAvatarSummonEventReq}
    */
   public static final class HomeAvatarSummonEventReq extends
@@ -339,6 +343,10 @@ public final class HomeAvatarSummonEventReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 2092
+     * </pre>
+     *
      * Protobuf type {@code HomeAvatarSummonEventReq}
      */
     public static final class Builder extends
@@ -658,9 +666,8 @@ public final class HomeAvatarSummonEventReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036HomeAvatarSummonEventReq.proto\"L\n\030Home" +
       "AvatarSummonEventReq\022\017\n\007suit_id\030\004 \001(\r\022\021\n" +
-      "\tavatar_id\030\005 \001(\r\022\014\n\004guid\030\010 \001(\rB?\n\031emu.gr" +
-      "asscutter.net.protoB\"HomeAvatarSummonEve" +
-      "ntReqOuterClassb\006proto3"
+      "\tavatar_id\030\005 \001(\r\022\014\n\004guid\030\010 \001(\rB\033\n\031emu.gr" +
+      "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

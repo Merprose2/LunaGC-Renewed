@@ -19,27 +19,27 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 _passed_training_step_list = 1;</code>
-     * @return A list containing the passedTrainingStepList.
+     * <code>repeated uint32 IEIPEKNIPKO = 1;</code>
+     * @return A list containing the iEIPEKNIPKO.
      */
-    java.util.List<java.lang.Integer> getPassedTrainingStepListList();
+    java.util.List<java.lang.Integer> getIEIPEKNIPKOList();
     /**
-     * <code>repeated uint32 _passed_training_step_list = 1;</code>
-     * @return The count of passedTrainingStepList.
+     * <code>repeated uint32 IEIPEKNIPKO = 1;</code>
+     * @return The count of iEIPEKNIPKO.
      */
-    int getPassedTrainingStepListCount();
+    int getIEIPEKNIPKOCount();
     /**
-     * <code>repeated uint32 _passed_training_step_list = 1;</code>
+     * <code>repeated uint32 IEIPEKNIPKO = 1;</code>
      * @param index The index of the element to return.
-     * @return The passedTrainingStepList at the given index.
+     * @return The iEIPEKNIPKO at the given index.
      */
-    int getPassedTrainingStepList(int index);
+    int getIEIPEKNIPKO(int index);
 
     /**
-     * <code>bool _is_avatar_owned = 3;</code>
-     * @return The isAvatarOwned.
+     * <code>bool GIGHFNBBBNN = 3;</code>
+     * @return The gIGHFNBBBNN.
      */
-    boolean getIsAvatarOwned();
+    boolean getGIGHFNBBBNN();
 
     /**
      * <code>uint32 reward_id = 4;</code>
@@ -48,39 +48,39 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
     int getRewardId();
 
     /**
-     * <code>bool passed_dungeon = 5;</code>
-     * @return The passedDungeon.
+     * <code>bool NABHNDGHAAK = 5;</code>
+     * @return The nABHNDGHAAK.
      */
-    boolean getPassedDungeon();
+    boolean getNABHNDGHAAK();
 
     /**
-     * <code>bool received_reward = 9;</code>
-     * @return The receivedReward.
+     * <code>bool OMHKGKFBNGM = 9;</code>
+     * @return The oMHKGKFBNGM.
      */
-    boolean getReceivedReward();
+    boolean getOMHKGKFBNGM();
 
     /**
-     * <code>bool is_can_take_reward = 10;</code>
-     * @return The isCanTakeReward.
+     * <code>bool GHMJMKLBENL = 10;</code>
+     * @return The gHMJMKLBENL.
      */
-    boolean getIsCanTakeReward();
+    boolean getGHMJMKLBENL();
 
     /**
-     * <code>repeated uint32 _available_training_step_list = 12;</code>
-     * @return A list containing the availableTrainingStepList.
+     * <code>repeated uint32 FAAKNKKEENM = 12;</code>
+     * @return A list containing the fAAKNKKEENM.
      */
-    java.util.List<java.lang.Integer> getAvailableTrainingStepListList();
+    java.util.List<java.lang.Integer> getFAAKNKKEENMList();
     /**
-     * <code>repeated uint32 _available_training_step_list = 12;</code>
-     * @return The count of availableTrainingStepList.
+     * <code>repeated uint32 FAAKNKKEENM = 12;</code>
+     * @return The count of fAAKNKKEENM.
      */
-    int getAvailableTrainingStepListCount();
+    int getFAAKNKKEENMCount();
     /**
-     * <code>repeated uint32 _available_training_step_list = 12;</code>
+     * <code>repeated uint32 FAAKNKKEENM = 12;</code>
      * @param index The index of the element to return.
-     * @return The availableTrainingStepList at the given index.
+     * @return The fAAKNKKEENM at the given index.
      */
-    int getAvailableTrainingStepList(int index);
+    int getFAAKNKKEENM(int index);
 
     /**
      * <code>uint32 trial_avatar_index_id = 13;</code>
@@ -89,10 +89,10 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
     int getTrialAvatarIndexId();
 
     /**
-     * <code>bool _is_skip_training = 14;</code>
-     * @return The isSkipTraining.
+     * <code>bool JPFGBKGLGJJ = 14;</code>
+     * @return The jPFGBKGLGJJ.
      */
-    boolean getIsSkipTraining();
+    boolean getJPFGBKGLGJJ();
   }
   /**
    * Protobuf type {@code TrialAvatarActivityRewardDetailInfo}
@@ -107,8 +107,8 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       super(builder);
     }
     private TrialAvatarActivityRewardDetailInfo() {
-      PassedTrainingStepList_ = emptyIntList();
-      AvailableTrainingStepList_ = emptyIntList();
+      iEIPEKNIPKO_ = emptyIntList();
+      fAAKNKKEENM_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -144,28 +144,28 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
               break;
             case 8: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                PassedTrainingStepList_ = newIntList();
+                iEIPEKNIPKO_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
-              PassedTrainingStepList_.addInt(input.readUInt32());
+              iEIPEKNIPKO_.addInt(input.readUInt32());
               break;
             }
             case 10: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                PassedTrainingStepList_ = newIntList();
+                iEIPEKNIPKO_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
-                PassedTrainingStepList_.addInt(input.readUInt32());
+                iEIPEKNIPKO_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
             }
             case 24: {
 
-              IsAvatarOwned_ = input.readBool();
+              gIGHFNBBBNN_ = input.readBool();
               break;
             }
             case 32: {
@@ -175,36 +175,36 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
             }
             case 40: {
 
-              passedDungeon_ = input.readBool();
+              nABHNDGHAAK_ = input.readBool();
               break;
             }
             case 72: {
 
-              receivedReward_ = input.readBool();
+              oMHKGKFBNGM_ = input.readBool();
               break;
             }
             case 80: {
 
-              isCanTakeReward_ = input.readBool();
+              gHMJMKLBENL_ = input.readBool();
               break;
             }
             case 96: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                AvailableTrainingStepList_ = newIntList();
+                fAAKNKKEENM_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
               }
-              AvailableTrainingStepList_.addInt(input.readUInt32());
+              fAAKNKKEENM_.addInt(input.readUInt32());
               break;
             }
             case 98: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
-                AvailableTrainingStepList_ = newIntList();
+                fAAKNKKEENM_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
               }
               while (input.getBytesUntilLimit() > 0) {
-                AvailableTrainingStepList_.addInt(input.readUInt32());
+                fAAKNKKEENM_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
@@ -216,7 +216,7 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
             }
             case 112: {
 
-              IsSkipTraining_ = input.readBool();
+              jPFGBKGLGJJ_ = input.readBool();
               break;
             }
             default: {
@@ -235,10 +235,10 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          PassedTrainingStepList_.makeImmutable(); // C
+          iEIPEKNIPKO_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          AvailableTrainingStepList_.makeImmutable(); // C
+          fAAKNKKEENM_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -257,43 +257,43 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
               emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo.class, emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo.Builder.class);
     }
 
-    public static final int _PASSED_TRAINING_STEP_LIST_FIELD_NUMBER = 1;
-    private com.google.protobuf.Internal.IntList PassedTrainingStepList_;
+    public static final int IEIPEKNIPKO_FIELD_NUMBER = 1;
+    private com.google.protobuf.Internal.IntList iEIPEKNIPKO_;
     /**
-     * <code>repeated uint32 _passed_training_step_list = 1;</code>
-     * @return A list containing the passedTrainingStepList.
+     * <code>repeated uint32 IEIPEKNIPKO = 1;</code>
+     * @return A list containing the iEIPEKNIPKO.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getPassedTrainingStepListList() {
-      return PassedTrainingStepList_;
+        getIEIPEKNIPKOList() {
+      return iEIPEKNIPKO_;
     }
     /**
-     * <code>repeated uint32 _passed_training_step_list = 1;</code>
-     * @return The count of passedTrainingStepList.
+     * <code>repeated uint32 IEIPEKNIPKO = 1;</code>
+     * @return The count of iEIPEKNIPKO.
      */
-    public int getPassedTrainingStepListCount() {
-      return PassedTrainingStepList_.size();
+    public int getIEIPEKNIPKOCount() {
+      return iEIPEKNIPKO_.size();
     }
     /**
-     * <code>repeated uint32 _passed_training_step_list = 1;</code>
+     * <code>repeated uint32 IEIPEKNIPKO = 1;</code>
      * @param index The index of the element to return.
-     * @return The passedTrainingStepList at the given index.
+     * @return The iEIPEKNIPKO at the given index.
      */
-    public int getPassedTrainingStepList(int index) {
-      return PassedTrainingStepList_.getInt(index);
+    public int getIEIPEKNIPKO(int index) {
+      return iEIPEKNIPKO_.getInt(index);
     }
-    private int PassedTrainingStepListMemoizedSerializedSize = -1;
+    private int iEIPEKNIPKOMemoizedSerializedSize = -1;
 
-    public static final int _IS_AVATAR_OWNED_FIELD_NUMBER = 3;
-    private boolean IsAvatarOwned_;
+    public static final int GIGHFNBBBNN_FIELD_NUMBER = 3;
+    private boolean gIGHFNBBBNN_;
     /**
-     * <code>bool _is_avatar_owned = 3;</code>
-     * @return The isAvatarOwned.
+     * <code>bool GIGHFNBBBNN = 3;</code>
+     * @return The gIGHFNBBBNN.
      */
     @java.lang.Override
-    public boolean getIsAvatarOwned() {
-      return IsAvatarOwned_;
+    public boolean getGIGHFNBBBNN() {
+      return gIGHFNBBBNN_;
     }
 
     public static final int REWARD_ID_FIELD_NUMBER = 4;
@@ -307,66 +307,66 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       return rewardId_;
     }
 
-    public static final int PASSED_DUNGEON_FIELD_NUMBER = 5;
-    private boolean passedDungeon_;
+    public static final int NABHNDGHAAK_FIELD_NUMBER = 5;
+    private boolean nABHNDGHAAK_;
     /**
-     * <code>bool passed_dungeon = 5;</code>
-     * @return The passedDungeon.
+     * <code>bool NABHNDGHAAK = 5;</code>
+     * @return The nABHNDGHAAK.
      */
     @java.lang.Override
-    public boolean getPassedDungeon() {
-      return passedDungeon_;
+    public boolean getNABHNDGHAAK() {
+      return nABHNDGHAAK_;
     }
 
-    public static final int RECEIVED_REWARD_FIELD_NUMBER = 9;
-    private boolean receivedReward_;
+    public static final int OMHKGKFBNGM_FIELD_NUMBER = 9;
+    private boolean oMHKGKFBNGM_;
     /**
-     * <code>bool received_reward = 9;</code>
-     * @return The receivedReward.
+     * <code>bool OMHKGKFBNGM = 9;</code>
+     * @return The oMHKGKFBNGM.
      */
     @java.lang.Override
-    public boolean getReceivedReward() {
-      return receivedReward_;
+    public boolean getOMHKGKFBNGM() {
+      return oMHKGKFBNGM_;
     }
 
-    public static final int IS_CAN_TAKE_REWARD_FIELD_NUMBER = 10;
-    private boolean isCanTakeReward_;
+    public static final int GHMJMKLBENL_FIELD_NUMBER = 10;
+    private boolean gHMJMKLBENL_;
     /**
-     * <code>bool is_can_take_reward = 10;</code>
-     * @return The isCanTakeReward.
+     * <code>bool GHMJMKLBENL = 10;</code>
+     * @return The gHMJMKLBENL.
      */
     @java.lang.Override
-    public boolean getIsCanTakeReward() {
-      return isCanTakeReward_;
+    public boolean getGHMJMKLBENL() {
+      return gHMJMKLBENL_;
     }
 
-    public static final int _AVAILABLE_TRAINING_STEP_LIST_FIELD_NUMBER = 12;
-    private com.google.protobuf.Internal.IntList AvailableTrainingStepList_;
+    public static final int FAAKNKKEENM_FIELD_NUMBER = 12;
+    private com.google.protobuf.Internal.IntList fAAKNKKEENM_;
     /**
-     * <code>repeated uint32 _available_training_step_list = 12;</code>
-     * @return A list containing the availableTrainingStepList.
+     * <code>repeated uint32 FAAKNKKEENM = 12;</code>
+     * @return A list containing the fAAKNKKEENM.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getAvailableTrainingStepListList() {
-      return AvailableTrainingStepList_;
+        getFAAKNKKEENMList() {
+      return fAAKNKKEENM_;
     }
     /**
-     * <code>repeated uint32 _available_training_step_list = 12;</code>
-     * @return The count of availableTrainingStepList.
+     * <code>repeated uint32 FAAKNKKEENM = 12;</code>
+     * @return The count of fAAKNKKEENM.
      */
-    public int getAvailableTrainingStepListCount() {
-      return AvailableTrainingStepList_.size();
+    public int getFAAKNKKEENMCount() {
+      return fAAKNKKEENM_.size();
     }
     /**
-     * <code>repeated uint32 _available_training_step_list = 12;</code>
+     * <code>repeated uint32 FAAKNKKEENM = 12;</code>
      * @param index The index of the element to return.
-     * @return The availableTrainingStepList at the given index.
+     * @return The fAAKNKKEENM at the given index.
      */
-    public int getAvailableTrainingStepList(int index) {
-      return AvailableTrainingStepList_.getInt(index);
+    public int getFAAKNKKEENM(int index) {
+      return fAAKNKKEENM_.getInt(index);
     }
-    private int AvailableTrainingStepListMemoizedSerializedSize = -1;
+    private int fAAKNKKEENMMemoizedSerializedSize = -1;
 
     public static final int TRIAL_AVATAR_INDEX_ID_FIELD_NUMBER = 13;
     private int trialAvatarIndexId_;
@@ -379,15 +379,15 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       return trialAvatarIndexId_;
     }
 
-    public static final int _IS_SKIP_TRAINING_FIELD_NUMBER = 14;
-    private boolean IsSkipTraining_;
+    public static final int JPFGBKGLGJJ_FIELD_NUMBER = 14;
+    private boolean jPFGBKGLGJJ_;
     /**
-     * <code>bool _is_skip_training = 14;</code>
-     * @return The isSkipTraining.
+     * <code>bool JPFGBKGLGJJ = 14;</code>
+     * @return The jPFGBKGLGJJ.
      */
     @java.lang.Override
-    public boolean getIsSkipTraining() {
-      return IsSkipTraining_;
+    public boolean getJPFGBKGLGJJ() {
+      return jPFGBKGLGJJ_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -405,40 +405,40 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (getPassedTrainingStepListList().size() > 0) {
+      if (getIEIPEKNIPKOList().size() > 0) {
         output.writeUInt32NoTag(10);
-        output.writeUInt32NoTag(PassedTrainingStepListMemoizedSerializedSize);
+        output.writeUInt32NoTag(iEIPEKNIPKOMemoizedSerializedSize);
       }
-      for (int i = 0; i < PassedTrainingStepList_.size(); i++) {
-        output.writeUInt32NoTag(PassedTrainingStepList_.getInt(i));
+      for (int i = 0; i < iEIPEKNIPKO_.size(); i++) {
+        output.writeUInt32NoTag(iEIPEKNIPKO_.getInt(i));
       }
-      if (IsAvatarOwned_ != false) {
-        output.writeBool(3, IsAvatarOwned_);
+      if (gIGHFNBBBNN_ != false) {
+        output.writeBool(3, gIGHFNBBBNN_);
       }
       if (rewardId_ != 0) {
         output.writeUInt32(4, rewardId_);
       }
-      if (passedDungeon_ != false) {
-        output.writeBool(5, passedDungeon_);
+      if (nABHNDGHAAK_ != false) {
+        output.writeBool(5, nABHNDGHAAK_);
       }
-      if (receivedReward_ != false) {
-        output.writeBool(9, receivedReward_);
+      if (oMHKGKFBNGM_ != false) {
+        output.writeBool(9, oMHKGKFBNGM_);
       }
-      if (isCanTakeReward_ != false) {
-        output.writeBool(10, isCanTakeReward_);
+      if (gHMJMKLBENL_ != false) {
+        output.writeBool(10, gHMJMKLBENL_);
       }
-      if (getAvailableTrainingStepListList().size() > 0) {
+      if (getFAAKNKKEENMList().size() > 0) {
         output.writeUInt32NoTag(98);
-        output.writeUInt32NoTag(AvailableTrainingStepListMemoizedSerializedSize);
+        output.writeUInt32NoTag(fAAKNKKEENMMemoizedSerializedSize);
       }
-      for (int i = 0; i < AvailableTrainingStepList_.size(); i++) {
-        output.writeUInt32NoTag(AvailableTrainingStepList_.getInt(i));
+      for (int i = 0; i < fAAKNKKEENM_.size(); i++) {
+        output.writeUInt32NoTag(fAAKNKKEENM_.getInt(i));
       }
       if (trialAvatarIndexId_ != 0) {
         output.writeUInt32(13, trialAvatarIndexId_);
       }
-      if (IsSkipTraining_ != false) {
-        output.writeBool(14, IsSkipTraining_);
+      if (jPFGBKGLGJJ_ != false) {
+        output.writeBool(14, jPFGBKGLGJJ_);
       }
       unknownFields.writeTo(output);
     }
@@ -451,59 +451,59 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       size = 0;
       {
         int dataSize = 0;
-        for (int i = 0; i < PassedTrainingStepList_.size(); i++) {
+        for (int i = 0; i < iEIPEKNIPKO_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(PassedTrainingStepList_.getInt(i));
+            .computeUInt32SizeNoTag(iEIPEKNIPKO_.getInt(i));
         }
         size += dataSize;
-        if (!getPassedTrainingStepListList().isEmpty()) {
+        if (!getIEIPEKNIPKOList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        PassedTrainingStepListMemoizedSerializedSize = dataSize;
+        iEIPEKNIPKOMemoizedSerializedSize = dataSize;
       }
-      if (IsAvatarOwned_ != false) {
+      if (gIGHFNBBBNN_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, IsAvatarOwned_);
+          .computeBoolSize(3, gIGHFNBBBNN_);
       }
       if (rewardId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(4, rewardId_);
       }
-      if (passedDungeon_ != false) {
+      if (nABHNDGHAAK_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, passedDungeon_);
+          .computeBoolSize(5, nABHNDGHAAK_);
       }
-      if (receivedReward_ != false) {
+      if (oMHKGKFBNGM_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, receivedReward_);
+          .computeBoolSize(9, oMHKGKFBNGM_);
       }
-      if (isCanTakeReward_ != false) {
+      if (gHMJMKLBENL_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isCanTakeReward_);
+          .computeBoolSize(10, gHMJMKLBENL_);
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < AvailableTrainingStepList_.size(); i++) {
+        for (int i = 0; i < fAAKNKKEENM_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(AvailableTrainingStepList_.getInt(i));
+            .computeUInt32SizeNoTag(fAAKNKKEENM_.getInt(i));
         }
         size += dataSize;
-        if (!getAvailableTrainingStepListList().isEmpty()) {
+        if (!getFAAKNKKEENMList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        AvailableTrainingStepListMemoizedSerializedSize = dataSize;
+        fAAKNKKEENMMemoizedSerializedSize = dataSize;
       }
       if (trialAvatarIndexId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(13, trialAvatarIndexId_);
       }
-      if (IsSkipTraining_ != false) {
+      if (jPFGBKGLGJJ_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, IsSkipTraining_);
+          .computeBoolSize(14, jPFGBKGLGJJ_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -520,24 +520,24 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo other = (emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo) obj;
 
-      if (!getPassedTrainingStepListList()
-          .equals(other.getPassedTrainingStepListList())) return false;
-      if (getIsAvatarOwned()
-          != other.getIsAvatarOwned()) return false;
+      if (!getIEIPEKNIPKOList()
+          .equals(other.getIEIPEKNIPKOList())) return false;
+      if (getGIGHFNBBBNN()
+          != other.getGIGHFNBBBNN()) return false;
       if (getRewardId()
           != other.getRewardId()) return false;
-      if (getPassedDungeon()
-          != other.getPassedDungeon()) return false;
-      if (getReceivedReward()
-          != other.getReceivedReward()) return false;
-      if (getIsCanTakeReward()
-          != other.getIsCanTakeReward()) return false;
-      if (!getAvailableTrainingStepListList()
-          .equals(other.getAvailableTrainingStepListList())) return false;
+      if (getNABHNDGHAAK()
+          != other.getNABHNDGHAAK()) return false;
+      if (getOMHKGKFBNGM()
+          != other.getOMHKGKFBNGM()) return false;
+      if (getGHMJMKLBENL()
+          != other.getGHMJMKLBENL()) return false;
+      if (!getFAAKNKKEENMList()
+          .equals(other.getFAAKNKKEENMList())) return false;
       if (getTrialAvatarIndexId()
           != other.getTrialAvatarIndexId()) return false;
-      if (getIsSkipTraining()
-          != other.getIsSkipTraining()) return false;
+      if (getJPFGBKGLGJJ()
+          != other.getJPFGBKGLGJJ()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -549,33 +549,33 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getPassedTrainingStepListCount() > 0) {
-        hash = (37 * hash) + _PASSED_TRAINING_STEP_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getPassedTrainingStepListList().hashCode();
+      if (getIEIPEKNIPKOCount() > 0) {
+        hash = (37 * hash) + IEIPEKNIPKO_FIELD_NUMBER;
+        hash = (53 * hash) + getIEIPEKNIPKOList().hashCode();
       }
-      hash = (37 * hash) + _IS_AVATAR_OWNED_FIELD_NUMBER;
+      hash = (37 * hash) + GIGHFNBBBNN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsAvatarOwned());
+          getGIGHFNBBBNN());
       hash = (37 * hash) + REWARD_ID_FIELD_NUMBER;
       hash = (53 * hash) + getRewardId();
-      hash = (37 * hash) + PASSED_DUNGEON_FIELD_NUMBER;
+      hash = (37 * hash) + NABHNDGHAAK_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getPassedDungeon());
-      hash = (37 * hash) + RECEIVED_REWARD_FIELD_NUMBER;
+          getNABHNDGHAAK());
+      hash = (37 * hash) + OMHKGKFBNGM_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getReceivedReward());
-      hash = (37 * hash) + IS_CAN_TAKE_REWARD_FIELD_NUMBER;
+          getOMHKGKFBNGM());
+      hash = (37 * hash) + GHMJMKLBENL_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsCanTakeReward());
-      if (getAvailableTrainingStepListCount() > 0) {
-        hash = (37 * hash) + _AVAILABLE_TRAINING_STEP_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getAvailableTrainingStepListList().hashCode();
+          getGHMJMKLBENL());
+      if (getFAAKNKKEENMCount() > 0) {
+        hash = (37 * hash) + FAAKNKKEENM_FIELD_NUMBER;
+        hash = (53 * hash) + getFAAKNKKEENMList().hashCode();
       }
       hash = (37 * hash) + TRIAL_AVATAR_INDEX_ID_FIELD_NUMBER;
       hash = (53 * hash) + getTrialAvatarIndexId();
-      hash = (37 * hash) + _IS_SKIP_TRAINING_FIELD_NUMBER;
+      hash = (37 * hash) + JPFGBKGLGJJ_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsSkipTraining());
+          getJPFGBKGLGJJ());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -709,23 +709,23 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        PassedTrainingStepList_ = emptyIntList();
+        iEIPEKNIPKO_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        IsAvatarOwned_ = false;
+        gIGHFNBBBNN_ = false;
 
         rewardId_ = 0;
 
-        passedDungeon_ = false;
+        nABHNDGHAAK_ = false;
 
-        receivedReward_ = false;
+        oMHKGKFBNGM_ = false;
 
-        isCanTakeReward_ = false;
+        gHMJMKLBENL_ = false;
 
-        AvailableTrainingStepList_ = emptyIntList();
+        fAAKNKKEENM_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
         trialAvatarIndexId_ = 0;
 
-        IsSkipTraining_ = false;
+        jPFGBKGLGJJ_ = false;
 
         return this;
       }
@@ -755,22 +755,22 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
         emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo result = new emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo(this);
         int from_bitField0_ = bitField0_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          PassedTrainingStepList_.makeImmutable();
+          iEIPEKNIPKO_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.PassedTrainingStepList_ = PassedTrainingStepList_;
-        result.IsAvatarOwned_ = IsAvatarOwned_;
+        result.iEIPEKNIPKO_ = iEIPEKNIPKO_;
+        result.gIGHFNBBBNN_ = gIGHFNBBBNN_;
         result.rewardId_ = rewardId_;
-        result.passedDungeon_ = passedDungeon_;
-        result.receivedReward_ = receivedReward_;
-        result.isCanTakeReward_ = isCanTakeReward_;
+        result.nABHNDGHAAK_ = nABHNDGHAAK_;
+        result.oMHKGKFBNGM_ = oMHKGKFBNGM_;
+        result.gHMJMKLBENL_ = gHMJMKLBENL_;
         if (((bitField0_ & 0x00000002) != 0)) {
-          AvailableTrainingStepList_.makeImmutable();
+          fAAKNKKEENM_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000002);
         }
-        result.AvailableTrainingStepList_ = AvailableTrainingStepList_;
+        result.fAAKNKKEENM_ = fAAKNKKEENM_;
         result.trialAvatarIndexId_ = trialAvatarIndexId_;
-        result.IsSkipTraining_ = IsSkipTraining_;
+        result.jPFGBKGLGJJ_ = jPFGBKGLGJJ_;
         onBuilt();
         return result;
       }
@@ -819,46 +819,46 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo other) {
         if (other == emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo.getDefaultInstance()) return this;
-        if (!other.PassedTrainingStepList_.isEmpty()) {
-          if (PassedTrainingStepList_.isEmpty()) {
-            PassedTrainingStepList_ = other.PassedTrainingStepList_;
+        if (!other.iEIPEKNIPKO_.isEmpty()) {
+          if (iEIPEKNIPKO_.isEmpty()) {
+            iEIPEKNIPKO_ = other.iEIPEKNIPKO_;
             bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensurePassedTrainingStepListIsMutable();
-            PassedTrainingStepList_.addAll(other.PassedTrainingStepList_);
+            ensureIEIPEKNIPKOIsMutable();
+            iEIPEKNIPKO_.addAll(other.iEIPEKNIPKO_);
           }
           onChanged();
         }
-        if (other.getIsAvatarOwned() != false) {
-          setIsAvatarOwned(other.getIsAvatarOwned());
+        if (other.getGIGHFNBBBNN() != false) {
+          setGIGHFNBBBNN(other.getGIGHFNBBBNN());
         }
         if (other.getRewardId() != 0) {
           setRewardId(other.getRewardId());
         }
-        if (other.getPassedDungeon() != false) {
-          setPassedDungeon(other.getPassedDungeon());
+        if (other.getNABHNDGHAAK() != false) {
+          setNABHNDGHAAK(other.getNABHNDGHAAK());
         }
-        if (other.getReceivedReward() != false) {
-          setReceivedReward(other.getReceivedReward());
+        if (other.getOMHKGKFBNGM() != false) {
+          setOMHKGKFBNGM(other.getOMHKGKFBNGM());
         }
-        if (other.getIsCanTakeReward() != false) {
-          setIsCanTakeReward(other.getIsCanTakeReward());
+        if (other.getGHMJMKLBENL() != false) {
+          setGHMJMKLBENL(other.getGHMJMKLBENL());
         }
-        if (!other.AvailableTrainingStepList_.isEmpty()) {
-          if (AvailableTrainingStepList_.isEmpty()) {
-            AvailableTrainingStepList_ = other.AvailableTrainingStepList_;
+        if (!other.fAAKNKKEENM_.isEmpty()) {
+          if (fAAKNKKEENM_.isEmpty()) {
+            fAAKNKKEENM_ = other.fAAKNKKEENM_;
             bitField0_ = (bitField0_ & ~0x00000002);
           } else {
-            ensureAvailableTrainingStepListIsMutable();
-            AvailableTrainingStepList_.addAll(other.AvailableTrainingStepList_);
+            ensureFAAKNKKEENMIsMutable();
+            fAAKNKKEENM_.addAll(other.fAAKNKKEENM_);
           }
           onChanged();
         }
         if (other.getTrialAvatarIndexId() != 0) {
           setTrialAvatarIndexId(other.getTrialAvatarIndexId());
         }
-        if (other.getIsSkipTraining() != false) {
-          setIsSkipTraining(other.getIsSkipTraining());
+        if (other.getJPFGBKGLGJJ() != false) {
+          setJPFGBKGLGJJ(other.getJPFGBKGLGJJ());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -890,112 +890,112 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList PassedTrainingStepList_ = emptyIntList();
-      private void ensurePassedTrainingStepListIsMutable() {
+      private com.google.protobuf.Internal.IntList iEIPEKNIPKO_ = emptyIntList();
+      private void ensureIEIPEKNIPKOIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          PassedTrainingStepList_ = mutableCopy(PassedTrainingStepList_);
+          iEIPEKNIPKO_ = mutableCopy(iEIPEKNIPKO_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 _passed_training_step_list = 1;</code>
-       * @return A list containing the passedTrainingStepList.
+       * <code>repeated uint32 IEIPEKNIPKO = 1;</code>
+       * @return A list containing the iEIPEKNIPKO.
        */
       public java.util.List<java.lang.Integer>
-          getPassedTrainingStepListList() {
+          getIEIPEKNIPKOList() {
         return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(PassedTrainingStepList_) : PassedTrainingStepList_;
+                 java.util.Collections.unmodifiableList(iEIPEKNIPKO_) : iEIPEKNIPKO_;
       }
       /**
-       * <code>repeated uint32 _passed_training_step_list = 1;</code>
-       * @return The count of passedTrainingStepList.
+       * <code>repeated uint32 IEIPEKNIPKO = 1;</code>
+       * @return The count of iEIPEKNIPKO.
        */
-      public int getPassedTrainingStepListCount() {
-        return PassedTrainingStepList_.size();
+      public int getIEIPEKNIPKOCount() {
+        return iEIPEKNIPKO_.size();
       }
       /**
-       * <code>repeated uint32 _passed_training_step_list = 1;</code>
+       * <code>repeated uint32 IEIPEKNIPKO = 1;</code>
        * @param index The index of the element to return.
-       * @return The passedTrainingStepList at the given index.
+       * @return The iEIPEKNIPKO at the given index.
        */
-      public int getPassedTrainingStepList(int index) {
-        return PassedTrainingStepList_.getInt(index);
+      public int getIEIPEKNIPKO(int index) {
+        return iEIPEKNIPKO_.getInt(index);
       }
       /**
-       * <code>repeated uint32 _passed_training_step_list = 1;</code>
+       * <code>repeated uint32 IEIPEKNIPKO = 1;</code>
        * @param index The index to set the value at.
-       * @param value The passedTrainingStepList to set.
+       * @param value The iEIPEKNIPKO to set.
        * @return This builder for chaining.
        */
-      public Builder setPassedTrainingStepList(
+      public Builder setIEIPEKNIPKO(
           int index, int value) {
-        ensurePassedTrainingStepListIsMutable();
-        PassedTrainingStepList_.setInt(index, value);
+        ensureIEIPEKNIPKOIsMutable();
+        iEIPEKNIPKO_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 _passed_training_step_list = 1;</code>
-       * @param value The passedTrainingStepList to add.
+       * <code>repeated uint32 IEIPEKNIPKO = 1;</code>
+       * @param value The iEIPEKNIPKO to add.
        * @return This builder for chaining.
        */
-      public Builder addPassedTrainingStepList(int value) {
-        ensurePassedTrainingStepListIsMutable();
-        PassedTrainingStepList_.addInt(value);
+      public Builder addIEIPEKNIPKO(int value) {
+        ensureIEIPEKNIPKOIsMutable();
+        iEIPEKNIPKO_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 _passed_training_step_list = 1;</code>
-       * @param values The passedTrainingStepList to add.
+       * <code>repeated uint32 IEIPEKNIPKO = 1;</code>
+       * @param values The iEIPEKNIPKO to add.
        * @return This builder for chaining.
        */
-      public Builder addAllPassedTrainingStepList(
+      public Builder addAllIEIPEKNIPKO(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensurePassedTrainingStepListIsMutable();
+        ensureIEIPEKNIPKOIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, PassedTrainingStepList_);
+            values, iEIPEKNIPKO_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 _passed_training_step_list = 1;</code>
+       * <code>repeated uint32 IEIPEKNIPKO = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearPassedTrainingStepList() {
-        PassedTrainingStepList_ = emptyIntList();
+      public Builder clearIEIPEKNIPKO() {
+        iEIPEKNIPKO_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
       }
 
-      private boolean IsAvatarOwned_ ;
+      private boolean gIGHFNBBBNN_ ;
       /**
-       * <code>bool _is_avatar_owned = 3;</code>
-       * @return The isAvatarOwned.
+       * <code>bool GIGHFNBBBNN = 3;</code>
+       * @return The gIGHFNBBBNN.
        */
       @java.lang.Override
-      public boolean getIsAvatarOwned() {
-        return IsAvatarOwned_;
+      public boolean getGIGHFNBBBNN() {
+        return gIGHFNBBBNN_;
       }
       /**
-       * <code>bool _is_avatar_owned = 3;</code>
-       * @param value The isAvatarOwned to set.
+       * <code>bool GIGHFNBBBNN = 3;</code>
+       * @param value The gIGHFNBBBNN to set.
        * @return This builder for chaining.
        */
-      public Builder setIsAvatarOwned(boolean value) {
+      public Builder setGIGHFNBBBNN(boolean value) {
         
-        IsAvatarOwned_ = value;
+        gIGHFNBBBNN_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool _is_avatar_owned = 3;</code>
+       * <code>bool GIGHFNBBBNN = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIsAvatarOwned() {
+      public Builder clearGIGHFNBBBNN() {
         
-        IsAvatarOwned_ = false;
+        gIGHFNBBBNN_ = false;
         onChanged();
         return this;
       }
@@ -1031,173 +1031,173 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
         return this;
       }
 
-      private boolean passedDungeon_ ;
+      private boolean nABHNDGHAAK_ ;
       /**
-       * <code>bool passed_dungeon = 5;</code>
-       * @return The passedDungeon.
+       * <code>bool NABHNDGHAAK = 5;</code>
+       * @return The nABHNDGHAAK.
        */
       @java.lang.Override
-      public boolean getPassedDungeon() {
-        return passedDungeon_;
+      public boolean getNABHNDGHAAK() {
+        return nABHNDGHAAK_;
       }
       /**
-       * <code>bool passed_dungeon = 5;</code>
-       * @param value The passedDungeon to set.
+       * <code>bool NABHNDGHAAK = 5;</code>
+       * @param value The nABHNDGHAAK to set.
        * @return This builder for chaining.
        */
-      public Builder setPassedDungeon(boolean value) {
+      public Builder setNABHNDGHAAK(boolean value) {
         
-        passedDungeon_ = value;
+        nABHNDGHAAK_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool passed_dungeon = 5;</code>
+       * <code>bool NABHNDGHAAK = 5;</code>
        * @return This builder for chaining.
        */
-      public Builder clearPassedDungeon() {
+      public Builder clearNABHNDGHAAK() {
         
-        passedDungeon_ = false;
+        nABHNDGHAAK_ = false;
         onChanged();
         return this;
       }
 
-      private boolean receivedReward_ ;
+      private boolean oMHKGKFBNGM_ ;
       /**
-       * <code>bool received_reward = 9;</code>
-       * @return The receivedReward.
+       * <code>bool OMHKGKFBNGM = 9;</code>
+       * @return The oMHKGKFBNGM.
        */
       @java.lang.Override
-      public boolean getReceivedReward() {
-        return receivedReward_;
+      public boolean getOMHKGKFBNGM() {
+        return oMHKGKFBNGM_;
       }
       /**
-       * <code>bool received_reward = 9;</code>
-       * @param value The receivedReward to set.
+       * <code>bool OMHKGKFBNGM = 9;</code>
+       * @param value The oMHKGKFBNGM to set.
        * @return This builder for chaining.
        */
-      public Builder setReceivedReward(boolean value) {
+      public Builder setOMHKGKFBNGM(boolean value) {
         
-        receivedReward_ = value;
+        oMHKGKFBNGM_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool received_reward = 9;</code>
+       * <code>bool OMHKGKFBNGM = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearReceivedReward() {
+      public Builder clearOMHKGKFBNGM() {
         
-        receivedReward_ = false;
+        oMHKGKFBNGM_ = false;
         onChanged();
         return this;
       }
 
-      private boolean isCanTakeReward_ ;
+      private boolean gHMJMKLBENL_ ;
       /**
-       * <code>bool is_can_take_reward = 10;</code>
-       * @return The isCanTakeReward.
+       * <code>bool GHMJMKLBENL = 10;</code>
+       * @return The gHMJMKLBENL.
        */
       @java.lang.Override
-      public boolean getIsCanTakeReward() {
-        return isCanTakeReward_;
+      public boolean getGHMJMKLBENL() {
+        return gHMJMKLBENL_;
       }
       /**
-       * <code>bool is_can_take_reward = 10;</code>
-       * @param value The isCanTakeReward to set.
+       * <code>bool GHMJMKLBENL = 10;</code>
+       * @param value The gHMJMKLBENL to set.
        * @return This builder for chaining.
        */
-      public Builder setIsCanTakeReward(boolean value) {
+      public Builder setGHMJMKLBENL(boolean value) {
         
-        isCanTakeReward_ = value;
+        gHMJMKLBENL_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool is_can_take_reward = 10;</code>
+       * <code>bool GHMJMKLBENL = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIsCanTakeReward() {
+      public Builder clearGHMJMKLBENL() {
         
-        isCanTakeReward_ = false;
+        gHMJMKLBENL_ = false;
         onChanged();
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList AvailableTrainingStepList_ = emptyIntList();
-      private void ensureAvailableTrainingStepListIsMutable() {
+      private com.google.protobuf.Internal.IntList fAAKNKKEENM_ = emptyIntList();
+      private void ensureFAAKNKKEENMIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          AvailableTrainingStepList_ = mutableCopy(AvailableTrainingStepList_);
+          fAAKNKKEENM_ = mutableCopy(fAAKNKKEENM_);
           bitField0_ |= 0x00000002;
          }
       }
       /**
-       * <code>repeated uint32 _available_training_step_list = 12;</code>
-       * @return A list containing the availableTrainingStepList.
+       * <code>repeated uint32 FAAKNKKEENM = 12;</code>
+       * @return A list containing the fAAKNKKEENM.
        */
       public java.util.List<java.lang.Integer>
-          getAvailableTrainingStepListList() {
+          getFAAKNKKEENMList() {
         return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(AvailableTrainingStepList_) : AvailableTrainingStepList_;
+                 java.util.Collections.unmodifiableList(fAAKNKKEENM_) : fAAKNKKEENM_;
       }
       /**
-       * <code>repeated uint32 _available_training_step_list = 12;</code>
-       * @return The count of availableTrainingStepList.
+       * <code>repeated uint32 FAAKNKKEENM = 12;</code>
+       * @return The count of fAAKNKKEENM.
        */
-      public int getAvailableTrainingStepListCount() {
-        return AvailableTrainingStepList_.size();
+      public int getFAAKNKKEENMCount() {
+        return fAAKNKKEENM_.size();
       }
       /**
-       * <code>repeated uint32 _available_training_step_list = 12;</code>
+       * <code>repeated uint32 FAAKNKKEENM = 12;</code>
        * @param index The index of the element to return.
-       * @return The availableTrainingStepList at the given index.
+       * @return The fAAKNKKEENM at the given index.
        */
-      public int getAvailableTrainingStepList(int index) {
-        return AvailableTrainingStepList_.getInt(index);
+      public int getFAAKNKKEENM(int index) {
+        return fAAKNKKEENM_.getInt(index);
       }
       /**
-       * <code>repeated uint32 _available_training_step_list = 12;</code>
+       * <code>repeated uint32 FAAKNKKEENM = 12;</code>
        * @param index The index to set the value at.
-       * @param value The availableTrainingStepList to set.
+       * @param value The fAAKNKKEENM to set.
        * @return This builder for chaining.
        */
-      public Builder setAvailableTrainingStepList(
+      public Builder setFAAKNKKEENM(
           int index, int value) {
-        ensureAvailableTrainingStepListIsMutable();
-        AvailableTrainingStepList_.setInt(index, value);
+        ensureFAAKNKKEENMIsMutable();
+        fAAKNKKEENM_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 _available_training_step_list = 12;</code>
-       * @param value The availableTrainingStepList to add.
+       * <code>repeated uint32 FAAKNKKEENM = 12;</code>
+       * @param value The fAAKNKKEENM to add.
        * @return This builder for chaining.
        */
-      public Builder addAvailableTrainingStepList(int value) {
-        ensureAvailableTrainingStepListIsMutable();
-        AvailableTrainingStepList_.addInt(value);
+      public Builder addFAAKNKKEENM(int value) {
+        ensureFAAKNKKEENMIsMutable();
+        fAAKNKKEENM_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 _available_training_step_list = 12;</code>
-       * @param values The availableTrainingStepList to add.
+       * <code>repeated uint32 FAAKNKKEENM = 12;</code>
+       * @param values The fAAKNKKEENM to add.
        * @return This builder for chaining.
        */
-      public Builder addAllAvailableTrainingStepList(
+      public Builder addAllFAAKNKKEENM(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureAvailableTrainingStepListIsMutable();
+        ensureFAAKNKKEENMIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, AvailableTrainingStepList_);
+            values, fAAKNKKEENM_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 _available_training_step_list = 12;</code>
+       * <code>repeated uint32 FAAKNKKEENM = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearAvailableTrainingStepList() {
-        AvailableTrainingStepList_ = emptyIntList();
+      public Builder clearFAAKNKKEENM() {
+        fAAKNKKEENM_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
         onChanged();
         return this;
@@ -1234,33 +1234,33 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
         return this;
       }
 
-      private boolean IsSkipTraining_ ;
+      private boolean jPFGBKGLGJJ_ ;
       /**
-       * <code>bool _is_skip_training = 14;</code>
-       * @return The isSkipTraining.
+       * <code>bool JPFGBKGLGJJ = 14;</code>
+       * @return The jPFGBKGLGJJ.
        */
       @java.lang.Override
-      public boolean getIsSkipTraining() {
-        return IsSkipTraining_;
+      public boolean getJPFGBKGLGJJ() {
+        return jPFGBKGLGJJ_;
       }
       /**
-       * <code>bool _is_skip_training = 14;</code>
-       * @param value The isSkipTraining to set.
+       * <code>bool JPFGBKGLGJJ = 14;</code>
+       * @param value The jPFGBKGLGJJ to set.
        * @return This builder for chaining.
        */
-      public Builder setIsSkipTraining(boolean value) {
+      public Builder setJPFGBKGLGJJ(boolean value) {
         
-        IsSkipTraining_ = value;
+        jPFGBKGLGJJ_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool _is_skip_training = 14;</code>
+       * <code>bool JPFGBKGLGJJ = 14;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIsSkipTraining() {
+      public Builder clearJPFGBKGLGJJ() {
         
-        IsSkipTraining_ = false;
+        jPFGBKGLGJJ_ = false;
         onChanged();
         return this;
       }
@@ -1332,16 +1332,13 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n)TrialAvatarActivityRewardDetailInfo.pr" +
-      "oto\"\244\002\n#TrialAvatarActivityRewardDetailI" +
-      "nfo\022\"\n\032_passed_training_step_list\030\001 \003(\r\022" +
-      "\030\n\020_is_avatar_owned\030\003 \001(\010\022\021\n\treward_id\030\004" +
-      " \001(\r\022\026\n\016passed_dungeon\030\005 \001(\010\022\027\n\017received" +
-      "_reward\030\t \001(\010\022\032\n\022is_can_take_reward\030\n \001(" +
-      "\010\022%\n\035_available_training_step_list\030\014 \003(\r" +
-      "\022\035\n\025trial_avatar_index_id\030\r \001(\r\022\031\n\021_is_s" +
-      "kip_training\030\016 \001(\010BJ\n\031emu.grasscutter.ne" +
-      "t.protoB-TrialAvatarActivityRewardDetail" +
-      "InfoOuterClassb\006proto3"
+      "oto\"\352\001\n#TrialAvatarActivityRewardDetailI" +
+      "nfo\022\023\n\013IEIPEKNIPKO\030\001 \003(\r\022\023\n\013GIGHFNBBBNN\030" +
+      "\003 \001(\010\022\021\n\treward_id\030\004 \001(\r\022\023\n\013NABHNDGHAAK\030" +
+      "\005 \001(\010\022\023\n\013OMHKGKFBNGM\030\t \001(\010\022\023\n\013GHMJMKLBEN" +
+      "L\030\n \001(\010\022\023\n\013FAAKNKKEENM\030\014 \003(\r\022\035\n\025trial_av" +
+      "atar_index_id\030\r \001(\r\022\023\n\013JPFGBKGLGJJ\030\016 \001(\010" +
+      "B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1352,7 +1349,7 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
     internal_static_TrialAvatarActivityRewardDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_TrialAvatarActivityRewardDetailInfo_descriptor,
-        new java.lang.String[] { "PassedTrainingStepList", "IsAvatarOwned", "RewardId", "PassedDungeon", "ReceivedReward", "IsCanTakeReward", "AvailableTrainingStepList", "TrialAvatarIndexId", "IsSkipTraining", });
+        new java.lang.String[] { "IEIPEKNIPKO", "GIGHFNBBBNN", "RewardId", "NABHNDGHAAK", "OMHKGKFBNGM", "GHMJMKLBENL", "FAAKNKKEENM", "TrialAvatarIndexId", "JPFGBKGLGJJ", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

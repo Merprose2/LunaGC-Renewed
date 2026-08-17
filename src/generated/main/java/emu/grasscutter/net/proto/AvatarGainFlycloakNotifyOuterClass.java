@@ -25,6 +25,10 @@ public final class AvatarGainFlycloakNotifyOuterClass {
     int getFlycloakId();
   }
   /**
+   * <pre>
+   * CmdID: 4865
+   * </pre>
+   *
    * Protobuf type {@code AvatarGainFlycloakNotify}
    */
   public static final class AvatarGainFlycloakNotify extends
@@ -273,6 +277,10 @@ public final class AvatarGainFlycloakNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 4865
+     * </pre>
+     *
      * Protobuf type {@code AvatarGainFlycloakNotify}
      */
     public static final class Builder extends
@@ -518,8 +526,7 @@ public final class AvatarGainFlycloakNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036AvatarGainFlycloakNotify.proto\"/\n\030Avat" +
       "arGainFlycloakNotify\022\023\n\013flycloak_id\030\006 \001(" +
-      "\rB?\n\031emu.grasscutter.net.protoB\"AvatarGa" +
-      "inFlycloakNotifyOuterClassb\006proto3"
+      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

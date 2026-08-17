@@ -77,16 +77,16 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
     boolean getGIHIGJHFKGL();
 
     /**
-     * <code>uint32 polcmmbaenp = 7;</code>
-     * @return The polcmmbaenp.
+     * <code>uint32 EFEJFDFNPLI = 7;</code>
+     * @return The eFEJFDFNPLI.
      */
-    int getPolcmmbaenp();
+    int getEFEJFDFNPLI();
 
     /**
-     * <code>uint32 focelgiaflm = 13;</code>
-     * @return The focelgiaflm.
+     * <code>uint32 ADNNHPLILMF = 13;</code>
+     * @return The aDNNHPLILMF.
      */
-    int getFocelgiaflm();
+    int getADNNHPLILMF();
   }
   /**
    * Protobuf type {@code RoguelikeDungeonSettleInfo}
@@ -169,12 +169,12 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
             }
             case 56: {
 
-              polcmmbaenp_ = input.readUInt32();
+              eFEJFDFNPLI_ = input.readUInt32();
               break;
             }
             case 104: {
 
-              focelgiaflm_ = input.readUInt32();
+              aDNNHPLILMF_ = input.readUInt32();
               break;
             }
             default: {
@@ -346,26 +346,26 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
       return gIHIGJHFKGL_;
     }
 
-    public static final int POLCMMBAENP_FIELD_NUMBER = 7;
-    private int polcmmbaenp_;
+    public static final int EFEJFDFNPLI_FIELD_NUMBER = 7;
+    private int eFEJFDFNPLI_;
     /**
-     * <code>uint32 polcmmbaenp = 7;</code>
-     * @return The polcmmbaenp.
+     * <code>uint32 EFEJFDFNPLI = 7;</code>
+     * @return The eFEJFDFNPLI.
      */
     @java.lang.Override
-    public int getPolcmmbaenp() {
-      return polcmmbaenp_;
+    public int getEFEJFDFNPLI() {
+      return eFEJFDFNPLI_;
     }
 
-    public static final int FOCELGIAFLM_FIELD_NUMBER = 13;
-    private int focelgiaflm_;
+    public static final int ADNNHPLILMF_FIELD_NUMBER = 13;
+    private int aDNNHPLILMF_;
     /**
-     * <code>uint32 focelgiaflm = 13;</code>
-     * @return The focelgiaflm.
+     * <code>uint32 ADNNHPLILMF = 13;</code>
+     * @return The aDNNHPLILMF.
      */
     @java.lang.Override
-    public int getFocelgiaflm() {
-      return focelgiaflm_;
+    public int getADNNHPLILMF() {
+      return aDNNHPLILMF_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -400,11 +400,11 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
       if (gIHIGJHFKGL_ != false) {
         output.writeBool(6, gIHIGJHFKGL_);
       }
-      if (polcmmbaenp_ != 0) {
-        output.writeUInt32(7, polcmmbaenp_);
+      if (eFEJFDFNPLI_ != 0) {
+        output.writeUInt32(7, eFEJFDFNPLI_);
       }
-      if (focelgiaflm_ != 0) {
-        output.writeUInt32(13, focelgiaflm_);
+      if (aDNNHPLILMF_ != 0) {
+        output.writeUInt32(13, aDNNHPLILMF_);
       }
       unknownFields.writeTo(output);
     }
@@ -441,13 +441,13 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(6, gIHIGJHFKGL_);
       }
-      if (polcmmbaenp_ != 0) {
+      if (eFEJFDFNPLI_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, polcmmbaenp_);
+          .computeUInt32Size(7, eFEJFDFNPLI_);
       }
-      if (focelgiaflm_ != 0) {
+      if (aDNNHPLILMF_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, focelgiaflm_);
+          .computeUInt32Size(13, aDNNHPLILMF_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -474,10 +474,10 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
           != other.getCurLevel()) return false;
       if (getGIHIGJHFKGL()
           != other.getGIHIGJHFKGL()) return false;
-      if (getPolcmmbaenp()
-          != other.getPolcmmbaenp()) return false;
-      if (getFocelgiaflm()
-          != other.getFocelgiaflm()) return false;
+      if (getEFEJFDFNPLI()
+          != other.getEFEJFDFNPLI()) return false;
+      if (getADNNHPLILMF()
+          != other.getADNNHPLILMF()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -503,10 +503,10 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
       hash = (37 * hash) + GIHIGJHFKGL_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getGIHIGJHFKGL());
-      hash = (37 * hash) + POLCMMBAENP_FIELD_NUMBER;
-      hash = (53 * hash) + getPolcmmbaenp();
-      hash = (37 * hash) + FOCELGIAFLM_FIELD_NUMBER;
-      hash = (53 * hash) + getFocelgiaflm();
+      hash = (37 * hash) + EFEJFDFNPLI_FIELD_NUMBER;
+      hash = (53 * hash) + getEFEJFDFNPLI();
+      hash = (37 * hash) + ADNNHPLILMF_FIELD_NUMBER;
+      hash = (53 * hash) + getADNNHPLILMF();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -671,9 +671,9 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
 
         gIHIGJHFKGL_ = false;
 
-        polcmmbaenp_ = 0;
+        eFEJFDFNPLI_ = 0;
 
-        focelgiaflm_ = 0;
+        aDNNHPLILMF_ = 0;
 
         return this;
       }
@@ -708,8 +708,8 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
         result.finishedChallengeCellNumMap_.makeImmutable();
         result.curLevel_ = curLevel_;
         result.gIHIGJHFKGL_ = gIHIGJHFKGL_;
-        result.polcmmbaenp_ = polcmmbaenp_;
-        result.focelgiaflm_ = focelgiaflm_;
+        result.eFEJFDFNPLI_ = eFEJFDFNPLI_;
+        result.aDNNHPLILMF_ = aDNNHPLILMF_;
         onBuilt();
         return result;
       }
@@ -772,11 +772,11 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
         if (other.getGIHIGJHFKGL() != false) {
           setGIHIGJHFKGL(other.getGIHIGJHFKGL());
         }
-        if (other.getPolcmmbaenp() != 0) {
-          setPolcmmbaenp(other.getPolcmmbaenp());
+        if (other.getEFEJFDFNPLI() != 0) {
+          setEFEJFDFNPLI(other.getEFEJFDFNPLI());
         }
-        if (other.getFocelgiaflm() != 0) {
-          setFocelgiaflm(other.getFocelgiaflm());
+        if (other.getADNNHPLILMF() != 0) {
+          setADNNHPLILMF(other.getADNNHPLILMF());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -1060,64 +1060,64 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
         return this;
       }
 
-      private int polcmmbaenp_ ;
+      private int eFEJFDFNPLI_ ;
       /**
-       * <code>uint32 polcmmbaenp = 7;</code>
-       * @return The polcmmbaenp.
+       * <code>uint32 EFEJFDFNPLI = 7;</code>
+       * @return The eFEJFDFNPLI.
        */
       @java.lang.Override
-      public int getPolcmmbaenp() {
-        return polcmmbaenp_;
+      public int getEFEJFDFNPLI() {
+        return eFEJFDFNPLI_;
       }
       /**
-       * <code>uint32 polcmmbaenp = 7;</code>
-       * @param value The polcmmbaenp to set.
+       * <code>uint32 EFEJFDFNPLI = 7;</code>
+       * @param value The eFEJFDFNPLI to set.
        * @return This builder for chaining.
        */
-      public Builder setPolcmmbaenp(int value) {
+      public Builder setEFEJFDFNPLI(int value) {
         
-        polcmmbaenp_ = value;
+        eFEJFDFNPLI_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 polcmmbaenp = 7;</code>
+       * <code>uint32 EFEJFDFNPLI = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearPolcmmbaenp() {
+      public Builder clearEFEJFDFNPLI() {
         
-        polcmmbaenp_ = 0;
+        eFEJFDFNPLI_ = 0;
         onChanged();
         return this;
       }
 
-      private int focelgiaflm_ ;
+      private int aDNNHPLILMF_ ;
       /**
-       * <code>uint32 focelgiaflm = 13;</code>
-       * @return The focelgiaflm.
+       * <code>uint32 ADNNHPLILMF = 13;</code>
+       * @return The aDNNHPLILMF.
        */
       @java.lang.Override
-      public int getFocelgiaflm() {
-        return focelgiaflm_;
+      public int getADNNHPLILMF() {
+        return aDNNHPLILMF_;
       }
       /**
-       * <code>uint32 focelgiaflm = 13;</code>
-       * @param value The focelgiaflm to set.
+       * <code>uint32 ADNNHPLILMF = 13;</code>
+       * @param value The aDNNHPLILMF to set.
        * @return This builder for chaining.
        */
-      public Builder setFocelgiaflm(int value) {
+      public Builder setADNNHPLILMF(int value) {
         
-        focelgiaflm_ = value;
+        aDNNHPLILMF_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 focelgiaflm = 13;</code>
+       * <code>uint32 ADNNHPLILMF = 13;</code>
        * @return This builder for chaining.
        */
-      public Builder clearFocelgiaflm() {
+      public Builder clearADNNHPLILMF() {
         
-        focelgiaflm_ = 0;
+        aDNNHPLILMF_ = 0;
         onChanged();
         return this;
       }
@@ -1200,12 +1200,11 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
       "ll_num_map\030\003 \003(\0132<.RoguelikeDungeonSettl" +
       "eInfo.FinishedChallengeCellNumMapEntry\022\021" +
       "\n\tcur_level\030\005 \001(\r\022\023\n\013GIHIGJHFKGL\030\006 \001(\010\022\023" +
-      "\n\013polcmmbaenp\030\007 \001(\r\022\023\n\013focelgiaflm\030\r \001(\r" +
+      "\n\013EFEJFDFNPLI\030\007 \001(\r\022\023\n\013ADNNHPLILMF\030\r \001(\r" +
       "\032\\\n FinishedChallengeCellNumMapEntry\022\013\n\003" +
       "key\030\001 \001(\r\022\'\n\005value\030\002 \001(\0132\030.RoguelikeSett" +
-      "leCoinInfo:\0028\001BA\n\031emu.grasscutter.net.pr" +
-      "otoB$RoguelikeDungeonSettleInfoOuterClas" +
-      "sb\006proto3"
+      "leCoinInfo:\0028\001B\033\n\031emu.grasscutter.net.pr" +
+      "otob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1217,7 +1216,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
     internal_static_RoguelikeDungeonSettleInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_RoguelikeDungeonSettleInfo_descriptor,
-        new java.lang.String[] { "CJKFLABGBBD", "StageId", "FinishedChallengeCellNumMap", "CurLevel", "GIHIGJHFKGL", "Polcmmbaenp", "Focelgiaflm", });
+        new java.lang.String[] { "CJKFLABGBBD", "StageId", "FinishedChallengeCellNumMap", "CurLevel", "GIHIGJHFKGL", "EFEJFDFNPLI", "ADNNHPLILMF", });
     internal_static_RoguelikeDungeonSettleInfo_FinishedChallengeCellNumMapEntry_descriptor =
       internal_static_RoguelikeDungeonSettleInfo_descriptor.getNestedTypes().get(0);
     internal_static_RoguelikeDungeonSettleInfo_FinishedChallengeCellNumMapEntry_fieldAccessorTable = new

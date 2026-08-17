@@ -588,8 +588,8 @@ public final class EPHKKEDNINEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EPHKKEDNINE.proto\"G\n\013EPHKKEDNINE\022\034\n\024_a" +
       "uto_chess_chess_id\030\001 \001(\r\022\032\n\022_chess_level" +
-      "_up_id\030\007 \001(\rB2\n\031emu.grasscutter.net.prot" +
-      "oB\025EPHKKEDNINEOuterClassb\006proto3"
+      "_up_id\030\007 \001(\rB\033\n\031emu.grasscutter.net.prot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

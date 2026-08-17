@@ -20,7 +20,7 @@ public final class GetProfilePictureDataReqOuterClass {
   }
   /**
    * <pre>
-   * CmdId: 20692
+   * CmdID: 2896
    * </pre>
    *
    * Protobuf type {@code GetProfilePictureDataReq}
@@ -245,7 +245,7 @@ public final class GetProfilePictureDataReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 20692
+     * CmdID: 2896
      * </pre>
      *
      * Protobuf type {@code GetProfilePictureDataReq}

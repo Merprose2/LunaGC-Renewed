@@ -49,6 +49,10 @@ public final class HomeGetArrangementInfoRspOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 24225
+   * </pre>
+   *
    * Protobuf type {@code HomeGetArrangementInfoRsp}
    */
   public static final class HomeGetArrangementInfoRsp extends
@@ -364,6 +368,10 @@ public final class HomeGetArrangementInfoRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 24225
+     * </pre>
+     *
      * Protobuf type {@code HomeGetArrangementInfoRsp}
      */
     public static final class Builder extends
@@ -895,9 +903,8 @@ public final class HomeGetArrangementInfoRspOuterClass {
       "ceneArrangementInfo.proto\"l\n\031HomeGetArra" +
       "ngementInfoRsp\022\017\n\007retcode\030\004 \001(\005\022>\n\033scene" +
       "_arrangement_info_list\030\006 \003(\0132\031.HomeScene" +
-      "ArrangementInfoB@\n\031emu.grasscutter.net.p" +
-      "rotoB#HomeGetArrangementInfoRspOuterClas" +
-      "sb\006proto3"
+      "ArrangementInfoB\033\n\031emu.grasscutter.net.p" +
+      "rotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

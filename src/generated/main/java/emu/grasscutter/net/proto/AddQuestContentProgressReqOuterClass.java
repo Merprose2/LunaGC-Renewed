@@ -37,6 +37,10 @@ public final class AddQuestContentProgressReqOuterClass {
     int getContentType();
   }
   /**
+   * <pre>
+   * CmdID: 7114
+   * </pre>
+   *
    * Protobuf type {@code AddQuestContentProgressReq}
    */
   public static final class AddQuestContentProgressReq extends
@@ -339,6 +343,10 @@ public final class AddQuestContentProgressReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 7114
+     * </pre>
+     *
      * Protobuf type {@code AddQuestContentProgressReq}
      */
     public static final class Builder extends
@@ -659,8 +667,7 @@ public final class AddQuestContentProgressReqOuterClass {
       "\n AddQuestContentProgressReq.proto\"W\n\032Ad" +
       "dQuestContentProgressReq\022\r\n\005param\030\t \001(\r\022" +
       "\024\n\014add_progress\030\r \001(\r\022\024\n\014content_type\030\017 " +
-      "\001(\rBA\n\031emu.grasscutter.net.protoB$AddQue" +
-      "stContentProgressReqOuterClassb\006proto3"
+      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

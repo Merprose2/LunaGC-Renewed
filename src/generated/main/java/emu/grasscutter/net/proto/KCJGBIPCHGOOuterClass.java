@@ -19,19 +19,19 @@ public final class KCJGBIPCHGOOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.AIOAIEIKFFD _bag_detail = 1;</code>
-     * @return Whether the bagDetail field is set.
+     * <code>.AIOAIEIKFFD KJHPACDMOPI = 1;</code>
+     * @return Whether the kJHPACDMOPI field is set.
      */
-    boolean hasBagDetail();
+    boolean hasKJHPACDMOPI();
     /**
-     * <code>.AIOAIEIKFFD _bag_detail = 1;</code>
-     * @return The bagDetail.
+     * <code>.AIOAIEIKFFD KJHPACDMOPI = 1;</code>
+     * @return The kJHPACDMOPI.
      */
-    emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD getBagDetail();
+    emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD getKJHPACDMOPI();
     /**
-     * <code>.AIOAIEIKFFD _bag_detail = 1;</code>
+     * <code>.AIOAIEIKFFD KJHPACDMOPI = 1;</code>
      */
-    emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFDOrBuilder getBagDetailOrBuilder();
+    emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFDOrBuilder getKJHPACDMOPIOrBuilder();
   }
   /**
    * Protobuf type {@code KCJGBIPCHGO}
@@ -80,13 +80,13 @@ public final class KCJGBIPCHGOOuterClass {
               break;
             case 10: {
               emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD.Builder subBuilder = null;
-              if (BagDetail_ != null) {
-                subBuilder = BagDetail_.toBuilder();
+              if (kJHPACDMOPI_ != null) {
+                subBuilder = kJHPACDMOPI_.toBuilder();
               }
-              BagDetail_ = input.readMessage(emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD.parser(), extensionRegistry);
+              kJHPACDMOPI_ = input.readMessage(emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom(BagDetail_);
-                BagDetail_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom(kJHPACDMOPI_);
+                kJHPACDMOPI_ = subBuilder.buildPartial();
               }
 
               break;
@@ -123,30 +123,30 @@ public final class KCJGBIPCHGOOuterClass {
               emu.grasscutter.net.proto.KCJGBIPCHGOOuterClass.KCJGBIPCHGO.class, emu.grasscutter.net.proto.KCJGBIPCHGOOuterClass.KCJGBIPCHGO.Builder.class);
     }
 
-    public static final int _BAG_DETAIL_FIELD_NUMBER = 1;
-    private emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD BagDetail_;
+    public static final int KJHPACDMOPI_FIELD_NUMBER = 1;
+    private emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD kJHPACDMOPI_;
     /**
-     * <code>.AIOAIEIKFFD _bag_detail = 1;</code>
-     * @return Whether the bagDetail field is set.
+     * <code>.AIOAIEIKFFD KJHPACDMOPI = 1;</code>
+     * @return Whether the kJHPACDMOPI field is set.
      */
     @java.lang.Override
-    public boolean hasBagDetail() {
-      return BagDetail_ != null;
+    public boolean hasKJHPACDMOPI() {
+      return kJHPACDMOPI_ != null;
     }
     /**
-     * <code>.AIOAIEIKFFD _bag_detail = 1;</code>
-     * @return The bagDetail.
+     * <code>.AIOAIEIKFFD KJHPACDMOPI = 1;</code>
+     * @return The kJHPACDMOPI.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD getBagDetail() {
-      return BagDetail_ == null ? emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD.getDefaultInstance() : BagDetail_;
+    public emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD getKJHPACDMOPI() {
+      return kJHPACDMOPI_ == null ? emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD.getDefaultInstance() : kJHPACDMOPI_;
     }
     /**
-     * <code>.AIOAIEIKFFD _bag_detail = 1;</code>
+     * <code>.AIOAIEIKFFD KJHPACDMOPI = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFDOrBuilder getBagDetailOrBuilder() {
-      return getBagDetail();
+    public emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFDOrBuilder getKJHPACDMOPIOrBuilder() {
+      return getKJHPACDMOPI();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -163,8 +163,8 @@ public final class KCJGBIPCHGOOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (BagDetail_ != null) {
-        output.writeMessage(1, getBagDetail());
+      if (kJHPACDMOPI_ != null) {
+        output.writeMessage(1, getKJHPACDMOPI());
       }
       unknownFields.writeTo(output);
     }
@@ -175,9 +175,9 @@ public final class KCJGBIPCHGOOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (BagDetail_ != null) {
+      if (kJHPACDMOPI_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getBagDetail());
+          .computeMessageSize(1, getKJHPACDMOPI());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -194,10 +194,10 @@ public final class KCJGBIPCHGOOuterClass {
       }
       emu.grasscutter.net.proto.KCJGBIPCHGOOuterClass.KCJGBIPCHGO other = (emu.grasscutter.net.proto.KCJGBIPCHGOOuterClass.KCJGBIPCHGO) obj;
 
-      if (hasBagDetail() != other.hasBagDetail()) return false;
-      if (hasBagDetail()) {
-        if (!getBagDetail()
-            .equals(other.getBagDetail())) return false;
+      if (hasKJHPACDMOPI() != other.hasKJHPACDMOPI()) return false;
+      if (hasKJHPACDMOPI()) {
+        if (!getKJHPACDMOPI()
+            .equals(other.getKJHPACDMOPI())) return false;
       }
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
@@ -210,9 +210,9 @@ public final class KCJGBIPCHGOOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (hasBagDetail()) {
-        hash = (37 * hash) + _BAG_DETAIL_FIELD_NUMBER;
-        hash = (53 * hash) + getBagDetail().hashCode();
+      if (hasKJHPACDMOPI()) {
+        hash = (37 * hash) + KJHPACDMOPI_FIELD_NUMBER;
+        hash = (53 * hash) + getKJHPACDMOPI().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -347,11 +347,11 @@ public final class KCJGBIPCHGOOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (BagDetailBuilder_ == null) {
-          BagDetail_ = null;
+        if (kJHPACDMOPIBuilder_ == null) {
+          kJHPACDMOPI_ = null;
         } else {
-          BagDetail_ = null;
-          BagDetailBuilder_ = null;
+          kJHPACDMOPI_ = null;
+          kJHPACDMOPIBuilder_ = null;
         }
         return this;
       }
@@ -379,10 +379,10 @@ public final class KCJGBIPCHGOOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.KCJGBIPCHGOOuterClass.KCJGBIPCHGO buildPartial() {
         emu.grasscutter.net.proto.KCJGBIPCHGOOuterClass.KCJGBIPCHGO result = new emu.grasscutter.net.proto.KCJGBIPCHGOOuterClass.KCJGBIPCHGO(this);
-        if (BagDetailBuilder_ == null) {
-          result.BagDetail_ = BagDetail_;
+        if (kJHPACDMOPIBuilder_ == null) {
+          result.kJHPACDMOPI_ = kJHPACDMOPI_;
         } else {
-          result.BagDetail_ = BagDetailBuilder_.build();
+          result.kJHPACDMOPI_ = kJHPACDMOPIBuilder_.build();
         }
         onBuilt();
         return result;
@@ -432,8 +432,8 @@ public final class KCJGBIPCHGOOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.KCJGBIPCHGOOuterClass.KCJGBIPCHGO other) {
         if (other == emu.grasscutter.net.proto.KCJGBIPCHGOOuterClass.KCJGBIPCHGO.getDefaultInstance()) return this;
-        if (other.hasBagDetail()) {
-          mergeBagDetail(other.getBagDetail());
+        if (other.hasKJHPACDMOPI()) {
+          mergeKJHPACDMOPI(other.getKJHPACDMOPI());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -464,123 +464,123 @@ public final class KCJGBIPCHGOOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD BagDetail_;
+      private emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD kJHPACDMOPI_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD, emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD.Builder, emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFDOrBuilder> BagDetailBuilder_;
+          emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD, emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD.Builder, emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFDOrBuilder> kJHPACDMOPIBuilder_;
       /**
-       * <code>.AIOAIEIKFFD _bag_detail = 1;</code>
-       * @return Whether the bagDetail field is set.
+       * <code>.AIOAIEIKFFD KJHPACDMOPI = 1;</code>
+       * @return Whether the kJHPACDMOPI field is set.
        */
-      public boolean hasBagDetail() {
-        return BagDetailBuilder_ != null || BagDetail_ != null;
+      public boolean hasKJHPACDMOPI() {
+        return kJHPACDMOPIBuilder_ != null || kJHPACDMOPI_ != null;
       }
       /**
-       * <code>.AIOAIEIKFFD _bag_detail = 1;</code>
-       * @return The bagDetail.
+       * <code>.AIOAIEIKFFD KJHPACDMOPI = 1;</code>
+       * @return The kJHPACDMOPI.
        */
-      public emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD getBagDetail() {
-        if (BagDetailBuilder_ == null) {
-          return BagDetail_ == null ? emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD.getDefaultInstance() : BagDetail_;
+      public emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD getKJHPACDMOPI() {
+        if (kJHPACDMOPIBuilder_ == null) {
+          return kJHPACDMOPI_ == null ? emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD.getDefaultInstance() : kJHPACDMOPI_;
         } else {
-          return BagDetailBuilder_.getMessage();
+          return kJHPACDMOPIBuilder_.getMessage();
         }
       }
       /**
-       * <code>.AIOAIEIKFFD _bag_detail = 1;</code>
+       * <code>.AIOAIEIKFFD KJHPACDMOPI = 1;</code>
        */
-      public Builder setBagDetail(emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD value) {
-        if (BagDetailBuilder_ == null) {
+      public Builder setKJHPACDMOPI(emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD value) {
+        if (kJHPACDMOPIBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          BagDetail_ = value;
+          kJHPACDMOPI_ = value;
           onChanged();
         } else {
-          BagDetailBuilder_.setMessage(value);
+          kJHPACDMOPIBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>.AIOAIEIKFFD _bag_detail = 1;</code>
+       * <code>.AIOAIEIKFFD KJHPACDMOPI = 1;</code>
        */
-      public Builder setBagDetail(
+      public Builder setKJHPACDMOPI(
           emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD.Builder builderForValue) {
-        if (BagDetailBuilder_ == null) {
-          BagDetail_ = builderForValue.build();
+        if (kJHPACDMOPIBuilder_ == null) {
+          kJHPACDMOPI_ = builderForValue.build();
           onChanged();
         } else {
-          BagDetailBuilder_.setMessage(builderForValue.build());
+          kJHPACDMOPIBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>.AIOAIEIKFFD _bag_detail = 1;</code>
+       * <code>.AIOAIEIKFFD KJHPACDMOPI = 1;</code>
        */
-      public Builder mergeBagDetail(emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD value) {
-        if (BagDetailBuilder_ == null) {
-          if (BagDetail_ != null) {
-            BagDetail_ =
-              emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD.newBuilder(BagDetail_).mergeFrom(value).buildPartial();
+      public Builder mergeKJHPACDMOPI(emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD value) {
+        if (kJHPACDMOPIBuilder_ == null) {
+          if (kJHPACDMOPI_ != null) {
+            kJHPACDMOPI_ =
+              emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD.newBuilder(kJHPACDMOPI_).mergeFrom(value).buildPartial();
           } else {
-            BagDetail_ = value;
+            kJHPACDMOPI_ = value;
           }
           onChanged();
         } else {
-          BagDetailBuilder_.mergeFrom(value);
+          kJHPACDMOPIBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>.AIOAIEIKFFD _bag_detail = 1;</code>
+       * <code>.AIOAIEIKFFD KJHPACDMOPI = 1;</code>
        */
-      public Builder clearBagDetail() {
-        if (BagDetailBuilder_ == null) {
-          BagDetail_ = null;
+      public Builder clearKJHPACDMOPI() {
+        if (kJHPACDMOPIBuilder_ == null) {
+          kJHPACDMOPI_ = null;
           onChanged();
         } else {
-          BagDetail_ = null;
-          BagDetailBuilder_ = null;
+          kJHPACDMOPI_ = null;
+          kJHPACDMOPIBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>.AIOAIEIKFFD _bag_detail = 1;</code>
+       * <code>.AIOAIEIKFFD KJHPACDMOPI = 1;</code>
        */
-      public emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD.Builder getBagDetailBuilder() {
+      public emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD.Builder getKJHPACDMOPIBuilder() {
         
         onChanged();
-        return getBagDetailFieldBuilder().getBuilder();
+        return getKJHPACDMOPIFieldBuilder().getBuilder();
       }
       /**
-       * <code>.AIOAIEIKFFD _bag_detail = 1;</code>
+       * <code>.AIOAIEIKFFD KJHPACDMOPI = 1;</code>
        */
-      public emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFDOrBuilder getBagDetailOrBuilder() {
-        if (BagDetailBuilder_ != null) {
-          return BagDetailBuilder_.getMessageOrBuilder();
+      public emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFDOrBuilder getKJHPACDMOPIOrBuilder() {
+        if (kJHPACDMOPIBuilder_ != null) {
+          return kJHPACDMOPIBuilder_.getMessageOrBuilder();
         } else {
-          return BagDetail_ == null ?
-              emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD.getDefaultInstance() : BagDetail_;
+          return kJHPACDMOPI_ == null ?
+              emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD.getDefaultInstance() : kJHPACDMOPI_;
         }
       }
       /**
-       * <code>.AIOAIEIKFFD _bag_detail = 1;</code>
+       * <code>.AIOAIEIKFFD KJHPACDMOPI = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD, emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD.Builder, emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFDOrBuilder> 
-          getBagDetailFieldBuilder() {
-        if (BagDetailBuilder_ == null) {
-          BagDetailBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+          getKJHPACDMOPIFieldBuilder() {
+        if (kJHPACDMOPIBuilder_ == null) {
+          kJHPACDMOPIBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD, emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFD.Builder, emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.AIOAIEIKFFDOrBuilder>(
-                  getBagDetail(),
+                  getKJHPACDMOPI(),
                   getParentForChildren(),
                   isClean());
-          BagDetail_ = null;
+          kJHPACDMOPI_ = null;
         }
-        return BagDetailBuilder_;
+        return kJHPACDMOPIBuilder_;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -650,9 +650,9 @@ public final class KCJGBIPCHGOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KCJGBIPCHGO.proto\032\021AIOAIEIKFFD.proto\"0" +
-      "\n\013KCJGBIPCHGO\022!\n\013_bag_detail\030\001 \001(\0132\014.AIO" +
-      "AIEIKFFDB2\n\031emu.grasscutter.net.protoB\025K" +
-      "CJGBIPCHGOOuterClassb\006proto3"
+      "\n\013KCJGBIPCHGO\022!\n\013KJHPACDMOPI\030\001 \001(\0132\014.AIO" +
+      "AIEIKFFDB\033\n\031emu.grasscutter.net.protob\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -664,7 +664,7 @@ public final class KCJGBIPCHGOOuterClass {
     internal_static_KCJGBIPCHGO_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_KCJGBIPCHGO_descriptor,
-        new java.lang.String[] { "BagDetail", });
+        new java.lang.String[] { "KJHPACDMOPI", });
     emu.grasscutter.net.proto.AIOAIEIKFFDOuterClass.getDescriptor();
   }
 

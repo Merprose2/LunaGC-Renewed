@@ -37,6 +37,10 @@ public final class GetScenePointReqOuterClass {
     int getSceneId();
   }
   /**
+   * <pre>
+   * CmdID: 26108
+   * </pre>
+   *
    * Protobuf type {@code GetScenePointReq}
    */
   public static final class GetScenePointReq extends
@@ -340,6 +344,10 @@ public final class GetScenePointReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 26108
+     * </pre>
+     *
      * Protobuf type {@code GetScenePointReq}
      */
     public static final class Builder extends
@@ -659,9 +667,8 @@ public final class GetScenePointReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026GetScenePointReq.proto\"L\n\020GetScenePoin" +
       "tReq\022\022\n\nis_relogin\030\t \001(\010\022\022\n\nbelong_uid\030\014" +
-      " \001(\r\022\020\n\010scene_id\030\r \001(\rB7\n\031emu.grasscutte" +
-      "r.net.protoB\032GetScenePointReqOuterClassb" +
-      "\006proto3"
+      " \001(\r\022\020\n\010scene_id\030\r \001(\rB\033\n\031emu.grasscutte" +
+      "r.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

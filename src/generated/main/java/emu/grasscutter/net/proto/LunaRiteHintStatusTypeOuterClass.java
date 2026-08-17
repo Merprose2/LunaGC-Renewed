@@ -20,32 +20,32 @@ public final class LunaRiteHintStatusTypeOuterClass {
   public enum LunaRiteHintStatusType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>LUNA_RITE_HINT_STATUS_DEFAULT = 0;</code>
+     * <code>LunaRiteHintStatusType_LUNA_RITE_HINT_STATUS_DEFAULT = 0;</code>
      */
-    LUNA_RITE_HINT_STATUS_DEFAULT(0),
+    LunaRiteHintStatusType_LUNA_RITE_HINT_STATUS_DEFAULT(0),
     /**
-     * <code>LUNA_RITE_HINT_STATUS_NO_COUNT = 1;</code>
+     * <code>LunaRiteHintStatusType_LUNA_RITE_HINT_STATUS_NO_COUNT = 1;</code>
      */
-    LUNA_RITE_HINT_STATUS_NO_COUNT(1),
+    LunaRiteHintStatusType_LUNA_RITE_HINT_STATUS_NO_COUNT(1),
     /**
-     * <code>LUNA_RITE_HINT_STATUS_FINISH = 2;</code>
+     * <code>LunaRiteHintStatusType_LUNA_RITE_HINT_STATUS_FINISH = 2;</code>
      */
-    LUNA_RITE_HINT_STATUS_FINISH(2),
+    LunaRiteHintStatusType_LUNA_RITE_HINT_STATUS_FINISH(2),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>LUNA_RITE_HINT_STATUS_DEFAULT = 0;</code>
+     * <code>LunaRiteHintStatusType_LUNA_RITE_HINT_STATUS_DEFAULT = 0;</code>
      */
-    public static final int LUNA_RITE_HINT_STATUS_DEFAULT_VALUE = 0;
+    public static final int LunaRiteHintStatusType_LUNA_RITE_HINT_STATUS_DEFAULT_VALUE = 0;
     /**
-     * <code>LUNA_RITE_HINT_STATUS_NO_COUNT = 1;</code>
+     * <code>LunaRiteHintStatusType_LUNA_RITE_HINT_STATUS_NO_COUNT = 1;</code>
      */
-    public static final int LUNA_RITE_HINT_STATUS_NO_COUNT_VALUE = 1;
+    public static final int LunaRiteHintStatusType_LUNA_RITE_HINT_STATUS_NO_COUNT_VALUE = 1;
     /**
-     * <code>LUNA_RITE_HINT_STATUS_FINISH = 2;</code>
+     * <code>LunaRiteHintStatusType_LUNA_RITE_HINT_STATUS_FINISH = 2;</code>
      */
-    public static final int LUNA_RITE_HINT_STATUS_FINISH_VALUE = 2;
+    public static final int LunaRiteHintStatusType_LUNA_RITE_HINT_STATUS_FINISH_VALUE = 2;
 
 
     public final int getNumber() {
@@ -72,9 +72,9 @@ public final class LunaRiteHintStatusTypeOuterClass {
      */
     public static LunaRiteHintStatusType forNumber(int value) {
       switch (value) {
-        case 0: return LUNA_RITE_HINT_STATUS_DEFAULT;
-        case 1: return LUNA_RITE_HINT_STATUS_NO_COUNT;
-        case 2: return LUNA_RITE_HINT_STATUS_FINISH;
+        case 0: return LunaRiteHintStatusType_LUNA_RITE_HINT_STATUS_DEFAULT;
+        case 1: return LunaRiteHintStatusType_LUNA_RITE_HINT_STATUS_NO_COUNT;
+        case 2: return LunaRiteHintStatusType_LUNA_RITE_HINT_STATUS_FINISH;
         default: return null;
       }
     }
@@ -140,12 +140,13 @@ public final class LunaRiteHintStatusTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\034LunaRiteHintStatusType.proto*\201\001\n\026LunaR" +
-      "iteHintStatusType\022!\n\035LUNA_RITE_HINT_STAT" +
-      "US_DEFAULT\020\000\022\"\n\036LUNA_RITE_HINT_STATUS_NO" +
-      "_COUNT\020\001\022 \n\034LUNA_RITE_HINT_STATUS_FINISH" +
-      "\020\002B=\n\031emu.grasscutter.net.protoB LunaRit" +
-      "eHintStatusTypeOuterClassb\006proto3"
+      "\n\034LunaRiteHintStatusType.proto*\306\001\n\026LunaR" +
+      "iteHintStatusType\0228\n4LunaRiteHintStatusT" +
+      "ype_LUNA_RITE_HINT_STATUS_DEFAULT\020\000\0229\n5L" +
+      "unaRiteHintStatusType_LUNA_RITE_HINT_STA" +
+      "TUS_NO_COUNT\020\001\0227\n3LunaRiteHintStatusType" +
+      "_LUNA_RITE_HINT_STATUS_FINISH\020\002B\033\n\031emu.g" +
+      "rasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

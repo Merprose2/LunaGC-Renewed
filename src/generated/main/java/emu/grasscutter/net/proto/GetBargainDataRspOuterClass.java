@@ -46,6 +46,10 @@ public final class GetBargainDataRspOuterClass {
     int getRetcode();
   }
   /**
+   * <pre>
+   * CmdID: 3576
+   * </pre>
+   *
    * Protobuf type {@code GetBargainDataRsp}
    */
   public static final class GetBargainDataRsp extends
@@ -376,6 +380,10 @@ public final class GetBargainDataRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 3576
+     * </pre>
+     *
      * Protobuf type {@code GetBargainDataRsp}
      */
     public static final class Builder extends
@@ -792,9 +800,8 @@ public final class GetBargainDataRspOuterClass {
       "\n\027GetBargainDataRsp.proto\032\025BargainSnapsh" +
       "ot.proto\"\\\n\021GetBargainDataRsp\022\022\n\nbargain" +
       "_id\030\004 \001(\r\022\"\n\010snapshot\030\014 \001(\0132\020.BargainSna" +
-      "pshot\022\017\n\007retcode\030\016 \001(\005B8\n\031emu.grasscutte" +
-      "r.net.protoB\033GetBargainDataRspOuterClass" +
-      "b\006proto3"
+      "pshot\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.grasscutte" +
+      "r.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

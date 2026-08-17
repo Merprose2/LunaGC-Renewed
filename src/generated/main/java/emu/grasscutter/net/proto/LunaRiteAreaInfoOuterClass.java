@@ -332,7 +332,7 @@ public final class LunaRiteAreaInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (hintStatus_ != emu.grasscutter.net.proto.LunaRiteHintStatusTypeOuterClass.LunaRiteHintStatusType.LUNA_RITE_HINT_STATUS_DEFAULT.getNumber()) {
+      if (hintStatus_ != emu.grasscutter.net.proto.LunaRiteHintStatusTypeOuterClass.LunaRiteHintStatusType.LunaRiteHintStatusType_LUNA_RITE_HINT_STATUS_DEFAULT.getNumber()) {
         output.writeEnum(7, hintStatus_);
       }
       if (getSacrificeListList().size() > 0) {
@@ -364,7 +364,7 @@ public final class LunaRiteAreaInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (hintStatus_ != emu.grasscutter.net.proto.LunaRiteHintStatusTypeOuterClass.LunaRiteHintStatusType.LUNA_RITE_HINT_STATUS_DEFAULT.getNumber()) {
+      if (hintStatus_ != emu.grasscutter.net.proto.LunaRiteHintStatusTypeOuterClass.LunaRiteHintStatusType.LunaRiteHintStatusType_LUNA_RITE_HINT_STATUS_DEFAULT.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(7, hintStatus_);
       }
@@ -1088,9 +1088,8 @@ public final class LunaRiteAreaInfoOuterClass {
       "int_status\030\007 \001(\0162\027.LunaRiteHintStatusTyp" +
       "e\022\026\n\016sacrifice_list\030\010 \003(\r\022\017\n\007area_id\030\014 \001" +
       "(\r\022\035\n\025sacrifice_reward_list\030\r \003(\r\022\027\n\017cha" +
-      "llenge_index\030\016 \001(\rB7\n\031emu.grasscutter.ne" +
-      "t.protoB\032LunaRiteAreaInfoOuterClassb\006pro" +
-      "to3"
+      "llenge_index\030\016 \001(\rB\033\n\031emu.grasscutter.ne" +
+      "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

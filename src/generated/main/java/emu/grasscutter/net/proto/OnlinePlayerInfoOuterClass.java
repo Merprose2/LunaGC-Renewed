@@ -207,21 +207,21 @@ public final class OnlinePlayerInfoOuterClass {
      * <code>._BeyondProfilePicture _beyond_profile_picture = 20;</code>
      * @return The beyondProfilePicture.
      */
-    emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture getBeyondProfilePicture();
+    emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture getBeyondProfilePicture();
     /**
      * <code>._BeyondProfilePicture _beyond_profile_picture = 20;</code>
      */
-    emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePictureOrBuilder getBeyondProfilePictureOrBuilder();
+    emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePictureOrBuilder getBeyondProfilePictureOrBuilder();
 
     /**
      * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
      */
-    java.util.List<emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag> 
+    java.util.List<emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag> 
         getBeyondProfileTagListList();
     /**
      * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
      */
-    emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag getBeyondProfileTagList(int index);
+    emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag getBeyondProfileTagList(int index);
     /**
      * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
      */
@@ -229,12 +229,12 @@ public final class OnlinePlayerInfoOuterClass {
     /**
      * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTagOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTagOrBuilder> 
         getBeyondProfileTagListOrBuilderList();
     /**
      * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
      */
-    emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTagOrBuilder getBeyondProfileTagListOrBuilder(
+    emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTagOrBuilder getBeyondProfileTagListOrBuilder(
         int index);
 
     /**
@@ -433,11 +433,11 @@ public final class OnlinePlayerInfoOuterClass {
               break;
             }
             case 162: {
-              emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture.Builder subBuilder = null;
+              emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture.Builder subBuilder = null;
               if (BeyondProfilePicture_ != null) {
                 subBuilder = BeyondProfilePicture_.toBuilder();
               }
-              BeyondProfilePicture_ = input.readMessage(emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture.parser(), extensionRegistry);
+              BeyondProfilePicture_ = input.readMessage(emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(BeyondProfilePicture_);
                 BeyondProfilePicture_ = subBuilder.buildPartial();
@@ -447,11 +447,11 @@ public final class OnlinePlayerInfoOuterClass {
             }
             case 170: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                BeyondProfileTagList_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag>();
+                BeyondProfileTagList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag>();
                 mutable_bitField0_ |= 0x00000002;
               }
               BeyondProfileTagList_.add(
-                  input.readMessage(emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.parser(), extensionRegistry));
               break;
             }
             case 176: {
@@ -922,7 +922,7 @@ public final class OnlinePlayerInfoOuterClass {
     }
 
     public static final int _BEYOND_PROFILE_PICTURE_FIELD_NUMBER = 20;
-    private emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture BeyondProfilePicture_;
+    private emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture BeyondProfilePicture_;
     /**
      * <code>._BeyondProfilePicture _beyond_profile_picture = 20;</code>
      * @return Whether the beyondProfilePicture field is set.
@@ -936,31 +936,31 @@ public final class OnlinePlayerInfoOuterClass {
      * @return The beyondProfilePicture.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture getBeyondProfilePicture() {
-      return BeyondProfilePicture_ == null ? emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture.getDefaultInstance() : BeyondProfilePicture_;
+    public emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture getBeyondProfilePicture() {
+      return BeyondProfilePicture_ == null ? emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture.getDefaultInstance() : BeyondProfilePicture_;
     }
     /**
      * <code>._BeyondProfilePicture _beyond_profile_picture = 20;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePictureOrBuilder getBeyondProfilePictureOrBuilder() {
+    public emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePictureOrBuilder getBeyondProfilePictureOrBuilder() {
       return getBeyondProfilePicture();
     }
 
     public static final int _BEYOND_PROFILE_TAG_LIST_FIELD_NUMBER = 21;
-    private java.util.List<emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag> BeyondProfileTagList_;
+    private java.util.List<emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag> BeyondProfileTagList_;
     /**
      * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag> getBeyondProfileTagListList() {
+    public java.util.List<emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag> getBeyondProfileTagListList() {
       return BeyondProfileTagList_;
     }
     /**
      * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTagOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTagOrBuilder> 
         getBeyondProfileTagListOrBuilderList() {
       return BeyondProfileTagList_;
     }
@@ -975,14 +975,14 @@ public final class OnlinePlayerInfoOuterClass {
      * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag getBeyondProfileTagList(int index) {
+    public emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag getBeyondProfileTagList(int index) {
       return BeyondProfileTagList_.get(index);
     }
     /**
      * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTagOrBuilder getBeyondProfileTagListOrBuilder(
+    public emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTagOrBuilder getBeyondProfileTagListOrBuilder(
         int index) {
       return BeyondProfileTagList_.get(index);
     }
@@ -2821,9 +2821,9 @@ public final class OnlinePlayerInfoOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture BeyondProfilePicture_;
+      private emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture BeyondProfilePicture_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture.Builder, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePictureOrBuilder> BeyondProfilePictureBuilder_;
+          emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture.Builder, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePictureOrBuilder> BeyondProfilePictureBuilder_;
       /**
        * <code>._BeyondProfilePicture _beyond_profile_picture = 20;</code>
        * @return Whether the beyondProfilePicture field is set.
@@ -2835,9 +2835,9 @@ public final class OnlinePlayerInfoOuterClass {
        * <code>._BeyondProfilePicture _beyond_profile_picture = 20;</code>
        * @return The beyondProfilePicture.
        */
-      public emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture getBeyondProfilePicture() {
+      public emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture getBeyondProfilePicture() {
         if (BeyondProfilePictureBuilder_ == null) {
-          return BeyondProfilePicture_ == null ? emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture.getDefaultInstance() : BeyondProfilePicture_;
+          return BeyondProfilePicture_ == null ? emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture.getDefaultInstance() : BeyondProfilePicture_;
         } else {
           return BeyondProfilePictureBuilder_.getMessage();
         }
@@ -2845,7 +2845,7 @@ public final class OnlinePlayerInfoOuterClass {
       /**
        * <code>._BeyondProfilePicture _beyond_profile_picture = 20;</code>
        */
-      public Builder setBeyondProfilePicture(emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture value) {
+      public Builder setBeyondProfilePicture(emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture value) {
         if (BeyondProfilePictureBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2862,7 +2862,7 @@ public final class OnlinePlayerInfoOuterClass {
        * <code>._BeyondProfilePicture _beyond_profile_picture = 20;</code>
        */
       public Builder setBeyondProfilePicture(
-          emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture.Builder builderForValue) {
+          emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture.Builder builderForValue) {
         if (BeyondProfilePictureBuilder_ == null) {
           BeyondProfilePicture_ = builderForValue.build();
           onChanged();
@@ -2875,11 +2875,11 @@ public final class OnlinePlayerInfoOuterClass {
       /**
        * <code>._BeyondProfilePicture _beyond_profile_picture = 20;</code>
        */
-      public Builder mergeBeyondProfilePicture(emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture value) {
+      public Builder mergeBeyondProfilePicture(emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture value) {
         if (BeyondProfilePictureBuilder_ == null) {
           if (BeyondProfilePicture_ != null) {
             BeyondProfilePicture_ =
-              emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture.newBuilder(BeyondProfilePicture_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture.newBuilder(BeyondProfilePicture_).mergeFrom(value).buildPartial();
           } else {
             BeyondProfilePicture_ = value;
           }
@@ -2907,7 +2907,7 @@ public final class OnlinePlayerInfoOuterClass {
       /**
        * <code>._BeyondProfilePicture _beyond_profile_picture = 20;</code>
        */
-      public emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture.Builder getBeyondProfilePictureBuilder() {
+      public emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture.Builder getBeyondProfilePictureBuilder() {
         
         onChanged();
         return getBeyondProfilePictureFieldBuilder().getBuilder();
@@ -2915,23 +2915,23 @@ public final class OnlinePlayerInfoOuterClass {
       /**
        * <code>._BeyondProfilePicture _beyond_profile_picture = 20;</code>
        */
-      public emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePictureOrBuilder getBeyondProfilePictureOrBuilder() {
+      public emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePictureOrBuilder getBeyondProfilePictureOrBuilder() {
         if (BeyondProfilePictureBuilder_ != null) {
           return BeyondProfilePictureBuilder_.getMessageOrBuilder();
         } else {
           return BeyondProfilePicture_ == null ?
-              emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture.getDefaultInstance() : BeyondProfilePicture_;
+              emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture.getDefaultInstance() : BeyondProfilePicture_;
         }
       }
       /**
        * <code>._BeyondProfilePicture _beyond_profile_picture = 20;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture.Builder, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePictureOrBuilder> 
+          emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture.Builder, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePictureOrBuilder> 
           getBeyondProfilePictureFieldBuilder() {
         if (BeyondProfilePictureBuilder_ == null) {
           BeyondProfilePictureBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePicture.Builder, emu.grasscutter.net.proto._BeyondProfilePictureOuterClass._BeyondProfilePictureOrBuilder>(
+              emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePicture.Builder, emu.grasscutter.net.proto.BeyondProfilePicture._BeyondProfilePictureOrBuilder>(
                   getBeyondProfilePicture(),
                   getParentForChildren(),
                   isClean());
@@ -2940,22 +2940,22 @@ public final class OnlinePlayerInfoOuterClass {
         return BeyondProfilePictureBuilder_;
       }
 
-      private java.util.List<emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag> BeyondProfileTagList_ =
+      private java.util.List<emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag> BeyondProfileTagList_ =
         java.util.Collections.emptyList();
       private void ensureBeyondProfileTagListIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          BeyondProfileTagList_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag>(BeyondProfileTagList_);
+          BeyondProfileTagList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag>(BeyondProfileTagList_);
           bitField0_ |= 0x00000002;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag, emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.Builder, emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTagOrBuilder> BeyondProfileTagListBuilder_;
+          emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag, emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.Builder, emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTagOrBuilder> BeyondProfileTagListBuilder_;
 
       /**
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag> getBeyondProfileTagListList() {
+      public java.util.List<emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag> getBeyondProfileTagListList() {
         if (BeyondProfileTagListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(BeyondProfileTagList_);
         } else {
@@ -2975,7 +2975,7 @@ public final class OnlinePlayerInfoOuterClass {
       /**
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
        */
-      public emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag getBeyondProfileTagList(int index) {
+      public emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag getBeyondProfileTagList(int index) {
         if (BeyondProfileTagListBuilder_ == null) {
           return BeyondProfileTagList_.get(index);
         } else {
@@ -2986,7 +2986,7 @@ public final class OnlinePlayerInfoOuterClass {
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
        */
       public Builder setBeyondProfileTagList(
-          int index, emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag value) {
+          int index, emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag value) {
         if (BeyondProfileTagListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3003,7 +3003,7 @@ public final class OnlinePlayerInfoOuterClass {
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
        */
       public Builder setBeyondProfileTagList(
-          int index, emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.Builder builderForValue) {
         if (BeyondProfileTagListBuilder_ == null) {
           ensureBeyondProfileTagListIsMutable();
           BeyondProfileTagList_.set(index, builderForValue.build());
@@ -3016,7 +3016,7 @@ public final class OnlinePlayerInfoOuterClass {
       /**
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
        */
-      public Builder addBeyondProfileTagList(emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag value) {
+      public Builder addBeyondProfileTagList(emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag value) {
         if (BeyondProfileTagListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3033,7 +3033,7 @@ public final class OnlinePlayerInfoOuterClass {
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
        */
       public Builder addBeyondProfileTagList(
-          int index, emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag value) {
+          int index, emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag value) {
         if (BeyondProfileTagListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3050,7 +3050,7 @@ public final class OnlinePlayerInfoOuterClass {
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
        */
       public Builder addBeyondProfileTagList(
-          emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.Builder builderForValue) {
+          emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.Builder builderForValue) {
         if (BeyondProfileTagListBuilder_ == null) {
           ensureBeyondProfileTagListIsMutable();
           BeyondProfileTagList_.add(builderForValue.build());
@@ -3064,7 +3064,7 @@ public final class OnlinePlayerInfoOuterClass {
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
        */
       public Builder addBeyondProfileTagList(
-          int index, emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.Builder builderForValue) {
         if (BeyondProfileTagListBuilder_ == null) {
           ensureBeyondProfileTagListIsMutable();
           BeyondProfileTagList_.add(index, builderForValue.build());
@@ -3078,7 +3078,7 @@ public final class OnlinePlayerInfoOuterClass {
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
        */
       public Builder addAllBeyondProfileTagList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag> values) {
         if (BeyondProfileTagListBuilder_ == null) {
           ensureBeyondProfileTagListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -3118,14 +3118,14 @@ public final class OnlinePlayerInfoOuterClass {
       /**
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
        */
-      public emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.Builder getBeyondProfileTagListBuilder(
+      public emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.Builder getBeyondProfileTagListBuilder(
           int index) {
         return getBeyondProfileTagListFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
        */
-      public emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTagOrBuilder getBeyondProfileTagListOrBuilder(
+      public emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTagOrBuilder getBeyondProfileTagListOrBuilder(
           int index) {
         if (BeyondProfileTagListBuilder_ == null) {
           return BeyondProfileTagList_.get(index);  } else {
@@ -3135,7 +3135,7 @@ public final class OnlinePlayerInfoOuterClass {
       /**
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTagOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTagOrBuilder> 
            getBeyondProfileTagListOrBuilderList() {
         if (BeyondProfileTagListBuilder_ != null) {
           return BeyondProfileTagListBuilder_.getMessageOrBuilderList();
@@ -3146,31 +3146,31 @@ public final class OnlinePlayerInfoOuterClass {
       /**
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
        */
-      public emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.Builder addBeyondProfileTagListBuilder() {
+      public emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.Builder addBeyondProfileTagListBuilder() {
         return getBeyondProfileTagListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.getDefaultInstance());
+            emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.getDefaultInstance());
       }
       /**
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
        */
-      public emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.Builder addBeyondProfileTagListBuilder(
+      public emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.Builder addBeyondProfileTagListBuilder(
           int index) {
         return getBeyondProfileTagListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.getDefaultInstance());
+            index, emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.getDefaultInstance());
       }
       /**
        * <code>repeated ._BeyondProfileTag _beyond_profile_tag_list = 21;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.Builder> 
            getBeyondProfileTagListBuilderList() {
         return getBeyondProfileTagListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag, emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.Builder, emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTagOrBuilder> 
+          emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag, emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.Builder, emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTagOrBuilder> 
           getBeyondProfileTagListFieldBuilder() {
         if (BeyondProfileTagListBuilder_ == null) {
           BeyondProfileTagListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag, emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTag.Builder, emu.grasscutter.net.proto._BeyondProfileTagOuterClass._BeyondProfileTagOrBuilder>(
+              emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag, emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTag.Builder, emu.grasscutter.net.proto.BeyondProfileTag._BeyondProfileTagOrBuilder>(
                   BeyondProfileTagList_,
                   ((bitField0_ & 0x00000002) != 0),
                   getParentForChildren(),
@@ -3327,8 +3327,8 @@ public final class OnlinePlayerInfoOuterClass {
       "re\030\024 \001(\0132\026._BeyondProfilePicture\0224\n\030_bey" +
       "ond_profile_tag_list\030\025 \003(\0132\022._BeyondProf" +
       "ileTag\022\023\n\013OCKNBKMKBKH\030\026 \001(\r\022\023\n\013AOGHDBHOG" +
-      "II\030\027 \001(\rB7\n\031emu.grasscutter.net.protoB\032O" +
-      "nlinePlayerInfoOuterClassb\006proto3"
+      "II\030\027 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -3336,8 +3336,8 @@ public final class OnlinePlayerInfoOuterClass {
           emu.grasscutter.net.proto.MpSettingTypeOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.PlatformTypeOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.ProfilePictureOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto._BeyondProfilePictureOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto._BeyondProfileTagOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.BeyondProfilePicture.getDescriptor(),
+          emu.grasscutter.net.proto.BeyondProfileTag.getDescriptor(),
         });
     internal_static_OnlinePlayerInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -3348,8 +3348,8 @@ public final class OnlinePlayerInfoOuterClass {
     emu.grasscutter.net.proto.MpSettingTypeOuterClass.getDescriptor();
     emu.grasscutter.net.proto.PlatformTypeOuterClass.getDescriptor();
     emu.grasscutter.net.proto.ProfilePictureOuterClass.getDescriptor();
-    emu.grasscutter.net.proto._BeyondProfilePictureOuterClass.getDescriptor();
-    emu.grasscutter.net.proto._BeyondProfileTagOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.BeyondProfilePicture.getDescriptor();
+    emu.grasscutter.net.proto.BeyondProfileTag.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

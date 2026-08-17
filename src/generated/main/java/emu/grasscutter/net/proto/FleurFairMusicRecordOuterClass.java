@@ -659,9 +659,8 @@ public final class FleurFairMusicRecordOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032FleurFairMusicRecord.proto\"O\n\024FleurFai" +
       "rMusicRecord\022\021\n\tmax_score\030\001 \001(\r\022\021\n\tmax_c" +
-      "ombo\030\005 \001(\r\022\021\n\tis_unlock\030\014 \001(\010B;\n\031emu.gra" +
-      "sscutter.net.protoB\036FleurFairMusicRecord" +
-      "OuterClassb\006proto3"
+      "ombo\030\005 \001(\r\022\021\n\tis_unlock\030\014 \001(\010B\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

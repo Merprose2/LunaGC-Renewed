@@ -730,8 +730,8 @@ public final class ChallengeBriefOuterClass {
       "\n\024ChallengeBrief.proto\"i\n\016ChallengeBrief" +
       "\022\027\n\017challenge_index\030\001 \001(\r\022\024\n\014challenge_i" +
       "d\030\t \001(\r\022\022\n\nis_success\030\n \001(\010\022\024\n\014cur_progr" +
-      "ess\030\014 \001(\rB5\n\031emu.grasscutter.net.protoB\030" +
-      "ChallengeBriefOuterClassb\006proto3"
+      "ess\030\014 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

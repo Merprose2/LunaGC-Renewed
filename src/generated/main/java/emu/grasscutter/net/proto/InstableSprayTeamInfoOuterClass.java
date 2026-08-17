@@ -824,9 +824,8 @@ public final class InstableSprayTeamInfoOuterClass {
       "\n\033InstableSprayTeamInfo.proto\032\035InstableS" +
       "prayAvatarInfo.proto\"K\n\025InstableSprayTea" +
       "mInfo\0222\n\020avatar_info_list\030\013 \003(\0132\030.Instab" +
-      "leSprayAvatarInfoB<\n\031emu.grasscutter.net" +
-      ".protoB\037InstableSprayTeamInfoOuterClassb" +
-      "\006proto3"
+      "leSprayAvatarInfoB\033\n\031emu.grasscutter.net" +
+      ".protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

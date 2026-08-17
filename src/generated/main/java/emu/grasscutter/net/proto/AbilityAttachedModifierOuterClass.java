@@ -839,9 +839,8 @@ public final class AbilityAttachedModifierOuterClass {
       "\n\nis_invalid\030\001 \001(\010\022\027\n\017owner_entity_id\030\002 " +
       "\001(\r\022\035\n\025instanced_modifier_id\030\003 \001(\r\022\030\n\020at" +
       "tach_name_hash\030\005 \001(\005\022!\n\013FPDAONBEBHK\030\006 \001(" +
-      "\0162\014.LJGEHMILKEMB>\n\031emu.grasscutter.net.p" +
-      "rotoB!AbilityAttachedModifierOuterClassb" +
-      "\006proto3"
+      "\0162\014.LJGEHMILKEMB\033\n\031emu.grasscutter.net.p" +
+      "rotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

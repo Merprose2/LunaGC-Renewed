@@ -587,9 +587,8 @@ public final class MHJHCJJGOADOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MHJHCJJGOAD.proto\"4\n\013MHJHCJJGOAD\022\020\n\010pr" +
-      "ogress\030\n \001(\r\022\023\n\013POBNCEDDLGD\030\017 \001(\rB2\n\031emu" +
-      ".grasscutter.net.protoB\025MHJHCJJGOADOuter" +
-      "Classb\006proto3"
+      "ogress\030\n \001(\r\022\023\n\013POBNCEDDLGD\030\017 \001(\rB\033\n\031emu" +
+      ".grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

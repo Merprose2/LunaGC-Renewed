@@ -40,6 +40,10 @@ public final class SetPlayerBirthdayRspOuterClass {
     int getRetcode();
   }
   /**
+   * <pre>
+   * CmdID: 25093
+   * </pre>
+   *
    * Protobuf type {@code SetPlayerBirthdayRsp}
    */
   public static final class SetPlayerBirthdayRsp extends
@@ -343,6 +347,10 @@ public final class SetPlayerBirthdayRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 25093
+     * </pre>
+     *
      * Protobuf type {@code SetPlayerBirthdayRsp}
      */
     public static final class Builder extends
@@ -721,9 +729,8 @@ public final class SetPlayerBirthdayRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032SetPlayerBirthdayRsp.proto\032\016Birthday.p" +
       "roto\"D\n\024SetPlayerBirthdayRsp\022\033\n\010birthday" +
-      "\030\005 \001(\0132\t.Birthday\022\017\n\007retcode\030\007 \001(\005B;\n\031em" +
-      "u.grasscutter.net.protoB\036SetPlayerBirthd" +
-      "ayRspOuterClassb\006proto3"
+      "\030\005 \001(\0132\t.Birthday\022\017\n\007retcode\030\007 \001(\005B\033\n\031em" +
+      "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

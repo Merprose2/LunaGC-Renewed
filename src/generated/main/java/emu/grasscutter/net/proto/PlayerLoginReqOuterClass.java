@@ -133,10 +133,10 @@ public final class PlayerLoginReqOuterClass {
         getDeviceInfoBytes();
 
     /**
-     * <code>uint32 account_type = 13;</code>
-     * @return The accountType.
+     * <code>uint32 INIKCPKAFJE = 13;</code>
+     * @return The iNIKCPKAFJE.
      */
-    int getAccountType();
+    int getINIKCPKAFJE();
 
     /**
      * <code>string account_uid = 14;</code>
@@ -163,16 +163,16 @@ public final class PlayerLoginReqOuterClass {
     int getNBFMNCMEHGM();
 
     /**
-     * <code>string cps = 125;</code>
-     * @return The cps.
+     * <code>string NEBJEJBGEPD = 125;</code>
+     * @return The nEBJEJBGEPD.
      */
-    java.lang.String getCps();
+    java.lang.String getNEBJEJBGEPD();
     /**
-     * <code>string cps = 125;</code>
-     * @return The bytes for cps.
+     * <code>string NEBJEJBGEPD = 125;</code>
+     * @return The bytes for nEBJEJBGEPD.
      */
     com.google.protobuf.ByteString
-        getCpsBytes();
+        getNEBJEJBGEPDBytes();
 
     /**
      * <code>.ALFKEHMLFLO DFNBAFNKCED = 128;</code>
@@ -198,11 +198,11 @@ public final class PlayerLoginReqOuterClass {
      * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
      * @return The iHMDHCDBHDJ.
      */
-    emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int getIHMDHCDBHDJ();
+    emu.grasscutter.net.proto.Vector2Int._Vector2Int getIHMDHCDBHDJ();
     /**
      * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
      */
-    emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder getIHMDHCDBHDJOrBuilder();
+    emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder getIHMDHCDBHDJOrBuilder();
 
     /**
      * <code>bool CEADLMGKJMP = 154;</code>
@@ -259,10 +259,10 @@ public final class PlayerLoginReqOuterClass {
     int getTimestamp();
 
     /**
-     * <code>uint32 reg_platform = 499;</code>
-     * @return The regPlatform.
+     * <code>uint32 JOJKNGHGACF = 499;</code>
+     * @return The jOJKNGHGACF.
      */
-    int getRegPlatform();
+    int getJOJKNGHGACF();
 
     /**
      * <code>bool CGMBIAPFHGE = 516;</code>
@@ -283,10 +283,10 @@ public final class PlayerLoginReqOuterClass {
         getOnlineIdBytes();
 
     /**
-     * <code>uint32 gm_uid = 669;</code>
-     * @return The gmUid.
+     * <code>uint32 OJMCPPOBAOJ = 669;</code>
+     * @return The oJMCPPOBAOJ.
      */
-    int getGmUid();
+    int getOJMCPPOBAOJ();
 
     /**
      * <code>string security_library_md5 = 670;</code>
@@ -334,10 +334,10 @@ public final class PlayerLoginReqOuterClass {
         getECJHHHKAFIOBytes();
 
     /**
-     * <code>uint32 sub_channel_id = 844;</code>
-     * @return The subChannelId.
+     * <code>uint32 GLDDHPBGNAD = 844;</code>
+     * @return The gLDDHPBGNAD.
      */
-    int getSubChannelId();
+    int getGLDDHPBGNAD();
 
     /**
      * <code>bytes security_cmd_reply = 894;</code>
@@ -352,10 +352,10 @@ public final class PlayerLoginReqOuterClass {
     com.google.protobuf.ByteString getExtraBinData();
 
     /**
-     * <code>uint32 cloud_client_ip = 956;</code>
-     * @return The cloudClientIp.
+     * <code>uint32 HJICNGJMCEL = 956;</code>
+     * @return The hJICNGJMCEL.
      */
-    int getCloudClientIp();
+    int getHJICNGJMCEL();
 
     /**
      * <code>string _xbox_gamertag = 1033;</code>
@@ -424,16 +424,16 @@ public final class PlayerLoginReqOuterClass {
     boolean getLFABPIKDHKL();
 
     /**
-     * <code>string OMBBHFFLNIM = 1174;</code>
-     * @return The oMBBHFFLNIM.
+     * <code>string _uapc = 1174;</code>
+     * @return The uapc.
      */
-    java.lang.String getOMBBHFFLNIM();
+    java.lang.String getUapc();
     /**
-     * <code>string OMBBHFFLNIM = 1174;</code>
-     * @return The bytes for oMBBHFFLNIM.
+     * <code>string _uapc = 1174;</code>
+     * @return The bytes for uapc.
      */
     com.google.protobuf.ByteString
-        getOMBBHFFLNIMBytes();
+        getUapcBytes();
 
     /**
      * <code>uint32 HENDBLEDPIG = 1237;</code>
@@ -496,16 +496,16 @@ public final class PlayerLoginReqOuterClass {
         getPDDPLNEPLJJBytes();
 
     /**
-     * <code>string client_verison_hash = 1747;</code>
-     * @return The clientVerisonHash.
+     * <code>string EHINEAJNAFK = 1747;</code>
+     * @return The eHINEAJNAFK.
      */
-    java.lang.String getClientVerisonHash();
+    java.lang.String getEHINEAJNAFK();
     /**
-     * <code>string client_verison_hash = 1747;</code>
-     * @return The bytes for clientVerisonHash.
+     * <code>string EHINEAJNAFK = 1747;</code>
+     * @return The bytes for eHINEAJNAFK.
      */
     com.google.protobuf.ByteString
-        getClientVerisonHashBytes();
+        getEHINEAJNAFKBytes();
 
     /**
      * <code>bytes environment_error_code = 1989;</code>
@@ -514,6 +514,10 @@ public final class PlayerLoginReqOuterClass {
     com.google.protobuf.ByteString getEnvironmentErrorCode();
   }
   /**
+   * <pre>
+   * CmdID: 26573
+   * </pre>
+   *
    * Protobuf type {@code PlayerLoginReq}
    */
   public static final class PlayerLoginReq extends
@@ -534,7 +538,7 @@ public final class PlayerLoginReqOuterClass {
       deviceName_ = "";
       deviceInfo_ = "";
       accountUid_ = "";
-      cps_ = "";
+      nEBJEJBGEPD_ = "";
       Xuid_ = "";
       checksum_ = "";
       psnId_ = "";
@@ -547,11 +551,11 @@ public final class PlayerLoginReqOuterClass {
       countryCode_ = "";
       birthday_ = "";
       checksumClientVersion_ = "";
-      oMBBHFFLNIM_ = "";
+      Uapc_ = "";
       pMBCMNHEGHO_ = "";
       bKIICHHOJAF_ = "";
       pDDPLNEPLJJ_ = "";
-      clientVerisonHash_ = "";
+      eHINEAJNAFK_ = "";
       environmentErrorCode_ = com.google.protobuf.ByteString.EMPTY;
     }
 
@@ -654,7 +658,7 @@ public final class PlayerLoginReqOuterClass {
             }
             case 104: {
 
-              accountType_ = input.readUInt32();
+              iNIKCPKAFJE_ = input.readUInt32();
               break;
             }
             case 114: {
@@ -676,7 +680,7 @@ public final class PlayerLoginReqOuterClass {
             case 1002: {
               java.lang.String s = input.readStringRequireUtf8();
 
-              cps_ = s;
+              nEBJEJBGEPD_ = s;
               break;
             }
             case 1026: {
@@ -693,11 +697,11 @@ public final class PlayerLoginReqOuterClass {
               break;
             }
             case 1098: {
-              emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder subBuilder = null;
+              emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder subBuilder = null;
               if (iHMDHCDBHDJ_ != null) {
                 subBuilder = iHMDHCDBHDJ_.toBuilder();
               }
-              iHMDHCDBHDJ_ = input.readMessage(emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.parser(), extensionRegistry);
+              iHMDHCDBHDJ_ = input.readMessage(emu.grasscutter.net.proto.Vector2Int._Vector2Int.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(iHMDHCDBHDJ_);
                 iHMDHCDBHDJ_ = subBuilder.buildPartial();
@@ -740,7 +744,7 @@ public final class PlayerLoginReqOuterClass {
             }
             case 3992: {
 
-              regPlatform_ = input.readUInt32();
+              jOJKNGHGACF_ = input.readUInt32();
               break;
             }
             case 4128: {
@@ -756,7 +760,7 @@ public final class PlayerLoginReqOuterClass {
             }
             case 5352: {
 
-              gmUid_ = input.readUInt32();
+              oJMCPPOBAOJ_ = input.readUInt32();
               break;
             }
             case 5362: {
@@ -791,7 +795,7 @@ public final class PlayerLoginReqOuterClass {
             }
             case 6752: {
 
-              subChannelId_ = input.readUInt32();
+              gLDDHPBGNAD_ = input.readUInt32();
               break;
             }
             case 7154: {
@@ -806,7 +810,7 @@ public final class PlayerLoginReqOuterClass {
             }
             case 7648: {
 
-              cloudClientIp_ = input.readUInt32();
+              hJICNGJMCEL_ = input.readUInt32();
               break;
             }
             case 8266: {
@@ -851,7 +855,7 @@ public final class PlayerLoginReqOuterClass {
             case 9394: {
               java.lang.String s = input.readStringRequireUtf8();
 
-              oMBBHFFLNIM_ = s;
+              Uapc_ = s;
               break;
             }
             case 9896: {
@@ -895,7 +899,7 @@ public final class PlayerLoginReqOuterClass {
             case 13978: {
               java.lang.String s = input.readStringRequireUtf8();
 
-              clientVerisonHash_ = s;
+              eHINEAJNAFK_ = s;
               break;
             }
             case 15914: {
@@ -1256,15 +1260,15 @@ public final class PlayerLoginReqOuterClass {
       }
     }
 
-    public static final int ACCOUNT_TYPE_FIELD_NUMBER = 13;
-    private int accountType_;
+    public static final int INIKCPKAFJE_FIELD_NUMBER = 13;
+    private int iNIKCPKAFJE_;
     /**
-     * <code>uint32 account_type = 13;</code>
-     * @return The accountType.
+     * <code>uint32 INIKCPKAFJE = 13;</code>
+     * @return The iNIKCPKAFJE.
      */
     @java.lang.Override
-    public int getAccountType() {
-      return accountType_;
+    public int getINIKCPKAFJE() {
+      return iNIKCPKAFJE_;
     }
 
     public static final int ACCOUNT_UID_FIELD_NUMBER = 14;
@@ -1327,38 +1331,38 @@ public final class PlayerLoginReqOuterClass {
       return nBFMNCMEHGM_;
     }
 
-    public static final int CPS_FIELD_NUMBER = 125;
-    private volatile java.lang.Object cps_;
+    public static final int NEBJEJBGEPD_FIELD_NUMBER = 125;
+    private volatile java.lang.Object nEBJEJBGEPD_;
     /**
-     * <code>string cps = 125;</code>
-     * @return The cps.
+     * <code>string NEBJEJBGEPD = 125;</code>
+     * @return The nEBJEJBGEPD.
      */
     @java.lang.Override
-    public java.lang.String getCps() {
-      java.lang.Object ref = cps_;
+    public java.lang.String getNEBJEJBGEPD() {
+      java.lang.Object ref = nEBJEJBGEPD_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        cps_ = s;
+        nEBJEJBGEPD_ = s;
         return s;
       }
     }
     /**
-     * <code>string cps = 125;</code>
-     * @return The bytes for cps.
+     * <code>string NEBJEJBGEPD = 125;</code>
+     * @return The bytes for nEBJEJBGEPD.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getCpsBytes() {
-      java.lang.Object ref = cps_;
+        getNEBJEJBGEPDBytes() {
+      java.lang.Object ref = nEBJEJBGEPD_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        cps_ = b;
+        nEBJEJBGEPD_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
@@ -1392,7 +1396,7 @@ public final class PlayerLoginReqOuterClass {
     }
 
     public static final int IHMDHCDBHDJ_FIELD_NUMBER = 137;
-    private emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int iHMDHCDBHDJ_;
+    private emu.grasscutter.net.proto.Vector2Int._Vector2Int iHMDHCDBHDJ_;
     /**
      * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
      * @return Whether the iHMDHCDBHDJ field is set.
@@ -1406,14 +1410,14 @@ public final class PlayerLoginReqOuterClass {
      * @return The iHMDHCDBHDJ.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int getIHMDHCDBHDJ() {
-      return iHMDHCDBHDJ_ == null ? emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.getDefaultInstance() : iHMDHCDBHDJ_;
+    public emu.grasscutter.net.proto.Vector2Int._Vector2Int getIHMDHCDBHDJ() {
+      return iHMDHCDBHDJ_ == null ? emu.grasscutter.net.proto.Vector2Int._Vector2Int.getDefaultInstance() : iHMDHCDBHDJ_;
     }
     /**
      * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder getIHMDHCDBHDJOrBuilder() {
+    public emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder getIHMDHCDBHDJOrBuilder() {
       return getIHMDHCDBHDJ();
     }
 
@@ -1564,15 +1568,15 @@ public final class PlayerLoginReqOuterClass {
       return timestamp_;
     }
 
-    public static final int REG_PLATFORM_FIELD_NUMBER = 499;
-    private int regPlatform_;
+    public static final int JOJKNGHGACF_FIELD_NUMBER = 499;
+    private int jOJKNGHGACF_;
     /**
-     * <code>uint32 reg_platform = 499;</code>
-     * @return The regPlatform.
+     * <code>uint32 JOJKNGHGACF = 499;</code>
+     * @return The jOJKNGHGACF.
      */
     @java.lang.Override
-    public int getRegPlatform() {
-      return regPlatform_;
+    public int getJOJKNGHGACF() {
+      return jOJKNGHGACF_;
     }
 
     public static final int CGMBIAPFHGE_FIELD_NUMBER = 516;
@@ -1624,15 +1628,15 @@ public final class PlayerLoginReqOuterClass {
       }
     }
 
-    public static final int GM_UID_FIELD_NUMBER = 669;
-    private int gmUid_;
+    public static final int OJMCPPOBAOJ_FIELD_NUMBER = 669;
+    private int oJMCPPOBAOJ_;
     /**
-     * <code>uint32 gm_uid = 669;</code>
-     * @return The gmUid.
+     * <code>uint32 OJMCPPOBAOJ = 669;</code>
+     * @return The oJMCPPOBAOJ.
      */
     @java.lang.Override
-    public int getGmUid() {
-      return gmUid_;
+    public int getOJMCPPOBAOJ() {
+      return oJMCPPOBAOJ_;
     }
 
     public static final int SECURITY_LIBRARY_MD5_FIELD_NUMBER = 670;
@@ -1748,15 +1752,15 @@ public final class PlayerLoginReqOuterClass {
       }
     }
 
-    public static final int SUB_CHANNEL_ID_FIELD_NUMBER = 844;
-    private int subChannelId_;
+    public static final int GLDDHPBGNAD_FIELD_NUMBER = 844;
+    private int gLDDHPBGNAD_;
     /**
-     * <code>uint32 sub_channel_id = 844;</code>
-     * @return The subChannelId.
+     * <code>uint32 GLDDHPBGNAD = 844;</code>
+     * @return The gLDDHPBGNAD.
      */
     @java.lang.Override
-    public int getSubChannelId() {
-      return subChannelId_;
+    public int getGLDDHPBGNAD() {
+      return gLDDHPBGNAD_;
     }
 
     public static final int SECURITY_CMD_REPLY_FIELD_NUMBER = 894;
@@ -1781,15 +1785,15 @@ public final class PlayerLoginReqOuterClass {
       return extraBinData_;
     }
 
-    public static final int CLOUD_CLIENT_IP_FIELD_NUMBER = 956;
-    private int cloudClientIp_;
+    public static final int HJICNGJMCEL_FIELD_NUMBER = 956;
+    private int hJICNGJMCEL_;
     /**
-     * <code>uint32 cloud_client_ip = 956;</code>
-     * @return The cloudClientIp.
+     * <code>uint32 HJICNGJMCEL = 956;</code>
+     * @return The hJICNGJMCEL.
      */
     @java.lang.Override
-    public int getCloudClientIp() {
-      return cloudClientIp_;
+    public int getHJICNGJMCEL() {
+      return hJICNGJMCEL_;
     }
 
     public static final int _XBOX_GAMERTAG_FIELD_NUMBER = 1033;
@@ -1977,38 +1981,38 @@ public final class PlayerLoginReqOuterClass {
       return lFABPIKDHKL_;
     }
 
-    public static final int OMBBHFFLNIM_FIELD_NUMBER = 1174;
-    private volatile java.lang.Object oMBBHFFLNIM_;
+    public static final int _UAPC_FIELD_NUMBER = 1174;
+    private volatile java.lang.Object Uapc_;
     /**
-     * <code>string OMBBHFFLNIM = 1174;</code>
-     * @return The oMBBHFFLNIM.
+     * <code>string _uapc = 1174;</code>
+     * @return The uapc.
      */
     @java.lang.Override
-    public java.lang.String getOMBBHFFLNIM() {
-      java.lang.Object ref = oMBBHFFLNIM_;
+    public java.lang.String getUapc() {
+      java.lang.Object ref = Uapc_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        oMBBHFFLNIM_ = s;
+        Uapc_ = s;
         return s;
       }
     }
     /**
-     * <code>string OMBBHFFLNIM = 1174;</code>
-     * @return The bytes for oMBBHFFLNIM.
+     * <code>string _uapc = 1174;</code>
+     * @return The bytes for uapc.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getOMBBHFFLNIMBytes() {
-      java.lang.Object ref = oMBBHFFLNIM_;
+        getUapcBytes() {
+      java.lang.Object ref = Uapc_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        oMBBHFFLNIM_ = b;
+        Uapc_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
@@ -2173,38 +2177,38 @@ public final class PlayerLoginReqOuterClass {
       }
     }
 
-    public static final int CLIENT_VERISON_HASH_FIELD_NUMBER = 1747;
-    private volatile java.lang.Object clientVerisonHash_;
+    public static final int EHINEAJNAFK_FIELD_NUMBER = 1747;
+    private volatile java.lang.Object eHINEAJNAFK_;
     /**
-     * <code>string client_verison_hash = 1747;</code>
-     * @return The clientVerisonHash.
+     * <code>string EHINEAJNAFK = 1747;</code>
+     * @return The eHINEAJNAFK.
      */
     @java.lang.Override
-    public java.lang.String getClientVerisonHash() {
-      java.lang.Object ref = clientVerisonHash_;
+    public java.lang.String getEHINEAJNAFK() {
+      java.lang.Object ref = eHINEAJNAFK_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        clientVerisonHash_ = s;
+        eHINEAJNAFK_ = s;
         return s;
       }
     }
     /**
-     * <code>string client_verison_hash = 1747;</code>
-     * @return The bytes for clientVerisonHash.
+     * <code>string EHINEAJNAFK = 1747;</code>
+     * @return The bytes for eHINEAJNAFK.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getClientVerisonHashBytes() {
-      java.lang.Object ref = clientVerisonHash_;
+        getEHINEAJNAFKBytes() {
+      java.lang.Object ref = eHINEAJNAFK_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        clientVerisonHash_ = b;
+        eHINEAJNAFK_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
@@ -2272,8 +2276,8 @@ public final class PlayerLoginReqOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(deviceInfo_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 12, deviceInfo_);
       }
-      if (accountType_ != 0) {
-        output.writeUInt32(13, accountType_);
+      if (iNIKCPKAFJE_ != 0) {
+        output.writeUInt32(13, iNIKCPKAFJE_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(accountUid_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 14, accountUid_);
@@ -2284,8 +2288,8 @@ public final class PlayerLoginReqOuterClass {
       if (nBFMNCMEHGM_ != 0) {
         output.writeUInt32(63, nBFMNCMEHGM_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(cps_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 125, cps_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(nEBJEJBGEPD_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 125, nEBJEJBGEPD_);
       }
       if (dFNBAFNKCED_ != null) {
         output.writeMessage(128, getDFNBAFNKCED());
@@ -2311,8 +2315,8 @@ public final class PlayerLoginReqOuterClass {
       if (timestamp_ != 0) {
         output.writeUInt32(383, timestamp_);
       }
-      if (regPlatform_ != 0) {
-        output.writeUInt32(499, regPlatform_);
+      if (jOJKNGHGACF_ != 0) {
+        output.writeUInt32(499, jOJKNGHGACF_);
       }
       if (cGMBIAPFHGE_ != false) {
         output.writeBool(516, cGMBIAPFHGE_);
@@ -2320,8 +2324,8 @@ public final class PlayerLoginReqOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(onlineId_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 633, onlineId_);
       }
-      if (gmUid_ != 0) {
-        output.writeUInt32(669, gmUid_);
+      if (oJMCPPOBAOJ_ != 0) {
+        output.writeUInt32(669, oJMCPPOBAOJ_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(securityLibraryMd5_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 670, securityLibraryMd5_);
@@ -2335,8 +2339,8 @@ public final class PlayerLoginReqOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(eCJHHHKAFIO_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 787, eCJHHHKAFIO_);
       }
-      if (subChannelId_ != 0) {
-        output.writeUInt32(844, subChannelId_);
+      if (gLDDHPBGNAD_ != 0) {
+        output.writeUInt32(844, gLDDHPBGNAD_);
       }
       if (!securityCmdReply_.isEmpty()) {
         output.writeBytes(894, securityCmdReply_);
@@ -2344,8 +2348,8 @@ public final class PlayerLoginReqOuterClass {
       if (!extraBinData_.isEmpty()) {
         output.writeBytes(895, extraBinData_);
       }
-      if (cloudClientIp_ != 0) {
-        output.writeUInt32(956, cloudClientIp_);
+      if (hJICNGJMCEL_ != 0) {
+        output.writeUInt32(956, hJICNGJMCEL_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(XboxGamertag_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 1033, XboxGamertag_);
@@ -2368,8 +2372,8 @@ public final class PlayerLoginReqOuterClass {
       if (lFABPIKDHKL_ != false) {
         output.writeBool(1166, lFABPIKDHKL_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(oMBBHFFLNIM_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1174, oMBBHFFLNIM_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(Uapc_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1174, Uapc_);
       }
       if (hENDBLEDPIG_ != 0) {
         output.writeUInt32(1237, hENDBLEDPIG_);
@@ -2392,8 +2396,8 @@ public final class PlayerLoginReqOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(pDDPLNEPLJJ_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 1640, pDDPLNEPLJJ_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientVerisonHash_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1747, clientVerisonHash_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(eHINEAJNAFK_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1747, eHINEAJNAFK_);
       }
       if (!environmentErrorCode_.isEmpty()) {
         output.writeBytes(1989, environmentErrorCode_);
@@ -2448,9 +2452,9 @@ public final class PlayerLoginReqOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(deviceInfo_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(12, deviceInfo_);
       }
-      if (accountType_ != 0) {
+      if (iNIKCPKAFJE_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, accountType_);
+          .computeUInt32Size(13, iNIKCPKAFJE_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(accountUid_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(14, accountUid_);
@@ -2463,8 +2467,8 @@ public final class PlayerLoginReqOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(63, nBFMNCMEHGM_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(cps_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(125, cps_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(nEBJEJBGEPD_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(125, nEBJEJBGEPD_);
       }
       if (dFNBAFNKCED_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -2495,9 +2499,9 @@ public final class PlayerLoginReqOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(383, timestamp_);
       }
-      if (regPlatform_ != 0) {
+      if (jOJKNGHGACF_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(499, regPlatform_);
+          .computeUInt32Size(499, jOJKNGHGACF_);
       }
       if (cGMBIAPFHGE_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -2506,9 +2510,9 @@ public final class PlayerLoginReqOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(onlineId_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(633, onlineId_);
       }
-      if (gmUid_ != 0) {
+      if (oJMCPPOBAOJ_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(669, gmUid_);
+          .computeUInt32Size(669, oJMCPPOBAOJ_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(securityLibraryMd5_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(670, securityLibraryMd5_);
@@ -2524,9 +2528,9 @@ public final class PlayerLoginReqOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(eCJHHHKAFIO_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(787, eCJHHHKAFIO_);
       }
-      if (subChannelId_ != 0) {
+      if (gLDDHPBGNAD_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(844, subChannelId_);
+          .computeUInt32Size(844, gLDDHPBGNAD_);
       }
       if (!securityCmdReply_.isEmpty()) {
         size += com.google.protobuf.CodedOutputStream
@@ -2536,9 +2540,9 @@ public final class PlayerLoginReqOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBytesSize(895, extraBinData_);
       }
-      if (cloudClientIp_ != 0) {
+      if (hJICNGJMCEL_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(956, cloudClientIp_);
+          .computeUInt32Size(956, hJICNGJMCEL_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(XboxGamertag_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1033, XboxGamertag_);
@@ -2564,8 +2568,8 @@ public final class PlayerLoginReqOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1166, lFABPIKDHKL_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(oMBBHFFLNIM_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1174, oMBBHFFLNIM_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(Uapc_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1174, Uapc_);
       }
       if (hENDBLEDPIG_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -2592,8 +2596,8 @@ public final class PlayerLoginReqOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(pDDPLNEPLJJ_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1640, pDDPLNEPLJJ_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientVerisonHash_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1747, clientVerisonHash_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(eHINEAJNAFK_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1747, eHINEAJNAFK_);
       }
       if (!environmentErrorCode_.isEmpty()) {
         size += com.google.protobuf.CodedOutputStream
@@ -2638,16 +2642,16 @@ public final class PlayerLoginReqOuterClass {
           != other.getLoginRand()) return false;
       if (!getDeviceInfo()
           .equals(other.getDeviceInfo())) return false;
-      if (getAccountType()
-          != other.getAccountType()) return false;
+      if (getINIKCPKAFJE()
+          != other.getINIKCPKAFJE()) return false;
       if (!getAccountUid()
           .equals(other.getAccountUid())) return false;
       if (getIsEditor()
           != other.getIsEditor()) return false;
       if (getNBFMNCMEHGM()
           != other.getNBFMNCMEHGM()) return false;
-      if (!getCps()
-          .equals(other.getCps())) return false;
+      if (!getNEBJEJBGEPD()
+          .equals(other.getNEBJEJBGEPD())) return false;
       if (hasDFNBAFNKCED() != other.hasDFNBAFNKCED()) return false;
       if (hasDFNBAFNKCED()) {
         if (!getDFNBAFNKCED()
@@ -2670,14 +2674,14 @@ public final class PlayerLoginReqOuterClass {
           .equals(other.getPsnId())) return false;
       if (getTimestamp()
           != other.getTimestamp()) return false;
-      if (getRegPlatform()
-          != other.getRegPlatform()) return false;
+      if (getJOJKNGHGACF()
+          != other.getJOJKNGHGACF()) return false;
       if (getCGMBIAPFHGE()
           != other.getCGMBIAPFHGE()) return false;
       if (!getOnlineId()
           .equals(other.getOnlineId())) return false;
-      if (getGmUid()
-          != other.getGmUid()) return false;
+      if (getOJMCPPOBAOJ()
+          != other.getOJMCPPOBAOJ()) return false;
       if (!getSecurityLibraryMd5()
           .equals(other.getSecurityLibraryMd5())) return false;
       if (getTag()
@@ -2689,14 +2693,14 @@ public final class PlayerLoginReqOuterClass {
       }
       if (!getECJHHHKAFIO()
           .equals(other.getECJHHHKAFIO())) return false;
-      if (getSubChannelId()
-          != other.getSubChannelId()) return false;
+      if (getGLDDHPBGNAD()
+          != other.getGLDDHPBGNAD()) return false;
       if (!getSecurityCmdReply()
           .equals(other.getSecurityCmdReply())) return false;
       if (!getExtraBinData()
           .equals(other.getExtraBinData())) return false;
-      if (getCloudClientIp()
-          != other.getCloudClientIp()) return false;
+      if (getHJICNGJMCEL()
+          != other.getHJICNGJMCEL()) return false;
       if (!getXboxGamertag()
           .equals(other.getXboxGamertag())) return false;
       if (getMCKNOBKGGEM()
@@ -2711,8 +2715,8 @@ public final class PlayerLoginReqOuterClass {
           .equals(other.getChecksumClientVersion())) return false;
       if (getLFABPIKDHKL()
           != other.getLFABPIKDHKL()) return false;
-      if (!getOMBBHFFLNIM()
-          .equals(other.getOMBBHFFLNIM())) return false;
+      if (!getUapc()
+          .equals(other.getUapc())) return false;
       if (getHENDBLEDPIG()
           != other.getHENDBLEDPIG()) return false;
       if (!getPMBCMNHEGHO()
@@ -2727,8 +2731,8 @@ public final class PlayerLoginReqOuterClass {
           .equals(other.getBKIICHHOJAF())) return false;
       if (!getPDDPLNEPLJJ()
           .equals(other.getPDDPLNEPLJJ())) return false;
-      if (!getClientVerisonHash()
-          .equals(other.getClientVerisonHash())) return false;
+      if (!getEHINEAJNAFK()
+          .equals(other.getEHINEAJNAFK())) return false;
       if (!getEnvironmentErrorCode()
           .equals(other.getEnvironmentErrorCode())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -2768,8 +2772,8 @@ public final class PlayerLoginReqOuterClass {
           getLoginRand());
       hash = (37 * hash) + DEVICE_INFO_FIELD_NUMBER;
       hash = (53 * hash) + getDeviceInfo().hashCode();
-      hash = (37 * hash) + ACCOUNT_TYPE_FIELD_NUMBER;
-      hash = (53 * hash) + getAccountType();
+      hash = (37 * hash) + INIKCPKAFJE_FIELD_NUMBER;
+      hash = (53 * hash) + getINIKCPKAFJE();
       hash = (37 * hash) + ACCOUNT_UID_FIELD_NUMBER;
       hash = (53 * hash) + getAccountUid().hashCode();
       hash = (37 * hash) + IS_EDITOR_FIELD_NUMBER;
@@ -2777,8 +2781,8 @@ public final class PlayerLoginReqOuterClass {
           getIsEditor());
       hash = (37 * hash) + NBFMNCMEHGM_FIELD_NUMBER;
       hash = (53 * hash) + getNBFMNCMEHGM();
-      hash = (37 * hash) + CPS_FIELD_NUMBER;
-      hash = (53 * hash) + getCps().hashCode();
+      hash = (37 * hash) + NEBJEJBGEPD_FIELD_NUMBER;
+      hash = (53 * hash) + getNEBJEJBGEPD().hashCode();
       if (hasDFNBAFNKCED()) {
         hash = (37 * hash) + DFNBAFNKCED_FIELD_NUMBER;
         hash = (53 * hash) + getDFNBAFNKCED().hashCode();
@@ -2800,15 +2804,15 @@ public final class PlayerLoginReqOuterClass {
       hash = (53 * hash) + getPsnId().hashCode();
       hash = (37 * hash) + TIMESTAMP_FIELD_NUMBER;
       hash = (53 * hash) + getTimestamp();
-      hash = (37 * hash) + REG_PLATFORM_FIELD_NUMBER;
-      hash = (53 * hash) + getRegPlatform();
+      hash = (37 * hash) + JOJKNGHGACF_FIELD_NUMBER;
+      hash = (53 * hash) + getJOJKNGHGACF();
       hash = (37 * hash) + CGMBIAPFHGE_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getCGMBIAPFHGE());
       hash = (37 * hash) + ONLINE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getOnlineId().hashCode();
-      hash = (37 * hash) + GM_UID_FIELD_NUMBER;
-      hash = (53 * hash) + getGmUid();
+      hash = (37 * hash) + OJMCPPOBAOJ_FIELD_NUMBER;
+      hash = (53 * hash) + getOJMCPPOBAOJ();
       hash = (37 * hash) + SECURITY_LIBRARY_MD5_FIELD_NUMBER;
       hash = (53 * hash) + getSecurityLibraryMd5().hashCode();
       hash = (37 * hash) + TAG_FIELD_NUMBER;
@@ -2819,14 +2823,14 @@ public final class PlayerLoginReqOuterClass {
       }
       hash = (37 * hash) + ECJHHHKAFIO_FIELD_NUMBER;
       hash = (53 * hash) + getECJHHHKAFIO().hashCode();
-      hash = (37 * hash) + SUB_CHANNEL_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getSubChannelId();
+      hash = (37 * hash) + GLDDHPBGNAD_FIELD_NUMBER;
+      hash = (53 * hash) + getGLDDHPBGNAD();
       hash = (37 * hash) + SECURITY_CMD_REPLY_FIELD_NUMBER;
       hash = (53 * hash) + getSecurityCmdReply().hashCode();
       hash = (37 * hash) + EXTRA_BIN_DATA_FIELD_NUMBER;
       hash = (53 * hash) + getExtraBinData().hashCode();
-      hash = (37 * hash) + CLOUD_CLIENT_IP_FIELD_NUMBER;
-      hash = (53 * hash) + getCloudClientIp();
+      hash = (37 * hash) + HJICNGJMCEL_FIELD_NUMBER;
+      hash = (53 * hash) + getHJICNGJMCEL();
       hash = (37 * hash) + _XBOX_GAMERTAG_FIELD_NUMBER;
       hash = (53 * hash) + getXboxGamertag().hashCode();
       hash = (37 * hash) + MCKNOBKGGEM_FIELD_NUMBER;
@@ -2842,8 +2846,8 @@ public final class PlayerLoginReqOuterClass {
       hash = (37 * hash) + LFABPIKDHKL_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getLFABPIKDHKL());
-      hash = (37 * hash) + OMBBHFFLNIM_FIELD_NUMBER;
-      hash = (53 * hash) + getOMBBHFFLNIM().hashCode();
+      hash = (37 * hash) + _UAPC_FIELD_NUMBER;
+      hash = (53 * hash) + getUapc().hashCode();
       hash = (37 * hash) + HENDBLEDPIG_FIELD_NUMBER;
       hash = (53 * hash) + getHENDBLEDPIG();
       hash = (37 * hash) + PMBCMNHEGHO_FIELD_NUMBER;
@@ -2858,8 +2862,8 @@ public final class PlayerLoginReqOuterClass {
       hash = (53 * hash) + getBKIICHHOJAF().hashCode();
       hash = (37 * hash) + PDDPLNEPLJJ_FIELD_NUMBER;
       hash = (53 * hash) + getPDDPLNEPLJJ().hashCode();
-      hash = (37 * hash) + CLIENT_VERISON_HASH_FIELD_NUMBER;
-      hash = (53 * hash) + getClientVerisonHash().hashCode();
+      hash = (37 * hash) + EHINEAJNAFK_FIELD_NUMBER;
+      hash = (53 * hash) + getEHINEAJNAFK().hashCode();
       hash = (37 * hash) + ENVIRONMENT_ERROR_CODE_FIELD_NUMBER;
       hash = (53 * hash) + getEnvironmentErrorCode().hashCode();
       hash = (29 * hash) + unknownFields.hashCode();
@@ -2958,6 +2962,10 @@ public final class PlayerLoginReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 26573
+     * </pre>
+     *
      * Protobuf type {@code PlayerLoginReq}
      */
     public static final class Builder extends
@@ -3019,7 +3027,7 @@ public final class PlayerLoginReqOuterClass {
 
         deviceInfo_ = "";
 
-        accountType_ = 0;
+        iNIKCPKAFJE_ = 0;
 
         accountUid_ = "";
 
@@ -3027,7 +3035,7 @@ public final class PlayerLoginReqOuterClass {
 
         nBFMNCMEHGM_ = 0;
 
-        cps_ = "";
+        nEBJEJBGEPD_ = "";
 
         if (dFNBAFNKCEDBuilder_ == null) {
           dFNBAFNKCED_ = null;
@@ -3053,13 +3061,13 @@ public final class PlayerLoginReqOuterClass {
 
         timestamp_ = 0;
 
-        regPlatform_ = 0;
+        jOJKNGHGACF_ = 0;
 
         cGMBIAPFHGE_ = false;
 
         onlineId_ = "";
 
-        gmUid_ = 0;
+        oJMCPPOBAOJ_ = 0;
 
         securityLibraryMd5_ = "";
 
@@ -3073,13 +3081,13 @@ public final class PlayerLoginReqOuterClass {
         }
         eCJHHHKAFIO_ = "";
 
-        subChannelId_ = 0;
+        gLDDHPBGNAD_ = 0;
 
         securityCmdReply_ = com.google.protobuf.ByteString.EMPTY;
 
         extraBinData_ = com.google.protobuf.ByteString.EMPTY;
 
-        cloudClientIp_ = 0;
+        hJICNGJMCEL_ = 0;
 
         XboxGamertag_ = "";
 
@@ -3095,7 +3103,7 @@ public final class PlayerLoginReqOuterClass {
 
         lFABPIKDHKL_ = false;
 
-        oMBBHFFLNIM_ = "";
+        Uapc_ = "";
 
         hENDBLEDPIG_ = 0;
 
@@ -3111,7 +3119,7 @@ public final class PlayerLoginReqOuterClass {
 
         pDDPLNEPLJJ_ = "";
 
-        clientVerisonHash_ = "";
+        eHINEAJNAFK_ = "";
 
         environmentErrorCode_ = com.google.protobuf.ByteString.EMPTY;
 
@@ -3153,11 +3161,11 @@ public final class PlayerLoginReqOuterClass {
         result.deviceName_ = deviceName_;
         result.loginRand_ = loginRand_;
         result.deviceInfo_ = deviceInfo_;
-        result.accountType_ = accountType_;
+        result.iNIKCPKAFJE_ = iNIKCPKAFJE_;
         result.accountUid_ = accountUid_;
         result.isEditor_ = isEditor_;
         result.nBFMNCMEHGM_ = nBFMNCMEHGM_;
-        result.cps_ = cps_;
+        result.nEBJEJBGEPD_ = nEBJEJBGEPD_;
         if (dFNBAFNKCEDBuilder_ == null) {
           result.dFNBAFNKCED_ = dFNBAFNKCED_;
         } else {
@@ -3174,10 +3182,10 @@ public final class PlayerLoginReqOuterClass {
         result.checksum_ = checksum_;
         result.psnId_ = psnId_;
         result.timestamp_ = timestamp_;
-        result.regPlatform_ = regPlatform_;
+        result.jOJKNGHGACF_ = jOJKNGHGACF_;
         result.cGMBIAPFHGE_ = cGMBIAPFHGE_;
         result.onlineId_ = onlineId_;
-        result.gmUid_ = gmUid_;
+        result.oJMCPPOBAOJ_ = oJMCPPOBAOJ_;
         result.securityLibraryMd5_ = securityLibraryMd5_;
         result.tag_ = tag_;
         if (kJEMCDAJINFBuilder_ == null) {
@@ -3186,10 +3194,10 @@ public final class PlayerLoginReqOuterClass {
           result.kJEMCDAJINF_ = kJEMCDAJINFBuilder_.build();
         }
         result.eCJHHHKAFIO_ = eCJHHHKAFIO_;
-        result.subChannelId_ = subChannelId_;
+        result.gLDDHPBGNAD_ = gLDDHPBGNAD_;
         result.securityCmdReply_ = securityCmdReply_;
         result.extraBinData_ = extraBinData_;
-        result.cloudClientIp_ = cloudClientIp_;
+        result.hJICNGJMCEL_ = hJICNGJMCEL_;
         result.XboxGamertag_ = XboxGamertag_;
         result.mCKNOBKGGEM_ = mCKNOBKGGEM_;
         result.countryCode_ = countryCode_;
@@ -3197,7 +3205,7 @@ public final class PlayerLoginReqOuterClass {
         result.birthday_ = birthday_;
         result.checksumClientVersion_ = checksumClientVersion_;
         result.lFABPIKDHKL_ = lFABPIKDHKL_;
-        result.oMBBHFFLNIM_ = oMBBHFFLNIM_;
+        result.Uapc_ = Uapc_;
         result.hENDBLEDPIG_ = hENDBLEDPIG_;
         result.pMBCMNHEGHO_ = pMBCMNHEGHO_;
         result.aLMPHOAOJEC_ = aLMPHOAOJEC_;
@@ -3205,7 +3213,7 @@ public final class PlayerLoginReqOuterClass {
         result.clientDataVersion_ = clientDataVersion_;
         result.bKIICHHOJAF_ = bKIICHHOJAF_;
         result.pDDPLNEPLJJ_ = pDDPLNEPLJJ_;
-        result.clientVerisonHash_ = clientVerisonHash_;
+        result.eHINEAJNAFK_ = eHINEAJNAFK_;
         result.environmentErrorCode_ = environmentErrorCode_;
         onBuilt();
         return result;
@@ -3298,8 +3306,8 @@ public final class PlayerLoginReqOuterClass {
           deviceInfo_ = other.deviceInfo_;
           onChanged();
         }
-        if (other.getAccountType() != 0) {
-          setAccountType(other.getAccountType());
+        if (other.getINIKCPKAFJE() != 0) {
+          setINIKCPKAFJE(other.getINIKCPKAFJE());
         }
         if (!other.getAccountUid().isEmpty()) {
           accountUid_ = other.accountUid_;
@@ -3311,8 +3319,8 @@ public final class PlayerLoginReqOuterClass {
         if (other.getNBFMNCMEHGM() != 0) {
           setNBFMNCMEHGM(other.getNBFMNCMEHGM());
         }
-        if (!other.getCps().isEmpty()) {
-          cps_ = other.cps_;
+        if (!other.getNEBJEJBGEPD().isEmpty()) {
+          nEBJEJBGEPD_ = other.nEBJEJBGEPD_;
           onChanged();
         }
         if (other.hasDFNBAFNKCED()) {
@@ -3342,8 +3350,8 @@ public final class PlayerLoginReqOuterClass {
         if (other.getTimestamp() != 0) {
           setTimestamp(other.getTimestamp());
         }
-        if (other.getRegPlatform() != 0) {
-          setRegPlatform(other.getRegPlatform());
+        if (other.getJOJKNGHGACF() != 0) {
+          setJOJKNGHGACF(other.getJOJKNGHGACF());
         }
         if (other.getCGMBIAPFHGE() != false) {
           setCGMBIAPFHGE(other.getCGMBIAPFHGE());
@@ -3352,8 +3360,8 @@ public final class PlayerLoginReqOuterClass {
           onlineId_ = other.onlineId_;
           onChanged();
         }
-        if (other.getGmUid() != 0) {
-          setGmUid(other.getGmUid());
+        if (other.getOJMCPPOBAOJ() != 0) {
+          setOJMCPPOBAOJ(other.getOJMCPPOBAOJ());
         }
         if (!other.getSecurityLibraryMd5().isEmpty()) {
           securityLibraryMd5_ = other.securityLibraryMd5_;
@@ -3369,8 +3377,8 @@ public final class PlayerLoginReqOuterClass {
           eCJHHHKAFIO_ = other.eCJHHHKAFIO_;
           onChanged();
         }
-        if (other.getSubChannelId() != 0) {
-          setSubChannelId(other.getSubChannelId());
+        if (other.getGLDDHPBGNAD() != 0) {
+          setGLDDHPBGNAD(other.getGLDDHPBGNAD());
         }
         if (other.getSecurityCmdReply() != com.google.protobuf.ByteString.EMPTY) {
           setSecurityCmdReply(other.getSecurityCmdReply());
@@ -3378,8 +3386,8 @@ public final class PlayerLoginReqOuterClass {
         if (other.getExtraBinData() != com.google.protobuf.ByteString.EMPTY) {
           setExtraBinData(other.getExtraBinData());
         }
-        if (other.getCloudClientIp() != 0) {
-          setCloudClientIp(other.getCloudClientIp());
+        if (other.getHJICNGJMCEL() != 0) {
+          setHJICNGJMCEL(other.getHJICNGJMCEL());
         }
         if (!other.getXboxGamertag().isEmpty()) {
           XboxGamertag_ = other.XboxGamertag_;
@@ -3406,8 +3414,8 @@ public final class PlayerLoginReqOuterClass {
         if (other.getLFABPIKDHKL() != false) {
           setLFABPIKDHKL(other.getLFABPIKDHKL());
         }
-        if (!other.getOMBBHFFLNIM().isEmpty()) {
-          oMBBHFFLNIM_ = other.oMBBHFFLNIM_;
+        if (!other.getUapc().isEmpty()) {
+          Uapc_ = other.Uapc_;
           onChanged();
         }
         if (other.getHENDBLEDPIG() != 0) {
@@ -3434,8 +3442,8 @@ public final class PlayerLoginReqOuterClass {
           pDDPLNEPLJJ_ = other.pDDPLNEPLJJ_;
           onChanged();
         }
-        if (!other.getClientVerisonHash().isEmpty()) {
-          clientVerisonHash_ = other.clientVerisonHash_;
+        if (!other.getEHINEAJNAFK().isEmpty()) {
+          eHINEAJNAFK_ = other.eHINEAJNAFK_;
           onChanged();
         }
         if (other.getEnvironmentErrorCode() != com.google.protobuf.ByteString.EMPTY) {
@@ -4157,33 +4165,33 @@ public final class PlayerLoginReqOuterClass {
         return this;
       }
 
-      private int accountType_ ;
+      private int iNIKCPKAFJE_ ;
       /**
-       * <code>uint32 account_type = 13;</code>
-       * @return The accountType.
+       * <code>uint32 INIKCPKAFJE = 13;</code>
+       * @return The iNIKCPKAFJE.
        */
       @java.lang.Override
-      public int getAccountType() {
-        return accountType_;
+      public int getINIKCPKAFJE() {
+        return iNIKCPKAFJE_;
       }
       /**
-       * <code>uint32 account_type = 13;</code>
-       * @param value The accountType to set.
+       * <code>uint32 INIKCPKAFJE = 13;</code>
+       * @param value The iNIKCPKAFJE to set.
        * @return This builder for chaining.
        */
-      public Builder setAccountType(int value) {
+      public Builder setINIKCPKAFJE(int value) {
         
-        accountType_ = value;
+        iNIKCPKAFJE_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 account_type = 13;</code>
+       * <code>uint32 INIKCPKAFJE = 13;</code>
        * @return This builder for chaining.
        */
-      public Builder clearAccountType() {
+      public Builder clearINIKCPKAFJE() {
         
-        accountType_ = 0;
+        iNIKCPKAFJE_ = 0;
         onChanged();
         return this;
       }
@@ -4326,78 +4334,78 @@ public final class PlayerLoginReqOuterClass {
         return this;
       }
 
-      private java.lang.Object cps_ = "";
+      private java.lang.Object nEBJEJBGEPD_ = "";
       /**
-       * <code>string cps = 125;</code>
-       * @return The cps.
+       * <code>string NEBJEJBGEPD = 125;</code>
+       * @return The nEBJEJBGEPD.
        */
-      public java.lang.String getCps() {
-        java.lang.Object ref = cps_;
+      public java.lang.String getNEBJEJBGEPD() {
+        java.lang.Object ref = nEBJEJBGEPD_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          cps_ = s;
+          nEBJEJBGEPD_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
       /**
-       * <code>string cps = 125;</code>
-       * @return The bytes for cps.
+       * <code>string NEBJEJBGEPD = 125;</code>
+       * @return The bytes for nEBJEJBGEPD.
        */
       public com.google.protobuf.ByteString
-          getCpsBytes() {
-        java.lang.Object ref = cps_;
+          getNEBJEJBGEPDBytes() {
+        java.lang.Object ref = nEBJEJBGEPD_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          cps_ = b;
+          nEBJEJBGEPD_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>string cps = 125;</code>
-       * @param value The cps to set.
+       * <code>string NEBJEJBGEPD = 125;</code>
+       * @param value The nEBJEJBGEPD to set.
        * @return This builder for chaining.
        */
-      public Builder setCps(
+      public Builder setNEBJEJBGEPD(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   
-        cps_ = value;
+        nEBJEJBGEPD_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string cps = 125;</code>
+       * <code>string NEBJEJBGEPD = 125;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCps() {
+      public Builder clearNEBJEJBGEPD() {
         
-        cps_ = getDefaultInstance().getCps();
+        nEBJEJBGEPD_ = getDefaultInstance().getNEBJEJBGEPD();
         onChanged();
         return this;
       }
       /**
-       * <code>string cps = 125;</code>
-       * @param value The bytes for cps to set.
+       * <code>string NEBJEJBGEPD = 125;</code>
+       * @param value The bytes for nEBJEJBGEPD to set.
        * @return This builder for chaining.
        */
-      public Builder setCpsBytes(
+      public Builder setNEBJEJBGEPDBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
         
-        cps_ = value;
+        nEBJEJBGEPD_ = value;
         onChanged();
         return this;
       }
@@ -4521,9 +4529,9 @@ public final class PlayerLoginReqOuterClass {
         return dFNBAFNKCEDBuilder_;
       }
 
-      private emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int iHMDHCDBHDJ_;
+      private emu.grasscutter.net.proto.Vector2Int._Vector2Int iHMDHCDBHDJ_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder> iHMDHCDBHDJBuilder_;
+          emu.grasscutter.net.proto.Vector2Int._Vector2Int, emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder, emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder> iHMDHCDBHDJBuilder_;
       /**
        * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
        * @return Whether the iHMDHCDBHDJ field is set.
@@ -4535,9 +4543,9 @@ public final class PlayerLoginReqOuterClass {
        * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
        * @return The iHMDHCDBHDJ.
        */
-      public emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int getIHMDHCDBHDJ() {
+      public emu.grasscutter.net.proto.Vector2Int._Vector2Int getIHMDHCDBHDJ() {
         if (iHMDHCDBHDJBuilder_ == null) {
-          return iHMDHCDBHDJ_ == null ? emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.getDefaultInstance() : iHMDHCDBHDJ_;
+          return iHMDHCDBHDJ_ == null ? emu.grasscutter.net.proto.Vector2Int._Vector2Int.getDefaultInstance() : iHMDHCDBHDJ_;
         } else {
           return iHMDHCDBHDJBuilder_.getMessage();
         }
@@ -4545,7 +4553,7 @@ public final class PlayerLoginReqOuterClass {
       /**
        * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
        */
-      public Builder setIHMDHCDBHDJ(emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int value) {
+      public Builder setIHMDHCDBHDJ(emu.grasscutter.net.proto.Vector2Int._Vector2Int value) {
         if (iHMDHCDBHDJBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4562,7 +4570,7 @@ public final class PlayerLoginReqOuterClass {
        * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
        */
       public Builder setIHMDHCDBHDJ(
-          emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder builderForValue) {
+          emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder builderForValue) {
         if (iHMDHCDBHDJBuilder_ == null) {
           iHMDHCDBHDJ_ = builderForValue.build();
           onChanged();
@@ -4575,11 +4583,11 @@ public final class PlayerLoginReqOuterClass {
       /**
        * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
        */
-      public Builder mergeIHMDHCDBHDJ(emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int value) {
+      public Builder mergeIHMDHCDBHDJ(emu.grasscutter.net.proto.Vector2Int._Vector2Int value) {
         if (iHMDHCDBHDJBuilder_ == null) {
           if (iHMDHCDBHDJ_ != null) {
             iHMDHCDBHDJ_ =
-              emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.newBuilder(iHMDHCDBHDJ_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto.Vector2Int._Vector2Int.newBuilder(iHMDHCDBHDJ_).mergeFrom(value).buildPartial();
           } else {
             iHMDHCDBHDJ_ = value;
           }
@@ -4607,7 +4615,7 @@ public final class PlayerLoginReqOuterClass {
       /**
        * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
        */
-      public emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder getIHMDHCDBHDJBuilder() {
+      public emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder getIHMDHCDBHDJBuilder() {
         
         onChanged();
         return getIHMDHCDBHDJFieldBuilder().getBuilder();
@@ -4615,23 +4623,23 @@ public final class PlayerLoginReqOuterClass {
       /**
        * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
        */
-      public emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder getIHMDHCDBHDJOrBuilder() {
+      public emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder getIHMDHCDBHDJOrBuilder() {
         if (iHMDHCDBHDJBuilder_ != null) {
           return iHMDHCDBHDJBuilder_.getMessageOrBuilder();
         } else {
           return iHMDHCDBHDJ_ == null ?
-              emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.getDefaultInstance() : iHMDHCDBHDJ_;
+              emu.grasscutter.net.proto.Vector2Int._Vector2Int.getDefaultInstance() : iHMDHCDBHDJ_;
         }
       }
       /**
        * <code>._Vector2Int IHMDHCDBHDJ = 137;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder> 
+          emu.grasscutter.net.proto.Vector2Int._Vector2Int, emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder, emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder> 
           getIHMDHCDBHDJFieldBuilder() {
         if (iHMDHCDBHDJBuilder_ == null) {
           iHMDHCDBHDJBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder>(
+              emu.grasscutter.net.proto.Vector2Int._Vector2Int, emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder, emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder>(
                   getIHMDHCDBHDJ(),
                   getParentForChildren(),
                   isClean());
@@ -4961,33 +4969,33 @@ public final class PlayerLoginReqOuterClass {
         return this;
       }
 
-      private int regPlatform_ ;
+      private int jOJKNGHGACF_ ;
       /**
-       * <code>uint32 reg_platform = 499;</code>
-       * @return The regPlatform.
+       * <code>uint32 JOJKNGHGACF = 499;</code>
+       * @return The jOJKNGHGACF.
        */
       @java.lang.Override
-      public int getRegPlatform() {
-        return regPlatform_;
+      public int getJOJKNGHGACF() {
+        return jOJKNGHGACF_;
       }
       /**
-       * <code>uint32 reg_platform = 499;</code>
-       * @param value The regPlatform to set.
+       * <code>uint32 JOJKNGHGACF = 499;</code>
+       * @param value The jOJKNGHGACF to set.
        * @return This builder for chaining.
        */
-      public Builder setRegPlatform(int value) {
+      public Builder setJOJKNGHGACF(int value) {
         
-        regPlatform_ = value;
+        jOJKNGHGACF_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 reg_platform = 499;</code>
+       * <code>uint32 JOJKNGHGACF = 499;</code>
        * @return This builder for chaining.
        */
-      public Builder clearRegPlatform() {
+      public Builder clearJOJKNGHGACF() {
         
-        regPlatform_ = 0;
+        jOJKNGHGACF_ = 0;
         onChanged();
         return this;
       }
@@ -5099,33 +5107,33 @@ public final class PlayerLoginReqOuterClass {
         return this;
       }
 
-      private int gmUid_ ;
+      private int oJMCPPOBAOJ_ ;
       /**
-       * <code>uint32 gm_uid = 669;</code>
-       * @return The gmUid.
+       * <code>uint32 OJMCPPOBAOJ = 669;</code>
+       * @return The oJMCPPOBAOJ.
        */
       @java.lang.Override
-      public int getGmUid() {
-        return gmUid_;
+      public int getOJMCPPOBAOJ() {
+        return oJMCPPOBAOJ_;
       }
       /**
-       * <code>uint32 gm_uid = 669;</code>
-       * @param value The gmUid to set.
+       * <code>uint32 OJMCPPOBAOJ = 669;</code>
+       * @param value The oJMCPPOBAOJ to set.
        * @return This builder for chaining.
        */
-      public Builder setGmUid(int value) {
+      public Builder setOJMCPPOBAOJ(int value) {
         
-        gmUid_ = value;
+        oJMCPPOBAOJ_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 gm_uid = 669;</code>
+       * <code>uint32 OJMCPPOBAOJ = 669;</code>
        * @return This builder for chaining.
        */
-      public Builder clearGmUid() {
+      public Builder clearOJMCPPOBAOJ() {
         
-        gmUid_ = 0;
+        oJMCPPOBAOJ_ = 0;
         onChanged();
         return this;
       }
@@ -5432,33 +5440,33 @@ public final class PlayerLoginReqOuterClass {
         return this;
       }
 
-      private int subChannelId_ ;
+      private int gLDDHPBGNAD_ ;
       /**
-       * <code>uint32 sub_channel_id = 844;</code>
-       * @return The subChannelId.
+       * <code>uint32 GLDDHPBGNAD = 844;</code>
+       * @return The gLDDHPBGNAD.
        */
       @java.lang.Override
-      public int getSubChannelId() {
-        return subChannelId_;
+      public int getGLDDHPBGNAD() {
+        return gLDDHPBGNAD_;
       }
       /**
-       * <code>uint32 sub_channel_id = 844;</code>
-       * @param value The subChannelId to set.
+       * <code>uint32 GLDDHPBGNAD = 844;</code>
+       * @param value The gLDDHPBGNAD to set.
        * @return This builder for chaining.
        */
-      public Builder setSubChannelId(int value) {
+      public Builder setGLDDHPBGNAD(int value) {
         
-        subChannelId_ = value;
+        gLDDHPBGNAD_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 sub_channel_id = 844;</code>
+       * <code>uint32 GLDDHPBGNAD = 844;</code>
        * @return This builder for chaining.
        */
-      public Builder clearSubChannelId() {
+      public Builder clearGLDDHPBGNAD() {
         
-        subChannelId_ = 0;
+        gLDDHPBGNAD_ = 0;
         onChanged();
         return this;
       }
@@ -5531,33 +5539,33 @@ public final class PlayerLoginReqOuterClass {
         return this;
       }
 
-      private int cloudClientIp_ ;
+      private int hJICNGJMCEL_ ;
       /**
-       * <code>uint32 cloud_client_ip = 956;</code>
-       * @return The cloudClientIp.
+       * <code>uint32 HJICNGJMCEL = 956;</code>
+       * @return The hJICNGJMCEL.
        */
       @java.lang.Override
-      public int getCloudClientIp() {
-        return cloudClientIp_;
+      public int getHJICNGJMCEL() {
+        return hJICNGJMCEL_;
       }
       /**
-       * <code>uint32 cloud_client_ip = 956;</code>
-       * @param value The cloudClientIp to set.
+       * <code>uint32 HJICNGJMCEL = 956;</code>
+       * @param value The hJICNGJMCEL to set.
        * @return This builder for chaining.
        */
-      public Builder setCloudClientIp(int value) {
+      public Builder setHJICNGJMCEL(int value) {
         
-        cloudClientIp_ = value;
+        hJICNGJMCEL_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 cloud_client_ip = 956;</code>
+       * <code>uint32 HJICNGJMCEL = 956;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCloudClientIp() {
+      public Builder clearHJICNGJMCEL() {
         
-        cloudClientIp_ = 0;
+        hJICNGJMCEL_ = 0;
         onChanged();
         return this;
       }
@@ -5959,78 +5967,78 @@ public final class PlayerLoginReqOuterClass {
         return this;
       }
 
-      private java.lang.Object oMBBHFFLNIM_ = "";
+      private java.lang.Object Uapc_ = "";
       /**
-       * <code>string OMBBHFFLNIM = 1174;</code>
-       * @return The oMBBHFFLNIM.
+       * <code>string _uapc = 1174;</code>
+       * @return The uapc.
        */
-      public java.lang.String getOMBBHFFLNIM() {
-        java.lang.Object ref = oMBBHFFLNIM_;
+      public java.lang.String getUapc() {
+        java.lang.Object ref = Uapc_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          oMBBHFFLNIM_ = s;
+          Uapc_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
       /**
-       * <code>string OMBBHFFLNIM = 1174;</code>
-       * @return The bytes for oMBBHFFLNIM.
+       * <code>string _uapc = 1174;</code>
+       * @return The bytes for uapc.
        */
       public com.google.protobuf.ByteString
-          getOMBBHFFLNIMBytes() {
-        java.lang.Object ref = oMBBHFFLNIM_;
+          getUapcBytes() {
+        java.lang.Object ref = Uapc_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          oMBBHFFLNIM_ = b;
+          Uapc_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>string OMBBHFFLNIM = 1174;</code>
-       * @param value The oMBBHFFLNIM to set.
+       * <code>string _uapc = 1174;</code>
+       * @param value The uapc to set.
        * @return This builder for chaining.
        */
-      public Builder setOMBBHFFLNIM(
+      public Builder setUapc(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   
-        oMBBHFFLNIM_ = value;
+        Uapc_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string OMBBHFFLNIM = 1174;</code>
+       * <code>string _uapc = 1174;</code>
        * @return This builder for chaining.
        */
-      public Builder clearOMBBHFFLNIM() {
+      public Builder clearUapc() {
         
-        oMBBHFFLNIM_ = getDefaultInstance().getOMBBHFFLNIM();
+        Uapc_ = getDefaultInstance().getUapc();
         onChanged();
         return this;
       }
       /**
-       * <code>string OMBBHFFLNIM = 1174;</code>
-       * @param value The bytes for oMBBHFFLNIM to set.
+       * <code>string _uapc = 1174;</code>
+       * @param value The bytes for uapc to set.
        * @return This builder for chaining.
        */
-      public Builder setOMBBHFFLNIMBytes(
+      public Builder setUapcBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
         
-        oMBBHFFLNIM_ = value;
+        Uapc_ = value;
         onChanged();
         return this;
       }
@@ -6387,78 +6395,78 @@ public final class PlayerLoginReqOuterClass {
         return this;
       }
 
-      private java.lang.Object clientVerisonHash_ = "";
+      private java.lang.Object eHINEAJNAFK_ = "";
       /**
-       * <code>string client_verison_hash = 1747;</code>
-       * @return The clientVerisonHash.
+       * <code>string EHINEAJNAFK = 1747;</code>
+       * @return The eHINEAJNAFK.
        */
-      public java.lang.String getClientVerisonHash() {
-        java.lang.Object ref = clientVerisonHash_;
+      public java.lang.String getEHINEAJNAFK() {
+        java.lang.Object ref = eHINEAJNAFK_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          clientVerisonHash_ = s;
+          eHINEAJNAFK_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
       /**
-       * <code>string client_verison_hash = 1747;</code>
-       * @return The bytes for clientVerisonHash.
+       * <code>string EHINEAJNAFK = 1747;</code>
+       * @return The bytes for eHINEAJNAFK.
        */
       public com.google.protobuf.ByteString
-          getClientVerisonHashBytes() {
-        java.lang.Object ref = clientVerisonHash_;
+          getEHINEAJNAFKBytes() {
+        java.lang.Object ref = eHINEAJNAFK_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          clientVerisonHash_ = b;
+          eHINEAJNAFK_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>string client_verison_hash = 1747;</code>
-       * @param value The clientVerisonHash to set.
+       * <code>string EHINEAJNAFK = 1747;</code>
+       * @param value The eHINEAJNAFK to set.
        * @return This builder for chaining.
        */
-      public Builder setClientVerisonHash(
+      public Builder setEHINEAJNAFK(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   
-        clientVerisonHash_ = value;
+        eHINEAJNAFK_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string client_verison_hash = 1747;</code>
+       * <code>string EHINEAJNAFK = 1747;</code>
        * @return This builder for chaining.
        */
-      public Builder clearClientVerisonHash() {
+      public Builder clearEHINEAJNAFK() {
         
-        clientVerisonHash_ = getDefaultInstance().getClientVerisonHash();
+        eHINEAJNAFK_ = getDefaultInstance().getEHINEAJNAFK();
         onChanged();
         return this;
       }
       /**
-       * <code>string client_verison_hash = 1747;</code>
-       * @param value The bytes for clientVerisonHash to set.
+       * <code>string EHINEAJNAFK = 1747;</code>
+       * @param value The bytes for eHINEAJNAFK to set.
        * @return This builder for chaining.
        */
-      public Builder setClientVerisonHashBytes(
+      public Builder setEHINEAJNAFKBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
         
-        clientVerisonHash_ = value;
+        eHINEAJNAFK_ = value;
         onChanged();
         return this;
       }
@@ -6565,56 +6573,55 @@ public final class PlayerLoginReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\024PlayerLoginReq.proto\032\021ALFKEHMLFLO.prot" +
       "o\032\021FNGEEAFJCDG.proto\032\021_Vector2Int.proto\"" +
-      "\343\t\n\016PlayerLoginReq\022\020\n\010is_guest\030\001 \001(\010\022\025\n\r" +
+      "\331\t\n\016PlayerLoginReq\022\020\n\010is_guest\030\001 \001(\010\022\025\n\r" +
       "platform_type\030\002 \001(\r\022\022\n\ntarget_uid\030\003 \001(\r\022" +
       "\023\n\013device_uuid\030\004 \001(\t\022\020\n\010platform\030\005 \001(\t\022\r" +
       "\n\005token\030\006 \001(\t\022\026\n\016system_version\030\007 \001(\t\022\026\n" +
       "\016client_version\030\010 \001(\t\022\025\n\rlanguage_type\030\t" +
       " \001(\r\022\023\n\013device_name\030\n \001(\t\022\022\n\nlogin_rand\030" +
-      "\013 \001(\004\022\023\n\013device_info\030\014 \001(\t\022\024\n\014account_ty" +
-      "pe\030\r \001(\r\022\023\n\013account_uid\030\016 \001(\t\022\021\n\tis_edit" +
-      "or\030\017 \001(\010\022\023\n\013NBFMNCMEHGM\030? \001(\r\022\013\n\003cps\030} \001" +
-      "(\t\022\"\n\013DFNBAFNKCED\030\200\001 \001(\0132\014.ALFKEHMLFLO\022\"" +
-      "\n\013IHMDHCDBHDJ\030\211\001 \001(\0132\014._Vector2Int\022\024\n\013CE" +
-      "ADLMGKJMP\030\232\001 \001(\010\022\023\n\nchannel_id\030\201\002 \001(\r\022\016\n" +
-      "\005_xuid\030\262\002 \001(\t\022\021\n\010checksum\030\276\002 \001(\t\022\017\n\006psn_" +
-      "id\030\357\002 \001(\t\022\022\n\ttimestamp\030\377\002 \001(\r\022\025\n\014reg_pla" +
-      "tform\030\363\003 \001(\r\022\024\n\013CGMBIAPFHGE\030\204\004 \001(\010\022\022\n\ton" +
-      "line_id\030\371\004 \001(\t\022\017\n\006gm_uid\030\235\005 \001(\r\022\035\n\024secur" +
-      "ity_library_md5\030\236\005 \001(\t\022\014\n\003tag\030\363\005 \001(\r\022\"\n\013" +
-      "KJEMCDAJINF\030\366\005 \001(\0132\014.FNGEEAFJCDG\022\024\n\013ECJH" +
-      "HHKAFIO\030\223\006 \001(\t\022\027\n\016sub_channel_id\030\314\006 \001(\r\022" +
-      "\033\n\022security_cmd_reply\030\376\006 \001(\014\022\027\n\016extra_bi" +
-      "n_data\030\377\006 \001(\014\022\030\n\017cloud_client_ip\030\274\007 \001(\r\022" +
-      "\027\n\016_xbox_gamertag\030\211\010 \001(\t\022\024\n\013MCKNOBKGGEM\030" +
-      "\233\010 \001(\r\022\025\n\014country_code\030\245\010 \001(\t\022\024\n\013HPHGKOC" +
-      "DPJE\030\274\010 \001(\r\022\021\n\010birthday\030\351\010 \001(\t\022 \n\027checks" +
-      "um_client_version\030\210\t \001(\t\022\024\n\013LFABPIKDHKL\030" +
-      "\216\t \001(\010\022\024\n\013OMBBHFFLNIM\030\226\t \001(\t\022\024\n\013HENDBLED" +
-      "PIG\030\325\t \001(\r\022\024\n\013PMBCMNHEGHO\030\214\n \001(\t\022\024\n\013ALMP" +
-      "HOAOJEC\030\241\n \001(\r\022\024\n\013KDIKBHLPKDJ\030\373\013 \001(\r\022\034\n\023" +
-      "client_data_version\030\255\014 \001(\r\022\024\n\013BKIICHHOJA" +
-      "F\030\267\014 \001(\t\022\024\n\013PDDPLNEPLJJ\030\350\014 \001(\t\022\034\n\023client" +
-      "_verison_hash\030\323\r \001(\t\022\037\n\026environment_erro" +
-      "r_code\030\305\017 \001(\014B5\n\031emu.grasscutter.net.pro" +
-      "toB\030PlayerLoginReqOuterClassb\006proto3"
+      "\013 \001(\004\022\023\n\013device_info\030\014 \001(\t\022\023\n\013INIKCPKAFJ" +
+      "E\030\r \001(\r\022\023\n\013account_uid\030\016 \001(\t\022\021\n\tis_edito" +
+      "r\030\017 \001(\010\022\023\n\013NBFMNCMEHGM\030? \001(\r\022\023\n\013NEBJEJBG" +
+      "EPD\030} \001(\t\022\"\n\013DFNBAFNKCED\030\200\001 \001(\0132\014.ALFKEH" +
+      "MLFLO\022\"\n\013IHMDHCDBHDJ\030\211\001 \001(\0132\014._Vector2In" +
+      "t\022\024\n\013CEADLMGKJMP\030\232\001 \001(\010\022\023\n\nchannel_id\030\201\002" +
+      " \001(\r\022\016\n\005_xuid\030\262\002 \001(\t\022\021\n\010checksum\030\276\002 \001(\t\022" +
+      "\017\n\006psn_id\030\357\002 \001(\t\022\022\n\ttimestamp\030\377\002 \001(\r\022\024\n\013" +
+      "JOJKNGHGACF\030\363\003 \001(\r\022\024\n\013CGMBIAPFHGE\030\204\004 \001(\010" +
+      "\022\022\n\tonline_id\030\371\004 \001(\t\022\024\n\013OJMCPPOBAOJ\030\235\005 \001" +
+      "(\r\022\035\n\024security_library_md5\030\236\005 \001(\t\022\014\n\003tag" +
+      "\030\363\005 \001(\r\022\"\n\013KJEMCDAJINF\030\366\005 \001(\0132\014.FNGEEAFJ" +
+      "CDG\022\024\n\013ECJHHHKAFIO\030\223\006 \001(\t\022\024\n\013GLDDHPBGNAD" +
+      "\030\314\006 \001(\r\022\033\n\022security_cmd_reply\030\376\006 \001(\014\022\027\n\016" +
+      "extra_bin_data\030\377\006 \001(\014\022\024\n\013HJICNGJMCEL\030\274\007 " +
+      "\001(\r\022\027\n\016_xbox_gamertag\030\211\010 \001(\t\022\024\n\013MCKNOBKG" +
+      "GEM\030\233\010 \001(\r\022\025\n\014country_code\030\245\010 \001(\t\022\024\n\013HPH" +
+      "GKOCDPJE\030\274\010 \001(\r\022\021\n\010birthday\030\351\010 \001(\t\022 \n\027ch" +
+      "ecksum_client_version\030\210\t \001(\t\022\024\n\013LFABPIKD" +
+      "HKL\030\216\t \001(\010\022\016\n\005_uapc\030\226\t \001(\t\022\024\n\013HENDBLEDPI" +
+      "G\030\325\t \001(\r\022\024\n\013PMBCMNHEGHO\030\214\n \001(\t\022\024\n\013ALMPHO" +
+      "AOJEC\030\241\n \001(\r\022\024\n\013KDIKBHLPKDJ\030\373\013 \001(\r\022\034\n\023cl" +
+      "ient_data_version\030\255\014 \001(\r\022\024\n\013BKIICHHOJAF\030" +
+      "\267\014 \001(\t\022\024\n\013PDDPLNEPLJJ\030\350\014 \001(\t\022\024\n\013EHINEAJN" +
+      "AFK\030\323\r \001(\t\022\037\n\026environment_error_code\030\305\017 " +
+      "\001(\014B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.ALFKEHMLFLOOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.FNGEEAFJCDGOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto._Vector2IntOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.Vector2Int.getDescriptor(),
         });
     internal_static_PlayerLoginReq_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_PlayerLoginReq_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PlayerLoginReq_descriptor,
-        new java.lang.String[] { "IsGuest", "PlatformType", "TargetUid", "DeviceUuid", "Platform", "Token", "SystemVersion", "ClientVersion", "LanguageType", "DeviceName", "LoginRand", "DeviceInfo", "AccountType", "AccountUid", "IsEditor", "NBFMNCMEHGM", "Cps", "DFNBAFNKCED", "IHMDHCDBHDJ", "CEADLMGKJMP", "ChannelId", "Xuid", "Checksum", "PsnId", "Timestamp", "RegPlatform", "CGMBIAPFHGE", "OnlineId", "GmUid", "SecurityLibraryMd5", "Tag", "KJEMCDAJINF", "ECJHHHKAFIO", "SubChannelId", "SecurityCmdReply", "ExtraBinData", "CloudClientIp", "XboxGamertag", "MCKNOBKGGEM", "CountryCode", "HPHGKOCDPJE", "Birthday", "ChecksumClientVersion", "LFABPIKDHKL", "OMBBHFFLNIM", "HENDBLEDPIG", "PMBCMNHEGHO", "ALMPHOAOJEC", "KDIKBHLPKDJ", "ClientDataVersion", "BKIICHHOJAF", "PDDPLNEPLJJ", "ClientVerisonHash", "EnvironmentErrorCode", });
+        new java.lang.String[] { "IsGuest", "PlatformType", "TargetUid", "DeviceUuid", "Platform", "Token", "SystemVersion", "ClientVersion", "LanguageType", "DeviceName", "LoginRand", "DeviceInfo", "INIKCPKAFJE", "AccountUid", "IsEditor", "NBFMNCMEHGM", "NEBJEJBGEPD", "DFNBAFNKCED", "IHMDHCDBHDJ", "CEADLMGKJMP", "ChannelId", "Xuid", "Checksum", "PsnId", "Timestamp", "JOJKNGHGACF", "CGMBIAPFHGE", "OnlineId", "OJMCPPOBAOJ", "SecurityLibraryMd5", "Tag", "KJEMCDAJINF", "ECJHHHKAFIO", "GLDDHPBGNAD", "SecurityCmdReply", "ExtraBinData", "HJICNGJMCEL", "XboxGamertag", "MCKNOBKGGEM", "CountryCode", "HPHGKOCDPJE", "Birthday", "ChecksumClientVersion", "LFABPIKDHKL", "Uapc", "HENDBLEDPIG", "PMBCMNHEGHO", "ALMPHOAOJEC", "KDIKBHLPKDJ", "ClientDataVersion", "BKIICHHOJAF", "PDDPLNEPLJJ", "EHINEAJNAFK", "EnvironmentErrorCode", });
     emu.grasscutter.net.proto.ALFKEHMLFLOOuterClass.getDescriptor();
     emu.grasscutter.net.proto.FNGEEAFJCDGOuterClass.getDescriptor();
-    emu.grasscutter.net.proto._Vector2IntOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.Vector2Int.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

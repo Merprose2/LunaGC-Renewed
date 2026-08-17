@@ -19,39 +19,35 @@ public final class ChessMonsterInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 monster_id = 11;</code>
+     * <code>uint32 level = 1;</code>
+     * @return The level.
+     */
+    int getLevel();
+
+    /**
+     * <code>uint32 monster_id = 8;</code>
      * @return The monsterId.
      */
     int getMonsterId();
 
     /**
-     * <code>repeated uint32 affix_list = 9;</code>
+     * <code>repeated uint32 affix_list = 12;</code>
      * @return A list containing the affixList.
      */
     java.util.List<java.lang.Integer> getAffixListList();
     /**
-     * <code>repeated uint32 affix_list = 9;</code>
+     * <code>repeated uint32 affix_list = 12;</code>
      * @return The count of affixList.
      */
     int getAffixListCount();
     /**
-     * <code>repeated uint32 affix_list = 9;</code>
+     * <code>repeated uint32 affix_list = 12;</code>
      * @param index The index of the element to return.
      * @return The affixList at the given index.
      */
     int getAffixList(int index);
-
-    /**
-     * <code>uint32 level = 10;</code>
-     * @return The level.
-     */
-    int getLevel();
   }
   /**
-   * <pre>
-   * Obf: MBBGDAFCIBA
-   * </pre>
-   *
    * Protobuf type {@code ChessMonsterInfo}
    */
   public static final class ChessMonsterInfo extends
@@ -98,7 +94,17 @@ public final class ChessMonsterInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 8: {
+
+              level_ = input.readUInt32();
+              break;
+            }
+            case 64: {
+
+              monsterId_ = input.readUInt32();
+              break;
+            }
+            case 96: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 affixList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -106,7 +112,7 @@ public final class ChessMonsterInfoOuterClass {
               affixList_.addInt(input.readUInt32());
               break;
             }
-            case 50: {
+            case 98: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -117,16 +123,6 @@ public final class ChessMonsterInfoOuterClass {
                 affixList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 112: {
-
-              level_ = input.readUInt32();
-              break;
-            }
-            case 24: {
-
-              monsterId_ = input.readUInt32();
               break;
             }
             default: {
@@ -164,10 +160,21 @@ public final class ChessMonsterInfoOuterClass {
               emu.grasscutter.net.proto.ChessMonsterInfoOuterClass.ChessMonsterInfo.class, emu.grasscutter.net.proto.ChessMonsterInfoOuterClass.ChessMonsterInfo.Builder.class);
     }
 
-    public static final int MONSTER_ID_FIELD_NUMBER = 3;
+    public static final int LEVEL_FIELD_NUMBER = 1;
+    private int level_;
+    /**
+     * <code>uint32 level = 1;</code>
+     * @return The level.
+     */
+    @java.lang.Override
+    public int getLevel() {
+      return level_;
+    }
+
+    public static final int MONSTER_ID_FIELD_NUMBER = 8;
     private int monsterId_;
     /**
-     * <code>uint32 monster_id = 11;</code>
+     * <code>uint32 monster_id = 8;</code>
      * @return The monsterId.
      */
     @java.lang.Override
@@ -175,10 +182,10 @@ public final class ChessMonsterInfoOuterClass {
       return monsterId_;
     }
 
-    public static final int AFFIX_LIST_FIELD_NUMBER = 6;
+    public static final int AFFIX_LIST_FIELD_NUMBER = 12;
     private com.google.protobuf.Internal.IntList affixList_;
     /**
-     * <code>repeated uint32 affix_list = 9;</code>
+     * <code>repeated uint32 affix_list = 12;</code>
      * @return A list containing the affixList.
      */
     @java.lang.Override
@@ -187,14 +194,14 @@ public final class ChessMonsterInfoOuterClass {
       return affixList_;
     }
     /**
-     * <code>repeated uint32 affix_list = 9;</code>
+     * <code>repeated uint32 affix_list = 12;</code>
      * @return The count of affixList.
      */
     public int getAffixListCount() {
       return affixList_.size();
     }
     /**
-     * <code>repeated uint32 affix_list = 9;</code>
+     * <code>repeated uint32 affix_list = 12;</code>
      * @param index The index of the element to return.
      * @return The affixList at the given index.
      */
@@ -202,17 +209,6 @@ public final class ChessMonsterInfoOuterClass {
       return affixList_.getInt(index);
     }
     private int affixListMemoizedSerializedSize = -1;
-
-    public static final int LEVEL_FIELD_NUMBER = 14;
-    private int level_;
-    /**
-     * <code>uint32 level = 10;</code>
-     * @return The level.
-     */
-    @java.lang.Override
-    public int getLevel() {
-      return level_;
-    }
 
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
@@ -229,18 +225,18 @@ public final class ChessMonsterInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (level_ != 0) {
+        output.writeUInt32(1, level_);
+      }
+      if (monsterId_ != 0) {
+        output.writeUInt32(8, monsterId_);
+      }
       if (getAffixListList().size() > 0) {
-        output.writeUInt32NoTag(50);
+        output.writeUInt32NoTag(98);
         output.writeUInt32NoTag(affixListMemoizedSerializedSize);
       }
       for (int i = 0; i < affixList_.size(); i++) {
         output.writeUInt32NoTag(affixList_.getInt(i));
-      }
-      if (level_ != 0) {
-        output.writeUInt32(14, level_);
-      }
-      if (monsterId_ != 0) {
-        output.writeUInt32(3, monsterId_);
       }
       unknownFields.writeTo(output);
     }
@@ -251,6 +247,14 @@ public final class ChessMonsterInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (level_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(1, level_);
+      }
+      if (monsterId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(8, monsterId_);
+      }
       {
         int dataSize = 0;
         for (int i = 0; i < affixList_.size(); i++) {
@@ -264,14 +268,6 @@ public final class ChessMonsterInfoOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         affixListMemoizedSerializedSize = dataSize;
-      }
-      if (level_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, level_);
-      }
-      if (monsterId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, monsterId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -288,12 +284,12 @@ public final class ChessMonsterInfoOuterClass {
       }
       emu.grasscutter.net.proto.ChessMonsterInfoOuterClass.ChessMonsterInfo other = (emu.grasscutter.net.proto.ChessMonsterInfoOuterClass.ChessMonsterInfo) obj;
 
+      if (getLevel()
+          != other.getLevel()) return false;
       if (getMonsterId()
           != other.getMonsterId()) return false;
       if (!getAffixListList()
           .equals(other.getAffixListList())) return false;
-      if (getLevel()
-          != other.getLevel()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -305,14 +301,14 @@ public final class ChessMonsterInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + LEVEL_FIELD_NUMBER;
+      hash = (53 * hash) + getLevel();
       hash = (37 * hash) + MONSTER_ID_FIELD_NUMBER;
       hash = (53 * hash) + getMonsterId();
       if (getAffixListCount() > 0) {
         hash = (37 * hash) + AFFIX_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getAffixListList().hashCode();
       }
-      hash = (37 * hash) + LEVEL_FIELD_NUMBER;
-      hash = (53 * hash) + getLevel();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -409,10 +405,6 @@ public final class ChessMonsterInfoOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * Obf: MBBGDAFCIBA
-     * </pre>
-     *
      * Protobuf type {@code ChessMonsterInfo}
      */
     public static final class Builder extends
@@ -450,12 +442,12 @@ public final class ChessMonsterInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        level_ = 0;
+
         monsterId_ = 0;
 
         affixList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        level_ = 0;
-
         return this;
       }
 
@@ -483,13 +475,13 @@ public final class ChessMonsterInfoOuterClass {
       public emu.grasscutter.net.proto.ChessMonsterInfoOuterClass.ChessMonsterInfo buildPartial() {
         emu.grasscutter.net.proto.ChessMonsterInfoOuterClass.ChessMonsterInfo result = new emu.grasscutter.net.proto.ChessMonsterInfoOuterClass.ChessMonsterInfo(this);
         int from_bitField0_ = bitField0_;
+        result.level_ = level_;
         result.monsterId_ = monsterId_;
         if (((bitField0_ & 0x00000001) != 0)) {
           affixList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
         result.affixList_ = affixList_;
-        result.level_ = level_;
         onBuilt();
         return result;
       }
@@ -538,6 +530,9 @@ public final class ChessMonsterInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ChessMonsterInfoOuterClass.ChessMonsterInfo other) {
         if (other == emu.grasscutter.net.proto.ChessMonsterInfoOuterClass.ChessMonsterInfo.getDefaultInstance()) return this;
+        if (other.getLevel() != 0) {
+          setLevel(other.getLevel());
+        }
         if (other.getMonsterId() != 0) {
           setMonsterId(other.getMonsterId());
         }
@@ -550,9 +545,6 @@ public final class ChessMonsterInfoOuterClass {
             affixList_.addAll(other.affixList_);
           }
           onChanged();
-        }
-        if (other.getLevel() != 0) {
-          setLevel(other.getLevel());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -584,9 +576,40 @@ public final class ChessMonsterInfoOuterClass {
       }
       private int bitField0_;
 
+      private int level_ ;
+      /**
+       * <code>uint32 level = 1;</code>
+       * @return The level.
+       */
+      @java.lang.Override
+      public int getLevel() {
+        return level_;
+      }
+      /**
+       * <code>uint32 level = 1;</code>
+       * @param value The level to set.
+       * @return This builder for chaining.
+       */
+      public Builder setLevel(int value) {
+        
+        level_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 level = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearLevel() {
+        
+        level_ = 0;
+        onChanged();
+        return this;
+      }
+
       private int monsterId_ ;
       /**
-       * <code>uint32 monster_id = 11;</code>
+       * <code>uint32 monster_id = 8;</code>
        * @return The monsterId.
        */
       @java.lang.Override
@@ -594,7 +617,7 @@ public final class ChessMonsterInfoOuterClass {
         return monsterId_;
       }
       /**
-       * <code>uint32 monster_id = 11;</code>
+       * <code>uint32 monster_id = 8;</code>
        * @param value The monsterId to set.
        * @return This builder for chaining.
        */
@@ -605,7 +628,7 @@ public final class ChessMonsterInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 monster_id = 11;</code>
+       * <code>uint32 monster_id = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearMonsterId() {
@@ -623,7 +646,7 @@ public final class ChessMonsterInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 affix_list = 9;</code>
+       * <code>repeated uint32 affix_list = 12;</code>
        * @return A list containing the affixList.
        */
       public java.util.List<java.lang.Integer>
@@ -632,14 +655,14 @@ public final class ChessMonsterInfoOuterClass {
                  java.util.Collections.unmodifiableList(affixList_) : affixList_;
       }
       /**
-       * <code>repeated uint32 affix_list = 9;</code>
+       * <code>repeated uint32 affix_list = 12;</code>
        * @return The count of affixList.
        */
       public int getAffixListCount() {
         return affixList_.size();
       }
       /**
-       * <code>repeated uint32 affix_list = 9;</code>
+       * <code>repeated uint32 affix_list = 12;</code>
        * @param index The index of the element to return.
        * @return The affixList at the given index.
        */
@@ -647,7 +670,7 @@ public final class ChessMonsterInfoOuterClass {
         return affixList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 affix_list = 9;</code>
+       * <code>repeated uint32 affix_list = 12;</code>
        * @param index The index to set the value at.
        * @param value The affixList to set.
        * @return This builder for chaining.
@@ -660,7 +683,7 @@ public final class ChessMonsterInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 affix_list = 9;</code>
+       * <code>repeated uint32 affix_list = 12;</code>
        * @param value The affixList to add.
        * @return This builder for chaining.
        */
@@ -671,7 +694,7 @@ public final class ChessMonsterInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 affix_list = 9;</code>
+       * <code>repeated uint32 affix_list = 12;</code>
        * @param values The affixList to add.
        * @return This builder for chaining.
        */
@@ -684,43 +707,12 @@ public final class ChessMonsterInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 affix_list = 9;</code>
+       * <code>repeated uint32 affix_list = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearAffixList() {
         affixList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
-        return this;
-      }
-
-      private int level_ ;
-      /**
-       * <code>uint32 level = 10;</code>
-       * @return The level.
-       */
-      @java.lang.Override
-      public int getLevel() {
-        return level_;
-      }
-      /**
-       * <code>uint32 level = 10;</code>
-       * @param value The level to set.
-       * @return This builder for chaining.
-       */
-      public Builder setLevel(int value) {
-        
-        level_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 level = 10;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearLevel() {
-        
-        level_ = 0;
         onChanged();
         return this;
       }
@@ -792,8 +784,8 @@ public final class ChessMonsterInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026ChessMonsterInfo.proto\"I\n\020ChessMonster" +
-      "Info\022\022\n\nmonster_id\030\013 \001(\r\022\022\n\naffix_list\030\t" +
-      " \003(\r\022\r\n\005level\030\n \001(\rB\033\n\031emu.grasscutter.n" +
+      "Info\022\r\n\005level\030\001 \001(\r\022\022\n\nmonster_id\030\010 \001(\r\022" +
+      "\022\n\naffix_list\030\014 \003(\rB\033\n\031emu.grasscutter.n" +
       "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -805,7 +797,7 @@ public final class ChessMonsterInfoOuterClass {
     internal_static_ChessMonsterInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ChessMonsterInfo_descriptor,
-        new java.lang.String[] { "MonsterId", "AffixList", "Level", });
+        new java.lang.String[] { "Level", "MonsterId", "AffixList", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

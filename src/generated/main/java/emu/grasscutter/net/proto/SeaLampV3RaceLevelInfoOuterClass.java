@@ -659,9 +659,8 @@ public final class SeaLampV3RaceLevelInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034SeaLampV3RaceLevelInfo.proto\"N\n\026SeaLam" +
       "pV3RaceLevelInfo\022\021\n\tmax_score\030\005 \001(\r\022\017\n\007i" +
-      "s_open\030\n \001(\010\022\020\n\010level_id\030\017 \001(\rB=\n\031emu.gr" +
-      "asscutter.net.protoB SeaLampV3RaceLevelI" +
-      "nfoOuterClassb\006proto3"
+      "s_open\030\n \001(\010\022\020\n\010level_id\030\017 \001(\rB\033\n\031emu.gr" +
+      "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

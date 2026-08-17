@@ -1360,9 +1360,8 @@ public final class CustomDungeonResultInfoOuterClass {
       "rief\022\020\n\010is_liked\030\007 \001(\010\022-\n\013finish_type\030\010 " +
       "\001(\0162\030.CustomDungeonFinishType\022\024\n\014dungeon" +
       "_guid\030\t \001(\004\022\024\n\014got_coin_num\030\r \001(\r\022\021\n\tis_" +
-      "stored\030\017 \001(\010B>\n\031emu.grasscutter.net.prot" +
-      "oB!CustomDungeonResultInfoOuterClassb\006pr" +
-      "oto3"
+      "stored\030\017 \001(\010B\033\n\031emu.grasscutter.net.prot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

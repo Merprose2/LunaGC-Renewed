@@ -588,9 +588,8 @@ public final class EAPNMDHADGPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EAPNMDHADGP.proto\"0\n\013EAPNMDHADGP\022\017\n\007is" +
-      "_open\030\006 \001(\010\022\020\n\010level_id\030\r \001(\rB2\n\031emu.gra" +
-      "sscutter.net.protoB\025EAPNMDHADGPOuterClas" +
-      "sb\006proto3"
+      "_open\030\006 \001(\010\022\020\n\010level_id\030\r \001(\rB\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1950,9 +1950,8 @@ public final class RogueStageInfoOuterClass {
       "DHLBAPDOFMF\030\013 \001(\010\022\023\n\013KAJLCAPNCFA\030\014 \001(\010\022\020" +
       "\n\010stage_id\030\r \001(\r\022\023\n\013JEEEJLIDCCN\030\016 \001(\r\022\023\n" +
       "\013JKCCEMMPJIO\030\017 \001(\r\022\024\n\013CPDHCBHKOEC\030\272\001 \001(\r" +
-      "\022\035\n\024revise_monster_level\030\227\004 \001(\rB5\n\031emu.g" +
-      "rasscutter.net.protoB\030RogueStageInfoOute" +
-      "rClassb\006proto3"
+      "\022\035\n\024revise_monster_level\030\227\004 \001(\rB\033\n\031emu.g" +
+      "rasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

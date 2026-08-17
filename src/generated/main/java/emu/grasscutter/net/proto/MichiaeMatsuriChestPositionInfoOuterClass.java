@@ -792,9 +792,8 @@ public final class MichiaeMatsuriChestPositionInfoOuterClass {
       "\n%MichiaeMatsuriChestPositionInfo.proto\032" +
       "\014Vector.proto\"\\\n\037MichiaeMatsuriChestPosi" +
       "tionInfo\022\024\n\003pos\030\003 \001(\0132\007.Vector\022\021\n\tconfig" +
-      "_id\030\007 \001(\r\022\020\n\010group_id\030\t \001(\rBF\n\031emu.grass" +
-      "cutter.net.protoB)MichiaeMatsuriChestPos" +
-      "itionInfoOuterClassb\006proto3"
+      "_id\030\007 \001(\r\022\020\n\010group_id\030\t \001(\rB\033\n\031emu.grass" +
+      "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

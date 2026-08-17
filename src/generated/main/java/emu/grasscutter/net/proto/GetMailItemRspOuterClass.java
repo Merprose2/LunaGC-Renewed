@@ -90,6 +90,10 @@ public final class GetMailItemRspOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 22872
+   * </pre>
+   *
    * Protobuf type {@code GetMailItemRsp}
    */
   public static final class GetMailItemRsp extends
@@ -552,6 +556,10 @@ public final class GetMailItemRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 22872
+     * </pre>
+     *
      * Protobuf type {@code GetMailItemRsp}
      */
     public static final class Builder extends
@@ -1461,9 +1469,8 @@ public final class GetMailItemRspOuterClass {
       "\032\016ItemHint.proto\"}\n\016GetMailItemRsp\022\017\n\007re" +
       "tcode\030\001 \001(\005\022\024\n\014mail_id_list\030\r \003(\r\022$\n\021_be" +
       "yond_item_hint\030\016 \003(\0132\t.ItemHint\022\036\n\titem_" +
-      "list\030\017 \003(\0132\013.EquipParamB5\n\031emu.grasscutt" +
-      "er.net.protoB\030GetMailItemRspOuterClassb\006" +
-      "proto3"
+      "list\030\017 \003(\0132\013.EquipParamB\033\n\031emu.grasscutt" +
+      "er.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

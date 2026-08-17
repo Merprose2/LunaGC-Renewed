@@ -49,6 +49,10 @@ public final class CardProductRewardNotifyOuterClass {
         getProductIdBytes();
   }
   /**
+   * <pre>
+   * CmdID: 368
+   * </pre>
+   *
    * Protobuf type {@code CardProductRewardNotify}
    */
   public static final class CardProductRewardNotify extends
@@ -407,6 +411,10 @@ public final class CardProductRewardNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 368
+     * </pre>
+     *
      * Protobuf type {@code CardProductRewardNotify}
      */
     public static final class Builder extends
@@ -810,9 +818,8 @@ public final class CardProductRewardNotifyOuterClass {
       "\n\035CardProductRewardNotify.proto\"f\n\027CardP" +
       "roductRewardNotify\022\r\n\005hcoin\030\005 \001(\r\022\023\n\013OAB" +
       "OKBGPEHG\030\010 \001(\010\022\023\n\013remain_days\030\014 \001(\r\022\022\n\np" +
-      "roduct_id\030\r \001(\tB>\n\031emu.grasscutter.net.p" +
-      "rotoB!CardProductRewardNotifyOuterClassb" +
-      "\006proto3"
+      "roduct_id\030\r \001(\tB\033\n\031emu.grasscutter.net.p" +
+      "rotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

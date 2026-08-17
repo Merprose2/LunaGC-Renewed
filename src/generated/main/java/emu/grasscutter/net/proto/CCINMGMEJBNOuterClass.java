@@ -1107,8 +1107,7 @@ public final class CCINMGMEJBNOuterClass {
       "\n\013CCINMGMEJBN\022!\n\013NBFDAIOLGFI\030\002 \003(\0132\014.GBL" +
       "GAGAPIFE\022\017\n\007is_open\030\005 \001(\010\022\021\n\tis_finish\030\t" +
       " \001(\010\022\020\n\010stage_id\030\n \001(\r\022\022\n\nbest_score\030\014 \001" +
-      "(\rB2\n\031emu.grasscutter.net.protoB\025CCINMGM" +
-      "EJBNOuterClassb\006proto3"
+      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -143,8 +143,8 @@ public final class MMPPAHOHHBJOuterClass {
       "\n\021MMPPAHOHHBJ.proto*w\n\013MMPPAHOHHBJ\022#\n\037MM" +
       "PPAHOHHBJ_GAME_PROCESS_NORMAL\020\000\022 \n\034MMPPA" +
       "HOHHBJ_GAME_PROCESS_UGC\020\001\022!\n\035MMPPAHOHHBJ" +
-      "_GAME_PROCESS_HALL\020\002B2\n\031emu.grasscutter." +
-      "net.protoB\025MMPPAHOHHBJOuterClassb\006proto3"
+      "_GAME_PROCESS_HALL\020\002B\033\n\031emu.grasscutter." +
+      "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -52,6 +52,10 @@ public final class LevelupCityRspOuterClass {
     emu.grasscutter.net.proto.CityInfoOuterClass.CityInfoOrBuilder getCityInfoOrBuilder();
   }
   /**
+   * <pre>
+   * CmdID: 23887
+   * </pre>
+   *
    * Protobuf type {@code LevelupCityRsp}
    */
   public static final class LevelupCityRsp extends
@@ -409,6 +413,10 @@ public final class LevelupCityRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 23887
+     * </pre>
+     *
      * Protobuf type {@code LevelupCityRsp}
      */
     public static final class Builder extends
@@ -862,9 +870,8 @@ public final class LevelupCityRspOuterClass {
       "\n\024LevelupCityRsp.proto\032\016CityInfo.proto\"b" +
       "\n\016LevelupCityRsp\022\017\n\007area_id\030\005 \001(\r\022\017\n\007ret" +
       "code\030\006 \001(\005\022\020\n\010scene_id\030\010 \001(\r\022\034\n\tcity_inf" +
-      "o\030\n \001(\0132\t.CityInfoB5\n\031emu.grasscutter.ne" +
-      "t.protoB\030LevelupCityRspOuterClassb\006proto" +
-      "3"
+      "o\030\n \001(\0132\t.CityInfoB\033\n\031emu.grasscutter.ne" +
+      "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

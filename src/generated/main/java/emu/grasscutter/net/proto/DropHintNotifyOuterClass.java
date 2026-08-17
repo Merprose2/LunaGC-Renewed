@@ -78,6 +78,10 @@ public final class DropHintNotifyOuterClass {
     int getEntityId();
   }
   /**
+   * <pre>
+   * CmdID: 8642
+   * </pre>
+   *
    * Protobuf type {@code DropHintNotify}
    */
   public static final class DropHintNotify extends
@@ -546,6 +550,10 @@ public final class DropHintNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 8642
+     * </pre>
+     *
      * Protobuf type {@code DropHintNotify}
      */
     public static final class Builder extends
@@ -1194,8 +1202,8 @@ public final class DropHintNotifyOuterClass {
       "\016DropHintNotify\022\024\n\014item_id_list\030\003 \003(\r\022\023\n" +
       "\013AJDBEGMCGKD\030\005 \001(\010\022\031\n\010position\030\007 \001(\0132\007.V" +
       "ector\022\031\n\010rotation\030\n \001(\0132\007.Vector\022\021\n\tenti" +
-      "ty_id\030\017 \001(\rB5\n\031emu.grasscutter.net.proto" +
-      "B\030DropHintNotifyOuterClassb\006proto3"
+      "ty_id\030\017 \001(\rB\033\n\031emu.grasscutter.net.proto" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

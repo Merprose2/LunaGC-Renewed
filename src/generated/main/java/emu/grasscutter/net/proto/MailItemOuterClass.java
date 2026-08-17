@@ -855,9 +855,8 @@ public final class MailItemOuterClass {
       "\n\016MailItem.proto\032\020EquipParam.proto\032\030Mate" +
       "rialDeleteInfo.proto\"V\n\010MailItem\022 \n\013equi" +
       "p_param\030\001 \001(\0132\013.EquipParam\022(\n\013delete_inf" +
-      "o\030\002 \001(\0132\023.MaterialDeleteInfoB/\n\031emu.gras" +
-      "scutter.net.protoB\022MailItemOuterClassb\006p" +
-      "roto3"
+      "o\030\002 \001(\0132\023.MaterialDeleteInfoB\033\n\031emu.gras" +
+      "scutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

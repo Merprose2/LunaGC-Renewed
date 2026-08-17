@@ -43,6 +43,10 @@ public final class AvatarSatiationDataNotifyOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 1793
+   * </pre>
+   *
    * Protobuf type {@code AvatarSatiationDataNotify}
    */
   public static final class AvatarSatiationDataNotify extends
@@ -331,6 +335,10 @@ public final class AvatarSatiationDataNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 1793
+     * </pre>
+     *
      * Protobuf type {@code AvatarSatiationDataNotify}
      */
     public static final class Builder extends
@@ -824,9 +832,8 @@ public final class AvatarSatiationDataNotifyOuterClass {
       "\n\037AvatarSatiationDataNotify.proto\032\031Avata" +
       "rSatiationData.proto\"N\n\031AvatarSatiationD" +
       "ataNotify\0221\n\023satiation_data_list\030\001 \003(\0132\024" +
-      ".AvatarSatiationDataB@\n\031emu.grasscutter." +
-      "net.protoB#AvatarSatiationDataNotifyOute" +
-      "rClassb\006proto3"
+      ".AvatarSatiationDataB\033\n\031emu.grasscutter." +
+      "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

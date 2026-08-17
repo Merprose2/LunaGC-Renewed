@@ -142,10 +142,10 @@ public final class SceneEntityAiInfoOuterClass {
     int getCurTactic();
 
     /**
-     * <code>bool is_ai_open = 8;</code>
-     * @return The isAiOpen.
+     * <code>bool KLAFIGPLLBO = 8;</code>
+     * @return The kLAFIGPLLBO.
      */
-    boolean getIsAiOpen();
+    boolean getKLAFIGPLLBO();
 
     /**
      * <code>.MonsterRoute monster_route = 9;</code>
@@ -282,7 +282,7 @@ public final class SceneEntityAiInfoOuterClass {
             }
             case 64: {
 
-              isAiOpen_ = input.readBool();
+              kLAFIGPLLBO_ = input.readBool();
               break;
             }
             case 74: {
@@ -639,15 +639,15 @@ public final class SceneEntityAiInfoOuterClass {
       return curTactic_;
     }
 
-    public static final int IS_AI_OPEN_FIELD_NUMBER = 8;
-    private boolean isAiOpen_;
+    public static final int KLAFIGPLLBO_FIELD_NUMBER = 8;
+    private boolean kLAFIGPLLBO_;
     /**
-     * <code>bool is_ai_open = 8;</code>
-     * @return The isAiOpen.
+     * <code>bool KLAFIGPLLBO = 8;</code>
+     * @return The kLAFIGPLLBO.
      */
     @java.lang.Override
-    public boolean getIsAiOpen() {
-      return isAiOpen_;
+    public boolean getKLAFIGPLLBO() {
+      return kLAFIGPLLBO_;
     }
 
     public static final int MONSTER_ROUTE_FIELD_NUMBER = 9;
@@ -740,8 +740,8 @@ public final class SceneEntityAiInfoOuterClass {
       if (curTactic_ != 0) {
         output.writeUInt32(7, curTactic_);
       }
-      if (isAiOpen_ != false) {
-        output.writeBool(8, isAiOpen_);
+      if (kLAFIGPLLBO_ != false) {
+        output.writeBool(8, kLAFIGPLLBO_);
       }
       if (monsterRoute_ != null) {
         output.writeMessage(9, getMonsterRoute());
@@ -796,9 +796,9 @@ public final class SceneEntityAiInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(7, curTactic_);
       }
-      if (isAiOpen_ != false) {
+      if (kLAFIGPLLBO_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isAiOpen_);
+          .computeBoolSize(8, kLAFIGPLLBO_);
       }
       if (monsterRoute_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -836,8 +836,8 @@ public final class SceneEntityAiInfoOuterClass {
           other.internalGetSkillGroupCdMap())) return false;
       if (getCurTactic()
           != other.getCurTactic()) return false;
-      if (getIsAiOpen()
-          != other.getIsAiOpen()) return false;
+      if (getKLAFIGPLLBO()
+          != other.getKLAFIGPLLBO()) return false;
       if (hasMonsterRoute() != other.hasMonsterRoute()) return false;
       if (hasMonsterRoute()) {
         if (!getMonsterRoute()
@@ -877,9 +877,9 @@ public final class SceneEntityAiInfoOuterClass {
       }
       hash = (37 * hash) + CUR_TACTIC_FIELD_NUMBER;
       hash = (53 * hash) + getCurTactic();
-      hash = (37 * hash) + IS_AI_OPEN_FIELD_NUMBER;
+      hash = (37 * hash) + KLAFIGPLLBO_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsAiOpen());
+          getKLAFIGPLLBO());
       if (hasMonsterRoute()) {
         hash = (37 * hash) + MONSTER_ROUTE_FIELD_NUMBER;
         hash = (53 * hash) + getMonsterRoute().hashCode();
@@ -1062,7 +1062,7 @@ public final class SceneEntityAiInfoOuterClass {
         internalGetMutableSkillGroupCdMap().clear();
         curTactic_ = 0;
 
-        isAiOpen_ = false;
+        kLAFIGPLLBO_ = false;
 
         if (monsterRouteBuilder_ == null) {
           monsterRoute_ = null;
@@ -1115,7 +1115,7 @@ public final class SceneEntityAiInfoOuterClass {
         result.skillGroupCdMap_ = internalGetSkillGroupCdMap();
         result.skillGroupCdMap_.makeImmutable();
         result.curTactic_ = curTactic_;
-        result.isAiOpen_ = isAiOpen_;
+        result.kLAFIGPLLBO_ = kLAFIGPLLBO_;
         if (monsterRouteBuilder_ == null) {
           result.monsterRoute_ = monsterRoute_;
         } else {
@@ -1186,8 +1186,8 @@ public final class SceneEntityAiInfoOuterClass {
         if (other.getCurTactic() != 0) {
           setCurTactic(other.getCurTactic());
         }
-        if (other.getIsAiOpen() != false) {
-          setIsAiOpen(other.getIsAiOpen());
+        if (other.getKLAFIGPLLBO() != false) {
+          setKLAFIGPLLBO(other.getKLAFIGPLLBO());
         }
         if (other.hasMonsterRoute()) {
           mergeMonsterRoute(other.getMonsterRoute());
@@ -1759,33 +1759,33 @@ public final class SceneEntityAiInfoOuterClass {
         return this;
       }
 
-      private boolean isAiOpen_ ;
+      private boolean kLAFIGPLLBO_ ;
       /**
-       * <code>bool is_ai_open = 8;</code>
-       * @return The isAiOpen.
+       * <code>bool KLAFIGPLLBO = 8;</code>
+       * @return The kLAFIGPLLBO.
        */
       @java.lang.Override
-      public boolean getIsAiOpen() {
-        return isAiOpen_;
+      public boolean getKLAFIGPLLBO() {
+        return kLAFIGPLLBO_;
       }
       /**
-       * <code>bool is_ai_open = 8;</code>
-       * @param value The isAiOpen to set.
+       * <code>bool KLAFIGPLLBO = 8;</code>
+       * @param value The kLAFIGPLLBO to set.
        * @return This builder for chaining.
        */
-      public Builder setIsAiOpen(boolean value) {
+      public Builder setKLAFIGPLLBO(boolean value) {
         
-        isAiOpen_ = value;
+        kLAFIGPLLBO_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool is_ai_open = 8;</code>
+       * <code>bool KLAFIGPLLBO = 8;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIsAiOpen() {
+      public Builder clearKLAFIGPLLBO() {
         
-        isAiOpen_ = false;
+        kLAFIGPLLBO_ = false;
         onChanged();
         return this;
       }
@@ -2111,21 +2111,20 @@ public final class SceneEntityAiInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027SceneEntityAiInfo.proto\032\021AGDDMMIAGHC.p" +
       "roto\032\022MonsterRoute.proto\032\021ServantInfo.pr" +
-      "oto\"\202\004\n\021SceneEntityAiInfo\0228\n\014skill_cd_ma" +
+      "oto\"\203\004\n\021SceneEntityAiInfo\0228\n\014skill_cd_ma" +
       "p\030\003 \003(\0132\".SceneEntityAiInfo.SkillCdMapEn" +
       "try\022\"\n\014servant_info\030\004 \001(\0132\014.ServantInfo\022" +
       ":\n\rai_threat_map\030\005 \003(\0132#.SceneEntityAiIn" +
       "fo.AiThreatMapEntry\022C\n\022skill_group_cd_ma" +
       "p\030\006 \003(\0132\'.SceneEntityAiInfo.SkillGroupCd" +
-      "MapEntry\022\022\n\ncur_tactic\030\007 \001(\r\022\022\n\nis_ai_op" +
-      "en\030\010 \001(\010\022$\n\rmonster_route\030\t \001(\0132\r.Monste" +
-      "rRoute\022!\n\013HCPPLEOKNMH\030\n \001(\0132\014.AGDDMMIAGH" +
-      "C\0321\n\017SkillCdMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005val" +
-      "ue\030\002 \001(\r:\0028\001\0322\n\020AiThreatMapEntry\022\013\n\003key\030" +
-      "\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001\0326\n\024SkillGroupCd" +
-      "MapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001" +
-      "B8\n\031emu.grasscutter.net.protoB\033SceneEnti" +
-      "tyAiInfoOuterClassb\006proto3"
+      "MapEntry\022\022\n\ncur_tactic\030\007 \001(\r\022\023\n\013KLAFIGPL" +
+      "LBO\030\010 \001(\010\022$\n\rmonster_route\030\t \001(\0132\r.Monst" +
+      "erRoute\022!\n\013HCPPLEOKNMH\030\n \001(\0132\014.AGDDMMIAG" +
+      "HC\0321\n\017SkillCdMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005va" +
+      "lue\030\002 \001(\r:\0028\001\0322\n\020AiThreatMapEntry\022\013\n\003key" +
+      "\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001\0326\n\024SkillGroupC" +
+      "dMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028" +
+      "\001B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2139,7 +2138,7 @@ public final class SceneEntityAiInfoOuterClass {
     internal_static_SceneEntityAiInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_SceneEntityAiInfo_descriptor,
-        new java.lang.String[] { "SkillCdMap", "ServantInfo", "AiThreatMap", "SkillGroupCdMap", "CurTactic", "IsAiOpen", "MonsterRoute", "HCPPLEOKNMH", });
+        new java.lang.String[] { "SkillCdMap", "ServantInfo", "AiThreatMap", "SkillGroupCdMap", "CurTactic", "KLAFIGPLLBO", "MonsterRoute", "HCPPLEOKNMH", });
     internal_static_SceneEntityAiInfo_SkillCdMapEntry_descriptor =
       internal_static_SceneEntityAiInfo_descriptor.getNestedTypes().get(0);
     internal_static_SceneEntityAiInfo_SkillCdMapEntry_fieldAccessorTable = new

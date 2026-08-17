@@ -43,6 +43,10 @@ public final class QuestUpdateQuestVarRspOuterClass {
     int getQuestId();
   }
   /**
+   * <pre>
+   * CmdID: 9431
+   * </pre>
+   *
    * Protobuf type {@code QuestUpdateQuestVarRsp}
    */
   public static final class QuestUpdateQuestVarRsp extends
@@ -372,6 +376,10 @@ public final class QuestUpdateQuestVarRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 9431
+     * </pre>
+     *
      * Protobuf type {@code QuestUpdateQuestVarRsp}
      */
     public static final class Builder extends
@@ -729,9 +737,8 @@ public final class QuestUpdateQuestVarRspOuterClass {
       "\n\034QuestUpdateQuestVarRsp.proto\"r\n\026QuestU" +
       "pdateQuestVarRsp\022\034\n\024parent_quest_var_seq" +
       "\030\007 \001(\r\022\027\n\017parent_quest_id\030\t \001(\r\022\017\n\007retco" +
-      "de\030\r \001(\005\022\020\n\010quest_id\030\016 \001(\rB=\n\031emu.grassc" +
-      "utter.net.protoB QuestUpdateQuestVarRspO" +
-      "uterClassb\006proto3"
+      "de\030\r \001(\005\022\020\n\010quest_id\030\016 \001(\rB\033\n\031emu.grassc" +
+      "utter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

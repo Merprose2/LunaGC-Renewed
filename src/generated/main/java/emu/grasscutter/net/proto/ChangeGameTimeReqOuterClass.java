@@ -37,6 +37,10 @@ public final class ChangeGameTimeReqOuterClass {
     int getGameTime();
   }
   /**
+   * <pre>
+   * CmdID: 24374
+   * </pre>
+   *
    * Protobuf type {@code ChangeGameTimeReq}
    */
   public static final class ChangeGameTimeReq extends
@@ -340,6 +344,10 @@ public final class ChangeGameTimeReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 24374
+     * </pre>
+     *
      * Protobuf type {@code ChangeGameTimeReq}
      */
     public static final class Builder extends
@@ -659,9 +667,8 @@ public final class ChangeGameTimeReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027ChangeGameTimeReq.proto\"P\n\021ChangeGameT" +
       "imeReq\022\022\n\nextra_days\030\001 \001(\r\022\024\n\014is_force_s" +
-      "et\030\004 \001(\010\022\021\n\tgame_time\030\r \001(\rB8\n\031emu.grass" +
-      "cutter.net.protoB\033ChangeGameTimeReqOuter" +
-      "Classb\006proto3"
+      "et\030\004 \001(\010\022\021\n\tgame_time\030\r \001(\rB\033\n\031emu.grass" +
+      "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

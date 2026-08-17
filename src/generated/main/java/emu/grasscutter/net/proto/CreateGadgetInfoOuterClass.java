@@ -1325,8 +1325,7 @@ public final class CreateGadgetInfoOuterClass {
       "\030\001 \001(\0162\017.GadgetBornType\022&\n\005chest\030\002 \001(\0132\027" +
       ".CreateGadgetInfo.Chest\0328\n\005Chest\022\025\n\rches" +
       "t_drop_id\030\001 \001(\r\022\030\n\020is_show_cutscene\030\002 \001(" +
-      "\010B7\n\031emu.grasscutter.net.protoB\032CreateGa" +
-      "dgetInfoOuterClassb\006proto3"
+      "\010B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -721,9 +721,8 @@ public final class BJNDIAIEGJJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BJNDIAIEGJJ.proto\032\021CMPMKGIAPCH.proto\"E" +
       "\n\013BJNDIAIEGJJ\022\023\n\013FFKKKBEDKEC\030\001 \001(\r\022!\n\013DI" +
-      "NIIALNFFH\030\002 \001(\0132\014.CMPMKGIAPCHB2\n\031emu.gra" +
-      "sscutter.net.protoB\025BJNDIAIEGJJOuterClas" +
-      "sb\006proto3"
+      "NIIALNFFH\030\002 \001(\0132\014.CMPMKGIAPCHB\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

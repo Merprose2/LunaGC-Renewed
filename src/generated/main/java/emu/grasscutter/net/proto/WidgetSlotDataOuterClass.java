@@ -767,9 +767,8 @@ public final class WidgetSlotDataOuterClass {
       "\n\024WidgetSlotData.proto\032\023WidgetSlotTag.pr" +
       "oto\"k\n\016WidgetSlotData\022\023\n\013material_id\030\002 \001" +
       "(\r\022\033\n\003tag\030\005 \001(\0162\016.WidgetSlotTag\022\024\n\014cd_ov" +
-      "er_time\030\t \001(\r\022\021\n\tis_active\030\016 \001(\010B5\n\031emu." +
-      "grasscutter.net.protoB\030WidgetSlotDataOut" +
-      "erClassb\006proto3"
+      "er_time\030\t \001(\r\022\021\n\tis_active\030\016 \001(\010B\033\n\031emu." +
+      "grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

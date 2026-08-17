@@ -36,10 +36,10 @@ public final class TowerCurLevelRecordOuterClass {
     int getBuffIdList(int index);
 
     /**
-     * <code>uint32 cur_level_index = 5;</code>
-     * @return The curLevelIndex.
+     * <code>uint32 EHEIMMOAKJO = 5;</code>
+     * @return The eHEIMMOAKJO.
      */
-    int getCurLevelIndex();
+    int getEHEIMMOAKJO();
 
     /**
      * <code>repeated .TowerTeam tower_team_list = 6;</code>
@@ -72,10 +72,10 @@ public final class TowerCurLevelRecordOuterClass {
     boolean getIsUpperPart();
 
     /**
-     * <code>uint32 cur_floor_id = 11;</code>
-     * @return The curFloorId.
+     * <code>uint32 CGLPCLJIBLN = 11;</code>
+     * @return The cGLPCLJIBLN.
      */
-    int getCurFloorId();
+    int getCGLPCLJIBLN();
 
     /**
      * <code>bool is_empty = 12;</code>
@@ -154,7 +154,7 @@ public final class TowerCurLevelRecordOuterClass {
             }
             case 40: {
 
-              curLevelIndex_ = input.readUInt32();
+              eHEIMMOAKJO_ = input.readUInt32();
               break;
             }
             case 50: {
@@ -173,7 +173,7 @@ public final class TowerCurLevelRecordOuterClass {
             }
             case 88: {
 
-              curFloorId_ = input.readUInt32();
+              cGLPCLJIBLN_ = input.readUInt32();
               break;
             }
             case 96: {
@@ -247,15 +247,15 @@ public final class TowerCurLevelRecordOuterClass {
     }
     private int buffIdListMemoizedSerializedSize = -1;
 
-    public static final int CUR_LEVEL_INDEX_FIELD_NUMBER = 5;
-    private int curLevelIndex_;
+    public static final int EHEIMMOAKJO_FIELD_NUMBER = 5;
+    private int eHEIMMOAKJO_;
     /**
-     * <code>uint32 cur_level_index = 5;</code>
-     * @return The curLevelIndex.
+     * <code>uint32 EHEIMMOAKJO = 5;</code>
+     * @return The eHEIMMOAKJO.
      */
     @java.lang.Override
-    public int getCurLevelIndex() {
-      return curLevelIndex_;
+    public int getEHEIMMOAKJO() {
+      return eHEIMMOAKJO_;
     }
 
     public static final int TOWER_TEAM_LIST_FIELD_NUMBER = 6;
@@ -309,15 +309,15 @@ public final class TowerCurLevelRecordOuterClass {
       return isUpperPart_;
     }
 
-    public static final int CUR_FLOOR_ID_FIELD_NUMBER = 11;
-    private int curFloorId_;
+    public static final int CGLPCLJIBLN_FIELD_NUMBER = 11;
+    private int cGLPCLJIBLN_;
     /**
-     * <code>uint32 cur_floor_id = 11;</code>
-     * @return The curFloorId.
+     * <code>uint32 CGLPCLJIBLN = 11;</code>
+     * @return The cGLPCLJIBLN.
      */
     @java.lang.Override
-    public int getCurFloorId() {
-      return curFloorId_;
+    public int getCGLPCLJIBLN() {
+      return cGLPCLJIBLN_;
     }
 
     public static final int IS_EMPTY_FIELD_NUMBER = 12;
@@ -353,8 +353,8 @@ public final class TowerCurLevelRecordOuterClass {
       for (int i = 0; i < buffIdList_.size(); i++) {
         output.writeUInt32NoTag(buffIdList_.getInt(i));
       }
-      if (curLevelIndex_ != 0) {
-        output.writeUInt32(5, curLevelIndex_);
+      if (eHEIMMOAKJO_ != 0) {
+        output.writeUInt32(5, eHEIMMOAKJO_);
       }
       for (int i = 0; i < towerTeamList_.size(); i++) {
         output.writeMessage(6, towerTeamList_.get(i));
@@ -362,8 +362,8 @@ public final class TowerCurLevelRecordOuterClass {
       if (isUpperPart_ != false) {
         output.writeBool(9, isUpperPart_);
       }
-      if (curFloorId_ != 0) {
-        output.writeUInt32(11, curFloorId_);
+      if (cGLPCLJIBLN_ != 0) {
+        output.writeUInt32(11, cGLPCLJIBLN_);
       }
       if (isEmpty_ != false) {
         output.writeBool(12, isEmpty_);
@@ -391,9 +391,9 @@ public final class TowerCurLevelRecordOuterClass {
         }
         buffIdListMemoizedSerializedSize = dataSize;
       }
-      if (curLevelIndex_ != 0) {
+      if (eHEIMMOAKJO_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, curLevelIndex_);
+          .computeUInt32Size(5, eHEIMMOAKJO_);
       }
       for (int i = 0; i < towerTeamList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -403,9 +403,9 @@ public final class TowerCurLevelRecordOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(9, isUpperPart_);
       }
-      if (curFloorId_ != 0) {
+      if (cGLPCLJIBLN_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, curFloorId_);
+          .computeUInt32Size(11, cGLPCLJIBLN_);
       }
       if (isEmpty_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -428,14 +428,14 @@ public final class TowerCurLevelRecordOuterClass {
 
       if (!getBuffIdListList()
           .equals(other.getBuffIdListList())) return false;
-      if (getCurLevelIndex()
-          != other.getCurLevelIndex()) return false;
+      if (getEHEIMMOAKJO()
+          != other.getEHEIMMOAKJO()) return false;
       if (!getTowerTeamListList()
           .equals(other.getTowerTeamListList())) return false;
       if (getIsUpperPart()
           != other.getIsUpperPart()) return false;
-      if (getCurFloorId()
-          != other.getCurFloorId()) return false;
+      if (getCGLPCLJIBLN()
+          != other.getCGLPCLJIBLN()) return false;
       if (getIsEmpty()
           != other.getIsEmpty()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -453,8 +453,8 @@ public final class TowerCurLevelRecordOuterClass {
         hash = (37 * hash) + BUFF_ID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getBuffIdListList().hashCode();
       }
-      hash = (37 * hash) + CUR_LEVEL_INDEX_FIELD_NUMBER;
-      hash = (53 * hash) + getCurLevelIndex();
+      hash = (37 * hash) + EHEIMMOAKJO_FIELD_NUMBER;
+      hash = (53 * hash) + getEHEIMMOAKJO();
       if (getTowerTeamListCount() > 0) {
         hash = (37 * hash) + TOWER_TEAM_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getTowerTeamListList().hashCode();
@@ -462,8 +462,8 @@ public final class TowerCurLevelRecordOuterClass {
       hash = (37 * hash) + IS_UPPER_PART_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsUpperPart());
-      hash = (37 * hash) + CUR_FLOOR_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getCurFloorId();
+      hash = (37 * hash) + CGLPCLJIBLN_FIELD_NUMBER;
+      hash = (53 * hash) + getCGLPCLJIBLN();
       hash = (37 * hash) + IS_EMPTY_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsEmpty());
@@ -603,7 +603,7 @@ public final class TowerCurLevelRecordOuterClass {
         super.clear();
         buffIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        curLevelIndex_ = 0;
+        eHEIMMOAKJO_ = 0;
 
         if (towerTeamListBuilder_ == null) {
           towerTeamList_ = java.util.Collections.emptyList();
@@ -613,7 +613,7 @@ public final class TowerCurLevelRecordOuterClass {
         }
         isUpperPart_ = false;
 
-        curFloorId_ = 0;
+        cGLPCLJIBLN_ = 0;
 
         isEmpty_ = false;
 
@@ -649,7 +649,7 @@ public final class TowerCurLevelRecordOuterClass {
           bitField0_ = (bitField0_ & ~0x00000001);
         }
         result.buffIdList_ = buffIdList_;
-        result.curLevelIndex_ = curLevelIndex_;
+        result.eHEIMMOAKJO_ = eHEIMMOAKJO_;
         if (towerTeamListBuilder_ == null) {
           if (((bitField0_ & 0x00000002) != 0)) {
             towerTeamList_ = java.util.Collections.unmodifiableList(towerTeamList_);
@@ -660,7 +660,7 @@ public final class TowerCurLevelRecordOuterClass {
           result.towerTeamList_ = towerTeamListBuilder_.build();
         }
         result.isUpperPart_ = isUpperPart_;
-        result.curFloorId_ = curFloorId_;
+        result.cGLPCLJIBLN_ = cGLPCLJIBLN_;
         result.isEmpty_ = isEmpty_;
         onBuilt();
         return result;
@@ -720,8 +720,8 @@ public final class TowerCurLevelRecordOuterClass {
           }
           onChanged();
         }
-        if (other.getCurLevelIndex() != 0) {
-          setCurLevelIndex(other.getCurLevelIndex());
+        if (other.getEHEIMMOAKJO() != 0) {
+          setEHEIMMOAKJO(other.getEHEIMMOAKJO());
         }
         if (towerTeamListBuilder_ == null) {
           if (!other.towerTeamList_.isEmpty()) {
@@ -752,8 +752,8 @@ public final class TowerCurLevelRecordOuterClass {
         if (other.getIsUpperPart() != false) {
           setIsUpperPart(other.getIsUpperPart());
         }
-        if (other.getCurFloorId() != 0) {
-          setCurFloorId(other.getCurFloorId());
+        if (other.getCGLPCLJIBLN() != 0) {
+          setCGLPCLJIBLN(other.getCGLPCLJIBLN());
         }
         if (other.getIsEmpty() != false) {
           setIsEmpty(other.getIsEmpty());
@@ -867,33 +867,33 @@ public final class TowerCurLevelRecordOuterClass {
         return this;
       }
 
-      private int curLevelIndex_ ;
+      private int eHEIMMOAKJO_ ;
       /**
-       * <code>uint32 cur_level_index = 5;</code>
-       * @return The curLevelIndex.
+       * <code>uint32 EHEIMMOAKJO = 5;</code>
+       * @return The eHEIMMOAKJO.
        */
       @java.lang.Override
-      public int getCurLevelIndex() {
-        return curLevelIndex_;
+      public int getEHEIMMOAKJO() {
+        return eHEIMMOAKJO_;
       }
       /**
-       * <code>uint32 cur_level_index = 5;</code>
-       * @param value The curLevelIndex to set.
+       * <code>uint32 EHEIMMOAKJO = 5;</code>
+       * @param value The eHEIMMOAKJO to set.
        * @return This builder for chaining.
        */
-      public Builder setCurLevelIndex(int value) {
+      public Builder setEHEIMMOAKJO(int value) {
         
-        curLevelIndex_ = value;
+        eHEIMMOAKJO_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 cur_level_index = 5;</code>
+       * <code>uint32 EHEIMMOAKJO = 5;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCurLevelIndex() {
+      public Builder clearEHEIMMOAKJO() {
         
-        curLevelIndex_ = 0;
+        eHEIMMOAKJO_ = 0;
         onChanged();
         return this;
       }
@@ -1169,33 +1169,33 @@ public final class TowerCurLevelRecordOuterClass {
         return this;
       }
 
-      private int curFloorId_ ;
+      private int cGLPCLJIBLN_ ;
       /**
-       * <code>uint32 cur_floor_id = 11;</code>
-       * @return The curFloorId.
+       * <code>uint32 CGLPCLJIBLN = 11;</code>
+       * @return The cGLPCLJIBLN.
        */
       @java.lang.Override
-      public int getCurFloorId() {
-        return curFloorId_;
+      public int getCGLPCLJIBLN() {
+        return cGLPCLJIBLN_;
       }
       /**
-       * <code>uint32 cur_floor_id = 11;</code>
-       * @param value The curFloorId to set.
+       * <code>uint32 CGLPCLJIBLN = 11;</code>
+       * @param value The cGLPCLJIBLN to set.
        * @return This builder for chaining.
        */
-      public Builder setCurFloorId(int value) {
+      public Builder setCGLPCLJIBLN(int value) {
         
-        curFloorId_ = value;
+        cGLPCLJIBLN_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 cur_floor_id = 11;</code>
+       * <code>uint32 CGLPCLJIBLN = 11;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCurFloorId() {
+      public Builder clearCGLPCLJIBLN() {
         
-        curFloorId_ = 0;
+        cGLPCLJIBLN_ = 0;
         onChanged();
         return this;
       }
@@ -1298,13 +1298,12 @@ public final class TowerCurLevelRecordOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031TowerCurLevelRecord.proto\032\017TowerTeam.p" +
-      "roto\"\250\001\n\023TowerCurLevelRecord\022\024\n\014buff_id_" +
-      "list\030\002 \003(\r\022\027\n\017cur_level_index\030\005 \001(\r\022#\n\017t" +
-      "ower_team_list\030\006 \003(\0132\n.TowerTeam\022\025\n\ris_u" +
-      "pper_part\030\t \001(\010\022\024\n\014cur_floor_id\030\013 \001(\r\022\020\n" +
-      "\010is_empty\030\014 \001(\010B:\n\031emu.grasscutter.net.p" +
-      "rotoB\035TowerCurLevelRecordOuterClassb\006pro" +
-      "to3"
+      "roto\"\243\001\n\023TowerCurLevelRecord\022\024\n\014buff_id_" +
+      "list\030\002 \003(\r\022\023\n\013EHEIMMOAKJO\030\005 \001(\r\022#\n\017tower" +
+      "_team_list\030\006 \003(\0132\n.TowerTeam\022\025\n\ris_upper" +
+      "_part\030\t \001(\010\022\023\n\013CGLPCLJIBLN\030\013 \001(\r\022\020\n\010is_e" +
+      "mpty\030\014 \001(\010B\033\n\031emu.grasscutter.net.protob" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1316,7 +1315,7 @@ public final class TowerCurLevelRecordOuterClass {
     internal_static_TowerCurLevelRecord_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_TowerCurLevelRecord_descriptor,
-        new java.lang.String[] { "BuffIdList", "CurLevelIndex", "TowerTeamList", "IsUpperPart", "CurFloorId", "IsEmpty", });
+        new java.lang.String[] { "BuffIdList", "EHEIMMOAKJO", "TowerTeamList", "IsUpperPart", "CGLPCLJIBLN", "IsEmpty", });
     emu.grasscutter.net.proto.TowerTeamOuterClass.getDescriptor();
   }
 

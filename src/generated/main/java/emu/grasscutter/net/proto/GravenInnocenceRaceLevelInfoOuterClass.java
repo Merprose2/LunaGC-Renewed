@@ -660,8 +660,7 @@ public final class GravenInnocenceRaceLevelInfoOuterClass {
       "\n\"GravenInnocenceRaceLevelInfo.proto\"T\n\034" +
       "GravenInnocenceRaceLevelInfo\022\020\n\010level_id" +
       "\030\002 \001(\r\022\021\n\tmax_score\030\010 \001(\r\022\017\n\007is_open\030\r \001" +
-      "(\010BC\n\031emu.grasscutter.net.protoB&GravenI" +
-      "nnocenceRaceLevelInfoOuterClassb\006proto3"
+      "(\010B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

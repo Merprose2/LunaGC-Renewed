@@ -25,6 +25,10 @@ public final class HomeSaveArrangementNoChangeReqOuterClass {
     int getSceneId();
   }
   /**
+   * <pre>
+   * CmdID: 27352
+   * </pre>
+   *
    * Protobuf type {@code HomeSaveArrangementNoChangeReq}
    */
   public static final class HomeSaveArrangementNoChangeReq extends
@@ -273,6 +277,10 @@ public final class HomeSaveArrangementNoChangeReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 27352
+     * </pre>
+     *
      * Protobuf type {@code HomeSaveArrangementNoChangeReq}
      */
     public static final class Builder extends
@@ -518,9 +526,8 @@ public final class HomeSaveArrangementNoChangeReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n$HomeSaveArrangementNoChangeReq.proto\"2" +
       "\n\036HomeSaveArrangementNoChangeReq\022\020\n\010scen" +
-      "e_id\030\007 \001(\rBE\n\031emu.grasscutter.net.protoB" +
-      "(HomeSaveArrangementNoChangeReqOuterClas" +
-      "sb\006proto3"
+      "e_id\030\007 \001(\rB\033\n\031emu.grasscutter.net.protob" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

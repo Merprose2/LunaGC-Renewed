@@ -728,9 +728,8 @@ public final class GEGHKDDPOHCOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GEGHKDDPOHC.proto\"\\\n\013GEGHKDDPOHC\022\022\n\nst" +
       "art_time\030\001 \001(\005\022\020\n\010end_time\030\002 \001(\005\022\024\n\014chal" +
-      "lenge_id\030\003 \001(\r\022\021\n\tcur_value\030\004 \001(\005B2\n\031emu" +
-      ".grasscutter.net.protoB\025GEGHKDDPOHCOuter" +
-      "Classb\006proto3"
+      "lenge_id\030\003 \001(\r\022\021\n\tcur_value\030\004 \001(\005B\033\n\031emu" +
+      ".grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

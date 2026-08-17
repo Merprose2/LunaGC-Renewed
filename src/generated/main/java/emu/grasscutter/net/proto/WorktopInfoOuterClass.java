@@ -716,8 +716,8 @@ public final class WorktopInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021WorktopInfo.proto\"@\n\013WorktopInfo\022\023\n\013op" +
       "tion_list\030\001 \003(\r\022\034\n\024is_guest_can_operate\030" +
-      "\002 \001(\010B2\n\031emu.grasscutter.net.protoB\025Work" +
-      "topInfoOuterClassb\006proto3"
+      "\002 \001(\010B\033\n\031emu.grasscutter.net.protob\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

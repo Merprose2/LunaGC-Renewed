@@ -1230,8 +1230,8 @@ public final class FIIHDNCNDHHOuterClass {
       "\001\n\013FIIHDNCNDHH\022\022\n\nstart_time\030\001 \001(\r\022\014\n\004gu" +
       "id\030\005 \001(\004\022!\n\013COKFKPJNKHC\030\007 \003(\0132\014.FHDOGFCD" +
       "KDK\022\027\n\017winner_uid_list\030\n \003(\r\022\023\n\013finish_t" +
-      "ime\030\016 \001(\rB2\n\031emu.grasscutter.net.protoB\025" +
-      "FIIHDNCNDHHOuterClassb\006proto3"
+      "ime\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

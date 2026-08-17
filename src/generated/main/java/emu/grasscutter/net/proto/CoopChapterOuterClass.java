@@ -449,40 +449,40 @@ public final class CoopChapterOuterClass {
     public enum State
         implements com.google.protobuf.ProtocolMessageEnum {
       /**
-       * <code>STATE_CLOSE = 0;</code>
+       * <code>State_CLOSE = 0;</code>
        */
-      STATE_CLOSE(0),
+      State_CLOSE(0),
       /**
-       * <code>STATE_COND_NOT_MEET = 1;</code>
+       * <code>State_COND_NOT_MEET = 1;</code>
        */
-      STATE_COND_NOT_MEET(1),
+      State_COND_NOT_MEET(1),
       /**
-       * <code>STATE_COND_MEET = 2;</code>
+       * <code>State_COND_MEET = 2;</code>
        */
-      STATE_COND_MEET(2),
+      State_COND_MEET(2),
       /**
-       * <code>STATE_ACCEPT = 3;</code>
+       * <code>State_ACCEPT = 3;</code>
        */
-      STATE_ACCEPT(3),
+      State_ACCEPT(3),
       UNRECOGNIZED(-1),
       ;
 
       /**
-       * <code>STATE_CLOSE = 0;</code>
+       * <code>State_CLOSE = 0;</code>
        */
-      public static final int STATE_CLOSE_VALUE = 0;
+      public static final int State_CLOSE_VALUE = 0;
       /**
-       * <code>STATE_COND_NOT_MEET = 1;</code>
+       * <code>State_COND_NOT_MEET = 1;</code>
        */
-      public static final int STATE_COND_NOT_MEET_VALUE = 1;
+      public static final int State_COND_NOT_MEET_VALUE = 1;
       /**
-       * <code>STATE_COND_MEET = 2;</code>
+       * <code>State_COND_MEET = 2;</code>
        */
-      public static final int STATE_COND_MEET_VALUE = 2;
+      public static final int State_COND_MEET_VALUE = 2;
       /**
-       * <code>STATE_ACCEPT = 3;</code>
+       * <code>State_ACCEPT = 3;</code>
        */
-      public static final int STATE_ACCEPT_VALUE = 3;
+      public static final int State_ACCEPT_VALUE = 3;
 
 
       public final int getNumber() {
@@ -509,10 +509,10 @@ public final class CoopChapterOuterClass {
        */
       public static State forNumber(int value) {
         switch (value) {
-          case 0: return STATE_CLOSE;
-          case 1: return STATE_COND_NOT_MEET;
-          case 2: return STATE_COND_MEET;
-          case 3: return STATE_ACCEPT;
+          case 0: return State_CLOSE;
+          case 1: return State_COND_NOT_MEET;
+          case 2: return State_COND_MEET;
+          case 3: return State_ACCEPT;
           default: return null;
         }
       }
@@ -937,7 +937,7 @@ public final class CoopChapterOuterClass {
       if (totalEndCount_ != 0) {
         output.writeUInt32(4, totalEndCount_);
       }
-      if (state_ != emu.grasscutter.net.proto.CoopChapterOuterClass.CoopChapter.State.STATE_CLOSE.getNumber()) {
+      if (state_ != emu.grasscutter.net.proto.CoopChapterOuterClass.CoopChapter.State.State_CLOSE.getNumber()) {
         output.writeEnum(5, state_);
       }
       if (finishedEndCount_ != 0) {
@@ -1006,7 +1006,7 @@ public final class CoopChapterOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(4, totalEndCount_);
       }
-      if (state_ != emu.grasscutter.net.proto.CoopChapterOuterClass.CoopChapter.State.STATE_CLOSE.getNumber()) {
+      if (state_ != emu.grasscutter.net.proto.CoopChapterOuterClass.CoopChapter.State.State_CLOSE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(5, state_);
       }
@@ -2922,10 +2922,9 @@ public final class CoopChapterOuterClass {
       "ist\030\016 \003(\0132\007.CoopCg\022%\n\020coop_reward_list\030\017" +
       " \003(\0132\013.CoopReward\0324\n\022SeenEndingMapEntry\022" +
       "\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001\"X\n\005State" +
-      "\022\017\n\013STATE_CLOSE\020\000\022\027\n\023STATE_COND_NOT_MEET" +
-      "\020\001\022\023\n\017STATE_COND_MEET\020\002\022\020\n\014STATE_ACCEPT\020" +
-      "\003B2\n\031emu.grasscutter.net.protoB\025CoopChap" +
-      "terOuterClassb\006proto3"
+      "\022\017\n\013State_CLOSE\020\000\022\027\n\023State_COND_NOT_MEET" +
+      "\020\001\022\023\n\017State_COND_MEET\020\002\022\020\n\014State_ACCEPT\020" +
+      "\003B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

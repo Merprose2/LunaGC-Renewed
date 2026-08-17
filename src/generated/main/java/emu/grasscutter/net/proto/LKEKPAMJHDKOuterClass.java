@@ -858,9 +858,8 @@ public final class LKEKPAMJHDKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LKEKPAMJHDK.proto\"[\n\013LKEKPAMJHDK\022\023\n\013MN" +
       "GLBAEBKDA\030\001 \001(\010\022\023\n\013EALCNKHEMHE\030\003 \003(\r\022\017\n\007" +
-      "is_open\030\t \001(\010\022\021\n\tis_finish\030\n \001(\010B2\n\031emu." +
-      "grasscutter.net.protoB\025LKEKPAMJHDKOuterC" +
-      "lassb\006proto3"
+      "is_open\030\t \001(\010\022\021\n\tis_finish\030\n \001(\010B\033\n\031emu." +
+      "grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

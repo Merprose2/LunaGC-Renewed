@@ -31,6 +31,10 @@ public final class PlayerCookArgsRspOuterClass {
     int getRetcode();
   }
   /**
+   * <pre>
+   * CmdID: 25991
+   * </pre>
+   *
    * Protobuf type {@code PlayerCookArgsRsp}
    */
   public static final class PlayerCookArgsRsp extends
@@ -308,6 +312,10 @@ public final class PlayerCookArgsRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 25991
+     * </pre>
+     *
      * Protobuf type {@code PlayerCookArgsRsp}
      */
     public static final class Builder extends
@@ -590,8 +598,8 @@ public final class PlayerCookArgsRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027PlayerCookArgsRsp.proto\"=\n\021PlayerCookA" +
       "rgsRsp\022\027\n\017qte_range_ratio\030\001 \001(\002\022\017\n\007retco" +
-      "de\030\013 \001(\005B8\n\031emu.grasscutter.net.protoB\033P" +
-      "layerCookArgsRspOuterClassb\006proto3"
+      "de\030\013 \001(\005B\033\n\031emu.grasscutter.net.protob\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

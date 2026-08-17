@@ -588,8 +588,8 @@ public final class CoopCgOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\014CoopCg.proto\"\'\n\006CoopCg\022\n\n\002id\030\002 \001(\r\022\021\n\t" +
-      "is_unlock\030\006 \001(\010B-\n\031emu.grasscutter.net.p" +
-      "rotoB\020CoopCgOuterClassb\006proto3"
+      "is_unlock\030\006 \001(\010B\033\n\031emu.grasscutter.net.p" +
+      "rotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

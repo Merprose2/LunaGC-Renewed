@@ -27,11 +27,11 @@ public final class DIBHHLNJGNDOuterClass {
      * <code>._NormalSyncInfo JAMAELGONGI = 1;</code>
      * @return The jAMAELGONGI.
      */
-    emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo getJAMAELGONGI();
+    emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo getJAMAELGONGI();
     /**
      * <code>._NormalSyncInfo JAMAELGONGI = 1;</code>
      */
-    emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfoOrBuilder getJAMAELGONGIOrBuilder();
+    emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfoOrBuilder getJAMAELGONGIOrBuilder();
 
     /**
      * <code>._MultiSyncInfo LDNDILCMPPJ = 2;</code>
@@ -42,11 +42,11 @@ public final class DIBHHLNJGNDOuterClass {
      * <code>._MultiSyncInfo LDNDILCMPPJ = 2;</code>
      * @return The lDNDILCMPPJ.
      */
-    emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo getLDNDILCMPPJ();
+    emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo getLDNDILCMPPJ();
     /**
      * <code>._MultiSyncInfo LDNDILCMPPJ = 2;</code>
      */
-    emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfoOrBuilder getLDNDILCMPPJOrBuilder();
+    emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfoOrBuilder getLDNDILCMPPJOrBuilder();
   }
   /**
    * Protobuf type {@code DIBHHLNJGND}
@@ -94,11 +94,11 @@ public final class DIBHHLNJGNDOuterClass {
               done = true;
               break;
             case 10: {
-              emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.Builder subBuilder = null;
               if (jAMAELGONGI_ != null) {
                 subBuilder = jAMAELGONGI_.toBuilder();
               }
-              jAMAELGONGI_ = input.readMessage(emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.parser(), extensionRegistry);
+              jAMAELGONGI_ = input.readMessage(emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(jAMAELGONGI_);
                 jAMAELGONGI_ = subBuilder.buildPartial();
@@ -107,11 +107,11 @@ public final class DIBHHLNJGNDOuterClass {
               break;
             }
             case 18: {
-              emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.Builder subBuilder = null;
               if (lDNDILCMPPJ_ != null) {
                 subBuilder = lDNDILCMPPJ_.toBuilder();
               }
-              lDNDILCMPPJ_ = input.readMessage(emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.parser(), extensionRegistry);
+              lDNDILCMPPJ_ = input.readMessage(emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(lDNDILCMPPJ_);
                 lDNDILCMPPJ_ = subBuilder.buildPartial();
@@ -152,7 +152,7 @@ public final class DIBHHLNJGNDOuterClass {
     }
 
     public static final int JAMAELGONGI_FIELD_NUMBER = 1;
-    private emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo jAMAELGONGI_;
+    private emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo jAMAELGONGI_;
     /**
      * <code>._NormalSyncInfo JAMAELGONGI = 1;</code>
      * @return Whether the jAMAELGONGI field is set.
@@ -166,19 +166,19 @@ public final class DIBHHLNJGNDOuterClass {
      * @return The jAMAELGONGI.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo getJAMAELGONGI() {
-      return jAMAELGONGI_ == null ? emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.getDefaultInstance() : jAMAELGONGI_;
+    public emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo getJAMAELGONGI() {
+      return jAMAELGONGI_ == null ? emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.getDefaultInstance() : jAMAELGONGI_;
     }
     /**
      * <code>._NormalSyncInfo JAMAELGONGI = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfoOrBuilder getJAMAELGONGIOrBuilder() {
+    public emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfoOrBuilder getJAMAELGONGIOrBuilder() {
       return getJAMAELGONGI();
     }
 
     public static final int LDNDILCMPPJ_FIELD_NUMBER = 2;
-    private emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo lDNDILCMPPJ_;
+    private emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo lDNDILCMPPJ_;
     /**
      * <code>._MultiSyncInfo LDNDILCMPPJ = 2;</code>
      * @return Whether the lDNDILCMPPJ field is set.
@@ -192,14 +192,14 @@ public final class DIBHHLNJGNDOuterClass {
      * @return The lDNDILCMPPJ.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo getLDNDILCMPPJ() {
-      return lDNDILCMPPJ_ == null ? emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.getDefaultInstance() : lDNDILCMPPJ_;
+    public emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo getLDNDILCMPPJ() {
+      return lDNDILCMPPJ_ == null ? emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.getDefaultInstance() : lDNDILCMPPJ_;
     }
     /**
      * <code>._MultiSyncInfo LDNDILCMPPJ = 2;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfoOrBuilder getLDNDILCMPPJOrBuilder() {
+    public emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfoOrBuilder getLDNDILCMPPJOrBuilder() {
       return getLDNDILCMPPJ();
     }
 
@@ -548,9 +548,9 @@ public final class DIBHHLNJGNDOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo jAMAELGONGI_;
+      private emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo jAMAELGONGI_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo, emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.Builder, emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfoOrBuilder> jAMAELGONGIBuilder_;
+          emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo, emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.Builder, emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfoOrBuilder> jAMAELGONGIBuilder_;
       /**
        * <code>._NormalSyncInfo JAMAELGONGI = 1;</code>
        * @return Whether the jAMAELGONGI field is set.
@@ -562,9 +562,9 @@ public final class DIBHHLNJGNDOuterClass {
        * <code>._NormalSyncInfo JAMAELGONGI = 1;</code>
        * @return The jAMAELGONGI.
        */
-      public emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo getJAMAELGONGI() {
+      public emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo getJAMAELGONGI() {
         if (jAMAELGONGIBuilder_ == null) {
-          return jAMAELGONGI_ == null ? emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.getDefaultInstance() : jAMAELGONGI_;
+          return jAMAELGONGI_ == null ? emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.getDefaultInstance() : jAMAELGONGI_;
         } else {
           return jAMAELGONGIBuilder_.getMessage();
         }
@@ -572,7 +572,7 @@ public final class DIBHHLNJGNDOuterClass {
       /**
        * <code>._NormalSyncInfo JAMAELGONGI = 1;</code>
        */
-      public Builder setJAMAELGONGI(emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo value) {
+      public Builder setJAMAELGONGI(emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo value) {
         if (jAMAELGONGIBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -589,7 +589,7 @@ public final class DIBHHLNJGNDOuterClass {
        * <code>._NormalSyncInfo JAMAELGONGI = 1;</code>
        */
       public Builder setJAMAELGONGI(
-          emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.Builder builderForValue) {
         if (jAMAELGONGIBuilder_ == null) {
           jAMAELGONGI_ = builderForValue.build();
           onChanged();
@@ -602,11 +602,11 @@ public final class DIBHHLNJGNDOuterClass {
       /**
        * <code>._NormalSyncInfo JAMAELGONGI = 1;</code>
        */
-      public Builder mergeJAMAELGONGI(emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo value) {
+      public Builder mergeJAMAELGONGI(emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo value) {
         if (jAMAELGONGIBuilder_ == null) {
           if (jAMAELGONGI_ != null) {
             jAMAELGONGI_ =
-              emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.newBuilder(jAMAELGONGI_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.newBuilder(jAMAELGONGI_).mergeFrom(value).buildPartial();
           } else {
             jAMAELGONGI_ = value;
           }
@@ -634,7 +634,7 @@ public final class DIBHHLNJGNDOuterClass {
       /**
        * <code>._NormalSyncInfo JAMAELGONGI = 1;</code>
        */
-      public emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.Builder getJAMAELGONGIBuilder() {
+      public emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.Builder getJAMAELGONGIBuilder() {
         
         onChanged();
         return getJAMAELGONGIFieldBuilder().getBuilder();
@@ -642,23 +642,23 @@ public final class DIBHHLNJGNDOuterClass {
       /**
        * <code>._NormalSyncInfo JAMAELGONGI = 1;</code>
        */
-      public emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfoOrBuilder getJAMAELGONGIOrBuilder() {
+      public emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfoOrBuilder getJAMAELGONGIOrBuilder() {
         if (jAMAELGONGIBuilder_ != null) {
           return jAMAELGONGIBuilder_.getMessageOrBuilder();
         } else {
           return jAMAELGONGI_ == null ?
-              emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.getDefaultInstance() : jAMAELGONGI_;
+              emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.getDefaultInstance() : jAMAELGONGI_;
         }
       }
       /**
        * <code>._NormalSyncInfo JAMAELGONGI = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo, emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.Builder, emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfoOrBuilder> 
+          emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo, emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.Builder, emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfoOrBuilder> 
           getJAMAELGONGIFieldBuilder() {
         if (jAMAELGONGIBuilder_ == null) {
           jAMAELGONGIBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo, emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfo.Builder, emu.grasscutter.net.proto._NormalSyncInfoOuterClass._NormalSyncInfoOrBuilder>(
+              emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo, emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfo.Builder, emu.grasscutter.net.proto.NormalSyncInfo._NormalSyncInfoOrBuilder>(
                   getJAMAELGONGI(),
                   getParentForChildren(),
                   isClean());
@@ -667,9 +667,9 @@ public final class DIBHHLNJGNDOuterClass {
         return jAMAELGONGIBuilder_;
       }
 
-      private emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo lDNDILCMPPJ_;
+      private emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo lDNDILCMPPJ_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo, emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.Builder, emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfoOrBuilder> lDNDILCMPPJBuilder_;
+          emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo, emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.Builder, emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfoOrBuilder> lDNDILCMPPJBuilder_;
       /**
        * <code>._MultiSyncInfo LDNDILCMPPJ = 2;</code>
        * @return Whether the lDNDILCMPPJ field is set.
@@ -681,9 +681,9 @@ public final class DIBHHLNJGNDOuterClass {
        * <code>._MultiSyncInfo LDNDILCMPPJ = 2;</code>
        * @return The lDNDILCMPPJ.
        */
-      public emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo getLDNDILCMPPJ() {
+      public emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo getLDNDILCMPPJ() {
         if (lDNDILCMPPJBuilder_ == null) {
-          return lDNDILCMPPJ_ == null ? emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.getDefaultInstance() : lDNDILCMPPJ_;
+          return lDNDILCMPPJ_ == null ? emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.getDefaultInstance() : lDNDILCMPPJ_;
         } else {
           return lDNDILCMPPJBuilder_.getMessage();
         }
@@ -691,7 +691,7 @@ public final class DIBHHLNJGNDOuterClass {
       /**
        * <code>._MultiSyncInfo LDNDILCMPPJ = 2;</code>
        */
-      public Builder setLDNDILCMPPJ(emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo value) {
+      public Builder setLDNDILCMPPJ(emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo value) {
         if (lDNDILCMPPJBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -708,7 +708,7 @@ public final class DIBHHLNJGNDOuterClass {
        * <code>._MultiSyncInfo LDNDILCMPPJ = 2;</code>
        */
       public Builder setLDNDILCMPPJ(
-          emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.Builder builderForValue) {
         if (lDNDILCMPPJBuilder_ == null) {
           lDNDILCMPPJ_ = builderForValue.build();
           onChanged();
@@ -721,11 +721,11 @@ public final class DIBHHLNJGNDOuterClass {
       /**
        * <code>._MultiSyncInfo LDNDILCMPPJ = 2;</code>
        */
-      public Builder mergeLDNDILCMPPJ(emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo value) {
+      public Builder mergeLDNDILCMPPJ(emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo value) {
         if (lDNDILCMPPJBuilder_ == null) {
           if (lDNDILCMPPJ_ != null) {
             lDNDILCMPPJ_ =
-              emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.newBuilder(lDNDILCMPPJ_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.newBuilder(lDNDILCMPPJ_).mergeFrom(value).buildPartial();
           } else {
             lDNDILCMPPJ_ = value;
           }
@@ -753,7 +753,7 @@ public final class DIBHHLNJGNDOuterClass {
       /**
        * <code>._MultiSyncInfo LDNDILCMPPJ = 2;</code>
        */
-      public emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.Builder getLDNDILCMPPJBuilder() {
+      public emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.Builder getLDNDILCMPPJBuilder() {
         
         onChanged();
         return getLDNDILCMPPJFieldBuilder().getBuilder();
@@ -761,23 +761,23 @@ public final class DIBHHLNJGNDOuterClass {
       /**
        * <code>._MultiSyncInfo LDNDILCMPPJ = 2;</code>
        */
-      public emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfoOrBuilder getLDNDILCMPPJOrBuilder() {
+      public emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfoOrBuilder getLDNDILCMPPJOrBuilder() {
         if (lDNDILCMPPJBuilder_ != null) {
           return lDNDILCMPPJBuilder_.getMessageOrBuilder();
         } else {
           return lDNDILCMPPJ_ == null ?
-              emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.getDefaultInstance() : lDNDILCMPPJ_;
+              emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.getDefaultInstance() : lDNDILCMPPJ_;
         }
       }
       /**
        * <code>._MultiSyncInfo LDNDILCMPPJ = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo, emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.Builder, emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfoOrBuilder> 
+          emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo, emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.Builder, emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfoOrBuilder> 
           getLDNDILCMPPJFieldBuilder() {
         if (lDNDILCMPPJBuilder_ == null) {
           lDNDILCMPPJBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo, emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfo.Builder, emu.grasscutter.net.proto._MultiSyncInfoOuterClass._MultiSyncInfoOrBuilder>(
+              emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo, emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfo.Builder, emu.grasscutter.net.proto.MultiSyncInfo._MultiSyncInfoOrBuilder>(
                   getLDNDILCMPPJ(),
                   getParentForChildren(),
                   isClean());
@@ -855,15 +855,14 @@ public final class DIBHHLNJGNDOuterClass {
       "\n\021DIBHHLNJGND.proto\032\024_MultiSyncInfo.prot" +
       "o\032\025_NormalSyncInfo.proto\"Z\n\013DIBHHLNJGND\022" +
       "%\n\013JAMAELGONGI\030\001 \001(\0132\020._NormalSyncInfo\022$" +
-      "\n\013LDNDILCMPPJ\030\002 \001(\0132\017._MultiSyncInfoB2\n\031" +
-      "emu.grasscutter.net.protoB\025DIBHHLNJGNDOu" +
-      "terClassb\006proto3"
+      "\n\013LDNDILCMPPJ\030\002 \001(\0132\017._MultiSyncInfoB\033\n\031" +
+      "emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto._MultiSyncInfoOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto._NormalSyncInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.MultiSyncInfo.getDescriptor(),
+          emu.grasscutter.net.proto.NormalSyncInfo.getDescriptor(),
         });
     internal_static_DIBHHLNJGND_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -871,8 +870,8 @@ public final class DIBHHLNJGNDOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_DIBHHLNJGND_descriptor,
         new java.lang.String[] { "JAMAELGONGI", "LDNDILCMPPJ", });
-    emu.grasscutter.net.proto._MultiSyncInfoOuterClass.getDescriptor();
-    emu.grasscutter.net.proto._NormalSyncInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.MultiSyncInfo.getDescriptor();
+    emu.grasscutter.net.proto.NormalSyncInfo.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

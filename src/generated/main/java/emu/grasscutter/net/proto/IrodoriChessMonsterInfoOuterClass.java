@@ -856,9 +856,8 @@ public final class IrodoriChessMonsterInfoOuterClass {
       "\n\035IrodoriChessMonsterInfo.proto\"f\n\027Irodo" +
       "riChessMonsterInfo\022\r\n\005level\030\003 \001(\r\022\024\n\014gra" +
       "nt_points\030\004 \001(\r\022\022\n\naffix_list\030\010 \003(\r\022\022\n\nm" +
-      "onster_id\030\014 \001(\rB>\n\031emu.grasscutter.net.p" +
-      "rotoB!IrodoriChessMonsterInfoOuterClassb" +
-      "\006proto3"
+      "onster_id\030\014 \001(\rB\033\n\031emu.grasscutter.net.p" +
+      "rotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

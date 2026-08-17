@@ -31,6 +31,10 @@ public final class WearEquipReqOuterClass {
     long getAvatarGuid();
   }
   /**
+   * <pre>
+   * CmdID: 9104
+   * </pre>
+   *
    * Protobuf type {@code WearEquipReq}
    */
   public static final class WearEquipReq extends
@@ -308,6 +312,10 @@ public final class WearEquipReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 9104
+     * </pre>
+     *
      * Protobuf type {@code WearEquipReq}
      */
     public static final class Builder extends
@@ -589,9 +597,8 @@ public final class WearEquipReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\022WearEquipReq.proto\"7\n\014WearEquipReq\022\022\n\n" +
-      "equip_guid\030\007 \001(\004\022\023\n\013avatar_guid\030\t \001(\004B3\n" +
-      "\031emu.grasscutter.net.protoB\026WearEquipReq" +
-      "OuterClassb\006proto3"
+      "equip_guid\030\007 \001(\004\022\023\n\013avatar_guid\030\t \001(\004B\033\n" +
+      "\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -2198,9 +2198,8 @@ public final class JJKBEPPIFIEOuterClass {
       "BIGBH\030\n \001(\r\022!\n\013OFCFHPFDGLD\030\013 \001(\0132\014.PPOBO" +
       "BDKPHI\022\023\n\013JLAMEIEBIHO\030\014 \001(\004\022!\n\013NFNDONBDL" +
       "JA\030\r \003(\0132\014.HDHLLCCCLJM\022!\n\013OPMOMHOOMAA\030\016 " +
-      "\003(\0132\014.HDHLLCCCLJM\022\023\n\013NNPHIFOPPKO\030\017 \001(\rB2" +
-      "\n\031emu.grasscutter.net.protoB\025JJKBEPPIFIE" +
-      "OuterClassb\006proto3"
+      "\003(\0132\014.HDHLLCCCLJM\022\023\n\013NNPHIFOPPKO\030\017 \001(\rB\033" +
+      "\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

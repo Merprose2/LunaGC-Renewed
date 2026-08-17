@@ -1437,8 +1437,8 @@ public final class FNOMEKGFNHDOuterClass {
       "AEPBFLMGIA\030\001 \001(\005\022\021\n\tis_active\030\002 \001(\010\022\023\n\013L" +
       "JGHDOOCCGC\030\003 \001(\005\022\023\n\013KPPJNBNEBJO\030\004 \003(\r\022\023\n" +
       "\013NLCJGMKNNFN\030\005 \003(\r\022\023\n\013FLLNDDECEDH\030\006 \003(\r\022" +
-      "\023\n\013EPNEGANFHOI\030\007 \003(\rB2\n\031emu.grasscutter." +
-      "net.protoB\025FNOMEKGFNHDOuterClassb\006proto3"
+      "\023\n\013EPNEGANFHOI\030\007 \003(\rB\033\n\031emu.grasscutter." +
+      "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

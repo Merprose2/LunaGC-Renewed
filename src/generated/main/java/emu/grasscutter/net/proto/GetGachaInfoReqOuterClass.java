@@ -20,7 +20,7 @@ public final class GetGachaInfoReqOuterClass {
   }
   /**
    * <pre>
-   * CmdId: 27728
+   * CmdID: 3577
    * </pre>
    *
    * Protobuf type {@code GetGachaInfoReq}
@@ -245,7 +245,7 @@ public final class GetGachaInfoReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 27728
+     * CmdID: 3577
      * </pre>
      *
      * Protobuf type {@code GetGachaInfoReq}

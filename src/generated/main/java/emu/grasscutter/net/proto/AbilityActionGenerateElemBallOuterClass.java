@@ -925,9 +925,8 @@ public final class AbilityActionGenerateElemBallOuterClass {
       "\n#AbilityActionGenerateElemBall.proto\032\014V" +
       "ector.proto\"\\\n\035AbilityActionGenerateElem" +
       "Ball\022\024\n\003pos\030\001 \001(\0132\007.Vector\022\024\n\003rot\030\007 \001(\0132" +
-      "\007.Vector\022\017\n\007room_id\030\016 \001(\rBD\n\031emu.grasscu" +
-      "tter.net.protoB\'AbilityActionGenerateEle" +
-      "mBallOuterClassb\006proto3"
+      "\007.Vector\022\017\n\007room_id\030\016 \001(\rB\033\n\031emu.grasscu" +
+      "tter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

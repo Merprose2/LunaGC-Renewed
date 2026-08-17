@@ -59,6 +59,10 @@ public final class AvatarSkillInfoNotifyOuterClass {
     long getGuid();
   }
   /**
+   * <pre>
+   * CmdID: 9517
+   * </pre>
+   *
    * Protobuf type {@code AvatarSkillInfoNotify}
    */
   public static final class AvatarSkillInfoNotify extends
@@ -437,6 +441,10 @@ public final class AvatarSkillInfoNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 9517
+     * </pre>
+     *
      * Protobuf type {@code AvatarSkillInfoNotify}
      */
     public static final class Builder extends
@@ -847,9 +855,8 @@ public final class AvatarSkillInfoNotifyOuterClass {
       "\n\tskill_map\030\013 \003(\0132$.AvatarSkillInfoNotif" +
       "y.SkillMapEntry\022\014\n\004guid\030\017 \001(\004\032A\n\rSkillMa" +
       "pEntry\022\013\n\003key\030\001 \001(\r\022\037\n\005value\030\002 \001(\0132\020.Ava" +
-      "tarSkillInfo:\0028\001B<\n\031emu.grasscutter.net." +
-      "protoB\037AvatarSkillInfoNotifyOuterClassb\006" +
-      "proto3"
+      "tarSkillInfo:\0028\001B\033\n\031emu.grasscutter.net." +
+      "protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

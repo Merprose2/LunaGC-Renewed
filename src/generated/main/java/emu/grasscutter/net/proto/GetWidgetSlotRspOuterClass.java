@@ -19,39 +19,38 @@ public final class GetWidgetSlotRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .WidgetSlotData slot_list = 7;</code>
+     * <code>int32 retcode = 8;</code>
+     * @return The retcode.
+     */
+    int getRetcode();
+
+    /**
+     * <code>repeated .WidgetSlotData slot_list = 15;</code>
      */
     java.util.List<emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData> 
         getSlotListList();
     /**
-     * <code>repeated .WidgetSlotData slot_list = 7;</code>
+     * <code>repeated .WidgetSlotData slot_list = 15;</code>
      */
     emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData getSlotList(int index);
     /**
-     * <code>repeated .WidgetSlotData slot_list = 7;</code>
+     * <code>repeated .WidgetSlotData slot_list = 15;</code>
      */
     int getSlotListCount();
     /**
-     * <code>repeated .WidgetSlotData slot_list = 7;</code>
+     * <code>repeated .WidgetSlotData slot_list = 15;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder> 
         getSlotListOrBuilderList();
     /**
-     * <code>repeated .WidgetSlotData slot_list = 7;</code>
+     * <code>repeated .WidgetSlotData slot_list = 15;</code>
      */
     emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder getSlotListOrBuilder(
         int index);
-
-    /**
-     * <code>int32 retcode = 4;</code>
-     * @return The retcode.
-     */
-    int getRetcode();
   }
   /**
    * <pre>
-   * CmdId: 28535
-   * Obf: GGCAFNBKPHG
+   * CmdID: 9598
    * </pre>
    *
    * Protobuf type {@code GetWidgetSlotRsp}
@@ -100,12 +99,12 @@ public final class GetWidgetSlotRspOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 64: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 114: {
+            case 122: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 slotList_ = new java.util.ArrayList<emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData>();
                 mutable_bitField0_ |= 0x00000001;
@@ -149,17 +148,28 @@ public final class GetWidgetSlotRspOuterClass {
               emu.grasscutter.net.proto.GetWidgetSlotRspOuterClass.GetWidgetSlotRsp.class, emu.grasscutter.net.proto.GetWidgetSlotRspOuterClass.GetWidgetSlotRsp.Builder.class);
     }
 
-    public static final int SLOT_LIST_FIELD_NUMBER = 14;
+    public static final int RETCODE_FIELD_NUMBER = 8;
+    private int retcode_;
+    /**
+     * <code>int32 retcode = 8;</code>
+     * @return The retcode.
+     */
+    @java.lang.Override
+    public int getRetcode() {
+      return retcode_;
+    }
+
+    public static final int SLOT_LIST_FIELD_NUMBER = 15;
     private java.util.List<emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData> slotList_;
     /**
-     * <code>repeated .WidgetSlotData slot_list = 7;</code>
+     * <code>repeated .WidgetSlotData slot_list = 15;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData> getSlotListList() {
       return slotList_;
     }
     /**
-     * <code>repeated .WidgetSlotData slot_list = 7;</code>
+     * <code>repeated .WidgetSlotData slot_list = 15;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder> 
@@ -167,37 +177,26 @@ public final class GetWidgetSlotRspOuterClass {
       return slotList_;
     }
     /**
-     * <code>repeated .WidgetSlotData slot_list = 7;</code>
+     * <code>repeated .WidgetSlotData slot_list = 15;</code>
      */
     @java.lang.Override
     public int getSlotListCount() {
       return slotList_.size();
     }
     /**
-     * <code>repeated .WidgetSlotData slot_list = 7;</code>
+     * <code>repeated .WidgetSlotData slot_list = 15;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData getSlotList(int index) {
       return slotList_.get(index);
     }
     /**
-     * <code>repeated .WidgetSlotData slot_list = 7;</code>
+     * <code>repeated .WidgetSlotData slot_list = 15;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder getSlotListOrBuilder(
         int index) {
       return slotList_.get(index);
-    }
-
-    public static final int RETCODE_FIELD_NUMBER = 12;
-    private int retcode_;
-    /**
-     * <code>int32 retcode = 4;</code>
-     * @return The retcode.
-     */
-    @java.lang.Override
-    public int getRetcode() {
-      return retcode_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -215,10 +214,10 @@ public final class GetWidgetSlotRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(12, retcode_);
+        output.writeInt32(8, retcode_);
       }
       for (int i = 0; i < slotList_.size(); i++) {
-        output.writeMessage(14, slotList_.get(i));
+        output.writeMessage(15, slotList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -231,11 +230,11 @@ public final class GetWidgetSlotRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(12, retcode_);
+          .computeInt32Size(8, retcode_);
       }
       for (int i = 0; i < slotList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, slotList_.get(i));
+          .computeMessageSize(15, slotList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -252,10 +251,10 @@ public final class GetWidgetSlotRspOuterClass {
       }
       emu.grasscutter.net.proto.GetWidgetSlotRspOuterClass.GetWidgetSlotRsp other = (emu.grasscutter.net.proto.GetWidgetSlotRspOuterClass.GetWidgetSlotRsp) obj;
 
-      if (!getSlotListList()
-          .equals(other.getSlotListList())) return false;
       if (getRetcode()
           != other.getRetcode()) return false;
+      if (!getSlotListList()
+          .equals(other.getSlotListList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -267,12 +266,12 @@ public final class GetWidgetSlotRspOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + RETCODE_FIELD_NUMBER;
+      hash = (53 * hash) + getRetcode();
       if (getSlotListCount() > 0) {
         hash = (37 * hash) + SLOT_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getSlotListList().hashCode();
       }
-      hash = (37 * hash) + RETCODE_FIELD_NUMBER;
-      hash = (53 * hash) + getRetcode();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -370,8 +369,7 @@ public final class GetWidgetSlotRspOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 28535
-     * Obf: GGCAFNBKPHG
+     * CmdID: 9598
      * </pre>
      *
      * Protobuf type {@code GetWidgetSlotRsp}
@@ -412,14 +410,14 @@ public final class GetWidgetSlotRspOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        retcode_ = 0;
+
         if (slotListBuilder_ == null) {
           slotList_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
         } else {
           slotListBuilder_.clear();
         }
-        retcode_ = 0;
-
         return this;
       }
 
@@ -447,6 +445,7 @@ public final class GetWidgetSlotRspOuterClass {
       public emu.grasscutter.net.proto.GetWidgetSlotRspOuterClass.GetWidgetSlotRsp buildPartial() {
         emu.grasscutter.net.proto.GetWidgetSlotRspOuterClass.GetWidgetSlotRsp result = new emu.grasscutter.net.proto.GetWidgetSlotRspOuterClass.GetWidgetSlotRsp(this);
         int from_bitField0_ = bitField0_;
+        result.retcode_ = retcode_;
         if (slotListBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
             slotList_ = java.util.Collections.unmodifiableList(slotList_);
@@ -456,7 +455,6 @@ public final class GetWidgetSlotRspOuterClass {
         } else {
           result.slotList_ = slotListBuilder_.build();
         }
-        result.retcode_ = retcode_;
         onBuilt();
         return result;
       }
@@ -505,6 +503,9 @@ public final class GetWidgetSlotRspOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.GetWidgetSlotRspOuterClass.GetWidgetSlotRsp other) {
         if (other == emu.grasscutter.net.proto.GetWidgetSlotRspOuterClass.GetWidgetSlotRsp.getDefaultInstance()) return this;
+        if (other.getRetcode() != 0) {
+          setRetcode(other.getRetcode());
+        }
         if (slotListBuilder_ == null) {
           if (!other.slotList_.isEmpty()) {
             if (slotList_.isEmpty()) {
@@ -530,9 +531,6 @@ public final class GetWidgetSlotRspOuterClass {
               slotListBuilder_.addAllMessages(other.slotList_);
             }
           }
-        }
-        if (other.getRetcode() != 0) {
-          setRetcode(other.getRetcode());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -564,6 +562,37 @@ public final class GetWidgetSlotRspOuterClass {
       }
       private int bitField0_;
 
+      private int retcode_ ;
+      /**
+       * <code>int32 retcode = 8;</code>
+       * @return The retcode.
+       */
+      @java.lang.Override
+      public int getRetcode() {
+        return retcode_;
+      }
+      /**
+       * <code>int32 retcode = 8;</code>
+       * @param value The retcode to set.
+       * @return This builder for chaining.
+       */
+      public Builder setRetcode(int value) {
+        
+        retcode_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>int32 retcode = 8;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearRetcode() {
+        
+        retcode_ = 0;
+        onChanged();
+        return this;
+      }
+
       private java.util.List<emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData> slotList_ =
         java.util.Collections.emptyList();
       private void ensureSlotListIsMutable() {
@@ -577,7 +606,7 @@ public final class GetWidgetSlotRspOuterClass {
           emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder> slotListBuilder_;
 
       /**
-       * <code>repeated .WidgetSlotData slot_list = 7;</code>
+       * <code>repeated .WidgetSlotData slot_list = 15;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData> getSlotListList() {
         if (slotListBuilder_ == null) {
@@ -587,7 +616,7 @@ public final class GetWidgetSlotRspOuterClass {
         }
       }
       /**
-       * <code>repeated .WidgetSlotData slot_list = 7;</code>
+       * <code>repeated .WidgetSlotData slot_list = 15;</code>
        */
       public int getSlotListCount() {
         if (slotListBuilder_ == null) {
@@ -597,7 +626,7 @@ public final class GetWidgetSlotRspOuterClass {
         }
       }
       /**
-       * <code>repeated .WidgetSlotData slot_list = 7;</code>
+       * <code>repeated .WidgetSlotData slot_list = 15;</code>
        */
       public emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData getSlotList(int index) {
         if (slotListBuilder_ == null) {
@@ -607,7 +636,7 @@ public final class GetWidgetSlotRspOuterClass {
         }
       }
       /**
-       * <code>repeated .WidgetSlotData slot_list = 7;</code>
+       * <code>repeated .WidgetSlotData slot_list = 15;</code>
        */
       public Builder setSlotList(
           int index, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData value) {
@@ -624,7 +653,7 @@ public final class GetWidgetSlotRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .WidgetSlotData slot_list = 7;</code>
+       * <code>repeated .WidgetSlotData slot_list = 15;</code>
        */
       public Builder setSlotList(
           int index, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder builderForValue) {
@@ -638,7 +667,7 @@ public final class GetWidgetSlotRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .WidgetSlotData slot_list = 7;</code>
+       * <code>repeated .WidgetSlotData slot_list = 15;</code>
        */
       public Builder addSlotList(emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData value) {
         if (slotListBuilder_ == null) {
@@ -654,7 +683,7 @@ public final class GetWidgetSlotRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .WidgetSlotData slot_list = 7;</code>
+       * <code>repeated .WidgetSlotData slot_list = 15;</code>
        */
       public Builder addSlotList(
           int index, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData value) {
@@ -671,7 +700,7 @@ public final class GetWidgetSlotRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .WidgetSlotData slot_list = 7;</code>
+       * <code>repeated .WidgetSlotData slot_list = 15;</code>
        */
       public Builder addSlotList(
           emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder builderForValue) {
@@ -685,7 +714,7 @@ public final class GetWidgetSlotRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .WidgetSlotData slot_list = 7;</code>
+       * <code>repeated .WidgetSlotData slot_list = 15;</code>
        */
       public Builder addSlotList(
           int index, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder builderForValue) {
@@ -699,7 +728,7 @@ public final class GetWidgetSlotRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .WidgetSlotData slot_list = 7;</code>
+       * <code>repeated .WidgetSlotData slot_list = 15;</code>
        */
       public Builder addAllSlotList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData> values) {
@@ -714,7 +743,7 @@ public final class GetWidgetSlotRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .WidgetSlotData slot_list = 7;</code>
+       * <code>repeated .WidgetSlotData slot_list = 15;</code>
        */
       public Builder clearSlotList() {
         if (slotListBuilder_ == null) {
@@ -727,7 +756,7 @@ public final class GetWidgetSlotRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .WidgetSlotData slot_list = 7;</code>
+       * <code>repeated .WidgetSlotData slot_list = 15;</code>
        */
       public Builder removeSlotList(int index) {
         if (slotListBuilder_ == null) {
@@ -740,14 +769,14 @@ public final class GetWidgetSlotRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .WidgetSlotData slot_list = 7;</code>
+       * <code>repeated .WidgetSlotData slot_list = 15;</code>
        */
       public emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder getSlotListBuilder(
           int index) {
         return getSlotListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .WidgetSlotData slot_list = 7;</code>
+       * <code>repeated .WidgetSlotData slot_list = 15;</code>
        */
       public emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder getSlotListOrBuilder(
           int index) {
@@ -757,7 +786,7 @@ public final class GetWidgetSlotRspOuterClass {
         }
       }
       /**
-       * <code>repeated .WidgetSlotData slot_list = 7;</code>
+       * <code>repeated .WidgetSlotData slot_list = 15;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder> 
            getSlotListOrBuilderList() {
@@ -768,14 +797,14 @@ public final class GetWidgetSlotRspOuterClass {
         }
       }
       /**
-       * <code>repeated .WidgetSlotData slot_list = 7;</code>
+       * <code>repeated .WidgetSlotData slot_list = 15;</code>
        */
       public emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder addSlotListBuilder() {
         return getSlotListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.getDefaultInstance());
       }
       /**
-       * <code>repeated .WidgetSlotData slot_list = 7;</code>
+       * <code>repeated .WidgetSlotData slot_list = 15;</code>
        */
       public emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder addSlotListBuilder(
           int index) {
@@ -783,7 +812,7 @@ public final class GetWidgetSlotRspOuterClass {
             index, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.getDefaultInstance());
       }
       /**
-       * <code>repeated .WidgetSlotData slot_list = 7;</code>
+       * <code>repeated .WidgetSlotData slot_list = 15;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder> 
            getSlotListBuilderList() {
@@ -802,37 +831,6 @@ public final class GetWidgetSlotRspOuterClass {
           slotList_ = null;
         }
         return slotListBuilder_;
-      }
-
-      private int retcode_ ;
-      /**
-       * <code>int32 retcode = 4;</code>
-       * @return The retcode.
-       */
-      @java.lang.Override
-      public int getRetcode() {
-        return retcode_;
-      }
-      /**
-       * <code>int32 retcode = 4;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
-      public Builder setRetcode(int value) {
-        
-        retcode_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>int32 retcode = 4;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearRetcode() {
-        
-        retcode_ = 0;
-        onChanged();
-        return this;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -902,8 +900,8 @@ public final class GetWidgetSlotRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026GetWidgetSlotRsp.proto\032\024WidgetSlotData" +
-      ".proto\"G\n\020GetWidgetSlotRsp\022\"\n\tslot_list\030" +
-      "\007 \003(\0132\017.WidgetSlotData\022\017\n\007retcode\030\004 \001(\005B" +
+      ".proto\"G\n\020GetWidgetSlotRsp\022\017\n\007retcode\030\010 " +
+      "\001(\005\022\"\n\tslot_list\030\017 \003(\0132\017.WidgetSlotDataB" +
       "\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -916,7 +914,7 @@ public final class GetWidgetSlotRspOuterClass {
     internal_static_GetWidgetSlotRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GetWidgetSlotRsp_descriptor,
-        new java.lang.String[] { "SlotList", "Retcode", });
+        new java.lang.String[] { "Retcode", "SlotList", });
     emu.grasscutter.net.proto.WidgetSlotDataOuterClass.getDescriptor();
   }
 

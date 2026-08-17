@@ -587,9 +587,8 @@ public final class PlayerRTTInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\023PlayerRTTInfo.proto\")\n\rPlayerRTTInfo\022\013" +
-      "\n\003rtt\030\003 \001(\r\022\013\n\003uid\030\013 \001(\rB4\n\031emu.grasscut" +
-      "ter.net.protoB\027PlayerRTTInfoOuterClassb\006" +
-      "proto3"
+      "\n\003rtt\030\003 \001(\r\022\013\n\003uid\030\013 \001(\rB\033\n\031emu.grasscut" +
+      "ter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -967,9 +967,8 @@ public final class BounceConjuringActivityDetailInfoOuterClass {
       "BounceConjuringActivityDetailInfo\022\031\n\021is_" +
       "content_closed\030\003 \001(\010\022\032\n\022content_close_ti" +
       "me\030\006 \001(\r\0226\n\021chapter_info_list\030\r \003(\0132\033.Bo" +
-      "unceConjuringChapterInfoBH\n\031emu.grasscut" +
-      "ter.net.protoB+BounceConjuringActivityDe" +
-      "tailInfoOuterClassb\006proto3"
+      "unceConjuringChapterInfoB\033\n\031emu.grasscut" +
+      "ter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

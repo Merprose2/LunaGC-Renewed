@@ -659,9 +659,8 @@ public final class IslandPartyStageDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032IslandPartyStageData.proto\"M\n\024IslandPa" +
       "rtyStageData\022\022\n\nbest_score\030\013 \001(\r\022\017\n\007is_o" +
-      "pen\030\016 \001(\010\022\020\n\010stage_id\030\017 \001(\rB;\n\031emu.grass" +
-      "cutter.net.protoB\036IslandPartyStageDataOu" +
-      "terClassb\006proto3"
+      "pen\030\016 \001(\010\022\020\n\010stage_id\030\017 \001(\rB\033\n\031emu.grass" +
+      "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

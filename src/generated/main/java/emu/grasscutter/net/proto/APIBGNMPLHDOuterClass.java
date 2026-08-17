@@ -32,9 +32,9 @@ public final class APIBGNMPLHDOuterClass {
      */
     APIBGNMPLHD_GUID(2),
     /**
-     * <code>APIBGNMPLHD_INT32 = 3;</code>
+     * <code>APIBGNMPLHD_INT_32 = 3;</code>
      */
-    APIBGNMPLHD_INT32(3),
+    APIBGNMPLHD_INT_32(3),
     /**
      * <code>APIBGNMPLHD_BOOL = 4;</code>
      */
@@ -52,9 +52,9 @@ public final class APIBGNMPLHDOuterClass {
      */
     APIBGNMPLHD_GUID_LIST(7),
     /**
-     * <code>APIBGNMPLHD_INT32_LIST = 8;</code>
+     * <code>APIBGNMPLHD_INT_32_LIST = 8;</code>
      */
-    APIBGNMPLHD_INT32_LIST(8),
+    APIBGNMPLHD_INT_32_LIST(8),
     /**
      * <code>APIBGNMPLHD_BOOL_LIST = 9;</code>
      */
@@ -68,9 +68,9 @@ public final class APIBGNMPLHDOuterClass {
      */
     APIBGNMPLHD_STRING_LIST(11),
     /**
-     * <code>APIBGNMPLHD_VECTOR3 = 12;</code>
+     * <code>APIBGNMPLHD_VECTOR_3 = 12;</code>
      */
-    APIBGNMPLHD_VECTOR3(12),
+    APIBGNMPLHD_VECTOR_3(12),
     /**
      * <code>APIBGNMPLHD_ENTITY_LIST = 13;</code>
      */
@@ -80,9 +80,9 @@ public final class APIBGNMPLHDOuterClass {
      */
     APIBGNMPLHD_ENUM(14),
     /**
-     * <code>APIBGNMPLHD_VECTOR3_LIST = 15;</code>
+     * <code>APIBGNMPLHD_VECTOR_3_LIST = 15;</code>
      */
-    APIBGNMPLHD_VECTOR3_LIST(15),
+    APIBGNMPLHD_VECTOR_3_LIST(15),
     /**
      * <code>APIBGNMPLHD_VARIABLE = 16;</code>
      */
@@ -159,9 +159,9 @@ public final class APIBGNMPLHDOuterClass {
      */
     public static final int APIBGNMPLHD_GUID_VALUE = 2;
     /**
-     * <code>APIBGNMPLHD_INT32 = 3;</code>
+     * <code>APIBGNMPLHD_INT_32 = 3;</code>
      */
-    public static final int APIBGNMPLHD_INT32_VALUE = 3;
+    public static final int APIBGNMPLHD_INT_32_VALUE = 3;
     /**
      * <code>APIBGNMPLHD_BOOL = 4;</code>
      */
@@ -179,9 +179,9 @@ public final class APIBGNMPLHDOuterClass {
      */
     public static final int APIBGNMPLHD_GUID_LIST_VALUE = 7;
     /**
-     * <code>APIBGNMPLHD_INT32_LIST = 8;</code>
+     * <code>APIBGNMPLHD_INT_32_LIST = 8;</code>
      */
-    public static final int APIBGNMPLHD_INT32_LIST_VALUE = 8;
+    public static final int APIBGNMPLHD_INT_32_LIST_VALUE = 8;
     /**
      * <code>APIBGNMPLHD_BOOL_LIST = 9;</code>
      */
@@ -195,9 +195,9 @@ public final class APIBGNMPLHDOuterClass {
      */
     public static final int APIBGNMPLHD_STRING_LIST_VALUE = 11;
     /**
-     * <code>APIBGNMPLHD_VECTOR3 = 12;</code>
+     * <code>APIBGNMPLHD_VECTOR_3 = 12;</code>
      */
-    public static final int APIBGNMPLHD_VECTOR3_VALUE = 12;
+    public static final int APIBGNMPLHD_VECTOR_3_VALUE = 12;
     /**
      * <code>APIBGNMPLHD_ENTITY_LIST = 13;</code>
      */
@@ -207,9 +207,9 @@ public final class APIBGNMPLHDOuterClass {
      */
     public static final int APIBGNMPLHD_ENUM_VALUE = 14;
     /**
-     * <code>APIBGNMPLHD_VECTOR3_LIST = 15;</code>
+     * <code>APIBGNMPLHD_VECTOR_3_LIST = 15;</code>
      */
-    public static final int APIBGNMPLHD_VECTOR3_LIST_VALUE = 15;
+    public static final int APIBGNMPLHD_VECTOR_3_LIST_VALUE = 15;
     /**
      * <code>APIBGNMPLHD_VARIABLE = 16;</code>
      */
@@ -299,19 +299,19 @@ public final class APIBGNMPLHDOuterClass {
         case 0: return APIBGNMPLHD_NONE;
         case 1: return APIBGNMPLHD_ENTITY;
         case 2: return APIBGNMPLHD_GUID;
-        case 3: return APIBGNMPLHD_INT32;
+        case 3: return APIBGNMPLHD_INT_32;
         case 4: return APIBGNMPLHD_BOOL;
         case 5: return APIBGNMPLHD_FLOAT;
         case 6: return APIBGNMPLHD_STRING;
         case 7: return APIBGNMPLHD_GUID_LIST;
-        case 8: return APIBGNMPLHD_INT32_LIST;
+        case 8: return APIBGNMPLHD_INT_32_LIST;
         case 9: return APIBGNMPLHD_BOOL_LIST;
         case 10: return APIBGNMPLHD_FLOAT_LIST;
         case 11: return APIBGNMPLHD_STRING_LIST;
-        case 12: return APIBGNMPLHD_VECTOR3;
+        case 12: return APIBGNMPLHD_VECTOR_3;
         case 13: return APIBGNMPLHD_ENTITY_LIST;
         case 14: return APIBGNMPLHD_ENUM;
-        case 15: return APIBGNMPLHD_VECTOR3_LIST;
+        case 15: return APIBGNMPLHD_VECTOR_3_LIST;
         case 16: return APIBGNMPLHD_VARIABLE;
         case 17: return APIBGNMPLHD_ARMY;
         case 18: return APIBGNMPLHD_COMP_TYPE;
@@ -392,30 +392,30 @@ public final class APIBGNMPLHDOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021APIBGNMPLHD.proto*\333\006\n\013APIBGNMPLHD\022\024\n\020A" +
+      "\n\021APIBGNMPLHD.proto*\337\006\n\013APIBGNMPLHD\022\024\n\020A" +
       "PIBGNMPLHD_NONE\020\000\022\026\n\022APIBGNMPLHD_ENTITY\020" +
-      "\001\022\024\n\020APIBGNMPLHD_GUID\020\002\022\025\n\021APIBGNMPLHD_I" +
-      "NT32\020\003\022\024\n\020APIBGNMPLHD_BOOL\020\004\022\025\n\021APIBGNMP" +
-      "LHD_FLOAT\020\005\022\026\n\022APIBGNMPLHD_STRING\020\006\022\031\n\025A" +
-      "PIBGNMPLHD_GUID_LIST\020\007\022\032\n\026APIBGNMPLHD_IN" +
-      "T32_LIST\020\010\022\031\n\025APIBGNMPLHD_BOOL_LIST\020\t\022\032\n" +
-      "\026APIBGNMPLHD_FLOAT_LIST\020\n\022\033\n\027APIBGNMPLHD" +
-      "_STRING_LIST\020\013\022\027\n\023APIBGNMPLHD_VECTOR3\020\014\022" +
-      "\033\n\027APIBGNMPLHD_ENTITY_LIST\020\r\022\024\n\020APIBGNMP" +
-      "LHD_ENUM\020\016\022\034\n\030APIBGNMPLHD_VECTOR3_LIST\020\017" +
-      "\022\030\n\024APIBGNMPLHD_VARIABLE\020\020\022\024\n\020APIBGNMPLH" +
-      "D_ARMY\020\021\022\031\n\025APIBGNMPLHD_COMP_TYPE\020\022\022\035\n\031A" +
-      "PIBGNMPLHD_CATEGORY_TYPE\020\023\022 \n\034APIBGNMPLH" +
-      "D_CONFIG_REFERENCE\020\024\022 \n\034APIBGNMPLHD_ENTI" +
-      "TY_REFERENCE\020\025\022%\n!APIBGNMPLHD_CONFIG_REF" +
-      "ERENCE_LIST\020\026\022%\n!APIBGNMPLHD_ENTITY_REFE" +
-      "RENCE_LIST\020\027\022\031\n\025APIBGNMPLHD_ARMY_LIST\020\030\022" +
-      "\026\n\022APIBGNMPLHD_STRUCT\020\031\022\033\n\027APIBGNMPLHD_S" +
-      "TRUCT_LIST\020\032\022\024\n\020APIBGNMPLHD_DICT\020\033\022%\n!AP" +
-      "IBGNMPLHD_CUSTOM_VALUE_SNAPSHOT\020\034\022\031\n\025API" +
-      "BGNMPLHD_ENUM_LIST\020\035\022\023\n\017APIBGNMPLHD_MAX\020" +
-      "2B2\n\031emu.grasscutter.net.protoB\025APIBGNMP" +
-      "LHDOuterClassb\006proto3"
+      "\001\022\024\n\020APIBGNMPLHD_GUID\020\002\022\026\n\022APIBGNMPLHD_I" +
+      "NT_32\020\003\022\024\n\020APIBGNMPLHD_BOOL\020\004\022\025\n\021APIBGNM" +
+      "PLHD_FLOAT\020\005\022\026\n\022APIBGNMPLHD_STRING\020\006\022\031\n\025" +
+      "APIBGNMPLHD_GUID_LIST\020\007\022\033\n\027APIBGNMPLHD_I" +
+      "NT_32_LIST\020\010\022\031\n\025APIBGNMPLHD_BOOL_LIST\020\t\022" +
+      "\032\n\026APIBGNMPLHD_FLOAT_LIST\020\n\022\033\n\027APIBGNMPL" +
+      "HD_STRING_LIST\020\013\022\030\n\024APIBGNMPLHD_VECTOR_3" +
+      "\020\014\022\033\n\027APIBGNMPLHD_ENTITY_LIST\020\r\022\024\n\020APIBG" +
+      "NMPLHD_ENUM\020\016\022\035\n\031APIBGNMPLHD_VECTOR_3_LI" +
+      "ST\020\017\022\030\n\024APIBGNMPLHD_VARIABLE\020\020\022\024\n\020APIBGN" +
+      "MPLHD_ARMY\020\021\022\031\n\025APIBGNMPLHD_COMP_TYPE\020\022\022" +
+      "\035\n\031APIBGNMPLHD_CATEGORY_TYPE\020\023\022 \n\034APIBGN" +
+      "MPLHD_CONFIG_REFERENCE\020\024\022 \n\034APIBGNMPLHD_" +
+      "ENTITY_REFERENCE\020\025\022%\n!APIBGNMPLHD_CONFIG" +
+      "_REFERENCE_LIST\020\026\022%\n!APIBGNMPLHD_ENTITY_" +
+      "REFERENCE_LIST\020\027\022\031\n\025APIBGNMPLHD_ARMY_LIS" +
+      "T\020\030\022\026\n\022APIBGNMPLHD_STRUCT\020\031\022\033\n\027APIBGNMPL" +
+      "HD_STRUCT_LIST\020\032\022\024\n\020APIBGNMPLHD_DICT\020\033\022%" +
+      "\n!APIBGNMPLHD_CUSTOM_VALUE_SNAPSHOT\020\034\022\031\n" +
+      "\025APIBGNMPLHD_ENUM_LIST\020\035\022\023\n\017APIBGNMPLHD_" +
+      "MAX\0202B\033\n\031emu.grasscutter.net.protob\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

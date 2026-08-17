@@ -49,6 +49,10 @@ public final class ShowCommonTipsNotifyOuterClass {
     int getCloseTime();
   }
   /**
+   * <pre>
+   * CmdID: 22835
+   * </pre>
+   *
    * Protobuf type {@code ShowCommonTipsNotify}
    */
   public static final class ShowCommonTipsNotify extends
@@ -407,6 +411,10 @@ public final class ShowCommonTipsNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 22835
+     * </pre>
+     *
      * Protobuf type {@code ShowCommonTipsNotify}
      */
     public static final class Builder extends
@@ -818,9 +826,8 @@ public final class ShowCommonTipsNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032ShowCommonTipsNotify.proto\"J\n\024ShowComm" +
       "onTipsNotify\022\r\n\005title\030\001 \001(\t\022\017\n\007content\030\t" +
-      " \001(\t\022\022\n\nclose_time\030\n \001(\rB;\n\031emu.grasscut" +
-      "ter.net.protoB\036ShowCommonTipsNotifyOuter" +
-      "Classb\006proto3"
+      " \001(\t\022\022\n\nclose_time\030\n \001(\rB\033\n\031emu.grasscut" +
+      "ter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

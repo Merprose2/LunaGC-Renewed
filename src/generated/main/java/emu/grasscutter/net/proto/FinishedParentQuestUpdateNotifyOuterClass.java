@@ -43,6 +43,10 @@ public final class FinishedParentQuestUpdateNotifyOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 3115
+   * </pre>
+   *
    * Protobuf type {@code FinishedParentQuestUpdateNotify}
    */
   public static final class FinishedParentQuestUpdateNotify extends
@@ -331,6 +335,10 @@ public final class FinishedParentQuestUpdateNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 3115
+     * </pre>
+     *
      * Protobuf type {@code FinishedParentQuestUpdateNotify}
      */
     public static final class Builder extends
@@ -824,9 +832,8 @@ public final class FinishedParentQuestUpdateNotifyOuterClass {
       "\n%FinishedParentQuestUpdateNotify.proto\032" +
       "\021ParentQuest.proto\"J\n\037FinishedParentQues" +
       "tUpdateNotify\022\'\n\021parent_quest_list\030\r \003(\013" +
-      "2\014.ParentQuestBF\n\031emu.grasscutter.net.pr" +
-      "otoB)FinishedParentQuestUpdateNotifyOute" +
-      "rClassb\006proto3"
+      "2\014.ParentQuestB\033\n\031emu.grasscutter.net.pr" +
+      "otob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

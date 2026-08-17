@@ -894,9 +894,8 @@ public final class ChannelerSlabChallengeOuterClass {
       "\n\034ChannelerSlabChallenge.proto\032\027Channele" +
       "rSlabCamp.proto\"Z\n\026ChannelerSlabChalleng" +
       "e\022\031\n\021active_camp_index\030\006 \001(\r\022%\n\tcamp_lis" +
-      "t\030\n \003(\0132\022.ChannelerSlabCampB=\n\031emu.grass" +
-      "cutter.net.protoB ChannelerSlabChallenge" +
-      "OuterClassb\006proto3"
+      "t\030\n \003(\0132\022.ChannelerSlabCampB\033\n\031emu.grass" +
+      "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

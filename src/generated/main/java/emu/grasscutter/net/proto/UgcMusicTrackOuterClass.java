@@ -823,8 +823,8 @@ public final class UgcMusicTrackOuterClass {
     java.lang.String[] descriptorData = {
       "\n\023UgcMusicTrack.proto\032\022UgcMusicNote.prot" +
       "o\"7\n\rUgcMusicTrack\022&\n\017music_note_list\030\r " +
-      "\003(\0132\r.UgcMusicNoteB4\n\031emu.grasscutter.ne" +
-      "t.protoB\027UgcMusicTrackOuterClassb\006proto3"
+      "\003(\0132\r.UgcMusicNoteB\033\n\031emu.grasscutter.ne" +
+      "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

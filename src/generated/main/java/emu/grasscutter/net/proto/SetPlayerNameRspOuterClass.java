@@ -37,6 +37,10 @@ public final class SetPlayerNameRspOuterClass {
         getNickNameBytes();
   }
   /**
+   * <pre>
+   * CmdID: 29802
+   * </pre>
+   *
    * Protobuf type {@code SetPlayerNameRsp}
    */
   public static final class SetPlayerNameRsp extends
@@ -340,6 +344,10 @@ public final class SetPlayerNameRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 29802
+     * </pre>
+     *
      * Protobuf type {@code SetPlayerNameRsp}
      */
     public static final class Builder extends
@@ -668,8 +676,7 @@ public final class SetPlayerNameRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026SetPlayerNameRsp.proto\"6\n\020SetPlayerNam" +
       "eRsp\022\017\n\007retcode\030\002 \001(\005\022\021\n\tnick_name\030\003 \001(\t" +
-      "B7\n\031emu.grasscutter.net.protoB\032SetPlayer" +
-      "NameRspOuterClassb\006proto3"
+      "B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

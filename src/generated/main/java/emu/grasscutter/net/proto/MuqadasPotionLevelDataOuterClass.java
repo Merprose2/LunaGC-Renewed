@@ -659,9 +659,8 @@ public final class MuqadasPotionLevelDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034MuqadasPotionLevelData.proto\"N\n\026Muqada" +
       "sPotionLevelData\022\020\n\010level_id\030\001 \001(\r\022\021\n\tma" +
-      "x_score\030\003 \001(\r\022\017\n\007is_open\030\007 \001(\010B=\n\031emu.gr" +
-      "asscutter.net.protoB MuqadasPotionLevelD" +
-      "ataOuterClassb\006proto3"
+      "x_score\030\003 \001(\r\022\017\n\007is_open\030\007 \001(\010B\033\n\031emu.gr" +
+      "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

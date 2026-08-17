@@ -658,8 +658,8 @@ public final class ChildQuestOuterClass {
     java.lang.String[] descriptorData = {
       "\n\020ChildQuest.proto\"F\n\nChildQuest\022\020\n\010ques" +
       "t_id\030\002 \001(\r\022\027\n\017quest_config_id\030\006 \001(\r\022\r\n\005s" +
-      "tate\030\r \001(\rB1\n\031emu.grasscutter.net.protoB" +
-      "\024ChildQuestOuterClassb\006proto3"
+      "tate\030\r \001(\rB\033\n\031emu.grasscutter.net.protob" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

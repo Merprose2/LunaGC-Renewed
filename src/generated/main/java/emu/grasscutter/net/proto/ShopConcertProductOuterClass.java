@@ -1100,9 +1100,8 @@ public final class ShopConcertProductOuterClass {
       "rtProduct\022\022\n\nproduct_id\030\001 \001(\t\022\022\n\nprice_t" +
       "ier\030\002 \001(\t\022\024\n\014obtain_count\030\003 \001(\r\022\024\n\014obtai" +
       "n_limit\030\004 \001(\r\022\022\n\nbegin_time\030\005 \001(\r\022\020\n\010end" +
-      "_time\030\006 \001(\r\022\021\n\tbuy_times\030\007 \001(\rB9\n\031emu.gr" +
-      "asscutter.net.protoB\034ShopConcertProductO" +
-      "uterClassb\006proto3"
+      "_time\030\006 \001(\r\022\021\n\tbuy_times\030\007 \001(\rB\033\n\031emu.gr" +
+      "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

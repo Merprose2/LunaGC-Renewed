@@ -25,6 +25,10 @@ public final class HomeAvatarSummonFinishReqOuterClass {
     int getEventId();
   }
   /**
+   * <pre>
+   * CmdID: 7049
+   * </pre>
+   *
    * Protobuf type {@code HomeAvatarSummonFinishReq}
    */
   public static final class HomeAvatarSummonFinishReq extends
@@ -273,6 +277,10 @@ public final class HomeAvatarSummonFinishReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 7049
+     * </pre>
+     *
      * Protobuf type {@code HomeAvatarSummonFinishReq}
      */
     public static final class Builder extends
@@ -518,8 +526,7 @@ public final class HomeAvatarSummonFinishReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037HomeAvatarSummonFinishReq.proto\"-\n\031Hom" +
       "eAvatarSummonFinishReq\022\020\n\010event_id\030\010 \001(\r" +
-      "B@\n\031emu.grasscutter.net.protoB#HomeAvata" +
-      "rSummonFinishReqOuterClassb\006proto3"
+      "B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

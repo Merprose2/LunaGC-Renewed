@@ -588,9 +588,8 @@ public final class EntityEnvironmentInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033EntityEnvironmentInfo.proto\"K\n\025EntityE" +
       "nvironmentInfo\022\031\n\021json_climate_type\030\001 \001(" +
-      "\r\022\027\n\017climate_area_id\030\002 \001(\rB<\n\031emu.grassc" +
-      "utter.net.protoB\037EntityEnvironmentInfoOu" +
-      "terClassb\006proto3"
+      "\r\022\027\n\017climate_area_id\030\002 \001(\rB\033\n\031emu.grassc" +
+      "utter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

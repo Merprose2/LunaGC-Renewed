@@ -824,9 +824,8 @@ public final class SummerTimeSprintBoatInfoOuterClass {
       "\n\036SummerTimeSprintBoatInfo.proto\032 Summer" +
       "TimeSprintBoatRecord.proto\"L\n\030SummerTime" +
       "SprintBoatInfo\0220\n\013record_list\030\001 \003(\0132\033.Su" +
-      "mmerTimeSprintBoatRecordB?\n\031emu.grasscut" +
-      "ter.net.protoB\"SummerTimeSprintBoatInfoO" +
-      "uterClassb\006proto3"
+      "mmerTimeSprintBoatRecordB\033\n\031emu.grasscut" +
+      "ter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

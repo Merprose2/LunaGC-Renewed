@@ -722,8 +722,8 @@ public final class KFFBNCLNHOAOuterClass {
       "\n\021KFFBNCLNHOA.proto\032\032SocialShowAvatarInf" +
       "o.proto\"R\n\013KFFBNCLNHOA\022\027\n\017trial_avatar_i" +
       "d\030\007 \001(\r\022*\n\013FGGLBLAFNLD\030\016 \001(\0132\025.SocialSho" +
-      "wAvatarInfoB2\n\031emu.grasscutter.net.proto" +
-      "B\025KFFBNCLNHOAOuterClassb\006proto3"
+      "wAvatarInfoB\033\n\031emu.grasscutter.net.proto" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

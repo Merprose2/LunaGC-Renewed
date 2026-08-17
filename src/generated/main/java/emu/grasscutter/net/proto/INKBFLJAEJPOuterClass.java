@@ -33,11 +33,11 @@ public final class INKBFLJAEJPOuterClass {
      * <code>._Vector2Int pos = 2;</code>
      * @return The pos.
      */
-    emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int getPos();
+    emu.grasscutter.net.proto.Vector2Int._Vector2Int getPos();
     /**
      * <code>._Vector2Int pos = 2;</code>
      */
-    emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder getPosOrBuilder();
+    emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder getPosOrBuilder();
 
     /**
      * <code>uint32 score = 3;</code>
@@ -168,11 +168,11 @@ public final class INKBFLJAEJPOuterClass {
               break;
             }
             case 18: {
-              emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder subBuilder = null;
+              emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder subBuilder = null;
               if (pos_ != null) {
                 subBuilder = pos_.toBuilder();
               }
-              pos_ = input.readMessage(emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.parser(), extensionRegistry);
+              pos_ = input.readMessage(emu.grasscutter.net.proto.Vector2Int._Vector2Int.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(pos_);
                 pos_ = subBuilder.buildPartial();
@@ -289,7 +289,7 @@ public final class INKBFLJAEJPOuterClass {
     }
 
     public static final int POS_FIELD_NUMBER = 2;
-    private emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int pos_;
+    private emu.grasscutter.net.proto.Vector2Int._Vector2Int pos_;
     /**
      * <code>._Vector2Int pos = 2;</code>
      * @return Whether the pos field is set.
@@ -303,14 +303,14 @@ public final class INKBFLJAEJPOuterClass {
      * @return The pos.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int getPos() {
-      return pos_ == null ? emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.getDefaultInstance() : pos_;
+    public emu.grasscutter.net.proto.Vector2Int._Vector2Int getPos() {
+      return pos_ == null ? emu.grasscutter.net.proto.Vector2Int._Vector2Int.getDefaultInstance() : pos_;
     }
     /**
      * <code>._Vector2Int pos = 2;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder getPosOrBuilder() {
+    public emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder getPosOrBuilder() {
       return getPos();
     }
 
@@ -1041,9 +1041,9 @@ public final class INKBFLJAEJPOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int pos_;
+      private emu.grasscutter.net.proto.Vector2Int._Vector2Int pos_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder> posBuilder_;
+          emu.grasscutter.net.proto.Vector2Int._Vector2Int, emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder, emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder> posBuilder_;
       /**
        * <code>._Vector2Int pos = 2;</code>
        * @return Whether the pos field is set.
@@ -1055,9 +1055,9 @@ public final class INKBFLJAEJPOuterClass {
        * <code>._Vector2Int pos = 2;</code>
        * @return The pos.
        */
-      public emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int getPos() {
+      public emu.grasscutter.net.proto.Vector2Int._Vector2Int getPos() {
         if (posBuilder_ == null) {
-          return pos_ == null ? emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.getDefaultInstance() : pos_;
+          return pos_ == null ? emu.grasscutter.net.proto.Vector2Int._Vector2Int.getDefaultInstance() : pos_;
         } else {
           return posBuilder_.getMessage();
         }
@@ -1065,7 +1065,7 @@ public final class INKBFLJAEJPOuterClass {
       /**
        * <code>._Vector2Int pos = 2;</code>
        */
-      public Builder setPos(emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int value) {
+      public Builder setPos(emu.grasscutter.net.proto.Vector2Int._Vector2Int value) {
         if (posBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1082,7 +1082,7 @@ public final class INKBFLJAEJPOuterClass {
        * <code>._Vector2Int pos = 2;</code>
        */
       public Builder setPos(
-          emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder builderForValue) {
+          emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder builderForValue) {
         if (posBuilder_ == null) {
           pos_ = builderForValue.build();
           onChanged();
@@ -1095,11 +1095,11 @@ public final class INKBFLJAEJPOuterClass {
       /**
        * <code>._Vector2Int pos = 2;</code>
        */
-      public Builder mergePos(emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int value) {
+      public Builder mergePos(emu.grasscutter.net.proto.Vector2Int._Vector2Int value) {
         if (posBuilder_ == null) {
           if (pos_ != null) {
             pos_ =
-              emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.newBuilder(pos_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto.Vector2Int._Vector2Int.newBuilder(pos_).mergeFrom(value).buildPartial();
           } else {
             pos_ = value;
           }
@@ -1127,7 +1127,7 @@ public final class INKBFLJAEJPOuterClass {
       /**
        * <code>._Vector2Int pos = 2;</code>
        */
-      public emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder getPosBuilder() {
+      public emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder getPosBuilder() {
         
         onChanged();
         return getPosFieldBuilder().getBuilder();
@@ -1135,23 +1135,23 @@ public final class INKBFLJAEJPOuterClass {
       /**
        * <code>._Vector2Int pos = 2;</code>
        */
-      public emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder getPosOrBuilder() {
+      public emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder getPosOrBuilder() {
         if (posBuilder_ != null) {
           return posBuilder_.getMessageOrBuilder();
         } else {
           return pos_ == null ?
-              emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.getDefaultInstance() : pos_;
+              emu.grasscutter.net.proto.Vector2Int._Vector2Int.getDefaultInstance() : pos_;
         }
       }
       /**
        * <code>._Vector2Int pos = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder> 
+          emu.grasscutter.net.proto.Vector2Int._Vector2Int, emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder, emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder> 
           getPosFieldBuilder() {
         if (posBuilder_ == null) {
           posBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2Int.Builder, emu.grasscutter.net.proto._Vector2IntOuterClass._Vector2IntOrBuilder>(
+              emu.grasscutter.net.proto.Vector2Int._Vector2Int, emu.grasscutter.net.proto.Vector2Int._Vector2Int.Builder, emu.grasscutter.net.proto.Vector2Int._Vector2IntOrBuilder>(
                   getPos(),
                   getParentForChildren(),
                   isClean());
@@ -1637,14 +1637,13 @@ public final class INKBFLJAEJPOuterClass {
       "\022\023\n\013AEKEMNLLBAF\030\n \001(\r\022\023\n\013HDACLIOHBJC\030\013 \001" +
       "(\r\022\023\n\013HGFLCHNCDLN\030\014 \001(\r\022\023\n\013JJFKBJHENLI\030\r" +
       " \001(\r\022\023\n\013NINOCKACDKO\030\016 \001(\r\022\023\n\013AKAPJEMAJHN" +
-      "\030\017 \001(\r\022\023\n\013PBIOFMENBEA\030\020 \001(\rB2\n\031emu.grass" +
-      "cutter.net.protoB\025INKBFLJAEJPOuterClassb" +
-      "\006proto3"
+      "\030\017 \001(\r\022\023\n\013PBIOFMENBEA\030\020 \001(\rB\033\n\031emu.grass" +
+      "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto._Vector2IntOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.Vector2Int.getDescriptor(),
         });
     internal_static_INKBFLJAEJP_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1652,7 +1651,7 @@ public final class INKBFLJAEJPOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_INKBFLJAEJP_descriptor,
         new java.lang.String[] { "Uid", "Pos", "Score", "Index", "KFEHIPLFNMI", "LOKEFCNECID", "Rot", "CFCKHNGAPKE", "AEKEMNLLBAF", "HDACLIOHBJC", "HGFLCHNCDLN", "JJFKBJHENLI", "NINOCKACDKO", "AKAPJEMAJHN", "PBIOFMENBEA", });
-    emu.grasscutter.net.proto._Vector2IntOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.Vector2Int.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

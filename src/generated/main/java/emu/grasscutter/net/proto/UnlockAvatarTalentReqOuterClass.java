@@ -31,6 +31,10 @@ public final class UnlockAvatarTalentReqOuterClass {
     int getTalentId();
   }
   /**
+   * <pre>
+   * CmdID: 24051
+   * </pre>
+   *
    * Protobuf type {@code UnlockAvatarTalentReq}
    */
   public static final class UnlockAvatarTalentReq extends
@@ -307,6 +311,10 @@ public final class UnlockAvatarTalentReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 24051
+     * </pre>
+     *
      * Protobuf type {@code UnlockAvatarTalentReq}
      */
     public static final class Builder extends
@@ -589,9 +597,8 @@ public final class UnlockAvatarTalentReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033UnlockAvatarTalentReq.proto\"?\n\025UnlockA" +
       "vatarTalentReq\022\023\n\013avatar_guid\030\002 \001(\004\022\021\n\tt" +
-      "alent_id\030\010 \001(\rB<\n\031emu.grasscutter.net.pr" +
-      "otoB\037UnlockAvatarTalentReqOuterClassb\006pr" +
-      "oto3"
+      "alent_id\030\010 \001(\rB\033\n\031emu.grasscutter.net.pr" +
+      "otob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

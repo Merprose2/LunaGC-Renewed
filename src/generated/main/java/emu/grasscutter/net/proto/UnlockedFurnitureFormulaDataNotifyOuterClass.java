@@ -42,6 +42,10 @@ public final class UnlockedFurnitureFormulaDataNotifyOuterClass {
     boolean getIsAll();
   }
   /**
+   * <pre>
+   * CmdID: 8206
+   * </pre>
+   *
    * Protobuf type {@code UnlockedFurnitureFormulaDataNotify}
    */
   public static final class UnlockedFurnitureFormulaDataNotify extends
@@ -373,6 +377,10 @@ public final class UnlockedFurnitureFormulaDataNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 8206
+     * </pre>
+     *
      * Protobuf type {@code UnlockedFurnitureFormulaDataNotify}
      */
     public static final class Builder extends
@@ -717,9 +725,7 @@ public final class UnlockedFurnitureFormulaDataNotifyOuterClass {
       "\n(UnlockedFurnitureFormulaDataNotify.pro" +
       "to\"O\n\"UnlockedFurnitureFormulaDataNotify" +
       "\022\031\n\021furniture_id_list\030\004 \003(\r\022\016\n\006is_all\030\014 " +
-      "\001(\010BI\n\031emu.grasscutter.net.protoB,Unlock" +
-      "edFurnitureFormulaDataNotifyOuterClassb\006" +
-      "proto3"
+      "\001(\010B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

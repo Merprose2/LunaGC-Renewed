@@ -163,9 +163,8 @@ public final class HOKPFMBPOMBOuterClass {
       "FMBPOMB_BEYOND_MOVER_ROTATE\020\001\022\"\n\036HOKPFMB" +
       "POMB_BEYOND_MOVER_ROUTE\020\002\022*\n&HOKPFMBPOMB" +
       "_BEYOND_MOVER_ROTATE_TO_DIR\020\003\022*\n&HOKPFMB" +
-      "POMB_BEYOND_MOVER_FIXED_POS_ROT\020\004B2\n\031emu" +
-      ".grasscutter.net.protoB\025HOKPFMBPOMBOuter" +
-      "Classb\006proto3"
+      "POMB_BEYOND_MOVER_FIXED_POS_ROT\020\004B\033\n\031emu" +
+      ".grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

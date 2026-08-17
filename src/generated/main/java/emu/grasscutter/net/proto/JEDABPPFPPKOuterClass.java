@@ -1267,8 +1267,7 @@ public final class JEDABPPFPPKOuterClass {
       "CMPMKGIAPCH.proto\"h\n\013JEDABPPFPPK\022!\n\013GKPM" +
       "NIPPOMG\030\001 \003(\0132\014.BDPJCGLCLJI\022!\n\013KIMILGIBB" +
       "FD\030\002 \003(\0132\014.CMPMKGIAPCH\022\023\n\013IGMLCDCLMLK\030\003 " +
-      "\001(\rB2\n\031emu.grasscutter.net.protoB\025JEDABP" +
-      "PFPPKOuterClassb\006proto3"
+      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

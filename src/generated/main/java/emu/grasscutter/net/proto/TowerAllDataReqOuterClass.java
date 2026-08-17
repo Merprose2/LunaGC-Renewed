@@ -18,11 +18,15 @@ public final class TowerAllDataReqOuterClass {
       // @@protoc_insertion_point(interface_extends:TowerAllDataReq)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>bool is_interact = 2;</code>
+     * @return The isInteract.
+     */
     boolean getIsInteract();
   }
   /**
    * <pre>
-   * CmdId: 24262
+   * CmdID: 2562
    * </pre>
    *
    * Protobuf type {@code TowerAllDataReq}
@@ -69,7 +73,7 @@ public final class TowerAllDataReqOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
+            case 16: {
 
               isInteract_ = input.readBool();
               break;
@@ -106,9 +110,12 @@ public final class TowerAllDataReqOuterClass {
               emu.grasscutter.net.proto.TowerAllDataReqOuterClass.TowerAllDataReq.class, emu.grasscutter.net.proto.TowerAllDataReqOuterClass.TowerAllDataReq.Builder.class);
     }
 
-    public static final int IS_INTERACT_FIELD_NUMBER = 10;
+    public static final int IS_INTERACT_FIELD_NUMBER = 2;
     private boolean isInteract_;
-
+    /**
+     * <code>bool is_interact = 2;</code>
+     * @return The isInteract.
+     */
     @java.lang.Override
     public boolean getIsInteract() {
       return isInteract_;
@@ -129,7 +136,7 @@ public final class TowerAllDataReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isInteract_ != false) {
-        output.writeBool(10, isInteract_);
+        output.writeBool(2, isInteract_);
       }
       unknownFields.writeTo(output);
     }
@@ -142,7 +149,7 @@ public final class TowerAllDataReqOuterClass {
       size = 0;
       if (isInteract_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isInteract_);
+          .computeBoolSize(2, isInteract_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -272,7 +279,7 @@ public final class TowerAllDataReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 24262
+     * CmdID: 2562
      * </pre>
      *
      * Protobuf type {@code TowerAllDataReq}
@@ -422,21 +429,31 @@ public final class TowerAllDataReqOuterClass {
       }
 
       private boolean isInteract_ ;
-
+      /**
+       * <code>bool is_interact = 2;</code>
+       * @return The isInteract.
+       */
       @java.lang.Override
       public boolean getIsInteract() {
         return isInteract_;
       }
-
+      /**
+       * <code>bool is_interact = 2;</code>
+       * @param value The isInteract to set.
+       * @return This builder for chaining.
+       */
       public Builder setIsInteract(boolean value) {
-
+        
         isInteract_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>bool is_interact = 2;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearIsInteract() {
-
+        
         isInteract_ = false;
         onChanged();
         return this;
@@ -452,6 +469,7 @@ public final class TowerAllDataReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:TowerAllDataReq)
     }
@@ -495,7 +513,7 @@ public final class TowerAllDataReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TowerAllDataReq_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TowerAllDataReq_fieldAccessorTable;
 
@@ -508,7 +526,7 @@ public final class TowerAllDataReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025TowerAllDataReq.proto\"&\n\017TowerAllDataR" +
-      "eq\022\023\n\013is_interact\030\015 \001(\010B\033\n\031emu.grasscutt" +
+      "eq\022\023\n\013is_interact\030\002 \001(\010B\033\n\031emu.grasscutt" +
       "er.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

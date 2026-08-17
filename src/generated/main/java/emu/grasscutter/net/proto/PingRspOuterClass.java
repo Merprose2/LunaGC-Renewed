@@ -37,6 +37,10 @@ public final class PingRspOuterClass {
     int getClientTime();
   }
   /**
+   * <pre>
+   * CmdID: 21967
+   * </pre>
+   *
    * Protobuf type {@code PingRsp}
    */
   public static final class PingRsp extends
@@ -339,6 +343,10 @@ public final class PingRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 21967
+     * </pre>
+     *
      * Protobuf type {@code PingRsp}
      */
     public static final class Builder extends
@@ -657,9 +665,8 @@ public final class PingRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\rPingRsp.proto\"<\n\007PingRsp\022\013\n\003seq\030\005 \001(\r\022" +
-      "\017\n\007retcode\030\010 \001(\005\022\023\n\013client_time\030\016 \001(\rB.\n" +
-      "\031emu.grasscutter.net.protoB\021PingRspOuter" +
-      "Classb\006proto3"
+      "\017\n\007retcode\030\010 \001(\005\022\023\n\013client_time\030\016 \001(\rB\033\n" +
+      "\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

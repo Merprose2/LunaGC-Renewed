@@ -893,9 +893,8 @@ public final class PPOBOBDKPHIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021PPOBOBDKPHI.proto\032\021KFBPPANOKHA.proto\"E" +
       "\n\013PPOBOBDKPHI\022!\n\013BFCKJBCPFLF\030\002 \003(\0132\014.KFB" +
-      "PPANOKHA\022\023\n\013schedule_id\030\010 \001(\rB2\n\031emu.gra" +
-      "sscutter.net.protoB\025PPOBOBDKPHIOuterClas" +
-      "sb\006proto3"
+      "PPANOKHA\022\023\n\013schedule_id\030\010 \001(\rB\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

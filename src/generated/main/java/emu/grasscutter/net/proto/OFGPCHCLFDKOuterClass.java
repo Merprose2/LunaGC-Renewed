@@ -823,8 +823,8 @@ public final class OFGPCHCLFDKOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021OFGPCHCLFDK.proto\032\021KLODBKLHBMD.proto\"." +
       "\n\013OFGPCHCLFDK\022\037\n\tslot_list\030\001 \003(\0132\014.KLODB" +
-      "KLHBMDB2\n\031emu.grasscutter.net.protoB\025OFG" +
-      "PCHCLFDKOuterClassb\006proto3"
+      "KLHBMDB\033\n\031emu.grasscutter.net.protob\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

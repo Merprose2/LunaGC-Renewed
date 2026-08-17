@@ -645,9 +645,8 @@ public final class SalvageBundleChallengeInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n SalvageBundleChallengeInfo.proto\":\n\032Sa" +
       "lvageBundleChallengeInfo\022\034\n\024finished_bun" +
-      "dle_list\030\010 \003(\rBA\n\031emu.grasscutter.net.pr" +
-      "otoB$SalvageBundleChallengeInfoOuterClas" +
-      "sb\006proto3"
+      "dle_list\030\010 \003(\rB\033\n\031emu.grasscutter.net.pr" +
+      "otob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

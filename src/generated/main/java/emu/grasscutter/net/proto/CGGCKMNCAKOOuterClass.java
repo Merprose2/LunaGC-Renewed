@@ -970,9 +970,8 @@ public final class CGGCKMNCAKOOuterClass {
       "PHMCFKLKEDO.proto\"\204\001\n\013CGGCKMNCAKO\022\023\n\013LIG" +
       "GJOPGIHJ\030\007 \001(\r\022!\n\013KOCIGEHDEPP\030\010 \001(\0132\014.DA" +
       "CMDDCLPNH\022\021\n\tmax_level\030\t \001(\r\022\r\n\005level\030\r " +
-      "\001(\r\022\033\n\005state\030\016 \001(\0162\014.PHMCFKLKEDOB2\n\031emu." +
-      "grasscutter.net.protoB\025CGGCKMNCAKOOuterC" +
-      "lassb\006proto3"
+      "\001(\r\022\033\n\005state\030\016 \001(\0162\014.PHMCFKLKEDOB\033\n\031emu." +
+      "grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

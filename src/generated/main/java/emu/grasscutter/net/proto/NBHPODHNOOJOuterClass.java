@@ -747,8 +747,8 @@ public final class NBHPODHNOOJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NBHPODHNOOJ.proto\032\021JEOKDCIGCFP.proto\"/" +
       "\n\013NBHPODHNOOJ\022 \n\nvalue_list\030\001 \003(\0162\014.JEOK" +
-      "DCIGCFPB2\n\031emu.grasscutter.net.protoB\025NB" +
-      "HPODHNOOJOuterClassb\006proto3"
+      "DCIGCFPB\033\n\031emu.grasscutter.net.protob\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

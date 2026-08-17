@@ -730,9 +730,8 @@ public final class BPENFBMNKMPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BPENFBMNKMP.proto\"`\n\013BPENFBMNKMP\022\020\n\010le" +
       "vel_id\030\001 \001(\r\022\023\n\013NHEFNKONPEI\030\003 \001(\r\022\025\n\ris_" +
-      "level_open\030\007 \001(\010\022\023\n\013is_finished\030\t \001(\010B2\n" +
-      "\031emu.grasscutter.net.protoB\025BPENFBMNKMPO" +
-      "uterClassb\006proto3"
+      "level_open\030\007 \001(\010\022\023\n\013is_finished\030\t \001(\010B\033\n" +
+      "\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

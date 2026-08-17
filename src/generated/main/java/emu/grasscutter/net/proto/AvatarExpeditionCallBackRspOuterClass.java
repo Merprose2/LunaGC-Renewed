@@ -59,6 +59,10 @@ public final class AvatarExpeditionCallBackRspOuterClass {
         long key);
   }
   /**
+   * <pre>
+   * CmdID: 5911
+   * </pre>
+   *
    * Protobuf type {@code AvatarExpeditionCallBackRsp}
    */
   public static final class AvatarExpeditionCallBackRsp extends
@@ -436,6 +440,10 @@ public final class AvatarExpeditionCallBackRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 5911
+     * </pre>
+     *
      * Protobuf type {@code AvatarExpeditionCallBackRsp}
      */
     public static final class Builder extends
@@ -847,9 +855,8 @@ public final class AvatarExpeditionCallBackRspOuterClass {
       "dition_info_map\030\016 \003(\01323.AvatarExpedition" +
       "CallBackRsp.ExpeditionInfoMapEntry\032O\n\026Ex" +
       "peditionInfoMapEntry\022\013\n\003key\030\001 \001(\004\022$\n\005val" +
-      "ue\030\002 \001(\0132\025.AvatarExpeditionInfo:\0028\001BB\n\031e" +
-      "mu.grasscutter.net.protoB%AvatarExpediti" +
-      "onCallBackRspOuterClassb\006proto3"
+      "ue\030\002 \001(\0132\025.AvatarExpeditionInfo:\0028\001B\033\n\031e" +
+      "mu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

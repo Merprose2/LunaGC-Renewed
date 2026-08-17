@@ -1896,9 +1896,8 @@ public final class BrickBreakerDetailInfoOuterClass {
       ".BrickBreakerActivityStageInfo\022A\n\016skill_" +
       "info_map\030\017 \003(\0132).BrickBreakerDetailInfo." +
       "SkillInfoMapEntry\0323\n\021SkillInfoMapEntry\022\013" +
-      "\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B=\n\031emu.gr" +
-      "asscutter.net.protoB BrickBreakerDetailI" +
-      "nfoOuterClassb\006proto3"
+      "\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031emu.gr" +
+      "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

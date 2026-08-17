@@ -52,6 +52,10 @@ public final class EvtAvatarSitDownNotifyOuterClass {
     int getEntityId();
   }
   /**
+   * <pre>
+   * CmdID: 8310
+   * </pre>
+   *
    * Protobuf type {@code EvtAvatarSitDownNotify}
    */
   public static final class EvtAvatarSitDownNotify extends
@@ -410,6 +414,10 @@ public final class EvtAvatarSitDownNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 8310
+     * </pre>
+     *
      * Protobuf type {@code EvtAvatarSitDownNotify}
      */
     public static final class Builder extends
@@ -863,9 +871,8 @@ public final class EvtAvatarSitDownNotifyOuterClass {
       "\n\034EvtAvatarSitDownNotify.proto\032\014Vector.p" +
       "roto\"k\n\026EvtAvatarSitDownNotify\022\020\n\010chair_" +
       "id\030\002 \001(\004\022\021\n\tdirection\030\010 \001(\005\022\031\n\010position\030" +
-      "\t \001(\0132\007.Vector\022\021\n\tentity_id\030\017 \001(\rB=\n\031emu" +
-      ".grasscutter.net.protoB EvtAvatarSitDown" +
-      "NotifyOuterClassb\006proto3"
+      "\t \001(\0132\007.Vector\022\021\n\tentity_id\030\017 \001(\rB\033\n\031emu" +
+      ".grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

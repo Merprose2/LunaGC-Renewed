@@ -589,8 +589,8 @@ public final class FungusPlotStageDetailOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033FungusPlotStageDetail.proto\":\n\025FungusP" +
       "lotStageDetail\022\020\n\010stage_id\030\006 \001(\r\022\017\n\007is_o" +
-      "pen\030\007 \001(\010B<\n\031emu.grasscutter.net.protoB\037" +
-      "FungusPlotStageDetailOuterClassb\006proto3"
+      "pen\030\007 \001(\010B\033\n\031emu.grasscutter.net.protob\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

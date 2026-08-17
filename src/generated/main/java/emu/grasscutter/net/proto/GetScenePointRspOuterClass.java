@@ -196,6 +196,10 @@ public final class GetScenePointRspOuterClass {
     int getLockedPointList(int index);
   }
   /**
+   * <pre>
+   * CmdID: 6529
+   * </pre>
+   *
    * Protobuf type {@code GetScenePointRsp}
    */
   public static final class GetScenePointRsp extends
@@ -1248,6 +1252,10 @@ public final class GetScenePointRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 6529
+     * </pre>
+     *
      * Protobuf type {@code GetScenePointRsp}
      */
     public static final class Builder extends
@@ -2476,9 +2484,8 @@ public final class GetScenePointRspOuterClass {
       "\030\010 \003(\r\022 \n\030group_unlimit_point_list\030\t \003(\r" +
       "\022\023\n\013OLEEDBKCAAN\030\n \003(\r\022\020\n\010scene_id\030\014 \001(\r\022" +
       "\022\n\nbelong_uid\030\r \001(\r\022\027\n\017hide_point_list\030\016" +
-      " \003(\r\022\031\n\021locked_point_list\030\017 \003(\rB7\n\031emu.g" +
-      "rasscutter.net.protoB\032GetScenePointRspOu" +
-      "terClassb\006proto3"
+      " \003(\r\022\031\n\021locked_point_list\030\017 \003(\rB\033\n\031emu.g" +
+      "rasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

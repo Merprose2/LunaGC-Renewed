@@ -730,9 +730,8 @@ public final class ActivityWatcherInfoOuterClass {
       "\n\031ActivityWatcherInfo.proto\"p\n\023ActivityW" +
       "atcherInfo\022\022\n\nwatcher_id\030\002 \001(\r\022\024\n\014cur_pr" +
       "ogress\030\004 \001(\r\022\027\n\017is_taken_reward\030\014 \001(\010\022\026\n" +
-      "\016total_progress\030\r \001(\rB:\n\031emu.grasscutter" +
-      ".net.protoB\035ActivityWatcherInfoOuterClas" +
-      "sb\006proto3"
+      "\016total_progress\030\r \001(\rB\033\n\031emu.grasscutter" +
+      ".net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

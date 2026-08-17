@@ -45,12 +45,12 @@ public final class NHKBDCPGNMNOuterClass {
     /**
      * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
      */
-    java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> 
+    java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> 
         getSelectAvatarListList();
     /**
      * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
      */
-    emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo getSelectAvatarList(int index);
+    emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo getSelectAvatarList(int index);
     /**
      * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
      */
@@ -58,12 +58,12 @@ public final class NHKBDCPGNMNOuterClass {
     /**
      * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
         getSelectAvatarListOrBuilderList();
     /**
      * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
      */
-    emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder getSelectAvatarListOrBuilder(
+    emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder getSelectAvatarListOrBuilder(
         int index);
   }
   /**
@@ -135,11 +135,11 @@ public final class NHKBDCPGNMNOuterClass {
             }
             case 114: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                selectAvatarList_ = new java.util.ArrayList<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo>();
+                selectAvatarList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               selectAvatarList_.add(
-                  input.readMessage(emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -222,19 +222,19 @@ public final class NHKBDCPGNMNOuterClass {
     }
 
     public static final int SELECT_AVATAR_LIST_FIELD_NUMBER = 14;
-    private java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> selectAvatarList_;
+    private java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> selectAvatarList_;
     /**
      * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> getSelectAvatarListList() {
+    public java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> getSelectAvatarListList() {
       return selectAvatarList_;
     }
     /**
      * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
         getSelectAvatarListOrBuilderList() {
       return selectAvatarList_;
     }
@@ -249,14 +249,14 @@ public final class NHKBDCPGNMNOuterClass {
      * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo getSelectAvatarList(int index) {
+    public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo getSelectAvatarList(int index) {
       return selectAvatarList_.get(index);
     }
     /**
      * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder getSelectAvatarListOrBuilder(
+    public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder getSelectAvatarListOrBuilder(
         int index) {
       return selectAvatarList_.get(index);
     }
@@ -797,22 +797,22 @@ public final class NHKBDCPGNMNOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> selectAvatarList_ =
+      private java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> selectAvatarList_ =
         java.util.Collections.emptyList();
       private void ensureSelectAvatarListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          selectAvatarList_ = new java.util.ArrayList<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo>(selectAvatarList_);
+          selectAvatarList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo>(selectAvatarList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> selectAvatarListBuilder_;
+          emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> selectAvatarListBuilder_;
 
       /**
        * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> getSelectAvatarListList() {
+      public java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> getSelectAvatarListList() {
         if (selectAvatarListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(selectAvatarList_);
         } else {
@@ -832,7 +832,7 @@ public final class NHKBDCPGNMNOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
        */
-      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo getSelectAvatarList(int index) {
+      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo getSelectAvatarList(int index) {
         if (selectAvatarListBuilder_ == null) {
           return selectAvatarList_.get(index);
         } else {
@@ -843,7 +843,7 @@ public final class NHKBDCPGNMNOuterClass {
        * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
        */
       public Builder setSelectAvatarList(
-          int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo value) {
+          int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo value) {
         if (selectAvatarListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -860,7 +860,7 @@ public final class NHKBDCPGNMNOuterClass {
        * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
        */
       public Builder setSelectAvatarList(
-          int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder builderForValue) {
         if (selectAvatarListBuilder_ == null) {
           ensureSelectAvatarListIsMutable();
           selectAvatarList_.set(index, builderForValue.build());
@@ -873,7 +873,7 @@ public final class NHKBDCPGNMNOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
        */
-      public Builder addSelectAvatarList(emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo value) {
+      public Builder addSelectAvatarList(emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo value) {
         if (selectAvatarListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -890,7 +890,7 @@ public final class NHKBDCPGNMNOuterClass {
        * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
        */
       public Builder addSelectAvatarList(
-          int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo value) {
+          int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo value) {
         if (selectAvatarListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -907,7 +907,7 @@ public final class NHKBDCPGNMNOuterClass {
        * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
        */
       public Builder addSelectAvatarList(
-          emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder builderForValue) {
         if (selectAvatarListBuilder_ == null) {
           ensureSelectAvatarListIsMutable();
           selectAvatarList_.add(builderForValue.build());
@@ -921,7 +921,7 @@ public final class NHKBDCPGNMNOuterClass {
        * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
        */
       public Builder addSelectAvatarList(
-          int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder builderForValue) {
         if (selectAvatarListBuilder_ == null) {
           ensureSelectAvatarListIsMutable();
           selectAvatarList_.add(index, builderForValue.build());
@@ -935,7 +935,7 @@ public final class NHKBDCPGNMNOuterClass {
        * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
        */
       public Builder addAllSelectAvatarList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> values) {
         if (selectAvatarListBuilder_ == null) {
           ensureSelectAvatarListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -975,14 +975,14 @@ public final class NHKBDCPGNMNOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
        */
-      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder getSelectAvatarListBuilder(
+      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder getSelectAvatarListBuilder(
           int index) {
         return getSelectAvatarListFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
        */
-      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder getSelectAvatarListOrBuilder(
+      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder getSelectAvatarListOrBuilder(
           int index) {
         if (selectAvatarListBuilder_ == null) {
           return selectAvatarList_.get(index);  } else {
@@ -992,7 +992,7 @@ public final class NHKBDCPGNMNOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
            getSelectAvatarListOrBuilderList() {
         if (selectAvatarListBuilder_ != null) {
           return selectAvatarListBuilder_.getMessageOrBuilderList();
@@ -1003,31 +1003,31 @@ public final class NHKBDCPGNMNOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
        */
-      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder addSelectAvatarListBuilder() {
+      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder addSelectAvatarListBuilder() {
         return getSelectAvatarListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.getDefaultInstance());
+            emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
        */
-      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder addSelectAvatarListBuilder(
+      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder addSelectAvatarListBuilder(
           int index) {
         return getSelectAvatarListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._ActivityAvatarInfo select_avatar_list = 14;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder> 
            getSelectAvatarListBuilderList() {
         return getSelectAvatarListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
+          emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
           getSelectAvatarListFieldBuilder() {
         if (selectAvatarListBuilder_ == null) {
           selectAvatarListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder>(
+              emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder>(
                   selectAvatarList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -1107,14 +1107,13 @@ public final class NHKBDCPGNMNOuterClass {
       ".proto\"\210\001\n\013NHKBDCPGNMN\022\021\n\tmax_score\030\004 \001(" +
       "\r\022\017\n\007is_open\030\005 \001(\010\022\021\n\tis_finish\030\t \001(\010\022\020\n" +
       "\010level_id\030\013 \001(\r\0220\n\022select_avatar_list\030\016 " +
-      "\003(\0132\024._ActivityAvatarInfoB2\n\031emu.grasscu" +
-      "tter.net.protoB\025NHKBDCPGNMNOuterClassb\006p" +
-      "roto3"
+      "\003(\0132\024._ActivityAvatarInfoB\033\n\031emu.grasscu" +
+      "tter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.ActivityAvatarInfo.getDescriptor(),
         });
     internal_static_NHKBDCPGNMN_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1122,7 +1121,7 @@ public final class NHKBDCPGNMNOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_NHKBDCPGNMN_descriptor,
         new java.lang.String[] { "MaxScore", "IsOpen", "IsFinish", "LevelId", "SelectAvatarList", });
-    emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.ActivityAvatarInfo.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

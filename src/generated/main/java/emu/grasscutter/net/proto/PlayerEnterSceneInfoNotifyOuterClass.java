@@ -85,6 +85,10 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     emu.grasscutter.net.proto.MPLevelEntityInfoOuterClass.MPLevelEntityInfoOrBuilder getMpLevelEntityInfoOrBuilder();
   }
   /**
+   * <pre>
+   * CmdID: 8439
+   * </pre>
+   *
    * Protobuf type {@code PlayerEnterSceneInfoNotify}
    */
   public static final class PlayerEnterSceneInfoNotify extends
@@ -537,6 +541,10 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 8439
+     * </pre>
+     *
      * Protobuf type {@code PlayerEnterSceneInfoNotify}
      */
     public static final class Builder extends
@@ -1375,9 +1383,8 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       "\r\022,\n\017team_enter_info\030\004 \001(\0132\023.TeamEnterSc" +
       "eneInfo\0220\n\021avatar_enter_info\030\005 \003(\0132\025.Ava" +
       "tarEnterSceneInfo\0220\n\024mp_level_entity_inf" +
-      "o\030\010 \001(\0132\022.MPLevelEntityInfoBA\n\031emu.grass" +
-      "cutter.net.protoB$PlayerEnterSceneInfoNo" +
-      "tifyOuterClassb\006proto3"
+      "o\030\010 \001(\0132\022.MPLevelEntityInfoB\033\n\031emu.grass" +
+      "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

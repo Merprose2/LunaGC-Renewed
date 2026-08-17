@@ -48,6 +48,10 @@ public final class ReliquaryDecomposeReqOuterClass {
     long getGuidList(int index);
   }
   /**
+   * <pre>
+   * CmdID: 6368
+   * </pre>
+   *
    * Protobuf type {@code ReliquaryDecomposeReq}
    */
   public static final class ReliquaryDecomposeReq extends
@@ -405,6 +409,10 @@ public final class ReliquaryDecomposeReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 6368
+     * </pre>
+     *
      * Protobuf type {@code ReliquaryDecomposeReq}
      */
     public static final class Builder extends
@@ -785,9 +793,8 @@ public final class ReliquaryDecomposeReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033ReliquaryDecomposeReq.proto\"S\n\025Reliqua" +
       "ryDecomposeReq\022\024\n\014target_count\030\006 \001(\r\022\021\n\t" +
-      "config_id\030\010 \001(\r\022\021\n\tguid_list\030\n \003(\004B<\n\031em" +
-      "u.grasscutter.net.protoB\037ReliquaryDecomp" +
-      "oseReqOuterClassb\006proto3"
+      "config_id\030\010 \001(\r\022\021\n\tguid_list\030\n \003(\004B\033\n\031em" +
+      "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

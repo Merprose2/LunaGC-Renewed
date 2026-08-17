@@ -839,8 +839,8 @@ public final class AsterLittleDetailInfoOuterClass {
       "Info\022\022\n\nbegin_time\030\001 \001(\r\022\030\n\020stage_begin_" +
       "time\030\002 \001(\r\022+\n\013stage_state\030\003 \001(\0162\026.AsterL" +
       "ittleStageState\022\017\n\007is_open\030\010 \001(\010\022\020\n\010stag" +
-      "e_id\030\r \001(\rB<\n\031emu.grasscutter.net.protoB" +
-      "\037AsterLittleDetailInfoOuterClassb\006proto3"
+      "e_id\030\r \001(\rB\033\n\031emu.grasscutter.net.protob" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

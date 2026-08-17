@@ -893,9 +893,8 @@ public final class JPLNCOKGBBGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JPLNCOKGBBG.proto\032\021IHNALHEKDID.proto\"E" +
       "\n\013JPLNCOKGBBG\022\023\n\013schedule_id\030\002 \001(\r\022!\n\013HA" +
-      "OABGIPDMO\030\016 \003(\0132\014.IHNALHEKDIDB2\n\031emu.gra" +
-      "sscutter.net.protoB\025JPLNCOKGBBGOuterClas" +
-      "sb\006proto3"
+      "OABGIPDMO\030\016 \003(\0132\014.IHNALHEKDIDB\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

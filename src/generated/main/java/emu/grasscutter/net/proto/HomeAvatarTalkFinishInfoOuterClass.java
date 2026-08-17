@@ -715,9 +715,8 @@ public final class HomeAvatarTalkFinishInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036HomeAvatarTalkFinishInfo.proto\"J\n\030Home" +
       "AvatarTalkFinishInfo\022\033\n\023finish_talk_id_l" +
-      "ist\030\005 \003(\r\022\021\n\tavatar_id\030\014 \001(\rB?\n\031emu.gras" +
-      "scutter.net.protoB\"HomeAvatarTalkFinishI" +
-      "nfoOuterClassb\006proto3"
+      "ist\030\005 \003(\r\022\021\n\tavatar_id\030\014 \001(\rB\033\n\031emu.gras" +
+      "scutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

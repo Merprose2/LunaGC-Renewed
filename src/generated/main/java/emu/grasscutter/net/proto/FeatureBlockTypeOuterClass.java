@@ -20,128 +20,128 @@ public final class FeatureBlockTypeOuterClass {
   public enum FeatureBlockType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>NONE = 0;</code>
+     * <code>FeatureBlockType_NONE = 0;</code>
      */
-    NONE(0),
+    FeatureBlockType_NONE(0),
     /**
-     * <code>CHAT = 1;</code>
+     * <code>FeatureBlockType_CHAT = 1;</code>
      */
-    CHAT(1),
+    FeatureBlockType_CHAT(1),
     /**
-     * <code>MP = 2;</code>
+     * <code>FeatureBlockType_MP = 2;</code>
      */
-    MP(2),
+    FeatureBlockType_MP(2),
     /**
-     * <code>FEATRURE_BLOCK_TYPE_CRC = 3;</code>
+     * <code>FeatureBlockType_FEATRURE_BLOCK_TYPE_CRC = 3;</code>
      */
-    FEATRURE_BLOCK_TYPE_CRC(3),
+    FeatureBlockType_FEATRURE_BLOCK_TYPE_CRC(3),
     /**
-     * <code>HOME = 4;</code>
+     * <code>FeatureBlockType_HOME = 4;</code>
      */
-    HOME(4),
+    FeatureBlockType_HOME(4),
     /**
-     * <code>HALL_CUSTOME = 5;</code>
+     * <code>FeatureBlockType_HALL_CUSTOME = 5;</code>
      */
-    HALL_CUSTOME(5),
+    FeatureBlockType_HALL_CUSTOME(5),
     /**
-     * <code>BEYOND = 6;</code>
+     * <code>FeatureBlockType_BEYOND = 6;</code>
      */
-    BEYOND(6),
+    FeatureBlockType_BEYOND(6),
     /**
-     * <code>BEYOND_MP = 7;</code>
+     * <code>FeatureBlockType_BEYOND_MP = 7;</code>
      */
-    BEYOND_MP(7),
+    FeatureBlockType_BEYOND_MP(7),
     /**
-     * <code>BEYOND_DISPLAY_COSTUME = 8;</code>
+     * <code>FeatureBlockType_BEYOND_DISPLAY_COSTUME = 8;</code>
      */
-    BEYOND_DISPLAY_COSTUME(8),
+    FeatureBlockType_BEYOND_DISPLAY_COSTUME(8),
     /**
-     * <code>BEYOND_UPDATE_COSTUME = 9;</code>
+     * <code>FeatureBlockType_BEYOND_UPDATE_COSTUME = 9;</code>
      */
-    BEYOND_UPDATE_COSTUME(9),
+    FeatureBlockType_BEYOND_UPDATE_COSTUME(9),
     /**
-     * <code>BEYOND_ARCHIVE = 10;</code>
+     * <code>FeatureBlockType_BEYOND_ARCHIVE = 10;</code>
      */
-    BEYOND_ARCHIVE(10),
+    FeatureBlockType_BEYOND_ARCHIVE(10),
     /**
-     * <code>BEYOND_ROOM = 11;</code>
+     * <code>FeatureBlockType_BEYOND_ROOM = 11;</code>
      */
-    BEYOND_ROOM(11),
+    FeatureBlockType_BEYOND_ROOM(11),
     /**
-     * <code>BEYOND_GACHA_GIFT = 12;</code>
+     * <code>FeatureBlockType_BEYOND_GACHA_GIFT = 12;</code>
      */
-    BEYOND_GACHA_GIFT(12),
+    FeatureBlockType_BEYOND_GACHA_GIFT(12),
     /**
-     * <code>BEYOND_SHOP_GIFT = 13;</code>
+     * <code>FeatureBlockType_BEYOND_SHOP_GIFT = 13;</code>
      */
-    BEYOND_SHOP_GIFT(13),
+    FeatureBlockType_BEYOND_SHOP_GIFT(13),
     /**
-     * <code>BEYOND_VOICE_CHAT = 14;</code>
+     * <code>FeatureBlockType_BEYOND_VOICE_CHAT = 14;</code>
      */
-    BEYOND_VOICE_CHAT(14),
+    FeatureBlockType_BEYOND_VOICE_CHAT(14),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>NONE = 0;</code>
+     * <code>FeatureBlockType_NONE = 0;</code>
      */
-    public static final int NONE_VALUE = 0;
+    public static final int FeatureBlockType_NONE_VALUE = 0;
     /**
-     * <code>CHAT = 1;</code>
+     * <code>FeatureBlockType_CHAT = 1;</code>
      */
-    public static final int CHAT_VALUE = 1;
+    public static final int FeatureBlockType_CHAT_VALUE = 1;
     /**
-     * <code>MP = 2;</code>
+     * <code>FeatureBlockType_MP = 2;</code>
      */
-    public static final int MP_VALUE = 2;
+    public static final int FeatureBlockType_MP_VALUE = 2;
     /**
-     * <code>FEATRURE_BLOCK_TYPE_CRC = 3;</code>
+     * <code>FeatureBlockType_FEATRURE_BLOCK_TYPE_CRC = 3;</code>
      */
-    public static final int FEATRURE_BLOCK_TYPE_CRC_VALUE = 3;
+    public static final int FeatureBlockType_FEATRURE_BLOCK_TYPE_CRC_VALUE = 3;
     /**
-     * <code>HOME = 4;</code>
+     * <code>FeatureBlockType_HOME = 4;</code>
      */
-    public static final int HOME_VALUE = 4;
+    public static final int FeatureBlockType_HOME_VALUE = 4;
     /**
-     * <code>HALL_CUSTOME = 5;</code>
+     * <code>FeatureBlockType_HALL_CUSTOME = 5;</code>
      */
-    public static final int HALL_CUSTOME_VALUE = 5;
+    public static final int FeatureBlockType_HALL_CUSTOME_VALUE = 5;
     /**
-     * <code>BEYOND = 6;</code>
+     * <code>FeatureBlockType_BEYOND = 6;</code>
      */
-    public static final int BEYOND_VALUE = 6;
+    public static final int FeatureBlockType_BEYOND_VALUE = 6;
     /**
-     * <code>BEYOND_MP = 7;</code>
+     * <code>FeatureBlockType_BEYOND_MP = 7;</code>
      */
-    public static final int BEYOND_MP_VALUE = 7;
+    public static final int FeatureBlockType_BEYOND_MP_VALUE = 7;
     /**
-     * <code>BEYOND_DISPLAY_COSTUME = 8;</code>
+     * <code>FeatureBlockType_BEYOND_DISPLAY_COSTUME = 8;</code>
      */
-    public static final int BEYOND_DISPLAY_COSTUME_VALUE = 8;
+    public static final int FeatureBlockType_BEYOND_DISPLAY_COSTUME_VALUE = 8;
     /**
-     * <code>BEYOND_UPDATE_COSTUME = 9;</code>
+     * <code>FeatureBlockType_BEYOND_UPDATE_COSTUME = 9;</code>
      */
-    public static final int BEYOND_UPDATE_COSTUME_VALUE = 9;
+    public static final int FeatureBlockType_BEYOND_UPDATE_COSTUME_VALUE = 9;
     /**
-     * <code>BEYOND_ARCHIVE = 10;</code>
+     * <code>FeatureBlockType_BEYOND_ARCHIVE = 10;</code>
      */
-    public static final int BEYOND_ARCHIVE_VALUE = 10;
+    public static final int FeatureBlockType_BEYOND_ARCHIVE_VALUE = 10;
     /**
-     * <code>BEYOND_ROOM = 11;</code>
+     * <code>FeatureBlockType_BEYOND_ROOM = 11;</code>
      */
-    public static final int BEYOND_ROOM_VALUE = 11;
+    public static final int FeatureBlockType_BEYOND_ROOM_VALUE = 11;
     /**
-     * <code>BEYOND_GACHA_GIFT = 12;</code>
+     * <code>FeatureBlockType_BEYOND_GACHA_GIFT = 12;</code>
      */
-    public static final int BEYOND_GACHA_GIFT_VALUE = 12;
+    public static final int FeatureBlockType_BEYOND_GACHA_GIFT_VALUE = 12;
     /**
-     * <code>BEYOND_SHOP_GIFT = 13;</code>
+     * <code>FeatureBlockType_BEYOND_SHOP_GIFT = 13;</code>
      */
-    public static final int BEYOND_SHOP_GIFT_VALUE = 13;
+    public static final int FeatureBlockType_BEYOND_SHOP_GIFT_VALUE = 13;
     /**
-     * <code>BEYOND_VOICE_CHAT = 14;</code>
+     * <code>FeatureBlockType_BEYOND_VOICE_CHAT = 14;</code>
      */
-    public static final int BEYOND_VOICE_CHAT_VALUE = 14;
+    public static final int FeatureBlockType_BEYOND_VOICE_CHAT_VALUE = 14;
 
 
     public final int getNumber() {
@@ -168,21 +168,21 @@ public final class FeatureBlockTypeOuterClass {
      */
     public static FeatureBlockType forNumber(int value) {
       switch (value) {
-        case 0: return NONE;
-        case 1: return CHAT;
-        case 2: return MP;
-        case 3: return FEATRURE_BLOCK_TYPE_CRC;
-        case 4: return HOME;
-        case 5: return HALL_CUSTOME;
-        case 6: return BEYOND;
-        case 7: return BEYOND_MP;
-        case 8: return BEYOND_DISPLAY_COSTUME;
-        case 9: return BEYOND_UPDATE_COSTUME;
-        case 10: return BEYOND_ARCHIVE;
-        case 11: return BEYOND_ROOM;
-        case 12: return BEYOND_GACHA_GIFT;
-        case 13: return BEYOND_SHOP_GIFT;
-        case 14: return BEYOND_VOICE_CHAT;
+        case 0: return FeatureBlockType_NONE;
+        case 1: return FeatureBlockType_CHAT;
+        case 2: return FeatureBlockType_MP;
+        case 3: return FeatureBlockType_FEATRURE_BLOCK_TYPE_CRC;
+        case 4: return FeatureBlockType_HOME;
+        case 5: return FeatureBlockType_HALL_CUSTOME;
+        case 6: return FeatureBlockType_BEYOND;
+        case 7: return FeatureBlockType_BEYOND_MP;
+        case 8: return FeatureBlockType_BEYOND_DISPLAY_COSTUME;
+        case 9: return FeatureBlockType_BEYOND_UPDATE_COSTUME;
+        case 10: return FeatureBlockType_BEYOND_ARCHIVE;
+        case 11: return FeatureBlockType_BEYOND_ROOM;
+        case 12: return FeatureBlockType_BEYOND_GACHA_GIFT;
+        case 13: return FeatureBlockType_BEYOND_SHOP_GIFT;
+        case 14: return FeatureBlockType_BEYOND_VOICE_CHAT;
         default: return null;
       }
     }
@@ -248,16 +248,22 @@ public final class FeatureBlockTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\026FeatureBlockType.proto*\242\002\n\020FeatureBloc" +
-      "kType\022\010\n\004NONE\020\000\022\010\n\004CHAT\020\001\022\006\n\002MP\020\002\022\033\n\027FEA" +
-      "TRURE_BLOCK_TYPE_CRC\020\003\022\010\n\004HOME\020\004\022\020\n\014HALL" +
-      "_CUSTOME\020\005\022\n\n\006BEYOND\020\006\022\r\n\tBEYOND_MP\020\007\022\032\n" +
-      "\026BEYOND_DISPLAY_COSTUME\020\010\022\031\n\025BEYOND_UPDA" +
-      "TE_COSTUME\020\t\022\022\n\016BEYOND_ARCHIVE\020\n\022\017\n\013BEYO" +
-      "ND_ROOM\020\013\022\025\n\021BEYOND_GACHA_GIFT\020\014\022\024\n\020BEYO" +
-      "ND_SHOP_GIFT\020\r\022\025\n\021BEYOND_VOICE_CHAT\020\016B7\n" +
-      "\031emu.grasscutter.net.protoB\032FeatureBlock" +
-      "TypeOuterClassb\006proto3"
+      "\n\026FeatureBlockType.proto*\241\004\n\020FeatureBloc" +
+      "kType\022\031\n\025FeatureBlockType_NONE\020\000\022\031\n\025Feat" +
+      "ureBlockType_CHAT\020\001\022\027\n\023FeatureBlockType_" +
+      "MP\020\002\022,\n(FeatureBlockType_FEATRURE_BLOCK_" +
+      "TYPE_CRC\020\003\022\031\n\025FeatureBlockType_HOME\020\004\022!\n" +
+      "\035FeatureBlockType_HALL_CUSTOME\020\005\022\033\n\027Feat" +
+      "ureBlockType_BEYOND\020\006\022\036\n\032FeatureBlockTyp" +
+      "e_BEYOND_MP\020\007\022+\n\'FeatureBlockType_BEYOND" +
+      "_DISPLAY_COSTUME\020\010\022*\n&FeatureBlockType_B" +
+      "EYOND_UPDATE_COSTUME\020\t\022#\n\037FeatureBlockTy" +
+      "pe_BEYOND_ARCHIVE\020\n\022 \n\034FeatureBlockType_" +
+      "BEYOND_ROOM\020\013\022&\n\"FeatureBlockType_BEYOND" +
+      "_GACHA_GIFT\020\014\022%\n!FeatureBlockType_BEYOND" +
+      "_SHOP_GIFT\020\r\022&\n\"FeatureBlockType_BEYOND_" +
+      "VOICE_CHAT\020\016B\033\n\031emu.grasscutter.net.prot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -48,6 +48,10 @@ public final class MonsterAlertChangeNotifyOuterClass {
     int getAvatarEntityId();
   }
   /**
+   * <pre>
+   * CmdID: 3564
+   * </pre>
+   *
    * Protobuf type {@code MonsterAlertChangeNotify}
    */
   public static final class MonsterAlertChangeNotify extends
@@ -405,6 +409,10 @@ public final class MonsterAlertChangeNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 3564
+     * </pre>
+     *
      * Protobuf type {@code MonsterAlertChangeNotify}
      */
     public static final class Builder extends
@@ -786,9 +794,8 @@ public final class MonsterAlertChangeNotifyOuterClass {
       "\n\036MonsterAlertChangeNotify.proto\"c\n\030Mons" +
       "terAlertChangeNotify\022\033\n\023monster_entity_l" +
       "ist\030\003 \003(\r\022\020\n\010is_alert\030\004 \001(\r\022\030\n\020avatar_en" +
-      "tity_id\030\017 \001(\rB?\n\031emu.grasscutter.net.pro" +
-      "toB\"MonsterAlertChangeNotifyOuterClassb\006" +
-      "proto3"
+      "tity_id\030\017 \001(\rB\033\n\031emu.grasscutter.net.pro" +
+      "tob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

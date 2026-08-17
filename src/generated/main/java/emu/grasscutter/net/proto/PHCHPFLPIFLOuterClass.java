@@ -24,17 +24,17 @@ public final class PHCHPFLPIFLOuterClass {
      */
     PHCHPFLPIFL_DEFAULT_VALUE(0),
     /**
-     * <code>PHCHPFLPIFL__1 = 1;</code>
+     * <code>PHCHPFLPIFL_1 = 1;</code>
      */
-    PHCHPFLPIFL__1(1),
+    PHCHPFLPIFL_1(1),
     /**
-     * <code>PHCHPFLPIFL__2 = 2;</code>
+     * <code>PHCHPFLPIFL_2 = 2;</code>
      */
-    PHCHPFLPIFL__2(2),
+    PHCHPFLPIFL_2(2),
     /**
-     * <code>PHCHPFLPIFL__3 = 3;</code>
+     * <code>PHCHPFLPIFL_3 = 3;</code>
      */
-    PHCHPFLPIFL__3(3),
+    PHCHPFLPIFL_3(3),
     UNRECOGNIZED(-1),
     ;
 
@@ -43,17 +43,17 @@ public final class PHCHPFLPIFLOuterClass {
      */
     public static final int PHCHPFLPIFL_DEFAULT_VALUE_VALUE = 0;
     /**
-     * <code>PHCHPFLPIFL__1 = 1;</code>
+     * <code>PHCHPFLPIFL_1 = 1;</code>
      */
-    public static final int PHCHPFLPIFL__1_VALUE = 1;
+    public static final int PHCHPFLPIFL_1_VALUE = 1;
     /**
-     * <code>PHCHPFLPIFL__2 = 2;</code>
+     * <code>PHCHPFLPIFL_2 = 2;</code>
      */
-    public static final int PHCHPFLPIFL__2_VALUE = 2;
+    public static final int PHCHPFLPIFL_2_VALUE = 2;
     /**
-     * <code>PHCHPFLPIFL__3 = 3;</code>
+     * <code>PHCHPFLPIFL_3 = 3;</code>
      */
-    public static final int PHCHPFLPIFL__3_VALUE = 3;
+    public static final int PHCHPFLPIFL_3_VALUE = 3;
 
 
     public final int getNumber() {
@@ -81,9 +81,9 @@ public final class PHCHPFLPIFLOuterClass {
     public static PHCHPFLPIFL forNumber(int value) {
       switch (value) {
         case 0: return PHCHPFLPIFL_DEFAULT_VALUE;
-        case 1: return PHCHPFLPIFL__1;
-        case 2: return PHCHPFLPIFL__2;
-        case 3: return PHCHPFLPIFL__3;
+        case 1: return PHCHPFLPIFL_1;
+        case 2: return PHCHPFLPIFL_2;
+        case 3: return PHCHPFLPIFL_3;
         default: return null;
       }
     }
@@ -149,11 +149,10 @@ public final class PHCHPFLPIFLOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021PHCHPFLPIFL.proto*h\n\013PHCHPFLPIFL\022\035\n\031PH" +
-      "CHPFLPIFL_DEFAULT_VALUE\020\000\022\022\n\016PHCHPFLPIFL" +
-      "__1\020\001\022\022\n\016PHCHPFLPIFL__2\020\002\022\022\n\016PHCHPFLPIFL" +
-      "__3\020\003B2\n\031emu.grasscutter.net.protoB\025PHCH" +
-      "PFLPIFLOuterClassb\006proto3"
+      "\n\021PHCHPFLPIFL.proto*e\n\013PHCHPFLPIFL\022\035\n\031PH" +
+      "CHPFLPIFL_DEFAULT_VALUE\020\000\022\021\n\rPHCHPFLPIFL" +
+      "_1\020\001\022\021\n\rPHCHPFLPIFL_2\020\002\022\021\n\rPHCHPFLPIFL_3" +
+      "\020\003B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

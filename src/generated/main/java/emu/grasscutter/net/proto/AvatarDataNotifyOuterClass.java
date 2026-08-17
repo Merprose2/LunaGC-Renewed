@@ -107,17 +107,17 @@ public final class AvatarDataNotifyOuterClass {
     int getOwnedCostumeList(int index);
 
     /**
-     * <code>repeated uint32 _owned_trace_effect_list = 11;</code>
+     * <code>repeated uint32 owned_trace_effect_list = 11;</code>
      * @return A list containing the ownedTraceEffectList.
      */
     java.util.List<java.lang.Integer> getOwnedTraceEffectListList();
     /**
-     * <code>repeated uint32 _owned_trace_effect_list = 11;</code>
+     * <code>repeated uint32 owned_trace_effect_list = 11;</code>
      * @return The count of ownedTraceEffectList.
      */
     int getOwnedTraceEffectListCount();
     /**
-     * <code>repeated uint32 _owned_trace_effect_list = 11;</code>
+     * <code>repeated uint32 owned_trace_effect_list = 11;</code>
      * @param index The index of the element to return.
      * @return The ownedTraceEffectList at the given index.
      */
@@ -198,6 +198,10 @@ public final class AvatarDataNotifyOuterClass {
     long getTempAvatarGuidList(int index);
   }
   /**
+   * <pre>
+   * CmdID: 6586
+   * </pre>
+   *
    * Protobuf type {@code AvatarDataNotify}
    */
   public static final class AvatarDataNotify extends
@@ -214,7 +218,7 @@ public final class AvatarDataNotifyOuterClass {
       avatarList_ = java.util.Collections.emptyList();
       avatarRenameList_ = java.util.Collections.emptyList();
       ownedCostumeList_ = emptyIntList();
-      OwnedTraceEffectList_ = emptyIntList();
+      ownedTraceEffectList_ = emptyIntList();
       backupAvatarTeamOrderList_ = emptyIntList();
       tempAvatarGuidList_ = emptyLongList();
     }
@@ -317,21 +321,21 @@ public final class AvatarDataNotifyOuterClass {
             }
             case 88: {
               if (!((mutable_bitField0_ & 0x00000010) != 0)) {
-                OwnedTraceEffectList_ = newIntList();
+                ownedTraceEffectList_ = newIntList();
                 mutable_bitField0_ |= 0x00000010;
               }
-              OwnedTraceEffectList_.addInt(input.readUInt32());
+              ownedTraceEffectList_.addInt(input.readUInt32());
               break;
             }
             case 90: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000010) != 0) && input.getBytesUntilLimit() > 0) {
-                OwnedTraceEffectList_ = newIntList();
+                ownedTraceEffectList_ = newIntList();
                 mutable_bitField0_ |= 0x00000010;
               }
               while (input.getBytesUntilLimit() > 0) {
-                OwnedTraceEffectList_.addInt(input.readUInt32());
+                ownedTraceEffectList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
@@ -424,7 +428,7 @@ public final class AvatarDataNotifyOuterClass {
           ownedCostumeList_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000010) != 0)) {
-          OwnedTraceEffectList_.makeImmutable(); // C
+          ownedTraceEffectList_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000020) != 0)) {
           backupAvatarTeamOrderList_.makeImmutable(); // C
@@ -608,33 +612,33 @@ public final class AvatarDataNotifyOuterClass {
     }
     private int ownedCostumeListMemoizedSerializedSize = -1;
 
-    public static final int _OWNED_TRACE_EFFECT_LIST_FIELD_NUMBER = 11;
-    private com.google.protobuf.Internal.IntList OwnedTraceEffectList_;
+    public static final int OWNED_TRACE_EFFECT_LIST_FIELD_NUMBER = 11;
+    private com.google.protobuf.Internal.IntList ownedTraceEffectList_;
     /**
-     * <code>repeated uint32 _owned_trace_effect_list = 11;</code>
+     * <code>repeated uint32 owned_trace_effect_list = 11;</code>
      * @return A list containing the ownedTraceEffectList.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getOwnedTraceEffectListList() {
-      return OwnedTraceEffectList_;
+      return ownedTraceEffectList_;
     }
     /**
-     * <code>repeated uint32 _owned_trace_effect_list = 11;</code>
+     * <code>repeated uint32 owned_trace_effect_list = 11;</code>
      * @return The count of ownedTraceEffectList.
      */
     public int getOwnedTraceEffectListCount() {
-      return OwnedTraceEffectList_.size();
+      return ownedTraceEffectList_.size();
     }
     /**
-     * <code>repeated uint32 _owned_trace_effect_list = 11;</code>
+     * <code>repeated uint32 owned_trace_effect_list = 11;</code>
      * @param index The index of the element to return.
      * @return The ownedTraceEffectList at the given index.
      */
     public int getOwnedTraceEffectList(int index) {
-      return OwnedTraceEffectList_.getInt(index);
+      return ownedTraceEffectList_.getInt(index);
     }
-    private int OwnedTraceEffectListMemoizedSerializedSize = -1;
+    private int ownedTraceEffectListMemoizedSerializedSize = -1;
 
     public static final int BACKUP_AVATAR_TEAM_ORDER_LIST_FIELD_NUMBER = 12;
     private com.google.protobuf.Internal.IntList backupAvatarTeamOrderList_;
@@ -824,10 +828,10 @@ public final class AvatarDataNotifyOuterClass {
       }
       if (getOwnedTraceEffectListList().size() > 0) {
         output.writeUInt32NoTag(90);
-        output.writeUInt32NoTag(OwnedTraceEffectListMemoizedSerializedSize);
+        output.writeUInt32NoTag(ownedTraceEffectListMemoizedSerializedSize);
       }
-      for (int i = 0; i < OwnedTraceEffectList_.size(); i++) {
-        output.writeUInt32NoTag(OwnedTraceEffectList_.getInt(i));
+      for (int i = 0; i < ownedTraceEffectList_.size(); i++) {
+        output.writeUInt32NoTag(ownedTraceEffectList_.getInt(i));
       }
       if (getBackupAvatarTeamOrderListList().size() > 0) {
         output.writeUInt32NoTag(98);
@@ -903,9 +907,9 @@ public final class AvatarDataNotifyOuterClass {
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < OwnedTraceEffectList_.size(); i++) {
+        for (int i = 0; i < ownedTraceEffectList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(OwnedTraceEffectList_.getInt(i));
+            .computeUInt32SizeNoTag(ownedTraceEffectList_.getInt(i));
         }
         size += dataSize;
         if (!getOwnedTraceEffectListList().isEmpty()) {
@@ -913,7 +917,7 @@ public final class AvatarDataNotifyOuterClass {
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        OwnedTraceEffectListMemoizedSerializedSize = dataSize;
+        ownedTraceEffectListMemoizedSerializedSize = dataSize;
       }
       {
         int dataSize = 0;
@@ -1022,7 +1026,7 @@ public final class AvatarDataNotifyOuterClass {
         hash = (53 * hash) + getOwnedCostumeListList().hashCode();
       }
       if (getOwnedTraceEffectListCount() > 0) {
-        hash = (37 * hash) + _OWNED_TRACE_EFFECT_LIST_FIELD_NUMBER;
+        hash = (37 * hash) + OWNED_TRACE_EFFECT_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getOwnedTraceEffectListList().hashCode();
       }
       if (getBackupAvatarTeamOrderListCount() > 0) {
@@ -1136,6 +1140,10 @@ public final class AvatarDataNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 6586
+     * </pre>
+     *
      * Protobuf type {@code AvatarDataNotify}
      */
     public static final class Builder extends
@@ -1215,7 +1223,7 @@ public final class AvatarDataNotifyOuterClass {
         }
         ownedCostumeList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000008);
-        OwnedTraceEffectList_ = emptyIntList();
+        ownedTraceEffectList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000010);
         backupAvatarTeamOrderList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000020);
@@ -1281,10 +1289,10 @@ public final class AvatarDataNotifyOuterClass {
         }
         result.ownedCostumeList_ = ownedCostumeList_;
         if (((bitField0_ & 0x00000010) != 0)) {
-          OwnedTraceEffectList_.makeImmutable();
+          ownedTraceEffectList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000010);
         }
-        result.OwnedTraceEffectList_ = OwnedTraceEffectList_;
+        result.ownedTraceEffectList_ = ownedTraceEffectList_;
         if (((bitField0_ & 0x00000020) != 0)) {
           backupAvatarTeamOrderList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000020);
@@ -1421,13 +1429,13 @@ public final class AvatarDataNotifyOuterClass {
           }
           onChanged();
         }
-        if (!other.OwnedTraceEffectList_.isEmpty()) {
-          if (OwnedTraceEffectList_.isEmpty()) {
-            OwnedTraceEffectList_ = other.OwnedTraceEffectList_;
+        if (!other.ownedTraceEffectList_.isEmpty()) {
+          if (ownedTraceEffectList_.isEmpty()) {
+            ownedTraceEffectList_ = other.ownedTraceEffectList_;
             bitField0_ = (bitField0_ & ~0x00000010);
           } else {
             ensureOwnedTraceEffectListIsMutable();
-            OwnedTraceEffectList_.addAll(other.OwnedTraceEffectList_);
+            ownedTraceEffectList_.addAll(other.ownedTraceEffectList_);
           }
           onChanged();
         }
@@ -2155,39 +2163,39 @@ public final class AvatarDataNotifyOuterClass {
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList OwnedTraceEffectList_ = emptyIntList();
+      private com.google.protobuf.Internal.IntList ownedTraceEffectList_ = emptyIntList();
       private void ensureOwnedTraceEffectListIsMutable() {
         if (!((bitField0_ & 0x00000010) != 0)) {
-          OwnedTraceEffectList_ = mutableCopy(OwnedTraceEffectList_);
+          ownedTraceEffectList_ = mutableCopy(ownedTraceEffectList_);
           bitField0_ |= 0x00000010;
          }
       }
       /**
-       * <code>repeated uint32 _owned_trace_effect_list = 11;</code>
+       * <code>repeated uint32 owned_trace_effect_list = 11;</code>
        * @return A list containing the ownedTraceEffectList.
        */
       public java.util.List<java.lang.Integer>
           getOwnedTraceEffectListList() {
         return ((bitField0_ & 0x00000010) != 0) ?
-                 java.util.Collections.unmodifiableList(OwnedTraceEffectList_) : OwnedTraceEffectList_;
+                 java.util.Collections.unmodifiableList(ownedTraceEffectList_) : ownedTraceEffectList_;
       }
       /**
-       * <code>repeated uint32 _owned_trace_effect_list = 11;</code>
+       * <code>repeated uint32 owned_trace_effect_list = 11;</code>
        * @return The count of ownedTraceEffectList.
        */
       public int getOwnedTraceEffectListCount() {
-        return OwnedTraceEffectList_.size();
+        return ownedTraceEffectList_.size();
       }
       /**
-       * <code>repeated uint32 _owned_trace_effect_list = 11;</code>
+       * <code>repeated uint32 owned_trace_effect_list = 11;</code>
        * @param index The index of the element to return.
        * @return The ownedTraceEffectList at the given index.
        */
       public int getOwnedTraceEffectList(int index) {
-        return OwnedTraceEffectList_.getInt(index);
+        return ownedTraceEffectList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 _owned_trace_effect_list = 11;</code>
+       * <code>repeated uint32 owned_trace_effect_list = 11;</code>
        * @param index The index to set the value at.
        * @param value The ownedTraceEffectList to set.
        * @return This builder for chaining.
@@ -2195,23 +2203,23 @@ public final class AvatarDataNotifyOuterClass {
       public Builder setOwnedTraceEffectList(
           int index, int value) {
         ensureOwnedTraceEffectListIsMutable();
-        OwnedTraceEffectList_.setInt(index, value);
+        ownedTraceEffectList_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 _owned_trace_effect_list = 11;</code>
+       * <code>repeated uint32 owned_trace_effect_list = 11;</code>
        * @param value The ownedTraceEffectList to add.
        * @return This builder for chaining.
        */
       public Builder addOwnedTraceEffectList(int value) {
         ensureOwnedTraceEffectListIsMutable();
-        OwnedTraceEffectList_.addInt(value);
+        ownedTraceEffectList_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 _owned_trace_effect_list = 11;</code>
+       * <code>repeated uint32 owned_trace_effect_list = 11;</code>
        * @param values The ownedTraceEffectList to add.
        * @return This builder for chaining.
        */
@@ -2219,16 +2227,16 @@ public final class AvatarDataNotifyOuterClass {
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureOwnedTraceEffectListIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, OwnedTraceEffectList_);
+            values, ownedTraceEffectList_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 _owned_trace_effect_list = 11;</code>
+       * <code>repeated uint32 owned_trace_effect_list = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearOwnedTraceEffectList() {
-        OwnedTraceEffectList_ = emptyIntList();
+        ownedTraceEffectList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000010);
         onChanged();
         return this;
@@ -2624,19 +2632,19 @@ public final class AvatarDataNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026AvatarDataNotify.proto\032\020AvatarInfo.pro" +
       "to\032\026AvatarRenameInfo.proto\032\020AvatarTeam.p" +
-      "roto\"\276\003\n\020AvatarDataNotify\022\033\n\023owned_flycl" +
+      "roto\"\275\003\n\020AvatarDataNotify\022\033\n\023owned_flycl" +
       "oak_list\030\004 \003(\r\022 \n\013avatar_list\030\006 \003(\0132\013.Av" +
       "atarInfo\022\032\n\022cur_avatar_team_id\030\007 \001(\r\022-\n\022" +
       "avatar_rename_list\030\010 \003(\0132\021.AvatarRenameI" +
-      "nfo\022\032\n\022owned_costume_list\030\t \003(\r\022 \n\030_owne" +
-      "d_trace_effect_list\030\013 \003(\r\022%\n\035backup_avat" +
-      "ar_team_order_list\030\014 \003(\r\022=\n\017avatar_team_" +
-      "map\030\r \003(\0132$.AvatarDataNotify.AvatarTeamM" +
-      "apEntry\022\032\n\022choose_avatar_guid\030\016 \001(\004\022\035\n\025t" +
-      "emp_avatar_guid_list\030\017 \003(\004\032A\n\022AvatarTeam" +
-      "MapEntry\022\013\n\003key\030\001 \001(\r\022\032\n\005value\030\002 \001(\0132\013.A" +
-      "vatarTeam:\0028\001B7\n\031emu.grasscutter.net.pro" +
-      "toB\032AvatarDataNotifyOuterClassb\006proto3"
+      "nfo\022\032\n\022owned_costume_list\030\t \003(\r\022\037\n\027owned" +
+      "_trace_effect_list\030\013 \003(\r\022%\n\035backup_avata" +
+      "r_team_order_list\030\014 \003(\r\022=\n\017avatar_team_m" +
+      "ap\030\r \003(\0132$.AvatarDataNotify.AvatarTeamMa" +
+      "pEntry\022\032\n\022choose_avatar_guid\030\016 \001(\004\022\035\n\025te" +
+      "mp_avatar_guid_list\030\017 \003(\004\032A\n\022AvatarTeamM" +
+      "apEntry\022\013\n\003key\030\001 \001(\r\022\032\n\005value\030\002 \001(\0132\013.Av" +
+      "atarTeam:\0028\001B\033\n\031emu.grasscutter.net.prot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

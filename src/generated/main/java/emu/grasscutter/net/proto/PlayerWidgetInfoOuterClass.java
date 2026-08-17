@@ -893,9 +893,8 @@ public final class PlayerWidgetInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026PlayerWidgetInfo.proto\032\024WidgetSlotData" +
       ".proto\"C\n\020PlayerWidgetInfo\022\013\n\003uid\030\007 \001(\r\022" +
-      "\"\n\tslot_list\030\014 \003(\0132\017.WidgetSlotDataB7\n\031e" +
-      "mu.grasscutter.net.protoB\032PlayerWidgetIn" +
-      "foOuterClassb\006proto3"
+      "\"\n\tslot_list\030\014 \003(\0132\017.WidgetSlotDataB\033\n\031e" +
+      "mu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

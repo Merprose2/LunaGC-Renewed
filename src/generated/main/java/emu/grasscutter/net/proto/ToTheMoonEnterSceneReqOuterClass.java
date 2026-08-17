@@ -18,25 +18,33 @@ public final class ToTheMoonEnterSceneReqOuterClass {
       // @@protoc_insertion_point(interface_extends:ToTheMoonEnterSceneReq)
       com.google.protobuf.MessageOrBuilder {
 
-    int getSceneId();
-
     /**
-     * <code>uint32 NCBKKEAFGKL = 38670;</code>
-     * @return The nCBKKEAFGKL.
+     * <code>uint32 version = 3;</code>
+     * @return The version.
      */
-    int getNCBKKEAFGKL();
-
-    /**
-     * <code>uint32 JJDKCJNCKEK = 58570;</code>
-     * @return The jJDKCJNCKEK.
-     */
-    int getJJDKCJNCKEK();
-
     int getVersion();
+
+    /**
+     * <code>uint32 EMABCCIAIDI = 5;</code>
+     * @return The eMABCCIAIDI.
+     */
+    int getEMABCCIAIDI();
+
+    /**
+     * <code>uint32 EGFNPPMOEJI = 9;</code>
+     * @return The eGFNPPMOEJI.
+     */
+    int getEGFNPPMOEJI();
+
+    /**
+     * <code>uint32 scene_id = 11;</code>
+     * @return The sceneId.
+     */
+    int getSceneId();
   }
   /**
    * <pre>
-   * CmdId: 6197
+   * CmdID: 6112
    * </pre>
    *
    * Protobuf type {@code ToTheMoonEnterSceneReq}
@@ -83,24 +91,24 @@ public final class ToTheMoonEnterSceneReqOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
-
-              sceneId_ = input.readUInt32();
-              break;
-            }
-            case 8: {
+            case 24: {
 
               version_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 40: {
 
-              nCBKKEAFGKL_ = input.readUInt32();
+              eMABCCIAIDI_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 72: {
 
-              jJDKCJNCKEK_ = input.readUInt32();
+              eGFNPPMOEJI_ = input.readUInt32();
+              break;
+            }
+            case 88: {
+
+              sceneId_ = input.readUInt32();
               break;
             }
             default: {
@@ -135,42 +143,48 @@ public final class ToTheMoonEnterSceneReqOuterClass {
               emu.grasscutter.net.proto.ToTheMoonEnterSceneReqOuterClass.ToTheMoonEnterSceneReq.class, emu.grasscutter.net.proto.ToTheMoonEnterSceneReqOuterClass.ToTheMoonEnterSceneReq.Builder.class);
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 4;
-    private int sceneId_;
-
-    @java.lang.Override
-    public int getSceneId() {
-      return sceneId_;
-    }
-
-    public static final int NCBKKEAFGKL_FIELD_NUMBER = 14;
-    private int nCBKKEAFGKL_;
-    /**
-     * <code>uint32 NCBKKEAFGKL = 38670;</code>
-     * @return The nCBKKEAFGKL.
-     */
-    @java.lang.Override
-    public int getNCBKKEAFGKL() {
-      return nCBKKEAFGKL_;
-    }
-
-    public static final int JJDKCJNCKEK_FIELD_NUMBER = 15;
-    private int jJDKCJNCKEK_;
-    /**
-     * <code>uint32 JJDKCJNCKEK = 58570;</code>
-     * @return The jJDKCJNCKEK.
-     */
-    @java.lang.Override
-    public int getJJDKCJNCKEK() {
-      return jJDKCJNCKEK_;
-    }
-
-    public static final int VERSION_FIELD_NUMBER = 1;
+    public static final int VERSION_FIELD_NUMBER = 3;
     private int version_;
-
+    /**
+     * <code>uint32 version = 3;</code>
+     * @return The version.
+     */
     @java.lang.Override
     public int getVersion() {
       return version_;
+    }
+
+    public static final int EMABCCIAIDI_FIELD_NUMBER = 5;
+    private int eMABCCIAIDI_;
+    /**
+     * <code>uint32 EMABCCIAIDI = 5;</code>
+     * @return The eMABCCIAIDI.
+     */
+    @java.lang.Override
+    public int getEMABCCIAIDI() {
+      return eMABCCIAIDI_;
+    }
+
+    public static final int EGFNPPMOEJI_FIELD_NUMBER = 9;
+    private int eGFNPPMOEJI_;
+    /**
+     * <code>uint32 EGFNPPMOEJI = 9;</code>
+     * @return The eGFNPPMOEJI.
+     */
+    @java.lang.Override
+    public int getEGFNPPMOEJI() {
+      return eGFNPPMOEJI_;
+    }
+
+    public static final int SCENE_ID_FIELD_NUMBER = 11;
+    private int sceneId_;
+    /**
+     * <code>uint32 scene_id = 11;</code>
+     * @return The sceneId.
+     */
+    @java.lang.Override
+    public int getSceneId() {
+      return sceneId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -187,17 +201,17 @@ public final class ToTheMoonEnterSceneReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (sceneId_ != 0) {
-        output.writeUInt32(4, sceneId_);
-      }
       if (version_ != 0) {
-        output.writeUInt32(1, version_);
+        output.writeUInt32(3, version_);
       }
-      if (nCBKKEAFGKL_ != 0) {
-        output.writeUInt32(14, nCBKKEAFGKL_);
+      if (eMABCCIAIDI_ != 0) {
+        output.writeUInt32(5, eMABCCIAIDI_);
       }
-      if (jJDKCJNCKEK_ != 0) {
-        output.writeUInt32(15, jJDKCJNCKEK_);
+      if (eGFNPPMOEJI_ != 0) {
+        output.writeUInt32(9, eGFNPPMOEJI_);
+      }
+      if (sceneId_ != 0) {
+        output.writeUInt32(11, sceneId_);
       }
       unknownFields.writeTo(output);
     }
@@ -208,21 +222,21 @@ public final class ToTheMoonEnterSceneReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (sceneId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, sceneId_);
-      }
       if (version_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, version_);
+          .computeUInt32Size(3, version_);
       }
-      if (nCBKKEAFGKL_ != 0) {
+      if (eMABCCIAIDI_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, nCBKKEAFGKL_);
+          .computeUInt32Size(5, eMABCCIAIDI_);
       }
-      if (jJDKCJNCKEK_ != 0) {
+      if (eGFNPPMOEJI_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, jJDKCJNCKEK_);
+          .computeUInt32Size(9, eGFNPPMOEJI_);
+      }
+      if (sceneId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(11, sceneId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -239,14 +253,14 @@ public final class ToTheMoonEnterSceneReqOuterClass {
       }
       emu.grasscutter.net.proto.ToTheMoonEnterSceneReqOuterClass.ToTheMoonEnterSceneReq other = (emu.grasscutter.net.proto.ToTheMoonEnterSceneReqOuterClass.ToTheMoonEnterSceneReq) obj;
 
-      if (getSceneId()
-          != other.getSceneId()) return false;
-      if (getNCBKKEAFGKL()
-          != other.getNCBKKEAFGKL()) return false;
-      if (getJJDKCJNCKEK()
-          != other.getJJDKCJNCKEK()) return false;
       if (getVersion()
           != other.getVersion()) return false;
+      if (getEMABCCIAIDI()
+          != other.getEMABCCIAIDI()) return false;
+      if (getEGFNPPMOEJI()
+          != other.getEGFNPPMOEJI()) return false;
+      if (getSceneId()
+          != other.getSceneId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -258,14 +272,14 @@ public final class ToTheMoonEnterSceneReqOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + SCENE_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getSceneId();
-      hash = (37 * hash) + NCBKKEAFGKL_FIELD_NUMBER;
-      hash = (53 * hash) + getNCBKKEAFGKL();
-      hash = (37 * hash) + JJDKCJNCKEK_FIELD_NUMBER;
-      hash = (53 * hash) + getJJDKCJNCKEK();
       hash = (37 * hash) + VERSION_FIELD_NUMBER;
       hash = (53 * hash) + getVersion();
+      hash = (37 * hash) + EMABCCIAIDI_FIELD_NUMBER;
+      hash = (53 * hash) + getEMABCCIAIDI();
+      hash = (37 * hash) + EGFNPPMOEJI_FIELD_NUMBER;
+      hash = (53 * hash) + getEGFNPPMOEJI();
+      hash = (37 * hash) + SCENE_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getSceneId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -363,7 +377,7 @@ public final class ToTheMoonEnterSceneReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 6197
+     * CmdID: 6112
      * </pre>
      *
      * Protobuf type {@code ToTheMoonEnterSceneReq}
@@ -403,13 +417,13 @@ public final class ToTheMoonEnterSceneReqOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        sceneId_ = 0;
-
-        nCBKKEAFGKL_ = 0;
-
-        jJDKCJNCKEK_ = 0;
-
         version_ = 0;
+
+        eMABCCIAIDI_ = 0;
+
+        eGFNPPMOEJI_ = 0;
+
+        sceneId_ = 0;
 
         return this;
       }
@@ -437,10 +451,10 @@ public final class ToTheMoonEnterSceneReqOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.ToTheMoonEnterSceneReqOuterClass.ToTheMoonEnterSceneReq buildPartial() {
         emu.grasscutter.net.proto.ToTheMoonEnterSceneReqOuterClass.ToTheMoonEnterSceneReq result = new emu.grasscutter.net.proto.ToTheMoonEnterSceneReqOuterClass.ToTheMoonEnterSceneReq(this);
-        result.sceneId_ = sceneId_;
-        result.nCBKKEAFGKL_ = nCBKKEAFGKL_;
-        result.jJDKCJNCKEK_ = jJDKCJNCKEK_;
         result.version_ = version_;
+        result.eMABCCIAIDI_ = eMABCCIAIDI_;
+        result.eGFNPPMOEJI_ = eGFNPPMOEJI_;
+        result.sceneId_ = sceneId_;
         onBuilt();
         return result;
       }
@@ -489,17 +503,17 @@ public final class ToTheMoonEnterSceneReqOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ToTheMoonEnterSceneReqOuterClass.ToTheMoonEnterSceneReq other) {
         if (other == emu.grasscutter.net.proto.ToTheMoonEnterSceneReqOuterClass.ToTheMoonEnterSceneReq.getDefaultInstance()) return this;
-        if (other.getSceneId() != 0) {
-          setSceneId(other.getSceneId());
-        }
-        if (other.getNCBKKEAFGKL() != 0) {
-          setNCBKKEAFGKL(other.getNCBKKEAFGKL());
-        }
-        if (other.getJJDKCJNCKEK() != 0) {
-          setJJDKCJNCKEK(other.getJJDKCJNCKEK());
-        }
         if (other.getVersion() != 0) {
           setVersion(other.getVersion());
+        }
+        if (other.getEMABCCIAIDI() != 0) {
+          setEMABCCIAIDI(other.getEMABCCIAIDI());
+        }
+        if (other.getEGFNPPMOEJI() != 0) {
+          setEGFNPPMOEJI(other.getEGFNPPMOEJI());
+        }
+        if (other.getSceneId() != 0) {
+          setSceneId(other.getSceneId());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -530,106 +544,126 @@ public final class ToTheMoonEnterSceneReqOuterClass {
         return this;
       }
 
-      private int sceneId_ ;
-
-      @java.lang.Override
-      public int getSceneId() {
-        return sceneId_;
-      }
-
-      public Builder setSceneId(int value) {
-
-        sceneId_ = value;
-        onChanged();
-        return this;
-      }
-
-      public Builder clearSceneId() {
-
-        sceneId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int nCBKKEAFGKL_ ;
-      /**
-       * <code>uint32 NCBKKEAFGKL = 38670;</code>
-       * @return The nCBKKEAFGKL.
-       */
-      @java.lang.Override
-      public int getNCBKKEAFGKL() {
-        return nCBKKEAFGKL_;
-      }
-      /**
-       * <code>uint32 NCBKKEAFGKL = 38670;</code>
-       * @param value The nCBKKEAFGKL to set.
-       * @return This builder for chaining.
-       */
-      public Builder setNCBKKEAFGKL(int value) {
-
-        nCBKKEAFGKL_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 NCBKKEAFGKL = 38670;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearNCBKKEAFGKL() {
-
-        nCBKKEAFGKL_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int jJDKCJNCKEK_ ;
-      /**
-       * <code>uint32 JJDKCJNCKEK = 58570;</code>
-       * @return The jJDKCJNCKEK.
-       */
-      @java.lang.Override
-      public int getJJDKCJNCKEK() {
-        return jJDKCJNCKEK_;
-      }
-      /**
-       * <code>uint32 JJDKCJNCKEK = 58570;</code>
-       * @param value The jJDKCJNCKEK to set.
-       * @return This builder for chaining.
-       */
-      public Builder setJJDKCJNCKEK(int value) {
-
-        jJDKCJNCKEK_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 JJDKCJNCKEK = 58570;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearJJDKCJNCKEK() {
-
-        jJDKCJNCKEK_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int version_ ;
-
+      /**
+       * <code>uint32 version = 3;</code>
+       * @return The version.
+       */
       @java.lang.Override
       public int getVersion() {
         return version_;
       }
-
+      /**
+       * <code>uint32 version = 3;</code>
+       * @param value The version to set.
+       * @return This builder for chaining.
+       */
       public Builder setVersion(int value) {
-
+        
         version_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 version = 3;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearVersion() {
-
+        
         version_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int eMABCCIAIDI_ ;
+      /**
+       * <code>uint32 EMABCCIAIDI = 5;</code>
+       * @return The eMABCCIAIDI.
+       */
+      @java.lang.Override
+      public int getEMABCCIAIDI() {
+        return eMABCCIAIDI_;
+      }
+      /**
+       * <code>uint32 EMABCCIAIDI = 5;</code>
+       * @param value The eMABCCIAIDI to set.
+       * @return This builder for chaining.
+       */
+      public Builder setEMABCCIAIDI(int value) {
+        
+        eMABCCIAIDI_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 EMABCCIAIDI = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearEMABCCIAIDI() {
+        
+        eMABCCIAIDI_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int eGFNPPMOEJI_ ;
+      /**
+       * <code>uint32 EGFNPPMOEJI = 9;</code>
+       * @return The eGFNPPMOEJI.
+       */
+      @java.lang.Override
+      public int getEGFNPPMOEJI() {
+        return eGFNPPMOEJI_;
+      }
+      /**
+       * <code>uint32 EGFNPPMOEJI = 9;</code>
+       * @param value The eGFNPPMOEJI to set.
+       * @return This builder for chaining.
+       */
+      public Builder setEGFNPPMOEJI(int value) {
+        
+        eGFNPPMOEJI_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 EGFNPPMOEJI = 9;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearEGFNPPMOEJI() {
+        
+        eGFNPPMOEJI_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int sceneId_ ;
+      /**
+       * <code>uint32 scene_id = 11;</code>
+       * @return The sceneId.
+       */
+      @java.lang.Override
+      public int getSceneId() {
+        return sceneId_;
+      }
+      /**
+       * <code>uint32 scene_id = 11;</code>
+       * @param value The sceneId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setSceneId(int value) {
+        
+        sceneId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 scene_id = 11;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearSceneId() {
+        
+        sceneId_ = 0;
         onChanged();
         return this;
       }
@@ -644,6 +678,7 @@ public final class ToTheMoonEnterSceneReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:ToTheMoonEnterSceneReq)
     }
@@ -687,7 +722,7 @@ public final class ToTheMoonEnterSceneReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ToTheMoonEnterSceneReq_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ToTheMoonEnterSceneReq_fieldAccessorTable;
 
@@ -699,11 +734,11 @@ public final class ToTheMoonEnterSceneReqOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\034ToTheMoonEnterSceneReq.proto\"i\n\026ToTheM" +
-      "oonEnterSceneReq\022\020\n\010scene_id\030\013 \001(\r\022\025\n\013NC" +
-      "BKKEAFGKL\030\216\256\002 \001(\r\022\025\n\013JJDKCJNCKEK\030\312\311\003 \001(\r" +
-      "\022\017\n\007version\030\014 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\n\034ToTheMoonEnterSceneReq.proto\"e\n\026ToTheM" +
+      "oonEnterSceneReq\022\017\n\007version\030\003 \001(\r\022\023\n\013EMA" +
+      "BCCIAIDI\030\005 \001(\r\022\023\n\013EGFNPPMOEJI\030\t \001(\r\022\020\n\010s" +
+      "cene_id\030\013 \001(\rB\033\n\031emu.grasscutter.net.pro" +
+      "tob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -714,7 +749,7 @@ public final class ToTheMoonEnterSceneReqOuterClass {
     internal_static_ToTheMoonEnterSceneReq_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ToTheMoonEnterSceneReq_descriptor,
-        new java.lang.String[] { "SceneId", "NCBKKEAFGKL", "JJDKCJNCKEK", "Version", });
+        new java.lang.String[] { "Version", "EMABCCIAIDI", "EGFNPPMOEJI", "SceneId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

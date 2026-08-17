@@ -37,6 +37,10 @@ public final class CreateVehicleRspOuterClass {
     int getRetcode();
   }
   /**
+   * <pre>
+   * CmdID: 28725
+   * </pre>
+   *
    * Protobuf type {@code CreateVehicleRsp}
    */
   public static final class CreateVehicleRsp extends
@@ -339,6 +343,10 @@ public final class CreateVehicleRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 28725
+     * </pre>
+     *
      * Protobuf type {@code CreateVehicleRsp}
      */
     public static final class Builder extends
@@ -658,9 +666,8 @@ public final class CreateVehicleRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026CreateVehicleRsp.proto\"J\n\020CreateVehicl" +
       "eRsp\022\022\n\nvehicle_id\030\n \001(\r\022\021\n\tentity_id\030\r " +
-      "\001(\r\022\017\n\007retcode\030\017 \001(\005B7\n\031emu.grasscutter." +
-      "net.protoB\032CreateVehicleRspOuterClassb\006p" +
-      "roto3"
+      "\001(\r\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu.grasscutter." +
+      "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

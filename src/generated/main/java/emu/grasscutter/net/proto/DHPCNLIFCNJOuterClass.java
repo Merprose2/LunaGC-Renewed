@@ -33,12 +33,12 @@ public final class DHPCNLIFCNJOuterClass {
     /**
      * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
      */
-    java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> 
+    java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> 
         getKCDMKFCEKEEList();
     /**
      * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
      */
-    emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo getKCDMKFCEKEE(int index);
+    emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo getKCDMKFCEKEE(int index);
     /**
      * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
      */
@@ -46,12 +46,12 @@ public final class DHPCNLIFCNJOuterClass {
     /**
      * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
         getKCDMKFCEKEEOrBuilderList();
     /**
      * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
      */
-    emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder getKCDMKFCEKEEOrBuilder(
+    emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder getKCDMKFCEKEEOrBuilder(
         int index);
 
     /**
@@ -84,12 +84,12 @@ public final class DHPCNLIFCNJOuterClass {
     /**
      * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
      */
-    java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> 
+    java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> 
         getLJEOABANCJKList();
     /**
      * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
      */
-    emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo getLJEOABANCJK(int index);
+    emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo getLJEOABANCJK(int index);
     /**
      * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
      */
@@ -97,12 +97,12 @@ public final class DHPCNLIFCNJOuterClass {
     /**
      * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
         getLJEOABANCJKOrBuilderList();
     /**
      * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
      */
-    emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder getLJEOABANCJKOrBuilder(
+    emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder getLJEOABANCJKOrBuilder(
         int index);
 
     /**
@@ -202,11 +202,11 @@ public final class DHPCNLIFCNJOuterClass {
             }
             case 42: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                kCDMKFCEKEE_ = new java.util.ArrayList<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo>();
+                kCDMKFCEKEE_ = new java.util.ArrayList<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               kCDMKFCEKEE_.add(
-                  input.readMessage(emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.parser(), extensionRegistry));
               break;
             }
             case 48: {
@@ -234,11 +234,11 @@ public final class DHPCNLIFCNJOuterClass {
             }
             case 98: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                lJEOABANCJK_ = new java.util.ArrayList<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo>();
+                lJEOABANCJK_ = new java.util.ArrayList<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo>();
                 mutable_bitField0_ |= 0x00000002;
               }
               lJEOABANCJK_.add(
-                  input.readMessage(emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.parser(), extensionRegistry));
               break;
             }
             case 104: {
@@ -308,12 +308,12 @@ public final class DHPCNLIFCNJOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
        */
-      java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> 
+      java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> 
           getAvatarListList();
       /**
        * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
        */
-      emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo getAvatarList(int index);
+      emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo getAvatarList(int index);
       /**
        * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
        */
@@ -321,12 +321,12 @@ public final class DHPCNLIFCNJOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
        */
-      java.util.List<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
+      java.util.List<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
           getAvatarListOrBuilderList();
       /**
        * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
        */
-      emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder getAvatarListOrBuilder(
+      emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder getAvatarListOrBuilder(
           int index);
 
       /**
@@ -402,11 +402,11 @@ public final class DHPCNLIFCNJOuterClass {
                 break;
               case 74: {
                 if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                  avatarList_ = new java.util.ArrayList<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo>();
+                  avatarList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo>();
                   mutable_bitField0_ |= 0x00000001;
                 }
                 avatarList_.add(
-                    input.readMessage(emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.parser(), extensionRegistry));
+                    input.readMessage(emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.parser(), extensionRegistry));
                 break;
               }
               case 88: {
@@ -465,19 +465,19 @@ public final class DHPCNLIFCNJOuterClass {
       }
 
       public static final int AVATAR_LIST_FIELD_NUMBER = 9;
-      private java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> avatarList_;
+      private java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> avatarList_;
       /**
        * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
        */
       @java.lang.Override
-      public java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> getAvatarListList() {
+      public java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> getAvatarListList() {
         return avatarList_;
       }
       /**
        * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
        */
       @java.lang.Override
-      public java.util.List<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
           getAvatarListOrBuilderList() {
         return avatarList_;
       }
@@ -492,14 +492,14 @@ public final class DHPCNLIFCNJOuterClass {
        * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo getAvatarList(int index) {
+      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo getAvatarList(int index) {
         return avatarList_.get(index);
       }
       /**
        * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder getAvatarListOrBuilder(
+      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder getAvatarListOrBuilder(
           int index) {
         return avatarList_.get(index);
       }
@@ -959,22 +959,22 @@ public final class DHPCNLIFCNJOuterClass {
         }
         private int bitField0_;
 
-        private java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> avatarList_ =
+        private java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> avatarList_ =
           java.util.Collections.emptyList();
         private void ensureAvatarListIsMutable() {
           if (!((bitField0_ & 0x00000001) != 0)) {
-            avatarList_ = new java.util.ArrayList<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo>(avatarList_);
+            avatarList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo>(avatarList_);
             bitField0_ |= 0x00000001;
            }
         }
 
         private com.google.protobuf.RepeatedFieldBuilderV3<
-            emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> avatarListBuilder_;
+            emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> avatarListBuilder_;
 
         /**
          * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
          */
-        public java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> getAvatarListList() {
+        public java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> getAvatarListList() {
           if (avatarListBuilder_ == null) {
             return java.util.Collections.unmodifiableList(avatarList_);
           } else {
@@ -994,7 +994,7 @@ public final class DHPCNLIFCNJOuterClass {
         /**
          * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
          */
-        public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo getAvatarList(int index) {
+        public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo getAvatarList(int index) {
           if (avatarListBuilder_ == null) {
             return avatarList_.get(index);
           } else {
@@ -1005,7 +1005,7 @@ public final class DHPCNLIFCNJOuterClass {
          * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
          */
         public Builder setAvatarList(
-            int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo value) {
+            int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo value) {
           if (avatarListBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1022,7 +1022,7 @@ public final class DHPCNLIFCNJOuterClass {
          * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
          */
         public Builder setAvatarList(
-            int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder builderForValue) {
+            int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder builderForValue) {
           if (avatarListBuilder_ == null) {
             ensureAvatarListIsMutable();
             avatarList_.set(index, builderForValue.build());
@@ -1035,7 +1035,7 @@ public final class DHPCNLIFCNJOuterClass {
         /**
          * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
          */
-        public Builder addAvatarList(emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo value) {
+        public Builder addAvatarList(emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo value) {
           if (avatarListBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1052,7 +1052,7 @@ public final class DHPCNLIFCNJOuterClass {
          * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
          */
         public Builder addAvatarList(
-            int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo value) {
+            int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo value) {
           if (avatarListBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1069,7 +1069,7 @@ public final class DHPCNLIFCNJOuterClass {
          * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
          */
         public Builder addAvatarList(
-            emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder builderForValue) {
+            emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder builderForValue) {
           if (avatarListBuilder_ == null) {
             ensureAvatarListIsMutable();
             avatarList_.add(builderForValue.build());
@@ -1083,7 +1083,7 @@ public final class DHPCNLIFCNJOuterClass {
          * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
          */
         public Builder addAvatarList(
-            int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder builderForValue) {
+            int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder builderForValue) {
           if (avatarListBuilder_ == null) {
             ensureAvatarListIsMutable();
             avatarList_.add(index, builderForValue.build());
@@ -1097,7 +1097,7 @@ public final class DHPCNLIFCNJOuterClass {
          * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
          */
         public Builder addAllAvatarList(
-            java.lang.Iterable<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> values) {
+            java.lang.Iterable<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> values) {
           if (avatarListBuilder_ == null) {
             ensureAvatarListIsMutable();
             com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -1137,14 +1137,14 @@ public final class DHPCNLIFCNJOuterClass {
         /**
          * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
          */
-        public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder getAvatarListBuilder(
+        public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder getAvatarListBuilder(
             int index) {
           return getAvatarListFieldBuilder().getBuilder(index);
         }
         /**
          * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
          */
-        public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder getAvatarListOrBuilder(
+        public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder getAvatarListOrBuilder(
             int index) {
           if (avatarListBuilder_ == null) {
             return avatarList_.get(index);  } else {
@@ -1154,7 +1154,7 @@ public final class DHPCNLIFCNJOuterClass {
         /**
          * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
          */
-        public java.util.List<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
+        public java.util.List<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
              getAvatarListOrBuilderList() {
           if (avatarListBuilder_ != null) {
             return avatarListBuilder_.getMessageOrBuilderList();
@@ -1165,31 +1165,31 @@ public final class DHPCNLIFCNJOuterClass {
         /**
          * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
          */
-        public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder addAvatarListBuilder() {
+        public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder addAvatarListBuilder() {
           return getAvatarListFieldBuilder().addBuilder(
-              emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.getDefaultInstance());
+              emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.getDefaultInstance());
         }
         /**
          * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
          */
-        public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder addAvatarListBuilder(
+        public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder addAvatarListBuilder(
             int index) {
           return getAvatarListFieldBuilder().addBuilder(
-              index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.getDefaultInstance());
+              index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.getDefaultInstance());
         }
         /**
          * <code>repeated ._ActivityAvatarInfo avatar_list = 9;</code>
          */
-        public java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder> 
+        public java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder> 
              getAvatarListBuilderList() {
           return getAvatarListFieldBuilder().getBuilderList();
         }
         private com.google.protobuf.RepeatedFieldBuilderV3<
-            emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
+            emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
             getAvatarListFieldBuilder() {
           if (avatarListBuilder_ == null) {
             avatarListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-                emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder>(
+                emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder>(
                     avatarList_,
                     ((bitField0_ & 0x00000001) != 0),
                     getParentForChildren(),
@@ -2026,19 +2026,19 @@ public final class DHPCNLIFCNJOuterClass {
     }
 
     public static final int KCDMKFCEKEE_FIELD_NUMBER = 5;
-    private java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> kCDMKFCEKEE_;
+    private java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> kCDMKFCEKEE_;
     /**
      * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> getKCDMKFCEKEEList() {
+    public java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> getKCDMKFCEKEEList() {
       return kCDMKFCEKEE_;
     }
     /**
      * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
         getKCDMKFCEKEEOrBuilderList() {
       return kCDMKFCEKEE_;
     }
@@ -2053,14 +2053,14 @@ public final class DHPCNLIFCNJOuterClass {
      * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo getKCDMKFCEKEE(int index) {
+    public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo getKCDMKFCEKEE(int index) {
       return kCDMKFCEKEE_.get(index);
     }
     /**
      * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder getKCDMKFCEKEEOrBuilder(
+    public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder getKCDMKFCEKEEOrBuilder(
         int index) {
       return kCDMKFCEKEE_.get(index);
     }
@@ -2114,19 +2114,19 @@ public final class DHPCNLIFCNJOuterClass {
     }
 
     public static final int LJEOABANCJK_FIELD_NUMBER = 12;
-    private java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> lJEOABANCJK_;
+    private java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> lJEOABANCJK_;
     /**
      * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> getLJEOABANCJKList() {
+    public java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> getLJEOABANCJKList() {
       return lJEOABANCJK_;
     }
     /**
      * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
         getLJEOABANCJKOrBuilderList() {
       return lJEOABANCJK_;
     }
@@ -2141,14 +2141,14 @@ public final class DHPCNLIFCNJOuterClass {
      * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo getLJEOABANCJK(int index) {
+    public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo getLJEOABANCJK(int index) {
       return lJEOABANCJK_.get(index);
     }
     /**
      * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder getLJEOABANCJKOrBuilder(
+    public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder getLJEOABANCJKOrBuilder(
         int index) {
       return lJEOABANCJK_.get(index);
     }
@@ -2864,22 +2864,22 @@ public final class DHPCNLIFCNJOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> kCDMKFCEKEE_ =
+      private java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> kCDMKFCEKEE_ =
         java.util.Collections.emptyList();
       private void ensureKCDMKFCEKEEIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          kCDMKFCEKEE_ = new java.util.ArrayList<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo>(kCDMKFCEKEE_);
+          kCDMKFCEKEE_ = new java.util.ArrayList<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo>(kCDMKFCEKEE_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> kCDMKFCEKEEBuilder_;
+          emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> kCDMKFCEKEEBuilder_;
 
       /**
        * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> getKCDMKFCEKEEList() {
+      public java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> getKCDMKFCEKEEList() {
         if (kCDMKFCEKEEBuilder_ == null) {
           return java.util.Collections.unmodifiableList(kCDMKFCEKEE_);
         } else {
@@ -2899,7 +2899,7 @@ public final class DHPCNLIFCNJOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
        */
-      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo getKCDMKFCEKEE(int index) {
+      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo getKCDMKFCEKEE(int index) {
         if (kCDMKFCEKEEBuilder_ == null) {
           return kCDMKFCEKEE_.get(index);
         } else {
@@ -2910,7 +2910,7 @@ public final class DHPCNLIFCNJOuterClass {
        * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
        */
       public Builder setKCDMKFCEKEE(
-          int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo value) {
+          int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo value) {
         if (kCDMKFCEKEEBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2927,7 +2927,7 @@ public final class DHPCNLIFCNJOuterClass {
        * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
        */
       public Builder setKCDMKFCEKEE(
-          int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder builderForValue) {
         if (kCDMKFCEKEEBuilder_ == null) {
           ensureKCDMKFCEKEEIsMutable();
           kCDMKFCEKEE_.set(index, builderForValue.build());
@@ -2940,7 +2940,7 @@ public final class DHPCNLIFCNJOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
        */
-      public Builder addKCDMKFCEKEE(emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo value) {
+      public Builder addKCDMKFCEKEE(emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo value) {
         if (kCDMKFCEKEEBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2957,7 +2957,7 @@ public final class DHPCNLIFCNJOuterClass {
        * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
        */
       public Builder addKCDMKFCEKEE(
-          int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo value) {
+          int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo value) {
         if (kCDMKFCEKEEBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2974,7 +2974,7 @@ public final class DHPCNLIFCNJOuterClass {
        * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
        */
       public Builder addKCDMKFCEKEE(
-          emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder builderForValue) {
         if (kCDMKFCEKEEBuilder_ == null) {
           ensureKCDMKFCEKEEIsMutable();
           kCDMKFCEKEE_.add(builderForValue.build());
@@ -2988,7 +2988,7 @@ public final class DHPCNLIFCNJOuterClass {
        * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
        */
       public Builder addKCDMKFCEKEE(
-          int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder builderForValue) {
         if (kCDMKFCEKEEBuilder_ == null) {
           ensureKCDMKFCEKEEIsMutable();
           kCDMKFCEKEE_.add(index, builderForValue.build());
@@ -3002,7 +3002,7 @@ public final class DHPCNLIFCNJOuterClass {
        * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
        */
       public Builder addAllKCDMKFCEKEE(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> values) {
         if (kCDMKFCEKEEBuilder_ == null) {
           ensureKCDMKFCEKEEIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -3042,14 +3042,14 @@ public final class DHPCNLIFCNJOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
        */
-      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder getKCDMKFCEKEEBuilder(
+      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder getKCDMKFCEKEEBuilder(
           int index) {
         return getKCDMKFCEKEEFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
        */
-      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder getKCDMKFCEKEEOrBuilder(
+      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder getKCDMKFCEKEEOrBuilder(
           int index) {
         if (kCDMKFCEKEEBuilder_ == null) {
           return kCDMKFCEKEE_.get(index);  } else {
@@ -3059,7 +3059,7 @@ public final class DHPCNLIFCNJOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
            getKCDMKFCEKEEOrBuilderList() {
         if (kCDMKFCEKEEBuilder_ != null) {
           return kCDMKFCEKEEBuilder_.getMessageOrBuilderList();
@@ -3070,31 +3070,31 @@ public final class DHPCNLIFCNJOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
        */
-      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder addKCDMKFCEKEEBuilder() {
+      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder addKCDMKFCEKEEBuilder() {
         return getKCDMKFCEKEEFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.getDefaultInstance());
+            emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
        */
-      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder addKCDMKFCEKEEBuilder(
+      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder addKCDMKFCEKEEBuilder(
           int index) {
         return getKCDMKFCEKEEFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._ActivityAvatarInfo KCDMKFCEKEE = 5;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder> 
            getKCDMKFCEKEEBuilderList() {
         return getKCDMKFCEKEEFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
+          emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
           getKCDMKFCEKEEFieldBuilder() {
         if (kCDMKFCEKEEBuilder_ == null) {
           kCDMKFCEKEEBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder>(
+              emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder>(
                   kCDMKFCEKEE_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -3285,22 +3285,22 @@ public final class DHPCNLIFCNJOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> lJEOABANCJK_ =
+      private java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> lJEOABANCJK_ =
         java.util.Collections.emptyList();
       private void ensureLJEOABANCJKIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          lJEOABANCJK_ = new java.util.ArrayList<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo>(lJEOABANCJK_);
+          lJEOABANCJK_ = new java.util.ArrayList<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo>(lJEOABANCJK_);
           bitField0_ |= 0x00000002;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> lJEOABANCJKBuilder_;
+          emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> lJEOABANCJKBuilder_;
 
       /**
        * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> getLJEOABANCJKList() {
+      public java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> getLJEOABANCJKList() {
         if (lJEOABANCJKBuilder_ == null) {
           return java.util.Collections.unmodifiableList(lJEOABANCJK_);
         } else {
@@ -3320,7 +3320,7 @@ public final class DHPCNLIFCNJOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
        */
-      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo getLJEOABANCJK(int index) {
+      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo getLJEOABANCJK(int index) {
         if (lJEOABANCJKBuilder_ == null) {
           return lJEOABANCJK_.get(index);
         } else {
@@ -3331,7 +3331,7 @@ public final class DHPCNLIFCNJOuterClass {
        * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
        */
       public Builder setLJEOABANCJK(
-          int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo value) {
+          int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo value) {
         if (lJEOABANCJKBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3348,7 +3348,7 @@ public final class DHPCNLIFCNJOuterClass {
        * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
        */
       public Builder setLJEOABANCJK(
-          int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder builderForValue) {
         if (lJEOABANCJKBuilder_ == null) {
           ensureLJEOABANCJKIsMutable();
           lJEOABANCJK_.set(index, builderForValue.build());
@@ -3361,7 +3361,7 @@ public final class DHPCNLIFCNJOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
        */
-      public Builder addLJEOABANCJK(emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo value) {
+      public Builder addLJEOABANCJK(emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo value) {
         if (lJEOABANCJKBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3378,7 +3378,7 @@ public final class DHPCNLIFCNJOuterClass {
        * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
        */
       public Builder addLJEOABANCJK(
-          int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo value) {
+          int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo value) {
         if (lJEOABANCJKBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3395,7 +3395,7 @@ public final class DHPCNLIFCNJOuterClass {
        * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
        */
       public Builder addLJEOABANCJK(
-          emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder builderForValue) {
         if (lJEOABANCJKBuilder_ == null) {
           ensureLJEOABANCJKIsMutable();
           lJEOABANCJK_.add(builderForValue.build());
@@ -3409,7 +3409,7 @@ public final class DHPCNLIFCNJOuterClass {
        * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
        */
       public Builder addLJEOABANCJK(
-          int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder builderForValue) {
         if (lJEOABANCJKBuilder_ == null) {
           ensureLJEOABANCJKIsMutable();
           lJEOABANCJK_.add(index, builderForValue.build());
@@ -3423,7 +3423,7 @@ public final class DHPCNLIFCNJOuterClass {
        * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
        */
       public Builder addAllLJEOABANCJK(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo> values) {
         if (lJEOABANCJKBuilder_ == null) {
           ensureLJEOABANCJKIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -3463,14 +3463,14 @@ public final class DHPCNLIFCNJOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
        */
-      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder getLJEOABANCJKBuilder(
+      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder getLJEOABANCJKBuilder(
           int index) {
         return getLJEOABANCJKFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
        */
-      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder getLJEOABANCJKOrBuilder(
+      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder getLJEOABANCJKOrBuilder(
           int index) {
         if (lJEOABANCJKBuilder_ == null) {
           return lJEOABANCJK_.get(index);  } else {
@@ -3480,7 +3480,7 @@ public final class DHPCNLIFCNJOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
            getLJEOABANCJKOrBuilderList() {
         if (lJEOABANCJKBuilder_ != null) {
           return lJEOABANCJKBuilder_.getMessageOrBuilderList();
@@ -3491,31 +3491,31 @@ public final class DHPCNLIFCNJOuterClass {
       /**
        * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
        */
-      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder addLJEOABANCJKBuilder() {
+      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder addLJEOABANCJKBuilder() {
         return getLJEOABANCJKFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.getDefaultInstance());
+            emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
        */
-      public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder addLJEOABANCJKBuilder(
+      public emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder addLJEOABANCJKBuilder(
           int index) {
         return getLJEOABANCJKFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._ActivityAvatarInfo LJEOABANCJK = 12;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder> 
            getLJEOABANCJKBuilderList() {
         return getLJEOABANCJKFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
+          emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder> 
           getLJEOABANCJKFieldBuilder() {
         if (lJEOABANCJKBuilder_ == null) {
           lJEOABANCJKBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder>(
+              emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto.ActivityAvatarInfo._ActivityAvatarInfoOrBuilder>(
                   lJEOABANCJK_,
                   ((bitField0_ & 0x00000002) != 0),
                   getParentForChildren(),
@@ -3917,13 +3917,13 @@ public final class DHPCNLIFCNJOuterClass {
       "\013IMEPIKDEFHA\030\r \001(\010\022\022\n\ndifficulty\030\016 \001(\r\022\021" +
       "\n\tcost_time\030\017 \001(\r\032I\n\013NFPOBMPOEKA\022\023\n\013avat" +
       "ar_type\030\010 \001(\r\022\021\n\tavatar_id\030\t \001(\r\022\022\n\ncost" +
-      "ume_id\030\017 \001(\rB2\n\031emu.grasscutter.net.prot" +
-      "oB\025DHPCNLIFCNJOuterClassb\006proto3"
+      "ume_id\030\017 \001(\rB\033\n\031emu.grasscutter.net.prot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.ActivityAvatarInfo.getDescriptor(),
         });
     internal_static_DHPCNLIFCNJ_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -3943,7 +3943,7 @@ public final class DHPCNLIFCNJOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_DHPCNLIFCNJ_NFPOBMPOEKA_descriptor,
         new java.lang.String[] { "AvatarType", "AvatarId", "CostumeId", });
-    emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.ActivityAvatarInfo.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

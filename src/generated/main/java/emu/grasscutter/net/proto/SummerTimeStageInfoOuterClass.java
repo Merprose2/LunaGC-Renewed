@@ -659,9 +659,8 @@ public final class SummerTimeStageInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031SummerTimeStageInfo.proto\"K\n\023SummerTim" +
       "eStageInfo\022\017\n\007is_open\030\013 \001(\010\022\020\n\010stage_id\030" +
-      "\016 \001(\r\022\021\n\topen_time\030\017 \001(\rB:\n\031emu.grasscut" +
-      "ter.net.protoB\035SummerTimeStageInfoOuterC" +
-      "lassb\006proto3"
+      "\016 \001(\r\022\021\n\topen_time\030\017 \001(\rB\033\n\031emu.grasscut" +
+      "ter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

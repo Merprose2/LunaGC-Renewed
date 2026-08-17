@@ -786,9 +786,8 @@ public final class FungusTrainingMonsterPreviewDetailOuterClass {
       "\n(FungusTrainingMonsterPreviewDetail.pro" +
       "to\"[\n\"FungusTrainingMonsterPreviewDetail" +
       "\022\022\n\nmonster_id\030\003 \001(\r\022\022\n\naffix_list\030\013 \003(\r" +
-      "\022\r\n\005level\030\r \001(\rBI\n\031emu.grasscutter.net.p" +
-      "rotoB,FungusTrainingMonsterPreviewDetail" +
-      "OuterClassb\006proto3"
+      "\022\r\n\005level\030\r \001(\rB\033\n\031emu.grasscutter.net.p" +
+      "rotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -19,36 +19,16 @@ public final class TowerTeamSelectReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .TowerTeam tower_team_list = 8;</code>
-     */
-    java.util.List<emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam> 
-        getTowerTeamListList();
-    /**
-     * <code>repeated .TowerTeam tower_team_list = 8;</code>
-     */
-    emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam getTowerTeamList(int index);
-    /**
-     * <code>repeated .TowerTeam tower_team_list = 8;</code>
-     */
-    int getTowerTeamListCount();
-    /**
-     * <code>repeated .TowerTeam tower_team_list = 8;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder> 
-        getTowerTeamListOrBuilderList();
-    /**
-     * <code>repeated .TowerTeam tower_team_list = 8;</code>
-     */
-    emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder getTowerTeamListOrBuilder(
-        int index);
-
-    /**
      * <code>uint32 floor_id = 9;</code>
      * @return The floorId.
      */
     int getFloorId();
   }
   /**
+   * <pre>
+   * CmdID: 27856
+   * </pre>
+   *
    * Protobuf type {@code TowerTeamSelectReq}
    */
   public static final class TowerTeamSelectReq extends
@@ -61,7 +41,6 @@ public final class TowerTeamSelectReqOuterClass {
       super(builder);
     }
     private TowerTeamSelectReq() {
-      towerTeamList_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -84,7 +63,6 @@ public final class TowerTeamSelectReqOuterClass {
       if (extensionRegistry == null) {
         throw new java.lang.NullPointerException();
       }
-      int mutable_bitField0_ = 0;
       com.google.protobuf.UnknownFieldSet.Builder unknownFields =
           com.google.protobuf.UnknownFieldSet.newBuilder();
       try {
@@ -95,15 +73,6 @@ public final class TowerTeamSelectReqOuterClass {
             case 0:
               done = true;
               break;
-            case 66: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                towerTeamList_ = new java.util.ArrayList<emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              towerTeamList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.parser(), extensionRegistry));
-              break;
-            }
             case 72: {
 
               floorId_ = input.readUInt32();
@@ -124,9 +93,6 @@ public final class TowerTeamSelectReqOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          towerTeamList_ = java.util.Collections.unmodifiableList(towerTeamList_);
-        }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
       }
@@ -142,46 +108,6 @@ public final class TowerTeamSelectReqOuterClass {
       return emu.grasscutter.net.proto.TowerTeamSelectReqOuterClass.internal_static_TowerTeamSelectReq_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               emu.grasscutter.net.proto.TowerTeamSelectReqOuterClass.TowerTeamSelectReq.class, emu.grasscutter.net.proto.TowerTeamSelectReqOuterClass.TowerTeamSelectReq.Builder.class);
-    }
-
-    public static final int TOWER_TEAM_LIST_FIELD_NUMBER = 8;
-    private java.util.List<emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam> towerTeamList_;
-    /**
-     * <code>repeated .TowerTeam tower_team_list = 8;</code>
-     */
-    @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam> getTowerTeamListList() {
-      return towerTeamList_;
-    }
-    /**
-     * <code>repeated .TowerTeam tower_team_list = 8;</code>
-     */
-    @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder> 
-        getTowerTeamListOrBuilderList() {
-      return towerTeamList_;
-    }
-    /**
-     * <code>repeated .TowerTeam tower_team_list = 8;</code>
-     */
-    @java.lang.Override
-    public int getTowerTeamListCount() {
-      return towerTeamList_.size();
-    }
-    /**
-     * <code>repeated .TowerTeam tower_team_list = 8;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam getTowerTeamList(int index) {
-      return towerTeamList_.get(index);
-    }
-    /**
-     * <code>repeated .TowerTeam tower_team_list = 8;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder getTowerTeamListOrBuilder(
-        int index) {
-      return towerTeamList_.get(index);
     }
 
     public static final int FLOOR_ID_FIELD_NUMBER = 9;
@@ -209,9 +135,6 @@ public final class TowerTeamSelectReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < towerTeamList_.size(); i++) {
-        output.writeMessage(8, towerTeamList_.get(i));
-      }
       if (floorId_ != 0) {
         output.writeUInt32(9, floorId_);
       }
@@ -224,10 +147,6 @@ public final class TowerTeamSelectReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < towerTeamList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, towerTeamList_.get(i));
-      }
       if (floorId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(9, floorId_);
@@ -247,8 +166,6 @@ public final class TowerTeamSelectReqOuterClass {
       }
       emu.grasscutter.net.proto.TowerTeamSelectReqOuterClass.TowerTeamSelectReq other = (emu.grasscutter.net.proto.TowerTeamSelectReqOuterClass.TowerTeamSelectReq) obj;
 
-      if (!getTowerTeamListList()
-          .equals(other.getTowerTeamListList())) return false;
       if (getFloorId()
           != other.getFloorId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -262,10 +179,6 @@ public final class TowerTeamSelectReqOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getTowerTeamListCount() > 0) {
-        hash = (37 * hash) + TOWER_TEAM_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getTowerTeamListList().hashCode();
-      }
       hash = (37 * hash) + FLOOR_ID_FIELD_NUMBER;
       hash = (53 * hash) + getFloorId();
       hash = (29 * hash) + unknownFields.hashCode();
@@ -364,6 +277,10 @@ public final class TowerTeamSelectReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 27856
+     * </pre>
+     *
      * Protobuf type {@code TowerTeamSelectReq}
      */
     public static final class Builder extends
@@ -396,18 +313,11 @@ public final class TowerTeamSelectReqOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getTowerTeamListFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (towerTeamListBuilder_ == null) {
-          towerTeamList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
-        } else {
-          towerTeamListBuilder_.clear();
-        }
         floorId_ = 0;
 
         return this;
@@ -436,16 +346,6 @@ public final class TowerTeamSelectReqOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.TowerTeamSelectReqOuterClass.TowerTeamSelectReq buildPartial() {
         emu.grasscutter.net.proto.TowerTeamSelectReqOuterClass.TowerTeamSelectReq result = new emu.grasscutter.net.proto.TowerTeamSelectReqOuterClass.TowerTeamSelectReq(this);
-        int from_bitField0_ = bitField0_;
-        if (towerTeamListBuilder_ == null) {
-          if (((bitField0_ & 0x00000001) != 0)) {
-            towerTeamList_ = java.util.Collections.unmodifiableList(towerTeamList_);
-            bitField0_ = (bitField0_ & ~0x00000001);
-          }
-          result.towerTeamList_ = towerTeamList_;
-        } else {
-          result.towerTeamList_ = towerTeamListBuilder_.build();
-        }
         result.floorId_ = floorId_;
         onBuilt();
         return result;
@@ -495,32 +395,6 @@ public final class TowerTeamSelectReqOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.TowerTeamSelectReqOuterClass.TowerTeamSelectReq other) {
         if (other == emu.grasscutter.net.proto.TowerTeamSelectReqOuterClass.TowerTeamSelectReq.getDefaultInstance()) return this;
-        if (towerTeamListBuilder_ == null) {
-          if (!other.towerTeamList_.isEmpty()) {
-            if (towerTeamList_.isEmpty()) {
-              towerTeamList_ = other.towerTeamList_;
-              bitField0_ = (bitField0_ & ~0x00000001);
-            } else {
-              ensureTowerTeamListIsMutable();
-              towerTeamList_.addAll(other.towerTeamList_);
-            }
-            onChanged();
-          }
-        } else {
-          if (!other.towerTeamList_.isEmpty()) {
-            if (towerTeamListBuilder_.isEmpty()) {
-              towerTeamListBuilder_.dispose();
-              towerTeamListBuilder_ = null;
-              towerTeamList_ = other.towerTeamList_;
-              bitField0_ = (bitField0_ & ~0x00000001);
-              towerTeamListBuilder_ = 
-                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getTowerTeamListFieldBuilder() : null;
-            } else {
-              towerTeamListBuilder_.addAllMessages(other.towerTeamList_);
-            }
-          }
-        }
         if (other.getFloorId() != 0) {
           setFloorId(other.getFloorId());
         }
@@ -551,247 +425,6 @@ public final class TowerTeamSelectReqOuterClass {
           }
         }
         return this;
-      }
-      private int bitField0_;
-
-      private java.util.List<emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam> towerTeamList_ =
-        java.util.Collections.emptyList();
-      private void ensureTowerTeamListIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
-          towerTeamList_ = new java.util.ArrayList<emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam>(towerTeamList_);
-          bitField0_ |= 0x00000001;
-         }
-      }
-
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam, emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.Builder, emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder> towerTeamListBuilder_;
-
-      /**
-       * <code>repeated .TowerTeam tower_team_list = 8;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam> getTowerTeamListList() {
-        if (towerTeamListBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(towerTeamList_);
-        } else {
-          return towerTeamListBuilder_.getMessageList();
-        }
-      }
-      /**
-       * <code>repeated .TowerTeam tower_team_list = 8;</code>
-       */
-      public int getTowerTeamListCount() {
-        if (towerTeamListBuilder_ == null) {
-          return towerTeamList_.size();
-        } else {
-          return towerTeamListBuilder_.getCount();
-        }
-      }
-      /**
-       * <code>repeated .TowerTeam tower_team_list = 8;</code>
-       */
-      public emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam getTowerTeamList(int index) {
-        if (towerTeamListBuilder_ == null) {
-          return towerTeamList_.get(index);
-        } else {
-          return towerTeamListBuilder_.getMessage(index);
-        }
-      }
-      /**
-       * <code>repeated .TowerTeam tower_team_list = 8;</code>
-       */
-      public Builder setTowerTeamList(
-          int index, emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam value) {
-        if (towerTeamListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureTowerTeamListIsMutable();
-          towerTeamList_.set(index, value);
-          onChanged();
-        } else {
-          towerTeamListBuilder_.setMessage(index, value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .TowerTeam tower_team_list = 8;</code>
-       */
-      public Builder setTowerTeamList(
-          int index, emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.Builder builderForValue) {
-        if (towerTeamListBuilder_ == null) {
-          ensureTowerTeamListIsMutable();
-          towerTeamList_.set(index, builderForValue.build());
-          onChanged();
-        } else {
-          towerTeamListBuilder_.setMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .TowerTeam tower_team_list = 8;</code>
-       */
-      public Builder addTowerTeamList(emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam value) {
-        if (towerTeamListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureTowerTeamListIsMutable();
-          towerTeamList_.add(value);
-          onChanged();
-        } else {
-          towerTeamListBuilder_.addMessage(value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .TowerTeam tower_team_list = 8;</code>
-       */
-      public Builder addTowerTeamList(
-          int index, emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam value) {
-        if (towerTeamListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureTowerTeamListIsMutable();
-          towerTeamList_.add(index, value);
-          onChanged();
-        } else {
-          towerTeamListBuilder_.addMessage(index, value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .TowerTeam tower_team_list = 8;</code>
-       */
-      public Builder addTowerTeamList(
-          emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.Builder builderForValue) {
-        if (towerTeamListBuilder_ == null) {
-          ensureTowerTeamListIsMutable();
-          towerTeamList_.add(builderForValue.build());
-          onChanged();
-        } else {
-          towerTeamListBuilder_.addMessage(builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .TowerTeam tower_team_list = 8;</code>
-       */
-      public Builder addTowerTeamList(
-          int index, emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.Builder builderForValue) {
-        if (towerTeamListBuilder_ == null) {
-          ensureTowerTeamListIsMutable();
-          towerTeamList_.add(index, builderForValue.build());
-          onChanged();
-        } else {
-          towerTeamListBuilder_.addMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .TowerTeam tower_team_list = 8;</code>
-       */
-      public Builder addAllTowerTeamList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam> values) {
-        if (towerTeamListBuilder_ == null) {
-          ensureTowerTeamListIsMutable();
-          com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, towerTeamList_);
-          onChanged();
-        } else {
-          towerTeamListBuilder_.addAllMessages(values);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .TowerTeam tower_team_list = 8;</code>
-       */
-      public Builder clearTowerTeamList() {
-        if (towerTeamListBuilder_ == null) {
-          towerTeamList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
-          onChanged();
-        } else {
-          towerTeamListBuilder_.clear();
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .TowerTeam tower_team_list = 8;</code>
-       */
-      public Builder removeTowerTeamList(int index) {
-        if (towerTeamListBuilder_ == null) {
-          ensureTowerTeamListIsMutable();
-          towerTeamList_.remove(index);
-          onChanged();
-        } else {
-          towerTeamListBuilder_.remove(index);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .TowerTeam tower_team_list = 8;</code>
-       */
-      public emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.Builder getTowerTeamListBuilder(
-          int index) {
-        return getTowerTeamListFieldBuilder().getBuilder(index);
-      }
-      /**
-       * <code>repeated .TowerTeam tower_team_list = 8;</code>
-       */
-      public emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder getTowerTeamListOrBuilder(
-          int index) {
-        if (towerTeamListBuilder_ == null) {
-          return towerTeamList_.get(index);  } else {
-          return towerTeamListBuilder_.getMessageOrBuilder(index);
-        }
-      }
-      /**
-       * <code>repeated .TowerTeam tower_team_list = 8;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder> 
-           getTowerTeamListOrBuilderList() {
-        if (towerTeamListBuilder_ != null) {
-          return towerTeamListBuilder_.getMessageOrBuilderList();
-        } else {
-          return java.util.Collections.unmodifiableList(towerTeamList_);
-        }
-      }
-      /**
-       * <code>repeated .TowerTeam tower_team_list = 8;</code>
-       */
-      public emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.Builder addTowerTeamListBuilder() {
-        return getTowerTeamListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .TowerTeam tower_team_list = 8;</code>
-       */
-      public emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.Builder addTowerTeamListBuilder(
-          int index) {
-        return getTowerTeamListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .TowerTeam tower_team_list = 8;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.Builder> 
-           getTowerTeamListBuilderList() {
-        return getTowerTeamListFieldBuilder().getBuilderList();
-      }
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam, emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.Builder, emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder> 
-          getTowerTeamListFieldBuilder() {
-        if (towerTeamListBuilder_ == null) {
-          towerTeamListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam, emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.Builder, emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder>(
-                  towerTeamList_,
-                  ((bitField0_ & 0x00000001) != 0),
-                  getParentForChildren(),
-                  isClean());
-          towerTeamList_ = null;
-        }
-        return towerTeamListBuilder_;
       }
 
       private int floorId_ ;
@@ -891,24 +524,20 @@ public final class TowerTeamSelectReqOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\030TowerTeamSelectReq.proto\032\017TowerTeam.pr" +
-      "oto\"K\n\022TowerTeamSelectReq\022#\n\017tower_team_" +
-      "list\030\010 \003(\0132\n.TowerTeam\022\020\n\010floor_id\030\t \001(\r" +
-      "B9\n\031emu.grasscutter.net.protoB\034TowerTeam" +
-      "SelectReqOuterClassb\006proto3"
+      "\n\030TowerTeamSelectReq.proto\"&\n\022TowerTeamS" +
+      "electReq\022\020\n\010floor_id\030\t \001(\rB\033\n\031emu.grassc" +
+      "utter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.TowerTeamOuterClass.getDescriptor(),
         });
     internal_static_TowerTeamSelectReq_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_TowerTeamSelectReq_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_TowerTeamSelectReq_descriptor,
-        new java.lang.String[] { "TowerTeamList", "FloorId", });
-    emu.grasscutter.net.proto.TowerTeamOuterClass.getDescriptor();
+        new java.lang.String[] { "FloorId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

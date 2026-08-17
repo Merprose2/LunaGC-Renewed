@@ -855,9 +855,8 @@ public final class IAMFJKNIDPJOuterClass {
       "\n\021IAMFJKNIDPJ.proto\032\021EMPEPKOOJHP.proto\032\021" +
       "JEDABPPFPPK.proto\"S\n\013IAMFJKNIDPJ\022!\n\013NBEA" +
       "AGGCFHC\030\001 \001(\0132\014.JEDABPPFPPK\022!\n\013GLGMMOMNF" +
-      "JG\030\002 \001(\0132\014.EMPEPKOOJHPB2\n\031emu.grasscutte" +
-      "r.net.protoB\025IAMFJKNIDPJOuterClassb\006prot" +
-      "o3"
+      "JG\030\002 \001(\0132\014.EMPEPKOOJHPB\033\n\031emu.grasscutte" +
+      "r.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

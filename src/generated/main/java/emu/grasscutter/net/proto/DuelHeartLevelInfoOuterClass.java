@@ -1038,8 +1038,7 @@ public final class DuelHeartLevelInfoOuterClass {
       "lInfo\022\024\n\014is_cg_viewed\030\001 \001(\010\022\017\n\007is_open\030\004" +
       " \001(\010\022;\n\024difficulty_info_list\030\006 \003(\0132\035.Due" +
       "lHeartLevelDifficultyInfo\022\020\n\010level_id\030\017 " +
-      "\001(\rB9\n\031emu.grasscutter.net.protoB\034DuelHe" +
-      "artLevelInfoOuterClassb\006proto3"
+      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

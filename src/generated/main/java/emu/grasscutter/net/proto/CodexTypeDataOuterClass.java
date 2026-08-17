@@ -1269,8 +1269,7 @@ public final class CodexTypeDataOuterClass {
       "\030\007 \003(\010\022\030\n\004type\030\013 \001(\0162\n.CodexType\022\025\n\rcode" +
       "x_id_list\030\016 \003(\r\032?\n\035WeaponMaxPromoteLevel" +
       "MapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001" +
-      "B4\n\031emu.grasscutter.net.protoB\027CodexType" +
-      "DataOuterClassb\006proto3"
+      "B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

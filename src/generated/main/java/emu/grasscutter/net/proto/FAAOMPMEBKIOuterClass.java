@@ -785,8 +785,8 @@ public final class FAAOMPMEBKIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FAAOMPMEBKI.proto\"N\n\013FAAOMPMEBKI\022\022\n\ndi" +
       "fficulty\030\n \001(\r\022\023\n\013AAKAOLKKNGC\030\r \001(\r\022\026\n\016a" +
-      "vatar_id_list\030\017 \003(\rB2\n\031emu.grasscutter.n" +
-      "et.protoB\025FAAOMPMEBKIOuterClassb\006proto3"
+      "vatar_id_list\030\017 \003(\rB\033\n\031emu.grasscutter.n" +
+      "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

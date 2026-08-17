@@ -168,7 +168,7 @@ public final class DungeonEntryCondOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (condReason_ != emu.grasscutter.net.proto.DungeonEntryBlockReasonOuterClass.DungeonEntryBlockReason.DUNGEON_ENTRY_REASON_NONE.getNumber()) {
+      if (condReason_ != emu.grasscutter.net.proto.DungeonEntryBlockReasonOuterClass.DungeonEntryBlockReason.DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_NONE.getNumber()) {
         output.writeEnum(1, condReason_);
       }
       if (param1_ != 0) {
@@ -183,7 +183,7 @@ public final class DungeonEntryCondOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (condReason_ != emu.grasscutter.net.proto.DungeonEntryBlockReasonOuterClass.DungeonEntryBlockReason.DUNGEON_ENTRY_REASON_NONE.getNumber()) {
+      if (condReason_ != emu.grasscutter.net.proto.DungeonEntryBlockReasonOuterClass.DungeonEntryBlockReason.DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(1, condReason_);
       }
@@ -626,9 +626,8 @@ public final class DungeonEntryCondOuterClass {
       "\n\026DungeonEntryCond.proto\032\035DungeonEntryBl" +
       "ockReason.proto\"Q\n\020DungeonEntryCond\022-\n\013c" +
       "ond_reason\030\001 \001(\0162\030.DungeonEntryBlockReas" +
-      "on\022\016\n\006param1\030\006 \001(\rB7\n\031emu.grasscutter.ne" +
-      "t.protoB\032DungeonEntryCondOuterClassb\006pro" +
-      "to3"
+      "on\022\016\n\006param1\030\006 \001(\rB\033\n\031emu.grasscutter.ne" +
+      "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

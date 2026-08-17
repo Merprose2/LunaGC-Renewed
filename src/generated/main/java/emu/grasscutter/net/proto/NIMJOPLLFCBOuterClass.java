@@ -660,8 +660,8 @@ public final class NIMJOPLLFCBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NIMJOPLLFCB.proto\"C\n\013NIMJOPLLFCB\022\020\n\010le" +
       "vel_id\030\003 \001(\r\022\021\n\tis_finish\030\013 \001(\010\022\017\n\007is_op" +
-      "en\030\014 \001(\010B2\n\031emu.grasscutter.net.protoB\025N" +
-      "IMJOPLLFCBOuterClassb\006proto3"
+      "en\030\014 \001(\010B\033\n\031emu.grasscutter.net.protob\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -19,38 +19,20 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .Item item_list = 7;</code>
+     * <code>bytes item_list = 7;</code>
+     * @return The itemList.
      */
-    java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item> 
-        getItemListList();
-    /**
-     * <code>repeated .Item item_list = 7;</code>
-     */
-    emu.grasscutter.net.proto.ItemOuterClass.Item getItemList(int index);
-    /**
-     * <code>repeated .Item item_list = 7;</code>
-     */
-    int getItemListCount();
-    /**
-     * <code>repeated .Item item_list = 7;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> 
-        getItemListOrBuilderList();
-    /**
-     * <code>repeated .Item item_list = 7;</code>
-     */
-    emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder getItemListOrBuilder(
-        int index);
+    com.google.protobuf.ByteString getItemList();
 
     /**
      * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
      */
-    java.util.List<emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem> 
+    java.util.List<emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem> 
         getChestExtraItemListList();
     /**
      * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
      */
-    emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem getChestExtraItemList(int index);
+    emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem getChestExtraItemList(int index);
     /**
      * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
      */
@@ -58,15 +40,19 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
     /**
      * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItemOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItemOrBuilder> 
         getChestExtraItemListOrBuilderList();
     /**
      * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
      */
-    emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItemOrBuilder getChestExtraItemListOrBuilder(
+    emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItemOrBuilder getChestExtraItemListOrBuilder(
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 29464
+   * </pre>
+   *
    * Protobuf type {@code GadgetAutoPickDropInfoNotify}
    */
   public static final class GadgetAutoPickDropInfoNotify extends
@@ -79,7 +65,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       super(builder);
     }
     private GadgetAutoPickDropInfoNotify() {
-      itemList_ = java.util.Collections.emptyList();
+      itemList_ = com.google.protobuf.ByteString.EMPTY;
       ChestExtraItemList_ = java.util.Collections.emptyList();
     }
 
@@ -115,21 +101,17 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
               done = true;
               break;
             case 58: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                itemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemOuterClass.Item>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              itemList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.ItemOuterClass.Item.parser(), extensionRegistry));
+
+              itemList_ = input.readBytes();
               break;
             }
             case 114: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                ChestExtraItemList_ = new java.util.ArrayList<emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem>();
-                mutable_bitField0_ |= 0x00000002;
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                ChestExtraItemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem>();
+                mutable_bitField0_ |= 0x00000001;
               }
               ChestExtraItemList_.add(
-                  input.readMessage(emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -148,9 +130,6 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          itemList_ = java.util.Collections.unmodifiableList(itemList_);
-        }
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
           ChestExtraItemList_ = java.util.Collections.unmodifiableList(ChestExtraItemList_);
         }
         this.unknownFields = unknownFields.build();
@@ -171,59 +150,30 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
     }
 
     public static final int ITEM_LIST_FIELD_NUMBER = 7;
-    private java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item> itemList_;
+    private com.google.protobuf.ByteString itemList_;
     /**
-     * <code>repeated .Item item_list = 7;</code>
+     * <code>bytes item_list = 7;</code>
+     * @return The itemList.
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item> getItemListList() {
+    public com.google.protobuf.ByteString getItemList() {
       return itemList_;
-    }
-    /**
-     * <code>repeated .Item item_list = 7;</code>
-     */
-    @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> 
-        getItemListOrBuilderList() {
-      return itemList_;
-    }
-    /**
-     * <code>repeated .Item item_list = 7;</code>
-     */
-    @java.lang.Override
-    public int getItemListCount() {
-      return itemList_.size();
-    }
-    /**
-     * <code>repeated .Item item_list = 7;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.ItemOuterClass.Item getItemList(int index) {
-      return itemList_.get(index);
-    }
-    /**
-     * <code>repeated .Item item_list = 7;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder getItemListOrBuilder(
-        int index) {
-      return itemList_.get(index);
     }
 
     public static final int _CHEST_EXTRA_ITEM_LIST_FIELD_NUMBER = 14;
-    private java.util.List<emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem> ChestExtraItemList_;
+    private java.util.List<emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem> ChestExtraItemList_;
     /**
      * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem> getChestExtraItemListList() {
+    public java.util.List<emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem> getChestExtraItemListList() {
       return ChestExtraItemList_;
     }
     /**
      * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItemOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItemOrBuilder> 
         getChestExtraItemListOrBuilderList() {
       return ChestExtraItemList_;
     }
@@ -238,14 +188,14 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
      * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem getChestExtraItemList(int index) {
+    public emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem getChestExtraItemList(int index) {
       return ChestExtraItemList_.get(index);
     }
     /**
      * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItemOrBuilder getChestExtraItemListOrBuilder(
+    public emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItemOrBuilder getChestExtraItemListOrBuilder(
         int index) {
       return ChestExtraItemList_.get(index);
     }
@@ -264,8 +214,8 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < itemList_.size(); i++) {
-        output.writeMessage(7, itemList_.get(i));
+      if (!itemList_.isEmpty()) {
+        output.writeBytes(7, itemList_);
       }
       for (int i = 0; i < ChestExtraItemList_.size(); i++) {
         output.writeMessage(14, ChestExtraItemList_.get(i));
@@ -279,9 +229,9 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < itemList_.size(); i++) {
+      if (!itemList_.isEmpty()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, itemList_.get(i));
+          .computeBytesSize(7, itemList_);
       }
       for (int i = 0; i < ChestExtraItemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -302,8 +252,8 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       }
       emu.grasscutter.net.proto.GadgetAutoPickDropInfoNotifyOuterClass.GadgetAutoPickDropInfoNotify other = (emu.grasscutter.net.proto.GadgetAutoPickDropInfoNotifyOuterClass.GadgetAutoPickDropInfoNotify) obj;
 
-      if (!getItemListList()
-          .equals(other.getItemListList())) return false;
+      if (!getItemList()
+          .equals(other.getItemList())) return false;
       if (!getChestExtraItemListList()
           .equals(other.getChestExtraItemListList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -317,10 +267,8 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getItemListCount() > 0) {
-        hash = (37 * hash) + ITEM_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getItemListList().hashCode();
-      }
+      hash = (37 * hash) + ITEM_LIST_FIELD_NUMBER;
+      hash = (53 * hash) + getItemList().hashCode();
       if (getChestExtraItemListCount() > 0) {
         hash = (37 * hash) + _CHEST_EXTRA_ITEM_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getChestExtraItemListList().hashCode();
@@ -421,6 +369,10 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 29464
+     * </pre>
+     *
      * Protobuf type {@code GadgetAutoPickDropInfoNotify}
      */
     public static final class Builder extends
@@ -453,22 +405,17 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getItemListFieldBuilder();
           getChestExtraItemListFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (itemListBuilder_ == null) {
-          itemList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
-        } else {
-          itemListBuilder_.clear();
-        }
+        itemList_ = com.google.protobuf.ByteString.EMPTY;
+
         if (ChestExtraItemListBuilder_ == null) {
           ChestExtraItemList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
         } else {
           ChestExtraItemListBuilder_.clear();
         }
@@ -499,19 +446,11 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       public emu.grasscutter.net.proto.GadgetAutoPickDropInfoNotifyOuterClass.GadgetAutoPickDropInfoNotify buildPartial() {
         emu.grasscutter.net.proto.GadgetAutoPickDropInfoNotifyOuterClass.GadgetAutoPickDropInfoNotify result = new emu.grasscutter.net.proto.GadgetAutoPickDropInfoNotifyOuterClass.GadgetAutoPickDropInfoNotify(this);
         int from_bitField0_ = bitField0_;
-        if (itemListBuilder_ == null) {
-          if (((bitField0_ & 0x00000001) != 0)) {
-            itemList_ = java.util.Collections.unmodifiableList(itemList_);
-            bitField0_ = (bitField0_ & ~0x00000001);
-          }
-          result.itemList_ = itemList_;
-        } else {
-          result.itemList_ = itemListBuilder_.build();
-        }
+        result.itemList_ = itemList_;
         if (ChestExtraItemListBuilder_ == null) {
-          if (((bitField0_ & 0x00000002) != 0)) {
+          if (((bitField0_ & 0x00000001) != 0)) {
             ChestExtraItemList_ = java.util.Collections.unmodifiableList(ChestExtraItemList_);
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           }
           result.ChestExtraItemList_ = ChestExtraItemList_;
         } else {
@@ -565,37 +504,14 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.GadgetAutoPickDropInfoNotifyOuterClass.GadgetAutoPickDropInfoNotify other) {
         if (other == emu.grasscutter.net.proto.GadgetAutoPickDropInfoNotifyOuterClass.GadgetAutoPickDropInfoNotify.getDefaultInstance()) return this;
-        if (itemListBuilder_ == null) {
-          if (!other.itemList_.isEmpty()) {
-            if (itemList_.isEmpty()) {
-              itemList_ = other.itemList_;
-              bitField0_ = (bitField0_ & ~0x00000001);
-            } else {
-              ensureItemListIsMutable();
-              itemList_.addAll(other.itemList_);
-            }
-            onChanged();
-          }
-        } else {
-          if (!other.itemList_.isEmpty()) {
-            if (itemListBuilder_.isEmpty()) {
-              itemListBuilder_.dispose();
-              itemListBuilder_ = null;
-              itemList_ = other.itemList_;
-              bitField0_ = (bitField0_ & ~0x00000001);
-              itemListBuilder_ = 
-                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getItemListFieldBuilder() : null;
-            } else {
-              itemListBuilder_.addAllMessages(other.itemList_);
-            }
-          }
+        if (other.getItemList() != com.google.protobuf.ByteString.EMPTY) {
+          setItemList(other.getItemList());
         }
         if (ChestExtraItemListBuilder_ == null) {
           if (!other.ChestExtraItemList_.isEmpty()) {
             if (ChestExtraItemList_.isEmpty()) {
               ChestExtraItemList_ = other.ChestExtraItemList_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
             } else {
               ensureChestExtraItemListIsMutable();
               ChestExtraItemList_.addAll(other.ChestExtraItemList_);
@@ -608,7 +524,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
               ChestExtraItemListBuilder_.dispose();
               ChestExtraItemListBuilder_ = null;
               ChestExtraItemList_ = other.ChestExtraItemList_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
               ChestExtraItemListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getChestExtraItemListFieldBuilder() : null;
@@ -647,262 +563,56 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item> itemList_ =
+      private com.google.protobuf.ByteString itemList_ = com.google.protobuf.ByteString.EMPTY;
+      /**
+       * <code>bytes item_list = 7;</code>
+       * @return The itemList.
+       */
+      @java.lang.Override
+      public com.google.protobuf.ByteString getItemList() {
+        return itemList_;
+      }
+      /**
+       * <code>bytes item_list = 7;</code>
+       * @param value The itemList to set.
+       * @return This builder for chaining.
+       */
+      public Builder setItemList(com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        itemList_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bytes item_list = 7;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearItemList() {
+        
+        itemList_ = getDefaultInstance().getItemList();
+        onChanged();
+        return this;
+      }
+
+      private java.util.List<emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem> ChestExtraItemList_ =
         java.util.Collections.emptyList();
-      private void ensureItemListIsMutable() {
+      private void ensureChestExtraItemListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          itemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemOuterClass.Item>(itemList_);
+          ChestExtraItemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem>(ChestExtraItemList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ItemOuterClass.Item, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder, emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> itemListBuilder_;
-
-      /**
-       * <code>repeated .Item item_list = 7;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item> getItemListList() {
-        if (itemListBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(itemList_);
-        } else {
-          return itemListBuilder_.getMessageList();
-        }
-      }
-      /**
-       * <code>repeated .Item item_list = 7;</code>
-       */
-      public int getItemListCount() {
-        if (itemListBuilder_ == null) {
-          return itemList_.size();
-        } else {
-          return itemListBuilder_.getCount();
-        }
-      }
-      /**
-       * <code>repeated .Item item_list = 7;</code>
-       */
-      public emu.grasscutter.net.proto.ItemOuterClass.Item getItemList(int index) {
-        if (itemListBuilder_ == null) {
-          return itemList_.get(index);
-        } else {
-          return itemListBuilder_.getMessage(index);
-        }
-      }
-      /**
-       * <code>repeated .Item item_list = 7;</code>
-       */
-      public Builder setItemList(
-          int index, emu.grasscutter.net.proto.ItemOuterClass.Item value) {
-        if (itemListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureItemListIsMutable();
-          itemList_.set(index, value);
-          onChanged();
-        } else {
-          itemListBuilder_.setMessage(index, value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .Item item_list = 7;</code>
-       */
-      public Builder setItemList(
-          int index, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder builderForValue) {
-        if (itemListBuilder_ == null) {
-          ensureItemListIsMutable();
-          itemList_.set(index, builderForValue.build());
-          onChanged();
-        } else {
-          itemListBuilder_.setMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .Item item_list = 7;</code>
-       */
-      public Builder addItemList(emu.grasscutter.net.proto.ItemOuterClass.Item value) {
-        if (itemListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureItemListIsMutable();
-          itemList_.add(value);
-          onChanged();
-        } else {
-          itemListBuilder_.addMessage(value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .Item item_list = 7;</code>
-       */
-      public Builder addItemList(
-          int index, emu.grasscutter.net.proto.ItemOuterClass.Item value) {
-        if (itemListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureItemListIsMutable();
-          itemList_.add(index, value);
-          onChanged();
-        } else {
-          itemListBuilder_.addMessage(index, value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .Item item_list = 7;</code>
-       */
-      public Builder addItemList(
-          emu.grasscutter.net.proto.ItemOuterClass.Item.Builder builderForValue) {
-        if (itemListBuilder_ == null) {
-          ensureItemListIsMutable();
-          itemList_.add(builderForValue.build());
-          onChanged();
-        } else {
-          itemListBuilder_.addMessage(builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .Item item_list = 7;</code>
-       */
-      public Builder addItemList(
-          int index, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder builderForValue) {
-        if (itemListBuilder_ == null) {
-          ensureItemListIsMutable();
-          itemList_.add(index, builderForValue.build());
-          onChanged();
-        } else {
-          itemListBuilder_.addMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .Item item_list = 7;</code>
-       */
-      public Builder addAllItemList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.ItemOuterClass.Item> values) {
-        if (itemListBuilder_ == null) {
-          ensureItemListIsMutable();
-          com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, itemList_);
-          onChanged();
-        } else {
-          itemListBuilder_.addAllMessages(values);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .Item item_list = 7;</code>
-       */
-      public Builder clearItemList() {
-        if (itemListBuilder_ == null) {
-          itemList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
-          onChanged();
-        } else {
-          itemListBuilder_.clear();
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .Item item_list = 7;</code>
-       */
-      public Builder removeItemList(int index) {
-        if (itemListBuilder_ == null) {
-          ensureItemListIsMutable();
-          itemList_.remove(index);
-          onChanged();
-        } else {
-          itemListBuilder_.remove(index);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .Item item_list = 7;</code>
-       */
-      public emu.grasscutter.net.proto.ItemOuterClass.Item.Builder getItemListBuilder(
-          int index) {
-        return getItemListFieldBuilder().getBuilder(index);
-      }
-      /**
-       * <code>repeated .Item item_list = 7;</code>
-       */
-      public emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder getItemListOrBuilder(
-          int index) {
-        if (itemListBuilder_ == null) {
-          return itemList_.get(index);  } else {
-          return itemListBuilder_.getMessageOrBuilder(index);
-        }
-      }
-      /**
-       * <code>repeated .Item item_list = 7;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> 
-           getItemListOrBuilderList() {
-        if (itemListBuilder_ != null) {
-          return itemListBuilder_.getMessageOrBuilderList();
-        } else {
-          return java.util.Collections.unmodifiableList(itemList_);
-        }
-      }
-      /**
-       * <code>repeated .Item item_list = 7;</code>
-       */
-      public emu.grasscutter.net.proto.ItemOuterClass.Item.Builder addItemListBuilder() {
-        return getItemListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.ItemOuterClass.Item.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .Item item_list = 7;</code>
-       */
-      public emu.grasscutter.net.proto.ItemOuterClass.Item.Builder addItemListBuilder(
-          int index) {
-        return getItemListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.ItemOuterClass.Item.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .Item item_list = 7;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item.Builder> 
-           getItemListBuilderList() {
-        return getItemListFieldBuilder().getBuilderList();
-      }
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ItemOuterClass.Item, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder, emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> 
-          getItemListFieldBuilder() {
-        if (itemListBuilder_ == null) {
-          itemListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.ItemOuterClass.Item, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder, emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder>(
-                  itemList_,
-                  ((bitField0_ & 0x00000001) != 0),
-                  getParentForChildren(),
-                  isClean());
-          itemList_ = null;
-        }
-        return itemListBuilder_;
-      }
-
-      private java.util.List<emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem> ChestExtraItemList_ =
-        java.util.Collections.emptyList();
-      private void ensureChestExtraItemListIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
-          ChestExtraItemList_ = new java.util.ArrayList<emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem>(ChestExtraItemList_);
-          bitField0_ |= 0x00000002;
-         }
-      }
-
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem, emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem.Builder, emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItemOrBuilder> ChestExtraItemListBuilder_;
+          emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem, emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem.Builder, emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItemOrBuilder> ChestExtraItemListBuilder_;
 
       /**
        * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem> getChestExtraItemListList() {
+      public java.util.List<emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem> getChestExtraItemListList() {
         if (ChestExtraItemListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(ChestExtraItemList_);
         } else {
@@ -922,7 +632,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       /**
        * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
        */
-      public emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem getChestExtraItemList(int index) {
+      public emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem getChestExtraItemList(int index) {
         if (ChestExtraItemListBuilder_ == null) {
           return ChestExtraItemList_.get(index);
         } else {
@@ -933,7 +643,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
        * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
        */
       public Builder setChestExtraItemList(
-          int index, emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem value) {
+          int index, emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem value) {
         if (ChestExtraItemListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -950,7 +660,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
        * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
        */
       public Builder setChestExtraItemList(
-          int index, emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem.Builder builderForValue) {
         if (ChestExtraItemListBuilder_ == null) {
           ensureChestExtraItemListIsMutable();
           ChestExtraItemList_.set(index, builderForValue.build());
@@ -963,7 +673,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       /**
        * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
        */
-      public Builder addChestExtraItemList(emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem value) {
+      public Builder addChestExtraItemList(emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem value) {
         if (ChestExtraItemListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -980,7 +690,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
        * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
        */
       public Builder addChestExtraItemList(
-          int index, emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem value) {
+          int index, emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem value) {
         if (ChestExtraItemListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -997,7 +707,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
        * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
        */
       public Builder addChestExtraItemList(
-          emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem.Builder builderForValue) {
+          emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem.Builder builderForValue) {
         if (ChestExtraItemListBuilder_ == null) {
           ensureChestExtraItemListIsMutable();
           ChestExtraItemList_.add(builderForValue.build());
@@ -1011,7 +721,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
        * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
        */
       public Builder addChestExtraItemList(
-          int index, emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem.Builder builderForValue) {
         if (ChestExtraItemListBuilder_ == null) {
           ensureChestExtraItemListIsMutable();
           ChestExtraItemList_.add(index, builderForValue.build());
@@ -1025,7 +735,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
        * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
        */
       public Builder addAllChestExtraItemList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem> values) {
         if (ChestExtraItemListBuilder_ == null) {
           ensureChestExtraItemListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -1042,7 +752,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       public Builder clearChestExtraItemList() {
         if (ChestExtraItemListBuilder_ == null) {
           ChestExtraItemList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
           ChestExtraItemListBuilder_.clear();
@@ -1065,14 +775,14 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       /**
        * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
        */
-      public emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem.Builder getChestExtraItemListBuilder(
+      public emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem.Builder getChestExtraItemListBuilder(
           int index) {
         return getChestExtraItemListFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
        */
-      public emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItemOrBuilder getChestExtraItemListOrBuilder(
+      public emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItemOrBuilder getChestExtraItemListOrBuilder(
           int index) {
         if (ChestExtraItemListBuilder_ == null) {
           return ChestExtraItemList_.get(index);  } else {
@@ -1082,7 +792,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       /**
        * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItemOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItemOrBuilder> 
            getChestExtraItemListOrBuilderList() {
         if (ChestExtraItemListBuilder_ != null) {
           return ChestExtraItemListBuilder_.getMessageOrBuilderList();
@@ -1093,33 +803,33 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       /**
        * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
        */
-      public emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem.Builder addChestExtraItemListBuilder() {
+      public emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem.Builder addChestExtraItemListBuilder() {
         return getChestExtraItemListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem.getDefaultInstance());
+            emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem.getDefaultInstance());
       }
       /**
        * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
        */
-      public emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem.Builder addChestExtraItemListBuilder(
+      public emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem.Builder addChestExtraItemListBuilder(
           int index) {
         return getChestExtraItemListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem.getDefaultInstance());
+            index, emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem.getDefaultInstance());
       }
       /**
        * <code>repeated ._ChestExtraItem _chest_extra_item_list = 14;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem.Builder> 
            getChestExtraItemListBuilderList() {
         return getChestExtraItemListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem, emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem.Builder, emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItemOrBuilder> 
+          emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem, emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem.Builder, emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItemOrBuilder> 
           getChestExtraItemListFieldBuilder() {
         if (ChestExtraItemListBuilder_ == null) {
           ChestExtraItemListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem, emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem.Builder, emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItemOrBuilder>(
+              emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem, emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItem.Builder, emu.grasscutter.net.proto.ChestExtraItem._ChestExtraItemOrBuilder>(
                   ChestExtraItemList_,
-                  ((bitField0_ & 0x00000002) != 0),
+                  ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
                   isClean());
           ChestExtraItemList_ = null;
@@ -1193,19 +903,16 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\"GadgetAutoPickDropInfoNotify.proto\032\nIt" +
-      "em.proto\032\025_ChestExtraItem.proto\"j\n\034Gadge" +
-      "tAutoPickDropInfoNotify\022\030\n\titem_list\030\007 \003" +
-      "(\0132\005.Item\0220\n\026_chest_extra_item_list\030\016 \003(" +
-      "\0132\020._ChestExtraItemBC\n\031emu.grasscutter.n" +
-      "et.protoB&GadgetAutoPickDropInfoNotifyOu" +
-      "terClassb\006proto3"
+      "\n\"GadgetAutoPickDropInfoNotify.proto\032\025_C" +
+      "hestExtraItem.proto\"c\n\034GadgetAutoPickDro" +
+      "pInfoNotify\022\021\n\titem_list\030\007 \001(\014\0220\n\026_chest" +
+      "_extra_item_list\030\016 \003(\0132\020._ChestExtraItem" +
+      "B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.ItemOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto._ChestExtraItemOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.ChestExtraItem.getDescriptor(),
         });
     internal_static_GadgetAutoPickDropInfoNotify_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1213,8 +920,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GadgetAutoPickDropInfoNotify_descriptor,
         new java.lang.String[] { "ItemList", "ChestExtraItemList", });
-    emu.grasscutter.net.proto.ItemOuterClass.getDescriptor();
-    emu.grasscutter.net.proto._ChestExtraItemOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.ChestExtraItem.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

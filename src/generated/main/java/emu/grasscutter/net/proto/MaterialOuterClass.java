@@ -721,9 +721,8 @@ public final class MaterialOuterClass {
     java.lang.String[] descriptorData = {
       "\n\016Material.proto\032\030MaterialDeleteInfo.pro" +
       "to\"C\n\010Material\022\r\n\005count\030\001 \001(\r\022(\n\013delete_" +
-      "info\030\002 \001(\0132\023.MaterialDeleteInfoB/\n\031emu.g" +
-      "rasscutter.net.protoB\022MaterialOuterClass" +
-      "b\006proto3"
+      "info\030\002 \001(\0132\023.MaterialDeleteInfoB\033\n\031emu.g" +
+      "rasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

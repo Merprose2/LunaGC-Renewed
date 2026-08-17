@@ -73,6 +73,10 @@ public final class GetAuthkeyRspOuterClass {
     int getSignType();
   }
   /**
+   * <pre>
+   * CmdID: 28343
+   * </pre>
+   *
    * Protobuf type {@code GetAuthkeyRsp}
    */
   public static final class GetAuthkeyRsp extends
@@ -540,6 +544,10 @@ public final class GetAuthkeyRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 28343
+     * </pre>
+     *
      * Protobuf type {@code GetAuthkeyRsp}
      */
     public static final class Builder extends
@@ -1109,9 +1117,8 @@ public final class GetAuthkeyRspOuterClass {
       "\n\023GetAuthkeyRsp.proto\"\177\n\rGetAuthkeyRsp\022\017" +
       "\n\007authkey\030\001 \001(\t\022\020\n\010game_biz\030\005 \001(\t\022\022\n\naut" +
       "h_appid\030\007 \001(\t\022\017\n\007retcode\030\n \001(\005\022\023\n\013authke" +
-      "y_ver\030\013 \001(\r\022\021\n\tsign_type\030\016 \001(\rB4\n\031emu.gr" +
-      "asscutter.net.protoB\027GetAuthkeyRspOuterC" +
-      "lassb\006proto3"
+      "y_ver\030\013 \001(\r\022\021\n\tsign_type\030\016 \001(\rB\033\n\031emu.gr" +
+      "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

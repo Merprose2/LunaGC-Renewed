@@ -55,6 +55,10 @@ public final class DoGachaReqOuterClass {
     int getGachaRandom();
   }
   /**
+   * <pre>
+   * CmdID: 21812
+   * </pre>
+   *
    * Protobuf type {@code DoGachaReq}
    */
   public static final class DoGachaReq extends
@@ -439,6 +443,10 @@ public final class DoGachaReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 21812
+     * </pre>
+     *
      * Protobuf type {@code DoGachaReq}
      */
     public static final class Builder extends
@@ -879,8 +887,8 @@ public final class DoGachaReqOuterClass {
       "\n\020DoGachaReq.proto\"y\n\nDoGachaReq\022\023\n\013gach" +
       "a_times\030\002 \001(\r\022\021\n\tgacha_tag\030\003 \001(\t\022\031\n\021gach" +
       "a_schedule_id\030\005 \001(\r\022\022\n\ngacha_type\030\006 \001(\r\022" +
-      "\024\n\014gacha_random\030\r \001(\rB1\n\031emu.grasscutter" +
-      ".net.protoB\024DoGachaReqOuterClassb\006proto3"
+      "\024\n\014gacha_random\030\r \001(\rB\033\n\031emu.grasscutter" +
+      ".net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

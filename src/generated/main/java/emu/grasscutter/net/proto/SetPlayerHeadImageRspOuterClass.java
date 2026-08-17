@@ -40,6 +40,10 @@ public final class SetPlayerHeadImageRspOuterClass {
     emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder getProfilePictureOrBuilder();
   }
   /**
+   * <pre>
+   * CmdID: 24323
+   * </pre>
+   *
    * Protobuf type {@code SetPlayerHeadImageRsp}
    */
   public static final class SetPlayerHeadImageRsp extends
@@ -343,6 +347,10 @@ public final class SetPlayerHeadImageRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 24323
+     * </pre>
+     *
      * Protobuf type {@code SetPlayerHeadImageRsp}
      */
     public static final class Builder extends
@@ -722,9 +730,8 @@ public final class SetPlayerHeadImageRspOuterClass {
       "\n\033SetPlayerHeadImageRsp.proto\032\024ProfilePi" +
       "cture.proto\"R\n\025SetPlayerHeadImageRsp\022\017\n\007" +
       "retcode\030\005 \001(\005\022(\n\017profile_picture\030\016 \001(\0132\017" +
-      ".ProfilePictureB<\n\031emu.grasscutter.net.p" +
-      "rotoB\037SetPlayerHeadImageRspOuterClassb\006p" +
-      "roto3"
+      ".ProfilePictureB\033\n\031emu.grasscutter.net.p" +
+      "rotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

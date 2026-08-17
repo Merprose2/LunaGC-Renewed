@@ -986,9 +986,8 @@ public final class PKLACFGBAFAOuterClass {
       "APFBMBBCBK\030\006 \001(\r\0222\n\013LHCKKICIDIP\030\007 \003(\0132\035." +
       "PKLACFGBAFA.LHCKKICIDIPEntry\022\017\n\007is_open\030" +
       "\010 \001(\010\022\023\n\013PIHNDCEGCNO\030\016 \001(\r\0322\n\020LHCKKICIDI" +
-      "PEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B2" +
-      "\n\031emu.grasscutter.net.protoB\025PKLACFGBAFA" +
-      "OuterClassb\006proto3"
+      "PEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033" +
+      "\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

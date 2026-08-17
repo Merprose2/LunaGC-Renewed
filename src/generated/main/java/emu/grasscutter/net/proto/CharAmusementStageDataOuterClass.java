@@ -659,9 +659,8 @@ public final class CharAmusementStageDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034CharAmusementStageData.proto\"P\n\026CharAm" +
       "usementStageData\022\023\n\013finish_time\030\006 \001(\r\022\020\n" +
-      "\010stage_id\030\t \001(\r\022\017\n\007is_open\030\016 \001(\010B=\n\031emu." +
-      "grasscutter.net.protoB CharAmusementStag" +
-      "eDataOuterClassb\006proto3"
+      "\010stage_id\030\t \001(\r\022\017\n\007is_open\030\016 \001(\010B\033\n\031emu." +
+      "grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

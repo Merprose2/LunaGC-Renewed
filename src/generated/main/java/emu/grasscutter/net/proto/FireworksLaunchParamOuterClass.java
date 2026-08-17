@@ -171,7 +171,7 @@ public final class FireworksLaunchParamOuterClass {
       if (value_ != 0) {
         output.writeInt32(11, value_);
       }
-      if (type_ != emu.grasscutter.net.proto.FireworksLaunchParamTypeOuterClass.FireworksLaunchParamType.FIREWORKS_LAUNCH_PARAM_NONE.getNumber()) {
+      if (type_ != emu.grasscutter.net.proto.FireworksLaunchParamTypeOuterClass.FireworksLaunchParamType.FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_NONE.getNumber()) {
         output.writeEnum(12, type_);
       }
       unknownFields.writeTo(output);
@@ -187,7 +187,7 @@ public final class FireworksLaunchParamOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(11, value_);
       }
-      if (type_ != emu.grasscutter.net.proto.FireworksLaunchParamTypeOuterClass.FireworksLaunchParamType.FIREWORKS_LAUNCH_PARAM_NONE.getNumber()) {
+      if (type_ != emu.grasscutter.net.proto.FireworksLaunchParamTypeOuterClass.FireworksLaunchParamType.FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(12, type_);
       }
@@ -626,9 +626,8 @@ public final class FireworksLaunchParamOuterClass {
       "\n\032FireworksLaunchParam.proto\032\036FireworksL" +
       "aunchParamType.proto\"N\n\024FireworksLaunchP" +
       "aram\022\r\n\005value\030\013 \001(\005\022\'\n\004type\030\014 \001(\0162\031.Fire" +
-      "worksLaunchParamTypeB;\n\031emu.grasscutter." +
-      "net.protoB\036FireworksLaunchParamOuterClas" +
-      "sb\006proto3"
+      "worksLaunchParamTypeB\033\n\031emu.grasscutter." +
+      "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

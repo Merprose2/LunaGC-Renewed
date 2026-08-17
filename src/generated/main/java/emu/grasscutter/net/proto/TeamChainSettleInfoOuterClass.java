@@ -927,9 +927,8 @@ public final class TeamChainSettleInfoOuterClass {
       "\n\031TeamChainSettleInfo.proto\"{\n\023TeamChain" +
       "SettleInfo\022\023\n\013total_score\030\004 \001(\r\022\022\n\ndiffi" +
       "culty\030\005 \001(\r\022\022\n\nscore_list\030\n \003(\r\022\020\n\010stage" +
-      "_id\030\013 \001(\r\022\025\n\ris_new_record\030\014 \001(\010B:\n\031emu." +
-      "grasscutter.net.protoB\035TeamChainSettleIn" +
-      "foOuterClassb\006proto3"
+      "_id\030\013 \001(\r\022\025\n\ris_new_record\030\014 \001(\010B\033\n\031emu." +
+      "grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1386,8 +1386,8 @@ public final class FEDNPBICDHBOuterClass {
       "\022\017\n\007is_open\030\005 \001(\010\022\021\n\tmax_score\030\007 \001(\r\022\020\n\010" +
       "level_id\030\n \001(\r\022\020\n\010use_time\030\013 \001(\r\022\027\n\017mons" +
       "ter_id_list\030\014 \003(\r\022\036\n\026_elite_monster_id_l" +
-      "ist\030\r \003(\rB2\n\031emu.grasscutter.net.protoB\025" +
-      "FEDNPBICDHBOuterClassb\006proto3"
+      "ist\030\r \003(\rB\033\n\031emu.grasscutter.net.protob\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

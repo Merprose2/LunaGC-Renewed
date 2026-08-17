@@ -965,9 +965,8 @@ public final class SpiceActivityDetailInfoOuterClass {
       "ageData.proto\"s\n\027SpiceActivityDetailInfo" +
       "\022.\n\025spice_stage_data_list\030\002 \003(\0132\017.SpiceS" +
       "tageData\022\023\n\013OIIKKGLKPAE\030\005 \001(\r\022\023\n\013IGHPCKK" +
-      "BJHK\030\017 \001(\rB>\n\031emu.grasscutter.net.protoB" +
-      "!SpiceActivityDetailInfoOuterClassb\006prot" +
-      "o3"
+      "BJHK\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1228,8 +1228,8 @@ public final class SalvageChallengeInfoOuterClass {
       "\000\022:\n\024score_challenge_info\030\017 \001(\0132\032.Salvag" +
       "eScoreChallengeInfoH\000\022\021\n\tis_unlock\030\003 \001(\010" +
       "\022\026\n\016challenge_type\030\n \001(\rB\022\n\020challenge_de" +
-      "tailB;\n\031emu.grasscutter.net.protoB\036Salva" +
-      "geChallengeInfoOuterClassb\006proto3"
+      "tailB\033\n\031emu.grasscutter.net.protob\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

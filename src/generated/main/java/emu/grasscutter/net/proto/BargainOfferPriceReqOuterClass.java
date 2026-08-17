@@ -31,6 +31,10 @@ public final class BargainOfferPriceReqOuterClass {
     int getBargainId();
   }
   /**
+   * <pre>
+   * CmdID: 4177
+   * </pre>
+   *
    * Protobuf type {@code BargainOfferPriceReq}
    */
   public static final class BargainOfferPriceReq extends
@@ -306,6 +310,10 @@ public final class BargainOfferPriceReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 4177
+     * </pre>
+     *
      * Protobuf type {@code BargainOfferPriceReq}
      */
     public static final class Builder extends
@@ -588,8 +596,8 @@ public final class BargainOfferPriceReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032BargainOfferPriceReq.proto\"9\n\024BargainO" +
       "fferPriceReq\022\r\n\005price\030\n \001(\r\022\022\n\nbargain_i" +
-      "d\030\017 \001(\rB;\n\031emu.grasscutter.net.protoB\036Ba" +
-      "rgainOfferPriceReqOuterClassb\006proto3"
+      "d\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

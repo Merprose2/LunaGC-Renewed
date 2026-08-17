@@ -858,9 +858,8 @@ public final class ALFKEHMLFLOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ALFKEHMLFLO.proto\"a\n\013ALFKEHMLFLO\022\023\n\013II" +
       "EMAKGENJD\030\001 \003(\r\022\023\n\013AAAIGMMGPMO\030\004 \001(\010\022\023\n\013" +
-      "OBKHAHOPLJC\030\005 \001(\010\022\023\n\013HEILAHPGAEG\030\006 \001(\010B2" +
-      "\n\031emu.grasscutter.net.protoB\025ALFKEHMLFLO" +
-      "OuterClassb\006proto3"
+      "OBKHAHOPLJC\030\005 \001(\010\022\023\n\013HEILAHPGAEG\030\006 \001(\010B\033" +
+      "\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

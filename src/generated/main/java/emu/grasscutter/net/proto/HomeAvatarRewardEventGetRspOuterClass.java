@@ -55,6 +55,10 @@ public final class HomeAvatarRewardEventGetRspOuterClass {
     int getRetcode();
   }
   /**
+   * <pre>
+   * CmdID: 4974
+   * </pre>
+   *
    * Protobuf type {@code HomeAvatarRewardEventGetRsp}
    */
   public static final class HomeAvatarRewardEventGetRsp extends
@@ -397,6 +401,10 @@ public final class HomeAvatarRewardEventGetRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 4974
+     * </pre>
+     *
      * Protobuf type {@code HomeAvatarRewardEventGetRsp}
      */
     public static final class Builder extends
@@ -964,9 +972,8 @@ public final class HomeAvatarRewardEventGetRspOuterClass {
       "\n!HomeAvatarRewardEventGetRsp.proto\032\017Ite" +
       "mParam.proto\"_\n\033HomeAvatarRewardEventGet" +
       "Rsp\022\020\n\010event_id\030\003 \001(\r\022\035\n\titem_list\030\007 \003(\013" +
-      "2\n.ItemParam\022\017\n\007retcode\030\017 \001(\005BB\n\031emu.gra" +
-      "sscutter.net.protoB%HomeAvatarRewardEven" +
-      "tGetRspOuterClassb\006proto3"
+      "2\n.ItemParam\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

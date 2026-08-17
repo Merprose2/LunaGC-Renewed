@@ -731,9 +731,8 @@ public final class SummerTimeV2DungeonStageInfoOuterClass {
       "\n\"SummerTimeV2DungeonStageInfo.proto\"u\n\034" +
       "SummerTimeV2DungeonStageInfo\022\021\n\topen_tim" +
       "e\030\006 \001(\r\022\020\n\010stage_id\030\010 \001(\r\022\017\n\007is_open\030\013 \001" +
-      "(\010\022\037\n\027is_prev_dungeon_succeed\030\017 \001(\010BC\n\031e" +
-      "mu.grasscutter.net.protoB&SummerTimeV2Du" +
-      "ngeonStageInfoOuterClassb\006proto3"
+      "(\010\022\037\n\027is_prev_dungeon_succeed\030\017 \001(\010B\033\n\031e" +
+      "mu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

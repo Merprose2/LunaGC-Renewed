@@ -25,6 +25,10 @@ public final class AvatarGainCostumeNotifyOuterClass {
     int getCostumeId();
   }
   /**
+   * <pre>
+   * CmdID: 21683
+   * </pre>
+   *
    * Protobuf type {@code AvatarGainCostumeNotify}
    */
   public static final class AvatarGainCostumeNotify extends
@@ -273,6 +277,10 @@ public final class AvatarGainCostumeNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 21683
+     * </pre>
+     *
      * Protobuf type {@code AvatarGainCostumeNotify}
      */
     public static final class Builder extends
@@ -517,9 +525,8 @@ public final class AvatarGainCostumeNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035AvatarGainCostumeNotify.proto\"-\n\027Avata" +
-      "rGainCostumeNotify\022\022\n\ncostume_id\030\006 \001(\rB>" +
-      "\n\031emu.grasscutter.net.protoB!AvatarGainC" +
-      "ostumeNotifyOuterClassb\006proto3"
+      "rGainCostumeNotify\022\022\n\ncostume_id\030\006 \001(\rB\033" +
+      "\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

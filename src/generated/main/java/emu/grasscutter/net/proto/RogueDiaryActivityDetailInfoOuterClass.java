@@ -1172,9 +1172,8 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       "fo\022\031\n\021is_content_closed\030\006 \001(\010\022\030\n\020is_have" +
       "_progress\030\010 \001(\010\022(\n\nstage_list\030\n \003(\0132\024.Ro" +
       "gueDiaryStageInfo\022)\n\014cur_progress\030\r \001(\0132" +
-      "\023.RogueDiaryProgressBC\n\031emu.grasscutter." +
-      "net.protoB&RogueDiaryActivityDetailInfoO" +
-      "uterClassb\006proto3"
+      "\023.RogueDiaryProgressB\033\n\031emu.grasscutter." +
+      "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

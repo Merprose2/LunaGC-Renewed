@@ -37,6 +37,10 @@ public final class ChallengeDataNotifyOuterClass {
     int getParamIndex();
   }
   /**
+   * <pre>
+   * CmdID: 9143
+   * </pre>
+   *
    * Protobuf type {@code ChallengeDataNotify}
    */
   public static final class ChallengeDataNotify extends
@@ -339,6 +343,10 @@ public final class ChallengeDataNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 9143
+     * </pre>
+     *
      * Protobuf type {@code ChallengeDataNotify}
      */
     public static final class Builder extends
@@ -658,9 +666,8 @@ public final class ChallengeDataNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031ChallengeDataNotify.proto\"R\n\023Challenge" +
       "DataNotify\022\r\n\005value\030\t \001(\r\022\027\n\017challenge_i" +
-      "ndex\030\013 \001(\r\022\023\n\013param_index\030\017 \001(\rB:\n\031emu.g" +
-      "rasscutter.net.protoB\035ChallengeDataNotif" +
-      "yOuterClassb\006proto3"
+      "ndex\030\013 \001(\r\022\023\n\013param_index\030\017 \001(\rB\033\n\031emu.g" +
+      "rasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

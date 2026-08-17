@@ -865,8 +865,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
       "orParameterInfo\022\027\n\017is_server_cache\030\004 \001(\010" +
       "\022\017\n\007name_id\030\005 \001(\005\022*\n\005value\030\r \001(\0132\033.Anima" +
       "torParameterValueInfo\022\021\n\tentity_id\030\017 \001(\r" +
-      "B?\n\031emu.grasscutter.net.protoB\"EvtAnimat" +
-      "orParameterInfoOuterClassb\006proto3"
+      "B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

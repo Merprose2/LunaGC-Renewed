@@ -64,6 +64,10 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
     emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder getRewardEventOrBuilder();
   }
   /**
+   * <pre>
+   * CmdID: 24502
+   * </pre>
+   *
    * Protobuf type {@code HomeAvatarRewardEventNotify}
    */
   public static final class HomeAvatarRewardEventNotify extends
@@ -435,6 +439,10 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 24502
+     * </pre>
+     *
      * Protobuf type {@code HomeAvatarRewardEventNotify}
      */
     public static final class Builder extends
@@ -1100,9 +1108,8 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
       "tarRewardEventNotify\022\030\n\020is_event_trigger" +
       "\030\004 \001(\010\0220\n\014pending_list\030\t \003(\0132\032.HomeAvata" +
       "rRewardEventInfo\0220\n\014reward_event\030\r \001(\0132\032" +
-      ".HomeAvatarRewardEventInfoBB\n\031emu.grassc" +
-      "utter.net.protoB%HomeAvatarRewardEventNo" +
-      "tifyOuterClassb\006proto3"
+      ".HomeAvatarRewardEventInfoB\033\n\031emu.grassc" +
+      "utter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

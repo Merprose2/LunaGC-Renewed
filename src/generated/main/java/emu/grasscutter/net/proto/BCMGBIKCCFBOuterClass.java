@@ -517,8 +517,8 @@ public final class BCMGBIKCCFBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BCMGBIKCCFB.proto\" \n\013BCMGBIKCCFB\022\021\n\tco" +
-      "nfig_id\030\r \001(\rB2\n\031emu.grasscutter.net.pro" +
-      "toB\025BCMGBIKCCFBOuterClassb\006proto3"
+      "nfig_id\030\r \001(\rB\033\n\031emu.grasscutter.net.pro" +
+      "tob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

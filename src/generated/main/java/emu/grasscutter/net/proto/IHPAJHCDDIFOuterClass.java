@@ -855,9 +855,8 @@ public final class IHPAJHCDDIFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IHPAJHCDDIF.proto\"_\n\013IHPAJHCDDIF\022\023\n\013IJ" +
       "FIIPKODAF\030\001 \001(\005\022\023\n\013GBFLALGBMFD\030\002 \001(\005\022\023\n\013" +
-      "KPLIBHECJBL\030\003 \001(\r\022\021\n\tdata_list\030\004 \003(\rB2\n\031" +
-      "emu.grasscutter.net.protoB\025IHPAJHCDDIFOu" +
-      "terClassb\006proto3"
+      "KPLIBHECJBL\030\003 \001(\r\022\021\n\tdata_list\030\004 \003(\rB\033\n\031" +
+      "emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

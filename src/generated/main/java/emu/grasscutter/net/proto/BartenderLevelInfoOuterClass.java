@@ -659,9 +659,8 @@ public final class BartenderLevelInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030BartenderLevelInfo.proto\"F\n\022BartenderL" +
       "evelInfo\022\021\n\tmax_score\030\002 \001(\r\022\n\n\002id\030\t \001(\r\022" +
-      "\021\n\tis_finish\030\n \001(\010B9\n\031emu.grasscutter.ne" +
-      "t.protoB\034BartenderLevelInfoOuterClassb\006p" +
-      "roto3"
+      "\021\n\tis_finish\030\n \001(\010B\033\n\031emu.grasscutter.ne" +
+      "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

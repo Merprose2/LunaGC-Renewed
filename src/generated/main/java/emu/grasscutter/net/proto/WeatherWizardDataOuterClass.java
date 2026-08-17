@@ -517,9 +517,8 @@ public final class WeatherWizardDataOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027WeatherWizardData.proto\")\n\021WeatherWiza" +
-      "rdData\022\024\n\014shield_value\030\004 \001(\rB8\n\031emu.gras" +
-      "scutter.net.protoB\033WeatherWizardDataOute" +
-      "rClassb\006proto3"
+      "rdData\022\024\n\014shield_value\030\004 \001(\rB\033\n\031emu.gras" +
+      "scutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

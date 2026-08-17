@@ -142,9 +142,8 @@ public final class KLALGJNDAFDOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KLALGJNDAFD.proto*W\n\013KLALGJNDAFD\022\024\n\020KL" +
       "ALGJNDAFD_NONE\020\000\022\031\n\025KLALGJNDAFD_RENAME_M" +
-      "Y\020\001\022\027\n\023KLALGJNDAFD_COPY_MY\020\002B2\n\031emu.gras" +
-      "scutter.net.protoB\025KLALGJNDAFDOuterClass" +
-      "b\006proto3"
+      "Y\020\001\022\027\n\023KLALGJNDAFD_COPY_MY\020\002B\033\n\031emu.gras" +
+      "scutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

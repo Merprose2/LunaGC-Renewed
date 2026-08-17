@@ -142,9 +142,8 @@ public final class EGHMHMPPMLLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EGHMHMPPMLL.proto*_\n\013EGHMHMPPMLL\022\024\n\020EG" +
       "HMHMPPMLL_NONE\020\000\022\034\n\030EGHMHMPPMLL_BUNDLE_G" +
-      "OODS\020\001\022\034\n\030EGHMHMPPMLL_COSTUME_SUIT\020\002B2\n\031" +
-      "emu.grasscutter.net.protoB\025EGHMHMPPMLLOu" +
-      "terClassb\006proto3"
+      "OODS\020\001\022\034\n\030EGHMHMPPMLL_COSTUME_SUIT\020\002B\033\n\031" +
+      "emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

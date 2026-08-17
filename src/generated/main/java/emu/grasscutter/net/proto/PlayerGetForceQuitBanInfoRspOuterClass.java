@@ -37,6 +37,10 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
     int getRetcode();
   }
   /**
+   * <pre>
+   * CmdID: 22181
+   * </pre>
+   *
    * Protobuf type {@code PlayerGetForceQuitBanInfoRsp}
    */
   public static final class PlayerGetForceQuitBanInfoRsp extends
@@ -339,6 +343,10 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 22181
+     * </pre>
+     *
      * Protobuf type {@code PlayerGetForceQuitBanInfoRsp}
      */
     public static final class Builder extends
@@ -659,8 +667,7 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
       "\n\"PlayerGetForceQuitBanInfoRsp.proto\"V\n\034" +
       "PlayerGetForceQuitBanInfoRsp\022\023\n\013expire_t" +
       "ime\030\003 \001(\r\022\020\n\010match_id\030\010 \001(\r\022\017\n\007retcode\030\n" +
-      " \001(\005BC\n\031emu.grasscutter.net.protoB&Playe" +
-      "rGetForceQuitBanInfoRspOuterClassb\006proto" +
+      " \001(\005B\033\n\031emu.grasscutter.net.protob\006proto" +
       "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

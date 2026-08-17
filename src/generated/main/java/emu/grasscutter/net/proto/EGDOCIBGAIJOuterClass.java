@@ -855,9 +855,8 @@ public final class EGDOCIBGAIJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021EGDOCIBGAIJ.proto\"\\\n\013EGDOCIBGAIJ\022\021\n\tma" +
       "x_score\030\004 \001(\r\022\020\n\010level_id\030\006 \001(\r\022\023\n\013CEAOG" +
-      "BDNNBG\030\007 \001(\r\022\023\n\013JAJDEPFBKHI\030\014 \003(\004B2\n\031emu" +
-      ".grasscutter.net.protoB\025EGDOCIBGAIJOuter" +
-      "Classb\006proto3"
+      "BDNNBG\030\007 \001(\r\022\023\n\013JAJDEPFBKHI\030\014 \003(\004B\033\n\031emu" +
+      ".grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

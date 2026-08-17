@@ -1018,8 +1018,8 @@ public final class SumoTeamDataOuterClass {
       "\n\022SumoTeamData.proto\032\024SumoAvatarInfo.pro" +
       "to\"P\n\014SumoTeamData\022)\n\020avatar_info_list\030\001" +
       " \003(\0132\017.SumoAvatarInfo\022\025\n\rskill_id_list\030\t" +
-      " \003(\rB3\n\031emu.grasscutter.net.protoB\026SumoT" +
-      "eamDataOuterClassb\006proto3"
+      " \003(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

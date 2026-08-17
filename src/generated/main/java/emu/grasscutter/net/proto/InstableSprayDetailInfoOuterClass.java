@@ -824,9 +824,8 @@ public final class InstableSprayDetailInfoOuterClass {
       "\n\035InstableSprayDetailInfo.proto\032\034Instabl" +
       "eSprayStageInfo.proto\"K\n\027InstableSprayDe" +
       "tailInfo\0220\n\017stage_info_list\030\017 \003(\0132\027.Inst" +
-      "ableSprayStageInfoB>\n\031emu.grasscutter.ne" +
-      "t.protoB!InstableSprayDetailInfoOuterCla" +
-      "ssb\006proto3"
+      "ableSprayStageInfoB\033\n\031emu.grasscutter.ne" +
+      "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

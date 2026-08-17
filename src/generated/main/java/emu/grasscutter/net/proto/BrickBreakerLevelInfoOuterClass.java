@@ -77,21 +77,21 @@ public final class BrickBreakerLevelInfoOuterClass {
     boolean getIsCanStart();
 
     /**
-     * <code>repeated uint32 chosen_avatar_list = 14;</code>
-     * @return A list containing the chosenAvatarList.
+     * <code>repeated uint32 OEMBMLHPNOC = 14;</code>
+     * @return A list containing the oEMBMLHPNOC.
      */
-    java.util.List<java.lang.Integer> getChosenAvatarListList();
+    java.util.List<java.lang.Integer> getOEMBMLHPNOCList();
     /**
-     * <code>repeated uint32 chosen_avatar_list = 14;</code>
-     * @return The count of chosenAvatarList.
+     * <code>repeated uint32 OEMBMLHPNOC = 14;</code>
+     * @return The count of oEMBMLHPNOC.
      */
-    int getChosenAvatarListCount();
+    int getOEMBMLHPNOCCount();
     /**
-     * <code>repeated uint32 chosen_avatar_list = 14;</code>
+     * <code>repeated uint32 OEMBMLHPNOC = 14;</code>
      * @param index The index of the element to return.
-     * @return The chosenAvatarList at the given index.
+     * @return The oEMBMLHPNOC at the given index.
      */
-    int getChosenAvatarList(int index);
+    int getOEMBMLHPNOC(int index);
   }
   /**
    * Protobuf type {@code BrickBreakerLevelInfo}
@@ -108,7 +108,7 @@ public final class BrickBreakerLevelInfoOuterClass {
     private BrickBreakerLevelInfo() {
       cFMEKCCEEPD_ = emptyIntList();
       dDKLHHHMMFJ_ = emptyIntList();
-      chosenAvatarList_ = emptyIntList();
+      oEMBMLHPNOC_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -206,21 +206,21 @@ public final class BrickBreakerLevelInfoOuterClass {
             }
             case 112: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                chosenAvatarList_ = newIntList();
+                oEMBMLHPNOC_ = newIntList();
                 mutable_bitField0_ |= 0x00000004;
               }
-              chosenAvatarList_.addInt(input.readUInt32());
+              oEMBMLHPNOC_.addInt(input.readUInt32());
               break;
             }
             case 114: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
-                chosenAvatarList_ = newIntList();
+                oEMBMLHPNOC_ = newIntList();
                 mutable_bitField0_ |= 0x00000004;
               }
               while (input.getBytesUntilLimit() > 0) {
-                chosenAvatarList_.addInt(input.readUInt32());
+                oEMBMLHPNOC_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
@@ -247,7 +247,7 @@ public final class BrickBreakerLevelInfoOuterClass {
           dDKLHHHMMFJ_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000004) != 0)) {
-          chosenAvatarList_.makeImmutable(); // C
+          oEMBMLHPNOC_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -366,33 +366,33 @@ public final class BrickBreakerLevelInfoOuterClass {
       return isCanStart_;
     }
 
-    public static final int CHOSEN_AVATAR_LIST_FIELD_NUMBER = 14;
-    private com.google.protobuf.Internal.IntList chosenAvatarList_;
+    public static final int OEMBMLHPNOC_FIELD_NUMBER = 14;
+    private com.google.protobuf.Internal.IntList oEMBMLHPNOC_;
     /**
-     * <code>repeated uint32 chosen_avatar_list = 14;</code>
-     * @return A list containing the chosenAvatarList.
+     * <code>repeated uint32 OEMBMLHPNOC = 14;</code>
+     * @return A list containing the oEMBMLHPNOC.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getChosenAvatarListList() {
-      return chosenAvatarList_;
+        getOEMBMLHPNOCList() {
+      return oEMBMLHPNOC_;
     }
     /**
-     * <code>repeated uint32 chosen_avatar_list = 14;</code>
-     * @return The count of chosenAvatarList.
+     * <code>repeated uint32 OEMBMLHPNOC = 14;</code>
+     * @return The count of oEMBMLHPNOC.
      */
-    public int getChosenAvatarListCount() {
-      return chosenAvatarList_.size();
+    public int getOEMBMLHPNOCCount() {
+      return oEMBMLHPNOC_.size();
     }
     /**
-     * <code>repeated uint32 chosen_avatar_list = 14;</code>
+     * <code>repeated uint32 OEMBMLHPNOC = 14;</code>
      * @param index The index of the element to return.
-     * @return The chosenAvatarList at the given index.
+     * @return The oEMBMLHPNOC at the given index.
      */
-    public int getChosenAvatarList(int index) {
-      return chosenAvatarList_.getInt(index);
+    public int getOEMBMLHPNOC(int index) {
+      return oEMBMLHPNOC_.getInt(index);
     }
-    private int chosenAvatarListMemoizedSerializedSize = -1;
+    private int oEMBMLHPNOCMemoizedSerializedSize = -1;
 
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
@@ -435,12 +435,12 @@ public final class BrickBreakerLevelInfoOuterClass {
       if (isCanStart_ != false) {
         output.writeBool(12, isCanStart_);
       }
-      if (getChosenAvatarListList().size() > 0) {
+      if (getOEMBMLHPNOCList().size() > 0) {
         output.writeUInt32NoTag(114);
-        output.writeUInt32NoTag(chosenAvatarListMemoizedSerializedSize);
+        output.writeUInt32NoTag(oEMBMLHPNOCMemoizedSerializedSize);
       }
-      for (int i = 0; i < chosenAvatarList_.size(); i++) {
-        output.writeUInt32NoTag(chosenAvatarList_.getInt(i));
+      for (int i = 0; i < oEMBMLHPNOC_.size(); i++) {
+        output.writeUInt32NoTag(oEMBMLHPNOC_.getInt(i));
       }
       unknownFields.writeTo(output);
     }
@@ -497,17 +497,17 @@ public final class BrickBreakerLevelInfoOuterClass {
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < chosenAvatarList_.size(); i++) {
+        for (int i = 0; i < oEMBMLHPNOC_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(chosenAvatarList_.getInt(i));
+            .computeUInt32SizeNoTag(oEMBMLHPNOC_.getInt(i));
         }
         size += dataSize;
-        if (!getChosenAvatarListList().isEmpty()) {
+        if (!getOEMBMLHPNOCList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        chosenAvatarListMemoizedSerializedSize = dataSize;
+        oEMBMLHPNOCMemoizedSerializedSize = dataSize;
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -536,8 +536,8 @@ public final class BrickBreakerLevelInfoOuterClass {
           != other.getMaxScore()) return false;
       if (getIsCanStart()
           != other.getIsCanStart()) return false;
-      if (!getChosenAvatarListList()
-          .equals(other.getChosenAvatarListList())) return false;
+      if (!getOEMBMLHPNOCList()
+          .equals(other.getOEMBMLHPNOCList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -567,9 +567,9 @@ public final class BrickBreakerLevelInfoOuterClass {
       hash = (37 * hash) + IS_CAN_START_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsCanStart());
-      if (getChosenAvatarListCount() > 0) {
-        hash = (37 * hash) + CHOSEN_AVATAR_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getChosenAvatarListList().hashCode();
+      if (getOEMBMLHPNOCCount() > 0) {
+        hash = (37 * hash) + OEMBMLHPNOC_FIELD_NUMBER;
+        hash = (53 * hash) + getOEMBMLHPNOCList().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -716,7 +716,7 @@ public final class BrickBreakerLevelInfoOuterClass {
 
         isCanStart_ = false;
 
-        chosenAvatarList_ = emptyIntList();
+        oEMBMLHPNOC_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000004);
         return this;
       }
@@ -760,10 +760,10 @@ public final class BrickBreakerLevelInfoOuterClass {
         result.maxScore_ = maxScore_;
         result.isCanStart_ = isCanStart_;
         if (((bitField0_ & 0x00000004) != 0)) {
-          chosenAvatarList_.makeImmutable();
+          oEMBMLHPNOC_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000004);
         }
-        result.chosenAvatarList_ = chosenAvatarList_;
+        result.oEMBMLHPNOC_ = oEMBMLHPNOC_;
         onBuilt();
         return result;
       }
@@ -844,13 +844,13 @@ public final class BrickBreakerLevelInfoOuterClass {
         if (other.getIsCanStart() != false) {
           setIsCanStart(other.getIsCanStart());
         }
-        if (!other.chosenAvatarList_.isEmpty()) {
-          if (chosenAvatarList_.isEmpty()) {
-            chosenAvatarList_ = other.chosenAvatarList_;
+        if (!other.oEMBMLHPNOC_.isEmpty()) {
+          if (oEMBMLHPNOC_.isEmpty()) {
+            oEMBMLHPNOC_ = other.oEMBMLHPNOC_;
             bitField0_ = (bitField0_ & ~0x00000004);
           } else {
-            ensureChosenAvatarListIsMutable();
-            chosenAvatarList_.addAll(other.chosenAvatarList_);
+            ensureOEMBMLHPNOCIsMutable();
+            oEMBMLHPNOC_.addAll(other.oEMBMLHPNOC_);
           }
           onChanged();
         }
@@ -1166,80 +1166,80 @@ public final class BrickBreakerLevelInfoOuterClass {
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList chosenAvatarList_ = emptyIntList();
-      private void ensureChosenAvatarListIsMutable() {
+      private com.google.protobuf.Internal.IntList oEMBMLHPNOC_ = emptyIntList();
+      private void ensureOEMBMLHPNOCIsMutable() {
         if (!((bitField0_ & 0x00000004) != 0)) {
-          chosenAvatarList_ = mutableCopy(chosenAvatarList_);
+          oEMBMLHPNOC_ = mutableCopy(oEMBMLHPNOC_);
           bitField0_ |= 0x00000004;
          }
       }
       /**
-       * <code>repeated uint32 chosen_avatar_list = 14;</code>
-       * @return A list containing the chosenAvatarList.
+       * <code>repeated uint32 OEMBMLHPNOC = 14;</code>
+       * @return A list containing the oEMBMLHPNOC.
        */
       public java.util.List<java.lang.Integer>
-          getChosenAvatarListList() {
+          getOEMBMLHPNOCList() {
         return ((bitField0_ & 0x00000004) != 0) ?
-                 java.util.Collections.unmodifiableList(chosenAvatarList_) : chosenAvatarList_;
+                 java.util.Collections.unmodifiableList(oEMBMLHPNOC_) : oEMBMLHPNOC_;
       }
       /**
-       * <code>repeated uint32 chosen_avatar_list = 14;</code>
-       * @return The count of chosenAvatarList.
+       * <code>repeated uint32 OEMBMLHPNOC = 14;</code>
+       * @return The count of oEMBMLHPNOC.
        */
-      public int getChosenAvatarListCount() {
-        return chosenAvatarList_.size();
+      public int getOEMBMLHPNOCCount() {
+        return oEMBMLHPNOC_.size();
       }
       /**
-       * <code>repeated uint32 chosen_avatar_list = 14;</code>
+       * <code>repeated uint32 OEMBMLHPNOC = 14;</code>
        * @param index The index of the element to return.
-       * @return The chosenAvatarList at the given index.
+       * @return The oEMBMLHPNOC at the given index.
        */
-      public int getChosenAvatarList(int index) {
-        return chosenAvatarList_.getInt(index);
+      public int getOEMBMLHPNOC(int index) {
+        return oEMBMLHPNOC_.getInt(index);
       }
       /**
-       * <code>repeated uint32 chosen_avatar_list = 14;</code>
+       * <code>repeated uint32 OEMBMLHPNOC = 14;</code>
        * @param index The index to set the value at.
-       * @param value The chosenAvatarList to set.
+       * @param value The oEMBMLHPNOC to set.
        * @return This builder for chaining.
        */
-      public Builder setChosenAvatarList(
+      public Builder setOEMBMLHPNOC(
           int index, int value) {
-        ensureChosenAvatarListIsMutable();
-        chosenAvatarList_.setInt(index, value);
+        ensureOEMBMLHPNOCIsMutable();
+        oEMBMLHPNOC_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 chosen_avatar_list = 14;</code>
-       * @param value The chosenAvatarList to add.
+       * <code>repeated uint32 OEMBMLHPNOC = 14;</code>
+       * @param value The oEMBMLHPNOC to add.
        * @return This builder for chaining.
        */
-      public Builder addChosenAvatarList(int value) {
-        ensureChosenAvatarListIsMutable();
-        chosenAvatarList_.addInt(value);
+      public Builder addOEMBMLHPNOC(int value) {
+        ensureOEMBMLHPNOCIsMutable();
+        oEMBMLHPNOC_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 chosen_avatar_list = 14;</code>
-       * @param values The chosenAvatarList to add.
+       * <code>repeated uint32 OEMBMLHPNOC = 14;</code>
+       * @param values The oEMBMLHPNOC to add.
        * @return This builder for chaining.
        */
-      public Builder addAllChosenAvatarList(
+      public Builder addAllOEMBMLHPNOC(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureChosenAvatarListIsMutable();
+        ensureOEMBMLHPNOCIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, chosenAvatarList_);
+            values, oEMBMLHPNOC_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 chosen_avatar_list = 14;</code>
+       * <code>repeated uint32 OEMBMLHPNOC = 14;</code>
        * @return This builder for chaining.
        */
-      public Builder clearChosenAvatarList() {
-        chosenAvatarList_ = emptyIntList();
+      public Builder clearOEMBMLHPNOC() {
+        oEMBMLHPNOC_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000004);
         onChanged();
         return this;
@@ -1311,13 +1311,12 @@ public final class BrickBreakerLevelInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033BrickBreakerLevelInfo.proto\"\253\001\n\025BrickB" +
+      "\n\033BrickBreakerLevelInfo.proto\"\244\001\n\025BrickB" +
       "reakerLevelInfo\022\023\n\013CFMEKCCEEPD\030\003 \003(\r\022\020\n\010" +
       "level_id\030\005 \001(\r\022\023\n\013DDKLHHHMMFJ\030\006 \003(\r\022\021\n\ti" +
       "s_finish\030\007 \001(\010\022\021\n\tmax_score\030\n \001(\r\022\024\n\014is_" +
-      "can_start\030\014 \001(\010\022\032\n\022chosen_avatar_list\030\016 " +
-      "\003(\rB<\n\031emu.grasscutter.net.protoB\037BrickB" +
-      "reakerLevelInfoOuterClassb\006proto3"
+      "can_start\030\014 \001(\010\022\023\n\013OEMBMLHPNOC\030\016 \003(\rB\033\n\031" +
+      "emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1328,7 +1327,7 @@ public final class BrickBreakerLevelInfoOuterClass {
     internal_static_BrickBreakerLevelInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BrickBreakerLevelInfo_descriptor,
-        new java.lang.String[] { "CFMEKCCEEPD", "LevelId", "DDKLHHHMMFJ", "IsFinish", "MaxScore", "IsCanStart", "ChosenAvatarList", });
+        new java.lang.String[] { "CFMEKCCEEPD", "LevelId", "DDKLHHHMMFJ", "IsFinish", "MaxScore", "IsCanStart", "OEMBMLHPNOC", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

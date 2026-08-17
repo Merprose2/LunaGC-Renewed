@@ -93,6 +93,10 @@ public final class ScenePointUnlockNotifyOuterClass {
     int getSceneId();
   }
   /**
+   * <pre>
+   * CmdID: 7929
+   * </pre>
+   *
    * Protobuf type {@code ScenePointUnlockNotify}
    */
   public static final class ScenePointUnlockNotify extends
@@ -663,6 +667,10 @@ public final class ScenePointUnlockNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 7929
+     * </pre>
+     *
      * Protobuf type {@code ScenePointUnlockNotify}
      */
     public static final class Builder extends
@@ -1296,9 +1304,8 @@ public final class ScenePointUnlockNotifyOuterClass {
       "PointUnlockNotify\022\031\n\021unhide_point_list\030\002" +
       " \003(\r\022\031\n\021locked_point_list\030\004 \003(\r\022\022\n\npoint" +
       "_list\030\005 \003(\r\022\027\n\017hide_point_list\030\010 \003(\r\022\020\n\010" +
-      "scene_id\030\t \001(\rB=\n\031emu.grasscutter.net.pr" +
-      "otoB ScenePointUnlockNotifyOuterClassb\006p" +
-      "roto3"
+      "scene_id\030\t \001(\rB\033\n\031emu.grasscutter.net.pr" +
+      "otob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

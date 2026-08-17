@@ -1290,9 +1290,8 @@ public final class TowerFloorRecordOuterClass {
       "d_progress\030\014 \001(\r\022?\n\020passed_level_map\030\017 \003" +
       "(\0132%.TowerFloorRecord.PassedLevelMapEntr" +
       "y\0325\n\023PassedLevelMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n" +
-      "\005value\030\002 \001(\r:\0028\001B7\n\031emu.grasscutter.net." +
-      "protoB\032TowerFloorRecordOuterClassb\006proto" +
-      "3"
+      "\005value\030\002 \001(\r:\0028\001B\033\n\031emu.grasscutter.net." +
+      "protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

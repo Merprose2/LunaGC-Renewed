@@ -25,6 +25,10 @@ public final class ServerTimeNotifyOuterClass {
     long getServerTime();
   }
   /**
+   * <pre>
+   * CmdID: 8925
+   * </pre>
+   *
    * Protobuf type {@code ServerTimeNotify}
    */
   public static final class ServerTimeNotify extends
@@ -274,6 +278,10 @@ public final class ServerTimeNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 8925
+     * </pre>
+     *
      * Protobuf type {@code ServerTimeNotify}
      */
     public static final class Builder extends
@@ -518,9 +526,8 @@ public final class ServerTimeNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026ServerTimeNotify.proto\"\'\n\020ServerTimeNo" +
-      "tify\022\023\n\013server_time\030\017 \001(\004B7\n\031emu.grasscu" +
-      "tter.net.protoB\032ServerTimeNotifyOuterCla" +
-      "ssb\006proto3"
+      "tify\022\023\n\013server_time\030\017 \001(\004B\033\n\031emu.grasscu" +
+      "tter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -823,8 +823,8 @@ public final class JEIFHGBPMKLOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JEIFHGBPMKL.proto\032\021EBADNHGKAAP.proto\"/" +
       "\n\013JEIFHGBPMKL\022 \n\nvalue_list\030\001 \003(\0132\014.EBAD" +
-      "NHGKAAPB2\n\031emu.grasscutter.net.protoB\025JE" +
-      "IFHGBPMKLOuterClassb\006proto3"
+      "NHGKAAPB\033\n\031emu.grasscutter.net.protob\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

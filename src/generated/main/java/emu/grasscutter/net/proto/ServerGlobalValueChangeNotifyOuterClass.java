@@ -37,6 +37,10 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
     int getEntityId();
   }
   /**
+   * <pre>
+   * CmdID: 2228
+   * </pre>
+   *
    * Protobuf type {@code ServerGlobalValueChangeNotify}
    */
   public static final class ServerGlobalValueChangeNotify extends
@@ -341,6 +345,10 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 2228
+     * </pre>
+     *
      * Protobuf type {@code ServerGlobalValueChangeNotify}
      */
     public static final class Builder extends
@@ -661,8 +669,7 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
       "\n#ServerGlobalValueChangeNotify.proto\"S\n" +
       "\035ServerGlobalValueChangeNotify\022\020\n\010key_ha" +
       "sh\030\002 \001(\r\022\r\n\005value\030\007 \001(\002\022\021\n\tentity_id\030\014 \001" +
-      "(\rBD\n\031emu.grasscutter.net.protoB\'ServerG" +
-      "lobalValueChangeNotifyOuterClassb\006proto3"
+      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

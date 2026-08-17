@@ -31,6 +31,10 @@ public final class HomeChooseModuleRspOuterClass {
     int getModuleId();
   }
   /**
+   * <pre>
+   * CmdID: 25206
+   * </pre>
+   *
    * Protobuf type {@code HomeChooseModuleRsp}
    */
   public static final class HomeChooseModuleRsp extends
@@ -306,6 +310,10 @@ public final class HomeChooseModuleRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 25206
+     * </pre>
+     *
      * Protobuf type {@code HomeChooseModuleRsp}
      */
     public static final class Builder extends
@@ -588,8 +596,8 @@ public final class HomeChooseModuleRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031HomeChooseModuleRsp.proto\"9\n\023HomeChoos" +
       "eModuleRsp\022\017\n\007retcode\030\004 \001(\005\022\021\n\tmodule_id" +
-      "\030\t \001(\rB:\n\031emu.grasscutter.net.protoB\035Hom" +
-      "eChooseModuleRspOuterClassb\006proto3"
+      "\030\t \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

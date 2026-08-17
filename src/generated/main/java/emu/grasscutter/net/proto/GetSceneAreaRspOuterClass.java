@@ -72,6 +72,10 @@ public final class GetSceneAreaRspOuterClass {
     int getRetcode();
   }
   /**
+   * <pre>
+   * CmdID: 4722
+   * </pre>
+   *
    * Protobuf type {@code GetSceneAreaRsp}
    */
   public static final class GetSceneAreaRsp extends
@@ -495,6 +499,10 @@ public final class GetSceneAreaRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 4722
+     * </pre>
+     *
      * Protobuf type {@code GetSceneAreaRsp}
      */
     public static final class Builder extends
@@ -1158,9 +1166,8 @@ public final class GetSceneAreaRspOuterClass {
       "\n\025GetSceneAreaRsp.proto\032\016CityInfo.proto\"" +
       "m\n\017GetSceneAreaRsp\022!\n\016city_info_list\030\001 \003" +
       "(\0132\t.CityInfo\022\020\n\010scene_id\030\005 \001(\r\022\024\n\014area_" +
-      "id_list\030\006 \003(\r\022\017\n\007retcode\030\013 \001(\005B6\n\031emu.gr" +
-      "asscutter.net.protoB\031GetSceneAreaRspOute" +
-      "rClassb\006proto3"
+      "id_list\030\006 \003(\r\022\017\n\007retcode\030\013 \001(\005B\033\n\031emu.gr" +
+      "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -803,9 +803,8 @@ public final class ChannellerSlabLoopDungeonResultInfoOuterClass {
       "nfo\022\022\n\nis_success\030\003 \001(\010\022\030\n\020is_in_time_li" +
       "mit\030\005 \001(\010\022\033\n\023challenge_max_score\030\010 \001(\r\022\025" +
       "\n\rdungeon_index\030\016 \001(\r\022\027\n\017challenge_score" +
-      "\030\017 \001(\rBJ\n\031emu.grasscutter.net.protoB-Cha" +
-      "nnellerSlabLoopDungeonResultInfoOuterCla" +
-      "ssb\006proto3"
+      "\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

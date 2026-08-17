@@ -1581,8 +1581,7 @@ public final class TeamEnterSceneInfoOuterClass {
       "eInfo\022\023\n\013FOMPMBNENPH\030\006 \001(\002\022!\n\013JFAHOBMFLF" +
       "E\030\010 \003(\0132\014.IDAKPKNODGC\022!\n\013KAHECAKOMLD\030\014 \001" +
       "(\0132\014.ILFPMCGGMOA\022\026\n\016team_entity_id\030\r \001(\r" +
-      "B9\n\031emu.grasscutter.net.protoB\034TeamEnter" +
-      "SceneInfoOuterClassb\006proto3"
+      "B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

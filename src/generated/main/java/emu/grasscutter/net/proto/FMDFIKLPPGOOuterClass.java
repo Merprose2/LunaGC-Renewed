@@ -644,8 +644,8 @@ public final class FMDFIKLPPGOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FMDFIKLPPGO.proto\"\"\n\013FMDFIKLPPGO\022\023\n\013LB" +
-      "FEIKNJNPM\030\016 \003(\rB2\n\031emu.grasscutter.net.p" +
-      "rotoB\025FMDFIKLPPGOOuterClassb\006proto3"
+      "FEIKNJNPM\030\016 \003(\rB\033\n\031emu.grasscutter.net.p" +
+      "rotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

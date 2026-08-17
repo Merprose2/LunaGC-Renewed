@@ -121,10 +121,10 @@ public final class AttackResultOuterClass {
     float getDamage();
 
     /**
-     * <code>uint32 defense_id = 14;</code>
-     * @return The defenseId.
+     * <code>uint32 AFPBFDHCDNK = 14;</code>
+     * @return The aFPBFDHCDNK.
      */
-    int getDefenseId();
+    int getAFPBFDHCDNK();
 
     /**
      * <code>string anim_event_id = 15;</code>
@@ -484,7 +484,7 @@ public final class AttackResultOuterClass {
             }
             case 112: {
 
-              defenseId_ = input.readUInt32();
+              aFPBFDHCDNK_ = input.readUInt32();
               break;
             }
             case 122: {
@@ -892,15 +892,15 @@ public final class AttackResultOuterClass {
       return damage_;
     }
 
-    public static final int DEFENSE_ID_FIELD_NUMBER = 14;
-    private int defenseId_;
+    public static final int AFPBFDHCDNK_FIELD_NUMBER = 14;
+    private int aFPBFDHCDNK_;
     /**
-     * <code>uint32 defense_id = 14;</code>
-     * @return The defenseId.
+     * <code>uint32 AFPBFDHCDNK = 14;</code>
+     * @return The aFPBFDHCDNK.
      */
     @java.lang.Override
-    public int getDefenseId() {
-      return defenseId_;
+    public int getAFPBFDHCDNK() {
+      return aFPBFDHCDNK_;
     }
 
     public static final int ANIM_EVENT_ID_FIELD_NUMBER = 15;
@@ -1363,8 +1363,8 @@ public final class AttackResultOuterClass {
       if (damage_ != 0F) {
         output.writeFloat(13, damage_);
       }
-      if (defenseId_ != 0) {
-        output.writeUInt32(14, defenseId_);
+      if (aFPBFDHCDNK_ != 0) {
+        output.writeUInt32(14, aFPBFDHCDNK_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(animEventId_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 15, animEventId_);
@@ -1507,9 +1507,9 @@ public final class AttackResultOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeFloatSize(13, damage_);
       }
-      if (defenseId_ != 0) {
+      if (aFPBFDHCDNK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, defenseId_);
+          .computeUInt32Size(14, aFPBFDHCDNK_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(animEventId_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(15, animEventId_);
@@ -1682,8 +1682,8 @@ public final class AttackResultOuterClass {
       if (java.lang.Float.floatToIntBits(getDamage())
           != java.lang.Float.floatToIntBits(
               other.getDamage())) return false;
-      if (getDefenseId()
-          != other.getDefenseId()) return false;
+      if (getAFPBFDHCDNK()
+          != other.getAFPBFDHCDNK()) return false;
       if (!getAnimEventId()
           .equals(other.getAnimEventId())) return false;
       if (getEKDNPKHMJIE()
@@ -1800,8 +1800,8 @@ public final class AttackResultOuterClass {
       hash = (37 * hash) + DAMAGE_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
           getDamage());
-      hash = (37 * hash) + DEFENSE_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getDefenseId();
+      hash = (37 * hash) + AFPBFDHCDNK_FIELD_NUMBER;
+      hash = (53 * hash) + getAFPBFDHCDNK();
       hash = (37 * hash) + ANIM_EVENT_ID_FIELD_NUMBER;
       hash = (53 * hash) + getAnimEventId().hashCode();
       hash = (37 * hash) + EKDNPKHMJIE_FIELD_NUMBER;
@@ -2048,7 +2048,7 @@ public final class AttackResultOuterClass {
         }
         damage_ = 0F;
 
-        defenseId_ = 0;
+        aFPBFDHCDNK_ = 0;
 
         animEventId_ = "";
 
@@ -2176,7 +2176,7 @@ public final class AttackResultOuterClass {
           result.hitEffResult_ = hitEffResultBuilder_.build();
         }
         result.damage_ = damage_;
-        result.defenseId_ = defenseId_;
+        result.aFPBFDHCDNK_ = aFPBFDHCDNK_;
         result.animEventId_ = animEventId_;
         result.eKDNPKHMJIE_ = eKDNPKHMJIE_;
         result.oOFNGENKHKG_ = oOFNGENKHKG_;
@@ -2306,8 +2306,8 @@ public final class AttackResultOuterClass {
         if (other.getDamage() != 0F) {
           setDamage(other.getDamage());
         }
-        if (other.getDefenseId() != 0) {
-          setDefenseId(other.getDefenseId());
+        if (other.getAFPBFDHCDNK() != 0) {
+          setAFPBFDHCDNK(other.getAFPBFDHCDNK());
         }
         if (!other.getAnimEventId().isEmpty()) {
           animEventId_ = other.animEventId_;
@@ -3124,33 +3124,33 @@ public final class AttackResultOuterClass {
         return this;
       }
 
-      private int defenseId_ ;
+      private int aFPBFDHCDNK_ ;
       /**
-       * <code>uint32 defense_id = 14;</code>
-       * @return The defenseId.
+       * <code>uint32 AFPBFDHCDNK = 14;</code>
+       * @return The aFPBFDHCDNK.
        */
       @java.lang.Override
-      public int getDefenseId() {
-        return defenseId_;
+      public int getAFPBFDHCDNK() {
+        return aFPBFDHCDNK_;
       }
       /**
-       * <code>uint32 defense_id = 14;</code>
-       * @param value The defenseId to set.
+       * <code>uint32 AFPBFDHCDNK = 14;</code>
+       * @param value The aFPBFDHCDNK to set.
        * @return This builder for chaining.
        */
-      public Builder setDefenseId(int value) {
+      public Builder setAFPBFDHCDNK(int value) {
         
-        defenseId_ = value;
+        aFPBFDHCDNK_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 defense_id = 14;</code>
+       * <code>uint32 AFPBFDHCDNK = 14;</code>
        * @return This builder for chaining.
        */
-      public Builder clearDefenseId() {
+      public Builder clearAFPBFDHCDNK() {
         
-        defenseId_ = 0;
+        aFPBFDHCDNK_ = 0;
         onChanged();
         return this;
       }
@@ -4538,7 +4538,7 @@ public final class AttackResultOuterClass {
       "proto\032\033AttackHitEffectResult.proto\032\021CIHE" +
       "NMDCMGJ.proto\032\021HIMBAGFLEHM.proto\032\022HitCol" +
       "lision.proto\032\021IFMIEJICEMA.proto\032\014Vector." +
-      "proto\"\374\007\n\014AttackResult\022\034\n\013NKCMIFFBMEN\030\001 " +
+      "proto\"\375\007\n\014AttackResult\022\034\n\013NKCMIFFBMEN\030\001 " +
       "\001(\0132\007.Vector\022\023\n\013attacker_id\030\002 \001(\r\022\023\n\013LNF" +
       "CPOINHKK\030\003 \001(\r\022\024\n\014element_type\030\004 \001(\r\022\023\n\013" +
       "EPLABAAGCKE\030\005 \001(\010\022$\n\rhit_collision\030\007 \001(\013" +
@@ -4546,26 +4546,25 @@ public final class AttackResultOuterClass {
       "pat\030\010 \001(\005\022\023\n\013ANHLIIPLJLJ\030\t \001(\r\022.\n\022abilit" +
       "y_identifier\030\n \001(\0132\022.AbilityIdentifier\022." +
       "\n\016hit_eff_result\030\013 \001(\0132\026.AttackHitEffect" +
-      "Result\022\016\n\006damage\030\r \001(\002\022\022\n\ndefense_id\030\016 \001" +
-      "(\r\022\025\n\ranim_event_id\030\017 \001(\t\022\023\n\013EKDNPKHMJIE" +
-      "\030T \001(\r\022\023\n\013OOFNGENKHKG\030~ \001(\002\022\024\n\013OHPEIAGBO" +
-      "IK\030\213\001 \003(\r\022\024\n\013GGAMPLOEPMG\030\335\001 \001(\010\022\024\n\013MDECM" +
-      "KGHDAK\030\357\001 \001(\002\022\"\n\013EFBFOAOJADK\030\271\002 \001(\0132\014.CI" +
-      "HENMDCMGJ\022\024\n\013BNBBLJCDMPJ\030\353\002 \001(\r\022\024\n\013MDBPI" +
-      "CGKMLB\030\362\002 \001(\002\022\024\n\013JCPDJCGGJCC\030\224\003 \001(\r\022\024\n\013F" +
-      "DEGAMMGNGI\030\230\004 \001(\r\022\024\n\013MHJDKCODNAA\030\361\005 \001(\r\022" +
-      "\024\n\013GMNALDFDANK\030\322\006 \001(\r\022\024\n\013NILAPFIGLLH\030\274\007 " +
-      "\001(\002\022\024\n\013PKOFLCBFEOA\030\341\007 \001(\010\022\024\n\013IFHJIFEBKAO" +
-      "\030\275\010 \001(\r\022\024\n\013CFKHDFPCHCL\030\275\t \001(\r\022\024\n\013PLNPCMI" +
-      "LPPD\030\343\t \001(\r\022\024\n\013NJFMEBDIICN\030\205\013 \001(\002\022\"\n\013PGP" +
-      "BACPJGNM\030\274\013 \001(\0132\014.HIMBAGFLEHM\022\024\n\013JILIGGD" +
-      "CLDH\030\350\013 \001(\r\022\"\n\013EEDDIJJOCFM\030\276\014 \001(\0132\014.IFMI" +
-      "EJICEMA\022\024\n\013DMIEAHDCHFA\030\342\r \001(\010\022\035\n\013DNMDKFF" +
-      "CNPJ\030\360\r \001(\0132\007.Vector\022\024\n\013OMJGKPMPFBI\030\201\016 \001" +
-      "(\010\022\024\n\013BJHAEPGOAKM\030\255\016 \001(\r\022\024\n\013MOEKEMAHBNN\030" +
-      "\254\017 \001(\r\022\024\n\013IDENIGMCBJB\030\375\017 \001(\rB3\n\031emu.gras" +
-      "scutter.net.protoB\026AttackResultOuterClas" +
-      "sb\006proto3"
+      "Result\022\016\n\006damage\030\r \001(\002\022\023\n\013AFPBFDHCDNK\030\016 " +
+      "\001(\r\022\025\n\ranim_event_id\030\017 \001(\t\022\023\n\013EKDNPKHMJI" +
+      "E\030T \001(\r\022\023\n\013OOFNGENKHKG\030~ \001(\002\022\024\n\013OHPEIAGB" +
+      "OIK\030\213\001 \003(\r\022\024\n\013GGAMPLOEPMG\030\335\001 \001(\010\022\024\n\013MDEC" +
+      "MKGHDAK\030\357\001 \001(\002\022\"\n\013EFBFOAOJADK\030\271\002 \001(\0132\014.C" +
+      "IHENMDCMGJ\022\024\n\013BNBBLJCDMPJ\030\353\002 \001(\r\022\024\n\013MDBP" +
+      "ICGKMLB\030\362\002 \001(\002\022\024\n\013JCPDJCGGJCC\030\224\003 \001(\r\022\024\n\013" +
+      "FDEGAMMGNGI\030\230\004 \001(\r\022\024\n\013MHJDKCODNAA\030\361\005 \001(\r" +
+      "\022\024\n\013GMNALDFDANK\030\322\006 \001(\r\022\024\n\013NILAPFIGLLH\030\274\007" +
+      " \001(\002\022\024\n\013PKOFLCBFEOA\030\341\007 \001(\010\022\024\n\013IFHJIFEBKA" +
+      "O\030\275\010 \001(\r\022\024\n\013CFKHDFPCHCL\030\275\t \001(\r\022\024\n\013PLNPCM" +
+      "ILPPD\030\343\t \001(\r\022\024\n\013NJFMEBDIICN\030\205\013 \001(\002\022\"\n\013PG" +
+      "PBACPJGNM\030\274\013 \001(\0132\014.HIMBAGFLEHM\022\024\n\013JILIGG" +
+      "DCLDH\030\350\013 \001(\r\022\"\n\013EEDDIJJOCFM\030\276\014 \001(\0132\014.IFM" +
+      "IEJICEMA\022\024\n\013DMIEAHDCHFA\030\342\r \001(\010\022\035\n\013DNMDKF" +
+      "FCNPJ\030\360\r \001(\0132\007.Vector\022\024\n\013OMJGKPMPFBI\030\201\016 " +
+      "\001(\010\022\024\n\013BJHAEPGOAKM\030\255\016 \001(\r\022\024\n\013MOEKEMAHBNN" +
+      "\030\254\017 \001(\r\022\024\n\013IDENIGMCBJB\030\375\017 \001(\rB\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -4583,7 +4582,7 @@ public final class AttackResultOuterClass {
     internal_static_AttackResult_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AttackResult_descriptor,
-        new java.lang.String[] { "NKCMIFFBMEN", "AttackerId", "LNFCPOINHKK", "ElementType", "EPLABAAGCKE", "HitCollision", "HitRetreatAngleCompat", "ANHLIIPLJLJ", "AbilityIdentifier", "HitEffResult", "Damage", "DefenseId", "AnimEventId", "EKDNPKHMJIE", "OOFNGENKHKG", "OHPEIAGBOIK", "GGAMPLOEPMG", "MDECMKGHDAK", "EFBFOAOJADK", "BNBBLJCDMPJ", "MDBPICGKMLB", "JCPDJCGGJCC", "FDEGAMMGNGI", "MHJDKCODNAA", "GMNALDFDANK", "NILAPFIGLLH", "PKOFLCBFEOA", "IFHJIFEBKAO", "CFKHDFPCHCL", "PLNPCMILPPD", "NJFMEBDIICN", "PGPBACPJGNM", "JILIGGDCLDH", "EEDDIJJOCFM", "DMIEAHDCHFA", "DNMDKFFCNPJ", "OMJGKPMPFBI", "BJHAEPGOAKM", "MOEKEMAHBNN", "IDENIGMCBJB", });
+        new java.lang.String[] { "NKCMIFFBMEN", "AttackerId", "LNFCPOINHKK", "ElementType", "EPLABAAGCKE", "HitCollision", "HitRetreatAngleCompat", "ANHLIIPLJLJ", "AbilityIdentifier", "HitEffResult", "Damage", "AFPBFDHCDNK", "AnimEventId", "EKDNPKHMJIE", "OOFNGENKHKG", "OHPEIAGBOIK", "GGAMPLOEPMG", "MDECMKGHDAK", "EFBFOAOJADK", "BNBBLJCDMPJ", "MDBPICGKMLB", "JCPDJCGGJCC", "FDEGAMMGNGI", "MHJDKCODNAA", "GMNALDFDANK", "NILAPFIGLLH", "PKOFLCBFEOA", "IFHJIFEBKAO", "CFKHDFPCHCL", "PLNPCMILPPD", "NJFMEBDIICN", "PGPBACPJGNM", "JILIGGDCLDH", "EEDDIJJOCFM", "DMIEAHDCHFA", "DNMDKFFCNPJ", "OMJGKPMPFBI", "BJHAEPGOAKM", "MOEKEMAHBNN", "IDENIGMCBJB", });
     emu.grasscutter.net.proto.AbilityIdentifierOuterClass.getDescriptor();
     emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.getDescriptor();
     emu.grasscutter.net.proto.CIHENMDCMGJOuterClass.getDescriptor();

@@ -588,8 +588,8 @@ public final class StrengthenPointDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031StrengthenPointData.proto\"?\n\023Strengthe" +
       "nPointData\022\023\n\013GPCEEMPGCGO\030\004 \001(\r\022\023\n\013LDNJN" +
-      "MPHLFD\030\t \001(\rB:\n\031emu.grasscutter.net.prot" +
-      "oB\035StrengthenPointDataOuterClassb\006proto3"
+      "MPHLFD\030\t \001(\rB\033\n\031emu.grasscutter.net.prot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

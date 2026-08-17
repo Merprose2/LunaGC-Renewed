@@ -41,6 +41,66 @@ public final class ChatInfoOuterClass {
     int getMentionedUid();
 
     /**
+     * <code>string _xuid = 2;</code>
+     * @return The xuid.
+     */
+    java.lang.String getXuid();
+    /**
+     * <code>string _xuid = 2;</code>
+     * @return The bytes for xuid.
+     */
+    com.google.protobuf.ByteString
+        getXuidBytes();
+
+    /**
+     * <code>uint32 to_uid = 3;</code>
+     * @return The toUid.
+     */
+    int getToUid();
+
+    /**
+     * <code>uint32 ALKIPKCAPFL = 5;</code>
+     * @return The aLKIPKCAPFL.
+     */
+    int getALKIPKCAPFL();
+
+    /**
+     * <code>uint32 platform_type = 7;</code>
+     * @return The platformType.
+     */
+    int getPlatformType();
+
+    /**
+     * <code>uint32 uid = 8;</code>
+     * @return The uid.
+     */
+    int getUid();
+
+    /**
+     * <code>uint32 time = 9;</code>
+     * @return The time.
+     */
+    int getTime();
+
+    /**
+     * <code>uint64 OIEHJMHHCFB = 10;</code>
+     * @return The oIEHJMHHCFB.
+     */
+    long getOIEHJMHHCFB();
+
+    /**
+     * <code>bool is_read = 13;</code>
+     * @return The isRead.
+     */
+    boolean getIsRead();
+
+    /**
+     * <code>uint32 sequence = 15;</code>
+     * @return The sequence.
+     */
+    int getSequence();
+
+    /**
      * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 386;</code>
      * @return Whether the beyondTeamRecruitment field is set.
      */
@@ -56,19 +116,19 @@ public final class ChatInfoOuterClass {
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitmentOrBuilder getBeyondTeamRecruitmentOrBuilder();
 
     /**
-     * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+     * <code>.ChatInfo.BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
      * @return Whether the beyondCostumeShareCode field is set.
      */
     boolean hasBeyondCostumeShareCode();
     /**
-     * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+     * <code>.ChatInfo.BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
      * @return The beyondCostumeShareCode.
      */
-    emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode getBeyondCostumeShareCode();
+    emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode getBeyondCostumeShareCode();
     /**
-     * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+     * <code>.ChatInfo.BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
      */
-    emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCodeOrBuilder getBeyondCostumeShareCodeOrBuilder();
+    emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCodeOrBuilder getBeyondCostumeShareCodeOrBuilder();
 
     /**
      * <code>uint32 icon = 654;</code>
@@ -218,67 +278,7 @@ public final class ChatInfoOuterClass {
      */
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitationOrBuilder getBeyondTeamInvitationOrBuilder();
 
-    /**
-     * <code>string _xuid = 2;</code>
-     * @return The xuid.
-     */
-    java.lang.String getXuid();
-    /**
-     * <code>string _xuid = 2;</code>
-     * @return The bytes for xuid.
-     */
-    com.google.protobuf.ByteString
-        getXuidBytes();
-
-    /**
-     * <code>uint32 to_uid = 3;</code>
-     * @return The toUid.
-     */
-    int getToUid();
-
-    /**
-     * <code>uint32 ALKIPKCAPFL = 5;</code>
-     * @return The aLKIPKCAPFL.
-     */
-    int getALKIPKCAPFL();
-
-    /**
-     * <code>uint32 platform_type = 7;</code>
-     * @return The platformType.
-     */
-    int getPlatformType();
-
-    /**
-     * <code>uint32 uid = 8;</code>
-     * @return The uid.
-     */
-    int getUid();
-
-    /**
-     * <code>uint32 time = 9;</code>
-     * @return The time.
-     */
-    int getTime();
-
-    /**
-     * <code>uint64 OIEHJMHHCFB = 10;</code>
-     * @return The oIEHJMHHCFB.
-     */
-    long getOIEHJMHHCFB();
-
-    /**
-     * <code>bool is_read = 13;</code>
-     * @return The isRead.
-     */
-    boolean getIsRead();
-
-    /**
-     * <code>uint32 sequence = 15;</code>
-     * @return The sequence.
-     */
-    int getSequence();
-
-    public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.MentionCase getMentionCase();
+    public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.ILHFEBFKBOGCase getILHFEBFKBOGCase();
 
     public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.ContentCase getContentCase();
   }
@@ -329,8 +329,8 @@ public final class ChatInfoOuterClass {
               done = true;
               break;
             case 8: {
-              mentionCase_ = 1;
-              mention_ = input.readBool();
+              iLHFEBFKBOGCase_ = 1;
+              iLHFEBFKBOG_ = input.readBool();
               break;
             }
             case 18: {
@@ -370,8 +370,8 @@ public final class ChatInfoOuterClass {
               break;
             }
             case 96: {
-              mentionCase_ = 12;
-              mention_ = input.readUInt32();
+              iLHFEBFKBOGCase_ = 12;
+              iLHFEBFKBOG_ = input.readUInt32();
               break;
             }
             case 104: {
@@ -399,14 +399,14 @@ public final class ChatInfoOuterClass {
               break;
             }
             case 3154: {
-              emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.Builder subBuilder = null;
+              emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode.Builder subBuilder = null;
               if (contentCase_ == 394) {
-                subBuilder = ((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) content_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode) content_).toBuilder();
               }
               content_ =
-                  input.readMessage(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) content_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode) content_);
                 content_ = subBuilder.buildPartial();
               }
               contentCase_ = 394;
@@ -6361,8 +6361,8 @@ public final class ChatInfoOuterClass {
 
     }
 
-    public interface _BeyondCostumeShareCodeOrBuilder extends
-        // @@protoc_insertion_point(interface_extends:ChatInfo._BeyondCostumeShareCode)
+    public interface BeyondCostumeShareCodeOrBuilder extends
+        // @@protoc_insertion_point(interface_extends:ChatInfo.BeyondCostumeShareCode)
         com.google.protobuf.MessageOrBuilder {
 
       /**
@@ -6372,18 +6372,18 @@ public final class ChatInfoOuterClass {
       com.google.protobuf.ByteString getFEPAFANMNLK();
     }
     /**
-     * Protobuf type {@code ChatInfo._BeyondCostumeShareCode}
+     * Protobuf type {@code ChatInfo.BeyondCostumeShareCode}
      */
-    public static final class _BeyondCostumeShareCode extends
+    public static final class BeyondCostumeShareCode extends
         com.google.protobuf.GeneratedMessageV3 implements
-        // @@protoc_insertion_point(message_implements:ChatInfo._BeyondCostumeShareCode)
-        _BeyondCostumeShareCodeOrBuilder {
+        // @@protoc_insertion_point(message_implements:ChatInfo.BeyondCostumeShareCode)
+        BeyondCostumeShareCodeOrBuilder {
     private static final long serialVersionUID = 0L;
-      // Use _BeyondCostumeShareCode.newBuilder() to construct.
-      private _BeyondCostumeShareCode(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
+      // Use BeyondCostumeShareCode.newBuilder() to construct.
+      private BeyondCostumeShareCode(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
-      private _BeyondCostumeShareCode() {
+      private BeyondCostumeShareCode() {
         fEPAFANMNLK_ = com.google.protobuf.ByteString.EMPTY;
       }
 
@@ -6391,7 +6391,7 @@ public final class ChatInfoOuterClass {
       @SuppressWarnings({"unused"})
       protected java.lang.Object newInstance(
           UnusedPrivateParameter unused) {
-        return new _BeyondCostumeShareCode();
+        return new BeyondCostumeShareCode();
       }
 
       @java.lang.Override
@@ -6399,7 +6399,7 @@ public final class ChatInfoOuterClass {
       getUnknownFields() {
         return this.unknownFields;
       }
-      private _BeyondCostumeShareCode(
+      private BeyondCostumeShareCode(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -6443,15 +6443,15 @@ public final class ChatInfoOuterClass {
       }
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return emu.grasscutter.net.proto.ChatInfoOuterClass.internal_static_ChatInfo__BeyondCostumeShareCode_descriptor;
+        return emu.grasscutter.net.proto.ChatInfoOuterClass.internal_static_ChatInfo_BeyondCostumeShareCode_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return emu.grasscutter.net.proto.ChatInfoOuterClass.internal_static_ChatInfo__BeyondCostumeShareCode_fieldAccessorTable
+        return emu.grasscutter.net.proto.ChatInfoOuterClass.internal_static_ChatInfo_BeyondCostumeShareCode_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.class, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.Builder.class);
+                emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode.class, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode.Builder.class);
       }
 
       public static final int FEPAFANMNLK_FIELD_NUMBER = 7;
@@ -6505,10 +6505,10 @@ public final class ChatInfoOuterClass {
         if (obj == this) {
          return true;
         }
-        if (!(obj instanceof emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode)) {
+        if (!(obj instanceof emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode)) {
           return super.equals(obj);
         }
-        emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode other = (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) obj;
+        emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode other = (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode) obj;
 
         if (!getFEPAFANMNLK()
             .equals(other.getFEPAFANMNLK())) return false;
@@ -6530,69 +6530,69 @@ public final class ChatInfoOuterClass {
         return hash;
       }
 
-      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode parseFrom(
+      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode parseFrom(
           java.nio.ByteBuffer data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode parseFrom(
+      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode parseFrom(
           java.nio.ByteBuffer data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode parseFrom(
+      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode parseFrom(
+      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode parseFrom(
           com.google.protobuf.ByteString data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode parseFrom(byte[] data)
+      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode parseFrom(byte[] data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode parseFrom(
+      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode parseFrom(
           byte[] data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode parseFrom(java.io.InputStream input)
+      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode parseFrom(java.io.InputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
-      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode parseFrom(
+      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
-      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode parseDelimitedFrom(java.io.InputStream input)
+      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
-      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode parseDelimitedFrom(
+      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
-      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode parseFrom(
+      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
-      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode parseFrom(
+      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
@@ -6605,7 +6605,7 @@ public final class ChatInfoOuterClass {
       public static Builder newBuilder() {
         return DEFAULT_INSTANCE.toBuilder();
       }
-      public static Builder newBuilder(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode prototype) {
+      public static Builder newBuilder(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode prototype) {
         return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
       }
       @java.lang.Override
@@ -6621,26 +6621,26 @@ public final class ChatInfoOuterClass {
         return builder;
       }
       /**
-       * Protobuf type {@code ChatInfo._BeyondCostumeShareCode}
+       * Protobuf type {@code ChatInfo.BeyondCostumeShareCode}
        */
       public static final class Builder extends
           com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-          // @@protoc_insertion_point(builder_implements:ChatInfo._BeyondCostumeShareCode)
-          emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCodeOrBuilder {
+          // @@protoc_insertion_point(builder_implements:ChatInfo.BeyondCostumeShareCode)
+          emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCodeOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
             getDescriptor() {
-          return emu.grasscutter.net.proto.ChatInfoOuterClass.internal_static_ChatInfo__BeyondCostumeShareCode_descriptor;
+          return emu.grasscutter.net.proto.ChatInfoOuterClass.internal_static_ChatInfo_BeyondCostumeShareCode_descriptor;
         }
 
         @java.lang.Override
         protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
-          return emu.grasscutter.net.proto.ChatInfoOuterClass.internal_static_ChatInfo__BeyondCostumeShareCode_fieldAccessorTable
+          return emu.grasscutter.net.proto.ChatInfoOuterClass.internal_static_ChatInfo_BeyondCostumeShareCode_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
-                  emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.class, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.Builder.class);
+                  emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode.class, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode.Builder.class);
         }
 
-        // Construct using emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.newBuilder()
+        // Construct using emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode.newBuilder()
         private Builder() {
           maybeForceBuilderInitialization();
         }
@@ -6666,17 +6666,17 @@ public final class ChatInfoOuterClass {
         @java.lang.Override
         public com.google.protobuf.Descriptors.Descriptor
             getDescriptorForType() {
-          return emu.grasscutter.net.proto.ChatInfoOuterClass.internal_static_ChatInfo__BeyondCostumeShareCode_descriptor;
+          return emu.grasscutter.net.proto.ChatInfoOuterClass.internal_static_ChatInfo_BeyondCostumeShareCode_descriptor;
         }
 
         @java.lang.Override
-        public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode getDefaultInstanceForType() {
-          return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.getDefaultInstance();
+        public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode getDefaultInstanceForType() {
+          return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode.getDefaultInstance();
         }
 
         @java.lang.Override
-        public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode build() {
-          emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode result = buildPartial();
+        public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode build() {
+          emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode result = buildPartial();
           if (!result.isInitialized()) {
             throw newUninitializedMessageException(result);
           }
@@ -6684,8 +6684,8 @@ public final class ChatInfoOuterClass {
         }
 
         @java.lang.Override
-        public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode buildPartial() {
-          emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode result = new emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode(this);
+        public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode buildPartial() {
+          emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode result = new emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode(this);
           result.fEPAFANMNLK_ = fEPAFANMNLK_;
           onBuilt();
           return result;
@@ -6725,16 +6725,16 @@ public final class ChatInfoOuterClass {
         }
         @java.lang.Override
         public Builder mergeFrom(com.google.protobuf.Message other) {
-          if (other instanceof emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) {
-            return mergeFrom((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode)other);
+          if (other instanceof emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode) {
+            return mergeFrom((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode)other);
           } else {
             super.mergeFrom(other);
             return this;
           }
         }
 
-        public Builder mergeFrom(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode other) {
-          if (other == emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.getDefaultInstance()) return this;
+        public Builder mergeFrom(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode other) {
+          if (other == emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode.getDefaultInstance()) return this;
           if (other.getFEPAFANMNLK() != com.google.protobuf.ByteString.EMPTY) {
             setFEPAFANMNLK(other.getFEPAFANMNLK());
           }
@@ -6753,11 +6753,11 @@ public final class ChatInfoOuterClass {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
-          emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode parsedMessage = null;
+          emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode parsedMessage = null;
           try {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-            parsedMessage = (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) e.getUnfinishedMessage();
+            parsedMessage = (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode) e.getUnfinishedMessage();
             throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
@@ -6813,41 +6813,41 @@ public final class ChatInfoOuterClass {
         }
 
 
-        // @@protoc_insertion_point(builder_scope:ChatInfo._BeyondCostumeShareCode)
+        // @@protoc_insertion_point(builder_scope:ChatInfo.BeyondCostumeShareCode)
       }
 
-      // @@protoc_insertion_point(class_scope:ChatInfo._BeyondCostumeShareCode)
-      private static final emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode DEFAULT_INSTANCE;
+      // @@protoc_insertion_point(class_scope:ChatInfo.BeyondCostumeShareCode)
+      private static final emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode DEFAULT_INSTANCE;
       static {
-        DEFAULT_INSTANCE = new emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode();
+        DEFAULT_INSTANCE = new emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode();
       }
 
-      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode getDefaultInstance() {
+      public static emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode getDefaultInstance() {
         return DEFAULT_INSTANCE;
       }
 
-      private static final com.google.protobuf.Parser<_BeyondCostumeShareCode>
-          PARSER = new com.google.protobuf.AbstractParser<_BeyondCostumeShareCode>() {
+      private static final com.google.protobuf.Parser<BeyondCostumeShareCode>
+          PARSER = new com.google.protobuf.AbstractParser<BeyondCostumeShareCode>() {
         @java.lang.Override
-        public _BeyondCostumeShareCode parsePartialFrom(
+        public BeyondCostumeShareCode parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
-          return new _BeyondCostumeShareCode(input, extensionRegistry);
+          return new BeyondCostumeShareCode(input, extensionRegistry);
         }
       };
 
-      public static com.google.protobuf.Parser<_BeyondCostumeShareCode> parser() {
+      public static com.google.protobuf.Parser<BeyondCostumeShareCode> parser() {
         return PARSER;
       }
 
       @java.lang.Override
-      public com.google.protobuf.Parser<_BeyondCostumeShareCode> getParserForType() {
+      public com.google.protobuf.Parser<BeyondCostumeShareCode> getParserForType() {
         return PARSER;
       }
 
       @java.lang.Override
-      public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode getDefaultInstanceForType() {
+      public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode getDefaultInstanceForType() {
         return DEFAULT_INSTANCE;
       }
 
@@ -7820,16 +7820,16 @@ public final class ChatInfoOuterClass {
 
     }
 
-    private int mentionCase_ = 0;
-    private java.lang.Object mention_;
-    public enum MentionCase
+    private int iLHFEBFKBOGCase_ = 0;
+    private java.lang.Object iLHFEBFKBOG_;
+    public enum ILHFEBFKBOGCase
         implements com.google.protobuf.Internal.EnumLite,
             com.google.protobuf.AbstractMessage.InternalOneOfEnum {
       IS_MENTION_ALL(1),
       MENTIONED_UID(12),
-      MENTION_NOT_SET(0);
+      ILHFEBFKBOG_NOT_SET(0);
       private final int value;
-      private MentionCase(int value) {
+      private ILHFEBFKBOGCase(int value) {
         this.value = value;
       }
       /**
@@ -7838,15 +7838,15 @@ public final class ChatInfoOuterClass {
        * @deprecated Use {@link #forNumber(int)} instead.
        */
       @java.lang.Deprecated
-      public static MentionCase valueOf(int value) {
+      public static ILHFEBFKBOGCase valueOf(int value) {
         return forNumber(value);
       }
 
-      public static MentionCase forNumber(int value) {
+      public static ILHFEBFKBOGCase forNumber(int value) {
         switch (value) {
           case 1: return IS_MENTION_ALL;
           case 12: return MENTIONED_UID;
-          case 0: return MENTION_NOT_SET;
+          case 0: return ILHFEBFKBOG_NOT_SET;
           default: return null;
         }
       }
@@ -7855,10 +7855,10 @@ public final class ChatInfoOuterClass {
       }
     };
 
-    public MentionCase
-    getMentionCase() {
-      return MentionCase.forNumber(
-          mentionCase_);
+    public ILHFEBFKBOGCase
+    getILHFEBFKBOGCase() {
+      return ILHFEBFKBOGCase.forNumber(
+          iLHFEBFKBOGCase_);
     }
 
     private int contentCase_ = 0;
@@ -7929,7 +7929,7 @@ public final class ChatInfoOuterClass {
      */
     @java.lang.Override
     public boolean hasIsMentionAll() {
-      return mentionCase_ == 1;
+      return iLHFEBFKBOGCase_ == 1;
     }
     /**
      * <code>bool is_mention_all = 1;</code>
@@ -7937,8 +7937,8 @@ public final class ChatInfoOuterClass {
      */
     @java.lang.Override
     public boolean getIsMentionAll() {
-      if (mentionCase_ == 1) {
-        return (java.lang.Boolean) mention_;
+      if (iLHFEBFKBOGCase_ == 1) {
+        return (java.lang.Boolean) iLHFEBFKBOG_;
       }
       return false;
     }
@@ -7950,7 +7950,7 @@ public final class ChatInfoOuterClass {
      */
     @java.lang.Override
     public boolean hasMentionedUid() {
-      return mentionCase_ == 12;
+      return iLHFEBFKBOGCase_ == 12;
     }
     /**
      * <code>uint32 mentioned_uid = 12;</code>
@@ -7958,10 +7958,136 @@ public final class ChatInfoOuterClass {
      */
     @java.lang.Override
     public int getMentionedUid() {
-      if (mentionCase_ == 12) {
-        return (java.lang.Integer) mention_;
+      if (iLHFEBFKBOGCase_ == 12) {
+        return (java.lang.Integer) iLHFEBFKBOG_;
       }
       return 0;
+    }
+
+    public static final int _XUID_FIELD_NUMBER = 2;
+    private volatile java.lang.Object Xuid_;
+    /**
+     * <code>string _xuid = 2;</code>
+     * @return The xuid.
+     */
+    @java.lang.Override
+    public java.lang.String getXuid() {
+      java.lang.Object ref = Xuid_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        Xuid_ = s;
+        return s;
+      }
+    }
+    /**
+     * <code>string _xuid = 2;</code>
+     * @return The bytes for xuid.
+     */
+    @java.lang.Override
+    public com.google.protobuf.ByteString
+        getXuidBytes() {
+      java.lang.Object ref = Xuid_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        Xuid_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int TO_UID_FIELD_NUMBER = 3;
+    private int toUid_;
+    /**
+     * <code>uint32 to_uid = 3;</code>
+     * @return The toUid.
+     */
+    @java.lang.Override
+    public int getToUid() {
+      return toUid_;
+    }
+
+    public static final int ALKIPKCAPFL_FIELD_NUMBER = 5;
+    private int aLKIPKCAPFL_;
+    /**
+     * <code>uint32 ALKIPKCAPFL = 5;</code>
+     * @return The aLKIPKCAPFL.
+     */
+    @java.lang.Override
+    public int getALKIPKCAPFL() {
+      return aLKIPKCAPFL_;
+    }
+
+    public static final int PLATFORM_TYPE_FIELD_NUMBER = 7;
+    private int platformType_;
+    /**
+     * <code>uint32 platform_type = 7;</code>
+     * @return The platformType.
+     */
+    @java.lang.Override
+    public int getPlatformType() {
+      return platformType_;
+    }
+
+    public static final int UID_FIELD_NUMBER = 8;
+    private int uid_;
+    /**
+     * <code>uint32 uid = 8;</code>
+     * @return The uid.
+     */
+    @java.lang.Override
+    public int getUid() {
+      return uid_;
+    }
+
+    public static final int TIME_FIELD_NUMBER = 9;
+    private int time_;
+    /**
+     * <code>uint32 time = 9;</code>
+     * @return The time.
+     */
+    @java.lang.Override
+    public int getTime() {
+      return time_;
+    }
+
+    public static final int OIEHJMHHCFB_FIELD_NUMBER = 10;
+    private long oIEHJMHHCFB_;
+    /**
+     * <code>uint64 OIEHJMHHCFB = 10;</code>
+     * @return The oIEHJMHHCFB.
+     */
+    @java.lang.Override
+    public long getOIEHJMHHCFB() {
+      return oIEHJMHHCFB_;
+    }
+
+    public static final int IS_READ_FIELD_NUMBER = 13;
+    private boolean isRead_;
+    /**
+     * <code>bool is_read = 13;</code>
+     * @return The isRead.
+     */
+    @java.lang.Override
+    public boolean getIsRead() {
+      return isRead_;
+    }
+
+    public static final int SEQUENCE_FIELD_NUMBER = 15;
+    private int sequence_;
+    /**
+     * <code>uint32 sequence = 15;</code>
+     * @return The sequence.
+     */
+    @java.lang.Override
+    public int getSequence() {
+      return sequence_;
     }
 
     public static final int BEYOND_TEAM_RECRUITMENT_FIELD_NUMBER = 386;
@@ -7997,7 +8123,7 @@ public final class ChatInfoOuterClass {
 
     public static final int BEYOND_COSTUME_SHARE_CODE_FIELD_NUMBER = 394;
     /**
-     * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+     * <code>.ChatInfo.BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
      * @return Whether the beyondCostumeShareCode field is set.
      */
     @java.lang.Override
@@ -8005,25 +8131,25 @@ public final class ChatInfoOuterClass {
       return contentCase_ == 394;
     }
     /**
-     * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+     * <code>.ChatInfo.BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
      * @return The beyondCostumeShareCode.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode getBeyondCostumeShareCode() {
+    public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode getBeyondCostumeShareCode() {
       if (contentCase_ == 394) {
-         return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) content_;
+         return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode) content_;
       }
-      return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.getDefaultInstance();
+      return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode.getDefaultInstance();
     }
     /**
-     * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+     * <code>.ChatInfo.BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCodeOrBuilder getBeyondCostumeShareCodeOrBuilder() {
+    public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCodeOrBuilder getBeyondCostumeShareCodeOrBuilder() {
       if (contentCase_ == 394) {
-         return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) content_;
+         return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode) content_;
       }
-      return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.getDefaultInstance();
+      return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode.getDefaultInstance();
     }
 
     public static final int ICON_FIELD_NUMBER = 654;
@@ -8347,132 +8473,6 @@ public final class ChatInfoOuterClass {
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation.getDefaultInstance();
     }
 
-    public static final int _XUID_FIELD_NUMBER = 2;
-    private volatile java.lang.Object Xuid_;
-    /**
-     * <code>string _xuid = 2;</code>
-     * @return The xuid.
-     */
-    @java.lang.Override
-    public java.lang.String getXuid() {
-      java.lang.Object ref = Xuid_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        Xuid_ = s;
-        return s;
-      }
-    }
-    /**
-     * <code>string _xuid = 2;</code>
-     * @return The bytes for xuid.
-     */
-    @java.lang.Override
-    public com.google.protobuf.ByteString
-        getXuidBytes() {
-      java.lang.Object ref = Xuid_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        Xuid_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
-    public static final int TO_UID_FIELD_NUMBER = 3;
-    private int toUid_;
-    /**
-     * <code>uint32 to_uid = 3;</code>
-     * @return The toUid.
-     */
-    @java.lang.Override
-    public int getToUid() {
-      return toUid_;
-    }
-
-    public static final int ALKIPKCAPFL_FIELD_NUMBER = 5;
-    private int aLKIPKCAPFL_;
-    /**
-     * <code>uint32 ALKIPKCAPFL = 5;</code>
-     * @return The aLKIPKCAPFL.
-     */
-    @java.lang.Override
-    public int getALKIPKCAPFL() {
-      return aLKIPKCAPFL_;
-    }
-
-    public static final int PLATFORM_TYPE_FIELD_NUMBER = 7;
-    private int platformType_;
-    /**
-     * <code>uint32 platform_type = 7;</code>
-     * @return The platformType.
-     */
-    @java.lang.Override
-    public int getPlatformType() {
-      return platformType_;
-    }
-
-    public static final int UID_FIELD_NUMBER = 8;
-    private int uid_;
-    /**
-     * <code>uint32 uid = 8;</code>
-     * @return The uid.
-     */
-    @java.lang.Override
-    public int getUid() {
-      return uid_;
-    }
-
-    public static final int TIME_FIELD_NUMBER = 9;
-    private int time_;
-    /**
-     * <code>uint32 time = 9;</code>
-     * @return The time.
-     */
-    @java.lang.Override
-    public int getTime() {
-      return time_;
-    }
-
-    public static final int OIEHJMHHCFB_FIELD_NUMBER = 10;
-    private long oIEHJMHHCFB_;
-    /**
-     * <code>uint64 OIEHJMHHCFB = 10;</code>
-     * @return The oIEHJMHHCFB.
-     */
-    @java.lang.Override
-    public long getOIEHJMHHCFB() {
-      return oIEHJMHHCFB_;
-    }
-
-    public static final int IS_READ_FIELD_NUMBER = 13;
-    private boolean isRead_;
-    /**
-     * <code>bool is_read = 13;</code>
-     * @return The isRead.
-     */
-    @java.lang.Override
-    public boolean getIsRead() {
-      return isRead_;
-    }
-
-    public static final int SEQUENCE_FIELD_NUMBER = 15;
-    private int sequence_;
-    /**
-     * <code>uint32 sequence = 15;</code>
-     * @return The sequence.
-     */
-    @java.lang.Override
-    public int getSequence() {
-      return sequence_;
-    }
-
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -8487,9 +8487,9 @@ public final class ChatInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (mentionCase_ == 1) {
+      if (iLHFEBFKBOGCase_ == 1) {
         output.writeBool(
-            1, (boolean)((java.lang.Boolean) mention_));
+            1, (boolean)((java.lang.Boolean) iLHFEBFKBOG_));
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(Xuid_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 2, Xuid_);
@@ -8512,9 +8512,9 @@ public final class ChatInfoOuterClass {
       if (oIEHJMHHCFB_ != 0L) {
         output.writeUInt64(10, oIEHJMHHCFB_);
       }
-      if (mentionCase_ == 12) {
+      if (iLHFEBFKBOGCase_ == 12) {
         output.writeUInt32(
-            12, (int)((java.lang.Integer) mention_));
+            12, (int)((java.lang.Integer) iLHFEBFKBOG_));
       }
       if (isRead_ != false) {
         output.writeBool(13, isRead_);
@@ -8526,7 +8526,7 @@ public final class ChatInfoOuterClass {
         output.writeMessage(386, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment) content_);
       }
       if (contentCase_ == 394) {
-        output.writeMessage(394, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) content_);
+        output.writeMessage(394, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode) content_);
       }
       if (contentCase_ == 654) {
         output.writeUInt32(
@@ -8568,10 +8568,10 @@ public final class ChatInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (mentionCase_ == 1) {
+      if (iLHFEBFKBOGCase_ == 1) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(
-              1, (boolean)((java.lang.Boolean) mention_));
+              1, (boolean)((java.lang.Boolean) iLHFEBFKBOG_));
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(Xuid_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, Xuid_);
@@ -8600,10 +8600,10 @@ public final class ChatInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt64Size(10, oIEHJMHHCFB_);
       }
-      if (mentionCase_ == 12) {
+      if (iLHFEBFKBOGCase_ == 12) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(
-              12, (int)((java.lang.Integer) mention_));
+              12, (int)((java.lang.Integer) iLHFEBFKBOG_));
       }
       if (isRead_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -8619,7 +8619,7 @@ public final class ChatInfoOuterClass {
       }
       if (contentCase_ == 394) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(394, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) content_);
+          .computeMessageSize(394, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode) content_);
       }
       if (contentCase_ == 654) {
         size += com.google.protobuf.CodedOutputStream
@@ -8694,8 +8694,8 @@ public final class ChatInfoOuterClass {
           != other.getIsRead()) return false;
       if (getSequence()
           != other.getSequence()) return false;
-      if (!getMentionCase().equals(other.getMentionCase())) return false;
-      switch (mentionCase_) {
+      if (!getILHFEBFKBOGCase().equals(other.getILHFEBFKBOGCase())) return false;
+      switch (iLHFEBFKBOGCase_) {
         case 1:
           if (getIsMentionAll()
               != other.getIsMentionAll()) return false;
@@ -8791,7 +8791,7 @@ public final class ChatInfoOuterClass {
           getIsRead());
       hash = (37 * hash) + SEQUENCE_FIELD_NUMBER;
       hash = (53 * hash) + getSequence();
-      switch (mentionCase_) {
+      switch (iLHFEBFKBOGCase_) {
         case 1:
           hash = (37 * hash) + IS_MENTION_ALL_FIELD_NUMBER;
           hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
@@ -9007,8 +9007,8 @@ public final class ChatInfoOuterClass {
 
         sequence_ = 0;
 
-        mentionCase_ = 0;
-        mention_ = null;
+        iLHFEBFKBOGCase_ = 0;
+        iLHFEBFKBOG_ = null;
         contentCase_ = 0;
         content_ = null;
         return this;
@@ -9037,12 +9037,21 @@ public final class ChatInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo buildPartial() {
         emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo result = new emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo(this);
-        if (mentionCase_ == 1) {
-          result.mention_ = mention_;
+        if (iLHFEBFKBOGCase_ == 1) {
+          result.iLHFEBFKBOG_ = iLHFEBFKBOG_;
         }
-        if (mentionCase_ == 12) {
-          result.mention_ = mention_;
+        if (iLHFEBFKBOGCase_ == 12) {
+          result.iLHFEBFKBOG_ = iLHFEBFKBOG_;
         }
+        result.Xuid_ = Xuid_;
+        result.toUid_ = toUid_;
+        result.aLKIPKCAPFL_ = aLKIPKCAPFL_;
+        result.platformType_ = platformType_;
+        result.uid_ = uid_;
+        result.time_ = time_;
+        result.oIEHJMHHCFB_ = oIEHJMHHCFB_;
+        result.isRead_ = isRead_;
+        result.sequence_ = sequence_;
         if (contentCase_ == 386) {
           if (beyondTeamRecruitmentBuilder_ == null) {
             result.content_ = content_;
@@ -9119,16 +9128,7 @@ public final class ChatInfoOuterClass {
             result.content_ = beyondTeamInvitationBuilder_.build();
           }
         }
-        result.Xuid_ = Xuid_;
-        result.toUid_ = toUid_;
-        result.aLKIPKCAPFL_ = aLKIPKCAPFL_;
-        result.platformType_ = platformType_;
-        result.uid_ = uid_;
-        result.time_ = time_;
-        result.oIEHJMHHCFB_ = oIEHJMHHCFB_;
-        result.isRead_ = isRead_;
-        result.sequence_ = sequence_;
-        result.mentionCase_ = mentionCase_;
+        result.iLHFEBFKBOGCase_ = iLHFEBFKBOGCase_;
         result.contentCase_ = contentCase_;
         onBuilt();
         return result;
@@ -9206,7 +9206,7 @@ public final class ChatInfoOuterClass {
         if (other.getSequence() != 0) {
           setSequence(other.getSequence());
         }
-        switch (other.getMentionCase()) {
+        switch (other.getILHFEBFKBOGCase()) {
           case IS_MENTION_ALL: {
             setIsMentionAll(other.getIsMentionAll());
             break;
@@ -9215,7 +9215,7 @@ public final class ChatInfoOuterClass {
             setMentionedUid(other.getMentionedUid());
             break;
           }
-          case MENTION_NOT_SET: {
+          case ILHFEBFKBOG_NOT_SET: {
             break;
           }
         }
@@ -9302,17 +9302,17 @@ public final class ChatInfoOuterClass {
         }
         return this;
       }
-      private int mentionCase_ = 0;
-      private java.lang.Object mention_;
-      public MentionCase
-          getMentionCase() {
-        return MentionCase.forNumber(
-            mentionCase_);
+      private int iLHFEBFKBOGCase_ = 0;
+      private java.lang.Object iLHFEBFKBOG_;
+      public ILHFEBFKBOGCase
+          getILHFEBFKBOGCase() {
+        return ILHFEBFKBOGCase.forNumber(
+            iLHFEBFKBOGCase_);
       }
 
-      public Builder clearMention() {
-        mentionCase_ = 0;
-        mention_ = null;
+      public Builder clearILHFEBFKBOG() {
+        iLHFEBFKBOGCase_ = 0;
+        iLHFEBFKBOG_ = null;
         onChanged();
         return this;
       }
@@ -9338,15 +9338,15 @@ public final class ChatInfoOuterClass {
        * @return Whether the isMentionAll field is set.
        */
       public boolean hasIsMentionAll() {
-        return mentionCase_ == 1;
+        return iLHFEBFKBOGCase_ == 1;
       }
       /**
        * <code>bool is_mention_all = 1;</code>
        * @return The isMentionAll.
        */
       public boolean getIsMentionAll() {
-        if (mentionCase_ == 1) {
-          return (java.lang.Boolean) mention_;
+        if (iLHFEBFKBOGCase_ == 1) {
+          return (java.lang.Boolean) iLHFEBFKBOG_;
         }
         return false;
       }
@@ -9356,8 +9356,8 @@ public final class ChatInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsMentionAll(boolean value) {
-        mentionCase_ = 1;
-        mention_ = value;
+        iLHFEBFKBOGCase_ = 1;
+        iLHFEBFKBOG_ = value;
         onChanged();
         return this;
       }
@@ -9366,9 +9366,9 @@ public final class ChatInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsMentionAll() {
-        if (mentionCase_ == 1) {
-          mentionCase_ = 0;
-          mention_ = null;
+        if (iLHFEBFKBOGCase_ == 1) {
+          iLHFEBFKBOGCase_ = 0;
+          iLHFEBFKBOG_ = null;
           onChanged();
         }
         return this;
@@ -9379,15 +9379,15 @@ public final class ChatInfoOuterClass {
        * @return Whether the mentionedUid field is set.
        */
       public boolean hasMentionedUid() {
-        return mentionCase_ == 12;
+        return iLHFEBFKBOGCase_ == 12;
       }
       /**
        * <code>uint32 mentioned_uid = 12;</code>
        * @return The mentionedUid.
        */
       public int getMentionedUid() {
-        if (mentionCase_ == 12) {
-          return (java.lang.Integer) mention_;
+        if (iLHFEBFKBOGCase_ == 12) {
+          return (java.lang.Integer) iLHFEBFKBOG_;
         }
         return 0;
       }
@@ -9397,8 +9397,8 @@ public final class ChatInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMentionedUid(int value) {
-        mentionCase_ = 12;
-        mention_ = value;
+        iLHFEBFKBOGCase_ = 12;
+        iLHFEBFKBOG_ = value;
         onChanged();
         return this;
       }
@@ -9407,11 +9407,335 @@ public final class ChatInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMentionedUid() {
-        if (mentionCase_ == 12) {
-          mentionCase_ = 0;
-          mention_ = null;
+        if (iLHFEBFKBOGCase_ == 12) {
+          iLHFEBFKBOGCase_ = 0;
+          iLHFEBFKBOG_ = null;
           onChanged();
         }
+        return this;
+      }
+
+      private java.lang.Object Xuid_ = "";
+      /**
+       * <code>string _xuid = 2;</code>
+       * @return The xuid.
+       */
+      public java.lang.String getXuid() {
+        java.lang.Object ref = Xuid_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          Xuid_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>string _xuid = 2;</code>
+       * @return The bytes for xuid.
+       */
+      public com.google.protobuf.ByteString
+          getXuidBytes() {
+        java.lang.Object ref = Xuid_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          Xuid_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>string _xuid = 2;</code>
+       * @param value The xuid to set.
+       * @return This builder for chaining.
+       */
+      public Builder setXuid(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        Xuid_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>string _xuid = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearXuid() {
+        
+        Xuid_ = getDefaultInstance().getXuid();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>string _xuid = 2;</code>
+       * @param value The bytes for xuid to set.
+       * @return This builder for chaining.
+       */
+      public Builder setXuidBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+        
+        Xuid_ = value;
+        onChanged();
+        return this;
+      }
+
+      private int toUid_ ;
+      /**
+       * <code>uint32 to_uid = 3;</code>
+       * @return The toUid.
+       */
+      @java.lang.Override
+      public int getToUid() {
+        return toUid_;
+      }
+      /**
+       * <code>uint32 to_uid = 3;</code>
+       * @param value The toUid to set.
+       * @return This builder for chaining.
+       */
+      public Builder setToUid(int value) {
+        
+        toUid_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 to_uid = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearToUid() {
+        
+        toUid_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int aLKIPKCAPFL_ ;
+      /**
+       * <code>uint32 ALKIPKCAPFL = 5;</code>
+       * @return The aLKIPKCAPFL.
+       */
+      @java.lang.Override
+      public int getALKIPKCAPFL() {
+        return aLKIPKCAPFL_;
+      }
+      /**
+       * <code>uint32 ALKIPKCAPFL = 5;</code>
+       * @param value The aLKIPKCAPFL to set.
+       * @return This builder for chaining.
+       */
+      public Builder setALKIPKCAPFL(int value) {
+        
+        aLKIPKCAPFL_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 ALKIPKCAPFL = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearALKIPKCAPFL() {
+        
+        aLKIPKCAPFL_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int platformType_ ;
+      /**
+       * <code>uint32 platform_type = 7;</code>
+       * @return The platformType.
+       */
+      @java.lang.Override
+      public int getPlatformType() {
+        return platformType_;
+      }
+      /**
+       * <code>uint32 platform_type = 7;</code>
+       * @param value The platformType to set.
+       * @return This builder for chaining.
+       */
+      public Builder setPlatformType(int value) {
+        
+        platformType_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 platform_type = 7;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearPlatformType() {
+        
+        platformType_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int uid_ ;
+      /**
+       * <code>uint32 uid = 8;</code>
+       * @return The uid.
+       */
+      @java.lang.Override
+      public int getUid() {
+        return uid_;
+      }
+      /**
+       * <code>uint32 uid = 8;</code>
+       * @param value The uid to set.
+       * @return This builder for chaining.
+       */
+      public Builder setUid(int value) {
+        
+        uid_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 uid = 8;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearUid() {
+        
+        uid_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int time_ ;
+      /**
+       * <code>uint32 time = 9;</code>
+       * @return The time.
+       */
+      @java.lang.Override
+      public int getTime() {
+        return time_;
+      }
+      /**
+       * <code>uint32 time = 9;</code>
+       * @param value The time to set.
+       * @return This builder for chaining.
+       */
+      public Builder setTime(int value) {
+        
+        time_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 time = 9;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearTime() {
+        
+        time_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private long oIEHJMHHCFB_ ;
+      /**
+       * <code>uint64 OIEHJMHHCFB = 10;</code>
+       * @return The oIEHJMHHCFB.
+       */
+      @java.lang.Override
+      public long getOIEHJMHHCFB() {
+        return oIEHJMHHCFB_;
+      }
+      /**
+       * <code>uint64 OIEHJMHHCFB = 10;</code>
+       * @param value The oIEHJMHHCFB to set.
+       * @return This builder for chaining.
+       */
+      public Builder setOIEHJMHHCFB(long value) {
+        
+        oIEHJMHHCFB_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint64 OIEHJMHHCFB = 10;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearOIEHJMHHCFB() {
+        
+        oIEHJMHHCFB_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private boolean isRead_ ;
+      /**
+       * <code>bool is_read = 13;</code>
+       * @return The isRead.
+       */
+      @java.lang.Override
+      public boolean getIsRead() {
+        return isRead_;
+      }
+      /**
+       * <code>bool is_read = 13;</code>
+       * @param value The isRead to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsRead(boolean value) {
+        
+        isRead_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool is_read = 13;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsRead() {
+        
+        isRead_ = false;
+        onChanged();
+        return this;
+      }
+
+      private int sequence_ ;
+      /**
+       * <code>uint32 sequence = 15;</code>
+       * @return The sequence.
+       */
+      @java.lang.Override
+      public int getSequence() {
+        return sequence_;
+      }
+      /**
+       * <code>uint32 sequence = 15;</code>
+       * @param value The sequence to set.
+       * @return This builder for chaining.
+       */
+      public Builder setSequence(int value) {
+        
+        sequence_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 sequence = 15;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearSequence() {
+        
+        sequence_ = 0;
+        onChanged();
         return this;
       }
 
@@ -9557,9 +9881,9 @@ public final class ChatInfoOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCodeOrBuilder> beyondCostumeShareCodeBuilder_;
+          emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCodeOrBuilder> beyondCostumeShareCodeBuilder_;
       /**
-       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+       * <code>.ChatInfo.BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
        * @return Whether the beyondCostumeShareCode field is set.
        */
       @java.lang.Override
@@ -9567,27 +9891,27 @@ public final class ChatInfoOuterClass {
         return contentCase_ == 394;
       }
       /**
-       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+       * <code>.ChatInfo.BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
        * @return The beyondCostumeShareCode.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode getBeyondCostumeShareCode() {
+      public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode getBeyondCostumeShareCode() {
         if (beyondCostumeShareCodeBuilder_ == null) {
           if (contentCase_ == 394) {
-            return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) content_;
+            return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode) content_;
           }
-          return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.getDefaultInstance();
+          return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode.getDefaultInstance();
         } else {
           if (contentCase_ == 394) {
             return beyondCostumeShareCodeBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.getDefaultInstance();
+          return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+       * <code>.ChatInfo.BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
        */
-      public Builder setBeyondCostumeShareCode(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode value) {
+      public Builder setBeyondCostumeShareCode(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode value) {
         if (beyondCostumeShareCodeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -9601,10 +9925,10 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+       * <code>.ChatInfo.BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
        */
       public Builder setBeyondCostumeShareCode(
-          emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.Builder builderForValue) {
+          emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode.Builder builderForValue) {
         if (beyondCostumeShareCodeBuilder_ == null) {
           content_ = builderForValue.build();
           onChanged();
@@ -9615,13 +9939,13 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+       * <code>.ChatInfo.BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
        */
-      public Builder mergeBeyondCostumeShareCode(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode value) {
+      public Builder mergeBeyondCostumeShareCode(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode value) {
         if (beyondCostumeShareCodeBuilder_ == null) {
           if (contentCase_ == 394 &&
-              content_ != emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.getDefaultInstance()) {
-            content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.newBuilder((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) content_)
+              content_ != emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode.getDefaultInstance()) {
+            content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode.newBuilder((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode) content_)
                 .mergeFrom(value).buildPartial();
           } else {
             content_ = value;
@@ -9637,7 +9961,7 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+       * <code>.ChatInfo.BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
        */
       public Builder clearBeyondCostumeShareCode() {
         if (beyondCostumeShareCodeBuilder_ == null) {
@@ -9656,38 +9980,38 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+       * <code>.ChatInfo.BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
        */
-      public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.Builder getBeyondCostumeShareCodeBuilder() {
+      public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode.Builder getBeyondCostumeShareCodeBuilder() {
         return getBeyondCostumeShareCodeFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+       * <code>.ChatInfo.BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCodeOrBuilder getBeyondCostumeShareCodeOrBuilder() {
+      public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCodeOrBuilder getBeyondCostumeShareCodeOrBuilder() {
         if ((contentCase_ == 394) && (beyondCostumeShareCodeBuilder_ != null)) {
           return beyondCostumeShareCodeBuilder_.getMessageOrBuilder();
         } else {
           if (contentCase_ == 394) {
-            return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) content_;
+            return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode) content_;
           }
-          return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.getDefaultInstance();
+          return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+       * <code>.ChatInfo.BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCodeOrBuilder> 
+          emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCodeOrBuilder> 
           getBeyondCostumeShareCodeFieldBuilder() {
         if (beyondCostumeShareCodeBuilder_ == null) {
           if (!(contentCase_ == 394)) {
-            content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.getDefaultInstance();
+            content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode.getDefaultInstance();
           }
           beyondCostumeShareCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCodeOrBuilder>(
-                  (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) content_,
+              emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCodeOrBuilder>(
+                  (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.BeyondCostumeShareCode) content_,
                   getParentForChildren(),
                   isClean());
           content_ = null;
@@ -10962,330 +11286,6 @@ public final class ChatInfoOuterClass {
         onChanged();;
         return beyondTeamInvitationBuilder_;
       }
-
-      private java.lang.Object Xuid_ = "";
-      /**
-       * <code>string _xuid = 2;</code>
-       * @return The xuid.
-       */
-      public java.lang.String getXuid() {
-        java.lang.Object ref = Xuid_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          Xuid_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>string _xuid = 2;</code>
-       * @return The bytes for xuid.
-       */
-      public com.google.protobuf.ByteString
-          getXuidBytes() {
-        java.lang.Object ref = Xuid_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          Xuid_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>string _xuid = 2;</code>
-       * @param value The xuid to set.
-       * @return This builder for chaining.
-       */
-      public Builder setXuid(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  
-        Xuid_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string _xuid = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearXuid() {
-        
-        Xuid_ = getDefaultInstance().getXuid();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string _xuid = 2;</code>
-       * @param value The bytes for xuid to set.
-       * @return This builder for chaining.
-       */
-      public Builder setXuidBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-        
-        Xuid_ = value;
-        onChanged();
-        return this;
-      }
-
-      private int toUid_ ;
-      /**
-       * <code>uint32 to_uid = 3;</code>
-       * @return The toUid.
-       */
-      @java.lang.Override
-      public int getToUid() {
-        return toUid_;
-      }
-      /**
-       * <code>uint32 to_uid = 3;</code>
-       * @param value The toUid to set.
-       * @return This builder for chaining.
-       */
-      public Builder setToUid(int value) {
-        
-        toUid_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 to_uid = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearToUid() {
-        
-        toUid_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int aLKIPKCAPFL_ ;
-      /**
-       * <code>uint32 ALKIPKCAPFL = 5;</code>
-       * @return The aLKIPKCAPFL.
-       */
-      @java.lang.Override
-      public int getALKIPKCAPFL() {
-        return aLKIPKCAPFL_;
-      }
-      /**
-       * <code>uint32 ALKIPKCAPFL = 5;</code>
-       * @param value The aLKIPKCAPFL to set.
-       * @return This builder for chaining.
-       */
-      public Builder setALKIPKCAPFL(int value) {
-        
-        aLKIPKCAPFL_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 ALKIPKCAPFL = 5;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearALKIPKCAPFL() {
-        
-        aLKIPKCAPFL_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int platformType_ ;
-      /**
-       * <code>uint32 platform_type = 7;</code>
-       * @return The platformType.
-       */
-      @java.lang.Override
-      public int getPlatformType() {
-        return platformType_;
-      }
-      /**
-       * <code>uint32 platform_type = 7;</code>
-       * @param value The platformType to set.
-       * @return This builder for chaining.
-       */
-      public Builder setPlatformType(int value) {
-        
-        platformType_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 platform_type = 7;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearPlatformType() {
-        
-        platformType_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int uid_ ;
-      /**
-       * <code>uint32 uid = 8;</code>
-       * @return The uid.
-       */
-      @java.lang.Override
-      public int getUid() {
-        return uid_;
-      }
-      /**
-       * <code>uint32 uid = 8;</code>
-       * @param value The uid to set.
-       * @return This builder for chaining.
-       */
-      public Builder setUid(int value) {
-        
-        uid_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 uid = 8;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearUid() {
-        
-        uid_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int time_ ;
-      /**
-       * <code>uint32 time = 9;</code>
-       * @return The time.
-       */
-      @java.lang.Override
-      public int getTime() {
-        return time_;
-      }
-      /**
-       * <code>uint32 time = 9;</code>
-       * @param value The time to set.
-       * @return This builder for chaining.
-       */
-      public Builder setTime(int value) {
-        
-        time_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 time = 9;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearTime() {
-        
-        time_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private long oIEHJMHHCFB_ ;
-      /**
-       * <code>uint64 OIEHJMHHCFB = 10;</code>
-       * @return The oIEHJMHHCFB.
-       */
-      @java.lang.Override
-      public long getOIEHJMHHCFB() {
-        return oIEHJMHHCFB_;
-      }
-      /**
-       * <code>uint64 OIEHJMHHCFB = 10;</code>
-       * @param value The oIEHJMHHCFB to set.
-       * @return This builder for chaining.
-       */
-      public Builder setOIEHJMHHCFB(long value) {
-        
-        oIEHJMHHCFB_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint64 OIEHJMHHCFB = 10;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearOIEHJMHHCFB() {
-        
-        oIEHJMHHCFB_ = 0L;
-        onChanged();
-        return this;
-      }
-
-      private boolean isRead_ ;
-      /**
-       * <code>bool is_read = 13;</code>
-       * @return The isRead.
-       */
-      @java.lang.Override
-      public boolean getIsRead() {
-        return isRead_;
-      }
-      /**
-       * <code>bool is_read = 13;</code>
-       * @param value The isRead to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIsRead(boolean value) {
-        
-        isRead_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool is_read = 13;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIsRead() {
-        
-        isRead_ = false;
-        onChanged();
-        return this;
-      }
-
-      private int sequence_ ;
-      /**
-       * <code>uint32 sequence = 15;</code>
-       * @return The sequence.
-       */
-      @java.lang.Override
-      public int getSequence() {
-        return sequence_;
-      }
-      /**
-       * <code>uint32 sequence = 15;</code>
-       * @param value The sequence to set.
-       * @return This builder for chaining.
-       */
-      public Builder setSequence(int value) {
-        
-        sequence_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 sequence = 15;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearSequence() {
-        
-        sequence_ = 0;
-        onChanged();
-        return this;
-      }
       @java.lang.Override
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -11385,10 +11385,10 @@ public final class ChatInfoOuterClass {
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ChatInfo__BeyondGachaGift_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_ChatInfo__BeyondCostumeShareCode_descriptor;
+    internal_static_ChatInfo_BeyondCostumeShareCode_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_ChatInfo__BeyondCostumeShareCode_fieldAccessorTable;
+      internal_static_ChatInfo_BeyondCostumeShareCode_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ChatInfo__HallRecruitingInvitation_descriptor;
   private static final 
@@ -11403,68 +11403,69 @@ public final class ChatInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\016ChatInfo.proto\"\212\017\n\010ChatInfo\022\030\n\016is_ment" +
-      "ion_all\030\001 \001(\010H\000\022\027\n\rmentioned_uid\030\014 \001(\rH\000" +
-      "\022D\n\027beyond_team_recruitment\030\202\003 \001(\0132 .Cha" +
-      "tInfo._BeyondTeamRecruitmentH\001\022G\n\031beyond" +
-      "_costume_share_code\030\212\003 \001(\0132!.ChatInfo._B" +
-      "eyondCostumeShareCodeH\001\022\017\n\004icon\030\216\005 \001(\rH\001" +
-      "\022B\n\026beyond_room_invitation\030\373\005 \001(\0132\037.Chat" +
-      "Info._BeyondRoomInvitationH\001\022O\n\035beyond_c" +
-      "ollection_new_captain\030\301\006 \001(\0132%.ChatInfo." +
-      "_BeyondCollectionNewCaptainH\001\022,\n\013system_" +
-      "hint\030\246\007 \001(\0132\024.ChatInfo.SystemHintH\001\0225\n\017h" +
-      "all_invitation\030\220\t \001(\0132\031.ChatInfo._HallIn" +
-      "vitationH\001\022\017\n\004text\030\373\t \001(\tH\001\022D\n\027beyond_te" +
-      "am_application\030\307\n \001(\0132 .ChatInfo._Beyond" +
-      "TeamApplicationH\001\022J\n\032hall_recruiting_inv" +
-      "itation\030\372\n \001(\0132#.ChatInfo._HallRecruitin" +
-      "gInvitationH\001\0228\n\021beyond_gacha_gift\030\330\013 \001(" +
-      "\0132\032.ChatInfo._BeyondGachaGiftH\001\022B\n\026beyon" +
-      "d_team_invitation\030\315\014 \001(\0132\037.ChatInfo._Bey" +
-      "ondTeamInvitationH\001\022\r\n\005_xuid\030\002 \001(\t\022\016\n\006to" +
-      "_uid\030\003 \001(\r\022\023\n\013ALKIPKCAPFL\030\005 \001(\r\022\025\n\rplatf" +
-      "orm_type\030\007 \001(\r\022\013\n\003uid\030\010 \001(\r\022\014\n\004time\030\t \001(" +
-      "\r\022\023\n\013OIEHJMHHCFB\030\n \001(\004\022\017\n\007is_read\030\r \001(\010\022" +
-      "\020\n\010sequence\030\017 \001(\r\032,\n\nSystemHint\022\014\n\004type\030" +
-      "\004 \001(\r\022\020\n\010uid_list\030\r \003(\r\032\\\n\033_BeyondCollec" +
-      "tionNewCaptain\022\023\n\013PCLIOFOLGJG\030\010 \001(\t\022\023\n\013P" +
-      "IIDPLPGDOJ\030\013 \001(\r\022\023\n\013OHANCMMCDHI\030\014 \001(\r\032\244\001" +
-      "\n\017_HallInvitation\022\023\n\013DGNNJCJPGEO\030\001 \001(\r\022\023" +
-      "\n\013BJFFLGDNMPL\030\004 \001(\004\022\023\n\013CFPLKFNPNAM\030\006 \003(\r" +
-      "\022\023\n\013GHNMBPLBBFN\030\010 \001(\r\022\023\n\013BOJNPHONGMP\030\013 \001" +
-      "(\004\022\023\n\013CNFEBIOPANP\030\014 \001(\r\022\023\n\013EPHGOMPBKJA\030\017" +
-      " \001(\r\032k\n\025_BeyondTeamInvitation\022\023\n\013EPHGOMP" +
-      "BKJA\030\013 \001(\r\022\023\n\013BOJNPHONGMP\030\014 \001(\004\022\023\n\013GHNMB" +
-      "PLBBFN\030\016 \001(\r\022\023\n\013CNFEBIOPANP\030\017 \001(\r\032k\n\026_Be" +
-      "yondTeamApplication\022\023\n\013MIHICCAEFOM\030\001 \001(\004" +
-      "\022\023\n\013GJNLFEJCKPA\030\n \001(\r\022\022\n\ntarget_uid\030\r \001(" +
-      "\r\022\023\n\013HDMBGALJFMK\030\017 \001(\r\032W\n\026_BeyondTeamRec" +
-      "ruitment\022\023\n\013OJDIIPKINNL\030\006 \001(\r\022\023\n\013FDIFPEH" +
-      "DKFD\030\n \001(\r\022\023\n\013EILHBPNLEFB\030\016 \001(\r\032\200\001\n\025_Bey" +
-      "ondRoomInvitation\022\023\n\013GHNMBPLBBFN\030\002 \001(\r\022\023" +
-      "\n\013BOJNPHONGMP\030\006 \001(\004\022\023\n\013NMAOGMMKNBG\030\010 \001(\004" +
-      "\022\023\n\013CNFEBIOPANP\030\013 \001(\r\022\023\n\013EPHGOMPBKJA\030\014 \001" +
-      "(\r\032\'\n\020_BeyondGachaGift\022\023\n\013transaction\030\004 " +
-      "\001(\t\032.\n\027_BeyondCostumeShareCode\022\023\n\013FEPAFA" +
-      "NMNLK\030\007 \001(\014\032\231\001\n\031_HallRecruitingInvitatio" +
-      "n\022\023\n\013DKLMLPNMIHN\030\002 \001(\004\022\023\n\013DELCBHHBDCJ\030\005 " +
-      "\001(\r\022\023\n\013EILHBPNLEFB\030\010 \001(\r\022\023\n\013LMNLLOEFBOM\030" +
-      "\n \001(\r\022\023\n\013GOFEPGIPJNF\030\016 \003(\r\022\023\n\013OJDIIPKINN" +
-      "L\030\017 \001(\004B\t\n\007mentionB\t\n\007contentB/\n\031emu.gra" +
-      "sscutter.net.protoB\022ChatInfoOuterClassb\006" +
-      "proto3"
+      "\n\016ChatInfo.proto\032\026_BeyondGachaGift.proto" +
+      "\"\214\017\n\010ChatInfo\022\030\n\016is_mention_all\030\001 \001(\010H\000\022" +
+      "\027\n\rmentioned_uid\030\014 \001(\rH\000\022\r\n\005_xuid\030\002 \001(\t\022" +
+      "\016\n\006to_uid\030\003 \001(\r\022\023\n\013ALKIPKCAPFL\030\005 \001(\r\022\025\n\r" +
+      "platform_type\030\007 \001(\r\022\013\n\003uid\030\010 \001(\r\022\014\n\004time" +
+      "\030\t \001(\r\022\023\n\013OIEHJMHHCFB\030\n \001(\004\022\017\n\007is_read\030\r" +
+      " \001(\010\022\020\n\010sequence\030\017 \001(\r\022D\n\027beyond_team_re" +
+      "cruitment\030\202\003 \001(\0132 .ChatInfo._BeyondTeamR" +
+      "ecruitmentH\001\022F\n\031beyond_costume_share_cod" +
+      "e\030\212\003 \001(\0132 .ChatInfo.BeyondCostumeShareCo" +
+      "deH\001\022\017\n\004icon\030\216\005 \001(\rH\001\022B\n\026beyond_room_inv" +
+      "itation\030\373\005 \001(\0132\037.ChatInfo._BeyondRoomInv" +
+      "itationH\001\022O\n\035beyond_collection_new_capta" +
+      "in\030\301\006 \001(\0132%.ChatInfo._BeyondCollectionNe" +
+      "wCaptainH\001\022,\n\013system_hint\030\246\007 \001(\0132\024.ChatI" +
+      "nfo.SystemHintH\001\0225\n\017hall_invitation\030\220\t \001" +
+      "(\0132\031.ChatInfo._HallInvitationH\001\022\017\n\004text\030" +
+      "\373\t \001(\tH\001\022D\n\027beyond_team_application\030\307\n \001" +
+      "(\0132 .ChatInfo._BeyondTeamApplicationH\001\022J" +
+      "\n\032hall_recruiting_invitation\030\372\n \001(\0132#.Ch" +
+      "atInfo._HallRecruitingInvitationH\001\0228\n\021be" +
+      "yond_gacha_gift\030\330\013 \001(\0132\032.ChatInfo._Beyon" +
+      "dGachaGiftH\001\022B\n\026beyond_team_invitation\030\315" +
+      "\014 \001(\0132\037.ChatInfo._BeyondTeamInvitationH\001" +
+      "\032,\n\nSystemHint\022\014\n\004type\030\004 \001(\r\022\020\n\010uid_list" +
+      "\030\r \003(\r\032\\\n\033_BeyondCollectionNewCaptain\022\023\n" +
+      "\013PCLIOFOLGJG\030\010 \001(\t\022\023\n\013PIIDPLPGDOJ\030\013 \001(\r\022" +
+      "\023\n\013OHANCMMCDHI\030\014 \001(\r\032\244\001\n\017_HallInvitation" +
+      "\022\023\n\013DGNNJCJPGEO\030\001 \001(\r\022\023\n\013BJFFLGDNMPL\030\004 \001" +
+      "(\004\022\023\n\013CFPLKFNPNAM\030\006 \003(\r\022\023\n\013GHNMBPLBBFN\030\010" +
+      " \001(\r\022\023\n\013BOJNPHONGMP\030\013 \001(\004\022\023\n\013CNFEBIOPANP" +
+      "\030\014 \001(\r\022\023\n\013EPHGOMPBKJA\030\017 \001(\r\032k\n\025_BeyondTe" +
+      "amInvitation\022\023\n\013EPHGOMPBKJA\030\013 \001(\r\022\023\n\013BOJ" +
+      "NPHONGMP\030\014 \001(\004\022\023\n\013GHNMBPLBBFN\030\016 \001(\r\022\023\n\013C" +
+      "NFEBIOPANP\030\017 \001(\r\032k\n\026_BeyondTeamApplicati" +
+      "on\022\023\n\013MIHICCAEFOM\030\001 \001(\004\022\023\n\013GJNLFEJCKPA\030\n" +
+      " \001(\r\022\022\n\ntarget_uid\030\r \001(\r\022\023\n\013HDMBGALJFMK\030" +
+      "\017 \001(\r\032W\n\026_BeyondTeamRecruitment\022\023\n\013OJDII" +
+      "PKINNL\030\006 \001(\r\022\023\n\013FDIFPEHDKFD\030\n \001(\r\022\023\n\013EIL" +
+      "HBPNLEFB\030\016 \001(\r\032\200\001\n\025_BeyondRoomInvitation" +
+      "\022\023\n\013GHNMBPLBBFN\030\002 \001(\r\022\023\n\013BOJNPHONGMP\030\006 \001" +
+      "(\004\022\023\n\013NMAOGMMKNBG\030\010 \001(\004\022\023\n\013CNFEBIOPANP\030\013" +
+      " \001(\r\022\023\n\013EPHGOMPBKJA\030\014 \001(\r\032\'\n\020_BeyondGach" +
+      "aGift\022\023\n\013transaction\030\004 \001(\t\032-\n\026BeyondCost" +
+      "umeShareCode\022\023\n\013FEPAFANMNLK\030\007 \001(\014\032\231\001\n\031_H" +
+      "allRecruitingInvitation\022\023\n\013DKLMLPNMIHN\030\002" +
+      " \001(\004\022\023\n\013DELCBHHBDCJ\030\005 \001(\r\022\023\n\013EILHBPNLEFB" +
+      "\030\010 \001(\r\022\023\n\013LMNLLOEFBOM\030\n \001(\r\022\023\n\013GOFEPGIPJ" +
+      "NF\030\016 \003(\r\022\023\n\013OJDIIPKINNL\030\017 \001(\004B\r\n\013ILHFEBF" +
+      "KBOGB\t\n\007contentB\033\n\031emu.grasscutter.net.p" +
+      "rotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
+          emu.grasscutter.net.proto.BeyondGachaGift.getDescriptor(),
         });
     internal_static_ChatInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_ChatInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ChatInfo_descriptor,
-        new java.lang.String[] { "IsMentionAll", "MentionedUid", "BeyondTeamRecruitment", "BeyondCostumeShareCode", "Icon", "BeyondRoomInvitation", "BeyondCollectionNewCaptain", "SystemHint", "HallInvitation", "Text", "BeyondTeamApplication", "HallRecruitingInvitation", "BeyondGachaGift", "BeyondTeamInvitation", "Xuid", "ToUid", "ALKIPKCAPFL", "PlatformType", "Uid", "Time", "OIEHJMHHCFB", "IsRead", "Sequence", "Mention", "Content", });
+        new java.lang.String[] { "IsMentionAll", "MentionedUid", "Xuid", "ToUid", "ALKIPKCAPFL", "PlatformType", "Uid", "Time", "OIEHJMHHCFB", "IsRead", "Sequence", "BeyondTeamRecruitment", "BeyondCostumeShareCode", "Icon", "BeyondRoomInvitation", "BeyondCollectionNewCaptain", "SystemHint", "HallInvitation", "Text", "BeyondTeamApplication", "HallRecruitingInvitation", "BeyondGachaGift", "BeyondTeamInvitation", "ILHFEBFKBOG", "Content", });
     internal_static_ChatInfo_SystemHint_descriptor =
       internal_static_ChatInfo_descriptor.getNestedTypes().get(0);
     internal_static_ChatInfo_SystemHint_fieldAccessorTable = new
@@ -11513,11 +11514,11 @@ public final class ChatInfoOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ChatInfo__BeyondGachaGift_descriptor,
         new java.lang.String[] { "Transaction", });
-    internal_static_ChatInfo__BeyondCostumeShareCode_descriptor =
+    internal_static_ChatInfo_BeyondCostumeShareCode_descriptor =
       internal_static_ChatInfo_descriptor.getNestedTypes().get(8);
-    internal_static_ChatInfo__BeyondCostumeShareCode_fieldAccessorTable = new
+    internal_static_ChatInfo_BeyondCostumeShareCode_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_ChatInfo__BeyondCostumeShareCode_descriptor,
+        internal_static_ChatInfo_BeyondCostumeShareCode_descriptor,
         new java.lang.String[] { "FEPAFANMNLK", });
     internal_static_ChatInfo__HallRecruitingInvitation_descriptor =
       internal_static_ChatInfo_descriptor.getNestedTypes().get(9);
@@ -11525,6 +11526,7 @@ public final class ChatInfoOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ChatInfo__HallRecruitingInvitation_descriptor,
         new java.lang.String[] { "DKLMLPNMIHN", "DELCBHHBDCJ", "EILHBPNLEFB", "LMNLLOEFBOM", "GOFEPGIPJNF", "OJDIIPKINNL", });
+    emu.grasscutter.net.proto.BeyondGachaGift.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -55,6 +55,10 @@ public final class AvatarSkillChangeNotifyOuterClass {
     int getAvatarSkillId();
   }
   /**
+   * <pre>
+   * CmdID: 3448
+   * </pre>
+   *
    * Protobuf type {@code AvatarSkillChangeNotify}
    */
   public static final class AvatarSkillChangeNotify extends
@@ -439,6 +443,10 @@ public final class AvatarSkillChangeNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 3448
+     * </pre>
+     *
      * Protobuf type {@code AvatarSkillChangeNotify}
      */
     public static final class Builder extends
@@ -871,9 +879,8 @@ public final class AvatarSkillChangeNotifyOuterClass {
       "arSkillChangeNotify\022\021\n\told_level\030\002 \001(\r\022\021" +
       "\n\tentity_id\030\006 \001(\r\022\026\n\016skill_depot_id\030\010 \001(" +
       "\r\022\023\n\013avatar_guid\030\n \001(\004\022\021\n\tcur_level\030\r \001(" +
-      "\r\022\027\n\017avatar_skill_id\030\016 \001(\rB>\n\031emu.grassc" +
-      "utter.net.protoB!AvatarSkillChangeNotify" +
-      "OuterClassb\006proto3"
+      "\r\022\027\n\017avatar_skill_id\030\016 \001(\rB\033\n\031emu.grassc" +
+      "utter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

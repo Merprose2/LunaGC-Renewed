@@ -588,9 +588,8 @@ public final class MapAreaInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MapAreaInfo.proto\"3\n\013MapAreaInfo\022\023\n\013ma" +
-      "p_area_id\030\001 \001(\r\022\017\n\007is_open\030\002 \001(\010B2\n\031emu." +
-      "grasscutter.net.protoB\025MapAreaInfoOuterC" +
-      "lassb\006proto3"
+      "p_area_id\030\001 \001(\r\022\017\n\007is_open\030\002 \001(\010B\033\n\031emu." +
+      "grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1036,9 +1036,8 @@ public final class CrystalLinkLevelInfoOuterClass {
       "kTeamInfo.proto\"{\n\024CrystalLinkLevelInfo\022" +
       "\020\n\010level_id\030\010 \001(\r\022\022\n\nbest_score\030\n \001(\r\022\017\n" +
       "\007is_open\030\014 \001(\010\022,\n\016team_info_list\030\r \003(\0132\024" +
-      ".CrystalLinkTeamInfoB;\n\031emu.grasscutter." +
-      "net.protoB\036CrystalLinkLevelInfoOuterClas" +
-      "sb\006proto3"
+      ".CrystalLinkTeamInfoB\033\n\031emu.grasscutter." +
+      "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

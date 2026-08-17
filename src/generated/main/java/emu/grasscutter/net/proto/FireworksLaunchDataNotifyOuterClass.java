@@ -49,6 +49,10 @@ public final class FireworksLaunchDataNotifyOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 25769
+   * </pre>
+   *
    * Protobuf type {@code FireworksLaunchDataNotify}
    */
   public static final class FireworksLaunchDataNotify extends
@@ -364,6 +368,10 @@ public final class FireworksLaunchDataNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 25769
+     * </pre>
+     *
      * Protobuf type {@code FireworksLaunchDataNotify}
      */
     public static final class Builder extends
@@ -895,9 +903,8 @@ public final class FireworksLaunchDataNotifyOuterClass {
       "orksLaunchSchemeData.proto\"m\n\031FireworksL" +
       "aunchDataNotify\022\032\n\022last_use_scheme_id\030\005 " +
       "\001(\r\0224\n\020scheme_data_list\030\014 \003(\0132\032.Firework" +
-      "sLaunchSchemeDataB@\n\031emu.grasscutter.net" +
-      ".protoB#FireworksLaunchDataNotifyOuterCl" +
-      "assb\006proto3"
+      "sLaunchSchemeDataB\033\n\031emu.grasscutter.net" +
+      ".protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -49,6 +49,10 @@ public final class AvatarSkillUpgradeRspOuterClass {
     int getAvatarSkillId();
   }
   /**
+   * <pre>
+   * CmdID: 28199
+   * </pre>
+   *
    * Protobuf type {@code AvatarSkillUpgradeRsp}
    */
   public static final class AvatarSkillUpgradeRsp extends
@@ -406,6 +410,10 @@ public final class AvatarSkillUpgradeRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 28199
+     * </pre>
+     *
      * Protobuf type {@code AvatarSkillUpgradeRsp}
      */
     public static final class Builder extends
@@ -800,9 +808,8 @@ public final class AvatarSkillUpgradeRspOuterClass {
       "\n\033AvatarSkillUpgradeRsp.proto\"|\n\025AvatarS" +
       "killUpgradeRsp\022\023\n\013avatar_guid\030\002 \001(\004\022\021\n\to" +
       "ld_level\030\004 \001(\r\022\021\n\tcur_level\030\006 \001(\r\022\017\n\007ret" +
-      "code\030\013 \001(\005\022\027\n\017avatar_skill_id\030\017 \001(\rB<\n\031e" +
-      "mu.grasscutter.net.protoB\037AvatarSkillUpg" +
-      "radeRspOuterClassb\006proto3"
+      "code\030\013 \001(\005\022\027\n\017avatar_skill_id\030\017 \001(\rB\033\n\031e" +
+      "mu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

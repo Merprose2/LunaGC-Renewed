@@ -1269,8 +1269,8 @@ public final class OMIHJKKBJGOOuterClass {
       "BA\030\003 \001(\004\022\023\n\013LGGICGBDDFO\030\004 \001(\004\022\023\n\013NKDMPKJ" +
       "GMFF\030\005 \001(\010\022\034\n\006status\030\006 \001(\0162\014.FKPFJHCNOLD" +
       "\022\023\n\013AGJIJMBOBAN\030\007 \001(\002\022!\n\013PMHDJBEJGKN\030\010 \001" +
-      "(\0132\014.FJFKBKCECBCB2\n\031emu.grasscutter.net." +
-      "protoB\025OMIHJKKBJGOOuterClassb\006proto3"
+      "(\0132\014.FJFKBKCECBCB\033\n\031emu.grasscutter.net." +
+      "protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

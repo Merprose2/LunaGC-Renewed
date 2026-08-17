@@ -34,6 +34,10 @@ public final class HomeUpdateArrangementInfoReqOuterClass {
     emu.grasscutter.net.proto.HomeSceneArrangementInfoOuterClass.HomeSceneArrangementInfoOrBuilder getSceneArrangementInfoOrBuilder();
   }
   /**
+   * <pre>
+   * CmdID: 6208
+   * </pre>
+   *
    * Protobuf type {@code HomeUpdateArrangementInfoReq}
    */
   public static final class HomeUpdateArrangementInfoReq extends
@@ -310,6 +314,10 @@ public final class HomeUpdateArrangementInfoReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 6208
+     * </pre>
+     *
      * Protobuf type {@code HomeUpdateArrangementInfoReq}
      */
     public static final class Builder extends
@@ -653,8 +661,7 @@ public final class HomeUpdateArrangementInfoReqOuterClass {
       "meSceneArrangementInfo.proto\"Y\n\034HomeUpda" +
       "teArrangementInfoReq\0229\n\026scene_arrangemen" +
       "t_info\030\002 \001(\0132\031.HomeSceneArrangementInfoB" +
-      "C\n\031emu.grasscutter.net.protoB&HomeUpdate" +
-      "ArrangementInfoReqOuterClassb\006proto3"
+      "\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

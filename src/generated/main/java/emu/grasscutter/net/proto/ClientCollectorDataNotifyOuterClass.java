@@ -18,22 +18,33 @@ public final class ClientCollectorDataNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:ClientCollectorDataNotify)
       com.google.protobuf.MessageOrBuilder {
 
-    java.util.List<emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData>
+    /**
+     * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData> 
         getClientCollectorDataListList();
-
+    /**
+     * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+     */
     emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData getClientCollectorDataList(int index);
-
+    /**
+     * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+     */
     int getClientCollectorDataListCount();
-
-    java.util.List<? extends emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder>
+    /**
+     * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder> 
         getClientCollectorDataListOrBuilderList();
-
+    /**
+     * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+     */
     emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder getClientCollectorDataListOrBuilder(
         int index);
   }
   /**
    * <pre>
-   * CmdId: 23422
+   * CmdID: 5637
    * </pre>
    *
    * Protobuf type {@code ClientCollectorDataNotify}
@@ -82,7 +93,7 @@ public final class ClientCollectorDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 82: {
+            case 10: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 clientCollectorDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData>();
                 mutable_bitField0_ |= 0x00000001;
@@ -126,30 +137,40 @@ public final class ClientCollectorDataNotifyOuterClass {
               emu.grasscutter.net.proto.ClientCollectorDataNotifyOuterClass.ClientCollectorDataNotify.class, emu.grasscutter.net.proto.ClientCollectorDataNotifyOuterClass.ClientCollectorDataNotify.Builder.class);
     }
 
-    public static final int CLIENT_COLLECTOR_DATA_LIST_FIELD_NUMBER = 10;
+    public static final int CLIENT_COLLECTOR_DATA_LIST_FIELD_NUMBER = 1;
     private java.util.List<emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData> clientCollectorDataList_;
-
+    /**
+     * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+     */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData> getClientCollectorDataListList() {
       return clientCollectorDataList_;
     }
-
+    /**
+     * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder> 
         getClientCollectorDataListOrBuilderList() {
       return clientCollectorDataList_;
     }
-
+    /**
+     * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+     */
     @java.lang.Override
     public int getClientCollectorDataListCount() {
       return clientCollectorDataList_.size();
     }
-
+    /**
+     * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+     */
     @java.lang.Override
     public emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData getClientCollectorDataList(int index) {
       return clientCollectorDataList_.get(index);
     }
-
+    /**
+     * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+     */
     @java.lang.Override
     public emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder getClientCollectorDataListOrBuilder(
         int index) {
@@ -171,7 +192,7 @@ public final class ClientCollectorDataNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < clientCollectorDataList_.size(); i++) {
-        output.writeMessage(10, clientCollectorDataList_.get(i));
+        output.writeMessage(1, clientCollectorDataList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -184,7 +205,7 @@ public final class ClientCollectorDataNotifyOuterClass {
       size = 0;
       for (int i = 0; i < clientCollectorDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, clientCollectorDataList_.get(i));
+          .computeMessageSize(1, clientCollectorDataList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -315,7 +336,7 @@ public final class ClientCollectorDataNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 23422
+     * CmdID: 5637
      * </pre>
      *
      * Protobuf type {@code ClientCollectorDataNotify}
@@ -464,7 +485,7 @@ public final class ClientCollectorDataNotifyOuterClass {
               clientCollectorDataListBuilder_ = null;
               clientCollectorDataList_ = other.clientCollectorDataList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              clientCollectorDataListBuilder_ =
+              clientCollectorDataListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getClientCollectorDataListFieldBuilder() : null;
             } else {
@@ -514,6 +535,9 @@ public final class ClientCollectorDataNotifyOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.Builder, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder> clientCollectorDataListBuilder_;
 
+      /**
+       * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+       */
       public java.util.List<emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData> getClientCollectorDataListList() {
         if (clientCollectorDataListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(clientCollectorDataList_);
@@ -521,7 +545,9 @@ public final class ClientCollectorDataNotifyOuterClass {
           return clientCollectorDataListBuilder_.getMessageList();
         }
       }
-
+      /**
+       * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+       */
       public int getClientCollectorDataListCount() {
         if (clientCollectorDataListBuilder_ == null) {
           return clientCollectorDataList_.size();
@@ -529,7 +555,9 @@ public final class ClientCollectorDataNotifyOuterClass {
           return clientCollectorDataListBuilder_.getCount();
         }
       }
-
+      /**
+       * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+       */
       public emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData getClientCollectorDataList(int index) {
         if (clientCollectorDataListBuilder_ == null) {
           return clientCollectorDataList_.get(index);
@@ -537,7 +565,9 @@ public final class ClientCollectorDataNotifyOuterClass {
           return clientCollectorDataListBuilder_.getMessage(index);
         }
       }
-
+      /**
+       * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+       */
       public Builder setClientCollectorDataList(
           int index, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData value) {
         if (clientCollectorDataListBuilder_ == null) {
@@ -552,7 +582,9 @@ public final class ClientCollectorDataNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+       */
       public Builder setClientCollectorDataList(
           int index, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.Builder builderForValue) {
         if (clientCollectorDataListBuilder_ == null) {
@@ -564,7 +596,9 @@ public final class ClientCollectorDataNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+       */
       public Builder addClientCollectorDataList(emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData value) {
         if (clientCollectorDataListBuilder_ == null) {
           if (value == null) {
@@ -578,7 +612,9 @@ public final class ClientCollectorDataNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+       */
       public Builder addClientCollectorDataList(
           int index, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData value) {
         if (clientCollectorDataListBuilder_ == null) {
@@ -593,7 +629,9 @@ public final class ClientCollectorDataNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+       */
       public Builder addClientCollectorDataList(
           emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.Builder builderForValue) {
         if (clientCollectorDataListBuilder_ == null) {
@@ -605,7 +643,9 @@ public final class ClientCollectorDataNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+       */
       public Builder addClientCollectorDataList(
           int index, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.Builder builderForValue) {
         if (clientCollectorDataListBuilder_ == null) {
@@ -617,7 +657,9 @@ public final class ClientCollectorDataNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+       */
       public Builder addAllClientCollectorDataList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData> values) {
         if (clientCollectorDataListBuilder_ == null) {
@@ -630,7 +672,9 @@ public final class ClientCollectorDataNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+       */
       public Builder clearClientCollectorDataList() {
         if (clientCollectorDataListBuilder_ == null) {
           clientCollectorDataList_ = java.util.Collections.emptyList();
@@ -641,7 +685,9 @@ public final class ClientCollectorDataNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+       */
       public Builder removeClientCollectorDataList(int index) {
         if (clientCollectorDataListBuilder_ == null) {
           ensureClientCollectorDataListIsMutable();
@@ -652,12 +698,16 @@ public final class ClientCollectorDataNotifyOuterClass {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+       */
       public emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.Builder getClientCollectorDataListBuilder(
           int index) {
         return getClientCollectorDataListFieldBuilder().getBuilder(index);
       }
-
+      /**
+       * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+       */
       public emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder getClientCollectorDataListOrBuilder(
           int index) {
         if (clientCollectorDataListBuilder_ == null) {
@@ -665,8 +715,10 @@ public final class ClientCollectorDataNotifyOuterClass {
           return clientCollectorDataListBuilder_.getMessageOrBuilder(index);
         }
       }
-
-      public java.util.List<? extends emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder>
+      /**
+       * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder> 
            getClientCollectorDataListOrBuilderList() {
         if (clientCollectorDataListBuilder_ != null) {
           return clientCollectorDataListBuilder_.getMessageOrBuilderList();
@@ -674,24 +726,30 @@ public final class ClientCollectorDataNotifyOuterClass {
           return java.util.Collections.unmodifiableList(clientCollectorDataList_);
         }
       }
-
+      /**
+       * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+       */
       public emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.Builder addClientCollectorDataListBuilder() {
         return getClientCollectorDataListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.getDefaultInstance());
       }
-
+      /**
+       * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+       */
       public emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.Builder addClientCollectorDataListBuilder(
           int index) {
         return getClientCollectorDataListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.getDefaultInstance());
       }
-
-      public java.util.List<emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.Builder>
+      /**
+       * <code>repeated .ClientCollectorData client_collector_data_list = 1;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.Builder> 
            getClientCollectorDataListBuilderList() {
         return getClientCollectorDataListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.Builder, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder>
+          emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.Builder, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder> 
           getClientCollectorDataListFieldBuilder() {
         if (clientCollectorDataListBuilder_ == null) {
           clientCollectorDataListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -715,6 +773,7 @@ public final class ClientCollectorDataNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:ClientCollectorDataNotify)
     }
@@ -758,7 +817,7 @@ public final class ClientCollectorDataNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ClientCollectorDataNotify_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ClientCollectorDataNotify_fieldAccessorTable;
 
@@ -773,7 +832,7 @@ public final class ClientCollectorDataNotifyOuterClass {
       "\n\037ClientCollectorDataNotify.proto\032\031Clien" +
       "tCollectorData.proto\"U\n\031ClientCollectorD" +
       "ataNotify\0228\n\032client_collector_data_list\030" +
-      "\013 \003(\0132\024.ClientCollectorDataB\033\n\031emu.grass" +
+      "\001 \003(\0132\024.ClientCollectorDataB\033\n\031emu.grass" +
       "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

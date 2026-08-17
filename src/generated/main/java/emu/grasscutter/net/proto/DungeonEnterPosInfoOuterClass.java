@@ -588,8 +588,8 @@ public final class DungeonEnterPosInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031DungeonEnterPosInfo.proto\"9\n\023DungeonEn" +
       "terPosInfo\022\020\n\010point_id\030\r \001(\r\022\020\n\010quest_id" +
-      "\030\016 \001(\rB:\n\031emu.grasscutter.net.protoB\035Dun" +
-      "geonEnterPosInfoOuterClassb\006proto3"
+      "\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

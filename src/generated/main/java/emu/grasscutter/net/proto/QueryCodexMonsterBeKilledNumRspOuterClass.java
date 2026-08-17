@@ -36,38 +36,38 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
     int getCodexIdList(int index);
 
     /**
-     * <code>repeated uint32 phdcolpgnbi = 3;</code>
-     * @return A list containing the phdcolpgnbi.
+     * <code>repeated uint32 GOIJKJBPKAF = 3;</code>
+     * @return A list containing the gOIJKJBPKAF.
      */
-    java.util.List<java.lang.Integer> getPhdcolpgnbiList();
+    java.util.List<java.lang.Integer> getGOIJKJBPKAFList();
     /**
-     * <code>repeated uint32 phdcolpgnbi = 3;</code>
-     * @return The count of phdcolpgnbi.
+     * <code>repeated uint32 GOIJKJBPKAF = 3;</code>
+     * @return The count of gOIJKJBPKAF.
      */
-    int getPhdcolpgnbiCount();
+    int getGOIJKJBPKAFCount();
     /**
-     * <code>repeated uint32 phdcolpgnbi = 3;</code>
+     * <code>repeated uint32 GOIJKJBPKAF = 3;</code>
      * @param index The index of the element to return.
-     * @return The phdcolpgnbi at the given index.
+     * @return The gOIJKJBPKAF at the given index.
      */
-    int getPhdcolpgnbi(int index);
+    int getGOIJKJBPKAF(int index);
 
     /**
-     * <code>repeated uint32 dnicbjiekbm = 10;</code>
-     * @return A list containing the dnicbjiekbm.
+     * <code>repeated uint32 BMCNAMPBGAF = 10;</code>
+     * @return A list containing the bMCNAMPBGAF.
      */
-    java.util.List<java.lang.Integer> getDnicbjiekbmList();
+    java.util.List<java.lang.Integer> getBMCNAMPBGAFList();
     /**
-     * <code>repeated uint32 dnicbjiekbm = 10;</code>
-     * @return The count of dnicbjiekbm.
+     * <code>repeated uint32 BMCNAMPBGAF = 10;</code>
+     * @return The count of bMCNAMPBGAF.
      */
-    int getDnicbjiekbmCount();
+    int getBMCNAMPBGAFCount();
     /**
-     * <code>repeated uint32 dnicbjiekbm = 10;</code>
+     * <code>repeated uint32 BMCNAMPBGAF = 10;</code>
      * @param index The index of the element to return.
-     * @return The dnicbjiekbm at the given index.
+     * @return The bMCNAMPBGAF at the given index.
      */
-    int getDnicbjiekbm(int index);
+    int getBMCNAMPBGAF(int index);
 
     /**
      * <code>int32 retcode = 14;</code>
@@ -76,6 +76,10 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
     int getRetcode();
   }
   /**
+   * <pre>
+   * CmdID: 23581
+   * </pre>
+   *
    * Protobuf type {@code QueryCodexMonsterBeKilledNumRsp}
    */
   public static final class QueryCodexMonsterBeKilledNumRsp extends
@@ -89,8 +93,8 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
     }
     private QueryCodexMonsterBeKilledNumRsp() {
       codexIdList_ = emptyIntList();
-      phdcolpgnbi_ = emptyIntList();
-      dnicbjiekbm_ = emptyIntList();
+      gOIJKJBPKAF_ = emptyIntList();
+      bMCNAMPBGAF_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -147,42 +151,42 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
             }
             case 24: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                phdcolpgnbi_ = newIntList();
+                gOIJKJBPKAF_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
               }
-              phdcolpgnbi_.addInt(input.readUInt32());
+              gOIJKJBPKAF_.addInt(input.readUInt32());
               break;
             }
             case 26: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
-                phdcolpgnbi_ = newIntList();
+                gOIJKJBPKAF_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
               }
               while (input.getBytesUntilLimit() > 0) {
-                phdcolpgnbi_.addInt(input.readUInt32());
+                gOIJKJBPKAF_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
             }
             case 80: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                dnicbjiekbm_ = newIntList();
+                bMCNAMPBGAF_ = newIntList();
                 mutable_bitField0_ |= 0x00000004;
               }
-              dnicbjiekbm_.addInt(input.readUInt32());
+              bMCNAMPBGAF_.addInt(input.readUInt32());
               break;
             }
             case 82: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
-                dnicbjiekbm_ = newIntList();
+                bMCNAMPBGAF_ = newIntList();
                 mutable_bitField0_ |= 0x00000004;
               }
               while (input.getBytesUntilLimit() > 0) {
-                dnicbjiekbm_.addInt(input.readUInt32());
+                bMCNAMPBGAF_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
@@ -211,10 +215,10 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
           codexIdList_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          phdcolpgnbi_.makeImmutable(); // C
+          gOIJKJBPKAF_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000004) != 0)) {
-          dnicbjiekbm_.makeImmutable(); // C
+          bMCNAMPBGAF_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -261,61 +265,61 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
     }
     private int codexIdListMemoizedSerializedSize = -1;
 
-    public static final int PHDCOLPGNBI_FIELD_NUMBER = 3;
-    private com.google.protobuf.Internal.IntList phdcolpgnbi_;
+    public static final int GOIJKJBPKAF_FIELD_NUMBER = 3;
+    private com.google.protobuf.Internal.IntList gOIJKJBPKAF_;
     /**
-     * <code>repeated uint32 phdcolpgnbi = 3;</code>
-     * @return A list containing the phdcolpgnbi.
+     * <code>repeated uint32 GOIJKJBPKAF = 3;</code>
+     * @return A list containing the gOIJKJBPKAF.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getPhdcolpgnbiList() {
-      return phdcolpgnbi_;
+        getGOIJKJBPKAFList() {
+      return gOIJKJBPKAF_;
     }
     /**
-     * <code>repeated uint32 phdcolpgnbi = 3;</code>
-     * @return The count of phdcolpgnbi.
+     * <code>repeated uint32 GOIJKJBPKAF = 3;</code>
+     * @return The count of gOIJKJBPKAF.
      */
-    public int getPhdcolpgnbiCount() {
-      return phdcolpgnbi_.size();
+    public int getGOIJKJBPKAFCount() {
+      return gOIJKJBPKAF_.size();
     }
     /**
-     * <code>repeated uint32 phdcolpgnbi = 3;</code>
+     * <code>repeated uint32 GOIJKJBPKAF = 3;</code>
      * @param index The index of the element to return.
-     * @return The phdcolpgnbi at the given index.
+     * @return The gOIJKJBPKAF at the given index.
      */
-    public int getPhdcolpgnbi(int index) {
-      return phdcolpgnbi_.getInt(index);
+    public int getGOIJKJBPKAF(int index) {
+      return gOIJKJBPKAF_.getInt(index);
     }
-    private int phdcolpgnbiMemoizedSerializedSize = -1;
+    private int gOIJKJBPKAFMemoizedSerializedSize = -1;
 
-    public static final int DNICBJIEKBM_FIELD_NUMBER = 10;
-    private com.google.protobuf.Internal.IntList dnicbjiekbm_;
+    public static final int BMCNAMPBGAF_FIELD_NUMBER = 10;
+    private com.google.protobuf.Internal.IntList bMCNAMPBGAF_;
     /**
-     * <code>repeated uint32 dnicbjiekbm = 10;</code>
-     * @return A list containing the dnicbjiekbm.
+     * <code>repeated uint32 BMCNAMPBGAF = 10;</code>
+     * @return A list containing the bMCNAMPBGAF.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getDnicbjiekbmList() {
-      return dnicbjiekbm_;
+        getBMCNAMPBGAFList() {
+      return bMCNAMPBGAF_;
     }
     /**
-     * <code>repeated uint32 dnicbjiekbm = 10;</code>
-     * @return The count of dnicbjiekbm.
+     * <code>repeated uint32 BMCNAMPBGAF = 10;</code>
+     * @return The count of bMCNAMPBGAF.
      */
-    public int getDnicbjiekbmCount() {
-      return dnicbjiekbm_.size();
+    public int getBMCNAMPBGAFCount() {
+      return bMCNAMPBGAF_.size();
     }
     /**
-     * <code>repeated uint32 dnicbjiekbm = 10;</code>
+     * <code>repeated uint32 BMCNAMPBGAF = 10;</code>
      * @param index The index of the element to return.
-     * @return The dnicbjiekbm at the given index.
+     * @return The bMCNAMPBGAF at the given index.
      */
-    public int getDnicbjiekbm(int index) {
-      return dnicbjiekbm_.getInt(index);
+    public int getBMCNAMPBGAF(int index) {
+      return bMCNAMPBGAF_.getInt(index);
     }
-    private int dnicbjiekbmMemoizedSerializedSize = -1;
+    private int bMCNAMPBGAFMemoizedSerializedSize = -1;
 
     public static final int RETCODE_FIELD_NUMBER = 14;
     private int retcode_;
@@ -350,19 +354,19 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
       for (int i = 0; i < codexIdList_.size(); i++) {
         output.writeUInt32NoTag(codexIdList_.getInt(i));
       }
-      if (getPhdcolpgnbiList().size() > 0) {
+      if (getGOIJKJBPKAFList().size() > 0) {
         output.writeUInt32NoTag(26);
-        output.writeUInt32NoTag(phdcolpgnbiMemoizedSerializedSize);
+        output.writeUInt32NoTag(gOIJKJBPKAFMemoizedSerializedSize);
       }
-      for (int i = 0; i < phdcolpgnbi_.size(); i++) {
-        output.writeUInt32NoTag(phdcolpgnbi_.getInt(i));
+      for (int i = 0; i < gOIJKJBPKAF_.size(); i++) {
+        output.writeUInt32NoTag(gOIJKJBPKAF_.getInt(i));
       }
-      if (getDnicbjiekbmList().size() > 0) {
+      if (getBMCNAMPBGAFList().size() > 0) {
         output.writeUInt32NoTag(82);
-        output.writeUInt32NoTag(dnicbjiekbmMemoizedSerializedSize);
+        output.writeUInt32NoTag(bMCNAMPBGAFMemoizedSerializedSize);
       }
-      for (int i = 0; i < dnicbjiekbm_.size(); i++) {
-        output.writeUInt32NoTag(dnicbjiekbm_.getInt(i));
+      for (int i = 0; i < bMCNAMPBGAF_.size(); i++) {
+        output.writeUInt32NoTag(bMCNAMPBGAF_.getInt(i));
       }
       if (retcode_ != 0) {
         output.writeInt32(14, retcode_);
@@ -392,31 +396,31 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < phdcolpgnbi_.size(); i++) {
+        for (int i = 0; i < gOIJKJBPKAF_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(phdcolpgnbi_.getInt(i));
+            .computeUInt32SizeNoTag(gOIJKJBPKAF_.getInt(i));
         }
         size += dataSize;
-        if (!getPhdcolpgnbiList().isEmpty()) {
+        if (!getGOIJKJBPKAFList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        phdcolpgnbiMemoizedSerializedSize = dataSize;
+        gOIJKJBPKAFMemoizedSerializedSize = dataSize;
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < dnicbjiekbm_.size(); i++) {
+        for (int i = 0; i < bMCNAMPBGAF_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(dnicbjiekbm_.getInt(i));
+            .computeUInt32SizeNoTag(bMCNAMPBGAF_.getInt(i));
         }
         size += dataSize;
-        if (!getDnicbjiekbmList().isEmpty()) {
+        if (!getBMCNAMPBGAFList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        dnicbjiekbmMemoizedSerializedSize = dataSize;
+        bMCNAMPBGAFMemoizedSerializedSize = dataSize;
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -439,10 +443,10 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
 
       if (!getCodexIdListList()
           .equals(other.getCodexIdListList())) return false;
-      if (!getPhdcolpgnbiList()
-          .equals(other.getPhdcolpgnbiList())) return false;
-      if (!getDnicbjiekbmList()
-          .equals(other.getDnicbjiekbmList())) return false;
+      if (!getGOIJKJBPKAFList()
+          .equals(other.getGOIJKJBPKAFList())) return false;
+      if (!getBMCNAMPBGAFList()
+          .equals(other.getBMCNAMPBGAFList())) return false;
       if (getRetcode()
           != other.getRetcode()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -460,13 +464,13 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
         hash = (37 * hash) + CODEX_ID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getCodexIdListList().hashCode();
       }
-      if (getPhdcolpgnbiCount() > 0) {
-        hash = (37 * hash) + PHDCOLPGNBI_FIELD_NUMBER;
-        hash = (53 * hash) + getPhdcolpgnbiList().hashCode();
+      if (getGOIJKJBPKAFCount() > 0) {
+        hash = (37 * hash) + GOIJKJBPKAF_FIELD_NUMBER;
+        hash = (53 * hash) + getGOIJKJBPKAFList().hashCode();
       }
-      if (getDnicbjiekbmCount() > 0) {
-        hash = (37 * hash) + DNICBJIEKBM_FIELD_NUMBER;
-        hash = (53 * hash) + getDnicbjiekbmList().hashCode();
+      if (getBMCNAMPBGAFCount() > 0) {
+        hash = (37 * hash) + BMCNAMPBGAF_FIELD_NUMBER;
+        hash = (53 * hash) + getBMCNAMPBGAFList().hashCode();
       }
       hash = (37 * hash) + RETCODE_FIELD_NUMBER;
       hash = (53 * hash) + getRetcode();
@@ -566,6 +570,10 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 23581
+     * </pre>
+     *
      * Protobuf type {@code QueryCodexMonsterBeKilledNumRsp}
      */
     public static final class Builder extends
@@ -605,9 +613,9 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
         super.clear();
         codexIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        phdcolpgnbi_ = emptyIntList();
+        gOIJKJBPKAF_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
-        dnicbjiekbm_ = emptyIntList();
+        bMCNAMPBGAF_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000004);
         retcode_ = 0;
 
@@ -644,15 +652,15 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
         }
         result.codexIdList_ = codexIdList_;
         if (((bitField0_ & 0x00000002) != 0)) {
-          phdcolpgnbi_.makeImmutable();
+          gOIJKJBPKAF_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000002);
         }
-        result.phdcolpgnbi_ = phdcolpgnbi_;
+        result.gOIJKJBPKAF_ = gOIJKJBPKAF_;
         if (((bitField0_ & 0x00000004) != 0)) {
-          dnicbjiekbm_.makeImmutable();
+          bMCNAMPBGAF_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000004);
         }
-        result.dnicbjiekbm_ = dnicbjiekbm_;
+        result.bMCNAMPBGAF_ = bMCNAMPBGAF_;
         result.retcode_ = retcode_;
         onBuilt();
         return result;
@@ -712,23 +720,23 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
           }
           onChanged();
         }
-        if (!other.phdcolpgnbi_.isEmpty()) {
-          if (phdcolpgnbi_.isEmpty()) {
-            phdcolpgnbi_ = other.phdcolpgnbi_;
+        if (!other.gOIJKJBPKAF_.isEmpty()) {
+          if (gOIJKJBPKAF_.isEmpty()) {
+            gOIJKJBPKAF_ = other.gOIJKJBPKAF_;
             bitField0_ = (bitField0_ & ~0x00000002);
           } else {
-            ensurePhdcolpgnbiIsMutable();
-            phdcolpgnbi_.addAll(other.phdcolpgnbi_);
+            ensureGOIJKJBPKAFIsMutable();
+            gOIJKJBPKAF_.addAll(other.gOIJKJBPKAF_);
           }
           onChanged();
         }
-        if (!other.dnicbjiekbm_.isEmpty()) {
-          if (dnicbjiekbm_.isEmpty()) {
-            dnicbjiekbm_ = other.dnicbjiekbm_;
+        if (!other.bMCNAMPBGAF_.isEmpty()) {
+          if (bMCNAMPBGAF_.isEmpty()) {
+            bMCNAMPBGAF_ = other.bMCNAMPBGAF_;
             bitField0_ = (bitField0_ & ~0x00000004);
           } else {
-            ensureDnicbjiekbmIsMutable();
-            dnicbjiekbm_.addAll(other.dnicbjiekbm_);
+            ensureBMCNAMPBGAFIsMutable();
+            bMCNAMPBGAF_.addAll(other.bMCNAMPBGAF_);
           }
           onChanged();
         }
@@ -844,159 +852,159 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList phdcolpgnbi_ = emptyIntList();
-      private void ensurePhdcolpgnbiIsMutable() {
+      private com.google.protobuf.Internal.IntList gOIJKJBPKAF_ = emptyIntList();
+      private void ensureGOIJKJBPKAFIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          phdcolpgnbi_ = mutableCopy(phdcolpgnbi_);
+          gOIJKJBPKAF_ = mutableCopy(gOIJKJBPKAF_);
           bitField0_ |= 0x00000002;
          }
       }
       /**
-       * <code>repeated uint32 phdcolpgnbi = 3;</code>
-       * @return A list containing the phdcolpgnbi.
+       * <code>repeated uint32 GOIJKJBPKAF = 3;</code>
+       * @return A list containing the gOIJKJBPKAF.
        */
       public java.util.List<java.lang.Integer>
-          getPhdcolpgnbiList() {
+          getGOIJKJBPKAFList() {
         return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(phdcolpgnbi_) : phdcolpgnbi_;
+                 java.util.Collections.unmodifiableList(gOIJKJBPKAF_) : gOIJKJBPKAF_;
       }
       /**
-       * <code>repeated uint32 phdcolpgnbi = 3;</code>
-       * @return The count of phdcolpgnbi.
+       * <code>repeated uint32 GOIJKJBPKAF = 3;</code>
+       * @return The count of gOIJKJBPKAF.
        */
-      public int getPhdcolpgnbiCount() {
-        return phdcolpgnbi_.size();
+      public int getGOIJKJBPKAFCount() {
+        return gOIJKJBPKAF_.size();
       }
       /**
-       * <code>repeated uint32 phdcolpgnbi = 3;</code>
+       * <code>repeated uint32 GOIJKJBPKAF = 3;</code>
        * @param index The index of the element to return.
-       * @return The phdcolpgnbi at the given index.
+       * @return The gOIJKJBPKAF at the given index.
        */
-      public int getPhdcolpgnbi(int index) {
-        return phdcolpgnbi_.getInt(index);
+      public int getGOIJKJBPKAF(int index) {
+        return gOIJKJBPKAF_.getInt(index);
       }
       /**
-       * <code>repeated uint32 phdcolpgnbi = 3;</code>
+       * <code>repeated uint32 GOIJKJBPKAF = 3;</code>
        * @param index The index to set the value at.
-       * @param value The phdcolpgnbi to set.
+       * @param value The gOIJKJBPKAF to set.
        * @return This builder for chaining.
        */
-      public Builder setPhdcolpgnbi(
+      public Builder setGOIJKJBPKAF(
           int index, int value) {
-        ensurePhdcolpgnbiIsMutable();
-        phdcolpgnbi_.setInt(index, value);
+        ensureGOIJKJBPKAFIsMutable();
+        gOIJKJBPKAF_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 phdcolpgnbi = 3;</code>
-       * @param value The phdcolpgnbi to add.
+       * <code>repeated uint32 GOIJKJBPKAF = 3;</code>
+       * @param value The gOIJKJBPKAF to add.
        * @return This builder for chaining.
        */
-      public Builder addPhdcolpgnbi(int value) {
-        ensurePhdcolpgnbiIsMutable();
-        phdcolpgnbi_.addInt(value);
+      public Builder addGOIJKJBPKAF(int value) {
+        ensureGOIJKJBPKAFIsMutable();
+        gOIJKJBPKAF_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 phdcolpgnbi = 3;</code>
-       * @param values The phdcolpgnbi to add.
+       * <code>repeated uint32 GOIJKJBPKAF = 3;</code>
+       * @param values The gOIJKJBPKAF to add.
        * @return This builder for chaining.
        */
-      public Builder addAllPhdcolpgnbi(
+      public Builder addAllGOIJKJBPKAF(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensurePhdcolpgnbiIsMutable();
+        ensureGOIJKJBPKAFIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, phdcolpgnbi_);
+            values, gOIJKJBPKAF_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 phdcolpgnbi = 3;</code>
+       * <code>repeated uint32 GOIJKJBPKAF = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearPhdcolpgnbi() {
-        phdcolpgnbi_ = emptyIntList();
+      public Builder clearGOIJKJBPKAF() {
+        gOIJKJBPKAF_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
         onChanged();
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList dnicbjiekbm_ = emptyIntList();
-      private void ensureDnicbjiekbmIsMutable() {
+      private com.google.protobuf.Internal.IntList bMCNAMPBGAF_ = emptyIntList();
+      private void ensureBMCNAMPBGAFIsMutable() {
         if (!((bitField0_ & 0x00000004) != 0)) {
-          dnicbjiekbm_ = mutableCopy(dnicbjiekbm_);
+          bMCNAMPBGAF_ = mutableCopy(bMCNAMPBGAF_);
           bitField0_ |= 0x00000004;
          }
       }
       /**
-       * <code>repeated uint32 dnicbjiekbm = 10;</code>
-       * @return A list containing the dnicbjiekbm.
+       * <code>repeated uint32 BMCNAMPBGAF = 10;</code>
+       * @return A list containing the bMCNAMPBGAF.
        */
       public java.util.List<java.lang.Integer>
-          getDnicbjiekbmList() {
+          getBMCNAMPBGAFList() {
         return ((bitField0_ & 0x00000004) != 0) ?
-                 java.util.Collections.unmodifiableList(dnicbjiekbm_) : dnicbjiekbm_;
+                 java.util.Collections.unmodifiableList(bMCNAMPBGAF_) : bMCNAMPBGAF_;
       }
       /**
-       * <code>repeated uint32 dnicbjiekbm = 10;</code>
-       * @return The count of dnicbjiekbm.
+       * <code>repeated uint32 BMCNAMPBGAF = 10;</code>
+       * @return The count of bMCNAMPBGAF.
        */
-      public int getDnicbjiekbmCount() {
-        return dnicbjiekbm_.size();
+      public int getBMCNAMPBGAFCount() {
+        return bMCNAMPBGAF_.size();
       }
       /**
-       * <code>repeated uint32 dnicbjiekbm = 10;</code>
+       * <code>repeated uint32 BMCNAMPBGAF = 10;</code>
        * @param index The index of the element to return.
-       * @return The dnicbjiekbm at the given index.
+       * @return The bMCNAMPBGAF at the given index.
        */
-      public int getDnicbjiekbm(int index) {
-        return dnicbjiekbm_.getInt(index);
+      public int getBMCNAMPBGAF(int index) {
+        return bMCNAMPBGAF_.getInt(index);
       }
       /**
-       * <code>repeated uint32 dnicbjiekbm = 10;</code>
+       * <code>repeated uint32 BMCNAMPBGAF = 10;</code>
        * @param index The index to set the value at.
-       * @param value The dnicbjiekbm to set.
+       * @param value The bMCNAMPBGAF to set.
        * @return This builder for chaining.
        */
-      public Builder setDnicbjiekbm(
+      public Builder setBMCNAMPBGAF(
           int index, int value) {
-        ensureDnicbjiekbmIsMutable();
-        dnicbjiekbm_.setInt(index, value);
+        ensureBMCNAMPBGAFIsMutable();
+        bMCNAMPBGAF_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 dnicbjiekbm = 10;</code>
-       * @param value The dnicbjiekbm to add.
+       * <code>repeated uint32 BMCNAMPBGAF = 10;</code>
+       * @param value The bMCNAMPBGAF to add.
        * @return This builder for chaining.
        */
-      public Builder addDnicbjiekbm(int value) {
-        ensureDnicbjiekbmIsMutable();
-        dnicbjiekbm_.addInt(value);
+      public Builder addBMCNAMPBGAF(int value) {
+        ensureBMCNAMPBGAFIsMutable();
+        bMCNAMPBGAF_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 dnicbjiekbm = 10;</code>
-       * @param values The dnicbjiekbm to add.
+       * <code>repeated uint32 BMCNAMPBGAF = 10;</code>
+       * @param values The bMCNAMPBGAF to add.
        * @return This builder for chaining.
        */
-      public Builder addAllDnicbjiekbm(
+      public Builder addAllBMCNAMPBGAF(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureDnicbjiekbmIsMutable();
+        ensureBMCNAMPBGAFIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, dnicbjiekbm_);
+            values, bMCNAMPBGAF_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 dnicbjiekbm = 10;</code>
+       * <code>repeated uint32 BMCNAMPBGAF = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearDnicbjiekbm() {
-        dnicbjiekbm_ = emptyIntList();
+      public Builder clearBMCNAMPBGAF() {
+        bMCNAMPBGAF_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000004);
         onChanged();
         return this;
@@ -1101,10 +1109,9 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n%QueryCodexMonsterBeKilledNumRsp.proto\"" +
       "s\n\037QueryCodexMonsterBeKilledNumRsp\022\025\n\rco" +
-      "dex_id_list\030\002 \003(\r\022\023\n\013phdcolpgnbi\030\003 \003(\r\022\023" +
-      "\n\013dnicbjiekbm\030\n \003(\r\022\017\n\007retcode\030\016 \001(\005BF\n\031" +
-      "emu.grasscutter.net.protoB)QueryCodexMon" +
-      "sterBeKilledNumRspOuterClassb\006proto3"
+      "dex_id_list\030\002 \003(\r\022\023\n\013GOIJKJBPKAF\030\003 \003(\r\022\023" +
+      "\n\013BMCNAMPBGAF\030\n \003(\r\022\017\n\007retcode\030\016 \001(\005B\033\n\031" +
+      "emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1115,7 +1122,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
     internal_static_QueryCodexMonsterBeKilledNumRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_QueryCodexMonsterBeKilledNumRsp_descriptor,
-        new java.lang.String[] { "CodexIdList", "Phdcolpgnbi", "Dnicbjiekbm", "Retcode", });
+        new java.lang.String[] { "CodexIdList", "GOIJKJBPKAF", "BMCNAMPBGAF", "Retcode", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

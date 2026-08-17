@@ -1805,9 +1805,8 @@ public final class FleurFairActivityDetailInfoOuterClass {
       "onInfoMapEntry\022\013\n\003key\030\001 \001(\r\022+\n\005value\030\002 \001" +
       "(\0132\034.FleurFairDungeonSectionInfo:\0028\001\032N\n\024" +
       "MinigameInfoMapEntry\022\013\n\003key\030\001 \001(\r\022%\n\005val" +
-      "ue\030\002 \001(\0132\026.FleurFairMinigameInfo:\0028\001BB\n\031" +
-      "emu.grasscutter.net.protoB%FleurFairActi" +
-      "vityDetailInfoOuterClassb\006proto3"
+      "ue\030\002 \001(\0132\026.FleurFairMinigameInfo:\0028\001B\033\n\031" +
+      "emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

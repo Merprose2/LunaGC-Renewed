@@ -37,6 +37,10 @@ public final class SceneTransToPointRspOuterClass {
     int getPointId();
   }
   /**
+   * <pre>
+   * CmdID: 4731
+   * </pre>
+   *
    * Protobuf type {@code SceneTransToPointRsp}
    */
   public static final class SceneTransToPointRsp extends
@@ -339,6 +343,10 @@ public final class SceneTransToPointRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 4731
+     * </pre>
+     *
      * Protobuf type {@code SceneTransToPointRsp}
      */
     public static final class Builder extends
@@ -658,9 +666,8 @@ public final class SceneTransToPointRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032SceneTransToPointRsp.proto\"K\n\024SceneTra" +
       "nsToPointRsp\022\020\n\010scene_id\030\006 \001(\r\022\017\n\007retcod" +
-      "e\030\n \001(\005\022\020\n\010point_id\030\017 \001(\rB;\n\031emu.grasscu" +
-      "tter.net.protoB\036SceneTransToPointRspOute" +
-      "rClassb\006proto3"
+      "e\030\n \001(\005\022\020\n\010point_id\030\017 \001(\rB\033\n\031emu.grasscu" +
+      "tter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

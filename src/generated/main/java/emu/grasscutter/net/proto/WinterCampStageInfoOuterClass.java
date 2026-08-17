@@ -1004,9 +1004,8 @@ public final class WinterCampStageInfoOuterClass {
       "o\"\215\001\n\023WinterCampStageInfo\022\n\n\002id\030\004 \001(\r\022\024\n" +
       "\003pos\030\006 \001(\0132\007.Vector\022\024\n\014cur_progress\030\n \001(" +
       "\r\022\021\n\topen_time\030\014 \001(\r\022\023\n\013is_finished\030\r \001(" +
-      "\010\022\026\n\016total_progress\030\016 \001(\rB:\n\031emu.grasscu" +
-      "tter.net.protoB\035WinterCampStageInfoOuter" +
-      "Classb\006proto3"
+      "\010\022\026\n\016total_progress\030\016 \001(\rB\033\n\031emu.grasscu" +
+      "tter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

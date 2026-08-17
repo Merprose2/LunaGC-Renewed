@@ -925,9 +925,8 @@ public final class AbilityActionCreateGadgetOuterClass {
       "\n\037AbilityActionCreateGadget.proto\032\014Vecto" +
       "r.proto\"X\n\031AbilityActionCreateGadget\022\017\n\007" +
       "room_id\030\004 \001(\r\022\024\n\003rot\030\013 \001(\0132\007.Vector\022\024\n\003p" +
-      "os\030\r \001(\0132\007.VectorB@\n\031emu.grasscutter.net" +
-      ".protoB#AbilityActionCreateGadgetOuterCl" +
-      "assb\006proto3"
+      "os\030\r \001(\0132\007.VectorB\033\n\031emu.grasscutter.net" +
+      ".protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

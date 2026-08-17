@@ -43,6 +43,10 @@ public final class FireworksReformDataNotifyOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 28811
+   * </pre>
+   *
    * Protobuf type {@code FireworksReformDataNotify}
    */
   public static final class FireworksReformDataNotify extends
@@ -331,6 +335,10 @@ public final class FireworksReformDataNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 28811
+     * </pre>
+     *
      * Protobuf type {@code FireworksReformDataNotify}
      */
     public static final class Builder extends
@@ -824,9 +832,8 @@ public final class FireworksReformDataNotifyOuterClass {
       "\n\037FireworksReformDataNotify.proto\032\031Firew" +
       "orksReformData.proto\"U\n\031FireworksReformD" +
       "ataNotify\0228\n\032fireworks_reform_data_list\030" +
-      "\n \003(\0132\024.FireworksReformDataB@\n\031emu.grass" +
-      "cutter.net.protoB#FireworksReformDataNot" +
-      "ifyOuterClassb\006proto3"
+      "\n \003(\0132\024.FireworksReformDataB\033\n\031emu.grass" +
+      "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

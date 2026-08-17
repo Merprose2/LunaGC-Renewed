@@ -19,36 +19,6 @@ public final class GKOENKALADAOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
-     * @return Whether the actionPointsNoCostInfo field is set.
-     */
-    boolean hasActionPointsNoCostInfo();
-    /**
-     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
-     * @return The actionPointsNoCostInfo.
-     */
-    emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo getActionPointsNoCostInfo();
-    /**
-     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
-     */
-    emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfoOrBuilder getActionPointsNoCostInfoOrBuilder();
-
-    /**
-     * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
-     * @return Whether the revenueBonusInfo field is set.
-     */
-    boolean hasRevenueBonusInfo();
-    /**
-     * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
-     * @return The revenueBonusInfo.
-     */
-    emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo getRevenueBonusInfo();
-    /**
-     * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
-     */
-    emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfoOrBuilder getRevenueBonusInfoOrBuilder();
-
-    /**
      * <code>bool HFFJGFBKIFL = 7;</code>
      * @return The hFFJGFBKIFL.
      */
@@ -59,6 +29,36 @@ public final class GKOENKALADAOuterClass {
      * @return The buffId.
      */
     int getBuffId();
+
+    /**
+     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+     * @return Whether the actionPointsNoCostInfo field is set.
+     */
+    boolean hasActionPointsNoCostInfo();
+    /**
+     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+     * @return The actionPointsNoCostInfo.
+     */
+    emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo getActionPointsNoCostInfo();
+    /**
+     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+     */
+    emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfoOrBuilder getActionPointsNoCostInfoOrBuilder();
+
+    /**
+     * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+     * @return Whether the revenueBonusInfo field is set.
+     */
+    boolean hasRevenueBonusInfo();
+    /**
+     * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+     * @return The revenueBonusInfo.
+     */
+    emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo getRevenueBonusInfo();
+    /**
+     * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+     */
+    emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfoOrBuilder getRevenueBonusInfoOrBuilder();
 
     public emu.grasscutter.net.proto.GKOENKALADAOuterClass.GKOENKALADA.DetailCase getDetailCase();
   }
@@ -118,28 +118,28 @@ public final class GKOENKALADAOuterClass {
               break;
             }
             case 5050: {
-              emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo.Builder subBuilder = null;
               if (detailCase_ == 631) {
-                subBuilder = ((emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 631;
               break;
             }
             case 11938: {
-              emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo.Builder subBuilder = null;
               if (detailCase_ == 1492) {
-                subBuilder = ((emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 1492;
@@ -218,68 +218,6 @@ public final class GKOENKALADAOuterClass {
           detailCase_);
     }
 
-    public static final int ACTION_POINTS_NO_COST_INFO_FIELD_NUMBER = 631;
-    /**
-     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
-     * @return Whether the actionPointsNoCostInfo field is set.
-     */
-    @java.lang.Override
-    public boolean hasActionPointsNoCostInfo() {
-      return detailCase_ == 631;
-    }
-    /**
-     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
-     * @return The actionPointsNoCostInfo.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo getActionPointsNoCostInfo() {
-      if (detailCase_ == 631) {
-         return (emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo) detail_;
-      }
-      return emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.getDefaultInstance();
-    }
-    /**
-     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfoOrBuilder getActionPointsNoCostInfoOrBuilder() {
-      if (detailCase_ == 631) {
-         return (emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo) detail_;
-      }
-      return emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.getDefaultInstance();
-    }
-
-    public static final int REVENUE_BONUS_INFO_FIELD_NUMBER = 1492;
-    /**
-     * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
-     * @return Whether the revenueBonusInfo field is set.
-     */
-    @java.lang.Override
-    public boolean hasRevenueBonusInfo() {
-      return detailCase_ == 1492;
-    }
-    /**
-     * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
-     * @return The revenueBonusInfo.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo getRevenueBonusInfo() {
-      if (detailCase_ == 1492) {
-         return (emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo) detail_;
-      }
-      return emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.getDefaultInstance();
-    }
-    /**
-     * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfoOrBuilder getRevenueBonusInfoOrBuilder() {
-      if (detailCase_ == 1492) {
-         return (emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo) detail_;
-      }
-      return emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.getDefaultInstance();
-    }
-
     public static final int HFFJGFBKIFL_FIELD_NUMBER = 7;
     private boolean hFFJGFBKIFL_;
     /**
@@ -300,6 +238,68 @@ public final class GKOENKALADAOuterClass {
     @java.lang.Override
     public int getBuffId() {
       return buffId_;
+    }
+
+    public static final int ACTION_POINTS_NO_COST_INFO_FIELD_NUMBER = 631;
+    /**
+     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+     * @return Whether the actionPointsNoCostInfo field is set.
+     */
+    @java.lang.Override
+    public boolean hasActionPointsNoCostInfo() {
+      return detailCase_ == 631;
+    }
+    /**
+     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+     * @return The actionPointsNoCostInfo.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo getActionPointsNoCostInfo() {
+      if (detailCase_ == 631) {
+         return (emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo) detail_;
+      }
+      return emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo.getDefaultInstance();
+    }
+    /**
+     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfoOrBuilder getActionPointsNoCostInfoOrBuilder() {
+      if (detailCase_ == 631) {
+         return (emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo) detail_;
+      }
+      return emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo.getDefaultInstance();
+    }
+
+    public static final int REVENUE_BONUS_INFO_FIELD_NUMBER = 1492;
+    /**
+     * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+     * @return Whether the revenueBonusInfo field is set.
+     */
+    @java.lang.Override
+    public boolean hasRevenueBonusInfo() {
+      return detailCase_ == 1492;
+    }
+    /**
+     * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+     * @return The revenueBonusInfo.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo getRevenueBonusInfo() {
+      if (detailCase_ == 1492) {
+         return (emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo) detail_;
+      }
+      return emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo.getDefaultInstance();
+    }
+    /**
+     * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfoOrBuilder getRevenueBonusInfoOrBuilder() {
+      if (detailCase_ == 1492) {
+         return (emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo) detail_;
+      }
+      return emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -323,10 +323,10 @@ public final class GKOENKALADAOuterClass {
         output.writeUInt32(11, buffId_);
       }
       if (detailCase_ == 631) {
-        output.writeMessage(631, (emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo) detail_);
+        output.writeMessage(631, (emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo) detail_);
       }
       if (detailCase_ == 1492) {
-        output.writeMessage(1492, (emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo) detail_);
+        output.writeMessage(1492, (emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -347,11 +347,11 @@ public final class GKOENKALADAOuterClass {
       }
       if (detailCase_ == 631) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(631, (emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo) detail_);
+          .computeMessageSize(631, (emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo) detail_);
       }
       if (detailCase_ == 1492) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1492, (emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo) detail_);
+          .computeMessageSize(1492, (emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -578,6 +578,8 @@ public final class GKOENKALADAOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.GKOENKALADAOuterClass.GKOENKALADA buildPartial() {
         emu.grasscutter.net.proto.GKOENKALADAOuterClass.GKOENKALADA result = new emu.grasscutter.net.proto.GKOENKALADAOuterClass.GKOENKALADA(this);
+        result.hFFJGFBKIFL_ = hFFJGFBKIFL_;
+        result.buffId_ = buffId_;
         if (detailCase_ == 631) {
           if (actionPointsNoCostInfoBuilder_ == null) {
             result.detail_ = detail_;
@@ -592,8 +594,6 @@ public final class GKOENKALADAOuterClass {
             result.detail_ = revenueBonusInfoBuilder_.build();
           }
         }
-        result.hFFJGFBKIFL_ = hFFJGFBKIFL_;
-        result.buffId_ = buffId_;
         result.detailCase_ = detailCase_;
         onBuilt();
         return result;
@@ -706,288 +706,6 @@ public final class GKOENKALADAOuterClass {
       }
 
 
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo, emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.Builder, emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfoOrBuilder> actionPointsNoCostInfoBuilder_;
-      /**
-       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
-       * @return Whether the actionPointsNoCostInfo field is set.
-       */
-      @java.lang.Override
-      public boolean hasActionPointsNoCostInfo() {
-        return detailCase_ == 631;
-      }
-      /**
-       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
-       * @return The actionPointsNoCostInfo.
-       */
-      @java.lang.Override
-      public emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo getActionPointsNoCostInfo() {
-        if (actionPointsNoCostInfoBuilder_ == null) {
-          if (detailCase_ == 631) {
-            return (emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo) detail_;
-          }
-          return emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.getDefaultInstance();
-        } else {
-          if (detailCase_ == 631) {
-            return actionPointsNoCostInfoBuilder_.getMessage();
-          }
-          return emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.getDefaultInstance();
-        }
-      }
-      /**
-       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
-       */
-      public Builder setActionPointsNoCostInfo(emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo value) {
-        if (actionPointsNoCostInfoBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          detail_ = value;
-          onChanged();
-        } else {
-          actionPointsNoCostInfoBuilder_.setMessage(value);
-        }
-        detailCase_ = 631;
-        return this;
-      }
-      /**
-       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
-       */
-      public Builder setActionPointsNoCostInfo(
-          emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.Builder builderForValue) {
-        if (actionPointsNoCostInfoBuilder_ == null) {
-          detail_ = builderForValue.build();
-          onChanged();
-        } else {
-          actionPointsNoCostInfoBuilder_.setMessage(builderForValue.build());
-        }
-        detailCase_ = 631;
-        return this;
-      }
-      /**
-       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
-       */
-      public Builder mergeActionPointsNoCostInfo(emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo value) {
-        if (actionPointsNoCostInfoBuilder_ == null) {
-          if (detailCase_ == 631 &&
-              detail_ != emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.newBuilder((emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo) detail_)
-                .mergeFrom(value).buildPartial();
-          } else {
-            detail_ = value;
-          }
-          onChanged();
-        } else {
-          if (detailCase_ == 631) {
-            actionPointsNoCostInfoBuilder_.mergeFrom(value);
-          }
-          actionPointsNoCostInfoBuilder_.setMessage(value);
-        }
-        detailCase_ = 631;
-        return this;
-      }
-      /**
-       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
-       */
-      public Builder clearActionPointsNoCostInfo() {
-        if (actionPointsNoCostInfoBuilder_ == null) {
-          if (detailCase_ == 631) {
-            detailCase_ = 0;
-            detail_ = null;
-            onChanged();
-          }
-        } else {
-          if (detailCase_ == 631) {
-            detailCase_ = 0;
-            detail_ = null;
-          }
-          actionPointsNoCostInfoBuilder_.clear();
-        }
-        return this;
-      }
-      /**
-       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
-       */
-      public emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.Builder getActionPointsNoCostInfoBuilder() {
-        return getActionPointsNoCostInfoFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
-       */
-      @java.lang.Override
-      public emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfoOrBuilder getActionPointsNoCostInfoOrBuilder() {
-        if ((detailCase_ == 631) && (actionPointsNoCostInfoBuilder_ != null)) {
-          return actionPointsNoCostInfoBuilder_.getMessageOrBuilder();
-        } else {
-          if (detailCase_ == 631) {
-            return (emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo) detail_;
-          }
-          return emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.getDefaultInstance();
-        }
-      }
-      /**
-       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo, emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.Builder, emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfoOrBuilder> 
-          getActionPointsNoCostInfoFieldBuilder() {
-        if (actionPointsNoCostInfoBuilder_ == null) {
-          if (!(detailCase_ == 631)) {
-            detail_ = emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.getDefaultInstance();
-          }
-          actionPointsNoCostInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo, emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.Builder, emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfoOrBuilder>(
-                  (emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo) detail_,
-                  getParentForChildren(),
-                  isClean());
-          detail_ = null;
-        }
-        detailCase_ = 631;
-        onChanged();;
-        return actionPointsNoCostInfoBuilder_;
-      }
-
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo, emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.Builder, emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfoOrBuilder> revenueBonusInfoBuilder_;
-      /**
-       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
-       * @return Whether the revenueBonusInfo field is set.
-       */
-      @java.lang.Override
-      public boolean hasRevenueBonusInfo() {
-        return detailCase_ == 1492;
-      }
-      /**
-       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
-       * @return The revenueBonusInfo.
-       */
-      @java.lang.Override
-      public emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo getRevenueBonusInfo() {
-        if (revenueBonusInfoBuilder_ == null) {
-          if (detailCase_ == 1492) {
-            return (emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo) detail_;
-          }
-          return emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.getDefaultInstance();
-        } else {
-          if (detailCase_ == 1492) {
-            return revenueBonusInfoBuilder_.getMessage();
-          }
-          return emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.getDefaultInstance();
-        }
-      }
-      /**
-       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
-       */
-      public Builder setRevenueBonusInfo(emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo value) {
-        if (revenueBonusInfoBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          detail_ = value;
-          onChanged();
-        } else {
-          revenueBonusInfoBuilder_.setMessage(value);
-        }
-        detailCase_ = 1492;
-        return this;
-      }
-      /**
-       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
-       */
-      public Builder setRevenueBonusInfo(
-          emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.Builder builderForValue) {
-        if (revenueBonusInfoBuilder_ == null) {
-          detail_ = builderForValue.build();
-          onChanged();
-        } else {
-          revenueBonusInfoBuilder_.setMessage(builderForValue.build());
-        }
-        detailCase_ = 1492;
-        return this;
-      }
-      /**
-       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
-       */
-      public Builder mergeRevenueBonusInfo(emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo value) {
-        if (revenueBonusInfoBuilder_ == null) {
-          if (detailCase_ == 1492 &&
-              detail_ != emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.newBuilder((emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo) detail_)
-                .mergeFrom(value).buildPartial();
-          } else {
-            detail_ = value;
-          }
-          onChanged();
-        } else {
-          if (detailCase_ == 1492) {
-            revenueBonusInfoBuilder_.mergeFrom(value);
-          }
-          revenueBonusInfoBuilder_.setMessage(value);
-        }
-        detailCase_ = 1492;
-        return this;
-      }
-      /**
-       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
-       */
-      public Builder clearRevenueBonusInfo() {
-        if (revenueBonusInfoBuilder_ == null) {
-          if (detailCase_ == 1492) {
-            detailCase_ = 0;
-            detail_ = null;
-            onChanged();
-          }
-        } else {
-          if (detailCase_ == 1492) {
-            detailCase_ = 0;
-            detail_ = null;
-          }
-          revenueBonusInfoBuilder_.clear();
-        }
-        return this;
-      }
-      /**
-       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
-       */
-      public emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.Builder getRevenueBonusInfoBuilder() {
-        return getRevenueBonusInfoFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
-       */
-      @java.lang.Override
-      public emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfoOrBuilder getRevenueBonusInfoOrBuilder() {
-        if ((detailCase_ == 1492) && (revenueBonusInfoBuilder_ != null)) {
-          return revenueBonusInfoBuilder_.getMessageOrBuilder();
-        } else {
-          if (detailCase_ == 1492) {
-            return (emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo) detail_;
-          }
-          return emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.getDefaultInstance();
-        }
-      }
-      /**
-       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo, emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.Builder, emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfoOrBuilder> 
-          getRevenueBonusInfoFieldBuilder() {
-        if (revenueBonusInfoBuilder_ == null) {
-          if (!(detailCase_ == 1492)) {
-            detail_ = emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.getDefaultInstance();
-          }
-          revenueBonusInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo, emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.Builder, emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfoOrBuilder>(
-                  (emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo) detail_,
-                  getParentForChildren(),
-                  isClean());
-          detail_ = null;
-        }
-        detailCase_ = 1492;
-        onChanged();;
-        return revenueBonusInfoBuilder_;
-      }
-
       private boolean hFFJGFBKIFL_ ;
       /**
        * <code>bool HFFJGFBKIFL = 7;</code>
@@ -1048,6 +766,288 @@ public final class GKOENKALADAOuterClass {
         buffId_ = 0;
         onChanged();
         return this;
+      }
+
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo, emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo.Builder, emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfoOrBuilder> actionPointsNoCostInfoBuilder_;
+      /**
+       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+       * @return Whether the actionPointsNoCostInfo field is set.
+       */
+      @java.lang.Override
+      public boolean hasActionPointsNoCostInfo() {
+        return detailCase_ == 631;
+      }
+      /**
+       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+       * @return The actionPointsNoCostInfo.
+       */
+      @java.lang.Override
+      public emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo getActionPointsNoCostInfo() {
+        if (actionPointsNoCostInfoBuilder_ == null) {
+          if (detailCase_ == 631) {
+            return (emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo) detail_;
+          }
+          return emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo.getDefaultInstance();
+        } else {
+          if (detailCase_ == 631) {
+            return actionPointsNoCostInfoBuilder_.getMessage();
+          }
+          return emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+       */
+      public Builder setActionPointsNoCostInfo(emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo value) {
+        if (actionPointsNoCostInfoBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          detail_ = value;
+          onChanged();
+        } else {
+          actionPointsNoCostInfoBuilder_.setMessage(value);
+        }
+        detailCase_ = 631;
+        return this;
+      }
+      /**
+       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+       */
+      public Builder setActionPointsNoCostInfo(
+          emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo.Builder builderForValue) {
+        if (actionPointsNoCostInfoBuilder_ == null) {
+          detail_ = builderForValue.build();
+          onChanged();
+        } else {
+          actionPointsNoCostInfoBuilder_.setMessage(builderForValue.build());
+        }
+        detailCase_ = 631;
+        return this;
+      }
+      /**
+       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+       */
+      public Builder mergeActionPointsNoCostInfo(emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo value) {
+        if (actionPointsNoCostInfoBuilder_ == null) {
+          if (detailCase_ == 631 &&
+              detail_ != emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo.newBuilder((emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo) detail_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            detail_ = value;
+          }
+          onChanged();
+        } else {
+          if (detailCase_ == 631) {
+            actionPointsNoCostInfoBuilder_.mergeFrom(value);
+          }
+          actionPointsNoCostInfoBuilder_.setMessage(value);
+        }
+        detailCase_ = 631;
+        return this;
+      }
+      /**
+       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+       */
+      public Builder clearActionPointsNoCostInfo() {
+        if (actionPointsNoCostInfoBuilder_ == null) {
+          if (detailCase_ == 631) {
+            detailCase_ = 0;
+            detail_ = null;
+            onChanged();
+          }
+        } else {
+          if (detailCase_ == 631) {
+            detailCase_ = 0;
+            detail_ = null;
+          }
+          actionPointsNoCostInfoBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+       */
+      public emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo.Builder getActionPointsNoCostInfoBuilder() {
+        return getActionPointsNoCostInfoFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+       */
+      @java.lang.Override
+      public emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfoOrBuilder getActionPointsNoCostInfoOrBuilder() {
+        if ((detailCase_ == 631) && (actionPointsNoCostInfoBuilder_ != null)) {
+          return actionPointsNoCostInfoBuilder_.getMessageOrBuilder();
+        } else {
+          if (detailCase_ == 631) {
+            return (emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo) detail_;
+          }
+          return emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo, emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo.Builder, emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfoOrBuilder> 
+          getActionPointsNoCostInfoFieldBuilder() {
+        if (actionPointsNoCostInfoBuilder_ == null) {
+          if (!(detailCase_ == 631)) {
+            detail_ = emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo.getDefaultInstance();
+          }
+          actionPointsNoCostInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo, emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo.Builder, emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfoOrBuilder>(
+                  (emu.grasscutter.net.proto.ActionPointsNoCostInfo._ActionPointsNoCostInfo) detail_,
+                  getParentForChildren(),
+                  isClean());
+          detail_ = null;
+        }
+        detailCase_ = 631;
+        onChanged();;
+        return actionPointsNoCostInfoBuilder_;
+      }
+
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo, emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo.Builder, emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfoOrBuilder> revenueBonusInfoBuilder_;
+      /**
+       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+       * @return Whether the revenueBonusInfo field is set.
+       */
+      @java.lang.Override
+      public boolean hasRevenueBonusInfo() {
+        return detailCase_ == 1492;
+      }
+      /**
+       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+       * @return The revenueBonusInfo.
+       */
+      @java.lang.Override
+      public emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo getRevenueBonusInfo() {
+        if (revenueBonusInfoBuilder_ == null) {
+          if (detailCase_ == 1492) {
+            return (emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo) detail_;
+          }
+          return emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo.getDefaultInstance();
+        } else {
+          if (detailCase_ == 1492) {
+            return revenueBonusInfoBuilder_.getMessage();
+          }
+          return emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+       */
+      public Builder setRevenueBonusInfo(emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo value) {
+        if (revenueBonusInfoBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          detail_ = value;
+          onChanged();
+        } else {
+          revenueBonusInfoBuilder_.setMessage(value);
+        }
+        detailCase_ = 1492;
+        return this;
+      }
+      /**
+       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+       */
+      public Builder setRevenueBonusInfo(
+          emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo.Builder builderForValue) {
+        if (revenueBonusInfoBuilder_ == null) {
+          detail_ = builderForValue.build();
+          onChanged();
+        } else {
+          revenueBonusInfoBuilder_.setMessage(builderForValue.build());
+        }
+        detailCase_ = 1492;
+        return this;
+      }
+      /**
+       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+       */
+      public Builder mergeRevenueBonusInfo(emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo value) {
+        if (revenueBonusInfoBuilder_ == null) {
+          if (detailCase_ == 1492 &&
+              detail_ != emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo.newBuilder((emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo) detail_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            detail_ = value;
+          }
+          onChanged();
+        } else {
+          if (detailCase_ == 1492) {
+            revenueBonusInfoBuilder_.mergeFrom(value);
+          }
+          revenueBonusInfoBuilder_.setMessage(value);
+        }
+        detailCase_ = 1492;
+        return this;
+      }
+      /**
+       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+       */
+      public Builder clearRevenueBonusInfo() {
+        if (revenueBonusInfoBuilder_ == null) {
+          if (detailCase_ == 1492) {
+            detailCase_ = 0;
+            detail_ = null;
+            onChanged();
+          }
+        } else {
+          if (detailCase_ == 1492) {
+            detailCase_ = 0;
+            detail_ = null;
+          }
+          revenueBonusInfoBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+       */
+      public emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo.Builder getRevenueBonusInfoBuilder() {
+        return getRevenueBonusInfoFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+       */
+      @java.lang.Override
+      public emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfoOrBuilder getRevenueBonusInfoOrBuilder() {
+        if ((detailCase_ == 1492) && (revenueBonusInfoBuilder_ != null)) {
+          return revenueBonusInfoBuilder_.getMessageOrBuilder();
+        } else {
+          if (detailCase_ == 1492) {
+            return (emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo) detail_;
+          }
+          return emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo, emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo.Builder, emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfoOrBuilder> 
+          getRevenueBonusInfoFieldBuilder() {
+        if (revenueBonusInfoBuilder_ == null) {
+          if (!(detailCase_ == 1492)) {
+            detail_ = emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo.getDefaultInstance();
+          }
+          revenueBonusInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo, emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo.Builder, emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfoOrBuilder>(
+                  (emu.grasscutter.net.proto.RevenueBonusInfo._RevenueBonusInfo) detail_,
+                  getParentForChildren(),
+                  isClean());
+          detail_ = null;
+        }
+        detailCase_ = 1492;
+        onChanged();;
+        return revenueBonusInfoBuilder_;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -1118,27 +1118,27 @@ public final class GKOENKALADAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GKOENKALADA.proto\032\035_ActionPointsNoCost" +
       "Info.proto\032\027_RevenueBonusInfo.proto\"\261\001\n\013" +
-      "GKOENKALADA\022?\n\032action_points_no_cost_inf" +
-      "o\030\367\004 \001(\0132\030._ActionPointsNoCostInfoH\000\0221\n\022" +
-      "revenue_bonus_info\030\324\013 \001(\0132\022._RevenueBonu" +
-      "sInfoH\000\022\023\n\013HFFJGFBKIFL\030\007 \001(\010\022\017\n\007buff_id\030" +
-      "\013 \001(\rB\010\n\006detailB2\n\031emu.grasscutter.net.p" +
-      "rotoB\025GKOENKALADAOuterClassb\006proto3"
+      "GKOENKALADA\022\023\n\013HFFJGFBKIFL\030\007 \001(\010\022\017\n\007buff" +
+      "_id\030\013 \001(\r\022?\n\032action_points_no_cost_info\030" +
+      "\367\004 \001(\0132\030._ActionPointsNoCostInfoH\000\0221\n\022re" +
+      "venue_bonus_info\030\324\013 \001(\0132\022._RevenueBonusI" +
+      "nfoH\000B\010\n\006detailB\033\n\031emu.grasscutter.net.p" +
+      "rotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto._RevenueBonusInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.ActionPointsNoCostInfo.getDescriptor(),
+          emu.grasscutter.net.proto.RevenueBonusInfo.getDescriptor(),
         });
     internal_static_GKOENKALADA_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_GKOENKALADA_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GKOENKALADA_descriptor,
-        new java.lang.String[] { "ActionPointsNoCostInfo", "RevenueBonusInfo", "HFFJGFBKIFL", "BuffId", "Detail", });
-    emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass.getDescriptor();
-    emu.grasscutter.net.proto._RevenueBonusInfoOuterClass.getDescriptor();
+        new java.lang.String[] { "HFFJGFBKIFL", "BuffId", "ActionPointsNoCostInfo", "RevenueBonusInfo", "Detail", });
+    emu.grasscutter.net.proto.ActionPointsNoCostInfo.getDescriptor();
+    emu.grasscutter.net.proto.RevenueBonusInfo.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

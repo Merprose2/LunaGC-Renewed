@@ -730,9 +730,8 @@ public final class IKJLKLMCEHMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021IKJLKLMCEHM.proto\"R\n\013IKJLKLMCEHM\022\021\n\tis" +
       "_finish\030\002 \001(\010\022\020\n\010level_id\030\003 \001(\r\022\017\n\007is_op" +
-      "en\030\005 \001(\010\022\r\n\005score\030\n \001(\rB2\n\031emu.grasscutt" +
-      "er.net.protoB\025IKJLKLMCEHMOuterClassb\006pro" +
-      "to3"
+      "en\030\005 \001(\010\022\r\n\005score\030\n \001(\rB\033\n\031emu.grasscutt" +
+      "er.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

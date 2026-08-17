@@ -37,6 +37,10 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
     long getAvatarGuid();
   }
   /**
+   * <pre>
+   * CmdID: 5910
+   * </pre>
+   *
    * Protobuf type {@code AvatarSkillMaxChargeCountNotify}
    */
   public static final class AvatarSkillMaxChargeCountNotify extends
@@ -340,6 +344,10 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 5910
+     * </pre>
+     *
      * Protobuf type {@code AvatarSkillMaxChargeCountNotify}
      */
     public static final class Builder extends
@@ -660,9 +668,8 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
       "\n%AvatarSkillMaxChargeCountNotify.proto\"" +
       "b\n\037AvatarSkillMaxChargeCountNotify\022\020\n\010sk" +
       "ill_id\030\002 \001(\r\022\030\n\020max_charge_count\030\013 \001(\r\022\023" +
-      "\n\013avatar_guid\030\017 \001(\004BF\n\031emu.grasscutter.n" +
-      "et.protoB)AvatarSkillMaxChargeCountNotif" +
-      "yOuterClassb\006proto3"
+      "\n\013avatar_guid\030\017 \001(\004B\033\n\031emu.grasscutter.n" +
+      "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

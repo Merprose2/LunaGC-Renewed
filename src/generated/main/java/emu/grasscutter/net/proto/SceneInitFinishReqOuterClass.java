@@ -25,6 +25,10 @@ public final class SceneInitFinishReqOuterClass {
     int getEnterSceneToken();
   }
   /**
+   * <pre>
+   * CmdID: 4471
+   * </pre>
+   *
    * Protobuf type {@code SceneInitFinishReq}
    */
   public static final class SceneInitFinishReq extends
@@ -273,6 +277,10 @@ public final class SceneInitFinishReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 4471
+     * </pre>
+     *
      * Protobuf type {@code SceneInitFinishReq}
      */
     public static final class Builder extends
@@ -517,9 +525,8 @@ public final class SceneInitFinishReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030SceneInitFinishReq.proto\"/\n\022SceneInitF" +
-      "inishReq\022\031\n\021enter_scene_token\030\003 \001(\rB9\n\031e" +
-      "mu.grasscutter.net.protoB\034SceneInitFinis" +
-      "hReqOuterClassb\006proto3"
+      "inishReq\022\031\n\021enter_scene_token\030\003 \001(\rB\033\n\031e" +
+      "mu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

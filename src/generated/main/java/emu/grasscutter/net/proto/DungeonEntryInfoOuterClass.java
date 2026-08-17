@@ -1006,9 +1006,8 @@ public final class DungeonEntryInfoOuterClass {
       "\030\010 \001(\010\022\026\n\016boss_chest_num\030\013 \001(\r\022E\n\037weekly" +
       "_boss_resin_discount_info\030\014 \001(\0132\034.Weekly" +
       "BossResinDiscountInfo\022\032\n\022max_boss_chest_" +
-      "num\030\016 \001(\r\022\022\n\ndungeon_id\030\017 \001(\rB7\n\031emu.gra" +
-      "sscutter.net.protoB\032DungeonEntryInfoOute" +
-      "rClassb\006proto3"
+      "num\030\016 \001(\r\022\022\n\ndungeon_id\030\017 \001(\rB\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

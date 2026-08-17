@@ -1108,8 +1108,7 @@ public final class JDOHCNIHDEHOuterClass {
       "\n\013JDOHCNIHDEH\022\020\n\010level_id\030\006 \001(\r\022\017\n\007is_op" +
       "en\030\010 \001(\010\022\023\n\013HLPAFFCCGLF\030\t \001(\010\022\021\n\tis_fini" +
       "sh\030\014 \001(\010\022!\n\013FECHNEFCAAC\030\017 \003(\0132\014.EAOEICFJ" +
-      "OBAB2\n\031emu.grasscutter.net.protoB\025JDOHCN" +
-      "IHDEHOuterClassb\006proto3"
+      "OBAB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

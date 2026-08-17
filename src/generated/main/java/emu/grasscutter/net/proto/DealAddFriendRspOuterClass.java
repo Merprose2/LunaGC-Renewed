@@ -42,6 +42,10 @@ public final class DealAddFriendRspOuterClass {
     int getTargetUid();
   }
   /**
+   * <pre>
+   * CmdID: 8496
+   * </pre>
+   *
    * Protobuf type {@code DealAddFriendRsp}
    */
   public static final class DealAddFriendRsp extends
@@ -353,6 +357,10 @@ public final class DealAddFriendRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 8496
+     * </pre>
+     *
      * Protobuf type {@code DealAddFriendRsp}
      */
     public static final class Builder extends
@@ -697,8 +705,8 @@ public final class DealAddFriendRspOuterClass {
       "esultType.proto\"q\n\020DealAddFriendRsp\022\017\n\007r" +
       "etcode\030\003 \001(\005\0228\n\026deal_add_friend_result\030\006" +
       " \001(\0162\030.DealAddFriendResultType\022\022\n\ntarget" +
-      "_uid\030\010 \001(\rB7\n\031emu.grasscutter.net.protoB" +
-      "\032DealAddFriendRspOuterClassb\006proto3"
+      "_uid\030\010 \001(\rB\033\n\031emu.grasscutter.net.protob" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

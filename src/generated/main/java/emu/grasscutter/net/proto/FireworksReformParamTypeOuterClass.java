@@ -20,56 +20,56 @@ public final class FireworksReformParamTypeOuterClass {
   public enum FireworksReformParamType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>FIREWORKS_REFORM_PARAM_NONE = 0;</code>
+     * <code>FireworksReformParamType_FIREWORKS_REFORM_PARAM_NONE = 0;</code>
      */
-    FIREWORKS_REFORM_PARAM_NONE(0),
+    FireworksReformParamType_FIREWORKS_REFORM_PARAM_NONE(0),
     /**
-     * <code>FIREWORKS_REFORM_PARAM_COLOR = 1;</code>
+     * <code>FireworksReformParamType_FIREWORKS_REFORM_PARAM_COLOR = 1;</code>
      */
-    FIREWORKS_REFORM_PARAM_COLOR(1),
+    FireworksReformParamType_FIREWORKS_REFORM_PARAM_COLOR(1),
     /**
-     * <code>FIREWORKS_REFORM_PARAM_HEIGHT = 2;</code>
+     * <code>FireworksReformParamType_FIREWORKS_REFORM_PARAM_HEIGHT = 2;</code>
      */
-    FIREWORKS_REFORM_PARAM_HEIGHT(2),
+    FireworksReformParamType_FIREWORKS_REFORM_PARAM_HEIGHT(2),
     /**
-     * <code>FIREWORKS_REFORM_PARAM_SIZE = 3;</code>
+     * <code>FireworksReformParamType_FIREWORKS_REFORM_PARAM_SIZE = 3;</code>
      */
-    FIREWORKS_REFORM_PARAM_SIZE(3),
+    FireworksReformParamType_FIREWORKS_REFORM_PARAM_SIZE(3),
     /**
-     * <code>FIREWORKS_REFORM_PARAM_DENSITY = 4;</code>
+     * <code>FireworksReformParamType_FIREWORKS_REFORM_PARAM_DENSITY = 4;</code>
      */
-    FIREWORKS_REFORM_PARAM_DENSITY(4),
+    FireworksReformParamType_FIREWORKS_REFORM_PARAM_DENSITY(4),
     /**
-     * <code>FIREWORKS_REFORM_PARAM_ROTATION = 5;</code>
+     * <code>FireworksReformParamType_FIREWORKS_REFORM_PARAM_ROTATION = 5;</code>
      */
-    FIREWORKS_REFORM_PARAM_ROTATION(5),
+    FireworksReformParamType_FIREWORKS_REFORM_PARAM_ROTATION(5),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>FIREWORKS_REFORM_PARAM_NONE = 0;</code>
+     * <code>FireworksReformParamType_FIREWORKS_REFORM_PARAM_NONE = 0;</code>
      */
-    public static final int FIREWORKS_REFORM_PARAM_NONE_VALUE = 0;
+    public static final int FireworksReformParamType_FIREWORKS_REFORM_PARAM_NONE_VALUE = 0;
     /**
-     * <code>FIREWORKS_REFORM_PARAM_COLOR = 1;</code>
+     * <code>FireworksReformParamType_FIREWORKS_REFORM_PARAM_COLOR = 1;</code>
      */
-    public static final int FIREWORKS_REFORM_PARAM_COLOR_VALUE = 1;
+    public static final int FireworksReformParamType_FIREWORKS_REFORM_PARAM_COLOR_VALUE = 1;
     /**
-     * <code>FIREWORKS_REFORM_PARAM_HEIGHT = 2;</code>
+     * <code>FireworksReformParamType_FIREWORKS_REFORM_PARAM_HEIGHT = 2;</code>
      */
-    public static final int FIREWORKS_REFORM_PARAM_HEIGHT_VALUE = 2;
+    public static final int FireworksReformParamType_FIREWORKS_REFORM_PARAM_HEIGHT_VALUE = 2;
     /**
-     * <code>FIREWORKS_REFORM_PARAM_SIZE = 3;</code>
+     * <code>FireworksReformParamType_FIREWORKS_REFORM_PARAM_SIZE = 3;</code>
      */
-    public static final int FIREWORKS_REFORM_PARAM_SIZE_VALUE = 3;
+    public static final int FireworksReformParamType_FIREWORKS_REFORM_PARAM_SIZE_VALUE = 3;
     /**
-     * <code>FIREWORKS_REFORM_PARAM_DENSITY = 4;</code>
+     * <code>FireworksReformParamType_FIREWORKS_REFORM_PARAM_DENSITY = 4;</code>
      */
-    public static final int FIREWORKS_REFORM_PARAM_DENSITY_VALUE = 4;
+    public static final int FireworksReformParamType_FIREWORKS_REFORM_PARAM_DENSITY_VALUE = 4;
     /**
-     * <code>FIREWORKS_REFORM_PARAM_ROTATION = 5;</code>
+     * <code>FireworksReformParamType_FIREWORKS_REFORM_PARAM_ROTATION = 5;</code>
      */
-    public static final int FIREWORKS_REFORM_PARAM_ROTATION_VALUE = 5;
+    public static final int FireworksReformParamType_FIREWORKS_REFORM_PARAM_ROTATION_VALUE = 5;
 
 
     public final int getNumber() {
@@ -96,12 +96,12 @@ public final class FireworksReformParamTypeOuterClass {
      */
     public static FireworksReformParamType forNumber(int value) {
       switch (value) {
-        case 0: return FIREWORKS_REFORM_PARAM_NONE;
-        case 1: return FIREWORKS_REFORM_PARAM_COLOR;
-        case 2: return FIREWORKS_REFORM_PARAM_HEIGHT;
-        case 3: return FIREWORKS_REFORM_PARAM_SIZE;
-        case 4: return FIREWORKS_REFORM_PARAM_DENSITY;
-        case 5: return FIREWORKS_REFORM_PARAM_ROTATION;
+        case 0: return FireworksReformParamType_FIREWORKS_REFORM_PARAM_NONE;
+        case 1: return FireworksReformParamType_FIREWORKS_REFORM_PARAM_COLOR;
+        case 2: return FireworksReformParamType_FIREWORKS_REFORM_PARAM_HEIGHT;
+        case 3: return FireworksReformParamType_FIREWORKS_REFORM_PARAM_SIZE;
+        case 4: return FireworksReformParamType_FIREWORKS_REFORM_PARAM_DENSITY;
+        case 5: return FireworksReformParamType_FIREWORKS_REFORM_PARAM_ROTATION;
         default: return null;
       }
     }
@@ -167,15 +167,18 @@ public final class FireworksReformParamTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\036FireworksReformParamType.proto*\352\001\n\030Fir" +
-      "eworksReformParamType\022\037\n\033FIREWORKS_REFOR" +
-      "M_PARAM_NONE\020\000\022 \n\034FIREWORKS_REFORM_PARAM" +
-      "_COLOR\020\001\022!\n\035FIREWORKS_REFORM_PARAM_HEIGH" +
-      "T\020\002\022\037\n\033FIREWORKS_REFORM_PARAM_SIZE\020\003\022\"\n\036" +
-      "FIREWORKS_REFORM_PARAM_DENSITY\020\004\022#\n\037FIRE" +
-      "WORKS_REFORM_PARAM_ROTATION\020\005B?\n\031emu.gra" +
-      "sscutter.net.protoB\"FireworksReformParam" +
-      "TypeOuterClassb\006proto3"
+      "\n\036FireworksReformParamType.proto*\200\003\n\030Fir" +
+      "eworksReformParamType\0228\n4FireworksReform" +
+      "ParamType_FIREWORKS_REFORM_PARAM_NONE\020\000\022" +
+      "9\n5FireworksReformParamType_FIREWORKS_RE" +
+      "FORM_PARAM_COLOR\020\001\022:\n6FireworksReformPar" +
+      "amType_FIREWORKS_REFORM_PARAM_HEIGHT\020\002\0228" +
+      "\n4FireworksReformParamType_FIREWORKS_REF" +
+      "ORM_PARAM_SIZE\020\003\022;\n7FireworksReformParam" +
+      "Type_FIREWORKS_REFORM_PARAM_DENSITY\020\004\022<\n" +
+      "8FireworksReformParamType_FIREWORKS_REFO" +
+      "RM_PARAM_ROTATION\020\005B\033\n\031emu.grasscutter.n" +
+      "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

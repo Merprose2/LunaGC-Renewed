@@ -588,8 +588,8 @@ public final class FleurFairChapterInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032FleurFairChapterInfo.proto\"=\n\024FleurFai" +
       "rChapterInfo\022\021\n\topen_time\030\001 \001(\r\022\022\n\nchapt" +
-      "er_id\030\007 \001(\rB;\n\031emu.grasscutter.net.proto" +
-      "B\036FleurFairChapterInfoOuterClassb\006proto3"
+      "er_id\030\007 \001(\rB\033\n\031emu.grasscutter.net.proto" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

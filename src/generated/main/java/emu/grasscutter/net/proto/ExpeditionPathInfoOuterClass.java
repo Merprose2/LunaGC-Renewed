@@ -403,7 +403,7 @@ public final class ExpeditionPathInfoOuterClass {
       if (lGBBIHMBIOM_ != 0) {
         output.writeUInt32(3, lGBBIHMBIOM_);
       }
-      if (state_ != emu.grasscutter.net.proto.ExpeditionStateOuterClass.ExpeditionState.EXPEDITION_NONE.getNumber()) {
+      if (state_ != emu.grasscutter.net.proto.ExpeditionStateOuterClass.ExpeditionState.ExpeditionState_EXPEDITION_NONE.getNumber()) {
         output.writeEnum(5, state_);
       }
       if (dAEPBFLMGIA_ != 0) {
@@ -449,7 +449,7 @@ public final class ExpeditionPathInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(3, lGBBIHMBIOM_);
       }
-      if (state_ != emu.grasscutter.net.proto.ExpeditionStateOuterClass.ExpeditionState.EXPEDITION_NONE.getNumber()) {
+      if (state_ != emu.grasscutter.net.proto.ExpeditionStateOuterClass.ExpeditionState.ExpeditionState_EXPEDITION_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(5, state_);
       }
@@ -1319,9 +1319,8 @@ public final class ExpeditionPathInfoOuterClass {
       "tionState\022\023\n\013DAEPBFLMGIA\030\007 \001(\r\022\022\n\nstart_" +
       "time\030\010 \001(\r\022\026\n\016avatar_id_list\030\n \003(\r\022\023\n\013KA" +
       "LHHMPCIDP\030\013 \001(\r\022\031\n\021bonus_probability\030\r \001" +
-      "(\002\022\023\n\013NLLIPHBOCCE\030\017 \001(\rB9\n\031emu.grasscutt" +
-      "er.net.protoB\034ExpeditionPathInfoOuterCla" +
-      "ssb\006proto3"
+      "(\002\022\023\n\013NLLIPHBOCCE\030\017 \001(\rB\033\n\031emu.grasscutt" +
+      "er.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

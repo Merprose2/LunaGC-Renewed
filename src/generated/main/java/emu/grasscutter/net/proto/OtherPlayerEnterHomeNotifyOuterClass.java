@@ -42,6 +42,10 @@ public final class OtherPlayerEnterHomeNotifyOuterClass {
     emu.grasscutter.net.proto.OtherPlayerEnterHomeNotifyOuterClass.OtherPlayerEnterHomeNotify.Reason getReason();
   }
   /**
+   * <pre>
+   * CmdID: 1202
+   * </pre>
+   *
    * Protobuf type {@code OtherPlayerEnterHomeNotify}
    */
   public static final class OtherPlayerEnterHomeNotify extends
@@ -138,32 +142,32 @@ public final class OtherPlayerEnterHomeNotifyOuterClass {
     public enum Reason
         implements com.google.protobuf.ProtocolMessageEnum {
       /**
-       * <code>INVALID = 0;</code>
+       * <code>Reason_INVALID = 0;</code>
        */
-      INVALID(0),
+      Reason_INVALID(0),
       /**
-       * <code>ENTER = 1;</code>
+       * <code>Reason_ENTER = 1;</code>
        */
-      ENTER(1),
+      Reason_ENTER(1),
       /**
-       * <code>LEAVE = 2;</code>
+       * <code>Reason_LEAVE = 2;</code>
        */
-      LEAVE(2),
+      Reason_LEAVE(2),
       UNRECOGNIZED(-1),
       ;
 
       /**
-       * <code>INVALID = 0;</code>
+       * <code>Reason_INVALID = 0;</code>
        */
-      public static final int INVALID_VALUE = 0;
+      public static final int Reason_INVALID_VALUE = 0;
       /**
-       * <code>ENTER = 1;</code>
+       * <code>Reason_ENTER = 1;</code>
        */
-      public static final int ENTER_VALUE = 1;
+      public static final int Reason_ENTER_VALUE = 1;
       /**
-       * <code>LEAVE = 2;</code>
+       * <code>Reason_LEAVE = 2;</code>
        */
-      public static final int LEAVE_VALUE = 2;
+      public static final int Reason_LEAVE_VALUE = 2;
 
 
       public final int getNumber() {
@@ -190,9 +194,9 @@ public final class OtherPlayerEnterHomeNotifyOuterClass {
        */
       public static Reason forNumber(int value) {
         switch (value) {
-          case 0: return INVALID;
-          case 1: return ENTER;
-          case 2: return LEAVE;
+          case 0: return Reason_INVALID;
+          case 1: return Reason_ENTER;
+          case 2: return Reason_LEAVE;
           default: return null;
         }
       }
@@ -323,7 +327,7 @@ public final class OtherPlayerEnterHomeNotifyOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(nickname_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 12, nickname_);
       }
-      if (reason_ != emu.grasscutter.net.proto.OtherPlayerEnterHomeNotifyOuterClass.OtherPlayerEnterHomeNotify.Reason.INVALID.getNumber()) {
+      if (reason_ != emu.grasscutter.net.proto.OtherPlayerEnterHomeNotifyOuterClass.OtherPlayerEnterHomeNotify.Reason.Reason_INVALID.getNumber()) {
         output.writeEnum(13, reason_);
       }
       unknownFields.writeTo(output);
@@ -338,7 +342,7 @@ public final class OtherPlayerEnterHomeNotifyOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(nickname_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(12, nickname_);
       }
-      if (reason_ != emu.grasscutter.net.proto.OtherPlayerEnterHomeNotifyOuterClass.OtherPlayerEnterHomeNotify.Reason.INVALID.getNumber()) {
+      if (reason_ != emu.grasscutter.net.proto.OtherPlayerEnterHomeNotifyOuterClass.OtherPlayerEnterHomeNotify.Reason.Reason_INVALID.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(13, reason_);
       }
@@ -471,6 +475,10 @@ public final class OtherPlayerEnterHomeNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 1202
+     * </pre>
+     *
      * Protobuf type {@code OtherPlayerEnterHomeNotify}
      */
     public static final class Builder extends
@@ -820,13 +828,12 @@ public final class OtherPlayerEnterHomeNotifyOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n OtherPlayerEnterHomeNotify.proto\"\217\001\n\032O" +
+      "\n OtherPlayerEnterHomeNotify.proto\"\244\001\n\032O" +
       "therPlayerEnterHomeNotify\022\020\n\010nickname\030\014 " +
       "\001(\t\0222\n\006reason\030\r \001(\0162\".OtherPlayerEnterHo" +
-      "meNotify.Reason\"+\n\006Reason\022\013\n\007INVALID\020\000\022\t" +
-      "\n\005ENTER\020\001\022\t\n\005LEAVE\020\002BA\n\031emu.grasscutter." +
-      "net.protoB$OtherPlayerEnterHomeNotifyOut" +
-      "erClassb\006proto3"
+      "meNotify.Reason\"@\n\006Reason\022\022\n\016Reason_INVA" +
+      "LID\020\000\022\020\n\014Reason_ENTER\020\001\022\020\n\014Reason_LEAVE\020" +
+      "\002B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

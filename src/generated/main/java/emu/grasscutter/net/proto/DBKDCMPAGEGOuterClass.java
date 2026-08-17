@@ -1034,9 +1034,8 @@ public final class DBKDCMPAGEGOuterClass {
       "\n\021DBKDCMPAGEG.proto\032\021LEEAPMKHDJK.proto\"l" +
       "\n\013DBKDCMPAGEG\022\022\n\ndifficulty\030\001 \001(\r\022\037\n\ttea" +
       "m_list\030\t \003(\0132\014.LEEAPMKHDJK\022\023\n\013BOJBEECJFD" +
-      "L\030\014 \001(\r\022\023\n\013ONEMANNIKIH\030\016 \001(\rB2\n\031emu.gras" +
-      "scutter.net.protoB\025DBKDCMPAGEGOuterClass" +
-      "b\006proto3"
+      "L\030\014 \001(\r\022\023\n\013ONEMANNIKIH\030\016 \001(\rB\033\n\031emu.gras" +
+      "scutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

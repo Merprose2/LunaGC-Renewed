@@ -153,9 +153,8 @@ public final class NHLNPMELFHMOuterClass {
       "HLNPMELFHM_GLOBAL\020\000\022\027\n\023NHLNPMELFHM_ABILI" +
       "TY\020\001\022+\n\'NHLNPMELFHM_MP_ACTION_CONFIG_ANI" +
       "M_EVENT\020\002\0229\n5NHLNPMELFHM_MP_ACTION_CONFI" +
-      "G_USE_GADGET_DAMAGE_ACTION\020\003B2\n\031emu.gras" +
-      "scutter.net.protoB\025NHLNPMELFHMOuterClass" +
-      "b\006proto3"
+      "G_USE_GADGET_DAMAGE_ACTION\020\003B\033\n\031emu.gras" +
+      "scutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

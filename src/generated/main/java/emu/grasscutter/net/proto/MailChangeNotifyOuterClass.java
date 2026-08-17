@@ -84,6 +84,10 @@ public final class MailChangeNotifyOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 8386
+   * </pre>
+   *
    * Protobuf type {@code MailChangeNotify}
    */
   public static final class MailChangeNotify extends
@@ -519,6 +523,10 @@ public final class MailChangeNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 8386
+     * </pre>
+     *
      * Protobuf type {@code MailChangeNotify}
      */
     public static final class Builder extends
@@ -1390,9 +1398,8 @@ public final class MailChangeNotifyOuterClass {
       "\n\026MailChangeNotify.proto\032\016MailData.proto" +
       "\"p\n\020MailChangeNotify\022\034\n\tmail_list\030\005 \003(\0132" +
       "\t.MailData\022\030\n\020del_mail_id_list\030\t \003(\r\022$\n\021" +
-      "_change_mail_list\030\017 \003(\0132\t.MailDataB7\n\031em" +
-      "u.grasscutter.net.protoB\032MailChangeNotif" +
-      "yOuterClassb\006proto3"
+      "_change_mail_list\030\017 \003(\0132\t.MailDataB\033\n\031em" +
+      "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

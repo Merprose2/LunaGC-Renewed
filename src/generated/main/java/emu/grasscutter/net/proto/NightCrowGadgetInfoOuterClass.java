@@ -644,9 +644,8 @@ public final class NightCrowGadgetInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031NightCrowGadgetInfo.proto\",\n\023NightCrow" +
-      "GadgetInfo\022\025\n\rargument_list\030\001 \003(\rB:\n\031emu" +
-      ".grasscutter.net.protoB\035NightCrowGadgetI" +
-      "nfoOuterClassb\006proto3"
+      "GadgetInfo\022\025\n\rargument_list\030\001 \003(\rB\033\n\031emu" +
+      ".grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

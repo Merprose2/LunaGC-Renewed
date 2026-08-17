@@ -66,16 +66,16 @@ public final class PersonalLineAllDataRspOuterClass {
     int getCLDEEBFDGDH(int index);
 
     /**
-     * <code>uint32 cur_finished_daily_task_count = 8;</code>
-     * @return The curFinishedDailyTaskCount.
+     * <code>uint32 JMCFFPAGJHK = 8;</code>
+     * @return The jMCFFPAGJHK.
      */
-    int getCurFinishedDailyTaskCount();
+    int getJMCFFPAGJHK();
 
     /**
-     * <code>uint32 legendary_key_count = 10;</code>
-     * @return The legendaryKeyCount.
+     * <code>uint32 JEKBBCPHJPB = 10;</code>
+     * @return The jEKBBCPHJPB.
      */
-    int getLegendaryKeyCount();
+    int getJEKBBCPHJPB();
 
     /**
      * <code>repeated uint32 KNJFOGEHNPK = 11;</code>
@@ -112,6 +112,10 @@ public final class PersonalLineAllDataRspOuterClass {
     int getNIPKCPGAMKF(int index);
   }
   /**
+   * <pre>
+   * CmdID: 29329
+   * </pre>
+   *
    * Protobuf type {@code PersonalLineAllDataRsp}
    */
   public static final class PersonalLineAllDataRsp extends
@@ -198,12 +202,12 @@ public final class PersonalLineAllDataRspOuterClass {
             }
             case 64: {
 
-              curFinishedDailyTaskCount_ = input.readUInt32();
+              jMCFFPAGJHK_ = input.readUInt32();
               break;
             }
             case 80: {
 
-              legendaryKeyCount_ = input.readUInt32();
+              jEKBBCPHJPB_ = input.readUInt32();
               break;
             }
             case 88: {
@@ -371,26 +375,26 @@ public final class PersonalLineAllDataRspOuterClass {
     }
     private int cLDEEBFDGDHMemoizedSerializedSize = -1;
 
-    public static final int CUR_FINISHED_DAILY_TASK_COUNT_FIELD_NUMBER = 8;
-    private int curFinishedDailyTaskCount_;
+    public static final int JMCFFPAGJHK_FIELD_NUMBER = 8;
+    private int jMCFFPAGJHK_;
     /**
-     * <code>uint32 cur_finished_daily_task_count = 8;</code>
-     * @return The curFinishedDailyTaskCount.
+     * <code>uint32 JMCFFPAGJHK = 8;</code>
+     * @return The jMCFFPAGJHK.
      */
     @java.lang.Override
-    public int getCurFinishedDailyTaskCount() {
-      return curFinishedDailyTaskCount_;
+    public int getJMCFFPAGJHK() {
+      return jMCFFPAGJHK_;
     }
 
-    public static final int LEGENDARY_KEY_COUNT_FIELD_NUMBER = 10;
-    private int legendaryKeyCount_;
+    public static final int JEKBBCPHJPB_FIELD_NUMBER = 10;
+    private int jEKBBCPHJPB_;
     /**
-     * <code>uint32 legendary_key_count = 10;</code>
-     * @return The legendaryKeyCount.
+     * <code>uint32 JEKBBCPHJPB = 10;</code>
+     * @return The jEKBBCPHJPB.
      */
     @java.lang.Override
-    public int getLegendaryKeyCount() {
-      return legendaryKeyCount_;
+    public int getJEKBBCPHJPB() {
+      return jEKBBCPHJPB_;
     }
 
     public static final int KNJFOGEHNPK_FIELD_NUMBER = 11;
@@ -477,11 +481,11 @@ public final class PersonalLineAllDataRspOuterClass {
       for (int i = 0; i < cLDEEBFDGDH_.size(); i++) {
         output.writeUInt32NoTag(cLDEEBFDGDH_.getInt(i));
       }
-      if (curFinishedDailyTaskCount_ != 0) {
-        output.writeUInt32(8, curFinishedDailyTaskCount_);
+      if (jMCFFPAGJHK_ != 0) {
+        output.writeUInt32(8, jMCFFPAGJHK_);
       }
-      if (legendaryKeyCount_ != 0) {
-        output.writeUInt32(10, legendaryKeyCount_);
+      if (jEKBBCPHJPB_ != 0) {
+        output.writeUInt32(10, jEKBBCPHJPB_);
       }
       if (getKNJFOGEHNPKList().size() > 0) {
         output.writeUInt32NoTag(90);
@@ -528,13 +532,13 @@ public final class PersonalLineAllDataRspOuterClass {
         }
         cLDEEBFDGDHMemoizedSerializedSize = dataSize;
       }
-      if (curFinishedDailyTaskCount_ != 0) {
+      if (jMCFFPAGJHK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, curFinishedDailyTaskCount_);
+          .computeUInt32Size(8, jMCFFPAGJHK_);
       }
-      if (legendaryKeyCount_ != 0) {
+      if (jEKBBCPHJPB_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, legendaryKeyCount_);
+          .computeUInt32Size(10, jEKBBCPHJPB_);
       }
       {
         int dataSize = 0;
@@ -585,10 +589,10 @@ public final class PersonalLineAllDataRspOuterClass {
           .equals(other.getLockedPersonalLineListList())) return false;
       if (!getCLDEEBFDGDHList()
           .equals(other.getCLDEEBFDGDHList())) return false;
-      if (getCurFinishedDailyTaskCount()
-          != other.getCurFinishedDailyTaskCount()) return false;
-      if (getLegendaryKeyCount()
-          != other.getLegendaryKeyCount()) return false;
+      if (getJMCFFPAGJHK()
+          != other.getJMCFFPAGJHK()) return false;
+      if (getJEKBBCPHJPB()
+          != other.getJEKBBCPHJPB()) return false;
       if (!getKNJFOGEHNPKList()
           .equals(other.getKNJFOGEHNPKList())) return false;
       if (!getNIPKCPGAMKFList()
@@ -614,10 +618,10 @@ public final class PersonalLineAllDataRspOuterClass {
         hash = (37 * hash) + CLDEEBFDGDH_FIELD_NUMBER;
         hash = (53 * hash) + getCLDEEBFDGDHList().hashCode();
       }
-      hash = (37 * hash) + CUR_FINISHED_DAILY_TASK_COUNT_FIELD_NUMBER;
-      hash = (53 * hash) + getCurFinishedDailyTaskCount();
-      hash = (37 * hash) + LEGENDARY_KEY_COUNT_FIELD_NUMBER;
-      hash = (53 * hash) + getLegendaryKeyCount();
+      hash = (37 * hash) + JMCFFPAGJHK_FIELD_NUMBER;
+      hash = (53 * hash) + getJMCFFPAGJHK();
+      hash = (37 * hash) + JEKBBCPHJPB_FIELD_NUMBER;
+      hash = (53 * hash) + getJEKBBCPHJPB();
       if (getKNJFOGEHNPKCount() > 0) {
         hash = (37 * hash) + KNJFOGEHNPK_FIELD_NUMBER;
         hash = (53 * hash) + getKNJFOGEHNPKList().hashCode();
@@ -722,6 +726,10 @@ public final class PersonalLineAllDataRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 29329
+     * </pre>
+     *
      * Protobuf type {@code PersonalLineAllDataRsp}
      */
     public static final class Builder extends
@@ -770,9 +778,9 @@ public final class PersonalLineAllDataRspOuterClass {
         }
         cLDEEBFDGDH_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
-        curFinishedDailyTaskCount_ = 0;
+        jMCFFPAGJHK_ = 0;
 
-        legendaryKeyCount_ = 0;
+        jEKBBCPHJPB_ = 0;
 
         kNJFOGEHNPK_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000004);
@@ -820,8 +828,8 @@ public final class PersonalLineAllDataRspOuterClass {
           bitField0_ = (bitField0_ & ~0x00000002);
         }
         result.cLDEEBFDGDH_ = cLDEEBFDGDH_;
-        result.curFinishedDailyTaskCount_ = curFinishedDailyTaskCount_;
-        result.legendaryKeyCount_ = legendaryKeyCount_;
+        result.jMCFFPAGJHK_ = jMCFFPAGJHK_;
+        result.jEKBBCPHJPB_ = jEKBBCPHJPB_;
         if (((bitField0_ & 0x00000004) != 0)) {
           kNJFOGEHNPK_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000004);
@@ -919,11 +927,11 @@ public final class PersonalLineAllDataRspOuterClass {
           }
           onChanged();
         }
-        if (other.getCurFinishedDailyTaskCount() != 0) {
-          setCurFinishedDailyTaskCount(other.getCurFinishedDailyTaskCount());
+        if (other.getJMCFFPAGJHK() != 0) {
+          setJMCFFPAGJHK(other.getJMCFFPAGJHK());
         }
-        if (other.getLegendaryKeyCount() != 0) {
-          setLegendaryKeyCount(other.getLegendaryKeyCount());
+        if (other.getJEKBBCPHJPB() != 0) {
+          setJEKBBCPHJPB(other.getJEKBBCPHJPB());
         }
         if (!other.kNJFOGEHNPK_.isEmpty()) {
           if (kNJFOGEHNPK_.isEmpty()) {
@@ -1325,64 +1333,64 @@ public final class PersonalLineAllDataRspOuterClass {
         return this;
       }
 
-      private int curFinishedDailyTaskCount_ ;
+      private int jMCFFPAGJHK_ ;
       /**
-       * <code>uint32 cur_finished_daily_task_count = 8;</code>
-       * @return The curFinishedDailyTaskCount.
+       * <code>uint32 JMCFFPAGJHK = 8;</code>
+       * @return The jMCFFPAGJHK.
        */
       @java.lang.Override
-      public int getCurFinishedDailyTaskCount() {
-        return curFinishedDailyTaskCount_;
+      public int getJMCFFPAGJHK() {
+        return jMCFFPAGJHK_;
       }
       /**
-       * <code>uint32 cur_finished_daily_task_count = 8;</code>
-       * @param value The curFinishedDailyTaskCount to set.
+       * <code>uint32 JMCFFPAGJHK = 8;</code>
+       * @param value The jMCFFPAGJHK to set.
        * @return This builder for chaining.
        */
-      public Builder setCurFinishedDailyTaskCount(int value) {
+      public Builder setJMCFFPAGJHK(int value) {
         
-        curFinishedDailyTaskCount_ = value;
+        jMCFFPAGJHK_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 cur_finished_daily_task_count = 8;</code>
+       * <code>uint32 JMCFFPAGJHK = 8;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCurFinishedDailyTaskCount() {
+      public Builder clearJMCFFPAGJHK() {
         
-        curFinishedDailyTaskCount_ = 0;
+        jMCFFPAGJHK_ = 0;
         onChanged();
         return this;
       }
 
-      private int legendaryKeyCount_ ;
+      private int jEKBBCPHJPB_ ;
       /**
-       * <code>uint32 legendary_key_count = 10;</code>
-       * @return The legendaryKeyCount.
+       * <code>uint32 JEKBBCPHJPB = 10;</code>
+       * @return The jEKBBCPHJPB.
        */
       @java.lang.Override
-      public int getLegendaryKeyCount() {
-        return legendaryKeyCount_;
+      public int getJEKBBCPHJPB() {
+        return jEKBBCPHJPB_;
       }
       /**
-       * <code>uint32 legendary_key_count = 10;</code>
-       * @param value The legendaryKeyCount to set.
+       * <code>uint32 JEKBBCPHJPB = 10;</code>
+       * @param value The jEKBBCPHJPB to set.
        * @return This builder for chaining.
        */
-      public Builder setLegendaryKeyCount(int value) {
+      public Builder setJEKBBCPHJPB(int value) {
         
-        legendaryKeyCount_ = value;
+        jEKBBCPHJPB_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 legendary_key_count = 10;</code>
+       * <code>uint32 JEKBBCPHJPB = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLegendaryKeyCount() {
+      public Builder clearJEKBBCPHJPB() {
         
-        legendaryKeyCount_ = 0;
+        jEKBBCPHJPB_ = 0;
         onChanged();
         return this;
       }
@@ -1612,15 +1620,13 @@ public final class PersonalLineAllDataRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\034PersonalLineAllDataRsp.proto\032\034LockedPe" +
-      "rsonallineData.proto\"\350\001\n\026PersonalLineAll" +
+      "rsonallineData.proto\"\316\001\n\026PersonalLineAll" +
       "DataRsp\022\017\n\007retcode\030\003 \001(\005\022:\n\031locked_perso" +
       "nal_line_list\030\004 \003(\0132\027.LockedPersonalline" +
-      "Data\022\023\n\013CLDEEBFDGDH\030\007 \003(\r\022%\n\035cur_finishe" +
-      "d_daily_task_count\030\010 \001(\r\022\033\n\023legendary_ke" +
-      "y_count\030\n \001(\r\022\023\n\013KNJFOGEHNPK\030\013 \003(\r\022\023\n\013NI" +
-      "PKCPGAMKF\030\017 \003(\rB=\n\031emu.grasscutter.net.p" +
-      "rotoB PersonalLineAllDataRspOuterClassb\006" +
-      "proto3"
+      "Data\022\023\n\013CLDEEBFDGDH\030\007 \003(\r\022\023\n\013JMCFFPAGJHK" +
+      "\030\010 \001(\r\022\023\n\013JEKBBCPHJPB\030\n \001(\r\022\023\n\013KNJFOGEHN" +
+      "PK\030\013 \003(\r\022\023\n\013NIPKCPGAMKF\030\017 \003(\rB\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1632,7 +1638,7 @@ public final class PersonalLineAllDataRspOuterClass {
     internal_static_PersonalLineAllDataRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PersonalLineAllDataRsp_descriptor,
-        new java.lang.String[] { "Retcode", "LockedPersonalLineList", "CLDEEBFDGDH", "CurFinishedDailyTaskCount", "LegendaryKeyCount", "KNJFOGEHNPK", "NIPKCPGAMKF", });
+        new java.lang.String[] { "Retcode", "LockedPersonalLineList", "CLDEEBFDGDH", "JMCFFPAGJHK", "JEKBBCPHJPB", "KNJFOGEHNPK", "NIPKCPGAMKF", });
     emu.grasscutter.net.proto.LockedPersonallineDataOuterClass.getDescriptor();
   }
 

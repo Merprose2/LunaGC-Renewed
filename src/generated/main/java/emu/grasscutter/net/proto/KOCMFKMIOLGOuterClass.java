@@ -998,9 +998,8 @@ public final class KOCMFKMIOLGOuterClass {
       "\n\021KOCMFKMIOLG.proto\"\201\001\n\013KOCMFKMIOLG\022\021\n\ti" +
       "s_finish\030\003 \001(\010\022\023\n\013CIIOIKFAPHF\030\004 \003(\r\022\023\n\013I" +
       "DAGPFELMMH\030\t \001(\r\022\022\n\nbest_score\030\n \001(\r\022\017\n\007" +
-      "is_open\030\r \001(\010\022\020\n\010level_id\030\016 \001(\rB2\n\031emu.g" +
-      "rasscutter.net.protoB\025KOCMFKMIOLGOuterCl" +
-      "assb\006proto3"
+      "is_open\030\r \001(\010\022\020\n\010level_id\030\016 \001(\rB\033\n\031emu.g" +
+      "rasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

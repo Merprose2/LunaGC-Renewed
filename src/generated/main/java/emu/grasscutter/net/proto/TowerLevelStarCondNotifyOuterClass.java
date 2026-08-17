@@ -55,6 +55,10 @@ public final class TowerLevelStarCondNotifyOuterClass {
     int getFloorId();
   }
   /**
+   * <pre>
+   * CmdID: 24129
+   * </pre>
+   *
    * Protobuf type {@code TowerLevelStarCondNotify}
    */
   public static final class TowerLevelStarCondNotify extends
@@ -397,6 +401,10 @@ public final class TowerLevelStarCondNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 24129
+     * </pre>
+     *
      * Protobuf type {@code TowerLevelStarCondNotify}
      */
     public static final class Builder extends
@@ -965,9 +973,8 @@ public final class TowerLevelStarCondNotifyOuterClass {
       "evelStarCondData.proto\"r\n\030TowerLevelStar" +
       "CondNotify\022/\n\016cond_data_list\030\001 \003(\0132\027.Tow" +
       "erLevelStarCondData\022\023\n\013level_index\030\003 \001(\r" +
-      "\022\020\n\010floor_id\030\n \001(\rB?\n\031emu.grasscutter.ne" +
-      "t.protoB\"TowerLevelStarCondNotifyOuterCl" +
-      "assb\006proto3"
+      "\022\020\n\010floor_id\030\n \001(\rB\033\n\031emu.grasscutter.ne" +
+      "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

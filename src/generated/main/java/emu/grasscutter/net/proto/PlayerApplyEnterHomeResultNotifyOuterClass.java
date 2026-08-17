@@ -54,6 +54,10 @@ public final class PlayerApplyEnterHomeResultNotifyOuterClass {
     boolean getIsAgreed();
   }
   /**
+   * <pre>
+   * CmdID: 21743
+   * </pre>
+   *
    * Protobuf type {@code PlayerApplyEnterHomeResultNotify}
    */
   public static final class PlayerApplyEnterHomeResultNotify extends
@@ -160,112 +164,112 @@ public final class PlayerApplyEnterHomeResultNotifyOuterClass {
     public enum Reason
         implements com.google.protobuf.ProtocolMessageEnum {
       /**
-       * <code>PLAYER_JUDGE = 0;</code>
+       * <code>Reason_PLAYER_JUDGE = 0;</code>
        */
-      PLAYER_JUDGE(0),
+      Reason_PLAYER_JUDGE(0),
       /**
-       * <code>PLAYER_ENTER_OPTION_REFUSE = 1;</code>
+       * <code>Reason_PLAYER_ENTER_OPTION_REFUSE = 1;</code>
        */
-      PLAYER_ENTER_OPTION_REFUSE(1),
+      Reason_PLAYER_ENTER_OPTION_REFUSE(1),
       /**
-       * <code>PLAYER_ENTER_OPTION_DIRECT = 2;</code>
+       * <code>Reason_PLAYER_ENTER_OPTION_DIRECT = 2;</code>
        */
-      PLAYER_ENTER_OPTION_DIRECT(2),
+      Reason_PLAYER_ENTER_OPTION_DIRECT(2),
       /**
-       * <code>SYSTEM_JUDGE = 3;</code>
+       * <code>Reason_SYSTEM_JUDGE = 3;</code>
        */
-      SYSTEM_JUDGE(3),
+      Reason_SYSTEM_JUDGE(3),
       /**
-       * <code>HOST_IN_MATCH = 4;</code>
+       * <code>Reason_HOST_IN_MATCH = 4;</code>
        */
-      HOST_IN_MATCH(4),
+      Reason_HOST_IN_MATCH(4),
       /**
-       * <code>PS_PLAYER_NOT_ACCEPT_OTHERS = 5;</code>
+       * <code>Reason_PS_PLAYER_NOT_ACCEPT_OTHERS = 5;</code>
        */
-      PS_PLAYER_NOT_ACCEPT_OTHERS(5),
+      Reason_PS_PLAYER_NOT_ACCEPT_OTHERS(5),
       /**
-       * <code>OPEN_STATE_NOT_OPEN = 6;</code>
+       * <code>Reason_OPEN_STATE_NOT_OPEN = 6;</code>
        */
-      OPEN_STATE_NOT_OPEN(6),
+      Reason_OPEN_STATE_NOT_OPEN(6),
       /**
-       * <code>HOST_IN_EDIT_MODE = 7;</code>
+       * <code>Reason_HOST_IN_EDIT_MODE = 7;</code>
        */
-      HOST_IN_EDIT_MODE(7),
+      Reason_HOST_IN_EDIT_MODE(7),
       /**
-       * <code>PRIOR_CHECK = 8;</code>
+       * <code>Reason_PRIOR_CHECK = 8;</code>
        */
-      PRIOR_CHECK(8),
+      Reason_PRIOR_CHECK(8),
       /**
-       * <code>XBOX_PLAYER_NOT_ACCEPT_OTHERS = 9;</code>
+       * <code>Reason_XBOX_PLAYER_NOT_ACCEPT_OTHERS = 9;</code>
        */
-      XBOX_PLAYER_NOT_ACCEPT_OTHERS(9),
+      Reason_XBOX_PLAYER_NOT_ACCEPT_OTHERS(9),
       /**
-       * <code>PLAYER_NOT_ACCEPT_OTHER_PLATFORM = 10;</code>
+       * <code>Reason_PLAYER_NOT_ACCEPT_OTHER_PLATFORM = 10;</code>
        */
-      PLAYER_NOT_ACCEPT_OTHER_PLATFORM(10),
+      Reason_PLAYER_NOT_ACCEPT_OTHER_PLATFORM(10),
       /**
-       * <code>XBOX_ONLY = 11;</code>
+       * <code>Reason_XBOX_ONLY = 11;</code>
        */
-      XBOX_ONLY(11),
+      Reason_XBOX_ONLY(11),
       /**
-       * <code>SCENE_CANNOT_ENTER = 12;</code>
+       * <code>Reason_SCENE_CANNOT_ENTER = 12;</code>
        */
-      SCENE_CANNOT_ENTER(12),
+      Reason_SCENE_CANNOT_ENTER(12),
       UNRECOGNIZED(-1),
       ;
 
       /**
-       * <code>PLAYER_JUDGE = 0;</code>
+       * <code>Reason_PLAYER_JUDGE = 0;</code>
        */
-      public static final int PLAYER_JUDGE_VALUE = 0;
+      public static final int Reason_PLAYER_JUDGE_VALUE = 0;
       /**
-       * <code>PLAYER_ENTER_OPTION_REFUSE = 1;</code>
+       * <code>Reason_PLAYER_ENTER_OPTION_REFUSE = 1;</code>
        */
-      public static final int PLAYER_ENTER_OPTION_REFUSE_VALUE = 1;
+      public static final int Reason_PLAYER_ENTER_OPTION_REFUSE_VALUE = 1;
       /**
-       * <code>PLAYER_ENTER_OPTION_DIRECT = 2;</code>
+       * <code>Reason_PLAYER_ENTER_OPTION_DIRECT = 2;</code>
        */
-      public static final int PLAYER_ENTER_OPTION_DIRECT_VALUE = 2;
+      public static final int Reason_PLAYER_ENTER_OPTION_DIRECT_VALUE = 2;
       /**
-       * <code>SYSTEM_JUDGE = 3;</code>
+       * <code>Reason_SYSTEM_JUDGE = 3;</code>
        */
-      public static final int SYSTEM_JUDGE_VALUE = 3;
+      public static final int Reason_SYSTEM_JUDGE_VALUE = 3;
       /**
-       * <code>HOST_IN_MATCH = 4;</code>
+       * <code>Reason_HOST_IN_MATCH = 4;</code>
        */
-      public static final int HOST_IN_MATCH_VALUE = 4;
+      public static final int Reason_HOST_IN_MATCH_VALUE = 4;
       /**
-       * <code>PS_PLAYER_NOT_ACCEPT_OTHERS = 5;</code>
+       * <code>Reason_PS_PLAYER_NOT_ACCEPT_OTHERS = 5;</code>
        */
-      public static final int PS_PLAYER_NOT_ACCEPT_OTHERS_VALUE = 5;
+      public static final int Reason_PS_PLAYER_NOT_ACCEPT_OTHERS_VALUE = 5;
       /**
-       * <code>OPEN_STATE_NOT_OPEN = 6;</code>
+       * <code>Reason_OPEN_STATE_NOT_OPEN = 6;</code>
        */
-      public static final int OPEN_STATE_NOT_OPEN_VALUE = 6;
+      public static final int Reason_OPEN_STATE_NOT_OPEN_VALUE = 6;
       /**
-       * <code>HOST_IN_EDIT_MODE = 7;</code>
+       * <code>Reason_HOST_IN_EDIT_MODE = 7;</code>
        */
-      public static final int HOST_IN_EDIT_MODE_VALUE = 7;
+      public static final int Reason_HOST_IN_EDIT_MODE_VALUE = 7;
       /**
-       * <code>PRIOR_CHECK = 8;</code>
+       * <code>Reason_PRIOR_CHECK = 8;</code>
        */
-      public static final int PRIOR_CHECK_VALUE = 8;
+      public static final int Reason_PRIOR_CHECK_VALUE = 8;
       /**
-       * <code>XBOX_PLAYER_NOT_ACCEPT_OTHERS = 9;</code>
+       * <code>Reason_XBOX_PLAYER_NOT_ACCEPT_OTHERS = 9;</code>
        */
-      public static final int XBOX_PLAYER_NOT_ACCEPT_OTHERS_VALUE = 9;
+      public static final int Reason_XBOX_PLAYER_NOT_ACCEPT_OTHERS_VALUE = 9;
       /**
-       * <code>PLAYER_NOT_ACCEPT_OTHER_PLATFORM = 10;</code>
+       * <code>Reason_PLAYER_NOT_ACCEPT_OTHER_PLATFORM = 10;</code>
        */
-      public static final int PLAYER_NOT_ACCEPT_OTHER_PLATFORM_VALUE = 10;
+      public static final int Reason_PLAYER_NOT_ACCEPT_OTHER_PLATFORM_VALUE = 10;
       /**
-       * <code>XBOX_ONLY = 11;</code>
+       * <code>Reason_XBOX_ONLY = 11;</code>
        */
-      public static final int XBOX_ONLY_VALUE = 11;
+      public static final int Reason_XBOX_ONLY_VALUE = 11;
       /**
-       * <code>SCENE_CANNOT_ENTER = 12;</code>
+       * <code>Reason_SCENE_CANNOT_ENTER = 12;</code>
        */
-      public static final int SCENE_CANNOT_ENTER_VALUE = 12;
+      public static final int Reason_SCENE_CANNOT_ENTER_VALUE = 12;
 
 
       public final int getNumber() {
@@ -292,19 +296,19 @@ public final class PlayerApplyEnterHomeResultNotifyOuterClass {
        */
       public static Reason forNumber(int value) {
         switch (value) {
-          case 0: return PLAYER_JUDGE;
-          case 1: return PLAYER_ENTER_OPTION_REFUSE;
-          case 2: return PLAYER_ENTER_OPTION_DIRECT;
-          case 3: return SYSTEM_JUDGE;
-          case 4: return HOST_IN_MATCH;
-          case 5: return PS_PLAYER_NOT_ACCEPT_OTHERS;
-          case 6: return OPEN_STATE_NOT_OPEN;
-          case 7: return HOST_IN_EDIT_MODE;
-          case 8: return PRIOR_CHECK;
-          case 9: return XBOX_PLAYER_NOT_ACCEPT_OTHERS;
-          case 10: return PLAYER_NOT_ACCEPT_OTHER_PLATFORM;
-          case 11: return XBOX_ONLY;
-          case 12: return SCENE_CANNOT_ENTER;
+          case 0: return Reason_PLAYER_JUDGE;
+          case 1: return Reason_PLAYER_ENTER_OPTION_REFUSE;
+          case 2: return Reason_PLAYER_ENTER_OPTION_DIRECT;
+          case 3: return Reason_SYSTEM_JUDGE;
+          case 4: return Reason_HOST_IN_MATCH;
+          case 5: return Reason_PS_PLAYER_NOT_ACCEPT_OTHERS;
+          case 6: return Reason_OPEN_STATE_NOT_OPEN;
+          case 7: return Reason_HOST_IN_EDIT_MODE;
+          case 8: return Reason_PRIOR_CHECK;
+          case 9: return Reason_XBOX_PLAYER_NOT_ACCEPT_OTHERS;
+          case 10: return Reason_PLAYER_NOT_ACCEPT_OTHER_PLATFORM;
+          case 11: return Reason_XBOX_ONLY;
+          case 12: return Reason_SCENE_CANNOT_ENTER;
           default: return null;
         }
       }
@@ -460,7 +464,7 @@ public final class PlayerApplyEnterHomeResultNotifyOuterClass {
       if (targetUid_ != 0) {
         output.writeUInt32(9, targetUid_);
       }
-      if (reason_ != emu.grasscutter.net.proto.PlayerApplyEnterHomeResultNotifyOuterClass.PlayerApplyEnterHomeResultNotify.Reason.PLAYER_JUDGE.getNumber()) {
+      if (reason_ != emu.grasscutter.net.proto.PlayerApplyEnterHomeResultNotifyOuterClass.PlayerApplyEnterHomeResultNotify.Reason.Reason_PLAYER_JUDGE.getNumber()) {
         output.writeEnum(10, reason_);
       }
       if (isAgreed_ != false) {
@@ -482,7 +486,7 @@ public final class PlayerApplyEnterHomeResultNotifyOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(9, targetUid_);
       }
-      if (reason_ != emu.grasscutter.net.proto.PlayerApplyEnterHomeResultNotifyOuterClass.PlayerApplyEnterHomeResultNotify.Reason.PLAYER_JUDGE.getNumber()) {
+      if (reason_ != emu.grasscutter.net.proto.PlayerApplyEnterHomeResultNotifyOuterClass.PlayerApplyEnterHomeResultNotify.Reason.Reason_PLAYER_JUDGE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(10, reason_);
       }
@@ -628,6 +632,10 @@ public final class PlayerApplyEnterHomeResultNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 21743
+     * </pre>
+     *
      * Protobuf type {@code PlayerApplyEnterHomeResultNotify}
      */
     public static final class Builder extends
@@ -1052,21 +1060,22 @@ public final class PlayerApplyEnterHomeResultNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n&PlayerApplyEnterHomeResultNotify.proto" +
-      "\"\360\003\n PlayerApplyEnterHomeResultNotify\022\027\n" +
+      "\"\313\004\n PlayerApplyEnterHomeResultNotify\022\027\n" +
       "\017target_nickname\030\003 \001(\t\022\022\n\ntarget_uid\030\t \001" +
       "(\r\0228\n\006reason\030\n \001(\0162(.PlayerApplyEnterHom" +
       "eResultNotify.Reason\022\021\n\tis_agreed\030\016 \001(\010\"" +
-      "\321\002\n\006Reason\022\020\n\014PLAYER_JUDGE\020\000\022\036\n\032PLAYER_E" +
-      "NTER_OPTION_REFUSE\020\001\022\036\n\032PLAYER_ENTER_OPT" +
-      "ION_DIRECT\020\002\022\020\n\014SYSTEM_JUDGE\020\003\022\021\n\rHOST_I" +
-      "N_MATCH\020\004\022\037\n\033PS_PLAYER_NOT_ACCEPT_OTHERS" +
-      "\020\005\022\027\n\023OPEN_STATE_NOT_OPEN\020\006\022\025\n\021HOST_IN_E" +
-      "DIT_MODE\020\007\022\017\n\013PRIOR_CHECK\020\010\022!\n\035XBOX_PLAY" +
-      "ER_NOT_ACCEPT_OTHERS\020\t\022$\n PLAYER_NOT_ACC" +
-      "EPT_OTHER_PLATFORM\020\n\022\r\n\tXBOX_ONLY\020\013\022\026\n\022S" +
-      "CENE_CANNOT_ENTER\020\014BG\n\031emu.grasscutter.n" +
-      "et.protoB*PlayerApplyEnterHomeResultNoti" +
-      "fyOuterClassb\006proto3"
+      "\254\003\n\006Reason\022\027\n\023Reason_PLAYER_JUDGE\020\000\022%\n!R" +
+      "eason_PLAYER_ENTER_OPTION_REFUSE\020\001\022%\n!Re" +
+      "ason_PLAYER_ENTER_OPTION_DIRECT\020\002\022\027\n\023Rea" +
+      "son_SYSTEM_JUDGE\020\003\022\030\n\024Reason_HOST_IN_MAT" +
+      "CH\020\004\022&\n\"Reason_PS_PLAYER_NOT_ACCEPT_OTHE" +
+      "RS\020\005\022\036\n\032Reason_OPEN_STATE_NOT_OPEN\020\006\022\034\n\030" +
+      "Reason_HOST_IN_EDIT_MODE\020\007\022\026\n\022Reason_PRI" +
+      "OR_CHECK\020\010\022(\n$Reason_XBOX_PLAYER_NOT_ACC" +
+      "EPT_OTHERS\020\t\022+\n\'Reason_PLAYER_NOT_ACCEPT" +
+      "_OTHER_PLATFORM\020\n\022\024\n\020Reason_XBOX_ONLY\020\013\022" +
+      "\035\n\031Reason_SCENE_CANNOT_ENTER\020\014B\033\n\031emu.gr" +
+      "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

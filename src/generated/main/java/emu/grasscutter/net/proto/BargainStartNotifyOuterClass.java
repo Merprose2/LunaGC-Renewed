@@ -40,6 +40,10 @@ public final class BargainStartNotifyOuterClass {
     int getBargainId();
   }
   /**
+   * <pre>
+   * CmdID: 27323
+   * </pre>
+   *
    * Protobuf type {@code BargainStartNotify}
    */
   public static final class BargainStartNotify extends
@@ -343,6 +347,10 @@ public final class BargainStartNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 27323
+     * </pre>
+     *
      * Protobuf type {@code BargainStartNotify}
      */
     public static final class Builder extends
@@ -722,8 +730,8 @@ public final class BargainStartNotifyOuterClass {
       "\n\030BargainStartNotify.proto\032\025BargainSnaps" +
       "hot.proto\"L\n\022BargainStartNotify\022\"\n\010snaps" +
       "hot\030\010 \001(\0132\020.BargainSnapshot\022\022\n\nbargain_i" +
-      "d\030\013 \001(\rB9\n\031emu.grasscutter.net.protoB\034Ba" +
-      "rgainStartNotifyOuterClassb\006proto3"
+      "d\030\013 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

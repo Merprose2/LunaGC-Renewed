@@ -928,9 +928,8 @@ public final class SummerTimeSprintBoatRecordOuterClass {
       "ummerTimeSprintBoatRecord\022\027\n\017watcher_id_" +
       "list\030\003 \003(\r\022\022\n\nis_touched\030\005 \001(\010\022\022\n\nbest_s" +
       "core\030\013 \001(\r\022\022\n\nstart_time\030\016 \001(\r\022\020\n\010group_" +
-      "id\030\017 \001(\rBA\n\031emu.grasscutter.net.protoB$S" +
-      "ummerTimeSprintBoatRecordOuterClassb\006pro" +
-      "to3"
+      "id\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

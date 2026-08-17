@@ -659,8 +659,8 @@ public final class BHJLAGLDHCOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021BHJLAGLDHCO.proto\"J\n\013BHJLAGLDHCO\022\021\n\tis" +
       "_finish\030\003 \001(\010\022\023\n\013finish_time\030\014 \001(\r\022\023\n\013BL" +
-      "CPLGCJEBJ\030\r \001(\rB2\n\031emu.grasscutter.net.p" +
-      "rotoB\025BHJLAGLDHCOOuterClassb\006proto3"
+      "CPLGCJEBJ\030\r \001(\rB\033\n\031emu.grasscutter.net.p" +
+      "rotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

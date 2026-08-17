@@ -31,6 +31,10 @@ public final class PlayerCookArgsReqOuterClass {
     int getAssistAvatar();
   }
   /**
+   * <pre>
+   * CmdID: 27154
+   * </pre>
+   *
    * Protobuf type {@code PlayerCookArgsReq}
    */
   public static final class PlayerCookArgsReq extends
@@ -306,6 +310,10 @@ public final class PlayerCookArgsReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 27154
+     * </pre>
+     *
      * Protobuf type {@code PlayerCookArgsReq}
      */
     public static final class Builder extends
@@ -588,8 +596,8 @@ public final class PlayerCookArgsReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027PlayerCookArgsReq.proto\"=\n\021PlayerCookA" +
       "rgsReq\022\021\n\trecipe_id\030\005 \001(\r\022\025\n\rassist_avat" +
-      "ar\030\014 \001(\rB8\n\031emu.grasscutter.net.protoB\033P" +
-      "layerCookArgsReqOuterClassb\006proto3"
+      "ar\030\014 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

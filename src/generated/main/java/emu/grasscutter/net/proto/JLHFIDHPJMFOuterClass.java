@@ -965,9 +965,8 @@ public final class JLHFIDHPJMFOuterClass {
       "\n\021JLHFIDHPJMF.proto\032\032SocialShowAvatarInf" +
       "o.proto\"`\n\013JLHFIDHPJMF\022\013\n\003uid\030\004 \001(\r\022/\n\020a" +
       "vatar_info_list\030\016 \003(\0132\025.SocialShowAvatar" +
-      "Info\022\023\n\013NDJCMBBPOKH\030\017 \001(\010B2\n\031emu.grasscu" +
-      "tter.net.protoB\025JLHFIDHPJMFOuterClassb\006p" +
-      "roto3"
+      "Info\022\023\n\013NDJCMBBPOKH\030\017 \001(\010B\033\n\031emu.grasscu" +
+      "tter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -714,9 +714,8 @@ public final class NMPMEMFEOMAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NMPMEMFEOMA.proto\"9\n\013NMPMEMFEOMA\022\023\n\013AG" +
-      "FGCHIHNEE\030\002 \003(\r\022\025\n\rdifficulty_id\030\003 \001(\rB2" +
-      "\n\031emu.grasscutter.net.protoB\025NMPMEMFEOMA" +
-      "OuterClassb\006proto3"
+      "FGCHIHNEE\030\002 \003(\r\022\025\n\rdifficulty_id\030\003 \001(\rB\033" +
+      "\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

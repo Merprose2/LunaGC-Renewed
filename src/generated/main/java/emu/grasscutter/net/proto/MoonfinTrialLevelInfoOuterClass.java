@@ -588,9 +588,8 @@ public final class MoonfinTrialLevelInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033MoonfinTrialLevelInfo.proto\"?\n\025Moonfin" +
       "TrialLevelInfo\022\023\n\013best_record\030\006 \001(\r\022\021\n\to" +
-      "pen_time\030\n \001(\rB<\n\031emu.grasscutter.net.pr" +
-      "otoB\037MoonfinTrialLevelInfoOuterClassb\006pr" +
-      "oto3"
+      "pen_time\030\n \001(\rB\033\n\031emu.grasscutter.net.pr" +
+      "otob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

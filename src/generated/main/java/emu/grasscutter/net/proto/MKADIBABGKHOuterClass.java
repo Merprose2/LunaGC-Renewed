@@ -908,8 +908,8 @@ public final class MKADIBABGKHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021MKADIBABGKH.proto\"K\n\013MKADIBABGKH\022\023\n\013CK" +
       "PHABNPOOH\030\003 \003(\r\022\023\n\013EPOIJJBNCAI\030\007 \003(\r\022\022\n\n" +
-      "difficulty\030\013 \001(\rB2\n\031emu.grasscutter.net." +
-      "protoB\025MKADIBABGKHOuterClassb\006proto3"
+      "difficulty\030\013 \001(\rB\033\n\031emu.grasscutter.net." +
+      "protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

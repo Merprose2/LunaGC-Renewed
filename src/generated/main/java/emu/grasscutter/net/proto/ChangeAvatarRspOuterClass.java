@@ -37,6 +37,10 @@ public final class ChangeAvatarRspOuterClass {
     long getCurGuid();
   }
   /**
+   * <pre>
+   * CmdID: 119
+   * </pre>
+   *
    * Protobuf type {@code ChangeAvatarRsp}
    */
   public static final class ChangeAvatarRsp extends
@@ -340,6 +344,10 @@ public final class ChangeAvatarRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 119
+     * </pre>
+     *
      * Protobuf type {@code ChangeAvatarRsp}
      */
     public static final class Builder extends
@@ -659,8 +667,8 @@ public final class ChangeAvatarRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025ChangeAvatarRsp.proto\"F\n\017ChangeAvatarR" +
       "sp\022\020\n\010skill_id\030\001 \001(\r\022\017\n\007retcode\030\002 \001(\005\022\020\n" +
-      "\010cur_guid\030\005 \001(\004B6\n\031emu.grasscutter.net.p" +
-      "rotoB\031ChangeAvatarRspOuterClassb\006proto3"
+      "\010cur_guid\030\005 \001(\004B\033\n\031emu.grasscutter.net.p" +
+      "rotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

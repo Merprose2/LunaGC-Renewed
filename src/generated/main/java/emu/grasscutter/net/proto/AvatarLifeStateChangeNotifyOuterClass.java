@@ -127,6 +127,10 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
     int getClientSequenceId();
   }
   /**
+   * <pre>
+   * CmdID: 5435
+   * </pre>
+   *
    * Protobuf type {@code AvatarLifeStateChangeNotify}
    */
   public static final class AvatarLifeStateChangeNotify extends
@@ -734,6 +738,10 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 5435
+     * </pre>
+     *
      * Protobuf type {@code AvatarLifeStateChangeNotify}
      */
     public static final class Builder extends
@@ -1725,8 +1733,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       "uff_list\030\013 \003(\0132\013.ServerBuff\022\023\n\013EEOIMNHKA" +
       "LK\030\014 \003(\t\022\030\n\020source_entity_id\030\r \001(\r\022\023\n\013LD" +
       "AODDFLPGB\030\016 \001(\r\022\032\n\022client_sequence_id\030\017 " +
-      "\001(\rBB\n\031emu.grasscutter.net.protoB%Avatar" +
-      "LifeStateChangeNotifyOuterClassb\006proto3"
+      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

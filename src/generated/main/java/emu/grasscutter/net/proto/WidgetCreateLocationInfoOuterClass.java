@@ -854,9 +854,8 @@ public final class WidgetCreateLocationInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036WidgetCreateLocationInfo.proto\032\014Vector" +
       ".proto\"F\n\030WidgetCreateLocationInfo\022\024\n\003ro" +
-      "t\030\013 \001(\0132\007.Vector\022\024\n\003pos\030\016 \001(\0132\007.VectorB?" +
-      "\n\031emu.grasscutter.net.protoB\"WidgetCreat" +
-      "eLocationInfoOuterClassb\006proto3"
+      "t\030\013 \001(\0132\007.Vector\022\024\n\003pos\030\016 \001(\0132\007.VectorB\033" +
+      "\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

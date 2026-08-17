@@ -662,9 +662,8 @@ public final class FungusFighterMonsterDetailOuterClass {
       "\n FungusFighterMonsterDetail.proto\"\\\n\032Fu" +
       "ngusFighterMonsterDetail\022\021\n\tfungus_id\030\001 " +
       "\001(\r\022\020\n\010is_alive\030\007 \001(\010\022\031\n\021cur_hp_percenta" +
-      "ge\030\r \001(\002BA\n\031emu.grasscutter.net.protoB$F" +
-      "ungusFighterMonsterDetailOuterClassb\006pro" +
-      "to3"
+      "ge\030\r \001(\002B\033\n\031emu.grasscutter.net.protob\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

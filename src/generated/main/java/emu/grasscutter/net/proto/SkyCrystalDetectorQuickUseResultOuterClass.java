@@ -723,9 +723,8 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
       "\032\034SkyCrystalDetectorData.proto\"o\n SkyCry" +
       "stalDetectorQuickUseResult\022\017\n\007retcode\030\005 " +
       "\001(\005\022:\n\031sky_crystal_detector_data\030\007 \001(\0132\027" +
-      ".SkyCrystalDetectorDataBG\n\031emu.grasscutt" +
-      "er.net.protoB*SkyCrystalDetectorQuickUse" +
-      "ResultOuterClassb\006proto3"
+      ".SkyCrystalDetectorDataB\033\n\031emu.grasscutt" +
+      "er.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

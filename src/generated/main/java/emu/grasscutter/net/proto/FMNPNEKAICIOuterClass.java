@@ -730,9 +730,8 @@ public final class FMNPNEKAICIOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FMNPNEKAICI.proto\"]\n\013FMNPNEKAICI\022\020\n\010le" +
       "vel_id\030\001 \001(\r\022\023\n\013ODDFFNIOBLN\030\004 \001(\010\022\023\n\013KLG" +
-      "NBKEEEIE\030\007 \001(\010\022\022\n\nbest_score\030\013 \001(\rB2\n\031em" +
-      "u.grasscutter.net.protoB\025FMNPNEKAICIOute" +
-      "rClassb\006proto3"
+      "NBKEEEIE\030\007 \001(\010\022\022\n\nbest_score\030\013 \001(\rB\033\n\031em" +
+      "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

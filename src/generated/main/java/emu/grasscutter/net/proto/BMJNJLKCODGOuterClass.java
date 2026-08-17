@@ -1464,9 +1464,8 @@ public final class BMJNJLKCODGOuterClass {
       "DEEKKONIOPE\030\004 \001(\002\022\r\n\005speed\030\005 \001(\002\022\022\n\nis_s" +
       "tarted\030\006 \001(\010\022!\n\013BCOFNPNHJCI\030\007 \003(\0132\014.AONP" +
       "AENJADL\022\023\n\013OOPEGAGEENC\030\010 \001(\010\022\023\n\013AKEMOJAM" +
-      "LEK\030\t \001(\r\022\023\n\013LGIDIOIEGCI\030\n \001(\rB2\n\031emu.gr" +
-      "asscutter.net.protoB\025BMJNJLKCODGOuterCla" +
-      "ssb\006proto3"
+      "LEK\030\t \001(\r\022\023\n\013LGIDIOIEGCI\030\n \001(\rB\033\n\031emu.gr" +
+      "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

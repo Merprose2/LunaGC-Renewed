@@ -25,10 +25,10 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
     int getGECNDBBGLCN();
 
     /**
-     * <code>bool chchcmbdiok = 3;</code>
-     * @return The chchcmbdiok.
+     * <code>bool EEHKAIMJJDO = 3;</code>
+     * @return The eEHKAIMJJDO.
      */
-    boolean getChchcmbdiok();
+    boolean getEEHKAIMJJDO();
 
     /**
      * <code>.OnlinePlayerInfo src_player_info = 4;</code>
@@ -52,6 +52,10 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
     int getEBDIMCHMKKD();
   }
   /**
+   * <pre>
+   * CmdID: 2673
+   * </pre>
+   *
    * Protobuf type {@code PlayerApplyEnterMpNotify}
    */
   public static final class PlayerApplyEnterMpNotify extends
@@ -103,7 +107,7 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
             }
             case 24: {
 
-              chchcmbdiok_ = input.readBool();
+              eEHKAIMJJDO_ = input.readBool();
               break;
             }
             case 34: {
@@ -167,15 +171,15 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
       return gECNDBBGLCN_;
     }
 
-    public static final int CHCHCMBDIOK_FIELD_NUMBER = 3;
-    private boolean chchcmbdiok_;
+    public static final int EEHKAIMJJDO_FIELD_NUMBER = 3;
+    private boolean eEHKAIMJJDO_;
     /**
-     * <code>bool chchcmbdiok = 3;</code>
-     * @return The chchcmbdiok.
+     * <code>bool EEHKAIMJJDO = 3;</code>
+     * @return The eEHKAIMJJDO.
      */
     @java.lang.Override
-    public boolean getChchcmbdiok() {
-      return chchcmbdiok_;
+    public boolean getEEHKAIMJJDO() {
+      return eEHKAIMJJDO_;
     }
 
     public static final int SRC_PLAYER_INFO_FIELD_NUMBER = 4;
@@ -232,8 +236,8 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
       if (gECNDBBGLCN_ != 0) {
         output.writeUInt32(2, gECNDBBGLCN_);
       }
-      if (chchcmbdiok_ != false) {
-        output.writeBool(3, chchcmbdiok_);
+      if (eEHKAIMJJDO_ != false) {
+        output.writeBool(3, eEHKAIMJJDO_);
       }
       if (srcPlayerInfo_ != null) {
         output.writeMessage(4, getSrcPlayerInfo());
@@ -254,9 +258,9 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(2, gECNDBBGLCN_);
       }
-      if (chchcmbdiok_ != false) {
+      if (eEHKAIMJJDO_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, chchcmbdiok_);
+          .computeBoolSize(3, eEHKAIMJJDO_);
       }
       if (srcPlayerInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -283,8 +287,8 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
 
       if (getGECNDBBGLCN()
           != other.getGECNDBBGLCN()) return false;
-      if (getChchcmbdiok()
-          != other.getChchcmbdiok()) return false;
+      if (getEEHKAIMJJDO()
+          != other.getEEHKAIMJJDO()) return false;
       if (hasSrcPlayerInfo() != other.hasSrcPlayerInfo()) return false;
       if (hasSrcPlayerInfo()) {
         if (!getSrcPlayerInfo()
@@ -305,9 +309,9 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + GECNDBBGLCN_FIELD_NUMBER;
       hash = (53 * hash) + getGECNDBBGLCN();
-      hash = (37 * hash) + CHCHCMBDIOK_FIELD_NUMBER;
+      hash = (37 * hash) + EEHKAIMJJDO_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getChchcmbdiok());
+          getEEHKAIMJJDO());
       if (hasSrcPlayerInfo()) {
         hash = (37 * hash) + SRC_PLAYER_INFO_FIELD_NUMBER;
         hash = (53 * hash) + getSrcPlayerInfo().hashCode();
@@ -410,6 +414,10 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 2673
+     * </pre>
+     *
      * Protobuf type {@code PlayerApplyEnterMpNotify}
      */
     public static final class Builder extends
@@ -449,7 +457,7 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
         super.clear();
         gECNDBBGLCN_ = 0;
 
-        chchcmbdiok_ = false;
+        eEHKAIMJJDO_ = false;
 
         if (srcPlayerInfoBuilder_ == null) {
           srcPlayerInfo_ = null;
@@ -486,7 +494,7 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
       public emu.grasscutter.net.proto.PlayerApplyEnterMpNotifyOuterClass.PlayerApplyEnterMpNotify buildPartial() {
         emu.grasscutter.net.proto.PlayerApplyEnterMpNotifyOuterClass.PlayerApplyEnterMpNotify result = new emu.grasscutter.net.proto.PlayerApplyEnterMpNotifyOuterClass.PlayerApplyEnterMpNotify(this);
         result.gECNDBBGLCN_ = gECNDBBGLCN_;
-        result.chchcmbdiok_ = chchcmbdiok_;
+        result.eEHKAIMJJDO_ = eEHKAIMJJDO_;
         if (srcPlayerInfoBuilder_ == null) {
           result.srcPlayerInfo_ = srcPlayerInfo_;
         } else {
@@ -544,8 +552,8 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
         if (other.getGECNDBBGLCN() != 0) {
           setGECNDBBGLCN(other.getGECNDBBGLCN());
         }
-        if (other.getChchcmbdiok() != false) {
-          setChchcmbdiok(other.getChchcmbdiok());
+        if (other.getEEHKAIMJJDO() != false) {
+          setEEHKAIMJJDO(other.getEEHKAIMJJDO());
         }
         if (other.hasSrcPlayerInfo()) {
           mergeSrcPlayerInfo(other.getSrcPlayerInfo());
@@ -613,33 +621,33 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
         return this;
       }
 
-      private boolean chchcmbdiok_ ;
+      private boolean eEHKAIMJJDO_ ;
       /**
-       * <code>bool chchcmbdiok = 3;</code>
-       * @return The chchcmbdiok.
+       * <code>bool EEHKAIMJJDO = 3;</code>
+       * @return The eEHKAIMJJDO.
        */
       @java.lang.Override
-      public boolean getChchcmbdiok() {
-        return chchcmbdiok_;
+      public boolean getEEHKAIMJJDO() {
+        return eEHKAIMJJDO_;
       }
       /**
-       * <code>bool chchcmbdiok = 3;</code>
-       * @param value The chchcmbdiok to set.
+       * <code>bool EEHKAIMJJDO = 3;</code>
+       * @param value The eEHKAIMJJDO to set.
        * @return This builder for chaining.
        */
-      public Builder setChchcmbdiok(boolean value) {
+      public Builder setEEHKAIMJJDO(boolean value) {
         
-        chchcmbdiok_ = value;
+        eEHKAIMJJDO_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool chchcmbdiok = 3;</code>
+       * <code>bool EEHKAIMJJDO = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearChchcmbdiok() {
+      public Builder clearEEHKAIMJJDO() {
         
-        chchcmbdiok_ = false;
+        eEHKAIMJJDO_ = false;
         onChanged();
         return this;
       }
@@ -862,11 +870,10 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036PlayerApplyEnterMpNotify.proto\032\026Online" +
       "PlayerInfo.proto\"\205\001\n\030PlayerApplyEnterMpN" +
-      "otify\022\023\n\013GECNDBBGLCN\030\002 \001(\r\022\023\n\013chchcmbdio" +
-      "k\030\003 \001(\010\022*\n\017src_player_info\030\004 \001(\0132\021.Onlin" +
-      "ePlayerInfo\022\023\n\013EBDIMCHMKKD\030\n \001(\rB?\n\031emu." +
-      "grasscutter.net.protoB\"PlayerApplyEnterM" +
-      "pNotifyOuterClassb\006proto3"
+      "otify\022\023\n\013GECNDBBGLCN\030\002 \001(\r\022\023\n\013EEHKAIMJJD" +
+      "O\030\003 \001(\010\022*\n\017src_player_info\030\004 \001(\0132\021.Onlin" +
+      "ePlayerInfo\022\023\n\013EBDIMCHMKKD\030\n \001(\rB\033\n\031emu." +
+      "grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -878,7 +885,7 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
     internal_static_PlayerApplyEnterMpNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PlayerApplyEnterMpNotify_descriptor,
-        new java.lang.String[] { "GECNDBBGLCN", "Chchcmbdiok", "SrcPlayerInfo", "EBDIMCHMKKD", });
+        new java.lang.String[] { "GECNDBBGLCN", "EEHKAIMJJDO", "SrcPlayerInfo", "EBDIMCHMKKD", });
     emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.getDescriptor();
   }
 

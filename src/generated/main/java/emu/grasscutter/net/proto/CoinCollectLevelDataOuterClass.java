@@ -64,22 +64,22 @@ public final class CoinCollectLevelDataOuterClass {
     int getFIJFFHDFDLI();
 
     /**
-     * <code>bool njjlelknfpl = 10;</code>
-     * @return The njjlelknfpl.
+     * <code>bool ADEGHEENPMB = 10;</code>
+     * @return The aDEGHEENPMB.
      */
-    boolean getNjjlelknfpl();
+    boolean getADEGHEENPMB();
 
     /**
-     * <code>uint32 oidegdjmaah = 11;</code>
-     * @return The oidegdjmaah.
+     * <code>uint32 PBPMOMAKDDM = 11;</code>
+     * @return The pBPMOMAKDDM.
      */
-    int getOidegdjmaah();
+    int getPBPMOMAKDDM();
 
     /**
-     * <code>uint32 nobhhoiapmm = 12;</code>
-     * @return The nobhhoiapmm.
+     * <code>uint32 HCLMGNDDHKH = 12;</code>
+     * @return The hCLMGNDDHKH.
      */
-    int getNobhhoiapmm();
+    int getHCLMGNDDHKH();
 
     /**
      * <code>bool is_level_open = 13;</code>
@@ -204,17 +204,17 @@ public final class CoinCollectLevelDataOuterClass {
             }
             case 80: {
 
-              njjlelknfpl_ = input.readBool();
+              aDEGHEENPMB_ = input.readBool();
               break;
             }
             case 88: {
 
-              oidegdjmaah_ = input.readUInt32();
+              pBPMOMAKDDM_ = input.readUInt32();
               break;
             }
             case 96: {
 
-              nobhhoiapmm_ = input.readUInt32();
+              hCLMGNDDHKH_ = input.readUInt32();
               break;
             }
             case 104: {
@@ -352,37 +352,37 @@ public final class CoinCollectLevelDataOuterClass {
       return fIJFFHDFDLI_;
     }
 
-    public static final int NJJLELKNFPL_FIELD_NUMBER = 10;
-    private boolean njjlelknfpl_;
+    public static final int ADEGHEENPMB_FIELD_NUMBER = 10;
+    private boolean aDEGHEENPMB_;
     /**
-     * <code>bool njjlelknfpl = 10;</code>
-     * @return The njjlelknfpl.
+     * <code>bool ADEGHEENPMB = 10;</code>
+     * @return The aDEGHEENPMB.
      */
     @java.lang.Override
-    public boolean getNjjlelknfpl() {
-      return njjlelknfpl_;
+    public boolean getADEGHEENPMB() {
+      return aDEGHEENPMB_;
     }
 
-    public static final int OIDEGDJMAAH_FIELD_NUMBER = 11;
-    private int oidegdjmaah_;
+    public static final int PBPMOMAKDDM_FIELD_NUMBER = 11;
+    private int pBPMOMAKDDM_;
     /**
-     * <code>uint32 oidegdjmaah = 11;</code>
-     * @return The oidegdjmaah.
+     * <code>uint32 PBPMOMAKDDM = 11;</code>
+     * @return The pBPMOMAKDDM.
      */
     @java.lang.Override
-    public int getOidegdjmaah() {
-      return oidegdjmaah_;
+    public int getPBPMOMAKDDM() {
+      return pBPMOMAKDDM_;
     }
 
-    public static final int NOBHHOIAPMM_FIELD_NUMBER = 12;
-    private int nobhhoiapmm_;
+    public static final int HCLMGNDDHKH_FIELD_NUMBER = 12;
+    private int hCLMGNDDHKH_;
     /**
-     * <code>uint32 nobhhoiapmm = 12;</code>
-     * @return The nobhhoiapmm.
+     * <code>uint32 HCLMGNDDHKH = 12;</code>
+     * @return The hCLMGNDDHKH.
      */
     @java.lang.Override
-    public int getNobhhoiapmm() {
-      return nobhhoiapmm_;
+    public int getHCLMGNDDHKH() {
+      return hCLMGNDDHKH_;
     }
 
     public static final int IS_LEVEL_OPEN_FIELD_NUMBER = 13;
@@ -479,14 +479,14 @@ public final class CoinCollectLevelDataOuterClass {
       if (fIJFFHDFDLI_ != 0) {
         output.writeUInt32(9, fIJFFHDFDLI_);
       }
-      if (njjlelknfpl_ != false) {
-        output.writeBool(10, njjlelknfpl_);
+      if (aDEGHEENPMB_ != false) {
+        output.writeBool(10, aDEGHEENPMB_);
       }
-      if (oidegdjmaah_ != 0) {
-        output.writeUInt32(11, oidegdjmaah_);
+      if (pBPMOMAKDDM_ != 0) {
+        output.writeUInt32(11, pBPMOMAKDDM_);
       }
-      if (nobhhoiapmm_ != 0) {
-        output.writeUInt32(12, nobhhoiapmm_);
+      if (hCLMGNDDHKH_ != 0) {
+        output.writeUInt32(12, hCLMGNDDHKH_);
       }
       if (isLevelOpen_ != false) {
         output.writeBool(13, isLevelOpen_);
@@ -530,17 +530,17 @@ public final class CoinCollectLevelDataOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(9, fIJFFHDFDLI_);
       }
-      if (njjlelknfpl_ != false) {
+      if (aDEGHEENPMB_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, njjlelknfpl_);
+          .computeBoolSize(10, aDEGHEENPMB_);
       }
-      if (oidegdjmaah_ != 0) {
+      if (pBPMOMAKDDM_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, oidegdjmaah_);
+          .computeUInt32Size(11, pBPMOMAKDDM_);
       }
-      if (nobhhoiapmm_ != 0) {
+      if (hCLMGNDDHKH_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, nobhhoiapmm_);
+          .computeUInt32Size(12, hCLMGNDDHKH_);
       }
       if (isLevelOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -584,12 +584,12 @@ public final class CoinCollectLevelDataOuterClass {
           != other.getCLLFHBFHJFB()) return false;
       if (getFIJFFHDFDLI()
           != other.getFIJFFHDFDLI()) return false;
-      if (getNjjlelknfpl()
-          != other.getNjjlelknfpl()) return false;
-      if (getOidegdjmaah()
-          != other.getOidegdjmaah()) return false;
-      if (getNobhhoiapmm()
-          != other.getNobhhoiapmm()) return false;
+      if (getADEGHEENPMB()
+          != other.getADEGHEENPMB()) return false;
+      if (getPBPMOMAKDDM()
+          != other.getPBPMOMAKDDM()) return false;
+      if (getHCLMGNDDHKH()
+          != other.getHCLMGNDDHKH()) return false;
       if (getIsLevelOpen()
           != other.getIsLevelOpen()) return false;
       if (!getDoubleBestTeamInfoListList()
@@ -623,13 +623,13 @@ public final class CoinCollectLevelDataOuterClass {
       hash = (53 * hash) + getCLLFHBFHJFB();
       hash = (37 * hash) + FIJFFHDFDLI_FIELD_NUMBER;
       hash = (53 * hash) + getFIJFFHDFDLI();
-      hash = (37 * hash) + NJJLELKNFPL_FIELD_NUMBER;
+      hash = (37 * hash) + ADEGHEENPMB_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getNjjlelknfpl());
-      hash = (37 * hash) + OIDEGDJMAAH_FIELD_NUMBER;
-      hash = (53 * hash) + getOidegdjmaah();
-      hash = (37 * hash) + NOBHHOIAPMM_FIELD_NUMBER;
-      hash = (53 * hash) + getNobhhoiapmm();
+          getADEGHEENPMB());
+      hash = (37 * hash) + PBPMOMAKDDM_FIELD_NUMBER;
+      hash = (53 * hash) + getPBPMOMAKDDM();
+      hash = (37 * hash) + HCLMGNDDHKH_FIELD_NUMBER;
+      hash = (53 * hash) + getHCLMGNDDHKH();
       hash = (37 * hash) + IS_LEVEL_OPEN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsLevelOpen());
@@ -789,11 +789,11 @@ public final class CoinCollectLevelDataOuterClass {
 
         fIJFFHDFDLI_ = 0;
 
-        njjlelknfpl_ = false;
+        aDEGHEENPMB_ = false;
 
-        oidegdjmaah_ = 0;
+        pBPMOMAKDDM_ = 0;
 
-        nobhhoiapmm_ = 0;
+        hCLMGNDDHKH_ = 0;
 
         isLevelOpen_ = false;
 
@@ -842,9 +842,9 @@ public final class CoinCollectLevelDataOuterClass {
         result.levelId_ = levelId_;
         result.cLLFHBFHJFB_ = cLLFHBFHJFB_;
         result.fIJFFHDFDLI_ = fIJFFHDFDLI_;
-        result.njjlelknfpl_ = njjlelknfpl_;
-        result.oidegdjmaah_ = oidegdjmaah_;
-        result.nobhhoiapmm_ = nobhhoiapmm_;
+        result.aDEGHEENPMB_ = aDEGHEENPMB_;
+        result.pBPMOMAKDDM_ = pBPMOMAKDDM_;
+        result.hCLMGNDDHKH_ = hCLMGNDDHKH_;
         result.isLevelOpen_ = isLevelOpen_;
         if (doubleBestTeamInfoListBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
@@ -922,14 +922,14 @@ public final class CoinCollectLevelDataOuterClass {
         if (other.getFIJFFHDFDLI() != 0) {
           setFIJFFHDFDLI(other.getFIJFFHDFDLI());
         }
-        if (other.getNjjlelknfpl() != false) {
-          setNjjlelknfpl(other.getNjjlelknfpl());
+        if (other.getADEGHEENPMB() != false) {
+          setADEGHEENPMB(other.getADEGHEENPMB());
         }
-        if (other.getOidegdjmaah() != 0) {
-          setOidegdjmaah(other.getOidegdjmaah());
+        if (other.getPBPMOMAKDDM() != 0) {
+          setPBPMOMAKDDM(other.getPBPMOMAKDDM());
         }
-        if (other.getNobhhoiapmm() != 0) {
-          setNobhhoiapmm(other.getNobhhoiapmm());
+        if (other.getHCLMGNDDHKH() != 0) {
+          setHCLMGNDDHKH(other.getHCLMGNDDHKH());
         }
         if (other.getIsLevelOpen() != false) {
           setIsLevelOpen(other.getIsLevelOpen());
@@ -1267,95 +1267,95 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
 
-      private boolean njjlelknfpl_ ;
+      private boolean aDEGHEENPMB_ ;
       /**
-       * <code>bool njjlelknfpl = 10;</code>
-       * @return The njjlelknfpl.
+       * <code>bool ADEGHEENPMB = 10;</code>
+       * @return The aDEGHEENPMB.
        */
       @java.lang.Override
-      public boolean getNjjlelknfpl() {
-        return njjlelknfpl_;
+      public boolean getADEGHEENPMB() {
+        return aDEGHEENPMB_;
       }
       /**
-       * <code>bool njjlelknfpl = 10;</code>
-       * @param value The njjlelknfpl to set.
+       * <code>bool ADEGHEENPMB = 10;</code>
+       * @param value The aDEGHEENPMB to set.
        * @return This builder for chaining.
        */
-      public Builder setNjjlelknfpl(boolean value) {
+      public Builder setADEGHEENPMB(boolean value) {
         
-        njjlelknfpl_ = value;
+        aDEGHEENPMB_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool njjlelknfpl = 10;</code>
+       * <code>bool ADEGHEENPMB = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearNjjlelknfpl() {
+      public Builder clearADEGHEENPMB() {
         
-        njjlelknfpl_ = false;
+        aDEGHEENPMB_ = false;
         onChanged();
         return this;
       }
 
-      private int oidegdjmaah_ ;
+      private int pBPMOMAKDDM_ ;
       /**
-       * <code>uint32 oidegdjmaah = 11;</code>
-       * @return The oidegdjmaah.
+       * <code>uint32 PBPMOMAKDDM = 11;</code>
+       * @return The pBPMOMAKDDM.
        */
       @java.lang.Override
-      public int getOidegdjmaah() {
-        return oidegdjmaah_;
+      public int getPBPMOMAKDDM() {
+        return pBPMOMAKDDM_;
       }
       /**
-       * <code>uint32 oidegdjmaah = 11;</code>
-       * @param value The oidegdjmaah to set.
+       * <code>uint32 PBPMOMAKDDM = 11;</code>
+       * @param value The pBPMOMAKDDM to set.
        * @return This builder for chaining.
        */
-      public Builder setOidegdjmaah(int value) {
+      public Builder setPBPMOMAKDDM(int value) {
         
-        oidegdjmaah_ = value;
+        pBPMOMAKDDM_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 oidegdjmaah = 11;</code>
+       * <code>uint32 PBPMOMAKDDM = 11;</code>
        * @return This builder for chaining.
        */
-      public Builder clearOidegdjmaah() {
+      public Builder clearPBPMOMAKDDM() {
         
-        oidegdjmaah_ = 0;
+        pBPMOMAKDDM_ = 0;
         onChanged();
         return this;
       }
 
-      private int nobhhoiapmm_ ;
+      private int hCLMGNDDHKH_ ;
       /**
-       * <code>uint32 nobhhoiapmm = 12;</code>
-       * @return The nobhhoiapmm.
+       * <code>uint32 HCLMGNDDHKH = 12;</code>
+       * @return The hCLMGNDDHKH.
        */
       @java.lang.Override
-      public int getNobhhoiapmm() {
-        return nobhhoiapmm_;
+      public int getHCLMGNDDHKH() {
+        return hCLMGNDDHKH_;
       }
       /**
-       * <code>uint32 nobhhoiapmm = 12;</code>
-       * @param value The nobhhoiapmm to set.
+       * <code>uint32 HCLMGNDDHKH = 12;</code>
+       * @param value The hCLMGNDDHKH to set.
        * @return This builder for chaining.
        */
-      public Builder setNobhhoiapmm(int value) {
+      public Builder setHCLMGNDDHKH(int value) {
         
-        nobhhoiapmm_ = value;
+        hCLMGNDDHKH_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 nobhhoiapmm = 12;</code>
+       * <code>uint32 HCLMGNDDHKH = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearNobhhoiapmm() {
+      public Builder clearHCLMGNDDHKH() {
         
-        nobhhoiapmm_ = 0;
+        hCLMGNDDHKH_ = 0;
         onChanged();
         return this;
       }
@@ -1734,13 +1734,12 @@ public final class CoinCollectLevelDataOuterClass {
       "\030\002 \001(\010\0227\n\025single_best_team_info\030\003 \001(\0132\030." +
       "CoinCollectTeamInfoData\022\020\n\010level_id\030\004 \001(" +
       "\r\022\023\n\013CLLFHBFHJFB\030\010 \001(\r\022\023\n\013FIJFFHDFDLI\030\t " +
-      "\001(\r\022\023\n\013njjlelknfpl\030\n \001(\010\022\023\n\013oidegdjmaah\030" +
-      "\013 \001(\r\022\023\n\013nobhhoiapmm\030\014 \001(\r\022\025\n\ris_level_o" +
+      "\001(\r\022\023\n\013ADEGHEENPMB\030\n \001(\010\022\023\n\013PBPMOMAKDDM\030" +
+      "\013 \001(\r\022\023\n\013HCLMGNDDHKH\030\014 \001(\r\022\025\n\ris_level_o" +
       "pen\030\r \001(\010\022<\n\032double_best_team_info_list\030" +
       "\016 \003(\0132\030.CoinCollectTeamInfoData\022\023\n\013MCGGM" +
-      "MLPIJP\030\017 \001(\rB;\n\031emu.grasscutter.net.prot" +
-      "oB\036CoinCollectLevelDataOuterClassb\006proto" +
-      "3"
+      "MLPIJP\030\017 \001(\rB\033\n\031emu.grasscutter.net.prot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1752,7 +1751,7 @@ public final class CoinCollectLevelDataOuterClass {
     internal_static_CoinCollectLevelData_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CoinCollectLevelData_descriptor,
-        new java.lang.String[] { "DEELGNJPPHJ", "MHKPMMIOIFO", "SingleBestTeamInfo", "LevelId", "CLLFHBFHJFB", "FIJFFHDFDLI", "Njjlelknfpl", "Oidegdjmaah", "Nobhhoiapmm", "IsLevelOpen", "DoubleBestTeamInfoList", "MCGGMMLPIJP", });
+        new java.lang.String[] { "DEELGNJPPHJ", "MHKPMMIOIFO", "SingleBestTeamInfo", "LevelId", "CLLFHBFHJFB", "FIJFFHDFDLI", "ADEGHEENPMB", "PBPMOMAKDDM", "HCLMGNDDHKH", "IsLevelOpen", "DoubleBestTeamInfoList", "MCGGMMLPIJP", });
     emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.getDescriptor();
   }
 

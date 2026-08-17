@@ -966,9 +966,8 @@ public final class SeaLampV3ShadowStageInfoOuterClass {
       "pV3ShadowLevelInfo.proto\"q\n\030SeaLampV3Sha" +
       "dowStageInfo\022\017\n\007is_open\030\007 \001(\010\022\020\n\010stage_i" +
       "d\030\014 \001(\r\0222\n\017level_info_list\030\017 \003(\0132\031.SeaLa" +
-      "mpV3ShadowLevelInfoB?\n\031emu.grasscutter.n" +
-      "et.protoB\"SeaLampV3ShadowStageInfoOuterC" +
-      "lassb\006proto3"
+      "mpV3ShadowLevelInfoB\033\n\031emu.grasscutter.n" +
+      "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

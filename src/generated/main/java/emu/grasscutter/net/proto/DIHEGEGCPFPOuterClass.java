@@ -155,8 +155,8 @@ public final class DIHEGEGCPFPOuterClass {
       "_BUFF_REFRESH\020\001\0228\n4DIHEGEGCPFP_THEME_PAR" +
       "K_SIM_REDPOINT_EMPLOYEE_REFRESH\020\002\022?\n;DIH" +
       "EGEGCPFP_THEME_PARK_SIM_REDPOINT_EMPLOYE" +
-      "E_REFRESH_DETAIL\020\003B2\n\031emu.grasscutter.ne" +
-      "t.protoB\025DIHEGEGCPFPOuterClassb\006proto3"
+      "E_REFRESH_DETAIL\020\003B\033\n\031emu.grasscutter.ne" +
+      "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

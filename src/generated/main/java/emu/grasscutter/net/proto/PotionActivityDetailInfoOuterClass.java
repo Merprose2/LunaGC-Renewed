@@ -824,8 +824,7 @@ public final class PotionActivityDetailInfoOuterClass {
       "\n\036PotionActivityDetailInfo.proto\032\025Potion" +
       "StageData.proto\"@\n\030PotionActivityDetailI" +
       "nfo\022$\n\nstage_list\030\007 \003(\0132\020.PotionStageDat" +
-      "aB?\n\031emu.grasscutter.net.protoB\"PotionAc" +
-      "tivityDetailInfoOuterClassb\006proto3"
+      "aB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

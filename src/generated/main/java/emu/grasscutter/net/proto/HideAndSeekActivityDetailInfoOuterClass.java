@@ -1599,9 +1599,8 @@ public final class HideAndSeekActivityDetailInfoOuterClass {
       "ctivityDetailInfo\022\023\n\013GAPPBPNNOAC\030\005 \003(\r\022/" +
       "\n\022open_map_info_list\030\006 \003(\0132\023.HideAndSeek" +
       "MapInfo\022\023\n\013MAHOBLCJGOP\030\t \003(\r\022\023\n\013GGFIPEHL" +
-      "FMA\030\014 \003(\r\022\023\n\013ENKNJAAEBIO\030\016 \003(\rBD\n\031emu.gr" +
-      "asscutter.net.protoB\'HideAndSeekActivity" +
-      "DetailInfoOuterClassb\006proto3"
+      "FMA\030\014 \003(\r\022\023\n\013ENKNJAAEBIO\030\016 \003(\rB\033\n\031emu.gr" +
+      "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

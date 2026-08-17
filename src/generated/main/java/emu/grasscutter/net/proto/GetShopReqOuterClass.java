@@ -25,6 +25,10 @@ public final class GetShopReqOuterClass {
     int getShopType();
   }
   /**
+   * <pre>
+   * CmdID: 9719
+   * </pre>
+   *
    * Protobuf type {@code GetShopReq}
    */
   public static final class GetShopReq extends
@@ -273,6 +277,10 @@ public final class GetShopReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 9719
+     * </pre>
+     *
      * Protobuf type {@code GetShopReq}
      */
     public static final class Builder extends
@@ -517,8 +525,8 @@ public final class GetShopReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\020GetShopReq.proto\"\037\n\nGetShopReq\022\021\n\tshop" +
-      "_type\030\n \001(\rB1\n\031emu.grasscutter.net.proto" +
-      "B\024GetShopReqOuterClassb\006proto3"
+      "_type\030\n \001(\rB\033\n\031emu.grasscutter.net.proto" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

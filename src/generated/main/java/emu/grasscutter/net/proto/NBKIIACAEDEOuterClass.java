@@ -152,8 +152,8 @@ public final class NBKIIACAEDEOuterClass {
       "\n\021NBKIIACAEDE.proto*u\n\013NBKIIACAEDE\022\024\n\020NB" +
       "KIIACAEDE_NONE\020\000\022\024\n\020NBKIIACAEDE_EDIT\020\001\022\035" +
       "\n\031NBKIIACAEDE_FRIEND_REPLAY\020\002\022\033\n\027NBKIIAC" +
-      "AEDE_SELF_REPLAY\020\003B2\n\031emu.grasscutter.ne" +
-      "t.protoB\025NBKIIACAEDEOuterClassb\006proto3"
+      "AEDE_SELF_REPLAY\020\003B\033\n\031emu.grasscutter.ne" +
+      "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -895,9 +895,8 @@ public final class TrialAvatarActivityDetailInfoOuterClass {
       "rialAvatarActivityRewardDetailInfo.proto" +
       "\"t\n\035TrialAvatarActivityDetailInfo\022\023\n\013CBP" +
       "JGGEBMBI\030\001 \001(\r\022>\n\020reward_info_list\030\002 \003(\013" +
-      "2$.TrialAvatarActivityRewardDetailInfoBD" +
-      "\n\031emu.grasscutter.net.protoB\'TrialAvatar" +
-      "ActivityDetailInfoOuterClassb\006proto3"
+      "2$.TrialAvatarActivityRewardDetailInfoB\033" +
+      "\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -736,8 +736,8 @@ public final class MathQuaternionOuterClass {
     java.lang.String[] descriptorData = {
       "\n\024MathQuaternion.proto\"<\n\016MathQuaternion" +
       "\022\t\n\001x\030\001 \001(\002\022\t\n\001y\030\002 \001(\002\022\t\n\001z\030\003 \001(\002\022\t\n\001w\030\004" +
-      " \001(\002B5\n\031emu.grasscutter.net.protoB\030MathQ" +
-      "uaternionOuterClassb\006proto3"
+      " \001(\002B\033\n\031emu.grasscutter.net.protob\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

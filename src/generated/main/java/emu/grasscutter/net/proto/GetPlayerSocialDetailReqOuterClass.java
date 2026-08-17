@@ -31,6 +31,10 @@ public final class GetPlayerSocialDetailReqOuterClass {
     int getUid();
   }
   /**
+   * <pre>
+   * CmdID: 4702
+   * </pre>
+   *
    * Protobuf type {@code GetPlayerSocialDetailReq}
    */
   public static final class GetPlayerSocialDetailReq extends
@@ -306,6 +310,10 @@ public final class GetPlayerSocialDetailReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 4702
+     * </pre>
+     *
      * Protobuf type {@code GetPlayerSocialDetailReq}
      */
     public static final class Builder extends
@@ -588,9 +596,8 @@ public final class GetPlayerSocialDetailReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036GetPlayerSocialDetailReq.proto\"6\n\030GetP" +
       "layerSocialDetailReq\022\r\n\005param\030\r \001(\r\022\013\n\003u" +
-      "id\030\017 \001(\rB?\n\031emu.grasscutter.net.protoB\"G" +
-      "etPlayerSocialDetailReqOuterClassb\006proto" +
-      "3"
+      "id\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

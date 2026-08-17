@@ -37,6 +37,10 @@ public final class WearEquipRspOuterClass {
     int getRetcode();
   }
   /**
+   * <pre>
+   * CmdID: 3101
+   * </pre>
+   *
    * Protobuf type {@code WearEquipRsp}
    */
   public static final class WearEquipRsp extends
@@ -341,6 +345,10 @@ public final class WearEquipRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 3101
+     * </pre>
+     *
      * Protobuf type {@code WearEquipRsp}
      */
     public static final class Builder extends
@@ -660,8 +668,8 @@ public final class WearEquipRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\022WearEquipRsp.proto\"H\n\014WearEquipRsp\022\022\n\n" +
       "equip_guid\030\003 \001(\004\022\023\n\013avatar_guid\030\007 \001(\004\022\017\n" +
-      "\007retcode\030\r \001(\005B3\n\031emu.grasscutter.net.pr" +
-      "otoB\026WearEquipRspOuterClassb\006proto3"
+      "\007retcode\030\r \001(\005B\033\n\031emu.grasscutter.net.pr" +
+      "otob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

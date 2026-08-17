@@ -42,6 +42,10 @@ public final class GetAllUnlockNameCardRspOuterClass {
     int getRetcode();
   }
   /**
+   * <pre>
+   * CmdID: 8350
+   * </pre>
+   *
    * Protobuf type {@code GetAllUnlockNameCardRsp}
    */
   public static final class GetAllUnlockNameCardRsp extends
@@ -372,6 +376,10 @@ public final class GetAllUnlockNameCardRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 8350
+     * </pre>
+     *
      * Protobuf type {@code GetAllUnlockNameCardRsp}
      */
     public static final class Builder extends
@@ -715,9 +723,8 @@ public final class GetAllUnlockNameCardRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035GetAllUnlockNameCardRsp.proto\"B\n\027GetAl" +
       "lUnlockNameCardRsp\022\026\n\016name_card_list\030\010 \003" +
-      "(\r\022\017\n\007retcode\030\t \001(\005B>\n\031emu.grasscutter.n" +
-      "et.protoB!GetAllUnlockNameCardRspOuterCl" +
-      "assb\006proto3"
+      "(\r\022\017\n\007retcode\030\t \001(\005B\033\n\031emu.grasscutter.n" +
+      "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

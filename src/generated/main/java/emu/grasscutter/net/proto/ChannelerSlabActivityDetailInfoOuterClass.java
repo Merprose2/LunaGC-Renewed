@@ -1306,9 +1306,8 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
       "_end_time\030\004 \001(\r\022D\n\027loop_dungeon_stage_in" +
       "fo\030\007 \001(\0132#.ChannellerSlabLoopDungeonStag" +
       "eInfo\022*\n\tbuff_info\030\016 \001(\0132\027.ChannellerSla" +
-      "bBuffInfoBF\n\031emu.grasscutter.net.protoB)" +
-      "ChannelerSlabActivityDetailInfoOuterClas" +
-      "sb\006proto3"
+      "bBuffInfoB\033\n\031emu.grasscutter.net.protob\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

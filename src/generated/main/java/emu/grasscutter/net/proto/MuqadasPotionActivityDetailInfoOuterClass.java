@@ -825,9 +825,8 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
       "\034MuqadasPotionLevelData.proto\"b\n\037Muqadas" +
       "PotionActivityDetailInfo\022?\n\036muqadas_poti" +
       "on_level_data_list\030\r \003(\0132\027.MuqadasPotion" +
-      "LevelDataBF\n\031emu.grasscutter.net.protoB)" +
-      "MuqadasPotionActivityDetailInfoOuterClas" +
-      "sb\006proto3"
+      "LevelDataB\033\n\031emu.grasscutter.net.protob\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -49,10 +49,6 @@ public final class RewardOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * Obf: HKODPBNKBHM
-   * </pre>
-   *
    * Protobuf type {@code Reward}
    */
   public static final class Reward extends
@@ -368,10 +364,6 @@ public final class RewardOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * Obf: HKODPBNKBHM
-     * </pre>
-     *
      * Protobuf type {@code Reward}
      */
     public static final class Builder extends

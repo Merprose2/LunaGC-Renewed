@@ -161,9 +161,8 @@ public final class DBLIIMFBJKKOuterClass {
       "\n\021DBLIIMFBJKK.proto*~\n\013DBLIIMFBJKK\022\024\n\020DB" +
       "LIIMFBJKK_NONE\020\000\022\024\n\020DBLIIMFBJKK_INIT\020\001\022\025" +
       "\n\021DBLIIMFBJKK_START\020\002\022\026\n\022DBLIIMFBJKK_PAU" +
-      "SED\020\003\022\024\n\020DBLIIMFBJKK_STOP\020\004B2\n\031emu.grass" +
-      "cutter.net.protoB\025DBLIIMFBJKKOuterClassb" +
-      "\006proto3"
+      "SED\020\003\022\024\n\020DBLIIMFBJKK_STOP\020\004B\033\n\031emu.grass" +
+      "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

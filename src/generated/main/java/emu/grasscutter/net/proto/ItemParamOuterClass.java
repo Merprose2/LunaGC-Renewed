@@ -587,8 +587,8 @@ public final class ItemParamOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\017ItemParam.proto\"+\n\tItemParam\022\017\n\007item_i" +
-      "d\030\001 \001(\r\022\r\n\005count\030\002 \001(\rB0\n\031emu.grasscutte" +
-      "r.net.protoB\023ItemParamOuterClassb\006proto3"
+      "d\030\001 \001(\r\022\r\n\005count\030\002 \001(\rB\033\n\031emu.grasscutte" +
+      "r.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

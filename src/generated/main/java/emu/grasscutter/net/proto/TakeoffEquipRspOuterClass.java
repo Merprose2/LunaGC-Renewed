@@ -37,6 +37,10 @@ public final class TakeoffEquipRspOuterClass {
     int getSlot();
   }
   /**
+   * <pre>
+   * CmdID: 4814
+   * </pre>
+   *
    * Protobuf type {@code TakeoffEquipRsp}
    */
   public static final class TakeoffEquipRsp extends
@@ -340,6 +344,10 @@ public final class TakeoffEquipRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 4814
+     * </pre>
+     *
      * Protobuf type {@code TakeoffEquipRsp}
      */
     public static final class Builder extends
@@ -659,8 +667,8 @@ public final class TakeoffEquipRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025TakeoffEquipRsp.proto\"E\n\017TakeoffEquipR" +
       "sp\022\023\n\013avatar_guid\030\006 \001(\004\022\017\n\007retcode\030\t \001(\005" +
-      "\022\014\n\004slot\030\n \001(\rB6\n\031emu.grasscutter.net.pr" +
-      "otoB\031TakeoffEquipRspOuterClassb\006proto3"
+      "\022\014\n\004slot\030\n \001(\rB\033\n\031emu.grasscutter.net.pr" +
+      "otob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

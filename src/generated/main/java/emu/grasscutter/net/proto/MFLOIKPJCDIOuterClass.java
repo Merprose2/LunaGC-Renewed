@@ -915,9 +915,8 @@ public final class MFLOIKPJCDIOuterClass {
       "MDLAJKLDKE\030\004 \003(\0132\035.MFLOIKPJCDI.EMDLAJKLD" +
       "KEEntry\022\023\n\013HMOJNKFILLP\030\006 \001(\r\022\023\n\013KIKHIHCA" +
       "DBE\030\014 \001(\r\0322\n\020EMDLAJKLDKEEntry\022\013\n\003key\030\001 \001" +
-      "(\r\022\r\n\005value\030\002 \001(\r:\0028\001B2\n\031emu.grasscutter" +
-      ".net.protoB\025MFLOIKPJCDIOuterClassb\006proto" +
-      "3"
+      "(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031emu.grasscutter" +
+      ".net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

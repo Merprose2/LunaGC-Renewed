@@ -928,8 +928,7 @@ public final class RogueDiaryProgressOuterClass {
       "yProgress\022\032\n\022optional_card_list\030\001 \003(\r\022\021\n" +
       "\tcur_round\030\004 \001(\r\022\022\n\ndifficulty\030\006 \001(\r\022\030\n\020" +
       "is_enter_dungeon\030\t \001(\010\022\020\n\010stage_id\030\r \001(\r" +
-      "B9\n\031emu.grasscutter.net.protoB\034RogueDiar" +
-      "yProgressOuterClassb\006proto3"
+      "B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -64,6 +64,10 @@ public final class QuestCreateEntityRspOuterClass {
     boolean getIsRewind();
   }
   /**
+   * <pre>
+   * CmdID: 3627
+   * </pre>
+   *
    * Protobuf type {@code QuestCreateEntityRsp}
    */
   public static final class QuestCreateEntityRsp extends
@@ -476,6 +480,10 @@ public final class QuestCreateEntityRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 3627
+     * </pre>
+     *
      * Protobuf type {@code QuestCreateEntityRsp}
      */
     public static final class Builder extends
@@ -1005,8 +1013,8 @@ public final class QuestCreateEntityRspOuterClass {
       "\006entity\030\002 \001(\0132\021.CreateEntityInfo\022\017\n\007retc" +
       "ode\030\004 \001(\005\022\027\n\017parent_quest_id\030\007 \001(\r\022\020\n\010qu" +
       "est_id\030\010 \001(\r\022\021\n\tentity_id\030\n \001(\r\022\021\n\tis_re" +
-      "wind\030\014 \001(\010B;\n\031emu.grasscutter.net.protoB" +
-      "\036QuestCreateEntityRspOuterClassb\006proto3"
+      "wind\030\014 \001(\010B\033\n\031emu.grasscutter.net.protob" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

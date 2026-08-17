@@ -34,6 +34,10 @@ public final class SetUpLunchBoxWidgetReqOuterClass {
     emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxDataOrBuilder getLunchBoxDataOrBuilder();
   }
   /**
+   * <pre>
+   * CmdID: 5446
+   * </pre>
+   *
    * Protobuf type {@code SetUpLunchBoxWidgetReq}
    */
   public static final class SetUpLunchBoxWidgetReq extends
@@ -310,6 +314,10 @@ public final class SetUpLunchBoxWidgetReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 5446
+     * </pre>
+     *
      * Protobuf type {@code SetUpLunchBoxWidgetReq}
      */
     public static final class Builder extends
@@ -651,9 +659,8 @@ public final class SetUpLunchBoxWidgetReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034SetUpLunchBoxWidgetReq.proto\032\022LunchBox" +
       "Data.proto\"?\n\026SetUpLunchBoxWidgetReq\022%\n\016" +
-      "lunch_box_data\030\001 \001(\0132\r.LunchBoxDataB=\n\031e" +
-      "mu.grasscutter.net.protoB SetUpLunchBoxW" +
-      "idgetReqOuterClassb\006proto3"
+      "lunch_box_data\030\001 \001(\0132\r.LunchBoxDataB\033\n\031e" +
+      "mu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

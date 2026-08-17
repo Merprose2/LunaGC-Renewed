@@ -895,9 +895,8 @@ public final class CrystalLinkActivityDetailInfoOuterClass {
       "rystalLinkLevelInfo.proto\"f\n\035CrystalLink" +
       "ActivityDetailInfo\022.\n\017level_info_list\030\010 " +
       "\003(\0132\025.CrystalLinkLevelInfo\022\025\n\rdifficulty" +
-      "_id\030\r \001(\rBD\n\031emu.grasscutter.net.protoB\'" +
-      "CrystalLinkActivityDetailInfoOuterClassb" +
-      "\006proto3"
+      "_id\030\r \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1232,9 +1232,8 @@ public final class ChannellerSlabLoopDungeonStageInfoOuterClass {
       "\n\021dungeon_info_list\030\003 \003(\0132\036.ChannellerSl" +
       "abLoopDungeonInfo\022\037\n\027taken_reward_index_" +
       "list\030\010 \003(\r\022\021\n\topen_time\030\013 \001(\r\022\032\n\022last_di" +
-      "fficulty_id\030\r \001(\r\022\017\n\007is_open\030\017 \001(\010BI\n\031em" +
-      "u.grasscutter.net.protoB,ChannellerSlabL" +
-      "oopDungeonStageInfoOuterClassb\006proto3"
+      "fficulty_id\030\r \001(\r\022\017\n\007is_open\030\017 \001(\010B\033\n\031em" +
+      "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

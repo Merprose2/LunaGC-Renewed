@@ -43,6 +43,10 @@ public final class ExecuteGadgetLuaReqOuterClass {
     int getParam3();
   }
   /**
+   * <pre>
+   * CmdID: 25529
+   * </pre>
+   *
    * Protobuf type {@code ExecuteGadgetLuaReq}
    */
   public static final class ExecuteGadgetLuaReq extends
@@ -372,6 +376,10 @@ public final class ExecuteGadgetLuaReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 25529
+     * </pre>
+     *
      * Protobuf type {@code ExecuteGadgetLuaReq}
      */
     public static final class Builder extends
@@ -729,8 +737,8 @@ public final class ExecuteGadgetLuaReqOuterClass {
       "\n\031ExecuteGadgetLuaReq.proto\"_\n\023ExecuteGa" +
       "dgetLuaReq\022\030\n\020source_entity_id\030\t \001(\r\022\016\n\006" +
       "param1\030\013 \001(\005\022\016\n\006param2\030\r \001(\005\022\016\n\006param3\030\017" +
-      " \001(\005B:\n\031emu.grasscutter.net.protoB\035Execu" +
-      "teGadgetLuaReqOuterClassb\006proto3"
+      " \001(\005B\033\n\031emu.grasscutter.net.protob\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

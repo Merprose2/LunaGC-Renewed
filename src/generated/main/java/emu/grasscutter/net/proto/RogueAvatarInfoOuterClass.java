@@ -660,9 +660,8 @@ public final class RogueAvatarInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025RogueAvatarInfo.proto\"J\n\017RogueAvatarIn" +
       "fo\022\021\n\tavatar_id\030\001 \001(\r\022\022\n\nis_onstage\030\t \001(" +
-      "\010\022\020\n\010is_alive\030\014 \001(\010B6\n\031emu.grasscutter.n" +
-      "et.protoB\031RogueAvatarInfoOuterClassb\006pro" +
-      "to3"
+      "\010\022\020\n\010is_alive\030\014 \001(\010B\033\n\031emu.grasscutter.n" +
+      "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

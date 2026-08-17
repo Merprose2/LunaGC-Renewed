@@ -854,9 +854,8 @@ public final class WeekendDjinnInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026WeekendDjinnInfo.proto\032\014Vector.proto\">" +
       "\n\020WeekendDjinnInfo\022\024\n\003pos\030\001 \001(\0132\007.Vector" +
-      "\022\024\n\003rot\030\017 \001(\0132\007.VectorB7\n\031emu.grasscutte" +
-      "r.net.protoB\032WeekendDjinnInfoOuterClassb" +
-      "\006proto3"
+      "\022\024\n\003rot\030\017 \001(\0132\007.VectorB\033\n\031emu.grasscutte" +
+      "r.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

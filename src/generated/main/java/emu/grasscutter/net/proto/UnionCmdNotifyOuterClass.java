@@ -43,6 +43,10 @@ public final class UnionCmdNotifyOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 7516
+   * </pre>
+   *
    * Protobuf type {@code UnionCmdNotify}
    */
   public static final class UnionCmdNotify extends
@@ -331,6 +335,10 @@ public final class UnionCmdNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 7516
+     * </pre>
+     *
      * Protobuf type {@code UnionCmdNotify}
      */
     public static final class Builder extends
@@ -823,8 +831,8 @@ public final class UnionCmdNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\024UnionCmdNotify.proto\032\016UnionCmd.proto\"-" +
       "\n\016UnionCmdNotify\022\033\n\010cmd_list\030\013 \003(\0132\t.Uni" +
-      "onCmdB5\n\031emu.grasscutter.net.protoB\030Unio" +
-      "nCmdNotifyOuterClassb\006proto3"
+      "onCmdB\033\n\031emu.grasscutter.net.protob\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

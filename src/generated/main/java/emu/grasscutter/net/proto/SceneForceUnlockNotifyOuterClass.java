@@ -42,6 +42,10 @@ public final class SceneForceUnlockNotifyOuterClass {
     boolean getIsAdd();
   }
   /**
+   * <pre>
+   * CmdID: 6990
+   * </pre>
+   *
    * Protobuf type {@code SceneForceUnlockNotify}
    */
   public static final class SceneForceUnlockNotify extends
@@ -373,6 +377,10 @@ public final class SceneForceUnlockNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 6990
+     * </pre>
+     *
      * Protobuf type {@code SceneForceUnlockNotify}
      */
     public static final class Builder extends
@@ -716,9 +724,8 @@ public final class SceneForceUnlockNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034SceneForceUnlockNotify.proto\"?\n\026SceneF" +
       "orceUnlockNotify\022\025\n\rforce_id_list\030\002 \003(\r\022" +
-      "\016\n\006is_add\030\007 \001(\010B=\n\031emu.grasscutter.net.p" +
-      "rotoB SceneForceUnlockNotifyOuterClassb\006" +
-      "proto3"
+      "\016\n\006is_add\030\007 \001(\010B\033\n\031emu.grasscutter.net.p" +
+      "rotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

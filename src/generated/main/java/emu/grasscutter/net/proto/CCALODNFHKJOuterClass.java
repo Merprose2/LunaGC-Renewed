@@ -729,9 +729,8 @@ public final class CCALODNFHKJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CCALODNFHKJ.proto\"V\n\013CCALODNFHKJ\022\021\n\tma" +
       "x_score\030\005 \001(\r\022\020\n\010level_id\030\007 \001(\r\022\017\n\007is_op" +
-      "en\030\t \001(\010\022\021\n\tcost_time\030\r \001(\rB2\n\031emu.grass" +
-      "cutter.net.protoB\025CCALODNFHKJOuterClassb" +
-      "\006proto3"
+      "en\030\t \001(\010\022\021\n\tcost_time\030\r \001(\rB\033\n\031emu.grass" +
+      "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1545,9 +1545,8 @@ public final class EDLMACJNHGPOuterClass {
       "\t\022\032\n\022_creator_online_id\030\002 \001(\t\022\016\n\006psn_id\030" +
       "\010 \001(\t\022\020\n\010nickname\030\n \001(\t\022(\n\017profile_pictu" +
       "re\030\014 \001(\0132\017.ProfilePicture\022\023\n\013LPGBINFHLJD" +
-      "\030\r \001(\006\022\r\n\005_xuid\030\016 \001(\t\022\013\n\003uid\030\017 \001(\rB2\n\031em" +
-      "u.grasscutter.net.protoB\025EDLMACJNHGPOute" +
-      "rClassb\006proto3"
+      "\030\r \001(\006\022\r\n\005_xuid\030\016 \001(\t\022\013\n\003uid\030\017 \001(\rB\033\n\031em" +
+      "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

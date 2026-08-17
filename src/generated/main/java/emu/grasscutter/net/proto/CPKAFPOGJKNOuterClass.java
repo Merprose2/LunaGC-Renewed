@@ -1689,8 +1689,8 @@ public final class CPKAFPOGJKNOuterClass {
       "MOLFPGIEHLM\030\t \003(\r\022\023\n\013NONHKCOBFKM\030\n \001(\r\022\023" +
       "\n\013ECIPNPDCCJM\030\013 \001(\r\022\023\n\013KPJLFMDDPMK\030\014 \001(\010" +
       "\022\023\n\013EFDAONILFMD\030\r \001(\r\022!\n\013FGBOIBJOHAE\030\017 \001" +
-      "(\0132\014.DACMDDCLPNHB2\n\031emu.grasscutter.net." +
-      "protoB\025CPKAFPOGJKNOuterClassb\006proto3"
+      "(\0132\014.DACMDDCLPNHB\033\n\031emu.grasscutter.net." +
+      "protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

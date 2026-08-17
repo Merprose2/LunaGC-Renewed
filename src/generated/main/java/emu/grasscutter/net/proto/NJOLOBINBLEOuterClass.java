@@ -730,9 +730,8 @@ public final class NJOLOBINBLEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NJOLOBINBLE.proto\"X\n\013NJOLOBINBLE\022\020\n\010le" +
       "vel_id\030\002 \001(\r\022\023\n\013AEAJNEDAFJI\030\003 \001(\r\022\021\n\tis_" +
-      "finish\030\010 \001(\010\022\017\n\007is_open\030\014 \001(\010B2\n\031emu.gra" +
-      "sscutter.net.protoB\025NJOLOBINBLEOuterClas" +
-      "sb\006proto3"
+      "finish\030\010 \001(\010\022\017\n\007is_open\030\014 \001(\010B\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

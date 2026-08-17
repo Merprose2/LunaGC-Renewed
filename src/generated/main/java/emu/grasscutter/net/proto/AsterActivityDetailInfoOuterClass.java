@@ -1622,8 +1622,7 @@ public final class AsterActivityDetailInfoOuterClass {
       "(\r\022*\n\013aster_large\030\t \001(\0132\025.AsterLargeDeta" +
       "ilInfo\022\031\n\021is_content_closed\030\014 \001(\010\0220\n\016ast" +
       "er_progress\030\017 \001(\0132\030.AsterProgressDetailI" +
-      "nfoB>\n\031emu.grasscutter.net.protoB!AsterA" +
-      "ctivityDetailInfoOuterClassb\006proto3"
+      "nfoB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

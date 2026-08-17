@@ -43,6 +43,10 @@ public final class WidgetGadgetAllDataNotifyOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 27572
+   * </pre>
+   *
    * Protobuf type {@code WidgetGadgetAllDataNotify}
    */
   public static final class WidgetGadgetAllDataNotify extends
@@ -331,6 +335,10 @@ public final class WidgetGadgetAllDataNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 27572
+     * </pre>
+     *
      * Protobuf type {@code WidgetGadgetAllDataNotify}
      */
     public static final class Builder extends
@@ -824,9 +832,8 @@ public final class WidgetGadgetAllDataNotifyOuterClass {
       "\n\037WidgetGadgetAllDataNotify.proto\032\026Widge" +
       "tGadgetData.proto\"J\n\031WidgetGadgetAllData" +
       "Notify\022-\n\022widget_gadget_data\030\001 \003(\0132\021.Wid" +
-      "getGadgetDataB@\n\031emu.grasscutter.net.pro" +
-      "toB#WidgetGadgetAllDataNotifyOuterClassb" +
-      "\006proto3"
+      "getGadgetDataB\033\n\031emu.grasscutter.net.pro" +
+      "tob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

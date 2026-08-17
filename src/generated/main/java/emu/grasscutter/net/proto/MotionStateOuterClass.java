@@ -452,53 +452,53 @@ public final class MotionStateOuterClass {
      */
     MotionState_MOTION_NATSAURUS_ENTERING(107),
     /**
-     * <code>MOTION_MAGLEV = 108;</code>
+     * <code>MotionState_MOTION_MAGLEV = 108;</code>
      */
-    MOTION_MAGLEV(108),
+    MotionState_MOTION_MAGLEV(108),
     /**
-     * <code>MOTION_MAGLEV_SAFE = 109;</code>
+     * <code>MotionState_MOTION_MAGLEV_SAFE = 109;</code>
      */
-    MOTION_MAGLEV_SAFE(109),
+    MotionState_MOTION_MAGLEV_SAFE(109),
     /**
-     * <code>MOTION_BEYOND_VEHICLE_RUN = 110;</code>
+     * <code>MotionState_MOTION_BEYOND_VEHICLE_RUN = 110;</code>
      */
-    MOTION_BEYOND_VEHICLE_RUN(110),
+    MotionState_MOTION_BEYOND_VEHICLE_RUN(110),
     /**
-     * <code>MOTION_BEYOND_VEHICLE_DROP = 111;</code>
+     * <code>MotionState_MOTION_BEYOND_VEHICLE_DROP = 111;</code>
      */
-    MOTION_BEYOND_VEHICLE_DROP(111),
+    MotionState_MOTION_BEYOND_VEHICLE_DROP(111),
     /**
-     * <code>MOTION_BEYOND_VEHICLE_LAND_SPEED = 112;</code>
+     * <code>MotionState_MOTION_BEYOND_VEHICLE_LAND_SPEED = 112;</code>
      */
-    MOTION_BEYOND_VEHICLE_LAND_SPEED(112),
+    MotionState_MOTION_BEYOND_VEHICLE_LAND_SPEED(112),
     /**
-     * <code>MOTION_BEYOND_VEHICLE_DANGER_RUN = 113;</code>
+     * <code>MotionState_MOTION_BEYOND_VEHICLE_DANGER_RUN = 113;</code>
      */
-    MOTION_BEYOND_VEHICLE_DANGER_RUN(113),
+    MotionState_MOTION_BEYOND_VEHICLE_DANGER_RUN(113),
     /**
-     * <code>MOTION_BEYOND_BOARDING_VEHICLE_NORMAL = 114;</code>
+     * <code>MotionState_MOTION_BEYOND_BOARDING_VEHICLE_NORMAL = 114;</code>
      */
-    MOTION_BEYOND_BOARDING_VEHICLE_NORMAL(114),
+    MotionState_MOTION_BEYOND_BOARDING_VEHICLE_NORMAL(114),
     /**
-     * <code>MOTION_VEHICLE_PARAM_LAND_SPEED = 115;</code>
+     * <code>MotionState_MOTION_VEHICLE_PARAM_LAND_SPEED = 115;</code>
      */
-    MOTION_VEHICLE_PARAM_LAND_SPEED(115),
+    MotionState_MOTION_VEHICLE_PARAM_LAND_SPEED(115),
     /**
-     * <code>MOTION_VEHICLE_PARAM_DROP = 116;</code>
+     * <code>MotionState_MOTION_VEHICLE_PARAM_DROP = 116;</code>
      */
-    MOTION_VEHICLE_PARAM_DROP(116),
+    MotionState_MOTION_VEHICLE_PARAM_DROP(116),
     /**
-     * <code>MOTION_VEHICLE_PARAM_RUN = 117;</code>
+     * <code>MotionState_MOTION_VEHICLE_PARAM_RUN = 117;</code>
      */
-    MOTION_VEHICLE_PARAM_RUN(117),
+    MotionState_MOTION_VEHICLE_PARAM_RUN(117),
     /**
-     * <code>MOTION_VEHICLE_PARAM_MOVE = 118;</code>
+     * <code>MotionState_MOTION_VEHICLE_PARAM_MOVE = 118;</code>
      */
-    MOTION_VEHICLE_PARAM_MOVE(118),
+    MotionState_MOTION_VEHICLE_PARAM_MOVE(118),
     /**
-     * <code>MOTION_NUM = 119;</code>
+     * <code>MotionState_MOTION_NUM = 119;</code>
      */
-    MOTION_NUM(119),
+    MotionState_MOTION_NUM(119),
     UNRECOGNIZED(-1),
     ;
 
@@ -935,53 +935,53 @@ public final class MotionStateOuterClass {
      */
     public static final int MotionState_MOTION_NATSAURUS_ENTERING_VALUE = 107;
     /**
-     * <code>MOTION_MAGLEV = 108;</code>
+     * <code>MotionState_MOTION_MAGLEV = 108;</code>
      */
-    public static final int MOTION_MAGLEV_VALUE = 108;
+    public static final int MotionState_MOTION_MAGLEV_VALUE = 108;
     /**
-     * <code>MOTION_MAGLEV_SAFE = 109;</code>
+     * <code>MotionState_MOTION_MAGLEV_SAFE = 109;</code>
      */
-    public static final int MOTION_MAGLEV_SAFE_VALUE = 109;
+    public static final int MotionState_MOTION_MAGLEV_SAFE_VALUE = 109;
     /**
-     * <code>MOTION_BEYOND_VEHICLE_RUN = 110;</code>
+     * <code>MotionState_MOTION_BEYOND_VEHICLE_RUN = 110;</code>
      */
-    public static final int MOTION_BEYOND_VEHICLE_RUN_VALUE = 110;
+    public static final int MotionState_MOTION_BEYOND_VEHICLE_RUN_VALUE = 110;
     /**
-     * <code>MOTION_BEYOND_VEHICLE_DROP = 111;</code>
+     * <code>MotionState_MOTION_BEYOND_VEHICLE_DROP = 111;</code>
      */
-    public static final int MOTION_BEYOND_VEHICLE_DROP_VALUE = 111;
+    public static final int MotionState_MOTION_BEYOND_VEHICLE_DROP_VALUE = 111;
     /**
-     * <code>MOTION_BEYOND_VEHICLE_LAND_SPEED = 112;</code>
+     * <code>MotionState_MOTION_BEYOND_VEHICLE_LAND_SPEED = 112;</code>
      */
-    public static final int MOTION_BEYOND_VEHICLE_LAND_SPEED_VALUE = 112;
+    public static final int MotionState_MOTION_BEYOND_VEHICLE_LAND_SPEED_VALUE = 112;
     /**
-     * <code>MOTION_BEYOND_VEHICLE_DANGER_RUN = 113;</code>
+     * <code>MotionState_MOTION_BEYOND_VEHICLE_DANGER_RUN = 113;</code>
      */
-    public static final int MOTION_BEYOND_VEHICLE_DANGER_RUN_VALUE = 113;
+    public static final int MotionState_MOTION_BEYOND_VEHICLE_DANGER_RUN_VALUE = 113;
     /**
-     * <code>MOTION_BEYOND_BOARDING_VEHICLE_NORMAL = 114;</code>
+     * <code>MotionState_MOTION_BEYOND_BOARDING_VEHICLE_NORMAL = 114;</code>
      */
-    public static final int MOTION_BEYOND_BOARDING_VEHICLE_NORMAL_VALUE = 114;
+    public static final int MotionState_MOTION_BEYOND_BOARDING_VEHICLE_NORMAL_VALUE = 114;
     /**
-     * <code>MOTION_VEHICLE_PARAM_LAND_SPEED = 115;</code>
+     * <code>MotionState_MOTION_VEHICLE_PARAM_LAND_SPEED = 115;</code>
      */
-    public static final int MOTION_VEHICLE_PARAM_LAND_SPEED_VALUE = 115;
+    public static final int MotionState_MOTION_VEHICLE_PARAM_LAND_SPEED_VALUE = 115;
     /**
-     * <code>MOTION_VEHICLE_PARAM_DROP = 116;</code>
+     * <code>MotionState_MOTION_VEHICLE_PARAM_DROP = 116;</code>
      */
-    public static final int MOTION_VEHICLE_PARAM_DROP_VALUE = 116;
+    public static final int MotionState_MOTION_VEHICLE_PARAM_DROP_VALUE = 116;
     /**
-     * <code>MOTION_VEHICLE_PARAM_RUN = 117;</code>
+     * <code>MotionState_MOTION_VEHICLE_PARAM_RUN = 117;</code>
      */
-    public static final int MOTION_VEHICLE_PARAM_RUN_VALUE = 117;
+    public static final int MotionState_MOTION_VEHICLE_PARAM_RUN_VALUE = 117;
     /**
-     * <code>MOTION_VEHICLE_PARAM_MOVE = 118;</code>
+     * <code>MotionState_MOTION_VEHICLE_PARAM_MOVE = 118;</code>
      */
-    public static final int MOTION_VEHICLE_PARAM_MOVE_VALUE = 118;
+    public static final int MotionState_MOTION_VEHICLE_PARAM_MOVE_VALUE = 118;
     /**
-     * <code>MOTION_NUM = 119;</code>
+     * <code>MotionState_MOTION_NUM = 119;</code>
      */
-    public static final int MOTION_NUM_VALUE = 119;
+    public static final int MotionState_MOTION_NUM_VALUE = 119;
 
 
     public final int getNumber() {
@@ -1116,18 +1116,18 @@ public final class MotionStateOuterClass {
         case 105: return MotionState_MOTION_VEHICLE_FOLLOW_CURVE_ROUTE;
         case 106: return MotionState_MOTION_NATSAURUS_NORMAL;
         case 107: return MotionState_MOTION_NATSAURUS_ENTERING;
-        case 108: return MOTION_MAGLEV;
-        case 109: return MOTION_MAGLEV_SAFE;
-        case 110: return MOTION_BEYOND_VEHICLE_RUN;
-        case 111: return MOTION_BEYOND_VEHICLE_DROP;
-        case 112: return MOTION_BEYOND_VEHICLE_LAND_SPEED;
-        case 113: return MOTION_BEYOND_VEHICLE_DANGER_RUN;
-        case 114: return MOTION_BEYOND_BOARDING_VEHICLE_NORMAL;
-        case 115: return MOTION_VEHICLE_PARAM_LAND_SPEED;
-        case 116: return MOTION_VEHICLE_PARAM_DROP;
-        case 117: return MOTION_VEHICLE_PARAM_RUN;
-        case 118: return MOTION_VEHICLE_PARAM_MOVE;
-        case 119: return MOTION_NUM;
+        case 108: return MotionState_MOTION_MAGLEV;
+        case 109: return MotionState_MOTION_MAGLEV_SAFE;
+        case 110: return MotionState_MOTION_BEYOND_VEHICLE_RUN;
+        case 111: return MotionState_MOTION_BEYOND_VEHICLE_DROP;
+        case 112: return MotionState_MOTION_BEYOND_VEHICLE_LAND_SPEED;
+        case 113: return MotionState_MOTION_BEYOND_VEHICLE_DANGER_RUN;
+        case 114: return MotionState_MOTION_BEYOND_BOARDING_VEHICLE_NORMAL;
+        case 115: return MotionState_MOTION_VEHICLE_PARAM_LAND_SPEED;
+        case 116: return MotionState_MOTION_VEHICLE_PARAM_DROP;
+        case 117: return MotionState_MOTION_VEHICLE_PARAM_RUN;
+        case 118: return MotionState_MOTION_VEHICLE_PARAM_MOVE;
+        case 119: return MotionState_MOTION_NUM;
         default: return null;
       }
     }
@@ -1193,7 +1193,7 @@ public final class MotionStateOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021MotionState.proto*\254#\n\013MotionState\022\033\n\027M" +
+      "\n\021MotionState.proto*\274$\n\013MotionState\022\033\n\027M" +
       "otionState_MOTION_NONE\020\000\022\034\n\030MotionState_" +
       "MOTION_RESET\020\001\022\036\n\032MotionState_MOTION_STA" +
       "NDBY\020\002\022#\n\037MotionState_MOTION_STANDBY_MOV" +
@@ -1297,18 +1297,21 @@ public final class MotionStateOuterClass {
       "h\0221\n-MotionState_MOTION_VEHICLE_FOLLOW_C" +
       "URVE_ROUTE\020i\022\'\n#MotionState_MOTION_NATSA" +
       "URUS_NORMAL\020j\022)\n%MotionState_MOTION_NATS" +
-      "AURUS_ENTERING\020k\022\021\n\rMOTION_MAGLEV\020l\022\026\n\022M" +
-      "OTION_MAGLEV_SAFE\020m\022\035\n\031MOTION_BEYOND_VEH" +
-      "ICLE_RUN\020n\022\036\n\032MOTION_BEYOND_VEHICLE_DROP" +
-      "\020o\022$\n MOTION_BEYOND_VEHICLE_LAND_SPEED\020p" +
-      "\022$\n MOTION_BEYOND_VEHICLE_DANGER_RUN\020q\022)" +
-      "\n%MOTION_BEYOND_BOARDING_VEHICLE_NORMAL\020" +
-      "r\022#\n\037MOTION_VEHICLE_PARAM_LAND_SPEED\020s\022\035" +
-      "\n\031MOTION_VEHICLE_PARAM_DROP\020t\022\034\n\030MOTION_" +
-      "VEHICLE_PARAM_RUN\020u\022\035\n\031MOTION_VEHICLE_PA" +
-      "RAM_MOVE\020v\022\016\n\nMOTION_NUM\020wB2\n\031emu.grassc" +
-      "utter.net.protoB\025MotionStateOuterClassb\006" +
-      "proto3"
+      "AURUS_ENTERING\020k\022\035\n\031MotionState_MOTION_M" +
+      "AGLEV\020l\022\"\n\036MotionState_MOTION_MAGLEV_SAF" +
+      "E\020m\022)\n%MotionState_MOTION_BEYOND_VEHICLE" +
+      "_RUN\020n\022*\n&MotionState_MOTION_BEYOND_VEHI" +
+      "CLE_DROP\020o\0220\n,MotionState_MOTION_BEYOND_" +
+      "VEHICLE_LAND_SPEED\020p\0220\n,MotionState_MOTI" +
+      "ON_BEYOND_VEHICLE_DANGER_RUN\020q\0225\n1Motion" +
+      "State_MOTION_BEYOND_BOARDING_VEHICLE_NOR" +
+      "MAL\020r\022/\n+MotionState_MOTION_VEHICLE_PARA" +
+      "M_LAND_SPEED\020s\022)\n%MotionState_MOTION_VEH" +
+      "ICLE_PARAM_DROP\020t\022(\n$MotionState_MOTION_" +
+      "VEHICLE_PARAM_RUN\020u\022)\n%MotionState_MOTIO" +
+      "N_VEHICLE_PARAM_MOVE\020v\022\032\n\026MotionState_MO" +
+      "TION_NUM\020wB\033\n\031emu.grasscutter.net.protob" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

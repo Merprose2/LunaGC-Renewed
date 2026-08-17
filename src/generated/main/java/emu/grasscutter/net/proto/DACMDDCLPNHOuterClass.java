@@ -800,8 +800,8 @@ public final class DACMDDCLPNHOuterClass {
       "\n\021DACMDDCLPNH.proto\"v\n\013DACMDDCLPNH\022\023\n\013GL" +
       "DFCOELCLJ\030\003 \001(\r\022\023\n\013DOEJNJLAHAI\030\006 \001(\r\022\023\n\013" +
       "FNPLMFCNBML\030\010 \001(\010\022\023\n\013JKPKJODEEEN\030\013 \001(\r\022\023" +
-      "\n\013BGLEEKPNKCB\030\r \001(\rB2\n\031emu.grasscutter.n" +
-      "et.protoB\025DACMDDCLPNHOuterClassb\006proto3"
+      "\n\013BGLEEKPNKCB\030\r \001(\rB\033\n\031emu.grasscutter.n" +
+      "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

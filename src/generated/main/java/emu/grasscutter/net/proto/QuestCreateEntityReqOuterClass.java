@@ -52,6 +52,10 @@ public final class QuestCreateEntityReqOuterClass {
     int getParentQuestId();
   }
   /**
+   * <pre>
+   * CmdID: 2565
+   * </pre>
+   *
    * Protobuf type {@code QuestCreateEntityReq}
    */
   public static final class QuestCreateEntityReq extends
@@ -410,6 +414,10 @@ public final class QuestCreateEntityReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 2565
+     * </pre>
+     *
      * Protobuf type {@code QuestCreateEntityReq}
      */
     public static final class Builder extends
@@ -864,9 +872,8 @@ public final class QuestCreateEntityReqOuterClass {
       "tyInfo.proto\"w\n\024QuestCreateEntityReq\022\020\n\010" +
       "quest_id\030\001 \001(\r\022!\n\006entity\030\007 \001(\0132\021.CreateE" +
       "ntityInfo\022\021\n\tis_rewind\030\014 \001(\010\022\027\n\017parent_q" +
-      "uest_id\030\017 \001(\rB;\n\031emu.grasscutter.net.pro" +
-      "toB\036QuestCreateEntityReqOuterClassb\006prot" +
-      "o3"
+      "uest_id\030\017 \001(\rB\033\n\031emu.grasscutter.net.pro" +
+      "tob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

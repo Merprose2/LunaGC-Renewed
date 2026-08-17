@@ -73,6 +73,10 @@ public final class AvatarEquipChangeNotifyOuterClass {
     emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder getWeaponOrBuilder();
   }
   /**
+   * <pre>
+   * CmdID: 8554
+   * </pre>
+   *
    * Protobuf type {@code AvatarEquipChangeNotify}
    */
   public static final class AvatarEquipChangeNotify extends
@@ -514,6 +518,10 @@ public final class AvatarEquipChangeNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 8554
+     * </pre>
+     *
      * Protobuf type {@code AvatarEquipChangeNotify}
      */
     public static final class Builder extends
@@ -1140,9 +1148,8 @@ public final class AvatarEquipChangeNotifyOuterClass {
       "\003 \001(\r\022\022\n\nequip_guid\030\010 \001(\004\022\023\n\013avatar_guid" +
       "\030\t \001(\004\022&\n\treliquary\030\n \001(\0132\023.SceneReliqua" +
       "ryInfo\022\022\n\nequip_type\030\014 \001(\r\022 \n\006weapon\030\r \001" +
-      "(\0132\020.SceneWeaponInfoB>\n\031emu.grasscutter." +
-      "net.protoB!AvatarEquipChangeNotifyOuterC" +
-      "lassb\006proto3"
+      "(\0132\020.SceneWeaponInfoB\033\n\031emu.grasscutter." +
+      "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

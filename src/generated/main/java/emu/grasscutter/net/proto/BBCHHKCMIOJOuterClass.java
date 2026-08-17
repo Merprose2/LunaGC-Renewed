@@ -1176,9 +1176,8 @@ public final class BBCHHKCMIOJOuterClass {
       "MNGJDGMEJ\022\023\n\013INGBIKNBFEH\030\006 \001(\010\022\023\n\013GKIFJK" +
       "OFKMD\030\007 \001(\r\022\023\n\013LDIIGMAACGI\030\010 \001(\r\022\023\n\013IOBM" +
       "OJHECOE\030\013 \001(\r\022\023\n\013OKLJCACJAPL\030\014 \001(\r\022\023\n\013OD" +
-      "NNOLLINHB\030\r \003(\r\022\023\n\013NIHKLACPEAC\030\016 \001(\rB2\n\031" +
-      "emu.grasscutter.net.protoB\025BBCHHKCMIOJOu" +
-      "terClassb\006proto3"
+      "NNOLLINHB\030\r \003(\r\022\023\n\013NIHKLACPEAC\030\016 \001(\rB\033\n\031" +
+      "emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

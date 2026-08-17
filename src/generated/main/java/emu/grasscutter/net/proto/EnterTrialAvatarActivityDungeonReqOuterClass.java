@@ -43,6 +43,10 @@ public final class EnterTrialAvatarActivityDungeonReqOuterClass {
     int getTrialAvatarIndexId();
   }
   /**
+   * <pre>
+   * CmdID: 25189
+   * </pre>
+   *
    * Protobuf type {@code EnterTrialAvatarActivityDungeonReq}
    */
   public static final class EnterTrialAvatarActivityDungeonReq extends
@@ -372,6 +376,10 @@ public final class EnterTrialAvatarActivityDungeonReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 25189
+     * </pre>
+     *
      * Protobuf type {@code EnterTrialAvatarActivityDungeonReq}
      */
     public static final class Builder extends
@@ -730,9 +738,8 @@ public final class EnterTrialAvatarActivityDungeonReqOuterClass {
       "to\"\216\001\n\"EnterTrialAvatarActivityDungeonRe" +
       "q\022\026\n\016enter_point_id\030\007 \001(\r\022\023\n\013activity_id" +
       "\030\t \001(\r\022\034\n\024_enter_training_step\030\n \001(\r\022\035\n\025" +
-      "trial_avatar_index_id\030\013 \001(\rBI\n\031emu.grass" +
-      "cutter.net.protoB,EnterTrialAvatarActivi" +
-      "tyDungeonReqOuterClassb\006proto3"
+      "trial_avatar_index_id\030\013 \001(\rB\033\n\031emu.grass" +
+      "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

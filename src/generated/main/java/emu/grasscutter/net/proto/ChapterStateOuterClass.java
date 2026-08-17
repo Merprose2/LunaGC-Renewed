@@ -20,40 +20,40 @@ public final class ChapterStateOuterClass {
   public enum ChapterState
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>CHAPTER_STATE_INVALID = 0;</code>
+     * <code>ChapterState_INVALID = 0;</code>
      */
-    CHAPTER_STATE_INVALID(0),
+    ChapterState_INVALID(0),
     /**
-     * <code>CHAPTER_STATE_UNABLE_TO_BEGIN = 1;</code>
+     * <code>ChapterState_UNABLE_TO_BEGIN = 1;</code>
      */
-    CHAPTER_STATE_UNABLE_TO_BEGIN(1),
+    ChapterState_UNABLE_TO_BEGIN(1),
     /**
-     * <code>CHAPTER_STATE_BEGIN = 2;</code>
+     * <code>ChapterState_BEGIN = 2;</code>
      */
-    CHAPTER_STATE_BEGIN(2),
+    ChapterState_BEGIN(2),
     /**
-     * <code>CHAPTER_STATE_END = 3;</code>
+     * <code>ChapterState_END = 3;</code>
      */
-    CHAPTER_STATE_END(3),
+    ChapterState_END(3),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>CHAPTER_STATE_INVALID = 0;</code>
+     * <code>ChapterState_INVALID = 0;</code>
      */
-    public static final int CHAPTER_STATE_INVALID_VALUE = 0;
+    public static final int ChapterState_INVALID_VALUE = 0;
     /**
-     * <code>CHAPTER_STATE_UNABLE_TO_BEGIN = 1;</code>
+     * <code>ChapterState_UNABLE_TO_BEGIN = 1;</code>
      */
-    public static final int CHAPTER_STATE_UNABLE_TO_BEGIN_VALUE = 1;
+    public static final int ChapterState_UNABLE_TO_BEGIN_VALUE = 1;
     /**
-     * <code>CHAPTER_STATE_BEGIN = 2;</code>
+     * <code>ChapterState_BEGIN = 2;</code>
      */
-    public static final int CHAPTER_STATE_BEGIN_VALUE = 2;
+    public static final int ChapterState_BEGIN_VALUE = 2;
     /**
-     * <code>CHAPTER_STATE_END = 3;</code>
+     * <code>ChapterState_END = 3;</code>
      */
-    public static final int CHAPTER_STATE_END_VALUE = 3;
+    public static final int ChapterState_END_VALUE = 3;
 
 
     public final int getNumber() {
@@ -80,10 +80,10 @@ public final class ChapterStateOuterClass {
      */
     public static ChapterState forNumber(int value) {
       switch (value) {
-        case 0: return CHAPTER_STATE_INVALID;
-        case 1: return CHAPTER_STATE_UNABLE_TO_BEGIN;
-        case 2: return CHAPTER_STATE_BEGIN;
-        case 3: return CHAPTER_STATE_END;
+        case 0: return ChapterState_INVALID;
+        case 1: return ChapterState_UNABLE_TO_BEGIN;
+        case 2: return ChapterState_BEGIN;
+        case 3: return ChapterState_END;
         default: return null;
       }
     }
@@ -149,12 +149,11 @@ public final class ChapterStateOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\022ChapterState.proto*|\n\014ChapterState\022\031\n\025" +
-      "CHAPTER_STATE_INVALID\020\000\022!\n\035CHAPTER_STATE" +
-      "_UNABLE_TO_BEGIN\020\001\022\027\n\023CHAPTER_STATE_BEGI" +
-      "N\020\002\022\025\n\021CHAPTER_STATE_END\020\003B3\n\031emu.grassc" +
-      "utter.net.protoB\026ChapterStateOuterClassb" +
-      "\006proto3"
+      "\n\022ChapterState.proto*x\n\014ChapterState\022\030\n\024" +
+      "ChapterState_INVALID\020\000\022 \n\034ChapterState_U" +
+      "NABLE_TO_BEGIN\020\001\022\026\n\022ChapterState_BEGIN\020\002" +
+      "\022\024\n\020ChapterState_END\020\003B\033\n\031emu.grasscutte" +
+      "r.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

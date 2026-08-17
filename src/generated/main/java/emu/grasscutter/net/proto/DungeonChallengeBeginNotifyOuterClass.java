@@ -77,6 +77,10 @@ public final class DungeonChallengeBeginNotifyOuterClass {
     int getParamList(int index);
   }
   /**
+   * <pre>
+   * CmdID: 26930
+   * </pre>
+   *
    * Protobuf type {@code DungeonChallengeBeginNotify}
    */
   public static final class DungeonChallengeBeginNotify extends
@@ -568,6 +572,10 @@ public final class DungeonChallengeBeginNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 26930
+     * </pre>
+     *
      * Protobuf type {@code DungeonChallengeBeginNotify}
      */
     public static final class Builder extends
@@ -1120,9 +1128,8 @@ public final class DungeonChallengeBeginNotifyOuterClass {
       "DungeonChallengeBeginNotify\022\024\n\014father_in" +
       "dex\030\002 \001(\r\022\027\n\017challenge_index\030\003 \001(\r\022\020\n\010ui" +
       "d_list\030\010 \003(\r\022\024\n\014challenge_id\030\013 \001(\r\022\020\n\010gr" +
-      "oup_id\030\014 \001(\r\022\022\n\nparam_list\030\r \003(\rBB\n\031emu." +
-      "grasscutter.net.protoB%DungeonChallengeB" +
-      "eginNotifyOuterClassb\006proto3"
+      "oup_id\030\014 \001(\r\022\022\n\nparam_list\030\r \003(\rB\033\n\031emu." +
+      "grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

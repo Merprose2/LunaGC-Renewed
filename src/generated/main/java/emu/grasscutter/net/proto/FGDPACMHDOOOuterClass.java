@@ -587,9 +587,8 @@ public final class FGDPACMHDOOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FGDPACMHDOO.proto\".\n\013FGDPACMHDOO\022\020\n\010ke" +
-      "y_hash\030\001 \001(\005\022\r\n\005value\030\002 \001(\005B2\n\031emu.grass" +
-      "cutter.net.protoB\025FGDPACMHDOOOuterClassb" +
-      "\006proto3"
+      "y_hash\030\001 \001(\005\022\r\n\005value\030\002 \001(\005B\033\n\031emu.grass" +
+      "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

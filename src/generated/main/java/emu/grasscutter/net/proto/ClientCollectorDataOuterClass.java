@@ -658,9 +658,8 @@ public final class ClientCollectorDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031ClientCollectorData.proto\"S\n\023ClientCol" +
       "lectorData\022\022\n\nmax_points\030\002 \001(\r\022\023\n\013materi" +
-      "al_id\030\010 \001(\r\022\023\n\013curr_points\030\t \001(\rB:\n\031emu." +
-      "grasscutter.net.protoB\035ClientCollectorDa" +
-      "taOuterClassb\006proto3"
+      "al_id\030\010 \001(\r\022\023\n\013curr_points\030\t \001(\rB\033\n\031emu." +
+      "grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

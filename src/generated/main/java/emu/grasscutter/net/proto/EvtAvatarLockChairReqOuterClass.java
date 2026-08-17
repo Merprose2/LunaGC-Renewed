@@ -46,6 +46,10 @@ public final class EvtAvatarLockChairReqOuterClass {
     long getChairId();
   }
   /**
+   * <pre>
+   * CmdID: 3201
+   * </pre>
+   *
    * Protobuf type {@code EvtAvatarLockChairReq}
    */
   public static final class EvtAvatarLockChairReq extends
@@ -377,6 +381,10 @@ public final class EvtAvatarLockChairReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 3201
+     * </pre>
+     *
      * Protobuf type {@code EvtAvatarLockChairReq}
      */
     public static final class Builder extends
@@ -793,9 +801,8 @@ public final class EvtAvatarLockChairReqOuterClass {
       "\n\033EvtAvatarLockChairReq.proto\032\014Vector.pr" +
       "oto\"W\n\025EvtAvatarLockChairReq\022\031\n\010position" +
       "\030\003 \001(\0132\007.Vector\022\021\n\tdirection\030\006 \001(\005\022\020\n\010ch" +
-      "air_id\030\016 \001(\004B<\n\031emu.grasscutter.net.prot" +
-      "oB\037EvtAvatarLockChairReqOuterClassb\006prot" +
-      "o3"
+      "air_id\030\016 \001(\004B\033\n\031emu.grasscutter.net.prot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

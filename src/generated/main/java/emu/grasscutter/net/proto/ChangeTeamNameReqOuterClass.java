@@ -37,6 +37,10 @@ public final class ChangeTeamNameReqOuterClass {
         getTeamNameBytes();
   }
   /**
+   * <pre>
+   * CmdID: 28476
+   * </pre>
+   *
    * Protobuf type {@code ChangeTeamNameReq}
    */
   public static final class ChangeTeamNameReq extends
@@ -340,6 +344,10 @@ public final class ChangeTeamNameReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 28476
+     * </pre>
+     *
      * Protobuf type {@code ChangeTeamNameReq}
      */
     public static final class Builder extends
@@ -668,8 +676,7 @@ public final class ChangeTeamNameReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027ChangeTeamNameReq.proto\"7\n\021ChangeTeamN" +
       "ameReq\022\017\n\007team_id\030\007 \001(\005\022\021\n\tteam_name\030\017 \001" +
-      "(\tB8\n\031emu.grasscutter.net.protoB\033ChangeT" +
-      "eamNameReqOuterClassb\006proto3"
+      "(\tB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

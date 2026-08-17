@@ -936,9 +936,8 @@ public final class CustomCommonNodeInfoOuterClass {
       "\n\032CustomCommonNodeInfo.proto\"l\n\024CustomCo" +
       "mmonNodeInfo\022\024\n\014parent_index\030\001 \001(\005\022\021\n\tco" +
       "nfig_id\030\002 \001(\r\022\027\n\017slot_identifier\030\003 \001(\t\022\022" +
-      "\n\nparam_list\030\004 \003(\005B;\n\031emu.grasscutter.ne" +
-      "t.protoB\036CustomCommonNodeInfoOuterClassb" +
-      "\006proto3"
+      "\n\nparam_list\030\004 \003(\005B\033\n\031emu.grasscutter.ne" +
+      "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

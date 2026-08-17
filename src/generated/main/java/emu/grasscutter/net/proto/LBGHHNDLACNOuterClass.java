@@ -587,9 +587,8 @@ public final class LBGHHNDLACNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LBGHHNDLACN.proto\"2\n\013LBGHHNDLACN\022\021\n\tma" +
-      "x_score\030\014 \001(\r\022\020\n\010level_id\030\016 \001(\rB2\n\031emu.g" +
-      "rasscutter.net.protoB\025LBGHHNDLACNOuterCl" +
-      "assb\006proto3"
+      "x_score\030\014 \001(\r\022\020\n\010level_id\030\016 \001(\rB\033\n\031emu.g" +
+      "rasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -715,8 +715,8 @@ public final class TowerLevelRecordOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026TowerLevelRecord.proto\"A\n\020TowerLevelRe" +
       "cord\022\033\n\023satisfied_cond_list\030\004 \003(\r\022\020\n\010lev" +
-      "el_id\030\005 \001(\rB7\n\031emu.grasscutter.net.proto" +
-      "B\032TowerLevelRecordOuterClassb\006proto3"
+      "el_id\030\005 \001(\rB\033\n\031emu.grasscutter.net.proto" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

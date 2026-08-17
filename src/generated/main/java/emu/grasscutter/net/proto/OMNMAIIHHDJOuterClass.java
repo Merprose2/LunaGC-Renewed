@@ -2368,9 +2368,8 @@ public final class OMNMAIIHHDJOuterClass {
       "FNOI\030\010 \001(\r\022 \n\013KEJAEGGMIBJ\030\t \003(\0132\013.Uint32" +
       "Pair\022 \n\013AABFCMMGMKE\030\013 \003(\0132\013.Uint32Pair\022\017" +
       "\n\007is_open\030\r \001(\010\022\023\n\013HBCLKADPLED\030\016 \001(\r\022!\n\013" +
-      "PDNALAKIIKL\030\017 \003(\0132\014.OLNDJCHOPMCB2\n\031emu.g" +
-      "rasscutter.net.protoB\025OMNMAIIHHDJOuterCl" +
-      "assb\006proto3"
+      "PDNALAKIIKL\030\017 \003(\0132\014.OLNDJCHOPMCB\033\n\031emu.g" +
+      "rasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

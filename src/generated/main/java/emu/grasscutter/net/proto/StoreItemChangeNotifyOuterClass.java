@@ -54,17 +54,21 @@ public final class StoreItemChangeNotifyOuterClass {
     emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType getStoreType();
 
     /**
-     * <code>.StoreItemChangeNotify._ChangeReason reason = 14;</code>
+     * <code>.StoreItemChangeNotify.ChangeReason reason = 14;</code>
      * @return The enum numeric value on the wire for reason.
      */
     int getReasonValue();
     /**
-     * <code>.StoreItemChangeNotify._ChangeReason reason = 14;</code>
+     * <code>.StoreItemChangeNotify.ChangeReason reason = 14;</code>
      * @return The reason.
      */
-    emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify._ChangeReason getReason();
+    emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify.ChangeReason getReason();
   }
   /**
+   * <pre>
+   * CmdID: 22481
+   * </pre>
+   *
    * Protobuf type {@code StoreItemChangeNotify}
    */
   public static final class StoreItemChangeNotify extends
@@ -170,29 +174,29 @@ public final class StoreItemChangeNotifyOuterClass {
     }
 
     /**
-     * Protobuf enum {@code StoreItemChangeNotify._ChangeReason}
+     * Protobuf enum {@code StoreItemChangeNotify.ChangeReason}
      */
-    public enum _ChangeReason
+    public enum ChangeReason
         implements com.google.protobuf.ProtocolMessageEnum {
       /**
-       * <code>OTHERS = 0;</code>
+       * <code>ChangeReason_OTHERS = 0;</code>
        */
-      OTHERS(0),
+      ChangeReason_OTHERS(0),
       /**
-       * <code>LOCK_OR_STAR = 1;</code>
+       * <code>ChangeReason_LOCK_OR_STAR = 1;</code>
        */
-      LOCK_OR_STAR(1),
+      ChangeReason_LOCK_OR_STAR(1),
       UNRECOGNIZED(-1),
       ;
 
       /**
-       * <code>OTHERS = 0;</code>
+       * <code>ChangeReason_OTHERS = 0;</code>
        */
-      public static final int OTHERS_VALUE = 0;
+      public static final int ChangeReason_OTHERS_VALUE = 0;
       /**
-       * <code>LOCK_OR_STAR = 1;</code>
+       * <code>ChangeReason_LOCK_OR_STAR = 1;</code>
        */
-      public static final int LOCK_OR_STAR_VALUE = 1;
+      public static final int ChangeReason_LOCK_OR_STAR_VALUE = 1;
 
 
       public final int getNumber() {
@@ -209,7 +213,7 @@ public final class StoreItemChangeNotifyOuterClass {
        * @deprecated Use {@link #forNumber(int)} instead.
        */
       @java.lang.Deprecated
-      public static _ChangeReason valueOf(int value) {
+      public static ChangeReason valueOf(int value) {
         return forNumber(value);
       }
 
@@ -217,23 +221,23 @@ public final class StoreItemChangeNotifyOuterClass {
        * @param value The numeric wire value of the corresponding enum entry.
        * @return The enum associated with the given numeric wire value.
        */
-      public static _ChangeReason forNumber(int value) {
+      public static ChangeReason forNumber(int value) {
         switch (value) {
-          case 0: return OTHERS;
-          case 1: return LOCK_OR_STAR;
+          case 0: return ChangeReason_OTHERS;
+          case 1: return ChangeReason_LOCK_OR_STAR;
           default: return null;
         }
       }
 
-      public static com.google.protobuf.Internal.EnumLiteMap<_ChangeReason>
+      public static com.google.protobuf.Internal.EnumLiteMap<ChangeReason>
           internalGetValueMap() {
         return internalValueMap;
       }
       private static final com.google.protobuf.Internal.EnumLiteMap<
-          _ChangeReason> internalValueMap =
-            new com.google.protobuf.Internal.EnumLiteMap<_ChangeReason>() {
-              public _ChangeReason findValueByNumber(int number) {
-                return _ChangeReason.forNumber(number);
+          ChangeReason> internalValueMap =
+            new com.google.protobuf.Internal.EnumLiteMap<ChangeReason>() {
+              public ChangeReason findValueByNumber(int number) {
+                return ChangeReason.forNumber(number);
               }
             };
 
@@ -254,9 +258,9 @@ public final class StoreItemChangeNotifyOuterClass {
         return emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify.getDescriptor().getEnumTypes().get(0);
       }
 
-      private static final _ChangeReason[] VALUES = values();
+      private static final ChangeReason[] VALUES = values();
 
-      public static _ChangeReason valueOf(
+      public static ChangeReason valueOf(
           com.google.protobuf.Descriptors.EnumValueDescriptor desc) {
         if (desc.getType() != getDescriptor()) {
           throw new java.lang.IllegalArgumentException(
@@ -270,11 +274,11 @@ public final class StoreItemChangeNotifyOuterClass {
 
       private final int value;
 
-      private _ChangeReason(int value) {
+      private ChangeReason(int value) {
         this.value = value;
       }
 
-      // @@protoc_insertion_point(enum_scope:StoreItemChangeNotify._ChangeReason)
+      // @@protoc_insertion_point(enum_scope:StoreItemChangeNotify.ChangeReason)
     }
 
     public static final int ITEM_LIST_FIELD_NUMBER = 1;
@@ -339,20 +343,20 @@ public final class StoreItemChangeNotifyOuterClass {
     public static final int REASON_FIELD_NUMBER = 14;
     private int reason_;
     /**
-     * <code>.StoreItemChangeNotify._ChangeReason reason = 14;</code>
+     * <code>.StoreItemChangeNotify.ChangeReason reason = 14;</code>
      * @return The enum numeric value on the wire for reason.
      */
     @java.lang.Override public int getReasonValue() {
       return reason_;
     }
     /**
-     * <code>.StoreItemChangeNotify._ChangeReason reason = 14;</code>
+     * <code>.StoreItemChangeNotify.ChangeReason reason = 14;</code>
      * @return The reason.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify._ChangeReason getReason() {
+    @java.lang.Override public emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify.ChangeReason getReason() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify._ChangeReason result = emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify._ChangeReason.valueOf(reason_);
-      return result == null ? emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify._ChangeReason.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify.ChangeReason result = emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify.ChangeReason.valueOf(reason_);
+      return result == null ? emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify.ChangeReason.UNRECOGNIZED : result;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -375,7 +379,7 @@ public final class StoreItemChangeNotifyOuterClass {
       if (storeType_ != emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.StoreType_STORE_NONE.getNumber()) {
         output.writeEnum(10, storeType_);
       }
-      if (reason_ != emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify._ChangeReason.OTHERS.getNumber()) {
+      if (reason_ != emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify.ChangeReason.ChangeReason_OTHERS.getNumber()) {
         output.writeEnum(14, reason_);
       }
       unknownFields.writeTo(output);
@@ -395,7 +399,7 @@ public final class StoreItemChangeNotifyOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(10, storeType_);
       }
-      if (reason_ != emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify._ChangeReason.OTHERS.getNumber()) {
+      if (reason_ != emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify.ChangeReason.ChangeReason_OTHERS.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(14, reason_);
       }
@@ -533,6 +537,10 @@ public final class StoreItemChangeNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 22481
+     * </pre>
+     *
      * Protobuf type {@code StoreItemChangeNotify}
      */
     public static final class Builder extends
@@ -1025,14 +1033,14 @@ public final class StoreItemChangeNotifyOuterClass {
 
       private int reason_ = 0;
       /**
-       * <code>.StoreItemChangeNotify._ChangeReason reason = 14;</code>
+       * <code>.StoreItemChangeNotify.ChangeReason reason = 14;</code>
        * @return The enum numeric value on the wire for reason.
        */
       @java.lang.Override public int getReasonValue() {
         return reason_;
       }
       /**
-       * <code>.StoreItemChangeNotify._ChangeReason reason = 14;</code>
+       * <code>.StoreItemChangeNotify.ChangeReason reason = 14;</code>
        * @param value The enum numeric value on the wire for reason to set.
        * @return This builder for chaining.
        */
@@ -1043,21 +1051,21 @@ public final class StoreItemChangeNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.StoreItemChangeNotify._ChangeReason reason = 14;</code>
+       * <code>.StoreItemChangeNotify.ChangeReason reason = 14;</code>
        * @return The reason.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify._ChangeReason getReason() {
+      public emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify.ChangeReason getReason() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify._ChangeReason result = emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify._ChangeReason.valueOf(reason_);
-        return result == null ? emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify._ChangeReason.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify.ChangeReason result = emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify.ChangeReason.valueOf(reason_);
+        return result == null ? emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify.ChangeReason.UNRECOGNIZED : result;
       }
       /**
-       * <code>.StoreItemChangeNotify._ChangeReason reason = 14;</code>
+       * <code>.StoreItemChangeNotify.ChangeReason reason = 14;</code>
        * @param value The reason to set.
        * @return This builder for chaining.
        */
-      public Builder setReason(emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify._ChangeReason value) {
+      public Builder setReason(emu.grasscutter.net.proto.StoreItemChangeNotifyOuterClass.StoreItemChangeNotify.ChangeReason value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -1067,7 +1075,7 @@ public final class StoreItemChangeNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.StoreItemChangeNotify._ChangeReason reason = 14;</code>
+       * <code>.StoreItemChangeNotify.ChangeReason reason = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearReason() {
@@ -1144,13 +1152,13 @@ public final class StoreItemChangeNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033StoreItemChangeNotify.proto\032\nItem.prot" +
-      "o\032\017StoreType.proto\"\266\001\n\025StoreItemChangeNo" +
+      "o\032\017StoreType.proto\"\316\001\n\025StoreItemChangeNo" +
       "tify\022\030\n\titem_list\030\001 \003(\0132\005.Item\022\036\n\nstore_" +
-      "type\030\n \001(\0162\n.StoreType\0224\n\006reason\030\016 \001(\0162$" +
-      ".StoreItemChangeNotify._ChangeReason\"-\n\r" +
-      "_ChangeReason\022\n\n\006OTHERS\020\000\022\020\n\014LOCK_OR_STA" +
-      "R\020\001B<\n\031emu.grasscutter.net.protoB\037StoreI" +
-      "temChangeNotifyOuterClassb\006proto3"
+      "type\030\n \001(\0162\n.StoreType\0223\n\006reason\030\016 \001(\0162#" +
+      ".StoreItemChangeNotify.ChangeReason\"F\n\014C" +
+      "hangeReason\022\027\n\023ChangeReason_OTHERS\020\000\022\035\n\031" +
+      "ChangeReason_LOCK_OR_STAR\020\001B\033\n\031emu.grass" +
+      "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

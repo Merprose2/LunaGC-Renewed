@@ -809,8 +809,8 @@ public final class CombatInvokeEntryOuterClass {
       "tInvokeEntry\022*\n\rargument_type\030\004 \001(\0162\023.Co" +
       "mbatTypeArgument\022\"\n\014forward_type\030\005 \001(\0162\014" +
       ".ForwardType\022\023\n\013combat_data\030\006 \001(\014\022\023\n\013LDA" +
-      "ODDFLPGB\030\013 \001(\rB8\n\031emu.grasscutter.net.pr" +
-      "otoB\033CombatInvokeEntryOuterClassb\006proto3"
+      "ODDFLPGB\030\013 \001(\rB\033\n\031emu.grasscutter.net.pr" +
+      "otob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

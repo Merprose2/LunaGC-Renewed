@@ -1339,8 +1339,7 @@ public final class GravenInnocenceDetailInfoOuterClass {
       "\001(\0132\031.GravenInnocencePhotoInfo\022+\n\trace_i" +
       "nfo\030\010 \001(\0132\030.GravenInnocenceRaceInfo\022+\n\tc" +
       "amp_info\030\n \001(\0132\030.GravenInnocenceCampInfo" +
-      "B@\n\031emu.grasscutter.net.protoB#GravenInn" +
-      "ocenceDetailInfoOuterClassb\006proto3"
+      "B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1753,8 +1753,7 @@ public final class EEEPOOPKBPCOuterClass {
       "ENKB\022\023\n\013GPAGAPLCNON\030\n \001(\r\022\023\n\013FEKGLGPBOAC" +
       "\030\013 \001(\r\022!\n\013CJPOCMKBMEI\030\r \003(\0132\014.JNMJNFCENK" +
       "B\022\023\n\013LICONHNCIPB\030\016 \001(\r\022\023\n\013LDIIGMAACGI\030\017 " +
-      "\001(\rB2\n\031emu.grasscutter.net.protoB\025EEEPOO" +
-      "PKBPCOuterClassb\006proto3"
+      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

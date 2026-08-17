@@ -49,6 +49,10 @@ public final class SceneTeamUpdateNotifyOuterClass {
     boolean getIsInMp();
   }
   /**
+   * <pre>
+   * CmdID: 7886
+   * </pre>
+   *
    * Protobuf type {@code SceneTeamUpdateNotify}
    */
   public static final class SceneTeamUpdateNotify extends
@@ -365,6 +369,10 @@ public final class SceneTeamUpdateNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 7886
+     * </pre>
+     *
      * Protobuf type {@code SceneTeamUpdateNotify}
      */
     public static final class Builder extends
@@ -895,9 +903,8 @@ public final class SceneTeamUpdateNotifyOuterClass {
       "\n\033SceneTeamUpdateNotify.proto\032\025SceneTeam" +
       "Avatar.proto\"[\n\025SceneTeamUpdateNotify\0220\n" +
       "\026scene_team_avatar_list\030\002 \003(\0132\020.SceneTea" +
-      "mAvatar\022\020\n\010is_in_mp\030\005 \001(\010B<\n\031emu.grasscu" +
-      "tter.net.protoB\037SceneTeamUpdateNotifyOut" +
-      "erClassb\006proto3"
+      "mAvatar\022\020\n\010is_in_mp\030\005 \001(\010B\033\n\031emu.grasscu" +
+      "tter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

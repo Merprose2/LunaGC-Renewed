@@ -36,6 +36,10 @@ public final class GroupUnloadNotifyOuterClass {
     int getGroupList(int index);
   }
   /**
+   * <pre>
+   * CmdID: 29359
+   * </pre>
+   *
    * Protobuf type {@code GroupUnloadNotify}
    */
   public static final class GroupUnloadNotify extends
@@ -339,6 +343,10 @@ public final class GroupUnloadNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 29359
+     * </pre>
+     *
      * Protobuf type {@code GroupUnloadNotify}
      */
     public static final class Builder extends
@@ -644,9 +652,8 @@ public final class GroupUnloadNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027GroupUnloadNotify.proto\"\'\n\021GroupUnload" +
-      "Notify\022\022\n\ngroup_list\030\010 \003(\rB8\n\031emu.grassc" +
-      "utter.net.protoB\033GroupUnloadNotifyOuterC" +
-      "lassb\006proto3"
+      "Notify\022\022\n\ngroup_list\030\010 \003(\rB\033\n\031emu.grassc" +
+      "utter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

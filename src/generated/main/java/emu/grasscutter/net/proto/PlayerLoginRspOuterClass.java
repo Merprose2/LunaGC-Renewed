@@ -31,10 +31,10 @@ public final class PlayerLoginRspOuterClass {
     boolean getGHAJDNKLEDA();
 
     /**
-     * <code>uint32 ohmigaflnid = 3;</code>
-     * @return The ohmigaflnid.
+     * <code>uint32 IEFLCELKOKD = 3;</code>
+     * @return The iEFLCELKOKD.
      */
-    int getOhmigaflnid();
+    int getIEFLCELKOKD();
 
     /**
      * <code>uint64 login_rand = 4;</code>
@@ -301,19 +301,19 @@ public final class PlayerLoginRspOuterClass {
     emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder getResVersionConfigOrBuilder();
 
     /**
-     * <code>.StopServerInfo nfachcnjogl = 1201;</code>
-     * @return Whether the nfachcnjogl field is set.
+     * <code>.StopServerInfo MAEKPOJHBKL = 1201;</code>
+     * @return Whether the mAEKPOJHBKL field is set.
      */
-    boolean hasNfachcnjogl();
+    boolean hasMAEKPOJHBKL();
     /**
-     * <code>.StopServerInfo nfachcnjogl = 1201;</code>
-     * @return The nfachcnjogl.
+     * <code>.StopServerInfo MAEKPOJHBKL = 1201;</code>
+     * @return The mAEKPOJHBKL.
      */
-    emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo getNfachcnjogl();
+    emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo getMAEKPOJHBKL();
     /**
-     * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+     * <code>.StopServerInfo MAEKPOJHBKL = 1201;</code>
      */
-    emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder getNfachcnjoglOrBuilder();
+    emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder getMAEKPOJHBKLOrBuilder();
 
     /**
      * <code>string client_silence_version_suffix = 1205;</code>
@@ -502,6 +502,10 @@ public final class PlayerLoginRspOuterClass {
     boolean getMBPNFGLAJOG();
   }
   /**
+   * <pre>
+   * CmdID: 22801
+   * </pre>
+   *
    * Protobuf type {@code PlayerLoginRsp}
    */
   public static final class PlayerLoginRsp extends
@@ -573,7 +577,7 @@ public final class PlayerLoginRspOuterClass {
             }
             case 24: {
 
-              ohmigaflnid_ = input.readUInt32();
+              iEFLCELKOKD_ = input.readUInt32();
               break;
             }
             case 32: {
@@ -730,13 +734,13 @@ public final class PlayerLoginRspOuterClass {
             }
             case 9610: {
               emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder subBuilder = null;
-              if (nfachcnjogl_ != null) {
-                subBuilder = nfachcnjogl_.toBuilder();
+              if (mAEKPOJHBKL_ != null) {
+                subBuilder = mAEKPOJHBKL_.toBuilder();
               }
-              nfachcnjogl_ = input.readMessage(emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.parser(), extensionRegistry);
+              mAEKPOJHBKL_ = input.readMessage(emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom(nfachcnjogl_);
-                nfachcnjogl_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom(mAEKPOJHBKL_);
+                mAEKPOJHBKL_ = subBuilder.buildPartial();
               }
 
               break;
@@ -934,15 +938,15 @@ public final class PlayerLoginRspOuterClass {
       return gHAJDNKLEDA_;
     }
 
-    public static final int OHMIGAFLNID_FIELD_NUMBER = 3;
-    private int ohmigaflnid_;
+    public static final int IEFLCELKOKD_FIELD_NUMBER = 3;
+    private int iEFLCELKOKD_;
     /**
-     * <code>uint32 ohmigaflnid = 3;</code>
-     * @return The ohmigaflnid.
+     * <code>uint32 IEFLCELKOKD = 3;</code>
+     * @return The iEFLCELKOKD.
      */
     @java.lang.Override
-    public int getOhmigaflnid() {
-      return ohmigaflnid_;
+    public int getIEFLCELKOKD() {
+      return iEFLCELKOKD_;
     }
 
     public static final int LOGIN_RAND_FIELD_NUMBER = 4;
@@ -1526,30 +1530,30 @@ public final class PlayerLoginRspOuterClass {
       return getResVersionConfig();
     }
 
-    public static final int NFACHCNJOGL_FIELD_NUMBER = 1201;
-    private emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo nfachcnjogl_;
+    public static final int MAEKPOJHBKL_FIELD_NUMBER = 1201;
+    private emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo mAEKPOJHBKL_;
     /**
-     * <code>.StopServerInfo nfachcnjogl = 1201;</code>
-     * @return Whether the nfachcnjogl field is set.
+     * <code>.StopServerInfo MAEKPOJHBKL = 1201;</code>
+     * @return Whether the mAEKPOJHBKL field is set.
      */
     @java.lang.Override
-    public boolean hasNfachcnjogl() {
-      return nfachcnjogl_ != null;
+    public boolean hasMAEKPOJHBKL() {
+      return mAEKPOJHBKL_ != null;
     }
     /**
-     * <code>.StopServerInfo nfachcnjogl = 1201;</code>
-     * @return The nfachcnjogl.
+     * <code>.StopServerInfo MAEKPOJHBKL = 1201;</code>
+     * @return The mAEKPOJHBKL.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo getNfachcnjogl() {
-      return nfachcnjogl_ == null ? emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.getDefaultInstance() : nfachcnjogl_;
+    public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo getMAEKPOJHBKL() {
+      return mAEKPOJHBKL_ == null ? emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.getDefaultInstance() : mAEKPOJHBKL_;
     }
     /**
-     * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+     * <code>.StopServerInfo MAEKPOJHBKL = 1201;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder getNfachcnjoglOrBuilder() {
-      return getNfachcnjogl();
+    public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder getMAEKPOJHBKLOrBuilder() {
+      return getMAEKPOJHBKL();
     }
 
     public static final int CLIENT_SILENCE_VERSION_SUFFIX_FIELD_NUMBER = 1205;
@@ -2018,8 +2022,8 @@ public final class PlayerLoginRspOuterClass {
       if (gHAJDNKLEDA_ != false) {
         output.writeBool(2, gHAJDNKLEDA_);
       }
-      if (ohmigaflnid_ != 0) {
-        output.writeUInt32(3, ohmigaflnid_);
+      if (iEFLCELKOKD_ != 0) {
+        output.writeUInt32(3, iEFLCELKOKD_);
       }
       if (loginRand_ != 0L) {
         output.writeUInt64(4, loginRand_);
@@ -2093,8 +2097,8 @@ public final class PlayerLoginRspOuterClass {
       if (resVersionConfig_ != null) {
         output.writeMessage(1140, getResVersionConfig());
       }
-      if (nfachcnjogl_ != null) {
-        output.writeMessage(1201, getNfachcnjogl());
+      if (mAEKPOJHBKL_ != null) {
+        output.writeMessage(1201, getMAEKPOJHBKL());
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientSilenceVersionSuffix_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 1205, clientSilenceVersionSuffix_);
@@ -2167,9 +2171,9 @@ public final class PlayerLoginRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(2, gHAJDNKLEDA_);
       }
-      if (ohmigaflnid_ != 0) {
+      if (iEFLCELKOKD_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, ohmigaflnid_);
+          .computeUInt32Size(3, iEFLCELKOKD_);
       }
       if (loginRand_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
@@ -2270,9 +2274,9 @@ public final class PlayerLoginRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(1140, getResVersionConfig());
       }
-      if (nfachcnjogl_ != null) {
+      if (mAEKPOJHBKL_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1201, getNfachcnjogl());
+          .computeMessageSize(1201, getMAEKPOJHBKL());
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientSilenceVersionSuffix_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1205, clientSilenceVersionSuffix_);
@@ -2358,8 +2362,8 @@ public final class PlayerLoginRspOuterClass {
           != other.getIsRelogin()) return false;
       if (getGHAJDNKLEDA()
           != other.getGHAJDNKLEDA()) return false;
-      if (getOhmigaflnid()
-          != other.getOhmigaflnid()) return false;
+      if (getIEFLCELKOKD()
+          != other.getIEFLCELKOKD()) return false;
       if (getLoginRand()
           != other.getLoginRand()) return false;
       if (!internalGetAbilityHashMap().equals(
@@ -2408,10 +2412,10 @@ public final class PlayerLoginRspOuterClass {
         if (!getResVersionConfig()
             .equals(other.getResVersionConfig())) return false;
       }
-      if (hasNfachcnjogl() != other.hasNfachcnjogl()) return false;
-      if (hasNfachcnjogl()) {
-        if (!getNfachcnjogl()
-            .equals(other.getNfachcnjogl())) return false;
+      if (hasMAEKPOJHBKL() != other.hasMAEKPOJHBKL()) return false;
+      if (hasMAEKPOJHBKL()) {
+        if (!getMAEKPOJHBKL()
+            .equals(other.getMAEKPOJHBKL())) return false;
       }
       if (!getClientSilenceVersionSuffix()
           .equals(other.getClientSilenceVersionSuffix())) return false;
@@ -2473,8 +2477,8 @@ public final class PlayerLoginRspOuterClass {
       hash = (37 * hash) + GHAJDNKLEDA_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getGHAJDNKLEDA());
-      hash = (37 * hash) + OHMIGAFLNID_FIELD_NUMBER;
-      hash = (53 * hash) + getOhmigaflnid();
+      hash = (37 * hash) + IEFLCELKOKD_FIELD_NUMBER;
+      hash = (53 * hash) + getIEFLCELKOKD();
       hash = (37 * hash) + LOGIN_RAND_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getLoginRand());
@@ -2533,9 +2537,9 @@ public final class PlayerLoginRspOuterClass {
         hash = (37 * hash) + RES_VERSION_CONFIG_FIELD_NUMBER;
         hash = (53 * hash) + getResVersionConfig().hashCode();
       }
-      if (hasNfachcnjogl()) {
-        hash = (37 * hash) + NFACHCNJOGL_FIELD_NUMBER;
-        hash = (53 * hash) + getNfachcnjogl().hashCode();
+      if (hasMAEKPOJHBKL()) {
+        hash = (37 * hash) + MAEKPOJHBKL_FIELD_NUMBER;
+        hash = (53 * hash) + getMAEKPOJHBKL().hashCode();
       }
       hash = (37 * hash) + CLIENT_SILENCE_VERSION_SUFFIX_FIELD_NUMBER;
       hash = (53 * hash) + getClientSilenceVersionSuffix().hashCode();
@@ -2681,6 +2685,10 @@ public final class PlayerLoginRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 22801
+     * </pre>
+     *
      * Protobuf type {@code PlayerLoginRsp}
      */
     public static final class Builder extends
@@ -2754,7 +2762,7 @@ public final class PlayerLoginRspOuterClass {
 
         gHAJDNKLEDA_ = false;
 
-        ohmigaflnid_ = 0;
+        iEFLCELKOKD_ = 0;
 
         loginRand_ = 0L;
 
@@ -2807,11 +2815,11 @@ public final class PlayerLoginRspOuterClass {
           resVersionConfig_ = null;
           resVersionConfigBuilder_ = null;
         }
-        if (nfachcnjoglBuilder_ == null) {
-          nfachcnjogl_ = null;
+        if (mAEKPOJHBKLBuilder_ == null) {
+          mAEKPOJHBKL_ = null;
         } else {
-          nfachcnjogl_ = null;
-          nfachcnjoglBuilder_ = null;
+          mAEKPOJHBKL_ = null;
+          mAEKPOJHBKLBuilder_ = null;
         }
         clientSilenceVersionSuffix_ = "";
 
@@ -2890,7 +2898,7 @@ public final class PlayerLoginRspOuterClass {
         int from_bitField0_ = bitField0_;
         result.isRelogin_ = isRelogin_;
         result.gHAJDNKLEDA_ = gHAJDNKLEDA_;
-        result.ohmigaflnid_ = ohmigaflnid_;
+        result.iEFLCELKOKD_ = iEFLCELKOKD_;
         result.loginRand_ = loginRand_;
         result.abilityHashMap_ = internalGetAbilityHashMap();
         result.abilityHashMap_.makeImmutable();
@@ -2931,10 +2939,10 @@ public final class PlayerLoginRspOuterClass {
         } else {
           result.resVersionConfig_ = resVersionConfigBuilder_.build();
         }
-        if (nfachcnjoglBuilder_ == null) {
-          result.nfachcnjogl_ = nfachcnjogl_;
+        if (mAEKPOJHBKLBuilder_ == null) {
+          result.mAEKPOJHBKL_ = mAEKPOJHBKL_;
         } else {
-          result.nfachcnjogl_ = nfachcnjoglBuilder_.build();
+          result.mAEKPOJHBKL_ = mAEKPOJHBKLBuilder_.build();
         }
         result.clientSilenceVersionSuffix_ = clientSilenceVersionSuffix_;
         result.isScOpen_ = isScOpen_;
@@ -3024,8 +3032,8 @@ public final class PlayerLoginRspOuterClass {
         if (other.getGHAJDNKLEDA() != false) {
           setGHAJDNKLEDA(other.getGHAJDNKLEDA());
         }
-        if (other.getOhmigaflnid() != 0) {
-          setOhmigaflnid(other.getOhmigaflnid());
+        if (other.getIEFLCELKOKD() != 0) {
+          setIEFLCELKOKD(other.getIEFLCELKOKD());
         }
         if (other.getLoginRand() != 0L) {
           setLoginRand(other.getLoginRand());
@@ -3113,8 +3121,8 @@ public final class PlayerLoginRspOuterClass {
         if (other.hasResVersionConfig()) {
           mergeResVersionConfig(other.getResVersionConfig());
         }
-        if (other.hasNfachcnjogl()) {
-          mergeNfachcnjogl(other.getNfachcnjogl());
+        if (other.hasMAEKPOJHBKL()) {
+          mergeMAEKPOJHBKL(other.getMAEKPOJHBKL());
         }
         if (!other.getClientSilenceVersionSuffix().isEmpty()) {
           clientSilenceVersionSuffix_ = other.clientSilenceVersionSuffix_;
@@ -3292,33 +3300,33 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
 
-      private int ohmigaflnid_ ;
+      private int iEFLCELKOKD_ ;
       /**
-       * <code>uint32 ohmigaflnid = 3;</code>
-       * @return The ohmigaflnid.
+       * <code>uint32 IEFLCELKOKD = 3;</code>
+       * @return The iEFLCELKOKD.
        */
       @java.lang.Override
-      public int getOhmigaflnid() {
-        return ohmigaflnid_;
+      public int getIEFLCELKOKD() {
+        return iEFLCELKOKD_;
       }
       /**
-       * <code>uint32 ohmigaflnid = 3;</code>
-       * @param value The ohmigaflnid to set.
+       * <code>uint32 IEFLCELKOKD = 3;</code>
+       * @param value The iEFLCELKOKD to set.
        * @return This builder for chaining.
        */
-      public Builder setOhmigaflnid(int value) {
+      public Builder setIEFLCELKOKD(int value) {
         
-        ohmigaflnid_ = value;
+        iEFLCELKOKD_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 ohmigaflnid = 3;</code>
+       * <code>uint32 IEFLCELKOKD = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearOhmigaflnid() {
+      public Builder clearIEFLCELKOKD() {
         
-        ohmigaflnid_ = 0;
+        iEFLCELKOKD_ = 0;
         onChanged();
         return this;
       }
@@ -4791,123 +4799,123 @@ public final class PlayerLoginRspOuterClass {
         return resVersionConfigBuilder_;
       }
 
-      private emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo nfachcnjogl_;
+      private emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo mAEKPOJHBKL_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder> nfachcnjoglBuilder_;
+          emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder> mAEKPOJHBKLBuilder_;
       /**
-       * <code>.StopServerInfo nfachcnjogl = 1201;</code>
-       * @return Whether the nfachcnjogl field is set.
+       * <code>.StopServerInfo MAEKPOJHBKL = 1201;</code>
+       * @return Whether the mAEKPOJHBKL field is set.
        */
-      public boolean hasNfachcnjogl() {
-        return nfachcnjoglBuilder_ != null || nfachcnjogl_ != null;
+      public boolean hasMAEKPOJHBKL() {
+        return mAEKPOJHBKLBuilder_ != null || mAEKPOJHBKL_ != null;
       }
       /**
-       * <code>.StopServerInfo nfachcnjogl = 1201;</code>
-       * @return The nfachcnjogl.
+       * <code>.StopServerInfo MAEKPOJHBKL = 1201;</code>
+       * @return The mAEKPOJHBKL.
        */
-      public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo getNfachcnjogl() {
-        if (nfachcnjoglBuilder_ == null) {
-          return nfachcnjogl_ == null ? emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.getDefaultInstance() : nfachcnjogl_;
+      public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo getMAEKPOJHBKL() {
+        if (mAEKPOJHBKLBuilder_ == null) {
+          return mAEKPOJHBKL_ == null ? emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.getDefaultInstance() : mAEKPOJHBKL_;
         } else {
-          return nfachcnjoglBuilder_.getMessage();
+          return mAEKPOJHBKLBuilder_.getMessage();
         }
       }
       /**
-       * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+       * <code>.StopServerInfo MAEKPOJHBKL = 1201;</code>
        */
-      public Builder setNfachcnjogl(emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo value) {
-        if (nfachcnjoglBuilder_ == null) {
+      public Builder setMAEKPOJHBKL(emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo value) {
+        if (mAEKPOJHBKLBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          nfachcnjogl_ = value;
+          mAEKPOJHBKL_ = value;
           onChanged();
         } else {
-          nfachcnjoglBuilder_.setMessage(value);
+          mAEKPOJHBKLBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+       * <code>.StopServerInfo MAEKPOJHBKL = 1201;</code>
        */
-      public Builder setNfachcnjogl(
+      public Builder setMAEKPOJHBKL(
           emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder builderForValue) {
-        if (nfachcnjoglBuilder_ == null) {
-          nfachcnjogl_ = builderForValue.build();
+        if (mAEKPOJHBKLBuilder_ == null) {
+          mAEKPOJHBKL_ = builderForValue.build();
           onChanged();
         } else {
-          nfachcnjoglBuilder_.setMessage(builderForValue.build());
+          mAEKPOJHBKLBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+       * <code>.StopServerInfo MAEKPOJHBKL = 1201;</code>
        */
-      public Builder mergeNfachcnjogl(emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo value) {
-        if (nfachcnjoglBuilder_ == null) {
-          if (nfachcnjogl_ != null) {
-            nfachcnjogl_ =
-              emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.newBuilder(nfachcnjogl_).mergeFrom(value).buildPartial();
+      public Builder mergeMAEKPOJHBKL(emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo value) {
+        if (mAEKPOJHBKLBuilder_ == null) {
+          if (mAEKPOJHBKL_ != null) {
+            mAEKPOJHBKL_ =
+              emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.newBuilder(mAEKPOJHBKL_).mergeFrom(value).buildPartial();
           } else {
-            nfachcnjogl_ = value;
+            mAEKPOJHBKL_ = value;
           }
           onChanged();
         } else {
-          nfachcnjoglBuilder_.mergeFrom(value);
+          mAEKPOJHBKLBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+       * <code>.StopServerInfo MAEKPOJHBKL = 1201;</code>
        */
-      public Builder clearNfachcnjogl() {
-        if (nfachcnjoglBuilder_ == null) {
-          nfachcnjogl_ = null;
+      public Builder clearMAEKPOJHBKL() {
+        if (mAEKPOJHBKLBuilder_ == null) {
+          mAEKPOJHBKL_ = null;
           onChanged();
         } else {
-          nfachcnjogl_ = null;
-          nfachcnjoglBuilder_ = null;
+          mAEKPOJHBKL_ = null;
+          mAEKPOJHBKLBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+       * <code>.StopServerInfo MAEKPOJHBKL = 1201;</code>
        */
-      public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder getNfachcnjoglBuilder() {
+      public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder getMAEKPOJHBKLBuilder() {
         
         onChanged();
-        return getNfachcnjoglFieldBuilder().getBuilder();
+        return getMAEKPOJHBKLFieldBuilder().getBuilder();
       }
       /**
-       * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+       * <code>.StopServerInfo MAEKPOJHBKL = 1201;</code>
        */
-      public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder getNfachcnjoglOrBuilder() {
-        if (nfachcnjoglBuilder_ != null) {
-          return nfachcnjoglBuilder_.getMessageOrBuilder();
+      public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder getMAEKPOJHBKLOrBuilder() {
+        if (mAEKPOJHBKLBuilder_ != null) {
+          return mAEKPOJHBKLBuilder_.getMessageOrBuilder();
         } else {
-          return nfachcnjogl_ == null ?
-              emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.getDefaultInstance() : nfachcnjogl_;
+          return mAEKPOJHBKL_ == null ?
+              emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.getDefaultInstance() : mAEKPOJHBKL_;
         }
       }
       /**
-       * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+       * <code>.StopServerInfo MAEKPOJHBKL = 1201;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder> 
-          getNfachcnjoglFieldBuilder() {
-        if (nfachcnjoglBuilder_ == null) {
-          nfachcnjoglBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+          getMAEKPOJHBKLFieldBuilder() {
+        if (mAEKPOJHBKLBuilder_ == null) {
+          mAEKPOJHBKLBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder>(
-                  getNfachcnjogl(),
+                  getMAEKPOJHBKL(),
                   getParentForChildren(),
                   isClean());
-          nfachcnjogl_ = null;
+          mAEKPOJHBKL_ = null;
         }
-        return nfachcnjoglBuilder_;
+        return mAEKPOJHBKLBuilder_;
       }
 
       private java.lang.Object clientSilenceVersionSuffix_ = "";
@@ -6255,7 +6263,7 @@ public final class PlayerLoginRspOuterClass {
       "\032\026ResVersionConfig.proto\032\032ShortAbilityHa" +
       "shPair.proto\032\024StopServerInfo.proto\"\276\013\n\016P" +
       "layerLoginRsp\022\022\n\nis_relogin\030\001 \001(\010\022\023\n\013GHA" +
-      "JDNKLEDA\030\002 \001(\010\022\023\n\013ohmigaflnid\030\003 \001(\r\022\022\n\nl" +
+      "JDNKLEDA\030\002 \001(\010\022\023\n\013IEFLCELKOKD\030\003 \001(\r\022\022\n\nl" +
       "ogin_rand\030\004 \001(\004\022=\n\020ability_hash_map\030\005 \003(" +
       "\0132#.PlayerLoginRsp.AbilityHashMapEntry\022\020" +
       "\n\010game_biz\030\006 \001(\t\022\033\n\023is_use_ability_hash\030" +
@@ -6273,7 +6281,7 @@ public final class PlayerLoginRspOuterClass {
       "KNBKGBLHDM\030\201\007 \003(\0132 .PlayerLoginRsp.KKNBK" +
       "GBLHDMEntry\022\024\n\013AMBIGCMFEIM\030\304\010 \001(\r\022.\n\022res" +
       "_version_config\030\364\010 \001(\0132\021.ResVersionConfi" +
-      "g\022%\n\013nfachcnjogl\030\261\t \001(\0132\017.StopServerInfo" +
+      "g\022%\n\013MAEKPOJHBKL\030\261\t \001(\0132\017.StopServerInfo" +
       "\022&\n\035client_silence_version_suffix\030\265\t \001(\t" +
       "\022\023\n\nis_sc_open\030\336\t \001(\010\022\024\n\013OEMHPIKBDMB\030\221\n " +
       "\001(\010\022\025\n\014register_cps\030\227\n \001(\t\022\014\n\003msg\030\244\n \001(\t" +
@@ -6290,9 +6298,8 @@ public final class PlayerLoginRspOuterClass {
       "\005value\030\002 \001(\005:\0028\001\032?\n\021BlockInfoMapEntry\022\013\n" +
       "\003key\030\001 \001(\r\022\031\n\005value\030\002 \001(\0132\n.BlockInfo:\0028" +
       "\001\032@\n\020KKNBKGBLHDMEntry\022\013\n\003key\030\001 \001(\004\022\033\n\005va" +
-      "lue\030\002 \001(\0132\014.MPGPEKAFHJG:\0028\001B5\n\031emu.grass" +
-      "cutter.net.protoB\030PlayerLoginRspOuterCla" +
-      "ssb\006proto3"
+      "lue\030\002 \001(\0132\014.MPGPEKAFHJG:\0028\001B\033\n\031emu.grass" +
+      "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -6311,7 +6318,7 @@ public final class PlayerLoginRspOuterClass {
     internal_static_PlayerLoginRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PlayerLoginRsp_descriptor,
-        new java.lang.String[] { "IsRelogin", "GHAJDNKLEDA", "Ohmigaflnid", "LoginRand", "AbilityHashMap", "GameBiz", "IsUseAbilityHash", "ClientDataVersion", "ClientSilenceDataVersion", "TargetUid", "AbilityHashCode", "PlayerData", "Retcode", "GICKBBGJGCK", "ScInfo", "ClientVersionSuffix", "NextResVersionConfig", "Birthday", "BlockInfoMap", "CGMBIAPFHGE", "ShortAbilityHashMap", "KKNBKGBLHDM", "AMBIGCMFEIM", "ResVersionConfig", "Nfachcnjogl", "ClientSilenceVersionSuffix", "IsScOpen", "OEMHPIKBDMB", "RegisterCps", "Msg", "KJEMCDAJINF", "CountryCode", "KLKDKMBAPGA", "NextResourceUrl", "ClientMd5", "LPFKKMMLFOP", "ALMPHOAOJEC", "IsAudit", "FeatureBlockInfoList", "TotalTickTime", "PlatformType", "ClientSilenceMd5", "MBPNFGLAJOG", });
+        new java.lang.String[] { "IsRelogin", "GHAJDNKLEDA", "IEFLCELKOKD", "LoginRand", "AbilityHashMap", "GameBiz", "IsUseAbilityHash", "ClientDataVersion", "ClientSilenceDataVersion", "TargetUid", "AbilityHashCode", "PlayerData", "Retcode", "GICKBBGJGCK", "ScInfo", "ClientVersionSuffix", "NextResVersionConfig", "Birthday", "BlockInfoMap", "CGMBIAPFHGE", "ShortAbilityHashMap", "KKNBKGBLHDM", "AMBIGCMFEIM", "ResVersionConfig", "MAEKPOJHBKL", "ClientSilenceVersionSuffix", "IsScOpen", "OEMHPIKBDMB", "RegisterCps", "Msg", "KJEMCDAJINF", "CountryCode", "KLKDKMBAPGA", "NextResourceUrl", "ClientMd5", "LPFKKMMLFOP", "ALMPHOAOJEC", "IsAudit", "FeatureBlockInfoList", "TotalTickTime", "PlatformType", "ClientSilenceMd5", "MBPNFGLAJOG", });
     internal_static_PlayerLoginRsp_AbilityHashMapEntry_descriptor =
       internal_static_PlayerLoginRsp_descriptor.getNestedTypes().get(0);
     internal_static_PlayerLoginRsp_AbilityHashMapEntry_fieldAccessorTable = new

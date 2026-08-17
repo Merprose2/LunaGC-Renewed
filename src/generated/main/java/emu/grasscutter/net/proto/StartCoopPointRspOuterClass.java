@@ -52,6 +52,10 @@ public final class StartCoopPointRspOuterClass {
     int getRetcode();
   }
   /**
+   * <pre>
+   * CmdID: 27645
+   * </pre>
+   *
    * Protobuf type {@code StartCoopPointRsp}
    */
   public static final class StartCoopPointRsp extends
@@ -410,6 +414,10 @@ public final class StartCoopPointRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 27645
+     * </pre>
+     *
      * Protobuf type {@code StartCoopPointRsp}
      */
     public static final class Builder extends
@@ -863,9 +871,8 @@ public final class StartCoopPointRspOuterClass {
       "\n\027StartCoopPointRsp.proto\032\016MainCoop.prot" +
       "o\"n\n\021StartCoopPointRsp\022\022\n\ncoop_point\030\001 \001" +
       "(\r\022\"\n\017start_main_coop\030\010 \001(\0132\t.MainCoop\022\020" +
-      "\n\010is_start\030\n \001(\010\022\017\n\007retcode\030\017 \001(\005B8\n\031emu" +
-      ".grasscutter.net.protoB\033StartCoopPointRs" +
-      "pOuterClassb\006proto3"
+      "\n\010is_start\030\n \001(\010\022\017\n\007retcode\030\017 \001(\005B\033\n\031emu" +
+      ".grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -1250,9 +1250,8 @@ public final class FindHilichurlDetailInfoOuterClass {
       "ept\030\005 \001(\010\022;\n\025day_content_info_list\030\007 \003(\013" +
       "2\034.FindHilichurlDayContentInfo\022\030\n\020player" +
       "_day_index\030\t \001(\r\022\035\n\025min_open_player_leve" +
-      "l\030\r \001(\r\022\032\n\022content_close_time\030\016 \001(\rB>\n\031e" +
-      "mu.grasscutter.net.protoB!FindHilichurlD" +
-      "etailInfoOuterClassb\006proto3"
+      "l\030\r \001(\r\022\032\n\022content_close_time\030\016 \001(\rB\033\n\031e" +
+      "mu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

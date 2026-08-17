@@ -36,6 +36,10 @@ public final class ForgeQueueManipulateReqOuterClass {
     emu.grasscutter.net.proto.ForgeQueueManipulateTypeOuterClass.ForgeQueueManipulateType getManipulateType();
   }
   /**
+   * <pre>
+   * CmdID: 20517
+   * </pre>
+   *
    * Protobuf type {@code ForgeQueueManipulateReq}
    */
   public static final class ForgeQueueManipulateReq extends
@@ -320,6 +324,10 @@ public final class ForgeQueueManipulateReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 20517
+     * </pre>
+     *
      * Protobuf type {@code ForgeQueueManipulateReq}
      */
     public static final class Builder extends
@@ -627,8 +635,8 @@ public final class ForgeQueueManipulateReqOuterClass {
       "eueManipulateType.proto\"e\n\027ForgeQueueMan" +
       "ipulateReq\022\026\n\016forge_queue_id\030\013 \001(\r\0222\n\017ma" +
       "nipulate_type\030\016 \001(\0162\031.ForgeQueueManipula" +
-      "teTypeB>\n\031emu.grasscutter.net.protoB!For" +
-      "geQueueManipulateReqOuterClassb\006proto3"
+      "teTypeB\033\n\031emu.grasscutter.net.protob\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

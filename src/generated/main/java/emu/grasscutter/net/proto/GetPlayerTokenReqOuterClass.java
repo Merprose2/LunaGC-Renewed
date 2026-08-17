@@ -61,10 +61,10 @@ public final class GetPlayerTokenReqOuterClass {
         getPsnIdBytes();
 
     /**
-     * <code>uint32 cloud_client_ip = 5;</code>
-     * @return The cloudClientIp.
+     * <code>uint32 HJICNGJMCEL = 5;</code>
+     * @return The hJICNGJMCEL.
      */
-    int getCloudClientIp();
+    int getHJICNGJMCEL();
 
     /**
      * <code>string account_token = 6;</code>
@@ -79,16 +79,16 @@ public final class GetPlayerTokenReqOuterClass {
         getAccountTokenBytes();
 
     /**
-     * <code>uint32 account_type = 7;</code>
-     * @return The accountType.
+     * <code>uint32 INIKCPKAFJE = 7;</code>
+     * @return The iNIKCPKAFJE.
      */
-    int getAccountType();
+    int getINIKCPKAFJE();
 
     /**
-     * <code>uint32 sub_channel_id = 8;</code>
-     * @return The subChannelId.
+     * <code>uint32 GLDDHPBGNAD = 8;</code>
+     * @return The gLDDHPBGNAD.
      */
-    int getSubChannelId();
+    int getGLDDHPBGNAD();
 
     /**
      * <code>uint32 channel_id = 9;</code>
@@ -223,10 +223,10 @@ public final class GetPlayerTokenReqOuterClass {
     int getKeyId();
 
     /**
-     * <code>uint32 lang = 726;</code>
-     * @return The lang.
+     * <code>uint32 HMFHCPIKGCO = 726;</code>
+     * @return The hMFHCPIKGCO.
      */
-    int getLang();
+    int getHMFHCPIKGCO();
 
     /**
      * <code>string client_rand_key = 932;</code>
@@ -277,12 +277,16 @@ public final class GetPlayerTokenReqOuterClass {
         getKONDBANCCAHBytes();
 
     /**
-     * <code>uint32 minors_reg_min_age = 1514;</code>
-     * @return The minorsRegMinAge.
+     * <code>uint32 DMEDLLNPFJK = 1514;</code>
+     * @return The dMEDLLNPFJK.
      */
-    int getMinorsRegMinAge();
+    int getDMEDLLNPFJK();
   }
   /**
+   * <pre>
+   * CmdID: 25580
+   * </pre>
+   *
    * Protobuf type {@code GetPlayerTokenReq}
    */
   public static final class GetPlayerTokenReq extends
@@ -368,7 +372,7 @@ public final class GetPlayerTokenReqOuterClass {
             }
             case 40: {
 
-              cloudClientIp_ = input.readUInt32();
+              hJICNGJMCEL_ = input.readUInt32();
               break;
             }
             case 50: {
@@ -379,12 +383,12 @@ public final class GetPlayerTokenReqOuterClass {
             }
             case 56: {
 
-              accountType_ = input.readUInt32();
+              iNIKCPKAFJE_ = input.readUInt32();
               break;
             }
             case 64: {
 
-              subChannelId_ = input.readUInt32();
+              gLDDHPBGNAD_ = input.readUInt32();
               break;
             }
             case 72: {
@@ -467,7 +471,7 @@ public final class GetPlayerTokenReqOuterClass {
             }
             case 5808: {
 
-              lang_ = input.readUInt32();
+              hMFHCPIKGCO_ = input.readUInt32();
               break;
             }
             case 7458: {
@@ -496,7 +500,7 @@ public final class GetPlayerTokenReqOuterClass {
             }
             case 12112: {
 
-              minorsRegMinAge_ = input.readUInt32();
+              dMEDLLNPFJK_ = input.readUInt32();
               break;
             }
             default: {
@@ -656,15 +660,15 @@ public final class GetPlayerTokenReqOuterClass {
       }
     }
 
-    public static final int CLOUD_CLIENT_IP_FIELD_NUMBER = 5;
-    private int cloudClientIp_;
+    public static final int HJICNGJMCEL_FIELD_NUMBER = 5;
+    private int hJICNGJMCEL_;
     /**
-     * <code>uint32 cloud_client_ip = 5;</code>
-     * @return The cloudClientIp.
+     * <code>uint32 HJICNGJMCEL = 5;</code>
+     * @return The hJICNGJMCEL.
      */
     @java.lang.Override
-    public int getCloudClientIp() {
-      return cloudClientIp_;
+    public int getHJICNGJMCEL() {
+      return hJICNGJMCEL_;
     }
 
     public static final int ACCOUNT_TOKEN_FIELD_NUMBER = 6;
@@ -705,26 +709,26 @@ public final class GetPlayerTokenReqOuterClass {
       }
     }
 
-    public static final int ACCOUNT_TYPE_FIELD_NUMBER = 7;
-    private int accountType_;
+    public static final int INIKCPKAFJE_FIELD_NUMBER = 7;
+    private int iNIKCPKAFJE_;
     /**
-     * <code>uint32 account_type = 7;</code>
-     * @return The accountType.
+     * <code>uint32 INIKCPKAFJE = 7;</code>
+     * @return The iNIKCPKAFJE.
      */
     @java.lang.Override
-    public int getAccountType() {
-      return accountType_;
+    public int getINIKCPKAFJE() {
+      return iNIKCPKAFJE_;
     }
 
-    public static final int SUB_CHANNEL_ID_FIELD_NUMBER = 8;
-    private int subChannelId_;
+    public static final int GLDDHPBGNAD_FIELD_NUMBER = 8;
+    private int gLDDHPBGNAD_;
     /**
-     * <code>uint32 sub_channel_id = 8;</code>
-     * @return The subChannelId.
+     * <code>uint32 GLDDHPBGNAD = 8;</code>
+     * @return The gLDDHPBGNAD.
      */
     @java.lang.Override
-    public int getSubChannelId() {
-      return subChannelId_;
+    public int getGLDDHPBGNAD() {
+      return gLDDHPBGNAD_;
     }
 
     public static final int CHANNEL_ID_FIELD_NUMBER = 9;
@@ -1097,15 +1101,15 @@ public final class GetPlayerTokenReqOuterClass {
       return keyId_;
     }
 
-    public static final int LANG_FIELD_NUMBER = 726;
-    private int lang_;
+    public static final int HMFHCPIKGCO_FIELD_NUMBER = 726;
+    private int hMFHCPIKGCO_;
     /**
-     * <code>uint32 lang = 726;</code>
-     * @return The lang.
+     * <code>uint32 HMFHCPIKGCO = 726;</code>
+     * @return The hMFHCPIKGCO.
      */
     @java.lang.Override
-    public int getLang() {
-      return lang_;
+    public int getHMFHCPIKGCO() {
+      return hMFHCPIKGCO_;
     }
 
     public static final int CLIENT_RAND_KEY_FIELD_NUMBER = 932;
@@ -1260,15 +1264,15 @@ public final class GetPlayerTokenReqOuterClass {
       }
     }
 
-    public static final int MINORS_REG_MIN_AGE_FIELD_NUMBER = 1514;
-    private int minorsRegMinAge_;
+    public static final int DMEDLLNPFJK_FIELD_NUMBER = 1514;
+    private int dMEDLLNPFJK_;
     /**
-     * <code>uint32 minors_reg_min_age = 1514;</code>
-     * @return The minorsRegMinAge.
+     * <code>uint32 DMEDLLNPFJK = 1514;</code>
+     * @return The dMEDLLNPFJK.
      */
     @java.lang.Override
-    public int getMinorsRegMinAge() {
-      return minorsRegMinAge_;
+    public int getDMEDLLNPFJK() {
+      return dMEDLLNPFJK_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -1297,17 +1301,17 @@ public final class GetPlayerTokenReqOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(psnId_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 4, psnId_);
       }
-      if (cloudClientIp_ != 0) {
-        output.writeUInt32(5, cloudClientIp_);
+      if (hJICNGJMCEL_ != 0) {
+        output.writeUInt32(5, hJICNGJMCEL_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(accountToken_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 6, accountToken_);
       }
-      if (accountType_ != 0) {
-        output.writeUInt32(7, accountType_);
+      if (iNIKCPKAFJE_ != 0) {
+        output.writeUInt32(7, iNIKCPKAFJE_);
       }
-      if (subChannelId_ != 0) {
-        output.writeUInt32(8, subChannelId_);
+      if (gLDDHPBGNAD_ != 0) {
+        output.writeUInt32(8, gLDDHPBGNAD_);
       }
       if (channelId_ != 0) {
         output.writeUInt32(9, channelId_);
@@ -1351,8 +1355,8 @@ public final class GetPlayerTokenReqOuterClass {
       if (keyId_ != 0) {
         output.writeUInt32(588, keyId_);
       }
-      if (lang_ != 0) {
-        output.writeUInt32(726, lang_);
+      if (hMFHCPIKGCO_ != 0) {
+        output.writeUInt32(726, hMFHCPIKGCO_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientRandKey_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 932, clientRandKey_);
@@ -1366,8 +1370,8 @@ public final class GetPlayerTokenReqOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(kONDBANCCAH_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 1397, kONDBANCCAH_);
       }
-      if (minorsRegMinAge_ != 0) {
-        output.writeUInt32(1514, minorsRegMinAge_);
+      if (dMEDLLNPFJK_ != 0) {
+        output.writeUInt32(1514, dMEDLLNPFJK_);
       }
       unknownFields.writeTo(output);
     }
@@ -1391,20 +1395,20 @@ public final class GetPlayerTokenReqOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(psnId_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(4, psnId_);
       }
-      if (cloudClientIp_ != 0) {
+      if (hJICNGJMCEL_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, cloudClientIp_);
+          .computeUInt32Size(5, hJICNGJMCEL_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(accountToken_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(6, accountToken_);
       }
-      if (accountType_ != 0) {
+      if (iNIKCPKAFJE_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, accountType_);
+          .computeUInt32Size(7, iNIKCPKAFJE_);
       }
-      if (subChannelId_ != 0) {
+      if (gLDDHPBGNAD_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, subChannelId_);
+          .computeUInt32Size(8, gLDDHPBGNAD_);
       }
       if (channelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1454,9 +1458,9 @@ public final class GetPlayerTokenReqOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(588, keyId_);
       }
-      if (lang_ != 0) {
+      if (hMFHCPIKGCO_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(726, lang_);
+          .computeUInt32Size(726, hMFHCPIKGCO_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientRandKey_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(932, clientRandKey_);
@@ -1470,9 +1474,9 @@ public final class GetPlayerTokenReqOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(kONDBANCCAH_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1397, kONDBANCCAH_);
       }
-      if (minorsRegMinAge_ != 0) {
+      if (dMEDLLNPFJK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1514, minorsRegMinAge_);
+          .computeUInt32Size(1514, dMEDLLNPFJK_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1497,14 +1501,14 @@ public final class GetPlayerTokenReqOuterClass {
           != other.getPlatformType()) return false;
       if (!getPsnId()
           .equals(other.getPsnId())) return false;
-      if (getCloudClientIp()
-          != other.getCloudClientIp()) return false;
+      if (getHJICNGJMCEL()
+          != other.getHJICNGJMCEL()) return false;
       if (!getAccountToken()
           .equals(other.getAccountToken())) return false;
-      if (getAccountType()
-          != other.getAccountType()) return false;
-      if (getSubChannelId()
-          != other.getSubChannelId()) return false;
+      if (getINIKCPKAFJE()
+          != other.getINIKCPKAFJE()) return false;
+      if (getGLDDHPBGNAD()
+          != other.getGLDDHPBGNAD()) return false;
       if (getChannelId()
           != other.getChannelId()) return false;
       if (!getClientIpStr()
@@ -1533,8 +1537,8 @@ public final class GetPlayerTokenReqOuterClass {
           != other.getAuthkeyVer()) return false;
       if (getKeyId()
           != other.getKeyId()) return false;
-      if (getLang()
-          != other.getLang()) return false;
+      if (getHMFHCPIKGCO()
+          != other.getHMFHCPIKGCO()) return false;
       if (!getClientRandKey()
           .equals(other.getClientRandKey())) return false;
       if (!getXuid()
@@ -1543,8 +1547,8 @@ public final class GetPlayerTokenReqOuterClass {
           .equals(other.getGateTicket())) return false;
       if (!getKONDBANCCAH()
           .equals(other.getKONDBANCCAH())) return false;
-      if (getMinorsRegMinAge()
-          != other.getMinorsRegMinAge()) return false;
+      if (getDMEDLLNPFJK()
+          != other.getDMEDLLNPFJK()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -1564,14 +1568,14 @@ public final class GetPlayerTokenReqOuterClass {
       hash = (53 * hash) + getPlatformType();
       hash = (37 * hash) + PSN_ID_FIELD_NUMBER;
       hash = (53 * hash) + getPsnId().hashCode();
-      hash = (37 * hash) + CLOUD_CLIENT_IP_FIELD_NUMBER;
-      hash = (53 * hash) + getCloudClientIp();
+      hash = (37 * hash) + HJICNGJMCEL_FIELD_NUMBER;
+      hash = (53 * hash) + getHJICNGJMCEL();
       hash = (37 * hash) + ACCOUNT_TOKEN_FIELD_NUMBER;
       hash = (53 * hash) + getAccountToken().hashCode();
-      hash = (37 * hash) + ACCOUNT_TYPE_FIELD_NUMBER;
-      hash = (53 * hash) + getAccountType();
-      hash = (37 * hash) + SUB_CHANNEL_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getSubChannelId();
+      hash = (37 * hash) + INIKCPKAFJE_FIELD_NUMBER;
+      hash = (53 * hash) + getINIKCPKAFJE();
+      hash = (37 * hash) + GLDDHPBGNAD_FIELD_NUMBER;
+      hash = (53 * hash) + getGLDDHPBGNAD();
       hash = (37 * hash) + CHANNEL_ID_FIELD_NUMBER;
       hash = (53 * hash) + getChannelId();
       hash = (37 * hash) + CLIENT_IP_STR_FIELD_NUMBER;
@@ -1601,8 +1605,8 @@ public final class GetPlayerTokenReqOuterClass {
       hash = (53 * hash) + getAuthkeyVer();
       hash = (37 * hash) + KEY_ID_FIELD_NUMBER;
       hash = (53 * hash) + getKeyId();
-      hash = (37 * hash) + LANG_FIELD_NUMBER;
-      hash = (53 * hash) + getLang();
+      hash = (37 * hash) + HMFHCPIKGCO_FIELD_NUMBER;
+      hash = (53 * hash) + getHMFHCPIKGCO();
       hash = (37 * hash) + CLIENT_RAND_KEY_FIELD_NUMBER;
       hash = (53 * hash) + getClientRandKey().hashCode();
       hash = (37 * hash) + _XUID_FIELD_NUMBER;
@@ -1611,8 +1615,8 @@ public final class GetPlayerTokenReqOuterClass {
       hash = (53 * hash) + getGateTicket().hashCode();
       hash = (37 * hash) + KONDBANCCAH_FIELD_NUMBER;
       hash = (53 * hash) + getKONDBANCCAH().hashCode();
-      hash = (37 * hash) + MINORS_REG_MIN_AGE_FIELD_NUMBER;
-      hash = (53 * hash) + getMinorsRegMinAge();
+      hash = (37 * hash) + DMEDLLNPFJK_FIELD_NUMBER;
+      hash = (53 * hash) + getDMEDLLNPFJK();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -1709,6 +1713,10 @@ public final class GetPlayerTokenReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 25580
+     * </pre>
+     *
      * Protobuf type {@code GetPlayerTokenReq}
      */
     public static final class Builder extends
@@ -1754,13 +1762,13 @@ public final class GetPlayerTokenReqOuterClass {
 
         psnId_ = "";
 
-        cloudClientIp_ = 0;
+        hJICNGJMCEL_ = 0;
 
         accountToken_ = "";
 
-        accountType_ = 0;
+        iNIKCPKAFJE_ = 0;
 
-        subChannelId_ = 0;
+        gLDDHPBGNAD_ = 0;
 
         channelId_ = 0;
 
@@ -1790,7 +1798,7 @@ public final class GetPlayerTokenReqOuterClass {
 
         keyId_ = 0;
 
-        lang_ = 0;
+        hMFHCPIKGCO_ = 0;
 
         clientRandKey_ = "";
 
@@ -1800,7 +1808,7 @@ public final class GetPlayerTokenReqOuterClass {
 
         kONDBANCCAH_ = "";
 
-        minorsRegMinAge_ = 0;
+        dMEDLLNPFJK_ = 0;
 
         return this;
       }
@@ -1832,10 +1840,10 @@ public final class GetPlayerTokenReqOuterClass {
         result.accountUid_ = accountUid_;
         result.platformType_ = platformType_;
         result.psnId_ = psnId_;
-        result.cloudClientIp_ = cloudClientIp_;
+        result.hJICNGJMCEL_ = hJICNGJMCEL_;
         result.accountToken_ = accountToken_;
-        result.accountType_ = accountType_;
-        result.subChannelId_ = subChannelId_;
+        result.iNIKCPKAFJE_ = iNIKCPKAFJE_;
+        result.gLDDHPBGNAD_ = gLDDHPBGNAD_;
         result.channelId_ = channelId_;
         result.clientIpStr_ = clientIpStr_;
         result.countryCode_ = countryCode_;
@@ -1850,12 +1858,12 @@ public final class GetPlayerTokenReqOuterClass {
         result.signType_ = signType_;
         result.authkeyVer_ = authkeyVer_;
         result.keyId_ = keyId_;
-        result.lang_ = lang_;
+        result.hMFHCPIKGCO_ = hMFHCPIKGCO_;
         result.clientRandKey_ = clientRandKey_;
         result.Xuid_ = Xuid_;
         result.GateTicket_ = GateTicket_;
         result.kONDBANCCAH_ = kONDBANCCAH_;
-        result.minorsRegMinAge_ = minorsRegMinAge_;
+        result.dMEDLLNPFJK_ = dMEDLLNPFJK_;
         onBuilt();
         return result;
       }
@@ -1919,18 +1927,18 @@ public final class GetPlayerTokenReqOuterClass {
           psnId_ = other.psnId_;
           onChanged();
         }
-        if (other.getCloudClientIp() != 0) {
-          setCloudClientIp(other.getCloudClientIp());
+        if (other.getHJICNGJMCEL() != 0) {
+          setHJICNGJMCEL(other.getHJICNGJMCEL());
         }
         if (!other.getAccountToken().isEmpty()) {
           accountToken_ = other.accountToken_;
           onChanged();
         }
-        if (other.getAccountType() != 0) {
-          setAccountType(other.getAccountType());
+        if (other.getINIKCPKAFJE() != 0) {
+          setINIKCPKAFJE(other.getINIKCPKAFJE());
         }
-        if (other.getSubChannelId() != 0) {
-          setSubChannelId(other.getSubChannelId());
+        if (other.getGLDDHPBGNAD() != 0) {
+          setGLDDHPBGNAD(other.getGLDDHPBGNAD());
         }
         if (other.getChannelId() != 0) {
           setChannelId(other.getChannelId());
@@ -1982,8 +1990,8 @@ public final class GetPlayerTokenReqOuterClass {
         if (other.getKeyId() != 0) {
           setKeyId(other.getKeyId());
         }
-        if (other.getLang() != 0) {
-          setLang(other.getLang());
+        if (other.getHMFHCPIKGCO() != 0) {
+          setHMFHCPIKGCO(other.getHMFHCPIKGCO());
         }
         if (!other.getClientRandKey().isEmpty()) {
           clientRandKey_ = other.clientRandKey_;
@@ -2001,8 +2009,8 @@ public final class GetPlayerTokenReqOuterClass {
           kONDBANCCAH_ = other.kONDBANCCAH_;
           onChanged();
         }
-        if (other.getMinorsRegMinAge() != 0) {
-          setMinorsRegMinAge(other.getMinorsRegMinAge());
+        if (other.getDMEDLLNPFJK() != 0) {
+          setDMEDLLNPFJK(other.getDMEDLLNPFJK());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -2292,33 +2300,33 @@ public final class GetPlayerTokenReqOuterClass {
         return this;
       }
 
-      private int cloudClientIp_ ;
+      private int hJICNGJMCEL_ ;
       /**
-       * <code>uint32 cloud_client_ip = 5;</code>
-       * @return The cloudClientIp.
+       * <code>uint32 HJICNGJMCEL = 5;</code>
+       * @return The hJICNGJMCEL.
        */
       @java.lang.Override
-      public int getCloudClientIp() {
-        return cloudClientIp_;
+      public int getHJICNGJMCEL() {
+        return hJICNGJMCEL_;
       }
       /**
-       * <code>uint32 cloud_client_ip = 5;</code>
-       * @param value The cloudClientIp to set.
+       * <code>uint32 HJICNGJMCEL = 5;</code>
+       * @param value The hJICNGJMCEL to set.
        * @return This builder for chaining.
        */
-      public Builder setCloudClientIp(int value) {
+      public Builder setHJICNGJMCEL(int value) {
         
-        cloudClientIp_ = value;
+        hJICNGJMCEL_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 cloud_client_ip = 5;</code>
+       * <code>uint32 HJICNGJMCEL = 5;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCloudClientIp() {
+      public Builder clearHJICNGJMCEL() {
         
-        cloudClientIp_ = 0;
+        hJICNGJMCEL_ = 0;
         onChanged();
         return this;
       }
@@ -2399,64 +2407,64 @@ public final class GetPlayerTokenReqOuterClass {
         return this;
       }
 
-      private int accountType_ ;
+      private int iNIKCPKAFJE_ ;
       /**
-       * <code>uint32 account_type = 7;</code>
-       * @return The accountType.
+       * <code>uint32 INIKCPKAFJE = 7;</code>
+       * @return The iNIKCPKAFJE.
        */
       @java.lang.Override
-      public int getAccountType() {
-        return accountType_;
+      public int getINIKCPKAFJE() {
+        return iNIKCPKAFJE_;
       }
       /**
-       * <code>uint32 account_type = 7;</code>
-       * @param value The accountType to set.
+       * <code>uint32 INIKCPKAFJE = 7;</code>
+       * @param value The iNIKCPKAFJE to set.
        * @return This builder for chaining.
        */
-      public Builder setAccountType(int value) {
+      public Builder setINIKCPKAFJE(int value) {
         
-        accountType_ = value;
+        iNIKCPKAFJE_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 account_type = 7;</code>
+       * <code>uint32 INIKCPKAFJE = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearAccountType() {
+      public Builder clearINIKCPKAFJE() {
         
-        accountType_ = 0;
+        iNIKCPKAFJE_ = 0;
         onChanged();
         return this;
       }
 
-      private int subChannelId_ ;
+      private int gLDDHPBGNAD_ ;
       /**
-       * <code>uint32 sub_channel_id = 8;</code>
-       * @return The subChannelId.
+       * <code>uint32 GLDDHPBGNAD = 8;</code>
+       * @return The gLDDHPBGNAD.
        */
       @java.lang.Override
-      public int getSubChannelId() {
-        return subChannelId_;
+      public int getGLDDHPBGNAD() {
+        return gLDDHPBGNAD_;
       }
       /**
-       * <code>uint32 sub_channel_id = 8;</code>
-       * @param value The subChannelId to set.
+       * <code>uint32 GLDDHPBGNAD = 8;</code>
+       * @param value The gLDDHPBGNAD to set.
        * @return This builder for chaining.
        */
-      public Builder setSubChannelId(int value) {
+      public Builder setGLDDHPBGNAD(int value) {
         
-        subChannelId_ = value;
+        gLDDHPBGNAD_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 sub_channel_id = 8;</code>
+       * <code>uint32 GLDDHPBGNAD = 8;</code>
        * @return This builder for chaining.
        */
-      public Builder clearSubChannelId() {
+      public Builder clearGLDDHPBGNAD() {
         
-        subChannelId_ = 0;
+        gLDDHPBGNAD_ = 0;
         onChanged();
         return this;
       }
@@ -3255,33 +3263,33 @@ public final class GetPlayerTokenReqOuterClass {
         return this;
       }
 
-      private int lang_ ;
+      private int hMFHCPIKGCO_ ;
       /**
-       * <code>uint32 lang = 726;</code>
-       * @return The lang.
+       * <code>uint32 HMFHCPIKGCO = 726;</code>
+       * @return The hMFHCPIKGCO.
        */
       @java.lang.Override
-      public int getLang() {
-        return lang_;
+      public int getHMFHCPIKGCO() {
+        return hMFHCPIKGCO_;
       }
       /**
-       * <code>uint32 lang = 726;</code>
-       * @param value The lang to set.
+       * <code>uint32 HMFHCPIKGCO = 726;</code>
+       * @param value The hMFHCPIKGCO to set.
        * @return This builder for chaining.
        */
-      public Builder setLang(int value) {
+      public Builder setHMFHCPIKGCO(int value) {
         
-        lang_ = value;
+        hMFHCPIKGCO_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 lang = 726;</code>
+       * <code>uint32 HMFHCPIKGCO = 726;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLang() {
+      public Builder clearHMFHCPIKGCO() {
         
-        lang_ = 0;
+        hMFHCPIKGCO_ = 0;
         onChanged();
         return this;
       }
@@ -3590,33 +3598,33 @@ public final class GetPlayerTokenReqOuterClass {
         return this;
       }
 
-      private int minorsRegMinAge_ ;
+      private int dMEDLLNPFJK_ ;
       /**
-       * <code>uint32 minors_reg_min_age = 1514;</code>
-       * @return The minorsRegMinAge.
+       * <code>uint32 DMEDLLNPFJK = 1514;</code>
+       * @return The dMEDLLNPFJK.
        */
       @java.lang.Override
-      public int getMinorsRegMinAge() {
-        return minorsRegMinAge_;
+      public int getDMEDLLNPFJK() {
+        return dMEDLLNPFJK_;
       }
       /**
-       * <code>uint32 minors_reg_min_age = 1514;</code>
-       * @param value The minorsRegMinAge to set.
+       * <code>uint32 DMEDLLNPFJK = 1514;</code>
+       * @param value The dMEDLLNPFJK to set.
        * @return This builder for chaining.
        */
-      public Builder setMinorsRegMinAge(int value) {
+      public Builder setDMEDLLNPFJK(int value) {
         
-        minorsRegMinAge_ = value;
+        dMEDLLNPFJK_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 minors_reg_min_age = 1514;</code>
+       * <code>uint32 DMEDLLNPFJK = 1514;</code>
        * @return This builder for chaining.
        */
-      public Builder clearMinorsRegMinAge() {
+      public Builder clearDMEDLLNPFJK() {
         
-        minorsRegMinAge_ = 0;
+        dMEDLLNPFJK_ = 0;
         onChanged();
         return this;
       }
@@ -3687,24 +3695,23 @@ public final class GetPlayerTokenReqOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\027GetPlayerTokenReq.proto\"\336\004\n\021GetPlayerT" +
+      "\n\027GetPlayerTokenReq.proto\"\326\004\n\021GetPlayerT" +
       "okenReq\022\021\n\tonline_id\030\001 \001(\t\022\023\n\013account_ui" +
       "d\030\002 \001(\t\022\025\n\rplatform_type\030\003 \001(\r\022\016\n\006psn_id" +
-      "\030\004 \001(\t\022\027\n\017cloud_client_ip\030\005 \001(\r\022\025\n\raccou" +
-      "nt_token\030\006 \001(\t\022\024\n\014account_type\030\007 \001(\r\022\026\n\016" +
-      "sub_channel_id\030\010 \001(\r\022\022\n\nchannel_id\030\t \001(\r" +
-      "\022\025\n\rclient_ip_str\030\n \001(\t\022\024\n\014country_code\030" +
-      "\013 \001(\t\022\013\n\003uid\030\014 \001(\r\022\023\n\013PCIMGFGDICO\030\r \001(\t\022" +
-      "\023\n\013FDCECMCNKGC\030\016 \001(\t\022\020\n\010is_guest\030\017 \001(\010\022\022" +
-      "\n\nauth_appid\030t \001(\t\022\021\n\010birthday\030\362\001 \001(\t\022\027\n" +
-      "\016_xbox_gamertag\030\255\002 \001(\t\022\024\n\013BKIICHHOJAF\030\302\003" +
-      " \001(\t\022\022\n\tsign_type\030\334\003 \001(\r\022\024\n\013authkey_ver\030" +
-      "\302\004 \001(\r\022\017\n\006key_id\030\314\004 \001(\r\022\r\n\004lang\030\326\005 \001(\r\022\030" +
-      "\n\017client_rand_key\030\244\007 \001(\t\022\016\n\005_xuid\030\273\007 \001(\t" +
-      "\022\025\n\014_gate_ticket\030\332\007 \001(\t\022\024\n\013KONDBANCCAH\030\365" +
-      "\n \001(\t\022\033\n\022minors_reg_min_age\030\352\013 \001(\rB8\n\031em" +
-      "u.grasscutter.net.protoB\033GetPlayerTokenR" +
-      "eqOuterClassb\006proto3"
+      "\030\004 \001(\t\022\023\n\013HJICNGJMCEL\030\005 \001(\r\022\025\n\raccount_t" +
+      "oken\030\006 \001(\t\022\023\n\013INIKCPKAFJE\030\007 \001(\r\022\023\n\013GLDDH" +
+      "PBGNAD\030\010 \001(\r\022\022\n\nchannel_id\030\t \001(\r\022\025\n\rclie" +
+      "nt_ip_str\030\n \001(\t\022\024\n\014country_code\030\013 \001(\t\022\013\n" +
+      "\003uid\030\014 \001(\r\022\023\n\013PCIMGFGDICO\030\r \001(\t\022\023\n\013FDCEC" +
+      "MCNKGC\030\016 \001(\t\022\020\n\010is_guest\030\017 \001(\010\022\022\n\nauth_a" +
+      "ppid\030t \001(\t\022\021\n\010birthday\030\362\001 \001(\t\022\027\n\016_xbox_g" +
+      "amertag\030\255\002 \001(\t\022\024\n\013BKIICHHOJAF\030\302\003 \001(\t\022\022\n\t" +
+      "sign_type\030\334\003 \001(\r\022\024\n\013authkey_ver\030\302\004 \001(\r\022\017" +
+      "\n\006key_id\030\314\004 \001(\r\022\024\n\013HMFHCPIKGCO\030\326\005 \001(\r\022\030\n" +
+      "\017client_rand_key\030\244\007 \001(\t\022\016\n\005_xuid\030\273\007 \001(\t\022" +
+      "\025\n\014_gate_ticket\030\332\007 \001(\t\022\024\n\013KONDBANCCAH\030\365\n" +
+      " \001(\t\022\024\n\013DMEDLLNPFJK\030\352\013 \001(\rB\033\n\031emu.grassc" +
+      "utter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -3715,7 +3722,7 @@ public final class GetPlayerTokenReqOuterClass {
     internal_static_GetPlayerTokenReq_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GetPlayerTokenReq_descriptor,
-        new java.lang.String[] { "OnlineId", "AccountUid", "PlatformType", "PsnId", "CloudClientIp", "AccountToken", "AccountType", "SubChannelId", "ChannelId", "ClientIpStr", "CountryCode", "Uid", "PCIMGFGDICO", "FDCECMCNKGC", "IsGuest", "AuthAppid", "Birthday", "XboxGamertag", "BKIICHHOJAF", "SignType", "AuthkeyVer", "KeyId", "Lang", "ClientRandKey", "Xuid", "GateTicket", "KONDBANCCAH", "MinorsRegMinAge", });
+        new java.lang.String[] { "OnlineId", "AccountUid", "PlatformType", "PsnId", "HJICNGJMCEL", "AccountToken", "INIKCPKAFJE", "GLDDHPBGNAD", "ChannelId", "ClientIpStr", "CountryCode", "Uid", "PCIMGFGDICO", "FDCECMCNKGC", "IsGuest", "AuthAppid", "Birthday", "XboxGamertag", "BKIICHHOJAF", "SignType", "AuthkeyVer", "KeyId", "HMFHCPIKGCO", "ClientRandKey", "Xuid", "GateTicket", "KONDBANCCAH", "DMEDLLNPFJK", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

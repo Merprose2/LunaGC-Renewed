@@ -43,6 +43,10 @@ public final class WorldPlayerRTTNotifyOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 20421
+   * </pre>
+   *
    * Protobuf type {@code WorldPlayerRTTNotify}
    */
   public static final class WorldPlayerRTTNotify extends
@@ -331,6 +335,10 @@ public final class WorldPlayerRTTNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 20421
+     * </pre>
+     *
      * Protobuf type {@code WorldPlayerRTTNotify}
      */
     public static final class Builder extends
@@ -823,9 +831,8 @@ public final class WorldPlayerRTTNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032WorldPlayerRTTNotify.proto\032\023PlayerRTTI" +
       "nfo.proto\"?\n\024WorldPlayerRTTNotify\022\'\n\017pla" +
-      "yer_rtt_list\030\013 \003(\0132\016.PlayerRTTInfoB;\n\031em" +
-      "u.grasscutter.net.protoB\036WorldPlayerRTTN" +
-      "otifyOuterClassb\006proto3"
+      "yer_rtt_list\030\013 \003(\0132\016.PlayerRTTInfoB\033\n\031em" +
+      "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

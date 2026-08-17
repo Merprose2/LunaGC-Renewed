@@ -731,9 +731,8 @@ public final class GravenInnocenceCampStageInfoOuterClass {
       "\n\"GravenInnocenceCampStageInfo.proto\"h\n\034" +
       "GravenInnocenceCampStageInfo\022\020\n\010level_id" +
       "\030\001 \001(\r\022\020\n\010stage_id\030\002 \001(\r\022\017\n\007is_open\030\005 \001(" +
-      "\010\022\023\n\013is_finished\030\n \001(\010BC\n\031emu.grasscutte" +
-      "r.net.protoB&GravenInnocenceCampStageInf" +
-      "oOuterClassb\006proto3"
+      "\010\022\023\n\013is_finished\030\n \001(\010B\033\n\031emu.grasscutte" +
+      "r.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

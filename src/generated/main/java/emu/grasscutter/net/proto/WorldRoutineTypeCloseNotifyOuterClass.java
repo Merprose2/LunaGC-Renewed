@@ -18,11 +18,15 @@ public final class WorldRoutineTypeCloseNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:WorldRoutineTypeCloseNotify)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <code>uint32 routine_type = 7;</code>
+     * @return The routineType.
+     */
     int getRoutineType();
   }
   /**
    * <pre>
-   * CmdId: 28681
+   * CmdID: 28982
    * </pre>
    *
    * Protobuf type {@code WorldRoutineTypeCloseNotify}
@@ -69,7 +73,7 @@ public final class WorldRoutineTypeCloseNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 120: {
+            case 56: {
 
               routineType_ = input.readUInt32();
               break;
@@ -106,9 +110,12 @@ public final class WorldRoutineTypeCloseNotifyOuterClass {
               emu.grasscutter.net.proto.WorldRoutineTypeCloseNotifyOuterClass.WorldRoutineTypeCloseNotify.class, emu.grasscutter.net.proto.WorldRoutineTypeCloseNotifyOuterClass.WorldRoutineTypeCloseNotify.Builder.class);
     }
 
-    public static final int ROUTINE_TYPE_FIELD_NUMBER = 15;
+    public static final int ROUTINE_TYPE_FIELD_NUMBER = 7;
     private int routineType_;
-
+    /**
+     * <code>uint32 routine_type = 7;</code>
+     * @return The routineType.
+     */
     @java.lang.Override
     public int getRoutineType() {
       return routineType_;
@@ -129,7 +136,7 @@ public final class WorldRoutineTypeCloseNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (routineType_ != 0) {
-        output.writeUInt32(15, routineType_);
+        output.writeUInt32(7, routineType_);
       }
       unknownFields.writeTo(output);
     }
@@ -142,7 +149,7 @@ public final class WorldRoutineTypeCloseNotifyOuterClass {
       size = 0;
       if (routineType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, routineType_);
+          .computeUInt32Size(7, routineType_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -271,7 +278,7 @@ public final class WorldRoutineTypeCloseNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 28681
+     * CmdID: 28982
      * </pre>
      *
      * Protobuf type {@code WorldRoutineTypeCloseNotify}
@@ -421,21 +428,31 @@ public final class WorldRoutineTypeCloseNotifyOuterClass {
       }
 
       private int routineType_ ;
-
+      /**
+       * <code>uint32 routine_type = 7;</code>
+       * @return The routineType.
+       */
       @java.lang.Override
       public int getRoutineType() {
         return routineType_;
       }
-
+      /**
+       * <code>uint32 routine_type = 7;</code>
+       * @param value The routineType to set.
+       * @return This builder for chaining.
+       */
       public Builder setRoutineType(int value) {
-
+        
         routineType_ = value;
         onChanged();
         return this;
       }
-
+      /**
+       * <code>uint32 routine_type = 7;</code>
+       * @return This builder for chaining.
+       */
       public Builder clearRoutineType() {
-
+        
         routineType_ = 0;
         onChanged();
         return this;
@@ -451,6 +468,7 @@ public final class WorldRoutineTypeCloseNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:WorldRoutineTypeCloseNotify)
     }
@@ -494,7 +512,7 @@ public final class WorldRoutineTypeCloseNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WorldRoutineTypeCloseNotify_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WorldRoutineTypeCloseNotify_fieldAccessorTable;
 
@@ -508,7 +526,7 @@ public final class WorldRoutineTypeCloseNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n!WorldRoutineTypeCloseNotify.proto\"3\n\033W" +
       "orldRoutineTypeCloseNotify\022\024\n\014routine_ty" +
-      "pe\030\n \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
+      "pe\030\007 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
       "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

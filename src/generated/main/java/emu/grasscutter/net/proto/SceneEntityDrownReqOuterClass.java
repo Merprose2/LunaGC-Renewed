@@ -25,6 +25,10 @@ public final class SceneEntityDrownReqOuterClass {
     int getEntityId();
   }
   /**
+   * <pre>
+   * CmdID: 20113
+   * </pre>
+   *
    * Protobuf type {@code SceneEntityDrownReq}
    */
   public static final class SceneEntityDrownReq extends
@@ -273,6 +277,10 @@ public final class SceneEntityDrownReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 20113
+     * </pre>
+     *
      * Protobuf type {@code SceneEntityDrownReq}
      */
     public static final class Builder extends
@@ -517,9 +525,8 @@ public final class SceneEntityDrownReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031SceneEntityDrownReq.proto\"(\n\023SceneEnti" +
-      "tyDrownReq\022\021\n\tentity_id\030\003 \001(\rB:\n\031emu.gra" +
-      "sscutter.net.protoB\035SceneEntityDrownReqO" +
-      "uterClassb\006proto3"
+      "tyDrownReq\022\021\n\tentity_id\030\003 \001(\rB\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -141,32 +141,32 @@ public final class CoopPointOuterClass {
     public enum State
         implements com.google.protobuf.ProtocolMessageEnum {
       /**
-       * <code>STATE_UNSTARTED = 0;</code>
+       * <code>State_UNSTARTED = 0;</code>
        */
-      STATE_UNSTARTED(0),
+      State_UNSTARTED(0),
       /**
-       * <code>STATE_STARTED = 1;</code>
+       * <code>State_STARTED = 1;</code>
        */
-      STATE_STARTED(1),
+      State_STARTED(1),
       /**
-       * <code>STATE_FINISHED = 2;</code>
+       * <code>State_FINISHED = 2;</code>
        */
-      STATE_FINISHED(2),
+      State_FINISHED(2),
       UNRECOGNIZED(-1),
       ;
 
       /**
-       * <code>STATE_UNSTARTED = 0;</code>
+       * <code>State_UNSTARTED = 0;</code>
        */
-      public static final int STATE_UNSTARTED_VALUE = 0;
+      public static final int State_UNSTARTED_VALUE = 0;
       /**
-       * <code>STATE_STARTED = 1;</code>
+       * <code>State_STARTED = 1;</code>
        */
-      public static final int STATE_STARTED_VALUE = 1;
+      public static final int State_STARTED_VALUE = 1;
       /**
-       * <code>STATE_FINISHED = 2;</code>
+       * <code>State_FINISHED = 2;</code>
        */
-      public static final int STATE_FINISHED_VALUE = 2;
+      public static final int State_FINISHED_VALUE = 2;
 
 
       public final int getNumber() {
@@ -193,9 +193,9 @@ public final class CoopPointOuterClass {
        */
       public static State forNumber(int value) {
         switch (value) {
-          case 0: return STATE_UNSTARTED;
-          case 1: return STATE_STARTED;
-          case 2: return STATE_FINISHED;
+          case 0: return State_UNSTARTED;
+          case 1: return State_STARTED;
+          case 2: return State_FINISHED;
           default: return null;
         }
       }
@@ -307,7 +307,7 @@ public final class CoopPointOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (state_ != emu.grasscutter.net.proto.CoopPointOuterClass.CoopPoint.State.STATE_UNSTARTED.getNumber()) {
+      if (state_ != emu.grasscutter.net.proto.CoopPointOuterClass.CoopPoint.State.State_UNSTARTED.getNumber()) {
         output.writeEnum(2, state_);
       }
       if (selfConfidence_ != 0) {
@@ -325,7 +325,7 @@ public final class CoopPointOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (state_ != emu.grasscutter.net.proto.CoopPointOuterClass.CoopPoint.State.STATE_UNSTARTED.getNumber()) {
+      if (state_ != emu.grasscutter.net.proto.CoopPointOuterClass.CoopPoint.State.State_UNSTARTED.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(2, state_);
       }
@@ -812,10 +812,10 @@ public final class CoopPointOuterClass {
     java.lang.String[] descriptorData = {
       "\n\017CoopPoint.proto\"\226\001\n\tCoopPoint\022\037\n\005state" +
       "\030\002 \001(\0162\020.CoopPoint.State\022\027\n\017self_confide" +
-      "nce\030\003 \001(\r\022\n\n\002id\030\007 \001(\r\"C\n\005State\022\023\n\017STATE_" +
-      "UNSTARTED\020\000\022\021\n\rSTATE_STARTED\020\001\022\022\n\016STATE_" +
-      "FINISHED\020\002B0\n\031emu.grasscutter.net.protoB" +
-      "\023CoopPointOuterClassb\006proto3"
+      "nce\030\003 \001(\r\022\n\n\002id\030\007 \001(\r\"C\n\005State\022\023\n\017State_" +
+      "UNSTARTED\020\000\022\021\n\rState_STARTED\020\001\022\022\n\016State_" +
+      "FINISHED\020\002B\033\n\031emu.grasscutter.net.protob" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

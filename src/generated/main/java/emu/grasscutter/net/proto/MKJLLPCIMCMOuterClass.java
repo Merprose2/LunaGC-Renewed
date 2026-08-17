@@ -45,12 +45,12 @@ public final class MKJLLPCIMCMOuterClass {
     /**
      * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
      */
-    java.util.List<emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo> 
+    java.util.List<emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo> 
         getNFCHLDDOALLList();
     /**
      * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
      */
-    emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo getNFCHLDDOALL(int index);
+    emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo getNFCHLDDOALL(int index);
     /**
      * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
      */
@@ -58,12 +58,12 @@ public final class MKJLLPCIMCMOuterClass {
     /**
      * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder> 
         getNFCHLDDOALLOrBuilderList();
     /**
      * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
      */
-    emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder getNFCHLDDOALLOrBuilder(
+    emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder getNFCHLDDOALLOrBuilder(
         int index);
 
     /**
@@ -114,11 +114,11 @@ public final class MKJLLPCIMCMOuterClass {
      * <code>._TemplatePotionInfo BNDLHOBBABM = 13;</code>
      * @return The bNDLHOBBABM.
      */
-    emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo getBNDLHOBBABM();
+    emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo getBNDLHOBBABM();
     /**
      * <code>._TemplatePotionInfo BNDLHOBBABM = 13;</code>
      */
-    emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder getBNDLHOBBABMOrBuilder();
+    emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder getBNDLHOBBABMOrBuilder();
 
     /**
      * <code>uint32 IDBAEDDIAGI = 14;</code>
@@ -195,11 +195,11 @@ public final class MKJLLPCIMCMOuterClass {
             }
             case 58: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                nFCHLDDOALL_ = new java.util.ArrayList<emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo>();
+                nFCHLDDOALL_ = new java.util.ArrayList<emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               nFCHLDDOALL_.add(
-                  input.readMessage(emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.parser(), extensionRegistry));
               break;
             }
             case 64: {
@@ -236,11 +236,11 @@ public final class MKJLLPCIMCMOuterClass {
               break;
             }
             case 106: {
-              emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder subBuilder = null;
               if (bNDLHOBBABM_ != null) {
                 subBuilder = bNDLHOBBABM_.toBuilder();
               }
-              bNDLHOBBABM_ = input.readMessage(emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.parser(), extensionRegistry);
+              bNDLHOBBABM_ = input.readMessage(emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(bNDLHOBBABM_);
                 bNDLHOBBABM_ = subBuilder.buildPartial();
@@ -333,19 +333,19 @@ public final class MKJLLPCIMCMOuterClass {
     }
 
     public static final int NFCHLDDOALL_FIELD_NUMBER = 7;
-    private java.util.List<emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo> nFCHLDDOALL_;
+    private java.util.List<emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo> nFCHLDDOALL_;
     /**
      * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo> getNFCHLDDOALLList() {
+    public java.util.List<emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo> getNFCHLDDOALLList() {
       return nFCHLDDOALL_;
     }
     /**
      * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder> 
         getNFCHLDDOALLOrBuilderList() {
       return nFCHLDDOALL_;
     }
@@ -360,14 +360,14 @@ public final class MKJLLPCIMCMOuterClass {
      * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo getNFCHLDDOALL(int index) {
+    public emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo getNFCHLDDOALL(int index) {
       return nFCHLDDOALL_.get(index);
     }
     /**
      * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder getNFCHLDDOALLOrBuilder(
+    public emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder getNFCHLDDOALLOrBuilder(
         int index) {
       return nFCHLDDOALL_.get(index);
     }
@@ -443,7 +443,7 @@ public final class MKJLLPCIMCMOuterClass {
     }
 
     public static final int BNDLHOBBABM_FIELD_NUMBER = 13;
-    private emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo bNDLHOBBABM_;
+    private emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo bNDLHOBBABM_;
     /**
      * <code>._TemplatePotionInfo BNDLHOBBABM = 13;</code>
      * @return Whether the bNDLHOBBABM field is set.
@@ -457,14 +457,14 @@ public final class MKJLLPCIMCMOuterClass {
      * @return The bNDLHOBBABM.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo getBNDLHOBBABM() {
-      return bNDLHOBBABM_ == null ? emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.getDefaultInstance() : bNDLHOBBABM_;
+    public emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo getBNDLHOBBABM() {
+      return bNDLHOBBABM_ == null ? emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.getDefaultInstance() : bNDLHOBBABM_;
     }
     /**
      * <code>._TemplatePotionInfo BNDLHOBBABM = 13;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder getBNDLHOBBABMOrBuilder() {
+    public emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder getBNDLHOBBABMOrBuilder() {
       return getBNDLHOBBABM();
     }
 
@@ -1159,22 +1159,22 @@ public final class MKJLLPCIMCMOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo> nFCHLDDOALL_ =
+      private java.util.List<emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo> nFCHLDDOALL_ =
         java.util.Collections.emptyList();
       private void ensureNFCHLDDOALLIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          nFCHLDDOALL_ = new java.util.ArrayList<emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo>(nFCHLDDOALL_);
+          nFCHLDDOALL_ = new java.util.ArrayList<emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo>(nFCHLDDOALL_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder> nFCHLDDOALLBuilder_;
+          emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder> nFCHLDDOALLBuilder_;
 
       /**
        * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo> getNFCHLDDOALLList() {
+      public java.util.List<emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo> getNFCHLDDOALLList() {
         if (nFCHLDDOALLBuilder_ == null) {
           return java.util.Collections.unmodifiableList(nFCHLDDOALL_);
         } else {
@@ -1194,7 +1194,7 @@ public final class MKJLLPCIMCMOuterClass {
       /**
        * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
        */
-      public emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo getNFCHLDDOALL(int index) {
+      public emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo getNFCHLDDOALL(int index) {
         if (nFCHLDDOALLBuilder_ == null) {
           return nFCHLDDOALL_.get(index);
         } else {
@@ -1205,7 +1205,7 @@ public final class MKJLLPCIMCMOuterClass {
        * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
        */
       public Builder setNFCHLDDOALL(
-          int index, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo value) {
+          int index, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo value) {
         if (nFCHLDDOALLBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1222,7 +1222,7 @@ public final class MKJLLPCIMCMOuterClass {
        * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
        */
       public Builder setNFCHLDDOALL(
-          int index, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder builderForValue) {
         if (nFCHLDDOALLBuilder_ == null) {
           ensureNFCHLDDOALLIsMutable();
           nFCHLDDOALL_.set(index, builderForValue.build());
@@ -1235,7 +1235,7 @@ public final class MKJLLPCIMCMOuterClass {
       /**
        * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
        */
-      public Builder addNFCHLDDOALL(emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo value) {
+      public Builder addNFCHLDDOALL(emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo value) {
         if (nFCHLDDOALLBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1252,7 +1252,7 @@ public final class MKJLLPCIMCMOuterClass {
        * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
        */
       public Builder addNFCHLDDOALL(
-          int index, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo value) {
+          int index, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo value) {
         if (nFCHLDDOALLBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1269,7 +1269,7 @@ public final class MKJLLPCIMCMOuterClass {
        * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
        */
       public Builder addNFCHLDDOALL(
-          emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder builderForValue) {
         if (nFCHLDDOALLBuilder_ == null) {
           ensureNFCHLDDOALLIsMutable();
           nFCHLDDOALL_.add(builderForValue.build());
@@ -1283,7 +1283,7 @@ public final class MKJLLPCIMCMOuterClass {
        * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
        */
       public Builder addNFCHLDDOALL(
-          int index, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder builderForValue) {
         if (nFCHLDDOALLBuilder_ == null) {
           ensureNFCHLDDOALLIsMutable();
           nFCHLDDOALL_.add(index, builderForValue.build());
@@ -1297,7 +1297,7 @@ public final class MKJLLPCIMCMOuterClass {
        * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
        */
       public Builder addAllNFCHLDDOALL(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo> values) {
         if (nFCHLDDOALLBuilder_ == null) {
           ensureNFCHLDDOALLIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -1337,14 +1337,14 @@ public final class MKJLLPCIMCMOuterClass {
       /**
        * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
        */
-      public emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder getNFCHLDDOALLBuilder(
+      public emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder getNFCHLDDOALLBuilder(
           int index) {
         return getNFCHLDDOALLFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
        */
-      public emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder getNFCHLDDOALLOrBuilder(
+      public emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder getNFCHLDDOALLOrBuilder(
           int index) {
         if (nFCHLDDOALLBuilder_ == null) {
           return nFCHLDDOALL_.get(index);  } else {
@@ -1354,7 +1354,7 @@ public final class MKJLLPCIMCMOuterClass {
       /**
        * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder> 
            getNFCHLDDOALLOrBuilderList() {
         if (nFCHLDDOALLBuilder_ != null) {
           return nFCHLDDOALLBuilder_.getMessageOrBuilderList();
@@ -1365,31 +1365,31 @@ public final class MKJLLPCIMCMOuterClass {
       /**
        * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
        */
-      public emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder addNFCHLDDOALLBuilder() {
+      public emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder addNFCHLDDOALLBuilder() {
         return getNFCHLDDOALLFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.getDefaultInstance());
+            emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
        */
-      public emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder addNFCHLDDOALLBuilder(
+      public emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder addNFCHLDDOALLBuilder(
           int index) {
         return getNFCHLDDOALLFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._TemplatePotionInfo NFCHLDDOALL = 7;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder> 
            getNFCHLDDOALLBuilderList() {
         return getNFCHLDDOALLFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder> 
+          emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder> 
           getNFCHLDDOALLFieldBuilder() {
         if (nFCHLDDOALLBuilder_ == null) {
           nFCHLDDOALLBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder>(
+              emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder>(
                   nFCHLDDOALL_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -1642,9 +1642,9 @@ public final class MKJLLPCIMCMOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo bNDLHOBBABM_;
+      private emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo bNDLHOBBABM_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder> bNDLHOBBABMBuilder_;
+          emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder> bNDLHOBBABMBuilder_;
       /**
        * <code>._TemplatePotionInfo BNDLHOBBABM = 13;</code>
        * @return Whether the bNDLHOBBABM field is set.
@@ -1656,9 +1656,9 @@ public final class MKJLLPCIMCMOuterClass {
        * <code>._TemplatePotionInfo BNDLHOBBABM = 13;</code>
        * @return The bNDLHOBBABM.
        */
-      public emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo getBNDLHOBBABM() {
+      public emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo getBNDLHOBBABM() {
         if (bNDLHOBBABMBuilder_ == null) {
-          return bNDLHOBBABM_ == null ? emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.getDefaultInstance() : bNDLHOBBABM_;
+          return bNDLHOBBABM_ == null ? emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.getDefaultInstance() : bNDLHOBBABM_;
         } else {
           return bNDLHOBBABMBuilder_.getMessage();
         }
@@ -1666,7 +1666,7 @@ public final class MKJLLPCIMCMOuterClass {
       /**
        * <code>._TemplatePotionInfo BNDLHOBBABM = 13;</code>
        */
-      public Builder setBNDLHOBBABM(emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo value) {
+      public Builder setBNDLHOBBABM(emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo value) {
         if (bNDLHOBBABMBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1683,7 +1683,7 @@ public final class MKJLLPCIMCMOuterClass {
        * <code>._TemplatePotionInfo BNDLHOBBABM = 13;</code>
        */
       public Builder setBNDLHOBBABM(
-          emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder builderForValue) {
         if (bNDLHOBBABMBuilder_ == null) {
           bNDLHOBBABM_ = builderForValue.build();
           onChanged();
@@ -1696,11 +1696,11 @@ public final class MKJLLPCIMCMOuterClass {
       /**
        * <code>._TemplatePotionInfo BNDLHOBBABM = 13;</code>
        */
-      public Builder mergeBNDLHOBBABM(emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo value) {
+      public Builder mergeBNDLHOBBABM(emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo value) {
         if (bNDLHOBBABMBuilder_ == null) {
           if (bNDLHOBBABM_ != null) {
             bNDLHOBBABM_ =
-              emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.newBuilder(bNDLHOBBABM_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.newBuilder(bNDLHOBBABM_).mergeFrom(value).buildPartial();
           } else {
             bNDLHOBBABM_ = value;
           }
@@ -1728,7 +1728,7 @@ public final class MKJLLPCIMCMOuterClass {
       /**
        * <code>._TemplatePotionInfo BNDLHOBBABM = 13;</code>
        */
-      public emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder getBNDLHOBBABMBuilder() {
+      public emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder getBNDLHOBBABMBuilder() {
         
         onChanged();
         return getBNDLHOBBABMFieldBuilder().getBuilder();
@@ -1736,23 +1736,23 @@ public final class MKJLLPCIMCMOuterClass {
       /**
        * <code>._TemplatePotionInfo BNDLHOBBABM = 13;</code>
        */
-      public emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder getBNDLHOBBABMOrBuilder() {
+      public emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder getBNDLHOBBABMOrBuilder() {
         if (bNDLHOBBABMBuilder_ != null) {
           return bNDLHOBBABMBuilder_.getMessageOrBuilder();
         } else {
           return bNDLHOBBABM_ == null ?
-              emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.getDefaultInstance() : bNDLHOBBABM_;
+              emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.getDefaultInstance() : bNDLHOBBABM_;
         }
       }
       /**
        * <code>._TemplatePotionInfo BNDLHOBBABM = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder> 
+          emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder> 
           getBNDLHOBBABMFieldBuilder() {
         if (bNDLHOBBABMBuilder_ == null) {
           bNDLHOBBABMBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfoOrBuilder>(
+              emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfo.Builder, emu.grasscutter.net.proto.TemplatePotionInfo._TemplatePotionInfoOrBuilder>(
                   getBNDLHOBBABM(),
                   getParentForChildren(),
                   isClean());
@@ -1867,15 +1867,14 @@ public final class MKJLLPCIMCMOuterClass {
       "AEPJ\030\t \001(\0132\014.AHKBALPHAAB\022\023\n\013OICBPFABKFM\030" +
       "\n \001(\r\022\023\n\013ACJECNOJOBP\030\013 \001(\r\022\023\n\013GHEDNNPDEM" +
       "O\030\014 \001(\010\022)\n\013BNDLHOBBABM\030\r \001(\0132\024._Template" +
-      "PotionInfo\022\023\n\013IDBAEDDIAGI\030\016 \001(\rB2\n\031emu.g" +
-      "rasscutter.net.protoB\025MKJLLPCIMCMOuterCl" +
-      "assb\006proto3"
+      "PotionInfo\022\023\n\013IDBAEDDIAGI\030\016 \001(\rB\033\n\031emu.g" +
+      "rasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.AHKBALPHAABOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto._TemplatePotionInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.TemplatePotionInfo.getDescriptor(),
         });
     internal_static_MKJLLPCIMCM_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1884,7 +1883,7 @@ public final class MKJLLPCIMCMOuterClass {
         internal_static_MKJLLPCIMCM_descriptor,
         new java.lang.String[] { "BMFLNENJCCJ", "GLNPCFFJOMK", "PABCOFFLFMF", "PFGKLKDGKNI", "NFCHLDDOALL", "CPLCJCLPOPH", "ELKDIMBAEPJ", "OICBPFABKFM", "ACJECNOJOBP", "GHEDNNPDEMO", "BNDLHOBBABM", "IDBAEDDIAGI", });
     emu.grasscutter.net.proto.AHKBALPHAABOuterClass.getDescriptor();
-    emu.grasscutter.net.proto._TemplatePotionInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.TemplatePotionInfo.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -53,6 +53,10 @@ public final class PlayerPropNotifyOuterClass {
         int key);
   }
   /**
+   * <pre>
+   * CmdID: 21512
+   * </pre>
+   *
    * Protobuf type {@code PlayerPropNotify}
    */
   public static final class PlayerPropNotify extends
@@ -403,6 +407,10 @@ public final class PlayerPropNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 21512
+     * </pre>
+     *
      * Protobuf type {@code PlayerPropNotify}
      */
     public static final class Builder extends
@@ -775,8 +783,8 @@ public final class PlayerPropNotifyOuterClass {
       "o\"\200\001\n\020PlayerPropNotify\0220\n\010prop_map\030\001 \003(\013" +
       "2\036.PlayerPropNotify.PropMapEntry\032:\n\014Prop" +
       "MapEntry\022\013\n\003key\030\001 \001(\r\022\031\n\005value\030\002 \001(\0132\n.P" +
-      "ropValue:\0028\001B7\n\031emu.grasscutter.net.prot" +
-      "oB\032PlayerPropNotifyOuterClassb\006proto3"
+      "ropValue:\0028\001B\033\n\031emu.grasscutter.net.prot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

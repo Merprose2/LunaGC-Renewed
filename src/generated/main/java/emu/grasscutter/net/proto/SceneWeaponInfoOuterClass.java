@@ -119,10 +119,10 @@ public final class SceneWeaponInfoOuterClass {
     emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfoOrBuilder getRendererChangedInfoOrBuilder();
 
     /**
-     * <code>bool hhgdiooebmj = 10;</code>
-     * @return The hhgdiooebmj.
+     * <code>bool OGKCBEGGBHF = 10;</code>
+     * @return The oGKCBEGGBHF.
      */
-    boolean getHhgdiooebmj();
+    boolean getOGKCBEGGBHF();
 
     /**
      * <code>uint32 _weapon_skin_id = 11;</code>
@@ -272,7 +272,7 @@ public final class SceneWeaponInfoOuterClass {
             }
             case 80: {
 
-              hhgdiooebmj_ = input.readBool();
+              oGKCBEGGBHF_ = input.readBool();
               break;
             }
             case 88: {
@@ -535,15 +535,15 @@ public final class SceneWeaponInfoOuterClass {
       return getRendererChangedInfo();
     }
 
-    public static final int HHGDIOOEBMJ_FIELD_NUMBER = 10;
-    private boolean hhgdiooebmj_;
+    public static final int OGKCBEGGBHF_FIELD_NUMBER = 10;
+    private boolean oGKCBEGGBHF_;
     /**
-     * <code>bool hhgdiooebmj = 10;</code>
-     * @return The hhgdiooebmj.
+     * <code>bool OGKCBEGGBHF = 10;</code>
+     * @return The oGKCBEGGBHF.
      */
     @java.lang.Override
-    public boolean getHhgdiooebmj() {
-      return hhgdiooebmj_;
+    public boolean getOGKCBEGGBHF() {
+      return oGKCBEGGBHF_;
     }
 
     public static final int _WEAPON_SKIN_ID_FIELD_NUMBER = 11;
@@ -641,8 +641,8 @@ public final class SceneWeaponInfoOuterClass {
       if (rendererChangedInfo_ != null) {
         output.writeMessage(9, getRendererChangedInfo());
       }
-      if (hhgdiooebmj_ != false) {
-        output.writeBool(10, hhgdiooebmj_);
+      if (oGKCBEGGBHF_ != false) {
+        output.writeBool(10, oGKCBEGGBHF_);
       }
       if (WeaponSkinId_ != 0) {
         output.writeUInt32(11, WeaponSkinId_);
@@ -701,9 +701,9 @@ public final class SceneWeaponInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(9, getRendererChangedInfo());
       }
-      if (hhgdiooebmj_ != false) {
+      if (oGKCBEGGBHF_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, hhgdiooebmj_);
+          .computeBoolSize(10, oGKCBEGGBHF_);
       }
       if (WeaponSkinId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -752,8 +752,8 @@ public final class SceneWeaponInfoOuterClass {
         if (!getRendererChangedInfo()
             .equals(other.getRendererChangedInfo())) return false;
       }
-      if (getHhgdiooebmj()
-          != other.getHhgdiooebmj()) return false;
+      if (getOGKCBEGGBHF()
+          != other.getOGKCBEGGBHF()) return false;
       if (getWeaponSkinId()
           != other.getWeaponSkinId()) return false;
       if (!getKCLFBBACHLPList()
@@ -794,9 +794,9 @@ public final class SceneWeaponInfoOuterClass {
         hash = (37 * hash) + RENDERER_CHANGED_INFO_FIELD_NUMBER;
         hash = (53 * hash) + getRendererChangedInfo().hashCode();
       }
-      hash = (37 * hash) + HHGDIOOEBMJ_FIELD_NUMBER;
+      hash = (37 * hash) + OGKCBEGGBHF_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getHhgdiooebmj());
+          getOGKCBEGGBHF());
       hash = (37 * hash) + _WEAPON_SKIN_ID_FIELD_NUMBER;
       hash = (53 * hash) + getWeaponSkinId();
       if (getKCLFBBACHLPCount() > 0) {
@@ -984,7 +984,7 @@ public final class SceneWeaponInfoOuterClass {
           rendererChangedInfo_ = null;
           rendererChangedInfoBuilder_ = null;
         }
-        hhgdiooebmj_ = false;
+        oGKCBEGGBHF_ = false;
 
         WeaponSkinId_ = 0;
 
@@ -1039,7 +1039,7 @@ public final class SceneWeaponInfoOuterClass {
         } else {
           result.rendererChangedInfo_ = rendererChangedInfoBuilder_.build();
         }
-        result.hhgdiooebmj_ = hhgdiooebmj_;
+        result.oGKCBEGGBHF_ = oGKCBEGGBHF_;
         result.WeaponSkinId_ = WeaponSkinId_;
         if (kCLFBBACHLPBuilder_ == null) {
           if (((bitField0_ & 0x00000002) != 0)) {
@@ -1124,8 +1124,8 @@ public final class SceneWeaponInfoOuterClass {
         if (other.hasRendererChangedInfo()) {
           mergeRendererChangedInfo(other.getRendererChangedInfo());
         }
-        if (other.getHhgdiooebmj() != false) {
-          setHhgdiooebmj(other.getHhgdiooebmj());
+        if (other.getOGKCBEGGBHF() != false) {
+          setOGKCBEGGBHF(other.getOGKCBEGGBHF());
         }
         if (other.getWeaponSkinId() != 0) {
           setWeaponSkinId(other.getWeaponSkinId());
@@ -1738,33 +1738,33 @@ public final class SceneWeaponInfoOuterClass {
         return rendererChangedInfoBuilder_;
       }
 
-      private boolean hhgdiooebmj_ ;
+      private boolean oGKCBEGGBHF_ ;
       /**
-       * <code>bool hhgdiooebmj = 10;</code>
-       * @return The hhgdiooebmj.
+       * <code>bool OGKCBEGGBHF = 10;</code>
+       * @return The oGKCBEGGBHF.
        */
       @java.lang.Override
-      public boolean getHhgdiooebmj() {
-        return hhgdiooebmj_;
+      public boolean getOGKCBEGGBHF() {
+        return oGKCBEGGBHF_;
       }
       /**
-       * <code>bool hhgdiooebmj = 10;</code>
-       * @param value The hhgdiooebmj to set.
+       * <code>bool OGKCBEGGBHF = 10;</code>
+       * @param value The oGKCBEGGBHF to set.
        * @return This builder for chaining.
        */
-      public Builder setHhgdiooebmj(boolean value) {
+      public Builder setOGKCBEGGBHF(boolean value) {
         
-        hhgdiooebmj_ = value;
+        oGKCBEGGBHF_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool hhgdiooebmj = 10;</code>
+       * <code>bool OGKCBEGGBHF = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearHhgdiooebmj() {
+      public Builder clearOGKCBEGGBHF() {
         
-        hhgdiooebmj_ = false;
+        oGKCBEGGBHF_ = false;
         onChanged();
         return this;
       }
@@ -2120,12 +2120,11 @@ public final class SceneWeaponInfoOuterClass {
       "y_info\030\007 \001(\0132\025.AbilitySyncStateInfo\0221\n\ta" +
       "ffix_map\030\010 \003(\0132\036.SceneWeaponInfo.AffixMa" +
       "pEntry\0229\n\025renderer_changed_info\030\t \001(\0132\032." +
-      "EntityRendererChangedInfo\022\023\n\013hhgdiooebmj" +
+      "EntityRendererChangedInfo\022\023\n\013OGKCBEGGBHF" +
       "\030\n \001(\010\022\027\n\017_weapon_skin_id\030\013 \001(\r\022!\n\013KCLFB" +
       "BACHLP\030\014 \003(\0132\014.IMPFHAGJHCE\032/\n\rAffixMapEn" +
-      "try\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B6\n\031e" +
-      "mu.grasscutter.net.protoB\031SceneWeaponInf" +
-      "oOuterClassb\006proto3"
+      "try\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031e" +
+      "mu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2139,7 +2138,7 @@ public final class SceneWeaponInfoOuterClass {
     internal_static_SceneWeaponInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_SceneWeaponInfo_descriptor,
-        new java.lang.String[] { "EntityId", "GadgetId", "ItemId", "Guid", "Level", "PromoteLevel", "AbilityInfo", "AffixMap", "RendererChangedInfo", "Hhgdiooebmj", "WeaponSkinId", "KCLFBBACHLP", });
+        new java.lang.String[] { "EntityId", "GadgetId", "ItemId", "Guid", "Level", "PromoteLevel", "AbilityInfo", "AffixMap", "RendererChangedInfo", "OGKCBEGGBHF", "WeaponSkinId", "KCLFBBACHLP", });
     internal_static_SceneWeaponInfo_AffixMapEntry_descriptor =
       internal_static_SceneWeaponInfo_descriptor.getNestedTypes().get(0);
     internal_static_SceneWeaponInfo_AffixMapEntry_fieldAccessorTable = new

@@ -870,9 +870,8 @@ public final class HomeAvatarSummonEventInfoOuterClass {
       "meAvatarSummonEventInfo\022\014\n\004guid\030\001 \001(\r\022\021\n" +
       "\tavatar_id\030\002 \001(\r\022\027\n\017random_position\030\007 \001(" +
       "\r\022\027\n\017event_over_time\030\t \001(\r\022\020\n\010event_id\030\013" +
-      " \001(\r\022\017\n\007suit_id\030\014 \001(\rB@\n\031emu.grasscutter" +
-      ".net.protoB#HomeAvatarSummonEventInfoOut" +
-      "erClassb\006proto3"
+      " \001(\r\022\017\n\007suit_id\030\014 \001(\rB\033\n\031emu.grasscutter" +
+      ".net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

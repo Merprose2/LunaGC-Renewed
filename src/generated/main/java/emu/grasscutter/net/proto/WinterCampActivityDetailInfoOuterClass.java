@@ -116,21 +116,21 @@ public final class WinterCampActivityDetailInfoOuterClass {
     emu.grasscutter.net.proto.WinterCampStageInfoOuterClass.WinterCampStageInfoOrBuilder getExploreInfoOrBuilder();
 
     /**
-     * <code>repeated uint32 dmjdfjojofj = 10;</code>
-     * @return A list containing the dmjdfjojofj.
+     * <code>repeated uint32 PGGALHOEMKP = 10;</code>
+     * @return A list containing the pGGALHOEMKP.
      */
-    java.util.List<java.lang.Integer> getDmjdfjojofjList();
+    java.util.List<java.lang.Integer> getPGGALHOEMKPList();
     /**
-     * <code>repeated uint32 dmjdfjojofj = 10;</code>
-     * @return The count of dmjdfjojofj.
+     * <code>repeated uint32 PGGALHOEMKP = 10;</code>
+     * @return The count of pGGALHOEMKP.
      */
-    int getDmjdfjojofjCount();
+    int getPGGALHOEMKPCount();
     /**
-     * <code>repeated uint32 dmjdfjojofj = 10;</code>
+     * <code>repeated uint32 PGGALHOEMKP = 10;</code>
      * @param index The index of the element to return.
-     * @return The dmjdfjojofj at the given index.
+     * @return The pGGALHOEMKP at the given index.
      */
-    int getDmjdfjojofj(int index);
+    int getPGGALHOEMKP(int index);
 
     /**
      * <code>.WinterCampStageInfo battle_info = 12;</code>
@@ -170,7 +170,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
       cNLIGPFPPDC_ = emptyIntList();
       lFFBHOJNFDO_ = emptyIntList();
       usedItemList_ = java.util.Collections.emptyList();
-      dmjdfjojofj_ = emptyIntList();
+      pGGALHOEMKP_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -279,21 +279,21 @@ public final class WinterCampActivityDetailInfoOuterClass {
             }
             case 80: {
               if (!((mutable_bitField0_ & 0x00000010) != 0)) {
-                dmjdfjojofj_ = newIntList();
+                pGGALHOEMKP_ = newIntList();
                 mutable_bitField0_ |= 0x00000010;
               }
-              dmjdfjojofj_.addInt(input.readUInt32());
+              pGGALHOEMKP_.addInt(input.readUInt32());
               break;
             }
             case 82: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000010) != 0) && input.getBytesUntilLimit() > 0) {
-                dmjdfjojofj_ = newIntList();
+                pGGALHOEMKP_ = newIntList();
                 mutable_bitField0_ |= 0x00000010;
               }
               while (input.getBytesUntilLimit() > 0) {
-                dmjdfjojofj_.addInt(input.readUInt32());
+                pGGALHOEMKP_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
@@ -344,7 +344,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
           usedItemList_ = java.util.Collections.unmodifiableList(usedItemList_);
         }
         if (((mutable_bitField0_ & 0x00000010) != 0)) {
-          dmjdfjojofj_.makeImmutable(); // C
+          pGGALHOEMKP_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -525,33 +525,33 @@ public final class WinterCampActivityDetailInfoOuterClass {
       return getExploreInfo();
     }
 
-    public static final int DMJDFJOJOFJ_FIELD_NUMBER = 10;
-    private com.google.protobuf.Internal.IntList dmjdfjojofj_;
+    public static final int PGGALHOEMKP_FIELD_NUMBER = 10;
+    private com.google.protobuf.Internal.IntList pGGALHOEMKP_;
     /**
-     * <code>repeated uint32 dmjdfjojofj = 10;</code>
-     * @return A list containing the dmjdfjojofj.
+     * <code>repeated uint32 PGGALHOEMKP = 10;</code>
+     * @return A list containing the pGGALHOEMKP.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getDmjdfjojofjList() {
-      return dmjdfjojofj_;
+        getPGGALHOEMKPList() {
+      return pGGALHOEMKP_;
     }
     /**
-     * <code>repeated uint32 dmjdfjojofj = 10;</code>
-     * @return The count of dmjdfjojofj.
+     * <code>repeated uint32 PGGALHOEMKP = 10;</code>
+     * @return The count of pGGALHOEMKP.
      */
-    public int getDmjdfjojofjCount() {
-      return dmjdfjojofj_.size();
+    public int getPGGALHOEMKPCount() {
+      return pGGALHOEMKP_.size();
     }
     /**
-     * <code>repeated uint32 dmjdfjojofj = 10;</code>
+     * <code>repeated uint32 PGGALHOEMKP = 10;</code>
      * @param index The index of the element to return.
-     * @return The dmjdfjojofj at the given index.
+     * @return The pGGALHOEMKP at the given index.
      */
-    public int getDmjdfjojofj(int index) {
-      return dmjdfjojofj_.getInt(index);
+    public int getPGGALHOEMKP(int index) {
+      return pGGALHOEMKP_.getInt(index);
     }
-    private int dmjdfjojofjMemoizedSerializedSize = -1;
+    private int pGGALHOEMKPMemoizedSerializedSize = -1;
 
     public static final int BATTLE_INFO_FIELD_NUMBER = 12;
     private emu.grasscutter.net.proto.WinterCampStageInfoOuterClass.WinterCampStageInfo battleInfo_;
@@ -628,12 +628,12 @@ public final class WinterCampActivityDetailInfoOuterClass {
       if (exploreInfo_ != null) {
         output.writeMessage(8, getExploreInfo());
       }
-      if (getDmjdfjojofjList().size() > 0) {
+      if (getPGGALHOEMKPList().size() > 0) {
         output.writeUInt32NoTag(82);
-        output.writeUInt32NoTag(dmjdfjojofjMemoizedSerializedSize);
+        output.writeUInt32NoTag(pGGALHOEMKPMemoizedSerializedSize);
       }
-      for (int i = 0; i < dmjdfjojofj_.size(); i++) {
-        output.writeUInt32NoTag(dmjdfjojofj_.getInt(i));
+      for (int i = 0; i < pGGALHOEMKP_.size(); i++) {
+        output.writeUInt32NoTag(pGGALHOEMKP_.getInt(i));
       }
       if (battleInfo_ != null) {
         output.writeMessage(12, getBattleInfo());
@@ -692,17 +692,17 @@ public final class WinterCampActivityDetailInfoOuterClass {
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < dmjdfjojofj_.size(); i++) {
+        for (int i = 0; i < pGGALHOEMKP_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(dmjdfjojofj_.getInt(i));
+            .computeUInt32SizeNoTag(pGGALHOEMKP_.getInt(i));
         }
         size += dataSize;
-        if (!getDmjdfjojofjList().isEmpty()) {
+        if (!getPGGALHOEMKPList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        dmjdfjojofjMemoizedSerializedSize = dataSize;
+        pGGALHOEMKPMemoizedSerializedSize = dataSize;
       }
       if (battleInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -740,8 +740,8 @@ public final class WinterCampActivityDetailInfoOuterClass {
         if (!getExploreInfo()
             .equals(other.getExploreInfo())) return false;
       }
-      if (!getDmjdfjojofjList()
-          .equals(other.getDmjdfjojofjList())) return false;
+      if (!getPGGALHOEMKPList()
+          .equals(other.getPGGALHOEMKPList())) return false;
       if (hasBattleInfo() != other.hasBattleInfo()) return false;
       if (hasBattleInfo()) {
         if (!getBattleInfo()
@@ -780,9 +780,9 @@ public final class WinterCampActivityDetailInfoOuterClass {
         hash = (37 * hash) + EXPLORE_INFO_FIELD_NUMBER;
         hash = (53 * hash) + getExploreInfo().hashCode();
       }
-      if (getDmjdfjojofjCount() > 0) {
-        hash = (37 * hash) + DMJDFJOJOFJ_FIELD_NUMBER;
-        hash = (53 * hash) + getDmjdfjojofjList().hashCode();
+      if (getPGGALHOEMKPCount() > 0) {
+        hash = (37 * hash) + PGGALHOEMKP_FIELD_NUMBER;
+        hash = (53 * hash) + getPGGALHOEMKPList().hashCode();
       }
       if (hasBattleInfo()) {
         hash = (37 * hash) + BATTLE_INFO_FIELD_NUMBER;
@@ -948,7 +948,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
           exploreInfo_ = null;
           exploreInfoBuilder_ = null;
         }
-        dmjdfjojofj_ = emptyIntList();
+        pGGALHOEMKP_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000010);
         if (battleInfoBuilder_ == null) {
           battleInfo_ = null;
@@ -1019,10 +1019,10 @@ public final class WinterCampActivityDetailInfoOuterClass {
           result.exploreInfo_ = exploreInfoBuilder_.build();
         }
         if (((bitField0_ & 0x00000010) != 0)) {
-          dmjdfjojofj_.makeImmutable();
+          pGGALHOEMKP_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000010);
         }
-        result.dmjdfjojofj_ = dmjdfjojofj_;
+        result.pGGALHOEMKP_ = pGGALHOEMKP_;
         if (battleInfoBuilder_ == null) {
           result.battleInfo_ = battleInfo_;
         } else {
@@ -1152,13 +1152,13 @@ public final class WinterCampActivityDetailInfoOuterClass {
         if (other.hasExploreInfo()) {
           mergeExploreInfo(other.getExploreInfo());
         }
-        if (!other.dmjdfjojofj_.isEmpty()) {
-          if (dmjdfjojofj_.isEmpty()) {
-            dmjdfjojofj_ = other.dmjdfjojofj_;
+        if (!other.pGGALHOEMKP_.isEmpty()) {
+          if (pGGALHOEMKP_.isEmpty()) {
+            pGGALHOEMKP_ = other.pGGALHOEMKP_;
             bitField0_ = (bitField0_ & ~0x00000010);
           } else {
-            ensureDmjdfjojofjIsMutable();
-            dmjdfjojofj_.addAll(other.dmjdfjojofj_);
+            ensurePGGALHOEMKPIsMutable();
+            pGGALHOEMKP_.addAll(other.pGGALHOEMKP_);
           }
           onChanged();
         }
@@ -1955,80 +1955,80 @@ public final class WinterCampActivityDetailInfoOuterClass {
         return exploreInfoBuilder_;
       }
 
-      private com.google.protobuf.Internal.IntList dmjdfjojofj_ = emptyIntList();
-      private void ensureDmjdfjojofjIsMutable() {
+      private com.google.protobuf.Internal.IntList pGGALHOEMKP_ = emptyIntList();
+      private void ensurePGGALHOEMKPIsMutable() {
         if (!((bitField0_ & 0x00000010) != 0)) {
-          dmjdfjojofj_ = mutableCopy(dmjdfjojofj_);
+          pGGALHOEMKP_ = mutableCopy(pGGALHOEMKP_);
           bitField0_ |= 0x00000010;
          }
       }
       /**
-       * <code>repeated uint32 dmjdfjojofj = 10;</code>
-       * @return A list containing the dmjdfjojofj.
+       * <code>repeated uint32 PGGALHOEMKP = 10;</code>
+       * @return A list containing the pGGALHOEMKP.
        */
       public java.util.List<java.lang.Integer>
-          getDmjdfjojofjList() {
+          getPGGALHOEMKPList() {
         return ((bitField0_ & 0x00000010) != 0) ?
-                 java.util.Collections.unmodifiableList(dmjdfjojofj_) : dmjdfjojofj_;
+                 java.util.Collections.unmodifiableList(pGGALHOEMKP_) : pGGALHOEMKP_;
       }
       /**
-       * <code>repeated uint32 dmjdfjojofj = 10;</code>
-       * @return The count of dmjdfjojofj.
+       * <code>repeated uint32 PGGALHOEMKP = 10;</code>
+       * @return The count of pGGALHOEMKP.
        */
-      public int getDmjdfjojofjCount() {
-        return dmjdfjojofj_.size();
+      public int getPGGALHOEMKPCount() {
+        return pGGALHOEMKP_.size();
       }
       /**
-       * <code>repeated uint32 dmjdfjojofj = 10;</code>
+       * <code>repeated uint32 PGGALHOEMKP = 10;</code>
        * @param index The index of the element to return.
-       * @return The dmjdfjojofj at the given index.
+       * @return The pGGALHOEMKP at the given index.
        */
-      public int getDmjdfjojofj(int index) {
-        return dmjdfjojofj_.getInt(index);
+      public int getPGGALHOEMKP(int index) {
+        return pGGALHOEMKP_.getInt(index);
       }
       /**
-       * <code>repeated uint32 dmjdfjojofj = 10;</code>
+       * <code>repeated uint32 PGGALHOEMKP = 10;</code>
        * @param index The index to set the value at.
-       * @param value The dmjdfjojofj to set.
+       * @param value The pGGALHOEMKP to set.
        * @return This builder for chaining.
        */
-      public Builder setDmjdfjojofj(
+      public Builder setPGGALHOEMKP(
           int index, int value) {
-        ensureDmjdfjojofjIsMutable();
-        dmjdfjojofj_.setInt(index, value);
+        ensurePGGALHOEMKPIsMutable();
+        pGGALHOEMKP_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 dmjdfjojofj = 10;</code>
-       * @param value The dmjdfjojofj to add.
+       * <code>repeated uint32 PGGALHOEMKP = 10;</code>
+       * @param value The pGGALHOEMKP to add.
        * @return This builder for chaining.
        */
-      public Builder addDmjdfjojofj(int value) {
-        ensureDmjdfjojofjIsMutable();
-        dmjdfjojofj_.addInt(value);
+      public Builder addPGGALHOEMKP(int value) {
+        ensurePGGALHOEMKPIsMutable();
+        pGGALHOEMKP_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 dmjdfjojofj = 10;</code>
-       * @param values The dmjdfjojofj to add.
+       * <code>repeated uint32 PGGALHOEMKP = 10;</code>
+       * @param values The pGGALHOEMKP to add.
        * @return This builder for chaining.
        */
-      public Builder addAllDmjdfjojofj(
+      public Builder addAllPGGALHOEMKP(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureDmjdfjojofjIsMutable();
+        ensurePGGALHOEMKPIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, dmjdfjojofj_);
+            values, pGGALHOEMKP_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 dmjdfjojofj = 10;</code>
+       * <code>repeated uint32 PGGALHOEMKP = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearDmjdfjojofj() {
-        dmjdfjojofj_ = emptyIntList();
+      public Builder clearPGGALHOEMKP() {
+        pGGALHOEMKP_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000010);
         onChanged();
         return this;
@@ -2258,10 +2258,9 @@ public final class WinterCampActivityDetailInfoOuterClass {
       "LIGPFPPDC\030\002 \003(\r\022\023\n\013LFFBHOJNFDO\030\004 \003(\r\022\"\n\016" +
       "used_item_list\030\006 \003(\0132\n.ItemParam\022*\n\014expl" +
       "ore_info\030\010 \001(\0132\024.WinterCampStageInfo\022\023\n\013" +
-      "dmjdfjojofj\030\n \003(\r\022)\n\013battle_info\030\014 \001(\0132\024" +
+      "PGGALHOEMKP\030\n \003(\r\022)\n\013battle_info\030\014 \001(\0132\024" +
       ".WinterCampStageInfo\022\031\n\021is_content_close" +
-      "d\030\017 \001(\010BC\n\031emu.grasscutter.net.protoB&Wi" +
-      "nterCampActivityDetailInfoOuterClassb\006pr" +
+      "d\030\017 \001(\010B\033\n\031emu.grasscutter.net.protob\006pr" +
       "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -2276,7 +2275,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
     internal_static_WinterCampActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_WinterCampActivityDetailInfo_descriptor,
-        new java.lang.String[] { "RaceInfoList", "CNLIGPFPPDC", "LFFBHOJNFDO", "UsedItemList", "ExploreInfo", "Dmjdfjojofj", "BattleInfo", "IsContentClosed", });
+        new java.lang.String[] { "RaceInfoList", "CNLIGPFPPDC", "LFFBHOJNFDO", "UsedItemList", "ExploreInfo", "PGGALHOEMKP", "BattleInfo", "IsContentClosed", });
     emu.grasscutter.net.proto.ItemParamOuterClass.getDescriptor();
     emu.grasscutter.net.proto.WinterCampRaceStageInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.WinterCampStageInfoOuterClass.getDescriptor();

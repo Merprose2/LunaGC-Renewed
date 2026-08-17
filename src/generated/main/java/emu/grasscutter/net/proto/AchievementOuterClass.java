@@ -163,40 +163,40 @@ public final class AchievementOuterClass {
     public enum Status
         implements com.google.protobuf.ProtocolMessageEnum {
       /**
-       * <code>INVALID = 0;</code>
+       * <code>Status_INVALID = 0;</code>
        */
-      INVALID(0),
+      Status_INVALID(0),
       /**
-       * <code>UNFINISHED = 1;</code>
+       * <code>Status_UNFINISHED = 1;</code>
        */
-      UNFINISHED(1),
+      Status_UNFINISHED(1),
       /**
-       * <code>FINISHED = 2;</code>
+       * <code>Status_FINISHED = 2;</code>
        */
-      FINISHED(2),
+      Status_FINISHED(2),
       /**
-       * <code>REWARD_TAKEN = 3;</code>
+       * <code>Status_REWARD_TAKEN = 3;</code>
        */
-      REWARD_TAKEN(3),
+      Status_REWARD_TAKEN(3),
       UNRECOGNIZED(-1),
       ;
 
       /**
-       * <code>INVALID = 0;</code>
+       * <code>Status_INVALID = 0;</code>
        */
-      public static final int INVALID_VALUE = 0;
+      public static final int Status_INVALID_VALUE = 0;
       /**
-       * <code>UNFINISHED = 1;</code>
+       * <code>Status_UNFINISHED = 1;</code>
        */
-      public static final int UNFINISHED_VALUE = 1;
+      public static final int Status_UNFINISHED_VALUE = 1;
       /**
-       * <code>FINISHED = 2;</code>
+       * <code>Status_FINISHED = 2;</code>
        */
-      public static final int FINISHED_VALUE = 2;
+      public static final int Status_FINISHED_VALUE = 2;
       /**
-       * <code>REWARD_TAKEN = 3;</code>
+       * <code>Status_REWARD_TAKEN = 3;</code>
        */
-      public static final int REWARD_TAKEN_VALUE = 3;
+      public static final int Status_REWARD_TAKEN_VALUE = 3;
 
 
       public final int getNumber() {
@@ -223,10 +223,10 @@ public final class AchievementOuterClass {
        */
       public static Status forNumber(int value) {
         switch (value) {
-          case 0: return INVALID;
-          case 1: return UNFINISHED;
-          case 2: return FINISHED;
-          case 3: return REWARD_TAKEN;
+          case 0: return Status_INVALID;
+          case 1: return Status_UNFINISHED;
+          case 2: return Status_FINISHED;
+          case 3: return Status_REWARD_TAKEN;
           default: return null;
         }
       }
@@ -369,7 +369,7 @@ public final class AchievementOuterClass {
       if (curProgress_ != 0) {
         output.writeUInt32(6, curProgress_);
       }
-      if (status_ != emu.grasscutter.net.proto.AchievementOuterClass.Achievement.Status.INVALID.getNumber()) {
+      if (status_ != emu.grasscutter.net.proto.AchievementOuterClass.Achievement.Status.Status_INVALID.getNumber()) {
         output.writeEnum(8, status_);
       }
       if (totalProgress_ != 0) {
@@ -396,7 +396,7 @@ public final class AchievementOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(6, curProgress_);
       }
-      if (status_ != emu.grasscutter.net.proto.AchievementOuterClass.Achievement.Status.INVALID.getNumber()) {
+      if (status_ != emu.grasscutter.net.proto.AchievementOuterClass.Achievement.Status.Status_INVALID.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(8, status_);
       }
@@ -959,14 +959,14 @@ public final class AchievementOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021Achievement.proto\"\315\001\n\013Achievement\022\030\n\020f" +
+      "\n\021Achievement.proto\"\351\001\n\013Achievement\022\030\n\020f" +
       "inish_timestamp\030\002 \001(\r\022\n\n\002id\030\005 \001(\r\022\024\n\014cur" +
       "_progress\030\006 \001(\r\022#\n\006status\030\010 \001(\0162\023.Achiev" +
-      "ement.Status\022\026\n\016total_progress\030\t \001(\r\"E\n\006" +
-      "Status\022\013\n\007INVALID\020\000\022\016\n\nUNFINISHED\020\001\022\014\n\010F" +
-      "INISHED\020\002\022\020\n\014REWARD_TAKEN\020\003B2\n\031emu.grass" +
-      "cutter.net.protoB\025AchievementOuterClassb" +
-      "\006proto3"
+      "ement.Status\022\026\n\016total_progress\030\t \001(\r\"a\n\006" +
+      "Status\022\022\n\016Status_INVALID\020\000\022\025\n\021Status_UNF" +
+      "INISHED\020\001\022\023\n\017Status_FINISHED\020\002\022\027\n\023Status" +
+      "_REWARD_TAKEN\020\003B\033\n\031emu.grasscutter.net.p" +
+      "rotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

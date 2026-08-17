@@ -31,6 +31,10 @@ public final class SetNameCardRspOuterClass {
     int getRetcode();
   }
   /**
+   * <pre>
+   * CmdID: 9354
+   * </pre>
+   *
    * Protobuf type {@code SetNameCardRsp}
    */
   public static final class SetNameCardRsp extends
@@ -306,6 +310,10 @@ public final class SetNameCardRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 9354
+     * </pre>
+     *
      * Protobuf type {@code SetNameCardRsp}
      */
     public static final class Builder extends
@@ -588,8 +596,7 @@ public final class SetNameCardRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\024SetNameCardRsp.proto\"7\n\016SetNameCardRsp" +
       "\022\024\n\014name_card_id\030\n \001(\r\022\017\n\007retcode\030\014 \001(\005B" +
-      "5\n\031emu.grasscutter.net.protoB\030SetNameCar" +
-      "dRspOuterClassb\006proto3"
+      "\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

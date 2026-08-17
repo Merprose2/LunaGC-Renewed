@@ -55,38 +55,38 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
         int index);
 
     /**
-     * <code>repeated uint32 rune_list = 8;</code>
-     * @return A list containing the runeList.
+     * <code>repeated uint32 JILCOOIDGBJ = 8;</code>
+     * @return A list containing the jILCOOIDGBJ.
      */
-    java.util.List<java.lang.Integer> getRuneListList();
+    java.util.List<java.lang.Integer> getJILCOOIDGBJList();
     /**
-     * <code>repeated uint32 rune_list = 8;</code>
-     * @return The count of runeList.
+     * <code>repeated uint32 JILCOOIDGBJ = 8;</code>
+     * @return The count of jILCOOIDGBJ.
      */
-    int getRuneListCount();
+    int getJILCOOIDGBJCount();
     /**
-     * <code>repeated uint32 rune_list = 8;</code>
+     * <code>repeated uint32 JILCOOIDGBJ = 8;</code>
      * @param index The index of the element to return.
-     * @return The runeList at the given index.
+     * @return The jILCOOIDGBJ at the given index.
      */
-    int getRuneList(int index);
+    int getJILCOOIDGBJ(int index);
 
     /**
-     * <code>repeated uint32 equipped_rune_list = 9;</code>
-     * @return A list containing the equippedRuneList.
+     * <code>repeated uint32 OKKHPGEHBOH = 9;</code>
+     * @return A list containing the oKKHPGEHBOH.
      */
-    java.util.List<java.lang.Integer> getEquippedRuneListList();
+    java.util.List<java.lang.Integer> getOKKHPGEHBOHList();
     /**
-     * <code>repeated uint32 equipped_rune_list = 9;</code>
-     * @return The count of equippedRuneList.
+     * <code>repeated uint32 OKKHPGEHBOH = 9;</code>
+     * @return The count of oKKHPGEHBOH.
      */
-    int getEquippedRuneListCount();
+    int getOKKHPGEHBOHCount();
     /**
-     * <code>repeated uint32 equipped_rune_list = 9;</code>
+     * <code>repeated uint32 OKKHPGEHBOH = 9;</code>
      * @param index The index of the element to return.
-     * @return The equippedRuneList at the given index.
+     * @return The oKKHPGEHBOH at the given index.
      */
-    int getEquippedRuneList(int index);
+    int getOKKHPGEHBOH(int index);
 
     /**
      * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -126,8 +126,8 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
     }
     private RoguelikeDungeonActivityDetailInfo() {
       shikigamiList_ = java.util.Collections.emptyList();
-      runeList_ = emptyIntList();
-      equippedRuneList_ = emptyIntList();
+      jILCOOIDGBJ_ = emptyIntList();
+      oKKHPGEHBOH_ = emptyIntList();
       stageList_ = java.util.Collections.emptyList();
     }
 
@@ -183,42 +183,42 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
             }
             case 64: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                runeList_ = newIntList();
+                jILCOOIDGBJ_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
               }
-              runeList_.addInt(input.readUInt32());
+              jILCOOIDGBJ_.addInt(input.readUInt32());
               break;
             }
             case 66: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
-                runeList_ = newIntList();
+                jILCOOIDGBJ_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
               }
               while (input.getBytesUntilLimit() > 0) {
-                runeList_.addInt(input.readUInt32());
+                jILCOOIDGBJ_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
             }
             case 72: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                equippedRuneList_ = newIntList();
+                oKKHPGEHBOH_ = newIntList();
                 mutable_bitField0_ |= 0x00000004;
               }
-              equippedRuneList_.addInt(input.readUInt32());
+              oKKHPGEHBOH_.addInt(input.readUInt32());
               break;
             }
             case 74: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
-                equippedRuneList_ = newIntList();
+                oKKHPGEHBOH_ = newIntList();
                 mutable_bitField0_ |= 0x00000004;
               }
               while (input.getBytesUntilLimit() > 0) {
-                equippedRuneList_.addInt(input.readUInt32());
+                oKKHPGEHBOH_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
@@ -251,10 +251,10 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
           shikigamiList_ = java.util.Collections.unmodifiableList(shikigamiList_);
         }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          runeList_.makeImmutable(); // C
+          jILCOOIDGBJ_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000004) != 0)) {
-          equippedRuneList_.makeImmutable(); // C
+          oKKHPGEHBOH_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000008) != 0)) {
           stageList_ = java.util.Collections.unmodifiableList(stageList_);
@@ -338,61 +338,61 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       return shikigamiList_.get(index);
     }
 
-    public static final int RUNE_LIST_FIELD_NUMBER = 8;
-    private com.google.protobuf.Internal.IntList runeList_;
+    public static final int JILCOOIDGBJ_FIELD_NUMBER = 8;
+    private com.google.protobuf.Internal.IntList jILCOOIDGBJ_;
     /**
-     * <code>repeated uint32 rune_list = 8;</code>
-     * @return A list containing the runeList.
+     * <code>repeated uint32 JILCOOIDGBJ = 8;</code>
+     * @return A list containing the jILCOOIDGBJ.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getRuneListList() {
-      return runeList_;
+        getJILCOOIDGBJList() {
+      return jILCOOIDGBJ_;
     }
     /**
-     * <code>repeated uint32 rune_list = 8;</code>
-     * @return The count of runeList.
+     * <code>repeated uint32 JILCOOIDGBJ = 8;</code>
+     * @return The count of jILCOOIDGBJ.
      */
-    public int getRuneListCount() {
-      return runeList_.size();
+    public int getJILCOOIDGBJCount() {
+      return jILCOOIDGBJ_.size();
     }
     /**
-     * <code>repeated uint32 rune_list = 8;</code>
+     * <code>repeated uint32 JILCOOIDGBJ = 8;</code>
      * @param index The index of the element to return.
-     * @return The runeList at the given index.
+     * @return The jILCOOIDGBJ at the given index.
      */
-    public int getRuneList(int index) {
-      return runeList_.getInt(index);
+    public int getJILCOOIDGBJ(int index) {
+      return jILCOOIDGBJ_.getInt(index);
     }
-    private int runeListMemoizedSerializedSize = -1;
+    private int jILCOOIDGBJMemoizedSerializedSize = -1;
 
-    public static final int EQUIPPED_RUNE_LIST_FIELD_NUMBER = 9;
-    private com.google.protobuf.Internal.IntList equippedRuneList_;
+    public static final int OKKHPGEHBOH_FIELD_NUMBER = 9;
+    private com.google.protobuf.Internal.IntList oKKHPGEHBOH_;
     /**
-     * <code>repeated uint32 equipped_rune_list = 9;</code>
-     * @return A list containing the equippedRuneList.
+     * <code>repeated uint32 OKKHPGEHBOH = 9;</code>
+     * @return A list containing the oKKHPGEHBOH.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getEquippedRuneListList() {
-      return equippedRuneList_;
+        getOKKHPGEHBOHList() {
+      return oKKHPGEHBOH_;
     }
     /**
-     * <code>repeated uint32 equipped_rune_list = 9;</code>
-     * @return The count of equippedRuneList.
+     * <code>repeated uint32 OKKHPGEHBOH = 9;</code>
+     * @return The count of oKKHPGEHBOH.
      */
-    public int getEquippedRuneListCount() {
-      return equippedRuneList_.size();
+    public int getOKKHPGEHBOHCount() {
+      return oKKHPGEHBOH_.size();
     }
     /**
-     * <code>repeated uint32 equipped_rune_list = 9;</code>
+     * <code>repeated uint32 OKKHPGEHBOH = 9;</code>
      * @param index The index of the element to return.
-     * @return The equippedRuneList at the given index.
+     * @return The oKKHPGEHBOH at the given index.
      */
-    public int getEquippedRuneList(int index) {
-      return equippedRuneList_.getInt(index);
+    public int getOKKHPGEHBOH(int index) {
+      return oKKHPGEHBOH_.getInt(index);
     }
-    private int equippedRuneListMemoizedSerializedSize = -1;
+    private int oKKHPGEHBOHMemoizedSerializedSize = -1;
 
     public static final int STAGE_LIST_FIELD_NUMBER = 11;
     private java.util.List<emu.grasscutter.net.proto.RogueStageInfoOuterClass.RogueStageInfo> stageList_;
@@ -458,19 +458,19 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       for (int i = 0; i < shikigamiList_.size(); i++) {
         output.writeMessage(7, shikigamiList_.get(i));
       }
-      if (getRuneListList().size() > 0) {
+      if (getJILCOOIDGBJList().size() > 0) {
         output.writeUInt32NoTag(66);
-        output.writeUInt32NoTag(runeListMemoizedSerializedSize);
+        output.writeUInt32NoTag(jILCOOIDGBJMemoizedSerializedSize);
       }
-      for (int i = 0; i < runeList_.size(); i++) {
-        output.writeUInt32NoTag(runeList_.getInt(i));
+      for (int i = 0; i < jILCOOIDGBJ_.size(); i++) {
+        output.writeUInt32NoTag(jILCOOIDGBJ_.getInt(i));
       }
-      if (getEquippedRuneListList().size() > 0) {
+      if (getOKKHPGEHBOHList().size() > 0) {
         output.writeUInt32NoTag(74);
-        output.writeUInt32NoTag(equippedRuneListMemoizedSerializedSize);
+        output.writeUInt32NoTag(oKKHPGEHBOHMemoizedSerializedSize);
       }
-      for (int i = 0; i < equippedRuneList_.size(); i++) {
-        output.writeUInt32NoTag(equippedRuneList_.getInt(i));
+      for (int i = 0; i < oKKHPGEHBOH_.size(); i++) {
+        output.writeUInt32NoTag(oKKHPGEHBOH_.getInt(i));
       }
       for (int i = 0; i < stageList_.size(); i++) {
         output.writeMessage(11, stageList_.get(i));
@@ -498,31 +498,31 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < runeList_.size(); i++) {
+        for (int i = 0; i < jILCOOIDGBJ_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(runeList_.getInt(i));
+            .computeUInt32SizeNoTag(jILCOOIDGBJ_.getInt(i));
         }
         size += dataSize;
-        if (!getRuneListList().isEmpty()) {
+        if (!getJILCOOIDGBJList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        runeListMemoizedSerializedSize = dataSize;
+        jILCOOIDGBJMemoizedSerializedSize = dataSize;
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < equippedRuneList_.size(); i++) {
+        for (int i = 0; i < oKKHPGEHBOH_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(equippedRuneList_.getInt(i));
+            .computeUInt32SizeNoTag(oKKHPGEHBOH_.getInt(i));
         }
         size += dataSize;
-        if (!getEquippedRuneListList().isEmpty()) {
+        if (!getOKKHPGEHBOHList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        equippedRuneListMemoizedSerializedSize = dataSize;
+        oKKHPGEHBOHMemoizedSerializedSize = dataSize;
       }
       for (int i = 0; i < stageList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -549,10 +549,10 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
           != other.getContentCloseTime()) return false;
       if (!getShikigamiListList()
           .equals(other.getShikigamiListList())) return false;
-      if (!getRuneListList()
-          .equals(other.getRuneListList())) return false;
-      if (!getEquippedRuneListList()
-          .equals(other.getEquippedRuneListList())) return false;
+      if (!getJILCOOIDGBJList()
+          .equals(other.getJILCOOIDGBJList())) return false;
+      if (!getOKKHPGEHBOHList()
+          .equals(other.getOKKHPGEHBOHList())) return false;
       if (!getStageListList()
           .equals(other.getStageListList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -575,13 +575,13 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
         hash = (37 * hash) + SHIKIGAMI_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getShikigamiListList().hashCode();
       }
-      if (getRuneListCount() > 0) {
-        hash = (37 * hash) + RUNE_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getRuneListList().hashCode();
+      if (getJILCOOIDGBJCount() > 0) {
+        hash = (37 * hash) + JILCOOIDGBJ_FIELD_NUMBER;
+        hash = (53 * hash) + getJILCOOIDGBJList().hashCode();
       }
-      if (getEquippedRuneListCount() > 0) {
-        hash = (37 * hash) + EQUIPPED_RUNE_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getEquippedRuneListList().hashCode();
+      if (getOKKHPGEHBOHCount() > 0) {
+        hash = (37 * hash) + OKKHPGEHBOH_FIELD_NUMBER;
+        hash = (53 * hash) + getOKKHPGEHBOHList().hashCode();
       }
       if (getStageListCount() > 0) {
         hash = (37 * hash) + STAGE_LIST_FIELD_NUMBER;
@@ -732,9 +732,9 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
         } else {
           shikigamiListBuilder_.clear();
         }
-        runeList_ = emptyIntList();
+        jILCOOIDGBJ_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
-        equippedRuneList_ = emptyIntList();
+        oKKHPGEHBOH_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000004);
         if (stageListBuilder_ == null) {
           stageList_ = java.util.Collections.emptyList();
@@ -781,15 +781,15 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
           result.shikigamiList_ = shikigamiListBuilder_.build();
         }
         if (((bitField0_ & 0x00000002) != 0)) {
-          runeList_.makeImmutable();
+          jILCOOIDGBJ_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000002);
         }
-        result.runeList_ = runeList_;
+        result.jILCOOIDGBJ_ = jILCOOIDGBJ_;
         if (((bitField0_ & 0x00000004) != 0)) {
-          equippedRuneList_.makeImmutable();
+          oKKHPGEHBOH_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000004);
         }
-        result.equippedRuneList_ = equippedRuneList_;
+        result.oKKHPGEHBOH_ = oKKHPGEHBOH_;
         if (stageListBuilder_ == null) {
           if (((bitField0_ & 0x00000008) != 0)) {
             stageList_ = java.util.Collections.unmodifiableList(stageList_);
@@ -879,23 +879,23 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
             }
           }
         }
-        if (!other.runeList_.isEmpty()) {
-          if (runeList_.isEmpty()) {
-            runeList_ = other.runeList_;
+        if (!other.jILCOOIDGBJ_.isEmpty()) {
+          if (jILCOOIDGBJ_.isEmpty()) {
+            jILCOOIDGBJ_ = other.jILCOOIDGBJ_;
             bitField0_ = (bitField0_ & ~0x00000002);
           } else {
-            ensureRuneListIsMutable();
-            runeList_.addAll(other.runeList_);
+            ensureJILCOOIDGBJIsMutable();
+            jILCOOIDGBJ_.addAll(other.jILCOOIDGBJ_);
           }
           onChanged();
         }
-        if (!other.equippedRuneList_.isEmpty()) {
-          if (equippedRuneList_.isEmpty()) {
-            equippedRuneList_ = other.equippedRuneList_;
+        if (!other.oKKHPGEHBOH_.isEmpty()) {
+          if (oKKHPGEHBOH_.isEmpty()) {
+            oKKHPGEHBOH_ = other.oKKHPGEHBOH_;
             bitField0_ = (bitField0_ & ~0x00000004);
           } else {
-            ensureEquippedRuneListIsMutable();
-            equippedRuneList_.addAll(other.equippedRuneList_);
+            ensureOKKHPGEHBOHIsMutable();
+            oKKHPGEHBOH_.addAll(other.oKKHPGEHBOH_);
           }
           onChanged();
         }
@@ -1257,159 +1257,159 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
         return shikigamiListBuilder_;
       }
 
-      private com.google.protobuf.Internal.IntList runeList_ = emptyIntList();
-      private void ensureRuneListIsMutable() {
+      private com.google.protobuf.Internal.IntList jILCOOIDGBJ_ = emptyIntList();
+      private void ensureJILCOOIDGBJIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          runeList_ = mutableCopy(runeList_);
+          jILCOOIDGBJ_ = mutableCopy(jILCOOIDGBJ_);
           bitField0_ |= 0x00000002;
          }
       }
       /**
-       * <code>repeated uint32 rune_list = 8;</code>
-       * @return A list containing the runeList.
+       * <code>repeated uint32 JILCOOIDGBJ = 8;</code>
+       * @return A list containing the jILCOOIDGBJ.
        */
       public java.util.List<java.lang.Integer>
-          getRuneListList() {
+          getJILCOOIDGBJList() {
         return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(runeList_) : runeList_;
+                 java.util.Collections.unmodifiableList(jILCOOIDGBJ_) : jILCOOIDGBJ_;
       }
       /**
-       * <code>repeated uint32 rune_list = 8;</code>
-       * @return The count of runeList.
+       * <code>repeated uint32 JILCOOIDGBJ = 8;</code>
+       * @return The count of jILCOOIDGBJ.
        */
-      public int getRuneListCount() {
-        return runeList_.size();
+      public int getJILCOOIDGBJCount() {
+        return jILCOOIDGBJ_.size();
       }
       /**
-       * <code>repeated uint32 rune_list = 8;</code>
+       * <code>repeated uint32 JILCOOIDGBJ = 8;</code>
        * @param index The index of the element to return.
-       * @return The runeList at the given index.
+       * @return The jILCOOIDGBJ at the given index.
        */
-      public int getRuneList(int index) {
-        return runeList_.getInt(index);
+      public int getJILCOOIDGBJ(int index) {
+        return jILCOOIDGBJ_.getInt(index);
       }
       /**
-       * <code>repeated uint32 rune_list = 8;</code>
+       * <code>repeated uint32 JILCOOIDGBJ = 8;</code>
        * @param index The index to set the value at.
-       * @param value The runeList to set.
+       * @param value The jILCOOIDGBJ to set.
        * @return This builder for chaining.
        */
-      public Builder setRuneList(
+      public Builder setJILCOOIDGBJ(
           int index, int value) {
-        ensureRuneListIsMutable();
-        runeList_.setInt(index, value);
+        ensureJILCOOIDGBJIsMutable();
+        jILCOOIDGBJ_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 rune_list = 8;</code>
-       * @param value The runeList to add.
+       * <code>repeated uint32 JILCOOIDGBJ = 8;</code>
+       * @param value The jILCOOIDGBJ to add.
        * @return This builder for chaining.
        */
-      public Builder addRuneList(int value) {
-        ensureRuneListIsMutable();
-        runeList_.addInt(value);
+      public Builder addJILCOOIDGBJ(int value) {
+        ensureJILCOOIDGBJIsMutable();
+        jILCOOIDGBJ_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 rune_list = 8;</code>
-       * @param values The runeList to add.
+       * <code>repeated uint32 JILCOOIDGBJ = 8;</code>
+       * @param values The jILCOOIDGBJ to add.
        * @return This builder for chaining.
        */
-      public Builder addAllRuneList(
+      public Builder addAllJILCOOIDGBJ(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureRuneListIsMutable();
+        ensureJILCOOIDGBJIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, runeList_);
+            values, jILCOOIDGBJ_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 rune_list = 8;</code>
+       * <code>repeated uint32 JILCOOIDGBJ = 8;</code>
        * @return This builder for chaining.
        */
-      public Builder clearRuneList() {
-        runeList_ = emptyIntList();
+      public Builder clearJILCOOIDGBJ() {
+        jILCOOIDGBJ_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
         onChanged();
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList equippedRuneList_ = emptyIntList();
-      private void ensureEquippedRuneListIsMutable() {
+      private com.google.protobuf.Internal.IntList oKKHPGEHBOH_ = emptyIntList();
+      private void ensureOKKHPGEHBOHIsMutable() {
         if (!((bitField0_ & 0x00000004) != 0)) {
-          equippedRuneList_ = mutableCopy(equippedRuneList_);
+          oKKHPGEHBOH_ = mutableCopy(oKKHPGEHBOH_);
           bitField0_ |= 0x00000004;
          }
       }
       /**
-       * <code>repeated uint32 equipped_rune_list = 9;</code>
-       * @return A list containing the equippedRuneList.
+       * <code>repeated uint32 OKKHPGEHBOH = 9;</code>
+       * @return A list containing the oKKHPGEHBOH.
        */
       public java.util.List<java.lang.Integer>
-          getEquippedRuneListList() {
+          getOKKHPGEHBOHList() {
         return ((bitField0_ & 0x00000004) != 0) ?
-                 java.util.Collections.unmodifiableList(equippedRuneList_) : equippedRuneList_;
+                 java.util.Collections.unmodifiableList(oKKHPGEHBOH_) : oKKHPGEHBOH_;
       }
       /**
-       * <code>repeated uint32 equipped_rune_list = 9;</code>
-       * @return The count of equippedRuneList.
+       * <code>repeated uint32 OKKHPGEHBOH = 9;</code>
+       * @return The count of oKKHPGEHBOH.
        */
-      public int getEquippedRuneListCount() {
-        return equippedRuneList_.size();
+      public int getOKKHPGEHBOHCount() {
+        return oKKHPGEHBOH_.size();
       }
       /**
-       * <code>repeated uint32 equipped_rune_list = 9;</code>
+       * <code>repeated uint32 OKKHPGEHBOH = 9;</code>
        * @param index The index of the element to return.
-       * @return The equippedRuneList at the given index.
+       * @return The oKKHPGEHBOH at the given index.
        */
-      public int getEquippedRuneList(int index) {
-        return equippedRuneList_.getInt(index);
+      public int getOKKHPGEHBOH(int index) {
+        return oKKHPGEHBOH_.getInt(index);
       }
       /**
-       * <code>repeated uint32 equipped_rune_list = 9;</code>
+       * <code>repeated uint32 OKKHPGEHBOH = 9;</code>
        * @param index The index to set the value at.
-       * @param value The equippedRuneList to set.
+       * @param value The oKKHPGEHBOH to set.
        * @return This builder for chaining.
        */
-      public Builder setEquippedRuneList(
+      public Builder setOKKHPGEHBOH(
           int index, int value) {
-        ensureEquippedRuneListIsMutable();
-        equippedRuneList_.setInt(index, value);
+        ensureOKKHPGEHBOHIsMutable();
+        oKKHPGEHBOH_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 equipped_rune_list = 9;</code>
-       * @param value The equippedRuneList to add.
+       * <code>repeated uint32 OKKHPGEHBOH = 9;</code>
+       * @param value The oKKHPGEHBOH to add.
        * @return This builder for chaining.
        */
-      public Builder addEquippedRuneList(int value) {
-        ensureEquippedRuneListIsMutable();
-        equippedRuneList_.addInt(value);
+      public Builder addOKKHPGEHBOH(int value) {
+        ensureOKKHPGEHBOHIsMutable();
+        oKKHPGEHBOH_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 equipped_rune_list = 9;</code>
-       * @param values The equippedRuneList to add.
+       * <code>repeated uint32 OKKHPGEHBOH = 9;</code>
+       * @param values The oKKHPGEHBOH to add.
        * @return This builder for chaining.
        */
-      public Builder addAllEquippedRuneList(
+      public Builder addAllOKKHPGEHBOH(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureEquippedRuneListIsMutable();
+        ensureOKKHPGEHBOHIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, equippedRuneList_);
+            values, oKKHPGEHBOH_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 equipped_rune_list = 9;</code>
+       * <code>repeated uint32 OKKHPGEHBOH = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearEquippedRuneList() {
-        equippedRuneList_ = emptyIntList();
+      public Builder clearOKKHPGEHBOH() {
+        oKKHPGEHBOH_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000004);
         onChanged();
         return this;
@@ -1723,15 +1723,13 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n(RoguelikeDungeonActivityDetailInfo.pro" +
       "to\032\024RogueStageInfo.proto\032\036RoguelikeShiki" +
-      "gamiRecord.proto\"\342\001\n\"RoguelikeDungeonAct" +
+      "gamiRecord.proto\"\335\001\n\"RoguelikeDungeonAct" +
       "ivityDetailInfo\022\031\n\021is_content_closed\030\001 \001" +
       "(\010\022\032\n\022content_close_time\030\003 \001(\r\0221\n\016shikig" +
       "ami_list\030\007 \003(\0132\031.RoguelikeShikigamiRecor" +
-      "d\022\021\n\trune_list\030\010 \003(\r\022\032\n\022equipped_rune_li" +
-      "st\030\t \003(\r\022#\n\nstage_list\030\013 \003(\0132\017.RogueStag" +
-      "eInfoBI\n\031emu.grasscutter.net.protoB,Rogu" +
-      "elikeDungeonActivityDetailInfoOuterClass" +
-      "b\006proto3"
+      "d\022\023\n\013JILCOOIDGBJ\030\010 \003(\r\022\023\n\013OKKHPGEHBOH\030\t " +
+      "\003(\r\022#\n\nstage_list\030\013 \003(\0132\017.RogueStageInfo" +
+      "B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1744,7 +1742,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
     internal_static_RoguelikeDungeonActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_RoguelikeDungeonActivityDetailInfo_descriptor,
-        new java.lang.String[] { "IsContentClosed", "ContentCloseTime", "ShikigamiList", "RuneList", "EquippedRuneList", "StageList", });
+        new java.lang.String[] { "IsContentClosed", "ContentCloseTime", "ShikigamiList", "JILCOOIDGBJ", "OKKHPGEHBOH", "StageList", });
     emu.grasscutter.net.proto.RogueStageInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.RoguelikeShikigamiRecordOuterClass.getDescriptor();
   }

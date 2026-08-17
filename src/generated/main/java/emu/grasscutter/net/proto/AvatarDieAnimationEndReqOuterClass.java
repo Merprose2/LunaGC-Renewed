@@ -46,6 +46,10 @@ public final class AvatarDieAnimationEndReqOuterClass {
     long getDieGuid();
   }
   /**
+   * <pre>
+   * CmdID: 24906
+   * </pre>
+   *
    * Protobuf type {@code AvatarDieAnimationEndReq}
    */
   public static final class AvatarDieAnimationEndReq extends
@@ -377,6 +381,10 @@ public final class AvatarDieAnimationEndReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 24906
+     * </pre>
+     *
      * Protobuf type {@code AvatarDieAnimationEndReq}
      */
     public static final class Builder extends
@@ -793,9 +801,8 @@ public final class AvatarDieAnimationEndReqOuterClass {
       "\n\036AvatarDieAnimationEndReq.proto\032\014Vector" +
       ".proto\"[\n\030AvatarDieAnimationEndReq\022\020\n\010sk" +
       "ill_id\030\003 \001(\r\022\033\n\nreborn_pos\030\n \001(\0132\007.Vecto" +
-      "r\022\020\n\010die_guid\030\r \001(\004B?\n\031emu.grasscutter.n" +
-      "et.protoB\"AvatarDieAnimationEndReqOuterC" +
-      "lassb\006proto3"
+      "r\022\020\n\010die_guid\030\r \001(\004B\033\n\031emu.grasscutter.n" +
+      "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

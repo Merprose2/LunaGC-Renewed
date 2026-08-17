@@ -73,6 +73,10 @@ public final class ScenePlayerLocationNotifyOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 427
+   * </pre>
+   *
    * Protobuf type {@code ScenePlayerLocationNotify}
    */
   public static final class ScenePlayerLocationNotify extends
@@ -454,6 +458,10 @@ public final class ScenePlayerLocationNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 427
+     * </pre>
+     *
      * Protobuf type {@code ScenePlayerLocationNotify}
      */
     public static final class Builder extends
@@ -1268,9 +1276,8 @@ public final class ScenePlayerLocationNotifyOuterClass {
       ".proto\"\213\001\n\031ScenePlayerLocationNotify\022\020\n\010" +
       "scene_id\030\010 \001(\r\022,\n\017player_loc_list\030\n \003(\0132" +
       "\023.PlayerLocationInfo\022.\n\020vehicle_loc_list" +
-      "\030\013 \003(\0132\024.VehicleLocationInfoB@\n\031emu.gras" +
-      "scutter.net.protoB#ScenePlayerLocationNo" +
-      "tifyOuterClassb\006proto3"
+      "\030\013 \003(\0132\024.VehicleLocationInfoB\033\n\031emu.gras" +
+      "scutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

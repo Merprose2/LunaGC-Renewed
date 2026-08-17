@@ -48,6 +48,10 @@ public final class ChangeMpTeamAvatarRspOuterClass {
     int getRetcode();
   }
   /**
+   * <pre>
+   * CmdID: 7158
+   * </pre>
+   *
    * Protobuf type {@code ChangeMpTeamAvatarRsp}
    */
   public static final class ChangeMpTeamAvatarRsp extends
@@ -406,6 +410,10 @@ public final class ChangeMpTeamAvatarRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 7158
+     * </pre>
+     *
      * Protobuf type {@code ChangeMpTeamAvatarRsp}
      */
     public static final class Builder extends
@@ -787,8 +795,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
       "\n\033ChangeMpTeamAvatarRsp.proto\"[\n\025ChangeM" +
       "pTeamAvatarRsp\022\030\n\020avatar_guid_list\030\010 \003(\004" +
       "\022\027\n\017cur_avatar_guid\030\n \001(\004\022\017\n\007retcode\030\016 \001" +
-      "(\005B<\n\031emu.grasscutter.net.protoB\037ChangeM" +
-      "pTeamAvatarRspOuterClassb\006proto3"
+      "(\005B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

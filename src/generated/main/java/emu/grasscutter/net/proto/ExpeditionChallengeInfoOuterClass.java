@@ -659,9 +659,8 @@ public final class ExpeditionChallengeInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035ExpeditionChallengeInfo.proto\"M\n\027Exped" +
       "itionChallengeInfo\022\023\n\013is_finished\030\001 \001(\010\022" +
-      "\021\n\topen_time\030\n \001(\r\022\n\n\002id\030\014 \001(\rB>\n\031emu.gr" +
-      "asscutter.net.protoB!ExpeditionChallenge" +
-      "InfoOuterClassb\006proto3"
+      "\021\n\topen_time\030\n \001(\r\022\n\n\002id\030\014 \001(\rB\033\n\031emu.gr" +
+      "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

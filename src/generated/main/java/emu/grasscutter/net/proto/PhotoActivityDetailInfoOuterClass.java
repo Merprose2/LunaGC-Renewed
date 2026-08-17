@@ -895,9 +895,8 @@ public final class PhotoActivityDetailInfoOuterClass {
       "\n\035PhotoActivityDetailInfo.proto\032\022PhotoPo" +
       "sData.proto\"`\n\027PhotoActivityDetailInfo\022\031" +
       "\n\021is_content_closed\030\t \001(\010\022*\n\023photo_pos_d" +
-      "ata_list\030\014 \003(\0132\r.PhotoPosDataB>\n\031emu.gra" +
-      "sscutter.net.protoB!PhotoActivityDetailI" +
-      "nfoOuterClassb\006proto3"
+      "ata_list\030\014 \003(\0132\r.PhotoPosDataB\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

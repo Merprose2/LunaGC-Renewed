@@ -800,8 +800,8 @@ public final class FungusDetailOuterClass {
       "\n\022FungusDetail.proto\"r\n\014FungusDetail\022\023\n\013" +
       "OOEGNGJFOHA\030\002 \001(\r\022\017\n\007name_id\030\005 \001(\r\022\023\n\013LO" +
       "CPCOJHMLB\030\006 \001(\r\022\021\n\tfungus_id\030\r \001(\r\022\024\n\014is" +
-      "_cultivate\030\017 \001(\010B3\n\031emu.grasscutter.net." +
-      "protoB\026FungusDetailOuterClassb\006proto3"
+      "_cultivate\030\017 \001(\010B\033\n\031emu.grasscutter.net." +
+      "protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

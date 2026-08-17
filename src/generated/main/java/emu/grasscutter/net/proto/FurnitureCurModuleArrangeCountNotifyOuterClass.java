@@ -43,6 +43,10 @@ public final class FurnitureCurModuleArrangeCountNotifyOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 20129
+   * </pre>
+   *
    * Protobuf type {@code FurnitureCurModuleArrangeCountNotify}
    */
   public static final class FurnitureCurModuleArrangeCountNotify extends
@@ -331,6 +335,10 @@ public final class FurnitureCurModuleArrangeCountNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 20129
+     * </pre>
+     *
      * Protobuf type {@code FurnitureCurModuleArrangeCountNotify}
      */
     public static final class Builder extends
@@ -824,9 +832,8 @@ public final class FurnitureCurModuleArrangeCountNotifyOuterClass {
       "\n*FurnitureCurModuleArrangeCountNotify.p" +
       "roto\032\020Uint32Pair.proto\"Y\n$FurnitureCurMo" +
       "duleArrangeCountNotify\0221\n\034furniture_arra" +
-      "nge_count_list\030\006 \003(\0132\013.Uint32PairBK\n\031emu" +
-      ".grasscutter.net.protoB.FurnitureCurModu" +
-      "leArrangeCountNotifyOuterClassb\006proto3"
+      "nge_count_list\030\006 \003(\0132\013.Uint32PairB\033\n\031emu" +
+      ".grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

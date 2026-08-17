@@ -43,6 +43,10 @@ public final class EnterScenePeerNotifyOuterClass {
     int getHostPeerId();
   }
   /**
+   * <pre>
+   * CmdID: 7815
+   * </pre>
+   *
    * Protobuf type {@code EnterScenePeerNotify}
    */
   public static final class EnterScenePeerNotify extends
@@ -372,6 +376,10 @@ public final class EnterScenePeerNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 7815
+     * </pre>
+     *
      * Protobuf type {@code EnterScenePeerNotify}
      */
     public static final class Builder extends
@@ -729,9 +737,8 @@ public final class EnterScenePeerNotifyOuterClass {
       "\n\032EnterScenePeerNotify.proto\"o\n\024EnterSce" +
       "nePeerNotify\022\017\n\007peer_id\030\n \001(\r\022\025\n\rdest_sc" +
       "ene_id\030\013 \001(\r\022\031\n\021enter_scene_token\030\014 \001(\r\022" +
-      "\024\n\014host_peer_id\030\017 \001(\rB;\n\031emu.grasscutter" +
-      ".net.protoB\036EnterScenePeerNotifyOuterCla" +
-      "ssb\006proto3"
+      "\024\n\014host_peer_id\030\017 \001(\rB\033\n\031emu.grasscutter" +
+      ".net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

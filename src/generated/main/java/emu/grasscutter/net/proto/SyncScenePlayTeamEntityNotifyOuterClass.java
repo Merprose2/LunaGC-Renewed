@@ -49,6 +49,10 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 6544
+   * </pre>
+   *
    * Protobuf type {@code SyncScenePlayTeamEntityNotify}
    */
   public static final class SyncScenePlayTeamEntityNotify extends
@@ -364,6 +368,10 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 6544
+     * </pre>
+     *
      * Protobuf type {@code SyncScenePlayTeamEntityNotify}
      */
     public static final class Builder extends
@@ -895,8 +903,7 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
       "layTeamEntityInfo.proto\"`\n\035SyncScenePlay" +
       "TeamEntityNotify\022\020\n\010scene_id\030\003 \001(\r\022-\n\020en" +
       "tity_info_list\030\017 \003(\0132\023.PlayTeamEntityInf" +
-      "oBD\n\031emu.grasscutter.net.protoB\'SyncScen" +
-      "ePlayTeamEntityNotifyOuterClassb\006proto3"
+      "oB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

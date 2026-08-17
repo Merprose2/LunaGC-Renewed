@@ -78,12 +78,12 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
     /**
      * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
      */
-    java.util.List<emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo> 
+    java.util.List<emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo> 
         getExpeditionRewardListList();
     /**
      * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
      */
-    emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo getExpeditionRewardList(int index);
+    emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo getExpeditionRewardList(int index);
     /**
      * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
      */
@@ -91,15 +91,19 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
     /**
      * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfoOrBuilder> 
         getExpeditionRewardListOrBuilderList();
     /**
      * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
      */
-    emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfoOrBuilder getExpeditionRewardListOrBuilder(
+    emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfoOrBuilder getExpeditionRewardListOrBuilder(
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 21971
+   * </pre>
+   *
    * Protobuf type {@code AvatarExpeditionGetRewardRsp}
    */
   public static final class AvatarExpeditionGetRewardRsp extends
@@ -188,11 +192,11 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
             }
             case 122: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                ExpeditionRewardList_ = new java.util.ArrayList<emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo>();
+                ExpeditionRewardList_ = new java.util.ArrayList<emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo>();
                 mutable_bitField0_ |= 0x00000004;
               }
               ExpeditionRewardList_.add(
-                  input.readMessage(emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -366,19 +370,19 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
     }
 
     public static final int _EXPEDITION_REWARD_LIST_FIELD_NUMBER = 15;
-    private java.util.List<emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo> ExpeditionRewardList_;
+    private java.util.List<emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo> ExpeditionRewardList_;
     /**
      * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo> getExpeditionRewardListList() {
+    public java.util.List<emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo> getExpeditionRewardListList() {
       return ExpeditionRewardList_;
     }
     /**
      * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfoOrBuilder> 
         getExpeditionRewardListOrBuilderList() {
       return ExpeditionRewardList_;
     }
@@ -393,14 +397,14 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
      * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo getExpeditionRewardList(int index) {
+    public emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo getExpeditionRewardList(int index) {
       return ExpeditionRewardList_.get(index);
     }
     /**
      * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfoOrBuilder getExpeditionRewardListOrBuilder(
+    public emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfoOrBuilder getExpeditionRewardListOrBuilder(
         int index) {
       return ExpeditionRewardList_.get(index);
     }
@@ -624,6 +628,10 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 21971
+     * </pre>
+     *
      * Protobuf type {@code AvatarExpeditionGetRewardRsp}
      */
     public static final class Builder extends
@@ -1096,22 +1104,22 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo> ExpeditionRewardList_ =
+      private java.util.List<emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo> ExpeditionRewardList_ =
         java.util.Collections.emptyList();
       private void ensureExpeditionRewardListIsMutable() {
         if (!((bitField0_ & 0x00000004) != 0)) {
-          ExpeditionRewardList_ = new java.util.ArrayList<emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo>(ExpeditionRewardList_);
+          ExpeditionRewardList_ = new java.util.ArrayList<emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo>(ExpeditionRewardList_);
           bitField0_ |= 0x00000004;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo, emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo.Builder, emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfoOrBuilder> ExpeditionRewardListBuilder_;
+          emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo, emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo.Builder, emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfoOrBuilder> ExpeditionRewardListBuilder_;
 
       /**
        * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo> getExpeditionRewardListList() {
+      public java.util.List<emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo> getExpeditionRewardListList() {
         if (ExpeditionRewardListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(ExpeditionRewardList_);
         } else {
@@ -1131,7 +1139,7 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
       /**
        * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
        */
-      public emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo getExpeditionRewardList(int index) {
+      public emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo getExpeditionRewardList(int index) {
         if (ExpeditionRewardListBuilder_ == null) {
           return ExpeditionRewardList_.get(index);
         } else {
@@ -1142,7 +1150,7 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
        * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
        */
       public Builder setExpeditionRewardList(
-          int index, emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo value) {
+          int index, emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo value) {
         if (ExpeditionRewardListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1159,7 +1167,7 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
        * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
        */
       public Builder setExpeditionRewardList(
-          int index, emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo.Builder builderForValue) {
         if (ExpeditionRewardListBuilder_ == null) {
           ensureExpeditionRewardListIsMutable();
           ExpeditionRewardList_.set(index, builderForValue.build());
@@ -1172,7 +1180,7 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
       /**
        * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
        */
-      public Builder addExpeditionRewardList(emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo value) {
+      public Builder addExpeditionRewardList(emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo value) {
         if (ExpeditionRewardListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1189,7 +1197,7 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
        * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
        */
       public Builder addExpeditionRewardList(
-          int index, emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo value) {
+          int index, emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo value) {
         if (ExpeditionRewardListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1206,7 +1214,7 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
        * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
        */
       public Builder addExpeditionRewardList(
-          emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo.Builder builderForValue) {
         if (ExpeditionRewardListBuilder_ == null) {
           ensureExpeditionRewardListIsMutable();
           ExpeditionRewardList_.add(builderForValue.build());
@@ -1220,7 +1228,7 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
        * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
        */
       public Builder addExpeditionRewardList(
-          int index, emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo.Builder builderForValue) {
         if (ExpeditionRewardListBuilder_ == null) {
           ensureExpeditionRewardListIsMutable();
           ExpeditionRewardList_.add(index, builderForValue.build());
@@ -1234,7 +1242,7 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
        * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
        */
       public Builder addAllExpeditionRewardList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo> values) {
         if (ExpeditionRewardListBuilder_ == null) {
           ensureExpeditionRewardListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -1274,14 +1282,14 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
       /**
        * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
        */
-      public emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo.Builder getExpeditionRewardListBuilder(
+      public emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo.Builder getExpeditionRewardListBuilder(
           int index) {
         return getExpeditionRewardListFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
        */
-      public emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfoOrBuilder getExpeditionRewardListOrBuilder(
+      public emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfoOrBuilder getExpeditionRewardListOrBuilder(
           int index) {
         if (ExpeditionRewardListBuilder_ == null) {
           return ExpeditionRewardList_.get(index);  } else {
@@ -1291,7 +1299,7 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
       /**
        * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfoOrBuilder> 
            getExpeditionRewardListOrBuilderList() {
         if (ExpeditionRewardListBuilder_ != null) {
           return ExpeditionRewardListBuilder_.getMessageOrBuilderList();
@@ -1302,31 +1310,31 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
       /**
        * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
        */
-      public emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo.Builder addExpeditionRewardListBuilder() {
+      public emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo.Builder addExpeditionRewardListBuilder() {
         return getExpeditionRewardListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo.getDefaultInstance());
+            emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
        */
-      public emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo.Builder addExpeditionRewardListBuilder(
+      public emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo.Builder addExpeditionRewardListBuilder(
           int index) {
         return getExpeditionRewardListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo.getDefaultInstance());
       }
       /**
        * <code>repeated ._AvatarExpeditionRewardInfo _expedition_reward_list = 15;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo.Builder> 
            getExpeditionRewardListBuilderList() {
         return getExpeditionRewardListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo, emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo.Builder, emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfoOrBuilder> 
+          emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo, emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo.Builder, emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfoOrBuilder> 
           getExpeditionRewardListFieldBuilder() {
         if (ExpeditionRewardListBuilder_ == null) {
           ExpeditionRewardListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo, emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo.Builder, emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfoOrBuilder>(
+              emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo, emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfo.Builder, emu.grasscutter.net.proto.AvatarExpeditionRewardInfo._AvatarExpeditionRewardInfoOrBuilder>(
                   ExpeditionRewardList_,
                   ((bitField0_ & 0x00000004) != 0),
                   getParentForChildren(),
@@ -1416,15 +1424,14 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
       "nInfoMapEntry\022=\n\027_expedition_reward_list" +
       "\030\017 \003(\0132\034._AvatarExpeditionRewardInfo\032O\n\026" +
       "ExpeditionInfoMapEntry\022\013\n\003key\030\001 \001(\004\022$\n\005v" +
-      "alue\030\002 \001(\0132\025.AvatarExpeditionInfo:\0028\001BC\n" +
-      "\031emu.grasscutter.net.protoB&AvatarExpedi" +
-      "tionGetRewardRspOuterClassb\006proto3"
+      "alue\030\002 \001(\0132\025.AvatarExpeditionInfo:\0028\001B\033\n" +
+      "\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.AvatarExpeditionRewardInfo.getDescriptor(),
         });
     internal_static_AvatarExpeditionGetRewardRsp_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1439,7 +1446,7 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
         internal_static_AvatarExpeditionGetRewardRsp_ExpeditionInfoMapEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
     emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.getDescriptor();
-    emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.AvatarExpeditionRewardInfo.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

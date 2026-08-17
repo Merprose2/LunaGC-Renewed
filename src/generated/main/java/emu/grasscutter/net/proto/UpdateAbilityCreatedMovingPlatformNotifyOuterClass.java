@@ -36,6 +36,10 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
     int getEntityId();
   }
   /**
+   * <pre>
+   * CmdID: 6616
+   * </pre>
+   *
    * Protobuf type {@code UpdateAbilityCreatedMovingPlatformNotify}
    */
   public static final class UpdateAbilityCreatedMovingPlatformNotify extends
@@ -130,32 +134,32 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
     public enum OpType
         implements com.google.protobuf.ProtocolMessageEnum {
       /**
-       * <code>OP_NONE = 0;</code>
+       * <code>OpType_OP_NONE = 0;</code>
        */
-      OP_NONE(0),
+      OpType_OP_NONE(0),
       /**
-       * <code>OP_ACTIVATE = 1;</code>
+       * <code>OpType_OP_ACTIVATE = 1;</code>
        */
-      OP_ACTIVATE(1),
+      OpType_OP_ACTIVATE(1),
       /**
-       * <code>OP_DEACTIVATE = 2;</code>
+       * <code>OpType_OP_DEACTIVATE = 2;</code>
        */
-      OP_DEACTIVATE(2),
+      OpType_OP_DEACTIVATE(2),
       UNRECOGNIZED(-1),
       ;
 
       /**
-       * <code>OP_NONE = 0;</code>
+       * <code>OpType_OP_NONE = 0;</code>
        */
-      public static final int OP_NONE_VALUE = 0;
+      public static final int OpType_OP_NONE_VALUE = 0;
       /**
-       * <code>OP_ACTIVATE = 1;</code>
+       * <code>OpType_OP_ACTIVATE = 1;</code>
        */
-      public static final int OP_ACTIVATE_VALUE = 1;
+      public static final int OpType_OP_ACTIVATE_VALUE = 1;
       /**
-       * <code>OP_DEACTIVATE = 2;</code>
+       * <code>OpType_OP_DEACTIVATE = 2;</code>
        */
-      public static final int OP_DEACTIVATE_VALUE = 2;
+      public static final int OpType_OP_DEACTIVATE_VALUE = 2;
 
 
       public final int getNumber() {
@@ -182,9 +186,9 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
        */
       public static OpType forNumber(int value) {
         switch (value) {
-          case 0: return OP_NONE;
-          case 1: return OP_ACTIVATE;
-          case 2: return OP_DEACTIVATE;
+          case 0: return OpType_OP_NONE;
+          case 1: return OpType_OP_ACTIVATE;
+          case 2: return OpType_OP_DEACTIVATE;
           default: return null;
         }
       }
@@ -285,7 +289,7 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (opType_ != emu.grasscutter.net.proto.UpdateAbilityCreatedMovingPlatformNotifyOuterClass.UpdateAbilityCreatedMovingPlatformNotify.OpType.OP_NONE.getNumber()) {
+      if (opType_ != emu.grasscutter.net.proto.UpdateAbilityCreatedMovingPlatformNotifyOuterClass.UpdateAbilityCreatedMovingPlatformNotify.OpType.OpType_OP_NONE.getNumber()) {
         output.writeEnum(2, opType_);
       }
       if (entityId_ != 0) {
@@ -300,7 +304,7 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (opType_ != emu.grasscutter.net.proto.UpdateAbilityCreatedMovingPlatformNotifyOuterClass.UpdateAbilityCreatedMovingPlatformNotify.OpType.OP_NONE.getNumber()) {
+      if (opType_ != emu.grasscutter.net.proto.UpdateAbilityCreatedMovingPlatformNotifyOuterClass.UpdateAbilityCreatedMovingPlatformNotify.OpType.OpType_OP_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(2, opType_);
       }
@@ -437,6 +441,10 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 6616
+     * </pre>
+     *
      * Protobuf type {@code UpdateAbilityCreatedMovingPlatformNotify}
      */
     public static final class Builder extends
@@ -741,14 +749,13 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n.UpdateAbilityCreatedMovingPlatformNoti" +
-      "fy.proto\"\273\001\n(UpdateAbilityCreatedMovingP" +
+      "fy.proto\"\320\001\n(UpdateAbilityCreatedMovingP" +
       "latformNotify\022A\n\007op_type\030\002 \001(\01620.UpdateA" +
       "bilityCreatedMovingPlatformNotify.OpType" +
-      "\022\021\n\tentity_id\030\013 \001(\r\"9\n\006OpType\022\013\n\007OP_NONE" +
-      "\020\000\022\017\n\013OP_ACTIVATE\020\001\022\021\n\rOP_DEACTIVATE\020\002BO" +
-      "\n\031emu.grasscutter.net.protoB2UpdateAbili" +
-      "tyCreatedMovingPlatformNotifyOuterClassb" +
-      "\006proto3"
+      "\022\021\n\tentity_id\030\013 \001(\r\"N\n\006OpType\022\022\n\016OpType_" +
+      "OP_NONE\020\000\022\026\n\022OpType_OP_ACTIVATE\020\001\022\030\n\024OpT" +
+      "ype_OP_DEACTIVATE\020\002B\033\n\031emu.grasscutter.n" +
+      "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

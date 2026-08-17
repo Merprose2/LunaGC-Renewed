@@ -43,6 +43,10 @@ public final class AbilityInvocationsNotifyOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 20355
+   * </pre>
+   *
    * Protobuf type {@code AbilityInvocationsNotify}
    */
   public static final class AbilityInvocationsNotify extends
@@ -331,6 +335,10 @@ public final class AbilityInvocationsNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 20355
+     * </pre>
+     *
      * Protobuf type {@code AbilityInvocationsNotify}
      */
     public static final class Builder extends
@@ -824,8 +832,8 @@ public final class AbilityInvocationsNotifyOuterClass {
       "\n\036AbilityInvocationsNotify.proto\032\030Abilit" +
       "yInvokeEntry.proto\"@\n\030AbilityInvocations" +
       "Notify\022$\n\007invokes\030\014 \003(\0132\023.AbilityInvokeE" +
-      "ntryB?\n\031emu.grasscutter.net.protoB\"Abili" +
-      "tyInvocationsNotifyOuterClassb\006proto3"
+      "ntryB\033\n\031emu.grasscutter.net.protob\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

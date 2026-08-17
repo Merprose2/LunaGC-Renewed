@@ -801,9 +801,8 @@ public final class VintageHuntingStageDataOuterClass {
       "\n\035VintageHuntingStageData.proto\"x\n\027Vinta" +
       "geHuntingStageData\022\017\n\007is_open\030\006 \001(\010\022\021\n\ti" +
       "s_finish\030\010 \001(\010\022\024\n\014record_value\030\t \001(\r\022\021\n\t" +
-      "open_time\030\013 \001(\r\022\020\n\010stage_id\030\014 \001(\rB>\n\031emu" +
-      ".grasscutter.net.protoB!VintageHuntingSt" +
-      "ageDataOuterClassb\006proto3"
+      "open_time\030\013 \001(\r\022\020\n\010stage_id\030\014 \001(\rB\033\n\031emu" +
+      ".grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

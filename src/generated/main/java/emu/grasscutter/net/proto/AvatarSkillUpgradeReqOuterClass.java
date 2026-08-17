@@ -37,6 +37,10 @@ public final class AvatarSkillUpgradeReqOuterClass {
     int getOldLevel();
   }
   /**
+   * <pre>
+   * CmdID: 29335
+   * </pre>
+   *
    * Protobuf type {@code AvatarSkillUpgradeReq}
    */
   public static final class AvatarSkillUpgradeReq extends
@@ -340,6 +344,10 @@ public final class AvatarSkillUpgradeReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 29335
+     * </pre>
+     *
      * Protobuf type {@code AvatarSkillUpgradeReq}
      */
     public static final class Builder extends
@@ -660,8 +668,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
       "\n\033AvatarSkillUpgradeReq.proto\"X\n\025AvatarS" +
       "killUpgradeReq\022\023\n\013avatar_guid\030\004 \001(\004\022\027\n\017a" +
       "vatar_skill_id\030\010 \001(\r\022\021\n\told_level\030\r \001(\rB" +
-      "<\n\031emu.grasscutter.net.protoB\037AvatarSkil" +
-      "lUpgradeReqOuterClassb\006proto3"
+      "\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

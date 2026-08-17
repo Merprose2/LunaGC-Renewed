@@ -55,6 +55,10 @@ public final class UnlockPersonalLineRspOuterClass {
     public emu.grasscutter.net.proto.UnlockPersonalLineRspOuterClass.UnlockPersonalLineRsp.ParamCase getParamCase();
   }
   /**
+   * <pre>
+   * CmdID: 22279
+   * </pre>
+   *
    * Protobuf type {@code UnlockPersonalLineRsp}
    */
   public static final class UnlockPersonalLineRsp extends
@@ -466,6 +470,10 @@ public final class UnlockPersonalLineRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 22279
+     * </pre>
+     *
      * Protobuf type {@code UnlockPersonalLineRsp}
      */
     public static final class Builder extends
@@ -868,9 +876,8 @@ public final class UnlockPersonalLineRspOuterClass {
       "\n\033UnlockPersonalLineRsp.proto\"r\n\025UnlockP" +
       "ersonalLineRsp\022\017\n\005level\030\001 \001(\rH\000\022\024\n\nchapt" +
       "er_id\030\003 \001(\rH\000\022\030\n\020personal_line_id\030\r \001(\r\022" +
-      "\017\n\007retcode\030\017 \001(\005B\007\n\005paramB<\n\031emu.grasscu" +
-      "tter.net.protoB\037UnlockPersonalLineRspOut" +
-      "erClassb\006proto3"
+      "\017\n\007retcode\030\017 \001(\005B\007\n\005paramB\033\n\031emu.grasscu" +
+      "tter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

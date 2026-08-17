@@ -130,32 +130,32 @@ public final class CoopRewardOuterClass {
     public enum State
         implements com.google.protobuf.ProtocolMessageEnum {
       /**
-       * <code>STATE_UNLOCK = 0;</code>
+       * <code>State_UNLOCK = 0;</code>
        */
-      STATE_UNLOCK(0),
+      State_UNLOCK(0),
       /**
-       * <code>STATE_LOCK = 1;</code>
+       * <code>State_LOCK = 1;</code>
        */
-      STATE_LOCK(1),
+      State_LOCK(1),
       /**
-       * <code>STATE_TAKEN = 2;</code>
+       * <code>State_TAKEN = 2;</code>
        */
-      STATE_TAKEN(2),
+      State_TAKEN(2),
       UNRECOGNIZED(-1),
       ;
 
       /**
-       * <code>STATE_UNLOCK = 0;</code>
+       * <code>State_UNLOCK = 0;</code>
        */
-      public static final int STATE_UNLOCK_VALUE = 0;
+      public static final int State_UNLOCK_VALUE = 0;
       /**
-       * <code>STATE_LOCK = 1;</code>
+       * <code>State_LOCK = 1;</code>
        */
-      public static final int STATE_LOCK_VALUE = 1;
+      public static final int State_LOCK_VALUE = 1;
       /**
-       * <code>STATE_TAKEN = 2;</code>
+       * <code>State_TAKEN = 2;</code>
        */
-      public static final int STATE_TAKEN_VALUE = 2;
+      public static final int State_TAKEN_VALUE = 2;
 
 
       public final int getNumber() {
@@ -182,9 +182,9 @@ public final class CoopRewardOuterClass {
        */
       public static State forNumber(int value) {
         switch (value) {
-          case 0: return STATE_UNLOCK;
-          case 1: return STATE_LOCK;
-          case 2: return STATE_TAKEN;
+          case 0: return State_UNLOCK;
+          case 1: return State_LOCK;
+          case 2: return State_TAKEN;
           default: return null;
         }
       }
@@ -288,7 +288,7 @@ public final class CoopRewardOuterClass {
       if (id_ != 0) {
         output.writeUInt32(4, id_);
       }
-      if (state_ != emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward.State.STATE_UNLOCK.getNumber()) {
+      if (state_ != emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward.State.State_UNLOCK.getNumber()) {
         output.writeEnum(12, state_);
       }
       unknownFields.writeTo(output);
@@ -304,7 +304,7 @@ public final class CoopRewardOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(4, id_);
       }
-      if (state_ != emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward.State.STATE_UNLOCK.getNumber()) {
+      if (state_ != emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward.State.State_UNLOCK.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(12, state_);
       }
@@ -742,9 +742,9 @@ public final class CoopRewardOuterClass {
     java.lang.String[] descriptorData = {
       "\n\020CoopReward.proto\"v\n\nCoopReward\022\n\n\002id\030\004" +
       " \001(\r\022 \n\005state\030\014 \001(\0162\021.CoopReward.State\":" +
-      "\n\005State\022\020\n\014STATE_UNLOCK\020\000\022\016\n\nSTATE_LOCK\020" +
-      "\001\022\017\n\013STATE_TAKEN\020\002B1\n\031emu.grasscutter.ne" +
-      "t.protoB\024CoopRewardOuterClassb\006proto3"
+      "\n\005State\022\020\n\014State_UNLOCK\020\000\022\016\n\nState_LOCK\020" +
+      "\001\022\017\n\013State_TAKEN\020\002B\033\n\031emu.grasscutter.ne" +
+      "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

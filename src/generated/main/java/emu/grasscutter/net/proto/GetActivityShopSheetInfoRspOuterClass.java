@@ -55,6 +55,10 @@ public final class GetActivityShopSheetInfoRspOuterClass {
     int getRetcode();
   }
   /**
+   * <pre>
+   * CmdID: 22191
+   * </pre>
+   *
    * Protobuf type {@code GetActivityShopSheetInfoRsp}
    */
   public static final class GetActivityShopSheetInfoRsp extends
@@ -397,6 +401,10 @@ public final class GetActivityShopSheetInfoRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 22191
+     * </pre>
+     *
      * Protobuf type {@code GetActivityShopSheetInfoRsp}
      */
     public static final class Builder extends
@@ -965,9 +973,8 @@ public final class GetActivityShopSheetInfoRspOuterClass {
       "ivityShopSheetInfo.proto\"r\n\033GetActivityS" +
       "hopSheetInfoRsp\022\021\n\tshop_type\030\002 \001(\r\022/\n\017sh" +
       "eet_info_list\030\003 \003(\0132\026.ActivityShopSheetI" +
-      "nfo\022\017\n\007retcode\030\010 \001(\005BB\n\031emu.grasscutter." +
-      "net.protoB%GetActivityShopSheetInfoRspOu" +
-      "terClassb\006proto3"
+      "nfo\022\017\n\007retcode\030\010 \001(\005B\033\n\031emu.grasscutter." +
+      "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

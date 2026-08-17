@@ -142,8 +142,8 @@ public final class FGJFGPAPOHEOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021FGJFGPAPOHE.proto*O\n\013FGJFGPAPOHE\022\024\n\020FG" +
       "JFGPAPOHE_NONE\020\000\022\024\n\020FGJFGPAPOHE_SUCC\020\001\022\024" +
-      "\n\020FGJFGPAPOHE_FAIL\020\002B2\n\031emu.grasscutter." +
-      "net.protoB\025FGJFGPAPOHEOuterClassb\006proto3"
+      "\n\020FGJFGPAPOHE_FAIL\020\002B\033\n\031emu.grasscutter." +
+      "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

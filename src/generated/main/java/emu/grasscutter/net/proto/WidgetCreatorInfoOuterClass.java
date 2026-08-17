@@ -225,7 +225,7 @@ public final class WidgetCreatorInfoOuterClass {
       if (entityId_ != 0) {
         output.writeUInt32(10, entityId_);
       }
-      if (opType_ != emu.grasscutter.net.proto.WidgetCreatorOpTypeOuterClass.WidgetCreatorOpType.WIDGET_CREATOR_TYPE_NONE.getNumber()) {
+      if (opType_ != emu.grasscutter.net.proto.WidgetCreatorOpTypeOuterClass.WidgetCreatorOpType.WidgetCreatorOpType_WIDGET_CREATOR_TYPE_NONE.getNumber()) {
         output.writeEnum(11, opType_);
       }
       if (locationInfo_ != null) {
@@ -244,7 +244,7 @@ public final class WidgetCreatorInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(10, entityId_);
       }
-      if (opType_ != emu.grasscutter.net.proto.WidgetCreatorOpTypeOuterClass.WidgetCreatorOpType.WIDGET_CREATOR_TYPE_NONE.getNumber()) {
+      if (opType_ != emu.grasscutter.net.proto.WidgetCreatorOpTypeOuterClass.WidgetCreatorOpType.WidgetCreatorOpType_WIDGET_CREATOR_TYPE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(11, opType_);
       }
@@ -831,8 +831,8 @@ public final class WidgetCreatorInfoOuterClass {
       "roto\"\177\n\021WidgetCreatorInfo\022\021\n\tentity_id\030\n" +
       " \001(\r\022%\n\007op_type\030\013 \001(\0162\024.WidgetCreatorOpT" +
       "ype\0220\n\rlocation_info\030\017 \001(\0132\031.WidgetCreat" +
-      "eLocationInfoB8\n\031emu.grasscutter.net.pro" +
-      "toB\033WidgetCreatorInfoOuterClassb\006proto3"
+      "eLocationInfoB\033\n\031emu.grasscutter.net.pro" +
+      "tob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

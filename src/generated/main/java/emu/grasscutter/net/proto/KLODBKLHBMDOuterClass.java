@@ -33,11 +33,11 @@ public final class KLODBKLHBMDOuterClass {
      * <code>._CurrentPhase ELOCMMKHNAD = 2;</code>
      * @return The eLOCMMKHNAD.
      */
-    emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getELOCMMKHNAD();
+    emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getELOCMMKHNAD();
     /**
      * <code>._CurrentPhase ELOCMMKHNAD = 2;</code>
      */
-    emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getELOCMMKHNADOrBuilder();
+    emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getELOCMMKHNADOrBuilder();
 
     /**
      * <code>repeated .GACDJPLIOAM LKDBKENAIDN = 3;</code>
@@ -185,11 +185,11 @@ public final class KLODBKLHBMDOuterClass {
               break;
             }
             case 18: {
-              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder subBuilder = null;
+              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder subBuilder = null;
               if (eLOCMMKHNAD_ != null) {
                 subBuilder = eLOCMMKHNAD_.toBuilder();
               }
-              eLOCMMKHNAD_ = input.readMessage(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.parser(), extensionRegistry);
+              eLOCMMKHNAD_ = input.readMessage(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(eLOCMMKHNAD_);
                 eLOCMMKHNAD_ = subBuilder.buildPartial();
@@ -311,7 +311,7 @@ public final class KLODBKLHBMDOuterClass {
     }
 
     public static final int ELOCMMKHNAD_FIELD_NUMBER = 2;
-    private emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase eLOCMMKHNAD_;
+    private emu.grasscutter.net.proto.CurrentPhase._CurrentPhase eLOCMMKHNAD_;
     /**
      * <code>._CurrentPhase ELOCMMKHNAD = 2;</code>
      * @return Whether the eLOCMMKHNAD field is set.
@@ -325,14 +325,14 @@ public final class KLODBKLHBMDOuterClass {
      * @return The eLOCMMKHNAD.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getELOCMMKHNAD() {
-      return eLOCMMKHNAD_ == null ? emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : eLOCMMKHNAD_;
+    public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getELOCMMKHNAD() {
+      return eLOCMMKHNAD_ == null ? emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance() : eLOCMMKHNAD_;
     }
     /**
      * <code>._CurrentPhase ELOCMMKHNAD = 2;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getELOCMMKHNADOrBuilder() {
+    public emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getELOCMMKHNADOrBuilder() {
       return getELOCMMKHNAD();
     }
 
@@ -1111,9 +1111,9 @@ public final class KLODBKLHBMDOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase eLOCMMKHNAD_;
+      private emu.grasscutter.net.proto.CurrentPhase._CurrentPhase eLOCMMKHNAD_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> eLOCMMKHNADBuilder_;
+          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> eLOCMMKHNADBuilder_;
       /**
        * <code>._CurrentPhase ELOCMMKHNAD = 2;</code>
        * @return Whether the eLOCMMKHNAD field is set.
@@ -1125,9 +1125,9 @@ public final class KLODBKLHBMDOuterClass {
        * <code>._CurrentPhase ELOCMMKHNAD = 2;</code>
        * @return The eLOCMMKHNAD.
        */
-      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getELOCMMKHNAD() {
+      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase getELOCMMKHNAD() {
         if (eLOCMMKHNADBuilder_ == null) {
-          return eLOCMMKHNAD_ == null ? emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : eLOCMMKHNAD_;
+          return eLOCMMKHNAD_ == null ? emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance() : eLOCMMKHNAD_;
         } else {
           return eLOCMMKHNADBuilder_.getMessage();
         }
@@ -1135,7 +1135,7 @@ public final class KLODBKLHBMDOuterClass {
       /**
        * <code>._CurrentPhase ELOCMMKHNAD = 2;</code>
        */
-      public Builder setELOCMMKHNAD(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
+      public Builder setELOCMMKHNAD(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase value) {
         if (eLOCMMKHNADBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1152,7 +1152,7 @@ public final class KLODBKLHBMDOuterClass {
        * <code>._CurrentPhase ELOCMMKHNAD = 2;</code>
        */
       public Builder setELOCMMKHNAD(
-          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder builderForValue) {
+          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder builderForValue) {
         if (eLOCMMKHNADBuilder_ == null) {
           eLOCMMKHNAD_ = builderForValue.build();
           onChanged();
@@ -1165,11 +1165,11 @@ public final class KLODBKLHBMDOuterClass {
       /**
        * <code>._CurrentPhase ELOCMMKHNAD = 2;</code>
        */
-      public Builder mergeELOCMMKHNAD(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
+      public Builder mergeELOCMMKHNAD(emu.grasscutter.net.proto.CurrentPhase._CurrentPhase value) {
         if (eLOCMMKHNADBuilder_ == null) {
           if (eLOCMMKHNAD_ != null) {
             eLOCMMKHNAD_ =
-              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.newBuilder(eLOCMMKHNAD_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.newBuilder(eLOCMMKHNAD_).mergeFrom(value).buildPartial();
           } else {
             eLOCMMKHNAD_ = value;
           }
@@ -1197,7 +1197,7 @@ public final class KLODBKLHBMDOuterClass {
       /**
        * <code>._CurrentPhase ELOCMMKHNAD = 2;</code>
        */
-      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder getELOCMMKHNADBuilder() {
+      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder getELOCMMKHNADBuilder() {
         
         onChanged();
         return getELOCMMKHNADFieldBuilder().getBuilder();
@@ -1205,23 +1205,23 @@ public final class KLODBKLHBMDOuterClass {
       /**
        * <code>._CurrentPhase ELOCMMKHNAD = 2;</code>
        */
-      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getELOCMMKHNADOrBuilder() {
+      public emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder getELOCMMKHNADOrBuilder() {
         if (eLOCMMKHNADBuilder_ != null) {
           return eLOCMMKHNADBuilder_.getMessageOrBuilder();
         } else {
           return eLOCMMKHNAD_ == null ?
-              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : eLOCMMKHNAD_;
+              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.getDefaultInstance() : eLOCMMKHNAD_;
         }
       }
       /**
        * <code>._CurrentPhase ELOCMMKHNAD = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> 
+          emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder> 
           getELOCMMKHNADFieldBuilder() {
         if (eLOCMMKHNADBuilder_ == null) {
           eLOCMMKHNADBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder>(
+              emu.grasscutter.net.proto.CurrentPhase._CurrentPhase, emu.grasscutter.net.proto.CurrentPhase._CurrentPhase.Builder, emu.grasscutter.net.proto.CurrentPhase._CurrentPhaseOrBuilder>(
                   getELOCMMKHNAD(),
                   getParentForChildren(),
                   isClean());
@@ -1944,15 +1944,15 @@ public final class KLODBKLHBMDOuterClass {
       "GP\030\010 \001(\r\022\023\n\013KJGOFPPPLEE\030\t \001(\010\022!\n\013BBEPCDI" +
       "ECGL\030\n \001(\0132\014.ABFMGNFBCOK\022\023\n\013MBPMCDGEAJE\030" +
       "\013 \001(\002\022\023\n\013NIAGJCJHAHD\030\014 \001(\004\022\023\n\013KHNEGCBPFM" +
-      "P\030\r \001(\004B2\n\031emu.grasscutter.net.protoB\025KL" +
-      "ODBKLHBMDOuterClassb\006proto3"
+      "P\030\r \001(\004B\033\n\031emu.grasscutter.net.protob\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.ABFMGNFBCOKOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.GACDJPLIOAMOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto._CurrentPhaseOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.CurrentPhase.getDescriptor(),
         });
     internal_static_KLODBKLHBMD_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1962,7 +1962,7 @@ public final class KLODBKLHBMDOuterClass {
         new java.lang.String[] { "SlotId", "ELOCMMKHNAD", "LKDBKENAIDN", "JBINKFAEHLL", "MLAJBBBFCPB", "NKILDDLEKIE", "GPIBNBDAMIL", "OIJJNFKNIGP", "KJGOFPPPLEE", "BBEPCDIECGL", "MBPMCDGEAJE", "NIAGJCJHAHD", "KHNEGCBPFMP", });
     emu.grasscutter.net.proto.ABFMGNFBCOKOuterClass.getDescriptor();
     emu.grasscutter.net.proto.GACDJPLIOAMOuterClass.getDescriptor();
-    emu.grasscutter.net.proto._CurrentPhaseOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.CurrentPhase.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

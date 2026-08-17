@@ -927,9 +927,8 @@ public final class FlightDailyRecordOuterClass {
       "\n\027FlightDailyRecord.proto\"z\n\021FlightDaily" +
       "Record\022\022\n\nstart_time\030\t \001(\r\022\020\n\010group_id\030\n" +
       " \001(\r\022\027\n\017watcher_id_list\030\014 \003(\r\022\022\n\nbest_sc" +
-      "ore\030\016 \001(\r\022\022\n\nis_touched\030\017 \001(\010B8\n\031emu.gra" +
-      "sscutter.net.protoB\033FlightDailyRecordOut" +
-      "erClassb\006proto3"
+      "ore\030\016 \001(\r\022\022\n\nis_touched\030\017 \001(\010B\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

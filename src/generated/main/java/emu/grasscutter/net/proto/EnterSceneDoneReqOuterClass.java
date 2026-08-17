@@ -25,6 +25,10 @@ public final class EnterSceneDoneReqOuterClass {
     int getEnterSceneToken();
   }
   /**
+   * <pre>
+   * CmdID: 6206
+   * </pre>
+   *
    * Protobuf type {@code EnterSceneDoneReq}
    */
   public static final class EnterSceneDoneReq extends
@@ -273,6 +277,10 @@ public final class EnterSceneDoneReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 6206
+     * </pre>
+     *
      * Protobuf type {@code EnterSceneDoneReq}
      */
     public static final class Builder extends
@@ -517,9 +525,8 @@ public final class EnterSceneDoneReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027EnterSceneDoneReq.proto\".\n\021EnterSceneD" +
-      "oneReq\022\031\n\021enter_scene_token\030\003 \001(\rB8\n\031emu" +
-      ".grasscutter.net.protoB\033EnterSceneDoneRe" +
-      "qOuterClassb\006proto3"
+      "oneReq\022\031\n\021enter_scene_token\030\003 \001(\rB\033\n\031emu" +
+      ".grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

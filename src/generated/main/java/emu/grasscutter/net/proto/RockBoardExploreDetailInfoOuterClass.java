@@ -824,9 +824,8 @@ public final class RockBoardExploreDetailInfoOuterClass {
       "\n RockBoardExploreDetailInfo.proto\032\037Rock" +
       "BoardExploreStageData.proto\"Q\n\032RockBoard" +
       "ExploreDetailInfo\0223\n\017stage_data_list\030\014 \003" +
-      "(\0132\032.RockBoardExploreStageDataBA\n\031emu.gr" +
-      "asscutter.net.protoB$RockBoardExploreDet" +
-      "ailInfoOuterClassb\006proto3"
+      "(\0132\032.RockBoardExploreStageDataB\033\n\031emu.gr" +
+      "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -127,10 +127,10 @@ public final class AbilityAppliedModifierOuterClass {
     int getSbuffUid();
 
     /**
-     * <code>bool is_serverbuff_modifier = 14;</code>
-     * @return The isServerbuffModifier.
+     * <code>bool NKFMJEMJLPK = 14;</code>
+     * @return The nKFMJEMJLPK.
      */
-    boolean getIsServerbuffModifier();
+    boolean getNKFMJEMJLPK();
 
     /**
      * <code>uint32 IEHGPFCDEMH = 15;</code>
@@ -289,7 +289,7 @@ public final class AbilityAppliedModifierOuterClass {
             }
             case 112: {
 
-              isServerbuffModifier_ = input.readBool();
+              nKFMJEMJLPK_ = input.readBool();
               break;
             }
             case 120: {
@@ -527,15 +527,15 @@ public final class AbilityAppliedModifierOuterClass {
       return sbuffUid_;
     }
 
-    public static final int IS_SERVERBUFF_MODIFIER_FIELD_NUMBER = 14;
-    private boolean isServerbuffModifier_;
+    public static final int NKFMJEMJLPK_FIELD_NUMBER = 14;
+    private boolean nKFMJEMJLPK_;
     /**
-     * <code>bool is_serverbuff_modifier = 14;</code>
-     * @return The isServerbuffModifier.
+     * <code>bool NKFMJEMJLPK = 14;</code>
+     * @return The nKFMJEMJLPK.
      */
     @java.lang.Override
-    public boolean getIsServerbuffModifier() {
-      return isServerbuffModifier_;
+    public boolean getNKFMJEMJLPK() {
+      return nKFMJEMJLPK_;
     }
 
     public static final int IEHGPFCDEMH_FIELD_NUMBER = 15;
@@ -618,8 +618,8 @@ public final class AbilityAppliedModifierOuterClass {
       if (sbuffUid_ != 0) {
         output.writeUInt32(12, sbuffUid_);
       }
-      if (isServerbuffModifier_ != false) {
-        output.writeBool(14, isServerbuffModifier_);
+      if (nKFMJEMJLPK_ != false) {
+        output.writeBool(14, nKFMJEMJLPK_);
       }
       if (iEHGPFCDEMH_ != 0) {
         output.writeUInt32(15, iEHGPFCDEMH_);
@@ -684,9 +684,9 @@ public final class AbilityAppliedModifierOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(12, sbuffUid_);
       }
-      if (isServerbuffModifier_ != false) {
+      if (nKFMJEMJLPK_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, isServerbuffModifier_);
+          .computeBoolSize(14, nKFMJEMJLPK_);
       }
       if (iEHGPFCDEMH_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -748,8 +748,8 @@ public final class AbilityAppliedModifierOuterClass {
       }
       if (getSbuffUid()
           != other.getSbuffUid()) return false;
-      if (getIsServerbuffModifier()
-          != other.getIsServerbuffModifier()) return false;
+      if (getNKFMJEMJLPK()
+          != other.getNKFMJEMJLPK()) return false;
       if (getIEHGPFCDEMH()
           != other.getIEHGPFCDEMH()) return false;
       if (fPDAONBEBHK_ != other.fPDAONBEBHK_) return false;
@@ -798,9 +798,9 @@ public final class AbilityAppliedModifierOuterClass {
       }
       hash = (37 * hash) + SBUFF_UID_FIELD_NUMBER;
       hash = (53 * hash) + getSbuffUid();
-      hash = (37 * hash) + IS_SERVERBUFF_MODIFIER_FIELD_NUMBER;
+      hash = (37 * hash) + NKFMJEMJLPK_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsServerbuffModifier());
+          getNKFMJEMJLPK());
       hash = (37 * hash) + IEHGPFCDEMH_FIELD_NUMBER;
       hash = (53 * hash) + getIEHGPFCDEMH();
       hash = (37 * hash) + FPDAONBEBHK_FIELD_NUMBER;
@@ -978,7 +978,7 @@ public final class AbilityAppliedModifierOuterClass {
         }
         sbuffUid_ = 0;
 
-        isServerbuffModifier_ = false;
+        nKFMJEMJLPK_ = false;
 
         iEHGPFCDEMH_ = 0;
 
@@ -1038,7 +1038,7 @@ public final class AbilityAppliedModifierOuterClass {
           result.modifierDurability_ = modifierDurabilityBuilder_.build();
         }
         result.sbuffUid_ = sbuffUid_;
-        result.isServerbuffModifier_ = isServerbuffModifier_;
+        result.nKFMJEMJLPK_ = nKFMJEMJLPK_;
         result.iEHGPFCDEMH_ = iEHGPFCDEMH_;
         result.fPDAONBEBHK_ = fPDAONBEBHK_;
         onBuilt();
@@ -1125,8 +1125,8 @@ public final class AbilityAppliedModifierOuterClass {
         if (other.getSbuffUid() != 0) {
           setSbuffUid(other.getSbuffUid());
         }
-        if (other.getIsServerbuffModifier() != false) {
-          setIsServerbuffModifier(other.getIsServerbuffModifier());
+        if (other.getNKFMJEMJLPK() != false) {
+          setNKFMJEMJLPK(other.getNKFMJEMJLPK());
         }
         if (other.getIEHGPFCDEMH() != 0) {
           setIEHGPFCDEMH(other.getIEHGPFCDEMH());
@@ -1887,33 +1887,33 @@ public final class AbilityAppliedModifierOuterClass {
         return this;
       }
 
-      private boolean isServerbuffModifier_ ;
+      private boolean nKFMJEMJLPK_ ;
       /**
-       * <code>bool is_serverbuff_modifier = 14;</code>
-       * @return The isServerbuffModifier.
+       * <code>bool NKFMJEMJLPK = 14;</code>
+       * @return The nKFMJEMJLPK.
        */
       @java.lang.Override
-      public boolean getIsServerbuffModifier() {
-        return isServerbuffModifier_;
+      public boolean getNKFMJEMJLPK() {
+        return nKFMJEMJLPK_;
       }
       /**
-       * <code>bool is_serverbuff_modifier = 14;</code>
-       * @param value The isServerbuffModifier to set.
+       * <code>bool NKFMJEMJLPK = 14;</code>
+       * @param value The nKFMJEMJLPK to set.
        * @return This builder for chaining.
        */
-      public Builder setIsServerbuffModifier(boolean value) {
+      public Builder setNKFMJEMJLPK(boolean value) {
         
-        isServerbuffModifier_ = value;
+        nKFMJEMJLPK_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool is_serverbuff_modifier = 14;</code>
+       * <code>bool NKFMJEMJLPK = 14;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIsServerbuffModifier() {
+      public Builder clearNKFMJEMJLPK() {
         
-        isServerbuffModifier_ = false;
+        nKFMJEMJLPK_ = false;
         onChanged();
         return this;
       }
@@ -2072,7 +2072,7 @@ public final class AbilityAppliedModifierOuterClass {
       "\n\034AbilityAppliedModifier.proto\032\035AbilityA" +
       "ttachedModifier.proto\032\023AbilityString.pro" +
       "to\032\021LJGEHMILKEM.proto\032\030ModifierDurabilit" +
-      "y.proto\"\241\004\n\026AbilityAppliedModifier\022\031\n\021mo" +
+      "y.proto\"\226\004\n\026AbilityAppliedModifier\022\031\n\021mo" +
       "difier_local_id\030\001 \001(\005\022 \n\030parent_ability_" +
       "entity_id\030\002 \001(\r\022+\n\023parent_ability_name\030\003" +
       " \001(\0132\016.AbilityString\022/\n\027parent_ability_o" +
@@ -2083,11 +2083,10 @@ public final class AbilityAppliedModifierOuterClass {
       "yAttachedModifier\022\027\n\017apply_entity_id\030\t \001" +
       "(\r\022\"\n\032is_attached_parent_ability\030\n \001(\010\0220" +
       "\n\023modifier_durability\030\013 \001(\0132\023.ModifierDu" +
-      "rability\022\021\n\tsbuff_uid\030\014 \001(\r\022\036\n\026is_server" +
-      "buff_modifier\030\016 \001(\010\022\023\n\013IEHGPFCDEMH\030\017 \001(\r" +
-      "\022!\n\013FPDAONBEBHK\030\020 \001(\0162\014.LJGEHMILKEMB=\n\031e" +
-      "mu.grasscutter.net.protoB AbilityApplied" +
-      "ModifierOuterClassb\006proto3"
+      "rability\022\021\n\tsbuff_uid\030\014 \001(\r\022\023\n\013NKFMJEMJL" +
+      "PK\030\016 \001(\010\022\023\n\013IEHGPFCDEMH\030\017 \001(\r\022!\n\013FPDAONB" +
+      "EBHK\030\020 \001(\0162\014.LJGEHMILKEMB\033\n\031emu.grasscut" +
+      "ter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2102,7 +2101,7 @@ public final class AbilityAppliedModifierOuterClass {
     internal_static_AbilityAppliedModifier_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AbilityAppliedModifier_descriptor,
-        new java.lang.String[] { "ModifierLocalId", "ParentAbilityEntityId", "ParentAbilityName", "ParentAbilityOverride", "InstancedAbilityId", "InstancedModifierId", "ExistDuration", "AttachedInstancedModifier", "ApplyEntityId", "IsAttachedParentAbility", "ModifierDurability", "SbuffUid", "IsServerbuffModifier", "IEHGPFCDEMH", "FPDAONBEBHK", });
+        new java.lang.String[] { "ModifierLocalId", "ParentAbilityEntityId", "ParentAbilityName", "ParentAbilityOverride", "InstancedAbilityId", "InstancedModifierId", "ExistDuration", "AttachedInstancedModifier", "ApplyEntityId", "IsAttachedParentAbility", "ModifierDurability", "SbuffUid", "NKFMJEMJLPK", "IEHGPFCDEMH", "FPDAONBEBHK", });
     emu.grasscutter.net.proto.AbilityAttachedModifierOuterClass.getDescriptor();
     emu.grasscutter.net.proto.AbilityStringOuterClass.getDescriptor();
     emu.grasscutter.net.proto.LJGEHMILKEMOuterClass.getDescriptor();

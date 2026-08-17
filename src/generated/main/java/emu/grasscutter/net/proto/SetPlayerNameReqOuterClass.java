@@ -31,6 +31,10 @@ public final class SetPlayerNameReqOuterClass {
         getNickNameBytes();
   }
   /**
+   * <pre>
+   * CmdID: 7384
+   * </pre>
+   *
    * Protobuf type {@code SetPlayerNameReq}
    */
   public static final class SetPlayerNameReq extends
@@ -307,6 +311,10 @@ public final class SetPlayerNameReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 7384
+     * </pre>
+     *
      * Protobuf type {@code SetPlayerNameReq}
      */
     public static final class Builder extends
@@ -597,9 +605,8 @@ public final class SetPlayerNameReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026SetPlayerNameReq.proto\"%\n\020SetPlayerNam" +
-      "eReq\022\021\n\tnick_name\030\r \001(\tB7\n\031emu.grasscutt" +
-      "er.net.protoB\032SetPlayerNameReqOuterClass" +
-      "b\006proto3"
+      "eReq\022\021\n\tnick_name\030\r \001(\tB\033\n\031emu.grasscutt" +
+      "er.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

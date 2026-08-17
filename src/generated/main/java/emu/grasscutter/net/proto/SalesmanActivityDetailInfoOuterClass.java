@@ -466,7 +466,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
       if (cCIDPKHDGLB_ != false) {
         output.writeBool(1, cCIDPKHDGLB_);
       }
-      if (status_ != emu.grasscutter.net.proto.SalesmanStatusTypeOuterClass.SalesmanStatusType.SALESMAN_STATUS_NONE.getNumber()) {
+      if (status_ != emu.grasscutter.net.proto.SalesmanStatusTypeOuterClass.SalesmanStatusType.SalesmanStatusType_SALESMAN_STATUS_NONE.getNumber()) {
         output.writeEnum(2, status_);
       }
       com.google.protobuf.GeneratedMessageV3
@@ -509,7 +509,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1, cCIDPKHDGLB_);
       }
-      if (status_ != emu.grasscutter.net.proto.SalesmanStatusTypeOuterClass.SalesmanStatusType.SALESMAN_STATUS_NONE.getNumber()) {
+      if (status_ != emu.grasscutter.net.proto.SalesmanStatusTypeOuterClass.SalesmanStatusType.SalesmanStatusType_SALESMAN_STATUS_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(2, status_);
       }
@@ -1451,8 +1451,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
       "\023\n\013DILMJEONOCC\030\013 \001(\r\022\023\n\013KFEIFMLHHGM\030\r \001(" +
       "\r\022\021\n\tday_index\030\017 \001(\r\032:\n\030SelectedRewardId" +
       "MapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001" +
-      "BA\n\031emu.grasscutter.net.protoB$SalesmanA" +
-      "ctivityDetailInfoOuterClassb\006proto3"
+      "B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

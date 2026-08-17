@@ -60,6 +60,10 @@ public final class AchievementAllDataNotifyOuterClass {
     int getRewardTakenGoalIdList(int index);
   }
   /**
+   * <pre>
+   * CmdID: 29910
+   * </pre>
+   *
    * Protobuf type {@code AchievementAllDataNotify}
    */
   public static final class AchievementAllDataNotify extends
@@ -429,6 +433,10 @@ public final class AchievementAllDataNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 29910
+     * </pre>
+     *
      * Protobuf type {@code AchievementAllDataNotify}
      */
     public static final class Builder extends
@@ -1018,9 +1026,8 @@ public final class AchievementAllDataNotifyOuterClass {
       "\n\036AchievementAllDataNotify.proto\032\021Achiev" +
       "ement.proto\"e\n\030AchievementAllDataNotify\022" +
       "&\n\020achievement_list\030\005 \003(\0132\014.Achievement\022" +
-      "!\n\031reward_taken_goal_id_list\030\010 \003(\rB?\n\031em" +
-      "u.grasscutter.net.protoB\"AchievementAllD" +
-      "ataNotifyOuterClassb\006proto3"
+      "!\n\031reward_taken_goal_id_list\030\010 \003(\rB\033\n\031em" +
+      "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

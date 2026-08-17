@@ -43,6 +43,10 @@ public final class HomeAvatarSummonAllEventNotifyOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdID: 24235
+   * </pre>
+   *
    * Protobuf type {@code HomeAvatarSummonAllEventNotify}
    */
   public static final class HomeAvatarSummonAllEventNotify extends
@@ -331,6 +335,10 @@ public final class HomeAvatarSummonAllEventNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 24235
+     * </pre>
+     *
      * Protobuf type {@code HomeAvatarSummonAllEventNotify}
      */
     public static final class Builder extends
@@ -825,8 +833,7 @@ public final class HomeAvatarSummonAllEventNotifyOuterClass {
       "HomeAvatarSummonEventInfo.proto\"W\n\036HomeA" +
       "vatarSummonAllEventNotify\0225\n\021summon_even" +
       "t_list\030\010 \003(\0132\032.HomeAvatarSummonEventInfo" +
-      "BE\n\031emu.grasscutter.net.protoB(HomeAvata" +
-      "rSummonAllEventNotifyOuterClassb\006proto3"
+      "B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

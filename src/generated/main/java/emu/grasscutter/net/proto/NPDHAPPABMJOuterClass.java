@@ -730,9 +730,8 @@ public final class NPDHAPPABMJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NPDHAPPABMJ.proto\"W\n\013NPDHAPPABMJ\022\022\n\nbe" +
       "st_score\030\001 \001(\r\022\017\n\007is_open\030\003 \001(\010\022\020\n\010stage" +
-      "_id\030\004 \001(\r\022\021\n\tis_finish\030\r \001(\010B2\n\031emu.gras" +
-      "scutter.net.protoB\025NPDHAPPABMJOuterClass" +
-      "b\006proto3"
+      "_id\030\004 \001(\r\022\021\n\tis_finish\030\r \001(\010B\033\n\031emu.gras" +
+      "scutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -31,6 +31,10 @@ public final class PostEnterSceneRspOuterClass {
     int getEnterSceneToken();
   }
   /**
+   * <pre>
+   * CmdID: 21753
+   * </pre>
+   *
    * Protobuf type {@code PostEnterSceneRsp}
    */
   public static final class PostEnterSceneRsp extends
@@ -306,6 +310,10 @@ public final class PostEnterSceneRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 21753
+     * </pre>
+     *
      * Protobuf type {@code PostEnterSceneRsp}
      */
     public static final class Builder extends
@@ -588,8 +596,8 @@ public final class PostEnterSceneRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027PostEnterSceneRsp.proto\"?\n\021PostEnterSc" +
       "eneRsp\022\017\n\007retcode\030\t \001(\005\022\031\n\021enter_scene_t" +
-      "oken\030\014 \001(\rB8\n\031emu.grasscutter.net.protoB" +
-      "\033PostEnterSceneRspOuterClassb\006proto3"
+      "oken\030\014 \001(\rB\033\n\031emu.grasscutter.net.protob" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

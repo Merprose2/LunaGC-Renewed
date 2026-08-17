@@ -591,8 +591,8 @@ public final class UnionCmdOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\016UnionCmd.proto\",\n\010UnionCmd\022\014\n\004body\030\010 \001" +
-      "(\014\022\022\n\nmessage_id\030\017 \001(\rB/\n\031emu.grasscutte" +
-      "r.net.protoB\022UnionCmdOuterClassb\006proto3"
+      "(\014\022\022\n\nmessage_id\030\017 \001(\rB\033\n\031emu.grasscutte" +
+      "r.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

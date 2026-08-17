@@ -31,6 +31,10 @@ public final class HomeAvatarTalkReqOuterClass {
     int getTalkId();
   }
   /**
+   * <pre>
+   * CmdID: 28188
+   * </pre>
+   *
    * Protobuf type {@code HomeAvatarTalkReq}
    */
   public static final class HomeAvatarTalkReq extends
@@ -306,6 +310,10 @@ public final class HomeAvatarTalkReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 28188
+     * </pre>
+     *
      * Protobuf type {@code HomeAvatarTalkReq}
      */
     public static final class Builder extends
@@ -588,8 +596,7 @@ public final class HomeAvatarTalkReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027HomeAvatarTalkReq.proto\"7\n\021HomeAvatarT" +
       "alkReq\022\021\n\tavatar_id\030\t \001(\r\022\017\n\007talk_id\030\r \001" +
-      "(\rB8\n\031emu.grasscutter.net.protoB\033HomeAva" +
-      "tarTalkReqOuterClassb\006proto3"
+      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

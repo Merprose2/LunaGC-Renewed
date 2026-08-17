@@ -823,8 +823,8 @@ public final class JPCAOAHBLHBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021JPCAOAHBLHB.proto\032\021NJOLOBINBLE.proto\"4" +
       "\n\013JPCAOAHBLHB\022%\n\017level_info_list\030\013 \003(\0132\014" +
-      ".NJOLOBINBLEB2\n\031emu.grasscutter.net.prot" +
-      "oB\025JPCAOAHBLHBOuterClassb\006proto3"
+      ".NJOLOBINBLEB\033\n\031emu.grasscutter.net.prot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

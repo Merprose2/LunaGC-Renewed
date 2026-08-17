@@ -588,9 +588,8 @@ public final class BuoyantCombatDailyInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034BuoyantCombatDailyInfo.proto\"@\n\026Buoyan" +
       "tCombatDailyInfo\022\022\n\nstart_time\030\014 \001(\r\022\022\n\n" +
-      "best_score\030\r \001(\rB=\n\031emu.grasscutter.net." +
-      "protoB BuoyantCombatDailyInfoOuterClassb" +
-      "\006proto3"
+      "best_score\030\r \001(\rB\033\n\031emu.grasscutter.net." +
+      "protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

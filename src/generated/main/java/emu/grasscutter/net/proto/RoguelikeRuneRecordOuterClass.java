@@ -19,10 +19,10 @@ public final class RoguelikeRuneRecordOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 pddnmmiceml = 7;</code>
-     * @return The pddnmmiceml.
+     * <code>uint32 KPHKIPBJFMO = 7;</code>
+     * @return The kPHKIPBJFMO.
      */
-    int getPddnmmiceml();
+    int getKPHKIPBJFMO();
 
     /**
      * <code>uint32 HAKBGHFECEJ = 9;</code>
@@ -83,7 +83,7 @@ public final class RoguelikeRuneRecordOuterClass {
               break;
             case 56: {
 
-              pddnmmiceml_ = input.readUInt32();
+              kPHKIPBJFMO_ = input.readUInt32();
               break;
             }
             case 72: {
@@ -128,15 +128,15 @@ public final class RoguelikeRuneRecordOuterClass {
               emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord.class, emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord.Builder.class);
     }
 
-    public static final int PDDNMMICEML_FIELD_NUMBER = 7;
-    private int pddnmmiceml_;
+    public static final int KPHKIPBJFMO_FIELD_NUMBER = 7;
+    private int kPHKIPBJFMO_;
     /**
-     * <code>uint32 pddnmmiceml = 7;</code>
-     * @return The pddnmmiceml.
+     * <code>uint32 KPHKIPBJFMO = 7;</code>
+     * @return The kPHKIPBJFMO.
      */
     @java.lang.Override
-    public int getPddnmmiceml() {
-      return pddnmmiceml_;
+    public int getKPHKIPBJFMO() {
+      return kPHKIPBJFMO_;
     }
 
     public static final int HAKBGHFECEJ_FIELD_NUMBER = 9;
@@ -175,8 +175,8 @@ public final class RoguelikeRuneRecordOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (pddnmmiceml_ != 0) {
-        output.writeUInt32(7, pddnmmiceml_);
+      if (kPHKIPBJFMO_ != 0) {
+        output.writeUInt32(7, kPHKIPBJFMO_);
       }
       if (hAKBGHFECEJ_ != 0) {
         output.writeUInt32(9, hAKBGHFECEJ_);
@@ -193,9 +193,9 @@ public final class RoguelikeRuneRecordOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (pddnmmiceml_ != 0) {
+      if (kPHKIPBJFMO_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, pddnmmiceml_);
+          .computeUInt32Size(7, kPHKIPBJFMO_);
       }
       if (hAKBGHFECEJ_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -220,8 +220,8 @@ public final class RoguelikeRuneRecordOuterClass {
       }
       emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord other = (emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord) obj;
 
-      if (getPddnmmiceml()
-          != other.getPddnmmiceml()) return false;
+      if (getKPHKIPBJFMO()
+          != other.getKPHKIPBJFMO()) return false;
       if (getHAKBGHFECEJ()
           != other.getHAKBGHFECEJ()) return false;
       if (getRuneId()
@@ -237,8 +237,8 @@ public final class RoguelikeRuneRecordOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + PDDNMMICEML_FIELD_NUMBER;
-      hash = (53 * hash) + getPddnmmiceml();
+      hash = (37 * hash) + KPHKIPBJFMO_FIELD_NUMBER;
+      hash = (53 * hash) + getKPHKIPBJFMO();
       hash = (37 * hash) + HAKBGHFECEJ_FIELD_NUMBER;
       hash = (53 * hash) + getHAKBGHFECEJ();
       hash = (37 * hash) + RUNE_ID_FIELD_NUMBER;
@@ -376,7 +376,7 @@ public final class RoguelikeRuneRecordOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        pddnmmiceml_ = 0;
+        kPHKIPBJFMO_ = 0;
 
         hAKBGHFECEJ_ = 0;
 
@@ -408,7 +408,7 @@ public final class RoguelikeRuneRecordOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord buildPartial() {
         emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord result = new emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord(this);
-        result.pddnmmiceml_ = pddnmmiceml_;
+        result.kPHKIPBJFMO_ = kPHKIPBJFMO_;
         result.hAKBGHFECEJ_ = hAKBGHFECEJ_;
         result.runeId_ = runeId_;
         onBuilt();
@@ -459,8 +459,8 @@ public final class RoguelikeRuneRecordOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord other) {
         if (other == emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord.getDefaultInstance()) return this;
-        if (other.getPddnmmiceml() != 0) {
-          setPddnmmiceml(other.getPddnmmiceml());
+        if (other.getKPHKIPBJFMO() != 0) {
+          setKPHKIPBJFMO(other.getKPHKIPBJFMO());
         }
         if (other.getHAKBGHFECEJ() != 0) {
           setHAKBGHFECEJ(other.getHAKBGHFECEJ());
@@ -497,33 +497,33 @@ public final class RoguelikeRuneRecordOuterClass {
         return this;
       }
 
-      private int pddnmmiceml_ ;
+      private int kPHKIPBJFMO_ ;
       /**
-       * <code>uint32 pddnmmiceml = 7;</code>
-       * @return The pddnmmiceml.
+       * <code>uint32 KPHKIPBJFMO = 7;</code>
+       * @return The kPHKIPBJFMO.
        */
       @java.lang.Override
-      public int getPddnmmiceml() {
-        return pddnmmiceml_;
+      public int getKPHKIPBJFMO() {
+        return kPHKIPBJFMO_;
       }
       /**
-       * <code>uint32 pddnmmiceml = 7;</code>
-       * @param value The pddnmmiceml to set.
+       * <code>uint32 KPHKIPBJFMO = 7;</code>
+       * @param value The kPHKIPBJFMO to set.
        * @return This builder for chaining.
        */
-      public Builder setPddnmmiceml(int value) {
+      public Builder setKPHKIPBJFMO(int value) {
         
-        pddnmmiceml_ = value;
+        kPHKIPBJFMO_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 pddnmmiceml = 7;</code>
+       * <code>uint32 KPHKIPBJFMO = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearPddnmmiceml() {
+      public Builder clearKPHKIPBJFMO() {
         
-        pddnmmiceml_ = 0;
+        kPHKIPBJFMO_ = 0;
         onChanged();
         return this;
       }
@@ -657,10 +657,9 @@ public final class RoguelikeRuneRecordOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031RoguelikeRuneRecord.proto\"P\n\023Roguelike" +
-      "RuneRecord\022\023\n\013pddnmmiceml\030\007 \001(\r\022\023\n\013HAKBG" +
-      "HFECEJ\030\t \001(\r\022\017\n\007rune_id\030\014 \001(\rB:\n\031emu.gra" +
-      "sscutter.net.protoB\035RoguelikeRuneRecordO" +
-      "uterClassb\006proto3"
+      "RuneRecord\022\023\n\013KPHKIPBJFMO\030\007 \001(\r\022\023\n\013HAKBG" +
+      "HFECEJ\030\t \001(\r\022\017\n\007rune_id\030\014 \001(\rB\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -671,7 +670,7 @@ public final class RoguelikeRuneRecordOuterClass {
     internal_static_RoguelikeRuneRecord_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_RoguelikeRuneRecord_descriptor,
-        new java.lang.String[] { "Pddnmmiceml", "HAKBGHFECEJ", "RuneId", });
+        new java.lang.String[] { "KPHKIPBJFMO", "HAKBGHFECEJ", "RuneId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -27,11 +27,11 @@ public final class BPAEPJHBOFMOuterClass {
      * <code>._Beacon beacon = 1;</code>
      * @return The beacon.
      */
-    emu.grasscutter.net.proto._BeaconOuterClass._Beacon getBeacon();
+    emu.grasscutter.net.proto.Beacon._Beacon getBeacon();
     /**
      * <code>._Beacon beacon = 1;</code>
      */
-    emu.grasscutter.net.proto._BeaconOuterClass._BeaconOrBuilder getBeaconOrBuilder();
+    emu.grasscutter.net.proto.Beacon._BeaconOrBuilder getBeaconOrBuilder();
 
     /**
      * <code>._Decorate decorate = 2;</code>
@@ -42,11 +42,11 @@ public final class BPAEPJHBOFMOuterClass {
      * <code>._Decorate decorate = 2;</code>
      * @return The decorate.
      */
-    emu.grasscutter.net.proto._DecorateOuterClass._Decorate getDecorate();
+    emu.grasscutter.net.proto.Decorate._Decorate getDecorate();
     /**
      * <code>._Decorate decorate = 2;</code>
      */
-    emu.grasscutter.net.proto._DecorateOuterClass._DecorateOrBuilder getDecorateOrBuilder();
+    emu.grasscutter.net.proto.Decorate._DecorateOrBuilder getDecorateOrBuilder();
 
     public emu.grasscutter.net.proto.BPAEPJHBOFMOuterClass.BPAEPJHBOFM.DetailCase getDetailCase();
   }
@@ -96,28 +96,28 @@ public final class BPAEPJHBOFMOuterClass {
               done = true;
               break;
             case 10: {
-              emu.grasscutter.net.proto._BeaconOuterClass._Beacon.Builder subBuilder = null;
+              emu.grasscutter.net.proto.Beacon._Beacon.Builder subBuilder = null;
               if (detailCase_ == 1) {
-                subBuilder = ((emu.grasscutter.net.proto._BeaconOuterClass._Beacon) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto.Beacon._Beacon) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto._BeaconOuterClass._Beacon.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto.Beacon._Beacon.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto._BeaconOuterClass._Beacon) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.Beacon._Beacon) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 1;
               break;
             }
             case 18: {
-              emu.grasscutter.net.proto._DecorateOuterClass._Decorate.Builder subBuilder = null;
+              emu.grasscutter.net.proto.Decorate._Decorate.Builder subBuilder = null;
               if (detailCase_ == 2) {
-                subBuilder = ((emu.grasscutter.net.proto._DecorateOuterClass._Decorate) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto.Decorate._Decorate) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto._DecorateOuterClass._Decorate.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto.Decorate._Decorate.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto._DecorateOuterClass._Decorate) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.Decorate._Decorate) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 2;
@@ -210,21 +210,21 @@ public final class BPAEPJHBOFMOuterClass {
      * @return The beacon.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._BeaconOuterClass._Beacon getBeacon() {
+    public emu.grasscutter.net.proto.Beacon._Beacon getBeacon() {
       if (detailCase_ == 1) {
-         return (emu.grasscutter.net.proto._BeaconOuterClass._Beacon) detail_;
+         return (emu.grasscutter.net.proto.Beacon._Beacon) detail_;
       }
-      return emu.grasscutter.net.proto._BeaconOuterClass._Beacon.getDefaultInstance();
+      return emu.grasscutter.net.proto.Beacon._Beacon.getDefaultInstance();
     }
     /**
      * <code>._Beacon beacon = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._BeaconOuterClass._BeaconOrBuilder getBeaconOrBuilder() {
+    public emu.grasscutter.net.proto.Beacon._BeaconOrBuilder getBeaconOrBuilder() {
       if (detailCase_ == 1) {
-         return (emu.grasscutter.net.proto._BeaconOuterClass._Beacon) detail_;
+         return (emu.grasscutter.net.proto.Beacon._Beacon) detail_;
       }
-      return emu.grasscutter.net.proto._BeaconOuterClass._Beacon.getDefaultInstance();
+      return emu.grasscutter.net.proto.Beacon._Beacon.getDefaultInstance();
     }
 
     public static final int DECORATE_FIELD_NUMBER = 2;
@@ -241,21 +241,21 @@ public final class BPAEPJHBOFMOuterClass {
      * @return The decorate.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._DecorateOuterClass._Decorate getDecorate() {
+    public emu.grasscutter.net.proto.Decorate._Decorate getDecorate() {
       if (detailCase_ == 2) {
-         return (emu.grasscutter.net.proto._DecorateOuterClass._Decorate) detail_;
+         return (emu.grasscutter.net.proto.Decorate._Decorate) detail_;
       }
-      return emu.grasscutter.net.proto._DecorateOuterClass._Decorate.getDefaultInstance();
+      return emu.grasscutter.net.proto.Decorate._Decorate.getDefaultInstance();
     }
     /**
      * <code>._Decorate decorate = 2;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._DecorateOuterClass._DecorateOrBuilder getDecorateOrBuilder() {
+    public emu.grasscutter.net.proto.Decorate._DecorateOrBuilder getDecorateOrBuilder() {
       if (detailCase_ == 2) {
-         return (emu.grasscutter.net.proto._DecorateOuterClass._Decorate) detail_;
+         return (emu.grasscutter.net.proto.Decorate._Decorate) detail_;
       }
-      return emu.grasscutter.net.proto._DecorateOuterClass._Decorate.getDefaultInstance();
+      return emu.grasscutter.net.proto.Decorate._Decorate.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -273,10 +273,10 @@ public final class BPAEPJHBOFMOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (detailCase_ == 1) {
-        output.writeMessage(1, (emu.grasscutter.net.proto._BeaconOuterClass._Beacon) detail_);
+        output.writeMessage(1, (emu.grasscutter.net.proto.Beacon._Beacon) detail_);
       }
       if (detailCase_ == 2) {
-        output.writeMessage(2, (emu.grasscutter.net.proto._DecorateOuterClass._Decorate) detail_);
+        output.writeMessage(2, (emu.grasscutter.net.proto.Decorate._Decorate) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -289,11 +289,11 @@ public final class BPAEPJHBOFMOuterClass {
       size = 0;
       if (detailCase_ == 1) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, (emu.grasscutter.net.proto._BeaconOuterClass._Beacon) detail_);
+          .computeMessageSize(1, (emu.grasscutter.net.proto.Beacon._Beacon) detail_);
       }
       if (detailCase_ == 2) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, (emu.grasscutter.net.proto._DecorateOuterClass._Decorate) detail_);
+          .computeMessageSize(2, (emu.grasscutter.net.proto.Decorate._Decorate) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -628,7 +628,7 @@ public final class BPAEPJHBOFMOuterClass {
 
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._BeaconOuterClass._Beacon, emu.grasscutter.net.proto._BeaconOuterClass._Beacon.Builder, emu.grasscutter.net.proto._BeaconOuterClass._BeaconOrBuilder> beaconBuilder_;
+          emu.grasscutter.net.proto.Beacon._Beacon, emu.grasscutter.net.proto.Beacon._Beacon.Builder, emu.grasscutter.net.proto.Beacon._BeaconOrBuilder> beaconBuilder_;
       /**
        * <code>._Beacon beacon = 1;</code>
        * @return Whether the beacon field is set.
@@ -642,23 +642,23 @@ public final class BPAEPJHBOFMOuterClass {
        * @return The beacon.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto._BeaconOuterClass._Beacon getBeacon() {
+      public emu.grasscutter.net.proto.Beacon._Beacon getBeacon() {
         if (beaconBuilder_ == null) {
           if (detailCase_ == 1) {
-            return (emu.grasscutter.net.proto._BeaconOuterClass._Beacon) detail_;
+            return (emu.grasscutter.net.proto.Beacon._Beacon) detail_;
           }
-          return emu.grasscutter.net.proto._BeaconOuterClass._Beacon.getDefaultInstance();
+          return emu.grasscutter.net.proto.Beacon._Beacon.getDefaultInstance();
         } else {
           if (detailCase_ == 1) {
             return beaconBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto._BeaconOuterClass._Beacon.getDefaultInstance();
+          return emu.grasscutter.net.proto.Beacon._Beacon.getDefaultInstance();
         }
       }
       /**
        * <code>._Beacon beacon = 1;</code>
        */
-      public Builder setBeacon(emu.grasscutter.net.proto._BeaconOuterClass._Beacon value) {
+      public Builder setBeacon(emu.grasscutter.net.proto.Beacon._Beacon value) {
         if (beaconBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -675,7 +675,7 @@ public final class BPAEPJHBOFMOuterClass {
        * <code>._Beacon beacon = 1;</code>
        */
       public Builder setBeacon(
-          emu.grasscutter.net.proto._BeaconOuterClass._Beacon.Builder builderForValue) {
+          emu.grasscutter.net.proto.Beacon._Beacon.Builder builderForValue) {
         if (beaconBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -688,11 +688,11 @@ public final class BPAEPJHBOFMOuterClass {
       /**
        * <code>._Beacon beacon = 1;</code>
        */
-      public Builder mergeBeacon(emu.grasscutter.net.proto._BeaconOuterClass._Beacon value) {
+      public Builder mergeBeacon(emu.grasscutter.net.proto.Beacon._Beacon value) {
         if (beaconBuilder_ == null) {
           if (detailCase_ == 1 &&
-              detail_ != emu.grasscutter.net.proto._BeaconOuterClass._Beacon.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto._BeaconOuterClass._Beacon.newBuilder((emu.grasscutter.net.proto._BeaconOuterClass._Beacon) detail_)
+              detail_ != emu.grasscutter.net.proto.Beacon._Beacon.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto.Beacon._Beacon.newBuilder((emu.grasscutter.net.proto.Beacon._Beacon) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -729,36 +729,36 @@ public final class BPAEPJHBOFMOuterClass {
       /**
        * <code>._Beacon beacon = 1;</code>
        */
-      public emu.grasscutter.net.proto._BeaconOuterClass._Beacon.Builder getBeaconBuilder() {
+      public emu.grasscutter.net.proto.Beacon._Beacon.Builder getBeaconBuilder() {
         return getBeaconFieldBuilder().getBuilder();
       }
       /**
        * <code>._Beacon beacon = 1;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto._BeaconOuterClass._BeaconOrBuilder getBeaconOrBuilder() {
+      public emu.grasscutter.net.proto.Beacon._BeaconOrBuilder getBeaconOrBuilder() {
         if ((detailCase_ == 1) && (beaconBuilder_ != null)) {
           return beaconBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 1) {
-            return (emu.grasscutter.net.proto._BeaconOuterClass._Beacon) detail_;
+            return (emu.grasscutter.net.proto.Beacon._Beacon) detail_;
           }
-          return emu.grasscutter.net.proto._BeaconOuterClass._Beacon.getDefaultInstance();
+          return emu.grasscutter.net.proto.Beacon._Beacon.getDefaultInstance();
         }
       }
       /**
        * <code>._Beacon beacon = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._BeaconOuterClass._Beacon, emu.grasscutter.net.proto._BeaconOuterClass._Beacon.Builder, emu.grasscutter.net.proto._BeaconOuterClass._BeaconOrBuilder> 
+          emu.grasscutter.net.proto.Beacon._Beacon, emu.grasscutter.net.proto.Beacon._Beacon.Builder, emu.grasscutter.net.proto.Beacon._BeaconOrBuilder> 
           getBeaconFieldBuilder() {
         if (beaconBuilder_ == null) {
           if (!(detailCase_ == 1)) {
-            detail_ = emu.grasscutter.net.proto._BeaconOuterClass._Beacon.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto.Beacon._Beacon.getDefaultInstance();
           }
           beaconBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto._BeaconOuterClass._Beacon, emu.grasscutter.net.proto._BeaconOuterClass._Beacon.Builder, emu.grasscutter.net.proto._BeaconOuterClass._BeaconOrBuilder>(
-                  (emu.grasscutter.net.proto._BeaconOuterClass._Beacon) detail_,
+              emu.grasscutter.net.proto.Beacon._Beacon, emu.grasscutter.net.proto.Beacon._Beacon.Builder, emu.grasscutter.net.proto.Beacon._BeaconOrBuilder>(
+                  (emu.grasscutter.net.proto.Beacon._Beacon) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -769,7 +769,7 @@ public final class BPAEPJHBOFMOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._DecorateOuterClass._Decorate, emu.grasscutter.net.proto._DecorateOuterClass._Decorate.Builder, emu.grasscutter.net.proto._DecorateOuterClass._DecorateOrBuilder> decorateBuilder_;
+          emu.grasscutter.net.proto.Decorate._Decorate, emu.grasscutter.net.proto.Decorate._Decorate.Builder, emu.grasscutter.net.proto.Decorate._DecorateOrBuilder> decorateBuilder_;
       /**
        * <code>._Decorate decorate = 2;</code>
        * @return Whether the decorate field is set.
@@ -783,23 +783,23 @@ public final class BPAEPJHBOFMOuterClass {
        * @return The decorate.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto._DecorateOuterClass._Decorate getDecorate() {
+      public emu.grasscutter.net.proto.Decorate._Decorate getDecorate() {
         if (decorateBuilder_ == null) {
           if (detailCase_ == 2) {
-            return (emu.grasscutter.net.proto._DecorateOuterClass._Decorate) detail_;
+            return (emu.grasscutter.net.proto.Decorate._Decorate) detail_;
           }
-          return emu.grasscutter.net.proto._DecorateOuterClass._Decorate.getDefaultInstance();
+          return emu.grasscutter.net.proto.Decorate._Decorate.getDefaultInstance();
         } else {
           if (detailCase_ == 2) {
             return decorateBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto._DecorateOuterClass._Decorate.getDefaultInstance();
+          return emu.grasscutter.net.proto.Decorate._Decorate.getDefaultInstance();
         }
       }
       /**
        * <code>._Decorate decorate = 2;</code>
        */
-      public Builder setDecorate(emu.grasscutter.net.proto._DecorateOuterClass._Decorate value) {
+      public Builder setDecorate(emu.grasscutter.net.proto.Decorate._Decorate value) {
         if (decorateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -816,7 +816,7 @@ public final class BPAEPJHBOFMOuterClass {
        * <code>._Decorate decorate = 2;</code>
        */
       public Builder setDecorate(
-          emu.grasscutter.net.proto._DecorateOuterClass._Decorate.Builder builderForValue) {
+          emu.grasscutter.net.proto.Decorate._Decorate.Builder builderForValue) {
         if (decorateBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -829,11 +829,11 @@ public final class BPAEPJHBOFMOuterClass {
       /**
        * <code>._Decorate decorate = 2;</code>
        */
-      public Builder mergeDecorate(emu.grasscutter.net.proto._DecorateOuterClass._Decorate value) {
+      public Builder mergeDecorate(emu.grasscutter.net.proto.Decorate._Decorate value) {
         if (decorateBuilder_ == null) {
           if (detailCase_ == 2 &&
-              detail_ != emu.grasscutter.net.proto._DecorateOuterClass._Decorate.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto._DecorateOuterClass._Decorate.newBuilder((emu.grasscutter.net.proto._DecorateOuterClass._Decorate) detail_)
+              detail_ != emu.grasscutter.net.proto.Decorate._Decorate.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto.Decorate._Decorate.newBuilder((emu.grasscutter.net.proto.Decorate._Decorate) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -870,36 +870,36 @@ public final class BPAEPJHBOFMOuterClass {
       /**
        * <code>._Decorate decorate = 2;</code>
        */
-      public emu.grasscutter.net.proto._DecorateOuterClass._Decorate.Builder getDecorateBuilder() {
+      public emu.grasscutter.net.proto.Decorate._Decorate.Builder getDecorateBuilder() {
         return getDecorateFieldBuilder().getBuilder();
       }
       /**
        * <code>._Decorate decorate = 2;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto._DecorateOuterClass._DecorateOrBuilder getDecorateOrBuilder() {
+      public emu.grasscutter.net.proto.Decorate._DecorateOrBuilder getDecorateOrBuilder() {
         if ((detailCase_ == 2) && (decorateBuilder_ != null)) {
           return decorateBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 2) {
-            return (emu.grasscutter.net.proto._DecorateOuterClass._Decorate) detail_;
+            return (emu.grasscutter.net.proto.Decorate._Decorate) detail_;
           }
-          return emu.grasscutter.net.proto._DecorateOuterClass._Decorate.getDefaultInstance();
+          return emu.grasscutter.net.proto.Decorate._Decorate.getDefaultInstance();
         }
       }
       /**
        * <code>._Decorate decorate = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._DecorateOuterClass._Decorate, emu.grasscutter.net.proto._DecorateOuterClass._Decorate.Builder, emu.grasscutter.net.proto._DecorateOuterClass._DecorateOrBuilder> 
+          emu.grasscutter.net.proto.Decorate._Decorate, emu.grasscutter.net.proto.Decorate._Decorate.Builder, emu.grasscutter.net.proto.Decorate._DecorateOrBuilder> 
           getDecorateFieldBuilder() {
         if (decorateBuilder_ == null) {
           if (!(detailCase_ == 2)) {
-            detail_ = emu.grasscutter.net.proto._DecorateOuterClass._Decorate.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto.Decorate._Decorate.getDefaultInstance();
           }
           decorateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto._DecorateOuterClass._Decorate, emu.grasscutter.net.proto._DecorateOuterClass._Decorate.Builder, emu.grasscutter.net.proto._DecorateOuterClass._DecorateOrBuilder>(
-                  (emu.grasscutter.net.proto._DecorateOuterClass._Decorate) detail_,
+              emu.grasscutter.net.proto.Decorate._Decorate, emu.grasscutter.net.proto.Decorate._Decorate.Builder, emu.grasscutter.net.proto.Decorate._DecorateOrBuilder>(
+                  (emu.grasscutter.net.proto.Decorate._Decorate) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -978,14 +978,14 @@ public final class BPAEPJHBOFMOuterClass {
       "\n\021BPAEPJHBOFM.proto\032\r_Beacon.proto\032\017_Dec" +
       "orate.proto\"S\n\013BPAEPJHBOFM\022\032\n\006beacon\030\001 \001" +
       "(\0132\010._BeaconH\000\022\036\n\010decorate\030\002 \001(\0132\n._Deco" +
-      "rateH\000B\010\n\006detailB2\n\031emu.grasscutter.net." +
-      "protoB\025BPAEPJHBOFMOuterClassb\006proto3"
+      "rateH\000B\010\n\006detailB\033\n\031emu.grasscutter.net." +
+      "protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto._BeaconOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto._DecorateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.Beacon.getDescriptor(),
+          emu.grasscutter.net.proto.Decorate.getDescriptor(),
         });
     internal_static_BPAEPJHBOFM_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -993,8 +993,8 @@ public final class BPAEPJHBOFMOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BPAEPJHBOFM_descriptor,
         new java.lang.String[] { "Beacon", "Decorate", "Detail", });
-    emu.grasscutter.net.proto._BeaconOuterClass.getDescriptor();
-    emu.grasscutter.net.proto._DecorateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.Beacon.getDescriptor();
+    emu.grasscutter.net.proto.Decorate.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

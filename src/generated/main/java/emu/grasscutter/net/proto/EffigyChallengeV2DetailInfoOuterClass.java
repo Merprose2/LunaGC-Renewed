@@ -824,9 +824,8 @@ public final class EffigyChallengeV2DetailInfoOuterClass {
       "\n!EffigyChallengeV2DetailInfo.proto\032 Eff" +
       "igyChallengeV2LevelData.proto\"S\n\033EffigyC" +
       "hallengeV2DetailInfo\0224\n\017level_data_list\030" +
-      "\007 \003(\0132\033.EffigyChallengeV2LevelDataBB\n\031em" +
-      "u.grasscutter.net.protoB%EffigyChallenge" +
-      "V2DetailInfoOuterClassb\006proto3"
+      "\007 \003(\0132\033.EffigyChallengeV2LevelDataB\033\n\031em" +
+      "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

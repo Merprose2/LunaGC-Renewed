@@ -31,6 +31,10 @@ public final class PlayerPropChangeNotifyOuterClass {
     int getPropDelta();
   }
   /**
+   * <pre>
+   * CmdID: 24450
+   * </pre>
+   *
    * Protobuf type {@code PlayerPropChangeNotify}
    */
   public static final class PlayerPropChangeNotify extends
@@ -306,6 +310,10 @@ public final class PlayerPropChangeNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 24450
+     * </pre>
+     *
      * Protobuf type {@code PlayerPropChangeNotify}
      */
     public static final class Builder extends
@@ -588,9 +596,8 @@ public final class PlayerPropChangeNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034PlayerPropChangeNotify.proto\"?\n\026Player" +
       "PropChangeNotify\022\021\n\tprop_type\030\004 \001(\r\022\022\n\np" +
-      "rop_delta\030\010 \001(\rB=\n\031emu.grasscutter.net.p" +
-      "rotoB PlayerPropChangeNotifyOuterClassb\006" +
-      "proto3"
+      "rop_delta\030\010 \001(\rB\033\n\031emu.grasscutter.net.p" +
+      "rotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

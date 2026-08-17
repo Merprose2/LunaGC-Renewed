@@ -61,6 +61,10 @@ public final class CreateVehicleReqOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRotOrBuilder();
   }
   /**
+   * <pre>
+   * CmdID: 28262
+   * </pre>
+   *
    * Protobuf type {@code CreateVehicleReq}
    */
   public static final class CreateVehicleReq extends
@@ -446,6 +450,10 @@ public final class CreateVehicleReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 28262
+     * </pre>
+     *
      * Protobuf type {@code CreateVehicleReq}
      */
     public static final class Builder extends
@@ -995,9 +1003,8 @@ public final class CreateVehicleReqOuterClass {
       "\n\026CreateVehicleReq.proto\032\014Vector.proto\"j" +
       "\n\020CreateVehicleReq\022\026\n\016scene_point_id\030\001 \001" +
       "(\r\022\022\n\nvehicle_id\030\005 \001(\r\022\024\n\003pos\030\007 \001(\0132\007.Ve" +
-      "ctor\022\024\n\003rot\030\010 \001(\0132\007.VectorB7\n\031emu.grassc" +
-      "utter.net.protoB\032CreateVehicleReqOuterCl" +
-      "assb\006proto3"
+      "ctor\022\024\n\003rot\030\010 \001(\0132\007.VectorB\033\n\031emu.grassc" +
+      "utter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

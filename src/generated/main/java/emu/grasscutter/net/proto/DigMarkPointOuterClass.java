@@ -924,9 +924,8 @@ public final class DigMarkPointOuterClass {
     java.lang.String[] descriptorData = {
       "\n\022DigMarkPoint.proto\032\014Vector.proto\"M\n\014Di" +
       "gMarkPoint\022\024\n\003pos\030\013 \001(\0132\007.Vector\022\024\n\003rot\030" +
-      "\014 \001(\0132\007.Vector\022\021\n\tbundle_id\030\r \001(\rB3\n\031emu" +
-      ".grasscutter.net.protoB\026DigMarkPointOute" +
-      "rClassb\006proto3"
+      "\014 \001(\0132\007.Vector\022\021\n\tbundle_id\030\r \001(\rB\033\n\031emu" +
+      ".grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -660,8 +660,8 @@ public final class DIIIBCMEKMPOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DIIIBCMEKMP.proto\"F\n\013DIIIBCMEKMP\022\023\n\013KD" +
       "KJKANOHIK\030\002 \001(\r\022\023\n\013NGDDIOBGGCN\030\003 \001(\002\022\r\n\005" +
-      "score\030\007 \001(\rB2\n\031emu.grasscutter.net.proto" +
-      "B\025DIIIBCMEKMPOuterClassb\006proto3"
+      "score\030\007 \001(\rB\033\n\031emu.grasscutter.net.proto" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

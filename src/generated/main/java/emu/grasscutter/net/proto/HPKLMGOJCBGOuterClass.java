@@ -1391,8 +1391,8 @@ public final class HPKLMGOJCBGOuterClass {
       "Uint32Pair.proto\"k\n\013HPKLMGOJCBG\022\023\n\013JIKIL" +
       "CKLNBG\030\001 \003(\r\022%\n\017level_info_list\030\005 \003(\0132\014." +
       "CHOGKFOPCHI\022 \n\013DJAMIIDPPPJ\030\014 \003(\0132\013.Uint3" +
-      "2PairB2\n\031emu.grasscutter.net.protoB\025HPKL" +
-      "MGOJCBGOuterClassb\006proto3"
+      "2PairB\033\n\031emu.grasscutter.net.protob\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

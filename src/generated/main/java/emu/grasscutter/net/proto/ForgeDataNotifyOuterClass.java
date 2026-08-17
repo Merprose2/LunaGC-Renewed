@@ -76,6 +76,10 @@ public final class ForgeDataNotifyOuterClass {
     int getMaxQueueNum();
   }
   /**
+   * <pre>
+   * CmdID: 3708
+   * </pre>
+   *
    * Protobuf type {@code ForgeDataNotify}
    */
   public static final class ForgeDataNotify extends
@@ -534,6 +538,10 @@ public final class ForgeDataNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 3708
+     * </pre>
+     *
      * Protobuf type {@code ForgeDataNotify}
      */
     public static final class Builder extends
@@ -1041,8 +1049,8 @@ public final class ForgeDataNotifyOuterClass {
       "eDataNotify.ForgeQueueMapEntry\022\025\n\rmax_qu" +
       "eue_num\030\013 \001(\r\032E\n\022ForgeQueueMapEntry\022\013\n\003k" +
       "ey\030\001 \001(\r\022\036\n\005value\030\002 \001(\0132\017.ForgeQueueData" +
-      ":\0028\001B6\n\031emu.grasscutter.net.protoB\031Forge" +
-      "DataNotifyOuterClassb\006proto3"
+      ":\0028\001B\033\n\031emu.grasscutter.net.protob\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
